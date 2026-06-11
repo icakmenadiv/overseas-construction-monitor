@@ -4,6 +4,7 @@ const CONFIG = {
   SHEET_VIEW_URL:
     "https://docs.google.com/spreadsheets/d/11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E/edit?gid=748239675#gid=748239675",
   DEFAULT_PERIOD_DAYS: 30,
+  DISPLAY_LIMIT: 200,
 };
 
 const REQUIRED_COLUMNS = [
@@ -13,9 +14,16 @@ const REQUIRED_COLUMNS = [
   "국가",
   "섹터",
   "주제",
+  "정보 분류",
+  "프로젝트 고유값",
+  "프로젝트명",
+  "기사 고유값",
+  "관련 단계",
   "제목(한글)",
   "제목(원문)",
   "내용",
+  "중요도",
+  "담당자 활용시 체크",
   "출처언어",
   "출처링크",
 ];
@@ -40,6 +48,7 @@ const els = {
   resetButton: document.getElementById("resetButton"),
   refreshButton: document.getElementById("refreshButton"),
   exportButton: document.getElementById("exportButton"),
+  backToTopButton: document.getElementById("backToTopButton"),
   activeFilterText: document.getElementById("activeFilterText"),
   totalCount: document.getElementById("totalCount"),
   filteredCount: document.getElementById("filteredCount"),
@@ -52,6 +61,7 @@ const els = {
   emptyState: document.getElementById("emptyState"),
   tableWrap: document.getElementById("tableWrap"),
   resultBody: document.getElementById("resultBody"),
+  limitNotice: document.getElementById("limitNotice"),
 };
 
 document.addEventListener("DOMContentLoaded", init);
@@ -120,6 +130,12 @@ function bindEvents() {
 
   if (els.exportButton) {
     els.exportButton.addEventListener("click", exportToCSV);
+  }
+
+  if (els.backToTopButton) {
+    els.backToTopButton.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
   }
 }
 
@@ -337,6 +353,10 @@ function applyFilters() {
         "지역",
         "섹터",
         "주제",
+        "정보 분류",
+        "프로젝트명",
+        "프로젝트 고유값",
+        "기사 고유값",
       ].some((key) => row[key].toLowerCase().includes(keyword));
 
     return dateOk && regionOk && countryOk && sectorOk && keywordOk;
@@ -377,7 +397,12 @@ function updateSummary() {
   if (els.countryCount) els.countryCount.textContent = numberFormat(totalCountries);
   if (els.sectorCount) els.sectorCount.textContent = numberFormat(totalSectors);
   if (els.latestDate) els.latestDate.textContent = latest ? formatDate(latest) : "-";
-  if (els.resultCountLabel) els.resultCountLabel.textContent = `${numberFormat(state.filteredRows.length)}건`;
+  if (els.resultCountLabel) {
+    const shownCount = Math.min(state.filteredRows.length, CONFIG.DISPLAY_LIMIT);
+    els.resultCountLabel.textContent = state.filteredRows.length > CONFIG.DISPLAY_LIMIT
+      ? `${numberFormat(shownCount)}건 표시 / 전체 ${numberFormat(state.filteredRows.length)}건`
+      : `${numberFormat(state.filteredRows.length)}건`;
+  }
 }
 
 function renderRows() {
@@ -385,10 +410,11 @@ function renderRows() {
   if (els.errorState) els.errorState.hidden = true;
   if (els.emptyState) els.emptyState.hidden = state.filteredRows.length > 0;
   if (els.tableWrap) els.tableWrap.hidden = state.filteredRows.length === 0;
+  if (els.limitNotice) els.limitNotice.hidden = state.filteredRows.length <= CONFIG.DISPLAY_LIMIT;
   if (els.resultBody) els.resultBody.innerHTML = "";
 
   const fragment = document.createDocumentFragment();
-  state.filteredRows.forEach((row) => {
+  state.filteredRows.slice(0, CONFIG.DISPLAY_LIMIT).forEach((row) => {
     const isExpanded = state.expanded.has(row.id);
     fragment.appendChild(createMainRow(row, isExpanded));
     if (isExpanded) {
@@ -429,9 +455,13 @@ function createDetailRow(row) {
       <div class="detail-panel">
         <div>
           <h3>${escapeHtml(row["제목(원문)"] || row["제목(한글)"] || "원문 제목 없음")}</h3>
+          ${renderProjectBlock(row)}
           <p>${escapeHtml(row["내용"] || "내용 요약이 없습니다.")}</p>
         </div>
         <div class="detail-meta">
+          ${row["정보 분류"] ? `<span><strong>정보 분류</strong> ${escapeHtml(row["정보 분류"])}</span>` : ""}
+          ${row["관련 단계"] ? `<span><strong>관련 단계</strong> ${escapeHtml(row["관련 단계"])}</span>` : ""}
+          ${row["기사 고유값"] ? `<span><strong>기사 고유값</strong> ${escapeHtml(row["기사 고유값"])}</span>` : ""}
           <span><strong>기사수집일</strong> ${escapeHtml(formatDate(row._collectedDate) || row["기사수집일"] || "-")}</span>
           <span><strong>출처언어</strong> ${escapeHtml(row["출처언어"] || "-")}</span>
           ${row["출처링크"] ? `<a href="${escapeAttribute(row["출처링크"])}" target="_blank" rel="noreferrer">원문 링크 열기</a>` : "<span>원문 링크 없음</span>"}
@@ -440,6 +470,36 @@ function createDetailRow(row) {
     </td>
   `;
   return tr;
+}
+
+function renderProjectBlock(row) {
+  if (!isProjectArticle(row)) return "";
+
+  const projectName = row["프로젝트명"] || "프로젝트명 미입력";
+  const projectId = row["프로젝트 고유값"] || "";
+  const detailUrl = buildProjectDetailUrl(row);
+
+  return `
+    <div class="project-callout">
+      <div>
+        <strong>프로젝트명</strong>
+        <span>${escapeHtml(projectName)}</span>
+        ${projectId ? `<small>${escapeHtml(projectId)}</small>` : ""}
+      </div>
+      <a class="project-detail-link" href="${escapeAttribute(detailUrl)}">프로젝트 상세페이지</a>
+    </div>
+  `;
+}
+
+function isProjectArticle(row) {
+  return row["정보 분류"] === "프로젝트 정보" || Boolean(row["프로젝트 고유값"] || row["프로젝트명"]);
+}
+
+function buildProjectDetailUrl(row) {
+  const params = new URLSearchParams();
+  if (row["프로젝트 고유값"]) params.set("id", row["프로젝트 고유값"]);
+  if (row["프로젝트명"]) params.set("name", row["프로젝트명"]);
+  return `./project.html?${params.toString()}`;
 }
 
 function renderTitleLink(row) {
@@ -478,6 +538,7 @@ function showError() {
   if (els.errorState) els.errorState.hidden = false;
   if (els.emptyState) els.emptyState.hidden = true;
   if (els.tableWrap) els.tableWrap.hidden = true;
+  if (els.limitNotice) els.limitNotice.hidden = true;
   if (els.syncStatus) els.syncStatus.textContent = "데이터 연결 실패 - Google Sheets 공개 설정을 확인해주세요";
 }
 
