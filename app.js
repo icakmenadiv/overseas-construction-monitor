@@ -483,13 +483,15 @@ function renderRows() {
 function createMainRow(row, isExpanded) {
   const tr = document.createElement("tr");
   tr.innerHTML = `
-    <td class="date-cell">${escapeHtml(formatDate(row._publishedDate) || row["원문게재일"])}</td>
-    <td><span class="pill">${escapeHtml(row["지역"] || "-")}</span></td>
-    <td>${escapeHtml(row["국가"] || "-")}</td>
+    <td class="market-title-cell">${renderTitleLink(row)}</td>
+    <td><span class="keyword-pill">${escapeHtml(row["주제"] || "-")}</span></td>
+    <td>
+      <span class="country-name">${escapeHtml(row["국가"] || "-")}</span>
+      ${row["지역"] ? `<span class="market-region">${escapeHtml(row["지역"])}</span>` : ""}
+    </td>
     <td>${escapeHtml(row["섹터"] || "-")}</td>
-    <td>${escapeHtml(row["주제"] || "-")}</td>
     <td><span class="pill info-pill">${escapeHtml(row["정보 분류"] || "-")}</span></td>
-    <td>${renderTitleLink(row)}</td>
+    <td class="date-cell">${escapeHtml(formatDate(row._publishedDate) || row["원문게재일"])}</td>
     <td><button class="detail-button" type="button" aria-expanded="${isExpanded}" aria-label="상세 보기">${
       isExpanded ? "−" : "+"
     }</button></td>
@@ -507,7 +509,7 @@ function createDetailRow(row) {
   const tr = document.createElement("tr");
   tr.className = "detail-row";
   tr.innerHTML = `
-    <td colspan="8">
+    <td colspan="7">
       <div class="detail-panel">
         <div>
           <h3>${escapeHtml(row["제목(원문)"] || row["제목(한글)"] || "원문 제목 없음")}</h3>
@@ -515,6 +517,7 @@ function createDetailRow(row) {
           <p>${escapeHtml(row["내용"] || "내용 요약이 없습니다.")}</p>
         </div>
         <div class="detail-meta">
+          ${row["주제"] ? `<span><strong>핵심 키워드</strong> ${escapeHtml(row["주제"])}</span>` : ""}
           ${row["정보 분류"] ? `<span><strong>정보 분류</strong> ${escapeHtml(row["정보 분류"])}</span>` : ""}
           ${row["관련 단계"] ? `<span><strong>관련 단계</strong> ${escapeHtml(row["관련 단계"])}</span>` : ""}
           <span><strong>기사수집일</strong> ${escapeHtml(formatDate(row._collectedDate) || row["기사수집일"] || "-")}</span>
