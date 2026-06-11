@@ -1,0 +1,182 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  line-height: 1.55;
+}
+
+.site-header {
+  padding-top: 42px;
+  padding-bottom: 50px;
+}
+
+.brand {
+  width: 138px;
+  height: 60px;
+}
+
+.brand-logo {
+  max-width: 110px;
+  max-height: 36px;
+}
+
+.eyebrow {
+  font-size: 0.86rem;
+  padding: 8px 14px;
+}
+
+h1 {
+  font-size: clamp(2.35rem, 4.4vw, 3.65rem);
+}
+
+.subtitle {
+  font-size: clamp(1.12rem, 1.7vw, 1.32rem);
+}
+
+.sync-status {
+  font-size: 1rem;
+}
+
+.action-button {
+  width: 48px;
+  min-height: 48px;
+  font-size: 1.34rem;
+}
+
+.control-panel {
+  padding: 30px;
+}
+
+label,
+.summary-item span {
+  font-size: 0.96rem;
+}
+
+.search-field label {
+  font-size: 1.05rem;
+}
+
+input,
+select {
+  min-height: 54px;
+  padding-inline: 16px;
+  font-size: 1rem;
+}
+
+.search-field input {
+  min-height: 66px;
+  font-size: 1.16rem;
+}
+
+.panel-actions button {
+  min-height: 50px;
+  padding-inline: 22px;
+  font-size: 1rem;
+}
+
+#activeFilterText,
+.state-box,
+.site-footer {
+  font-size: 1rem;
+}
+
+.summary-item {
+  min-height: 132px;
+  padding: 24px;
+}
+
+.summary-item strong {
+  font-size: clamp(1.95rem, 2.8vw, 2.8rem);
+}
+
+.section-head {
+  padding: 28px;
+}
+
+.section-head h2 {
+  font-size: 1.62rem;
+}
+
+.section-head p {
+  font-size: 1.05rem;
+}
+
+.result-count {
+  min-height: 42px;
+  padding-inline: 18px;
+  font-size: 1.05rem;
+}
+
+th,
+td {
+  padding: 18px 18px;
+}
+
+th {
+  font-size: 0.94rem;
+}
+
+td {
+  font-size: 1.04rem;
+}
+
+.pill {
+  max-width: 170px;
+  min-height: 34px;
+  padding-inline: 12px;
+  font-size: 0.94rem;
+}
+
+.title-link {
+  font-size: 1.06rem;
+  line-height: 1.55;
+}
+
+.detail-button {
+  min-width: 42px;
+  min-height: 42px;
+  font-size: 1.08rem;
+}
+
+.detail-panel {
+  grid-template-columns: 1fr 320px;
+  padding: 26px 28px 28px;
+}
+
+.detail-panel h3 {
+  font-size: 1.22rem;
+}
+
+.detail-panel p,
+.detail-meta {
+  font-size: 1.02rem;
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 17px;
+  }
+
+  .site-header {
+    padding-top: 30px;
+    padding-bottom: 38px;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 10vw, 2.85rem);
+  }
+
+  .control-panel {
+    padding: 20px;
+  }
+
+  .detail-panel {
+    grid-template-columns: 1fr;
+  }
+
+  th,
+  td {
+    padding: 16px 14px;
+  }
+}
