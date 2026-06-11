@@ -1,30 +1,20 @@
 const CONFIG = {
   SHEET_ID: "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
-  SHEET_GID: "748239675",
+  PROJECT_SHEET_GID: "20260612",
 };
 
-const COLUMNS = [
-  "원문게재일",
-  "기사수집일",
+const PROJECT_COLUMNS = [
+  "프로젝트 고유값",
+  "프로젝트명",
   "지역",
   "국가",
   "섹터",
-  "주제",
-  "정보 분류",
-  "프로젝트 고유값",
-  "프로젝트명",
-  "기사 고유값",
-  "관련 단계",
-  "제목(한글)",
-  "제목(원문)",
-  "내용",
-  "중요도",
-  "담당자 활용시 체크",
-  "출처언어",
-  "출처링크",
   "사업비(달러 기준 추정액)",
-  "사업비",
-  "프로젝트 규모",
+  "사업비 환산 환율 / 기준",
+  "현재 단계",
+  "최근 업데이트일",
+  "대표 기사 고유값",
+  "비고",
 ];
 
 const state = {
@@ -61,17 +51,7 @@ document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
   bindEvents();
-
-  try {
-    const rows = normalizeRows(await fetchSheetData());
-    state.projects = buildProjects(rows);
-    populateFilters();
-    applyFilters();
-    els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
-  } catch (error) {
-    console.error("Project monitoring fetch error:", error);
-    showError();
-  }
+  await loadProjects();
 }
 
 function bindEvents() {
@@ -108,13 +88,30 @@ function bindEvents() {
   }
 
   if (els.refreshButton) {
-    els.refreshButton.addEventListener("click", refreshData);
+    els.refreshButton.addEventListener("click", loadProjects);
   }
 
   if (els.backToTopButton) {
     els.backToTopButton.addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
+  }
+}
+
+async function loadProjects() {
+  try {
+    if (els.refreshButton) els.refreshButton.disabled = true;
+    els.syncStatus.textContent = "데이터 새로 고침 중...";
+    const rows = normalizeRows(await fetchSheetData(CONFIG.PROJECT_SHEET_GID), PROJECT_COLUMNS);
+    state.projects = rows.map(normalizeProject).filter((project) => project.name);
+    populateFilters();
+    applyFilters();
+    els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
+  } catch (error) {
+    console.error("Project monitoring fetch error:", error);
+    showError();
+  } finally {
+    if (els.refreshButton) els.refreshButton.disabled = false;
   }
 }
 
@@ -126,25 +123,8 @@ function debounce(fn, delay) {
   };
 }
 
-async function refreshData() {
-  try {
-    els.refreshButton.disabled = true;
-    els.syncStatus.textContent = "데이터 새로 고침 중...";
-    const rows = normalizeRows(await fetchSheetData());
-    state.projects = buildProjects(rows);
-    populateFilters();
-    applyFilters();
-    els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
-  } catch (error) {
-    console.error("Refresh error:", error);
-    els.syncStatus.textContent = "새로 고침 실패 - 다시 시도해주세요";
-  } finally {
-    els.refreshButton.disabled = false;
-  }
-}
-
-async function fetchSheetData() {
-  const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${CONFIG.SHEET_GID}&tqx=out:json`;
+async function fetchSheetData(gid) {
+  const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${gid}&tqx=out:json`;
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
@@ -165,65 +145,40 @@ async function fetchSheetData() {
   });
 }
 
-function normalizeRows(rows) {
+function normalizeRows(rows, columns) {
   return rows
     .map((row, index) => {
       const normalized = { id: String(index) };
-      COLUMNS.forEach((column) => {
+      columns.forEach((column) => {
         normalized[column] = cleanValue(row[column]);
       });
-      normalized._publishedDate = parseSheetDate(normalized["원문게재일"]);
-      normalized._collectedDate = parseSheetDate(normalized["기사수집일"]);
       return normalized;
     })
-    .filter((row) => row["원문게재일"] || row["제목(한글)"] || row["제목(원문)"]);
+    .filter((row) => columns.some((column) => row[column]));
 }
 
-function buildProjects(rows) {
-  const groups = new Map();
-  rows
-    .filter((row) => row["정보 분류"] === "프로젝트 정보" || row["프로젝트명"])
-    .filter((row) => row["프로젝트명"])
-    .forEach((row) => {
-      const key = [row["국가"], row["섹터"], row["프로젝트명"]].join("||");
-      if (!groups.has(key)) groups.set(key, []);
-      groups.get(key).push(row);
-    });
-
-  return [...groups.values()].map((articles) => {
-    const sortedArticles = [...articles].sort(
-      (a, b) => (b._publishedDate?.getTime() || 0) - (a._publishedDate?.getTime() || 0),
-    );
-    const latest = sortedArticles[0];
-    const costText = findProjectCost(sortedArticles);
-    return {
-      name: latest["프로젝트명"],
-      region: latest["지역"],
-      country: latest["국가"],
-      sector: latest["섹터"],
-      stage: latest["관련 단계"] || "-",
-      costText: costText || "사업비 미확인",
-      costValue: parseCostValue(costText),
-      latestDate: latest._publishedDate,
-      latestDateText: formatDate(latest._publishedDate) || latest["원문게재일"] || "-",
-      articleCount: sortedArticles.length,
-      articles: sortedArticles,
-    };
-  });
-}
-
-function findProjectCost(articles) {
-  const costColumns = ["사업비(달러 기준 추정액)", "사업비", "프로젝트 규모"];
-  for (const article of articles) {
-    for (const column of costColumns) {
-      if (article[column]) return article[column];
-    }
-  }
-  return "";
+function normalizeProject(row) {
+  const costText = row["사업비(달러 기준 추정액)"] || "사업비 미확인";
+  const latestDate = parseSheetDate(row["최근 업데이트일"]);
+  return {
+    projectId: row["프로젝트 고유값"],
+    name: row["프로젝트명"],
+    region: row["지역"],
+    country: row["국가"],
+    sector: row["섹터"],
+    costText,
+    costValue: parseCostValue(costText),
+    exchangeBasis: row["사업비 환산 환율 / 기준"],
+    stage: row["현재 단계"] || "-",
+    latestDate,
+    latestDateText: formatDate(latestDate) || row["최근 업데이트일"] || "-",
+    representativeArticleId: row["대표 기사 고유값"],
+    note: row["비고"],
+  };
 }
 
 function parseCostValue(value) {
-  if (!value) return 0;
+  if (!value || value === "사업비 미확인" || value === "미공개") return 0;
   const text = String(value).toLowerCase().replace(/,/g, "");
   const firstNumber = Number((text.match(/[0-9]+(?:\.[0-9]+)?/) || [0])[0]);
   if (!firstNumber) return 0;
@@ -342,7 +297,7 @@ function renderProjects() {
       <td>${escapeHtml(formatCost(project.costText))}</td>
       <td><span class="pill stage-pill">${escapeHtml(project.stage || "-")}</span></td>
       <td class="date-cell">${escapeHtml(project.latestDateText)}</td>
-      <td>${numberFormat(project.articleCount)}건</td>
+      <td>${escapeHtml(project.note || "-")}</td>
     `;
     fragment.appendChild(tr);
   });
@@ -361,7 +316,7 @@ function formatCost(value) {
   if (!value || value === "사업비 미확인") return "사업비 미확인";
   return value.includes("$") || value.includes("달러") || value.toLowerCase().includes("usd")
     ? value
-    : `${value} (달러 기준)`;
+    : `${value} (USD)`;
 }
 
 function updateActiveFilterText() {
@@ -388,23 +343,19 @@ function cleanValue(value) {
 
 function parseSheetDate(value) {
   if (!value) return null;
-  if (value instanceof Date) return value;
-
   const text = String(value).trim();
+  const serial = Number(text);
+  if (Number.isFinite(serial) && serial > 20000) {
+    return new Date(Math.round((serial - 25569) * 86400 * 1000));
+  }
   const dateCtorMatch = text.match(/^Date\((\d+),(\d+),(\d+)/);
   if (dateCtorMatch) {
-    return new Date(
-      Number(dateCtorMatch[1]),
-      Number(dateCtorMatch[2]),
-      Number(dateCtorMatch[3]),
-    );
+    return new Date(Number(dateCtorMatch[1]), Number(dateCtorMatch[2]), Number(dateCtorMatch[3]));
   }
-
   const isoMatch = text.match(/(\d{4})[.\/-](\d{1,2})[.\/-](\d{1,2})/);
   if (isoMatch) {
     return new Date(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3]));
   }
-
   const parsed = new Date(text);
   return Number.isNaN(parsed.getTime()) ? null : parsed;
 }
