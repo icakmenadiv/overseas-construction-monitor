@@ -94,13 +94,9 @@ async function init() {
       return;
     }
 
-    const mappings = mappingRows
-      .filter((row) => row["프로젝트 고유값"] === project["프로젝트 고유값"])
-      .sort((a, b) => (parseSheetDate(b["기사일자"])?.getTime() || 0) - (parseSheetDate(a["기사일자"])?.getTime() || 0));
+    const mappings = mappingRows.filter((row) => row["프로젝트 고유값"] === project["프로젝트 고유값"]);
     const articleMap = new Map(resultRows.map((row) => [row["기사 고유값"], row]));
-    const articles = mappings
-      .map((mapping) => ({ mapping, article: articleMap.get(mapping["기사 고유값"]) }))
-      .filter((item) => item.article);
+    const articles = buildArticleItems(project, mappings, articleMap);
 
     renderProject(project, articles);
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
@@ -154,6 +150,43 @@ function findProject(projectRows, criteria) {
     const sectorOk = !criteria.sector || row["섹터"] === criteria.sector;
     return (idOk || nameOk) && countryOk && sectorOk;
   });
+}
+
+function buildArticleItems(project, mappings, articleMap) {
+  const seenArticleIds = new Set();
+  const items = mappings
+    .map((mapping) => ({ mapping, article: articleMap.get(mapping["기사 고유값"]) }))
+    .filter((item) => {
+      if (!item.article) return false;
+      const articleId = item.mapping["기사 고유값"];
+      if (seenArticleIds.has(articleId)) return false;
+      seenArticleIds.add(articleId);
+      return true;
+    });
+
+  const representativeArticleId = project["대표 기사 고유값"];
+  if (representativeArticleId && !seenArticleIds.has(representativeArticleId)) {
+    const representativeArticle = articleMap.get(representativeArticleId);
+    if (representativeArticle) {
+      items.push({
+        mapping: {
+          "기사 고유값": representativeArticleId,
+          "기사일자": representativeArticle["원문게재일"] || project["최근 업데이트일"],
+          "기사 시점 단계": representativeArticle["관련 단계"] || project["현재 단계"],
+          "해당 기사 기준 사업비": project["사업비(달러 기준 추정액)"],
+          "대표기사 여부": "Y",
+          "비고": "프로젝트 탭 대표기사 기준 자동 표시",
+        },
+        article: representativeArticle,
+      });
+    }
+  }
+
+  return items.sort(
+    (a, b) =>
+      (parseSheetDate(b.mapping["기사일자"])?.getTime() || 0) -
+      (parseSheetDate(a.mapping["기사일자"])?.getTime() || 0),
+  );
 }
 
 function renderProject(project, articleItems) {
