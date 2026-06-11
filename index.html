@@ -9,6 +9,7 @@
       content="국가별 해외 건설·인프라 시장뉴스 통합 조회 대시보드"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./large-text.css" />
   </head>
   <body>
     <header class="site-header">
@@ -31,7 +32,7 @@
       <div class="header-actions">
         <p class="sync-status" id="syncStatus">데이터 연결 대기 중</p>
         <button type="button" id="refreshButton" class="action-button" title="새로 고침">🔄</button>
-        <a class="sheet-link" id="sheetLink" href="#" target="_blank" rel="noreferrer">시트 보기</a>
+        <a hidden id="sheetLink" href="#" target="_blank" rel="noreferrer" aria-hidden="true" tabindex="-1"></a>
       </div>
     </header>
 
@@ -156,7 +157,7 @@
 
     <footer class="site-footer">
       <span>외부 공개용 Google Sheets 데이터를 기반으로 표시됩니다.</span>
-      <a id="footerSheetLink" href="#" target="_blank" rel="noreferrer">원본 시트 확인</a>
+      <a hidden id="footerSheetLink" href="#" target="_blank" rel="noreferrer" aria-hidden="true" tabindex="-1"></a>
     </footer>
 
     <script src="./app.js"></script>
