@@ -41,14 +41,14 @@
       </div>
     </header>
 
-    <main class="dashboard">
-      <section class="control-panel" aria-label="뉴스 검색 및 필터">
+    <main class="dashboard market-dashboard">
+      <section class="control-panel market-filter-panel" aria-label="뉴스 검색 및 필터">
         <div class="search-field">
           <label for="keywordInput">키워드 검색</label>
           <input
             id="keywordInput"
             type="search"
-            placeholder="제목, 내용, 국가, 지역, 섹터, 주제, 정보 분류 검색"
+            placeholder="제목, 내용, 국가, 지역, 섹터, 핵심 키워드, 정보 분류 검색"
             autocomplete="off"
           />
         </div>
@@ -124,11 +124,11 @@
         </article>
       </section>
 
-      <section class="results-section" aria-label="뉴스 결과">
+      <section class="results-section market-results-section" aria-label="뉴스 결과">
         <div class="section-head">
           <div>
             <h2>시장 모니터링 기사 목록</h2>
-            <p>제목을 누르면 원문이 새 탭에서 열립니다.</p>
+            <p>제목과 핵심 키워드를 중심으로 확인하고, 제목을 누르면 원문이 새 탭에서 열립니다.</p>
           </div>
           <span class="result-count" id="resultCountLabel">0건</span>
         </div>
@@ -140,16 +140,15 @@
         <div class="state-box" id="emptyState" hidden>조건에 맞는 기사가 없습니다.</div>
 
         <div class="table-wrap" id="tableWrap" hidden>
-          <table>
+          <table class="market-table">
             <thead>
               <tr>
-                <th>원문게재일</th>
-                <th>지역</th>
+                <th>제목</th>
+                <th>핵심 키워드</th>
                 <th>국가</th>
                 <th>섹터</th>
-                <th>주제</th>
                 <th>정보 분류</th>
-                <th>제목(한글)</th>
+                <th>원문게재일</th>
                 <th>상세</th>
               </tr>
             </thead>
