@@ -44,6 +44,8 @@
 }
 
 .field-toggle {
+  display: grid;
+  gap: 8px;
   min-width: 220px;
 }
 
@@ -99,6 +101,7 @@
 }
 
 .cost-toggle span {
+  width: 100%;
   min-height: 48px;
   padding: 0 16px;
 }
