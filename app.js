@@ -1,6 +1,6 @@
 const CONFIG = {
-  SHEET_API_URL:
-    "https://docs.google.com/spreadsheets/d/11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E/gviz/tq?tqx=out:json&gid=748239675",
+  SHEET_ID: "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
+  SHEET_GID: "748239675",
   SHEET_VIEW_URL:
     "https://docs.google.com/spreadsheets/d/11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E/edit?gid=748239675#gid=748239675",
   DEFAULT_PERIOD_DAYS: 30,
@@ -64,13 +64,13 @@ async function init() {
   setDefaultDates();
 
   try {
-    const rows = await fetchSheetRowsWithRetry(CONFIG.SHEET_API_URL);
+    const rows = await fetchSheetRowsWithJsonp();
     state.rows = normalizeRows(rows);
     populateFilters();
     applyFilters();
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
   } catch (error) {
-    console.error(error);
+    console.error("Data fetch error:", error);
     showError();
   }
 }
@@ -132,7 +132,7 @@ async function refreshData() {
   try {
     els.refreshButton.disabled = true;
     els.syncStatus.textContent = "데이터 새로 고침 중...";
-    const rows = await fetchSheetRowsWithRetry(CONFIG.SHEET_API_URL);
+    const rows = await fetchSheetRowsWithJsonp();
     state.rows = normalizeRows(rows);
     populateFilters();
     applyFilters();
@@ -185,101 +185,71 @@ function setDefaultDates() {
   const start = new Date(today);
   start.setDate(today.getDate() - CONFIG.DEFAULT_PERIOD_DAYS + 1);
   
-  // Only set defaults if not already loaded from localStorage
   if (!els.startDate.value) els.startDate.value = toDateInputValue(start);
   if (!els.endDate.value) els.endDate.value = toDateInputValue(today);
 }
 
-async function fetchSheetRowsWithRetry(url, maxRetries = 3) {
-  for (let attempt = 1; attempt <= maxRetries; attempt++) {
-    try {
-      return await fetchSheetRows(url);
-    } catch (error) {
-      if (attempt === maxRetries) throw error;
-      const delay = Math.pow(2, attempt) * 1000; // Exponential backoff
-      await new Promise((resolve) => setTimeout(resolve, delay));
-    }
-  }
-}
+// JSONP 방식으로 Google Sheets 데이터 가져오기
+function fetchSheetRowsWithJsonp() {
+  return new Promise((resolve, reject) => {
+    const callbackName = `googleSheetCallback_${Date.now()}`;
+    const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?tqx=out:json&gid=${CONFIG.SHEET_GID}&callback=${callbackName}`;
 
-async function fetchSheetRows(url) {
-  const response = await fetch(url, { cache: "no-store" });
-  if (!response.ok) {
-    throw new Error(`Sheet request failed: ${response.status}`);
-  }
+    // 전역 콜백 함수 설정
+    window[callbackName] = function(response) {
+      try {
+        // 응답 파싱
+        if (response.isError?.()) {
+          reject(new Error(`Google Sheets API Error: ${response.getMessage()}`));
+          return;
+        }
 
-  const text = await response.text();
-  if (looksLikeGviz(text)) {
-    return parseGviz(text);
-  }
-  return parseCsv(text);
-}
+        // 데이터 추출
+        const table = response.getDataTable();
+        const cols = [];
+        const rows = [];
 
-function looksLikeGviz(text) {
-  return text.includes("google.visualization.Query.setResponse") || text.trim().startsWith("{");
-}
+        // 컬럼명 추출
+        for (let i = 0; i < table.getNumberOfColumns(); i++) {
+          cols.push(table.getColumnLabel(i));
+        }
 
-function parseGviz(text) {
-  const rawJsonText = text.includes("setResponse")
-    ? text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1)
-    : text;
-  const jsonText = rawJsonText.replace(/\b(?:new\s+)?Date\(([^)]*)\)/g, '"Date($1)"');
-  const payload = JSON.parse(jsonText);
-  const cols = payload.table.cols.map((col) => col.label || col.id || "");
-  return payload.table.rows.map((row) => {
-    const item = {};
-    cols.forEach((col, index) => {
-      const cell = row.c[index];
-      item[col] = cell ? cell.f ?? cell.v ?? "" : "";
-    });
-    return item;
+        // 행 데이터 추출
+        for (let i = 0; i < table.getNumberOfRows(); i++) {
+          const row = {};
+          for (let j = 0; j < cols.length; j++) {
+            row[cols[j]] = table.getValue(i, j) || "";
+          }
+          rows.push(row);
+        }
+
+        // 콜백 함수 삭제
+        delete window[callbackName];
+
+        resolve(rows);
+      } catch (error) {
+        delete window[callbackName];
+        reject(error);
+      }
+    };
+
+    // 스크립트 태그 생성 및 추가
+    const script = document.createElement("script");
+    script.src = url;
+    script.onerror = () => {
+      delete window[callbackName];
+      reject(new Error("Failed to load Google Sheets data"));
+    };
+    document.head.appendChild(script);
+
+    // 타임아웃 설정 (10초)
+    setTimeout(() => {
+      if (window[callbackName]) {
+        delete window[callbackName];
+        reject(new Error("Google Sheets API timeout"));
+      }
+    }, 10000);
   });
-}
-
-function parseCsv(text) {
-  const records = [];
-  let row = [];
-  let value = "";
-  let inQuotes = false;
-
-  for (let i = 0; i < text.length; i += 1) {
-    const char = text[i];
-    const next = text[i + 1];
-
-    if (char === '"' && inQuotes && next === '"') {
-      value += '"';
-      i += 1;
-    } else if (char === '"') {
-      inQuotes = !inQuotes;
-    } else if (char === "," && !inQuotes) {
-      row.push(value);
-      value = "";
-    } else if ((char === "\n" || char === "\r") && !inQuotes) {
-      if (char === "\r" && next === "\n") i += 1;
-      row.push(value);
-      records.push(row);
-      row = [];
-      value = "";
-    } else {
-      value += char;
-    }
-  }
-
-  if (value || row.length) {
-    row.push(value);
-    records.push(row);
-  }
-
-  const headers = records.shift()?.map((header) => header.trim()) || [];
-  return records
-    .filter((record) => record.some((cell) => String(cell).trim()))
-    .map((record) => {
-      const item = {};
-      headers.forEach((header, index) => {
-        item[header] = record[index] || "";
-      });
-      return item;
-    });
 }
 
 function normalizeRows(rows) {
@@ -522,7 +492,7 @@ function showError() {
   if (els.errorState) els.errorState.hidden = false;
   if (els.emptyState) els.emptyState.hidden = true;
   if (els.tableWrap) els.tableWrap.hidden = true;
-  if (els.syncStatus) els.syncStatus.textContent = "데이터 연결 실패";
+  if (els.syncStatus) els.syncStatus.textContent = "데이터 연결 실패 - Google Sheets 공개 설정 확인";
 }
 
 function exportToCSV() {
