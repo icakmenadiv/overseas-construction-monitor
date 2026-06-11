@@ -54,7 +54,32 @@ const els = {
   resultBody: document.getElementById("resultBody"),
 };
 
-document.addEventListener("DOMContentLoaded", init);
+// Google Visualization API 로드 대기
+function waitForGoogleCharts() {
+  return new Promise((resolve) => {
+    if (typeof google !== "undefined" && google.visualization) {
+      resolve();
+    } else {
+      const checkInterval = setInterval(() => {
+        if (typeof google !== "undefined" && google.visualization) {
+          clearInterval(checkInterval);
+          resolve();
+        }
+      }, 100);
+      
+      // 10초 타임아웃
+      setTimeout(() => {
+        clearInterval(checkInterval);
+        resolve();
+      }, 10000);
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+  await waitForGoogleCharts();
+  init();
+});
 
 async function init() {
   els.sheetLink.href = CONFIG.SHEET_VIEW_URL;
@@ -151,85 +176,55 @@ async function refreshData() {
   }
 }
 
-// Google Visualization API를 JSONP로 가져오기
+// Google Visualization Query API 사용
 function fetchSheetData() {
   return new Promise((resolve, reject) => {
-    const callbackName = `callback_${Date.now()}`;
-    
-    // 콜백 함수 정의
-    window[callbackName] = function(response) {
-      try {
-        // 응답 처리
-        if (response.isError?.()) {
-          reject(new Error(response.getMessage?.() || "Google Sheets API error"));
-          return;
-        }
-
-        const table = response.getDataTable?.();
-        if (!table) {
-          reject(new Error("No data table in response"));
-          return;
-        }
-
-        const rows = [];
-        const numCols = table.getNumberOfColumns();
-        const numRows = table.getNumberOfRows();
-
-        // 헤더 추출
-        const headers = [];
-        for (let i = 0; i < numCols; i++) {
-          headers.push(table.getColumnLabel(i));
-        }
-
-        // 데이터 추출
-        for (let i = 0; i < numRows; i++) {
-          const row = {};
-          for (let j = 0; j < numCols; j++) {
-            const value = table.getValue(i, j);
-            row[headers[j]] = value !== null && value !== undefined ? String(value) : "";
-          }
-          rows.push(row);
-        }
-
-        // 정리
-        delete window[callbackName];
-        const scriptTag = document.querySelector(`script[data-callback="${callbackName}"]`);
-        if (scriptTag) scriptTag.remove();
-
-        resolve(rows);
-      } catch (error) {
-        delete window[callbackName];
-        const scriptTag = document.querySelector(`script[data-callback="${callbackName}"]`);
-        if (scriptTag) scriptTag.remove();
-        reject(error);
+    try {
+      if (typeof google === "undefined" || !google.visualization) {
+        reject(new Error("Google Visualization API not loaded"));
+        return;
       }
-    };
 
-    // 타임아웃 설정
-    const timeoutId = setTimeout(() => {
-      delete window[callbackName];
-      const scriptTag = document.querySelector(`script[data-callback="${callbackName}"]`);
-      if (scriptTag) scriptTag.remove();
-      reject(new Error("Google Sheets API request timeout"));
-    }, 15000);
+      const query = new google.visualization.Query(
+        `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${CONFIG.SHEET_GID}`
+      );
 
-    // 스크립트 태그 생성
-    const script = document.createElement("script");
-    const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?tqx=out:json&gid=${CONFIG.SHEET_GID}&callback=${callbackName}`;
-    
-    script.src = url;
-    script.setAttribute("data-callback", callbackName);
-    script.onerror = () => {
-      clearTimeout(timeoutId);
-      delete window[callbackName];
-      script.remove();
-      reject(new Error("Failed to load Google Sheets API script"));
-    };
-    script.onload = () => {
-      clearTimeout(timeoutId);
-    };
+      query.setQuery("select *");
 
-    document.head.appendChild(script);
+      query.send((response) => {
+        try {
+          if (response.isError()) {
+            reject(new Error(response.getMessage()));
+            return;
+          }
+
+          const dataTable = response.getDataTable();
+          const rows = [];
+
+          // 컬럼명 추출
+          const cols = [];
+          for (let i = 0; i < dataTable.getNumberOfColumns(); i++) {
+            cols.push(dataTable.getColumnLabel(i));
+          }
+
+          // 데이터 추출
+          for (let i = 0; i < dataTable.getNumberOfRows(); i++) {
+            const row = {};
+            for (let j = 0; j < cols.length; j++) {
+              const value = dataTable.getValue(i, j);
+              row[cols[j]] = value !== null && value !== undefined ? String(value) : "";
+            }
+            rows.push(row);
+          }
+
+          resolve(rows);
+        } catch (error) {
+          reject(error);
+        }
+      });
+    } catch (error) {
+      reject(error);
+    }
   });
 }
 
