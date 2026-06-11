@@ -1,6 +1,7 @@
 const CONFIG = {
   SHEET_ID: "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
   PROJECT_SHEET_GID: "20260612",
+  SMALL_COST_THRESHOLD_USD: 1_000_000,
 };
 
 const PROJECT_COLUMNS = [
@@ -31,7 +32,8 @@ const els = {
   sectorFilter: document.getElementById("sectorFilter"),
   stageFilter: document.getElementById("stageFilter"),
   sortSelect: document.getElementById("sortSelect"),
-  knownCostOnly: document.getElementById("knownCostOnly"),
+  includeSmallCost: document.getElementById("includeSmallCost"),
+  includeUnknownCost: document.getElementById("includeUnknownCost"),
   resetButton: document.getElementById("resetButton"),
   refreshButton: document.getElementById("refreshButton"),
   backToTopButton: document.getElementById("backToTopButton"),
@@ -61,7 +63,8 @@ function bindEvents() {
 
   if (els.keywordInput) els.keywordInput.addEventListener("input", debouncedApplyFilters);
   if (els.sortSelect) els.sortSelect.addEventListener("input", debouncedApplyFilters);
-  if (els.knownCostOnly) els.knownCostOnly.addEventListener("change", applyFilters);
+  if (els.includeSmallCost) els.includeSmallCost.addEventListener("change", applyFilters);
+  if (els.includeUnknownCost) els.includeUnknownCost.addEventListener("change", applyFilters);
 
   [els.countryFilter, els.sectorFilter, els.stageFilter].forEach((element) => {
     if (element) element.addEventListener("change", debouncedApplyFilters);
@@ -81,7 +84,8 @@ function bindEvents() {
       clearCheckedValues(els.countryFilter);
       clearCheckedValues(els.sectorFilter);
       clearCheckedValues(els.stageFilter);
-      if (els.knownCostOnly) els.knownCostOnly.checked = false;
+      if (els.includeSmallCost) els.includeSmallCost.checked = false;
+      if (els.includeUnknownCost) els.includeUnknownCost.checked = false;
       if (els.sortSelect) els.sortSelect.value = "cost:desc";
       updateCountryOptions();
       applyFilters();
@@ -200,6 +204,10 @@ function isUnknownCost(value) {
   return !text || text === "사업비 미확인" || text === "미공개";
 }
 
+function isSmallCost(project) {
+  return project.costKnown && project.costValue <= CONFIG.SMALL_COST_THRESHOLD_USD;
+}
+
 function populateFilters() {
   setCheckboxOptions(els.regionFilter, uniqueValues(state.projects, "region"), getCheckedValues(els.regionFilter));
   setCheckboxOptions(els.sectorFilter, uniqueValues(state.projects, "sector"), getCheckedValues(els.sectorFilter));
@@ -274,7 +282,8 @@ function applyFilters() {
   const countries = getCheckedValues(els.countryFilter);
   const sectors = getCheckedValues(els.sectorFilter);
   const stages = getCheckedValues(els.stageFilter);
-  const knownCostOnly = Boolean(els.knownCostOnly?.checked);
+  const includeSmallCost = Boolean(els.includeSmallCost?.checked);
+  const includeUnknownCost = Boolean(els.includeUnknownCost?.checked);
 
   let projects = state.projects.filter((project) => {
     const keywordOk =
@@ -287,8 +296,9 @@ function applyFilters() {
     const countryOk = !countries.length || countries.includes(project.country);
     const sectorOk = !sectors.length || sectors.includes(project.sector);
     const stageOk = !stages.length || stages.includes(project.stage);
-    const costOk = !knownCostOnly || project.costKnown;
-    return keywordOk && regionOk && countryOk && sectorOk && stageOk && costOk;
+    const unknownCostOk = project.costKnown || includeUnknownCost;
+    const smallCostOk = !isSmallCost(project) || includeSmallCost;
+    return keywordOk && regionOk && countryOk && sectorOk && stageOk && unknownCostOk && smallCostOk;
   });
 
   projects = sortProjects(projects, els.sortSelect?.value || "cost:desc");
@@ -338,7 +348,7 @@ function renderProjects() {
       <td>${escapeHtml(project.country || "-")}</td>
       <td>${escapeHtml(project.sector || "-")}</td>
       <td>${escapeHtml(project.owner || "-")}</td>
-      <td>${escapeHtml(formatCost(project.costText))}</td>
+      <td>${escapeHtml(formatCost(project))}</td>
       <td><span class="pill stage-pill">${escapeHtml(project.stage || "-")}</span></td>
       <td class="date-cell">${escapeHtml(project.latestDateText)}</td>
       <td>${escapeHtml(project.note || "-")}</td>
@@ -356,9 +366,12 @@ function buildProjectUrl(project) {
   return `./project.html?${params.toString()}`;
 }
 
-function formatCost(value) {
-  if (isUnknownCost(value)) return "사업비 미확인";
-  return String(value).replace(/^약\s*/, "");
+function formatCost(project) {
+  if (!project.costKnown) return "사업비 미확인";
+  if (project.costValue <= CONFIG.SMALL_COST_THRESHOLD_USD) {
+    return `USD ${numberFormat(Math.round(project.costValue))}`;
+  }
+  return String(project.costText).replace(/^약\s*/, "");
 }
 
 function updateActiveFilterText() {
@@ -368,7 +381,8 @@ function updateActiveFilterText() {
   pushSelectedFilter(filters, "국가", getCheckedValues(els.countryFilter));
   pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
   pushSelectedFilter(filters, "단계", getCheckedValues(els.stageFilter));
-  if (els.knownCostOnly?.checked) filters.push("사업비 확인 건만");
+  filters.push(els.includeSmallCost?.checked ? "1백만불 이하 포함" : "1백만불 이하 제외");
+  filters.push(els.includeUnknownCost?.checked ? "미확인 사업 포함" : "사업비 미확인 제외");
   els.activeFilterText.textContent = filters.length ? filters.join(" · ") : "전체 프로젝트";
 }
 
