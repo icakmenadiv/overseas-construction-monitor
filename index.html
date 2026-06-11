@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>해외 건설시장 모니터링</title>
+    <title>시장 모니터링 | 해외 건설시장 모니터링</title>
     <meta
       name="description"
       content="국가별 해외 건설·인프라 시장뉴스 통합 조회 대시보드"
@@ -25,11 +25,15 @@
         </a>
         <div>
           <p class="eyebrow">Overseas Construction Market News</p>
-          <h1>해외 건설시장 모니터링</h1>
+          <h1>시장 모니터링</h1>
           <p class="subtitle">국가별 해외 건설·인프라 시장뉴스 통합 조회</p>
         </div>
       </div>
       <div class="header-actions">
+        <nav class="page-nav" aria-label="모니터링 페이지 이동">
+          <a class="is-active" href="./index.html">시장 모니터링</a>
+          <a href="./projects.html">프로젝트 모니터링</a>
+        </nav>
         <p class="sync-status" id="syncStatus">데이터 연결 대기 중</p>
         <button type="button" id="refreshButton" class="action-button" title="새로 고침">🔄</button>
         <a hidden id="sheetLink" href="#" target="_blank" rel="noreferrer" aria-hidden="true" tabindex="-1"></a>
@@ -43,12 +47,12 @@
           <input
             id="keywordInput"
             type="search"
-            placeholder="제목, 내용, 국가, 지역, 섹터, 주제 검색"
+            placeholder="제목, 내용, 국가, 지역, 섹터, 주제, 정보 분류 검색"
             autocomplete="off"
           />
         </div>
 
-        <div class="field-grid">
+        <div class="field-grid field-grid-market">
           <div class="field">
             <label for="startDate">시작일</label>
             <input id="startDate" type="date" />
@@ -76,6 +80,12 @@
             </select>
           </div>
           <div class="field">
+            <label for="infoClassFilter">정보 분류</label>
+            <select id="infoClassFilter">
+              <option value="">전체</option>
+            </select>
+          </div>
+          <div class="field">
             <label for="sortSelect">정렬</label>
             <select id="sortSelect">
               <option value="원문게재일:desc">원문게재일 최신순</option>
@@ -84,6 +94,7 @@
               <option value="국가:asc">국가 가나다순</option>
               <option value="지역:asc">지역 가나다순</option>
               <option value="섹터:asc">섹터 가나다순</option>
+              <option value="정보 분류:asc">정보 분류순</option>
             </select>
           </div>
         </div>
@@ -123,7 +134,7 @@
       <section class="results-section" aria-label="뉴스 결과">
         <div class="section-head">
           <div>
-            <h2>뉴스 목록</h2>
+            <h2>시장 모니터링 기사 목록</h2>
             <p>제목을 누르면 원문이 새 탭에서 열립니다.</p>
           </div>
           <span class="result-count" id="resultCountLabel">0건</span>
@@ -144,8 +155,8 @@
                 <th>국가</th>
                 <th>섹터</th>
                 <th>주제</th>
+                <th>정보 분류</th>
                 <th>제목(한글)</th>
-                <th>출처언어</th>
                 <th>상세</th>
               </tr>
             </thead>
