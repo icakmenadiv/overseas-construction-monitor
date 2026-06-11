@@ -22,6 +22,9 @@ const COLUMNS = [
   "담당자 활용시 체크",
   "출처언어",
   "출처링크",
+  "사업비(달러 기준 추정액)",
+  "사업비",
+  "프로젝트 규모",
 ];
 
 const els = {
@@ -50,15 +53,17 @@ async function init() {
     const params = new URLSearchParams(window.location.search);
     const projectId = cleanValue(params.get("id"));
     const projectName = cleanValue(params.get("name"));
+    const country = cleanValue(params.get("country"));
+    const sector = cleanValue(params.get("sector"));
     const rows = normalizeRows(await fetchSheetData());
-    const matchedRows = findProjectRows(rows, projectId, projectName);
+    const matchedRows = findProjectRows(rows, { projectId, projectName, country, sector });
 
     if (matchedRows.length === 0) {
-      showEmpty(projectId, projectName);
+      showEmpty(projectName || country || sector || "프로젝트 정보 없음");
       return;
     }
 
-    renderProject(matchedRows, projectId, projectName);
+    renderProject(matchedRows, projectName);
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
   } catch (error) {
     console.error("Project fetch error:", error);
@@ -102,42 +107,62 @@ function normalizeRows(rows) {
     .filter((row) => row["원문게재일"] || row["제목(한글)"] || row["제목(원문)"]);
 }
 
-function findProjectRows(rows, projectId, projectName) {
-  const nameLower = projectName.toLowerCase();
+function findProjectRows(rows, criteria) {
+  const projectNameLower = criteria.projectName.toLowerCase();
   return rows
+    .filter((row) => row["정보 분류"] === "프로젝트 정보" || row["프로젝트명"])
     .filter((row) => {
-      if (projectId && row["프로젝트 고유값"] === projectId) return true;
-      if (nameLower && row["프로젝트명"].toLowerCase() === nameLower) return true;
-      return false;
+      const idOk = criteria.projectId && row["프로젝트 고유값"] === criteria.projectId;
+      const nameOk = projectNameLower && row["프로젝트명"].toLowerCase() === projectNameLower;
+      const countryOk = !criteria.country || row["국가"] === criteria.country;
+      const sectorOk = !criteria.sector || row["섹터"] === criteria.sector;
+      return (idOk || nameOk) && countryOk && sectorOk;
     })
     .sort((a, b) => (b._publishedDate?.getTime() || 0) - (a._publishedDate?.getTime() || 0));
 }
 
-function renderProject(rows, fallbackId, fallbackName) {
+function renderProject(rows, fallbackName) {
   const latest = rows[0];
   const projectName = latest["프로젝트명"] || fallbackName || "프로젝트명 미입력";
-  const projectId = latest["프로젝트 고유값"] || fallbackId || "-";
   const latestDate = formatDate(latest._publishedDate) || latest["원문게재일"] || "-";
+  const costText = findProjectCost(rows) || "사업비 미확인";
 
   els.loadingState.hidden = true;
   els.errorState.hidden = true;
   els.emptyState.hidden = true;
   els.projectContent.hidden = false;
   els.projectTitle.textContent = projectName;
-  els.projectSubtitle.textContent = `${projectId} · 관련 기사 ${numberFormat(rows.length)}건`;
+  els.projectSubtitle.textContent = `${latest["국가"] || "국가 미확인"} · ${latest["섹터"] || "섹터 미확인"} · 관련 기사 ${numberFormat(rows.length)}건`;
 
   els.projectMetaGrid.innerHTML = [
-    metaCard("프로젝트 고유값", projectId),
     metaCard("지역", latest["지역"] || "-"),
     metaCard("국가", latest["국가"] || "-"),
     metaCard("섹터", latest["섹터"] || "-"),
+    metaCard("사업비", formatCost(costText)),
     metaCard("현재 단계", latest["관련 단계"] || "-"),
     metaCard("최근 업데이트", latestDate),
     metaCard("정보 분류", latest["정보 분류"] || "프로젝트 정보"),
-    metaCard("기사 수", `${numberFormat(rows.length)}건`),
+    metaCard("관련 기사", `${numberFormat(rows.length)}건`),
   ].join("");
 
   els.projectArticles.innerHTML = rows.map(renderArticleCard).join("");
+}
+
+function findProjectCost(articles) {
+  const costColumns = ["사업비(달러 기준 추정액)", "사업비", "프로젝트 규모"];
+  for (const article of articles) {
+    for (const column of costColumns) {
+      if (article[column]) return article[column];
+    }
+  }
+  return "";
+}
+
+function formatCost(value) {
+  if (!value || value === "사업비 미확인") return "사업비 미확인";
+  return value.includes("$") || value.includes("달러") || value.toLowerCase().includes("usd")
+    ? value
+    : `${value} (달러 기준)`;
 }
 
 function renderArticleCard(row) {
@@ -150,7 +175,7 @@ function renderArticleCard(row) {
       <div class="project-article-meta">
         <span>${escapeHtml(date)}</span>
         ${row["관련 단계"] ? `<span>${escapeHtml(row["관련 단계"])}</span>` : ""}
-        ${row["기사 고유값"] ? `<span>${escapeHtml(row["기사 고유값"])}</span>` : ""}
+        ${row["출처언어"] ? `<span>${escapeHtml(row["출처언어"])}</span>` : ""}
         ${row["출처링크"] ? `<a href="${escapeAttribute(row["출처링크"])}" target="_blank" rel="noreferrer">원문 링크</a>` : ""}
       </div>
     </article>
@@ -166,13 +191,13 @@ function metaCard(label, value) {
   `;
 }
 
-function showEmpty(projectId, projectName) {
+function showEmpty(title) {
   els.loadingState.hidden = true;
   els.errorState.hidden = true;
   els.emptyState.hidden = false;
   els.projectContent.hidden = true;
-  els.projectTitle.textContent = projectName || projectId || "프로젝트 정보 없음";
-  els.projectSubtitle.textContent = "프로젝트 고유값 또는 프로젝트명을 확인해 주세요.";
+  els.projectTitle.textContent = title;
+  els.projectSubtitle.textContent = "프로젝트명, 국가, 섹터 조건을 확인해 주세요.";
   els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
 }
 
