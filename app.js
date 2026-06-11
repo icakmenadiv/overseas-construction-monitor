@@ -54,32 +54,7 @@ const els = {
   resultBody: document.getElementById("resultBody"),
 };
 
-// Google Visualization API 로드 대기
-function waitForGoogleCharts() {
-  return new Promise((resolve) => {
-    if (typeof google !== "undefined" && google.visualization) {
-      resolve();
-    } else {
-      const checkInterval = setInterval(() => {
-        if (typeof google !== "undefined" && google.visualization) {
-          clearInterval(checkInterval);
-          resolve();
-        }
-      }, 100);
-      
-      // 10초 타임아웃
-      setTimeout(() => {
-        clearInterval(checkInterval);
-        resolve();
-      }, 10000);
-    }
-  });
-}
-
-document.addEventListener("DOMContentLoaded", async () => {
-  await waitForGoogleCharts();
-  init();
-});
+document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
   els.sheetLink.href = CONFIG.SHEET_VIEW_URL;
@@ -176,56 +151,47 @@ async function refreshData() {
   }
 }
 
-// Google Visualization Query API 사용
-function fetchSheetData() {
-  return new Promise((resolve, reject) => {
-    try {
-      if (typeof google === "undefined" || !google.visualization) {
-        reject(new Error("Google Visualization API not loaded"));
-        return;
-      }
-
-      const query = new google.visualization.Query(
-        `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${CONFIG.SHEET_GID}`
-      );
-
-      query.setQuery("select *");
-
-      query.send((response) => {
-        try {
-          if (response.isError()) {
-            reject(new Error(response.getMessage()));
-            return;
-          }
-
-          const dataTable = response.getDataTable();
-          const rows = [];
-
-          // 컬럼명 추출
-          const cols = [];
-          for (let i = 0; i < dataTable.getNumberOfColumns(); i++) {
-            cols.push(dataTable.getColumnLabel(i));
-          }
-
-          // 데이터 추출
-          for (let i = 0; i < dataTable.getNumberOfRows(); i++) {
-            const row = {};
-            for (let j = 0; j < cols.length; j++) {
-              const value = dataTable.getValue(i, j);
-              row[cols[j]] = value !== null && value !== undefined ? String(value) : "";
-            }
-            rows.push(row);
-          }
-
-          resolve(rows);
-        } catch (error) {
-          reject(error);
-        }
-      });
-    } catch (error) {
-      reject(error);
+// GViz JSON 직접 읽기 (Google Charts 라이브러리 불필요)
+async function fetchSheetData() {
+  try {
+    const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${CONFIG.SHEET_GID}&tqx=out:json`;
+    
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
-  });
+
+    const text = await response.text();
+    
+    // GViz 응답에서 JSON 부분 추출
+    const jsonStart = text.indexOf("{");
+    const jsonEnd = text.lastIndexOf("}") + 1;
+    
+    if (jsonStart === -1 || jsonEnd === 0) {
+      throw new Error("Invalid GViz response format");
+    }
+
+    const jsonText = text.substring(jsonStart, jsonEnd);
+    const data = JSON.parse(jsonText);
+
+    // 데이터 파싱
+    const rows = [];
+    const cols = data.table.cols.map((col) => col.label || "");
+    
+    data.table.rows.forEach((row) => {
+      const item = {};
+      cols.forEach((col, index) => {
+        const cell = row.c[index];
+        item[col] = cell ? (cell.f || cell.v || "") : "";
+      });
+      rows.push(item);
+    });
+
+    return rows;
+  } catch (error) {
+    console.error("Fetch error details:", error);
+    throw error;
+  }
 }
 
 function saveFilterState() {
