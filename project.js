@@ -161,7 +161,7 @@ function renderProject(project, articleItems) {
 
   els.loadingState.hidden = true;
   els.errorState.hidden = true;
-  els.emptyState.hidden = false;
+  els.emptyState.hidden = true;
   els.projectContent.hidden = false;
   els.projectTitle.textContent = project["프로젝트명"] || "프로젝트명 미입력";
   els.projectSubtitle.textContent = `${project["국가"] || "국가 미확인"} · ${project["섹터"] || "섹터 미확인"} · 관련 기사 ${numberFormat(articleItems.length)}건`;
