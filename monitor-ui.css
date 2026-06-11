@@ -270,18 +270,18 @@ body:has(#projectBody) .results-section {
 }
 
 .market-table {
-  min-width: 1040px;
+  min-width: 1080px;
   table-layout: fixed;
 }
 
 .market-table th:nth-child(1),
 .market-table td:nth-child(1) {
-  width: 40%;
+  width: 39%;
 }
 
 .market-table th:nth-child(2),
 .market-table td:nth-child(2) {
-  width: 17%;
+  width: 16%;
 }
 
 .market-table th:nth-child(3),
@@ -306,8 +306,20 @@ body:has(#projectBody) .results-section {
 
 .market-table th:nth-child(7),
 .market-table td:nth-child(7) {
-  width: 66px;
+  width: 82px;
+  padding-inline: 10px;
   text-align: center;
+}
+
+.market-table .detail-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  min-width: 38px;
+  height: 38px;
+  min-height: 38px;
+  padding: 0;
 }
 
 .market-title-cell .title-link {
@@ -348,6 +360,19 @@ body:has(#projectBody) .results-section {
   font-size: 0.78rem;
   font-weight: 800;
   line-height: 1.25;
+}
+
+.project-callout {
+  flex-wrap: wrap;
+}
+
+.project-callout > div {
+  min-width: 0;
+}
+
+.project-detail-link {
+  min-width: max-content;
+  text-align: center;
 }
 
 @media (max-width: 1260px) {
@@ -428,6 +453,11 @@ body:has(#projectBody) .results-section {
   .market-dashboard .summary-grid,
   body:has(#projectBody) .summary-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-detail-link {
+    width: 100%;
+    min-width: 0;
   }
 
   .check-chip span,
