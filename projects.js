@@ -56,15 +56,12 @@ async function init() {
 
 function bindEvents() {
   const debouncedApplyFilters = debounce(applyFilters, 300);
-  [
-    els.keywordInput,
-    els.regionFilter,
-    els.countryFilter,
-    els.sectorFilter,
-    els.stageFilter,
-    els.sortSelect,
-  ].forEach((element) => {
-    if (element) element.addEventListener("input", debouncedApplyFilters);
+
+  if (els.keywordInput) els.keywordInput.addEventListener("input", debouncedApplyFilters);
+  if (els.sortSelect) els.sortSelect.addEventListener("input", debouncedApplyFilters);
+
+  [els.countryFilter, els.sectorFilter, els.stageFilter].forEach((element) => {
+    if (element) element.addEventListener("change", debouncedApplyFilters);
   });
 
   if (els.regionFilter) {
@@ -77,10 +74,10 @@ function bindEvents() {
   if (els.resetButton) {
     els.resetButton.addEventListener("click", () => {
       if (els.keywordInput) els.keywordInput.value = "";
-      if (els.regionFilter) els.regionFilter.value = "";
-      if (els.countryFilter) els.countryFilter.value = "";
-      if (els.sectorFilter) els.sectorFilter.value = "";
-      if (els.stageFilter) els.stageFilter.value = "";
+      clearCheckedValues(els.regionFilter);
+      clearCheckedValues(els.countryFilter);
+      clearCheckedValues(els.sectorFilter);
+      clearCheckedValues(els.stageFilter);
       if (els.sortSelect) els.sortSelect.value = "cost:desc";
       updateCountryOptions();
       applyFilters();
@@ -139,7 +136,7 @@ async function fetchSheetData(gid) {
     const item = {};
     cols.forEach((col, index) => {
       const cell = row.c[index];
-      item[col] = cell ? (cell.f || cell.v || "") : "";
+      item[col] = cell ? cell.f || cell.v || "" : "";
     });
     return item;
   });
@@ -192,22 +189,22 @@ function parseCostValue(value) {
 }
 
 function populateFilters() {
-  setOptions(els.regionFilter, uniqueValues(state.projects, "region"));
-  setOptions(els.sectorFilter, uniqueValues(state.projects, "sector"));
-  setOptions(els.stageFilter, uniqueValues(state.projects, "stage").filter((value) => value !== "-"));
+  setCheckboxOptions(els.regionFilter, uniqueValues(state.projects, "region"), getCheckedValues(els.regionFilter));
+  setCheckboxOptions(els.sectorFilter, uniqueValues(state.projects, "sector"), getCheckedValues(els.sectorFilter));
+  setCheckboxOptions(
+    els.stageFilter,
+    uniqueValues(state.projects, "stage").filter((value) => value !== "-"),
+    getCheckedValues(els.stageFilter),
+  );
   updateCountryOptions();
 }
 
 function updateCountryOptions() {
-  const selectedRegion = els.regionFilter?.value || "";
-  const source = selectedRegion
-    ? state.projects.filter((project) => project.region === selectedRegion)
+  const selectedRegions = getCheckedValues(els.regionFilter);
+  const source = selectedRegions.length
+    ? state.projects.filter((project) => selectedRegions.includes(project.region))
     : state.projects;
-  const current = els.countryFilter?.value || "";
-  setOptions(els.countryFilter, uniqueValues(source, "country"));
-  if ([...els.countryFilter.options].some((option) => option.value === current)) {
-    els.countryFilter.value = current;
-  }
+  setCheckboxOptions(els.countryFilter, uniqueValues(source, "country"), getCheckedValues(els.countryFilter));
 }
 
 function uniqueValues(rows, key) {
@@ -216,23 +213,55 @@ function uniqueValues(rows, key) {
   );
 }
 
-function setOptions(select, values) {
-  if (!select) return;
-  select.innerHTML = '<option value="">전체</option>';
-  values.forEach((value) => {
-    const option = document.createElement("option");
-    option.value = value;
-    option.textContent = value;
-    select.appendChild(option);
+function setCheckboxOptions(container, values, selectedValues = []) {
+  if (!container) return;
+  const selected = new Set(selectedValues);
+  container.innerHTML = "";
+
+  if (!values.length) {
+    const empty = document.createElement("span");
+    empty.className = "checkbox-empty";
+    empty.textContent = "선택 가능한 항목 없음";
+    container.appendChild(empty);
+    return;
+  }
+
+  values.forEach((value, index) => {
+    const label = document.createElement("label");
+    label.className = "check-chip";
+
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = value;
+    input.checked = selected.has(value);
+    input.id = `${container.id}-${index}`;
+
+    const text = document.createElement("span");
+    text.textContent = value;
+
+    label.append(input, text);
+    container.appendChild(label);
+  });
+}
+
+function getCheckedValues(container) {
+  if (!container) return [];
+  return [...container.querySelectorAll('input[type="checkbox"]:checked')].map((input) => input.value);
+}
+
+function clearCheckedValues(container) {
+  if (!container) return;
+  container.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+    input.checked = false;
   });
 }
 
 function applyFilters() {
   const keyword = (els.keywordInput?.value || "").trim().toLowerCase();
-  const region = els.regionFilter?.value || "";
-  const country = els.countryFilter?.value || "";
-  const sector = els.sectorFilter?.value || "";
-  const stage = els.stageFilter?.value || "";
+  const regions = getCheckedValues(els.regionFilter);
+  const countries = getCheckedValues(els.countryFilter);
+  const sectors = getCheckedValues(els.sectorFilter);
+  const stages = getCheckedValues(els.stageFilter);
 
   let projects = state.projects.filter((project) => {
     const keywordOk =
@@ -241,10 +270,10 @@ function applyFilters() {
         .join(" ")
         .toLowerCase()
         .includes(keyword);
-    const regionOk = !region || project.region === region;
-    const countryOk = !country || project.country === country;
-    const sectorOk = !sector || project.sector === sector;
-    const stageOk = !stage || project.stage === stage;
+    const regionOk = !regions.length || regions.includes(project.region);
+    const countryOk = !countries.length || countries.includes(project.country);
+    const sectorOk = !sectors.length || sectors.includes(project.sector);
+    const stageOk = !stages.length || stages.includes(project.stage);
     return keywordOk && regionOk && countryOk && sectorOk && stageOk;
   });
 
@@ -322,11 +351,17 @@ function formatCost(value) {
 function updateActiveFilterText() {
   const filters = [];
   if (els.keywordInput?.value?.trim()) filters.push(`검색: ${els.keywordInput.value.trim()}`);
-  if (els.regionFilter?.value) filters.push(`지역: ${els.regionFilter.value}`);
-  if (els.countryFilter?.value) filters.push(`국가: ${els.countryFilter.value}`);
-  if (els.sectorFilter?.value) filters.push(`섹터: ${els.sectorFilter.value}`);
-  if (els.stageFilter?.value) filters.push(`단계: ${els.stageFilter.value}`);
+  pushSelectedFilter(filters, "지역", getCheckedValues(els.regionFilter));
+  pushSelectedFilter(filters, "국가", getCheckedValues(els.countryFilter));
+  pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
+  pushSelectedFilter(filters, "단계", getCheckedValues(els.stageFilter));
   els.activeFilterText.textContent = filters.length ? filters.join(" · ") : "전체 프로젝트";
+}
+
+function pushSelectedFilter(filters, label, values) {
+  if (!values.length) return;
+  const suffix = values.length > 1 ? ` 외 ${values.length - 1}` : "";
+  filters.push(`${label}: ${values[0]}${suffix}`);
 }
 
 function showError() {
