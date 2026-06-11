@@ -47,7 +47,7 @@
           <input
             id="keywordInput"
             type="search"
-            placeholder="프로젝트명, 국가, 지역, 섹터, 단계 검색"
+            placeholder="프로젝트명, 발주처, 국가, 지역, 섹터, 단계 검색"
             autocomplete="off"
           />
         </div>
@@ -77,6 +77,13 @@
               <option value="name:asc">프로젝트명 가나다순</option>
               <option value="country:asc">국가 가나다순</option>
             </select>
+          </div>
+          <div class="field field-toggle">
+            <span class="field-label">사업비</span>
+            <label class="cost-toggle">
+              <input id="knownCostOnly" type="checkbox" />
+              <span>사업비 미확인 제외</span>
+            </label>
           </div>
         </div>
 
@@ -134,6 +141,7 @@
                 <th>지역</th>
                 <th>국가</th>
                 <th>섹터</th>
+                <th>발주처</th>
                 <th>사업비(USD)</th>
                 <th>현재 단계</th>
                 <th>최근 업데이트일</th>
