@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>해외 건설시장 모니터링</title>
+    <meta
+      name="description"
+      content="국가별 해외 건설·인프라 시장뉴스 통합 조회 대시보드"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-wrap">
+        <a class="brand" href="https://www.icak.or.kr/" target="_blank" rel="noreferrer">
+          <img
+            src="./assets/logo.png"
+            alt="해외건설협회"
+            class="brand-logo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';"
+          />
+          <span class="brand-fallback" aria-hidden="true">ICAK</span>
+        </a>
+        <div>
+          <p class="eyebrow">Overseas Construction Market News</p>
+          <h1>해외 건설시장 모니터링</h1>
+          <p class="subtitle">국가별 해외 건설·인프라 시장뉴스 통합 조회</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <p class="sync-status" id="syncStatus">데이터 연결 대기 중</p>
+        <button type="button" id="refreshButton" class="action-button" title="새로 고침">🔄</button>
+        <a class="sheet-link" id="sheetLink" href="#" target="_blank" rel="noreferrer">시트 보기</a>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <section class="control-panel" aria-label="뉴스 검색 및 필터">
+        <div class="search-field">
+          <label for="keywordInput">키워드 검색</label>
+          <input
+            id="keywordInput"
+            type="search"
+            placeholder="제목, 내용, 국가, 지역, 섹터, 주제 검색"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="field-grid">
+          <div class="field">
+            <label for="startDate">시작일</label>
+            <input id="startDate" type="date" />
+          </div>
+          <div class="field">
+            <label for="endDate">종료일</label>
+            <input id="endDate" type="date" />
+          </div>
+          <div class="field">
+            <label for="regionFilter">지역</label>
+            <select id="regionFilter">
+              <option value="">전체</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="countryFilter">국가</label>
+            <select id="countryFilter">
+              <option value="">전체</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="sectorFilter">섹터</label>
+            <select id="sectorFilter">
+              <option value="">전체</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="sortSelect">정렬</label>
+            <select id="sortSelect">
+              <option value="원문게재일:desc">원문게재일 최신순</option>
+              <option value="원문게재일:asc">원문게재일 오래된순</option>
+              <option value="기사수집일:desc">기사수집일 최신순</option>
+              <option value="국가:asc">국가 가나다순</option>
+              <option value="지역:asc">지역 가나다순</option>
+              <option value="섹터:asc">섹터 가나다순</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="panel-actions">
+          <div class="action-buttons">
+            <button type="button" id="resetButton">초기화</button>
+            <button type="button" id="exportButton" title="CSV로 내보내기">📥 내보내기</button>
+          </div>
+          <span id="activeFilterText">최근 30일 기준</span>
+        </div>
+      </section>
+
+      <section class="summary-grid" aria-label="요약 지표">
+        <article class="summary-item">
+          <span>전체 기사 수</span>
+          <strong id="totalCount">0</strong>
+        </article>
+        <article class="summary-item">
+          <span>필터 적용 후</span>
+          <strong id="filteredCount">0</strong>
+        </article>
+        <article class="summary-item">
+          <span>국가 수</span>
+          <strong id="countryCount">0</strong>
+        </article>
+        <article class="summary-item">
+          <span>섹터 수</span>
+          <strong id="sectorCount">0</strong>
+        </article>
+        <article class="summary-item">
+          <span>최근 원문게재일</span>
+          <strong id="latestDate">-</strong>
+        </article>
+      </section>
+
+      <section class="results-section" aria-label="뉴스 결과">
+        <div class="section-head">
+          <div>
+            <h2>뉴스 목록</h2>
+            <p>제목을 누르면 원문이 새 탭에서 열립니다.</p>
+          </div>
+          <span class="result-count" id="resultCountLabel">0건</span>
+        </div>
+
+        <div class="state-box" id="loadingState">데이터를 불러오는 중입니다.</div>
+        <div class="state-box is-error" id="errorState" hidden>
+          데이터를 불러오지 못했습니다. 시트 API URL과 공개 설정을 확인해주세요.
+        </div>
+        <div class="state-box" id="emptyState" hidden>조건에 맞는 기사가 없습니다.</div>
+
+        <div class="table-wrap" id="tableWrap" hidden>
+          <table>
+            <thead>
+              <tr>
+                <th>원문게재일</th>
+                <th>지역</th>
+                <th>국가</th>
+                <th>섹터</th>
+                <th>주제</th>
+                <th>제목(한글)</th>
+                <th>출처언어</th>
+                <th>상세</th>
+              </tr>
+            </thead>
+            <tbody id="resultBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>외부 공개용 Google Sheets 데이터를 기반으로 표시됩니다.</span>
+      <a id="footerSheetLink" href="#" target="_blank" rel="noreferrer">원본 시트 확인</a>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
