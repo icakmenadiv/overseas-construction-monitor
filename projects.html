@@ -81,8 +81,12 @@
           <div class="field field-toggle">
             <span class="field-label">사업비</span>
             <label class="cost-toggle">
-              <input id="knownCostOnly" type="checkbox" />
-              <span>사업비 미확인 제외</span>
+              <input id="includeSmallCost" type="checkbox" />
+              <span>1백만불 이하 포함</span>
+            </label>
+            <label class="cost-toggle">
+              <input id="includeUnknownCost" type="checkbox" />
+              <span>미확인 사업도 포함</span>
             </label>
           </div>
         </div>
@@ -91,7 +95,7 @@
           <div class="action-buttons">
             <button type="button" id="resetButton">초기화</button>
           </div>
-          <span id="activeFilterText">전체 프로젝트</span>
+          <span id="activeFilterText">1백만불 초과 · 사업비 확인 사업</span>
         </div>
       </section>
 
