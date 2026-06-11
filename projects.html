@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>프로젝트 모니터링 | 해외 건설시장 모니터링</title>
+    <meta
+      name="description"
+      content="국가별 해외 건설·인프라 프로젝트 모니터링 목록"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./large-text.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="brand-wrap">
+        <a class="brand" href="https://www.icak.or.kr/" target="_blank" rel="noreferrer">
+          <img
+            src="./assets/logo.png"
+            alt="해외건설협회"
+            class="brand-logo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';"
+          />
+          <span class="brand-fallback" aria-hidden="true">ICAK</span>
+        </a>
+        <div>
+          <p class="eyebrow">Project Monitoring</p>
+          <h1>프로젝트 모니터링</h1>
+          <p class="subtitle">지역·국가·섹터별 프로젝트 진행 현황 조회</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <nav class="page-nav" aria-label="모니터링 페이지 이동">
+          <a href="./index.html">시장 모니터링</a>
+          <a class="is-active" href="./projects.html">프로젝트 모니터링</a>
+        </nav>
+        <p class="sync-status" id="syncStatus">데이터 연결 대기 중</p>
+        <button type="button" id="refreshButton" class="action-button" title="새로 고침">🔄</button>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <section class="control-panel" aria-label="프로젝트 검색 및 필터">
+        <div class="search-field">
+          <label for="keywordInput">프로젝트 검색</label>
+          <input
+            id="keywordInput"
+            type="search"
+            placeholder="프로젝트명, 국가, 지역, 섹터, 단계 검색"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="field-grid field-grid-projects">
+          <div class="field">
+            <label for="regionFilter">지역</label>
+            <select id="regionFilter">
+              <option value="">전체</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="countryFilter">국가</label>
+            <select id="countryFilter">
+              <option value="">전체</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="sectorFilter">섹터</label>
+            <select id="sectorFilter">
+              <option value="">전체</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="stageFilter">현재 단계</label>
+            <select id="stageFilter">
+              <option value="">전체</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="sortSelect">정렬</label>
+            <select id="sortSelect">
+              <option value="cost:desc">사업비 규모순</option>
+              <option value="latest:desc">최근 업데이트순</option>
+              <option value="name:asc">프로젝트명 가나다순</option>
+              <option value="country:asc">국가 가나다순</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="panel-actions">
+          <div class="action-buttons">
+            <button type="button" id="resetButton">초기화</button>
+          </div>
+          <span id="activeFilterText">전체 프로젝트</span>
+        </div>
+      </section>
+
+      <section class="summary-grid" aria-label="프로젝트 요약 지표">
+        <article class="summary-item">
+          <span>전체 프로젝트 수</span>
+          <strong id="totalCount">0</strong>
+        </article>
+        <article class="summary-item">
+          <span>필터 적용 후</span>
+          <strong id="filteredCount">0</strong>
+        </article>
+        <article class="summary-item">
+          <span>국가 수</span>
+          <strong id="countryCount">0</strong>
+        </article>
+        <article class="summary-item">
+          <span>섹터 수</span>
+          <strong id="sectorCount">0</strong>
+        </article>
+        <article class="summary-item">
+          <span>최근 업데이트</span>
+          <strong id="latestDate">-</strong>
+        </article>
+      </section>
+
+      <section class="results-section" aria-label="프로젝트 결과">
+        <div class="section-head">
+          <div>
+            <h2>프로젝트 목록</h2>
+            <p>프로젝트명을 누르면 관련 기사 상세 목록을 확인할 수 있습니다.</p>
+          </div>
+          <span class="result-count" id="resultCountLabel">0건</span>
+        </div>
+
+        <div class="state-box" id="loadingState">데이터를 불러오는 중입니다.</div>
+        <div class="state-box is-error" id="errorState" hidden>
+          데이터를 불러오지 못했습니다. 시트 API URL과 공개 설정을 확인해주세요.
+        </div>
+        <div class="state-box" id="emptyState" hidden>조건에 맞는 프로젝트가 없습니다.</div>
+
+        <div class="table-wrap" id="tableWrap" hidden>
+          <table class="project-list-table">
+            <thead>
+              <tr>
+                <th>프로젝트명</th>
+                <th>지역</th>
+                <th>국가</th>
+                <th>섹터</th>
+                <th>사업비</th>
+                <th>현재 단계</th>
+                <th>최근 업데이트</th>
+                <th>관련 기사</th>
+              </tr>
+            </thead>
+            <tbody id="projectBody"></tbody>
+          </table>
+        </div>
+        <div class="limit-notice">
+          프로젝트 정보 수정이 필요한 경우 해외건설협회 담당자에게 수정 요청해 주세요.
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>외부 공개용 Google Sheets 데이터를 기반으로 표시됩니다.</span>
+      <button type="button" class="back-to-top" id="backToTopButton">상단으로 이동</button>
+    </footer>
+
+    <script src="./projects.js"></script>
+  </body>
+</html>
