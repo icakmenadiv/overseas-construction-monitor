@@ -52,6 +52,8 @@ const state = {
   expanded: new Set(),
 };
 
+let savedFilterState = null;
+
 const els = {
   sheetLink: document.getElementById("sheetLink"),
   footerSheetLink: document.getElementById("footerSheetLink"),
@@ -110,17 +112,12 @@ async function init() {
 function bindEvents() {
   const debouncedApplyFilters = debounce(applyFilters, 300);
 
-  [
-    els.keywordInput,
-    els.startDate,
-    els.endDate,
-    els.regionFilter,
-    els.countryFilter,
-    els.sectorFilter,
-    els.infoClassFilter,
-    els.sortSelect,
-  ].forEach((element) => {
+  [els.keywordInput, els.startDate, els.endDate, els.sortSelect].forEach((element) => {
     if (element) element.addEventListener("input", debouncedApplyFilters);
+  });
+
+  [els.countryFilter, els.sectorFilter, els.infoClassFilter].forEach((element) => {
+    if (element) element.addEventListener("change", debouncedApplyFilters);
   });
 
   if (els.regionFilter) {
@@ -133,12 +130,12 @@ function bindEvents() {
   if (els.resetButton) {
     els.resetButton.addEventListener("click", () => {
       if (els.keywordInput) els.keywordInput.value = "";
-      if (els.regionFilter) els.regionFilter.value = "";
-      if (els.countryFilter) els.countryFilter.value = "";
-      if (els.sectorFilter) els.sectorFilter.value = "";
-      if (els.infoClassFilter) els.infoClassFilter.value = "";
+      clearCheckedValues(els.regionFilter);
+      clearCheckedValues(els.countryFilter);
+      clearCheckedValues(els.sectorFilter);
+      clearCheckedValues(els.infoClassFilter);
       if (els.sortSelect) els.sortSelect.value = "원문게재일:desc";
-      setDefaultDates();
+      setDefaultDates(true);
       updateCountryOptions();
       applyFilters();
       saveFilterState();
@@ -211,7 +208,7 @@ async function fetchSheetData() {
       const item = {};
       cols.forEach((col, index) => {
         const cell = row.c[index];
-        item[col] = cell ? (cell.f || cell.v || "") : "";
+        item[col] = cell ? cell.f || cell.v || "" : "";
       });
       rows.push(item);
     });
@@ -228,10 +225,10 @@ function saveFilterState() {
     keyword: els.keywordInput?.value || "",
     startDate: els.startDate?.value || "",
     endDate: els.endDate?.value || "",
-    region: els.regionFilter?.value || "",
-    country: els.countryFilter?.value || "",
-    sector: els.sectorFilter?.value || "",
-    infoClass: els.infoClassFilter?.value || "",
+    region: getCheckedValues(els.regionFilter),
+    country: getCheckedValues(els.countryFilter),
+    sector: getCheckedValues(els.sectorFilter),
+    infoClass: getCheckedValues(els.infoClassFilter),
     sort: els.sortSelect?.value || "원문게재일:desc",
   };
   try {
@@ -246,13 +243,10 @@ function loadFilterState() {
     const saved = localStorage.getItem("dashboardFilters");
     if (saved) {
       const filterState = JSON.parse(saved);
+      savedFilterState = filterState;
       if (els.keywordInput) els.keywordInput.value = filterState.keyword || "";
       if (els.startDate) els.startDate.value = filterState.startDate || "";
       if (els.endDate) els.endDate.value = filterState.endDate || "";
-      if (els.regionFilter) els.regionFilter.value = filterState.region || "";
-      if (els.countryFilter) els.countryFilter.value = filterState.country || "";
-      if (els.sectorFilter) els.sectorFilter.value = filterState.sector || "";
-      if (els.infoClassFilter) els.infoClassFilter.value = filterState.infoClass || "";
       if (els.sortSelect) els.sortSelect.value = filterState.sort || "원문게재일:desc";
     }
   } catch (e) {
@@ -260,13 +254,13 @@ function loadFilterState() {
   }
 }
 
-function setDefaultDates() {
+function setDefaultDates(force = false) {
   const today = new Date();
   const start = new Date(today);
   start.setDate(today.getDate() - CONFIG.DEFAULT_PERIOD_DAYS + 1);
 
-  if (!els.startDate.value) els.startDate.value = toDateInputValue(start);
-  if (!els.endDate.value) els.endDate.value = toDateInputValue(today);
+  if (force || !els.startDate.value) els.startDate.value = toDateInputValue(start);
+  if (force || !els.endDate.value) els.endDate.value = toDateInputValue(today);
 }
 
 function normalizeRows(rows) {
@@ -311,22 +305,29 @@ function parseSheetDate(value) {
 }
 
 function populateFilters() {
-  setOptions(els.regionFilter, uniqueValues(state.rows, "지역"));
-  setOptions(els.sectorFilter, uniqueValues(state.rows, "섹터"));
-  setOptions(els.infoClassFilter, uniqueValues(state.rows, "정보 분류"));
+  setCheckboxOptions(els.regionFilter, uniqueValues(state.rows, "지역"), getInitialSelection("region", els.regionFilter));
+  setCheckboxOptions(els.sectorFilter, uniqueValues(state.rows, "섹터"), getInitialSelection("sector", els.sectorFilter));
+  setCheckboxOptions(
+    els.infoClassFilter,
+    uniqueValues(state.rows, "정보 분류"),
+    getInitialSelection("infoClass", els.infoClassFilter),
+  );
   updateCountryOptions();
+  savedFilterState = null;
 }
 
 function updateCountryOptions() {
-  const selectedRegion = els.regionFilter?.value || "";
-  const source = selectedRegion
-    ? state.rows.filter((row) => row["지역"] === selectedRegion)
+  const selectedRegions = getCheckedValues(els.regionFilter);
+  const source = selectedRegions.length
+    ? state.rows.filter((row) => selectedRegions.includes(row["지역"]))
     : state.rows;
-  const current = els.countryFilter?.value || "";
-  setOptions(els.countryFilter, uniqueValues(source, "국가"));
-  if ([...els.countryFilter.options].some((option) => option.value === current)) {
-    els.countryFilter.value = current;
-  }
+  setCheckboxOptions(els.countryFilter, uniqueValues(source, "국가"), getInitialSelection("country", els.countryFilter));
+}
+
+function getInitialSelection(key, container) {
+  const current = getCheckedValues(container);
+  if (current.length) return current;
+  return asArray(savedFilterState?.[key]);
 }
 
 function uniqueValues(rows, key) {
@@ -335,33 +336,70 @@ function uniqueValues(rows, key) {
   );
 }
 
-function setOptions(select, values) {
-  if (!select) return;
-  select.innerHTML = '<option value="">전체</option>';
-  values.forEach((value) => {
-    const option = document.createElement("option");
-    option.value = value;
-    option.textContent = value;
-    select.appendChild(option);
+function setCheckboxOptions(container, values, selectedValues = []) {
+  if (!container) return;
+  const selected = new Set(selectedValues);
+  container.innerHTML = "";
+
+  if (!values.length) {
+    const empty = document.createElement("span");
+    empty.className = "checkbox-empty";
+    empty.textContent = "선택 가능한 항목 없음";
+    container.appendChild(empty);
+    return;
+  }
+
+  values.forEach((value, index) => {
+    const label = document.createElement("label");
+    label.className = "check-chip";
+
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = value;
+    input.checked = selected.has(value);
+    input.id = `${container.id}-${index}`;
+
+    const text = document.createElement("span");
+    text.textContent = value;
+
+    label.append(input, text);
+    container.appendChild(label);
   });
+}
+
+function getCheckedValues(container) {
+  if (!container) return [];
+  return [...container.querySelectorAll('input[type="checkbox"]:checked')].map((input) => input.value);
+}
+
+function clearCheckedValues(container) {
+  if (!container) return;
+  container.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+    input.checked = false;
+  });
+}
+
+function asArray(value) {
+  if (Array.isArray(value)) return value.filter(Boolean);
+  return value ? [value] : [];
 }
 
 function applyFilters() {
   const keyword = (els.keywordInput?.value || "").trim().toLowerCase();
   const start = els.startDate?.value ? new Date(`${els.startDate.value}T00:00:00`) : null;
   const end = els.endDate?.value ? new Date(`${els.endDate.value}T23:59:59`) : null;
-  const region = els.regionFilter?.value || "";
-  const country = els.countryFilter?.value || "";
-  const sector = els.sectorFilter?.value || "";
-  const infoClass = els.infoClassFilter?.value || "";
+  const regions = getCheckedValues(els.regionFilter);
+  const countries = getCheckedValues(els.countryFilter);
+  const sectors = getCheckedValues(els.sectorFilter);
+  const infoClasses = getCheckedValues(els.infoClassFilter);
 
   let rows = state.rows.filter((row) => {
     const date = row._publishedDate;
     const dateOk = (!start || (date && date >= start)) && (!end || (date && date <= end));
-    const regionOk = !region || row["지역"] === region;
-    const countryOk = !country || row["국가"] === country;
-    const sectorOk = !sector || row["섹터"] === sector;
-    const infoClassOk = !infoClass || row["정보 분류"] === infoClass;
+    const regionOk = !regions.length || regions.includes(row["지역"]);
+    const countryOk = !countries.length || countries.includes(row["국가"]);
+    const sectorOk = !sectors.length || sectors.includes(row["섹터"]);
+    const infoClassOk = !infoClasses.length || infoClasses.includes(row["정보 분류"]);
     const keywordOk =
       !keyword ||
       [
@@ -416,9 +454,10 @@ function updateSummary() {
   if (els.latestDate) els.latestDate.textContent = latest ? formatDate(latest) : "-";
   if (els.resultCountLabel) {
     const shownCount = Math.min(state.filteredRows.length, CONFIG.DISPLAY_LIMIT);
-    els.resultCountLabel.textContent = state.filteredRows.length > CONFIG.DISPLAY_LIMIT
-      ? `${numberFormat(shownCount)}건 표시 / 전체 ${numberFormat(state.filteredRows.length)}건`
-      : `${numberFormat(state.filteredRows.length)}건`;
+    els.resultCountLabel.textContent =
+      state.filteredRows.length > CONFIG.DISPLAY_LIMIT
+        ? `${numberFormat(shownCount)}건 표시 / 전체 ${numberFormat(state.filteredRows.length)}건`
+        : `${numberFormat(state.filteredRows.length)}건`;
   }
 }
 
@@ -540,13 +579,19 @@ function updateActiveFilterText() {
     filters.push(`${els.startDate?.value || "전체"} ~ ${els.endDate?.value || "전체"}`);
   }
   if (els.keywordInput?.value?.trim()) filters.push(`검색: ${els.keywordInput.value.trim()}`);
-  if (els.regionFilter?.value) filters.push(`지역: ${els.regionFilter.value}`);
-  if (els.countryFilter?.value) filters.push(`국가: ${els.countryFilter.value}`);
-  if (els.sectorFilter?.value) filters.push(`섹터: ${els.sectorFilter.value}`);
-  if (els.infoClassFilter?.value) filters.push(`정보 분류: ${els.infoClassFilter.value}`);
+  pushSelectedFilter(filters, "지역", getCheckedValues(els.regionFilter));
+  pushSelectedFilter(filters, "국가", getCheckedValues(els.countryFilter));
+  pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
+  pushSelectedFilter(filters, "정보 분류", getCheckedValues(els.infoClassFilter));
   if (els.activeFilterText) {
     els.activeFilterText.textContent = filters.length ? filters.join(" · ") : "전체 기간";
   }
+}
+
+function pushSelectedFilter(filters, label, values) {
+  if (!values.length) return;
+  const suffix = values.length > 1 ? ` 외 ${values.length - 1}` : "";
+  filters.push(`${label}: ${values[0]}${suffix}`);
 }
 
 function showError() {
@@ -572,9 +617,7 @@ function exportToCSV() {
     const csvContent = [
       headers.map((h) => `"${h}"`).join(","),
       ...state.filteredRows.map((row) =>
-        headers
-          .map((col) => `"${String(row[col] || "").replace(/"/g, '""')}"`)
-          .join(",")
+        headers.map((col) => `"${String(row[col] || "").replace(/"/g, '""')}"`).join(","),
       ),
     ].join("\n");
 
