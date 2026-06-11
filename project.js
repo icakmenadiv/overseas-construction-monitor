@@ -32,6 +32,7 @@ const PROJECT_COLUMNS = [
   "지역",
   "국가",
   "섹터",
+  "발주처",
   "사업비(달러 기준 추정액)",
   "사업비 환산 환율 / 기준",
   "현재 단계",
@@ -138,7 +139,7 @@ async function fetchSheetData(gid) {
     const item = {};
     cols.forEach((col, index) => {
       const cell = row.c[index];
-      item[col] = cell ? (cell.f || cell.v || "") : "";
+      item[col] = cell ? cell.f || cell.v || "" : "";
     });
     return item;
   });
@@ -170,6 +171,7 @@ function renderProject(project, articleItems) {
     metaCard("지역", project["지역"] || "-"),
     metaCard("국가", project["국가"] || "-"),
     metaCard("섹터", project["섹터"] || "-"),
+    metaCard("발주처", project["발주처"] || "-"),
     metaCard("사업비(USD)", formatCost(costText)),
     metaCard("환산 기준", project["사업비 환산 환율 / 기준"] || "-"),
     metaCard("현재 단계", project["현재 단계"] || "-"),
@@ -183,10 +185,9 @@ function renderProject(project, articleItems) {
 }
 
 function formatCost(value) {
-  if (!value || value === "사업비 미확인") return "사업비 미확인";
-  return value.includes("$") || value.includes("달러") || value.toLowerCase().includes("usd")
-    ? value
-    : `${value} (USD)`;
+  const text = String(value || "").trim();
+  if (!text || text === "사업비 미확인" || text === "미공개") return "사업비 미확인";
+  return text.replace(/^약\s*/, "");
 }
 
 function renderArticleCard({ mapping, article }) {
