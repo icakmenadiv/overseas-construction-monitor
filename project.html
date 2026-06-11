@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>프로젝트 상세 | 해외 건설시장 모니터링</title>
+    <meta
+      name="description"
+      content="해외 건설시장 모니터링 프로젝트별 관련 기사 상세 페이지"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./large-text.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="brand-wrap">
+        <a class="brand" href="https://www.icak.or.kr/" target="_blank" rel="noreferrer">
+          <img
+            src="./assets/logo.png"
+            alt="해외건설협회"
+            class="brand-logo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';"
+          />
+          <span class="brand-fallback" aria-hidden="true">ICAK</span>
+        </a>
+        <div>
+          <p class="eyebrow">Project Monitoring</p>
+          <h1>프로젝트 상세</h1>
+          <p class="subtitle">프로젝트 고유값 기준 관련 기사 모니터링</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <p class="sync-status" id="syncStatus">데이터 연결 대기 중</p>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <section class="project-section" aria-label="프로젝트 상세 정보">
+        <div class="project-toolbar">
+          <div class="project-title-block">
+            <h2 id="projectTitle">프로젝트를 불러오는 중입니다</h2>
+            <p id="projectSubtitle">관련 기사와 최신 진행 단계를 확인합니다.</p>
+          </div>
+          <a class="project-back-link" href="./index.html">뉴스 목록으로 돌아가기</a>
+        </div>
+
+        <div class="state-box" id="loadingState">데이터를 불러오는 중입니다.</div>
+        <div class="state-box is-error" id="errorState" hidden>
+          프로젝트 정보를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.
+        </div>
+        <div class="state-box" id="emptyState" hidden>
+          조건에 맞는 프로젝트 기사가 없습니다.
+        </div>
+
+        <div id="projectContent" hidden>
+          <div class="project-meta-grid" id="projectMetaGrid"></div>
+          <div class="project-articles" id="projectArticles"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>프로젝트 정보 수정이 필요한 경우 해외건설협회 담당자에게 수정 요청해 주세요.</span>
+      <button type="button" class="back-to-top" id="backToTopButton">상단으로 이동</button>
+    </footer>
+
+    <script src="./project.js"></script>
+  </body>
+</html>
