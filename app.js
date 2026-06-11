@@ -1,8 +1,8 @@
 const CONFIG = {
   SHEET_API_URL:
-    "https://docs.google.com/spreadsheets/d/1jhZEUaPWy5v2rwf2J-XMXaoDNb70dA8964LISJRLjT0/gviz/tq?tqx=out:json&gid=1307021607",
+    "https://docs.google.com/spreadsheets/d/11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E/gviz/tq?tqx=out:json&gid=748239675",
   SHEET_VIEW_URL:
-    "https://docs.google.com/spreadsheets/d/1jhZEUaPWy5v2rwf2J-XMXaoDNb70dA8964LISJRLjT0/edit?gid=1307021607#gid=1307021607",
+    "https://docs.google.com/spreadsheets/d/11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E/edit?gid=748239675#gid=748239675",
   DEFAULT_PERIOD_DAYS: 30,
 };
 
