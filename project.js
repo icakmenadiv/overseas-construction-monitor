@@ -1,9 +1,11 @@
 const CONFIG = {
   SHEET_ID: "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
-  SHEET_GID: "748239675",
+  RESULT_SHEET_GID: "748239675",
+  PROJECT_SHEET_GID: "20260612",
+  MAPPING_SHEET_GID: "20260614",
 };
 
-const COLUMNS = [
+const RESULT_COLUMNS = [
   "원문게재일",
   "기사수집일",
   "지역",
@@ -22,9 +24,30 @@ const COLUMNS = [
   "담당자 활용시 체크",
   "출처언어",
   "출처링크",
+];
+
+const PROJECT_COLUMNS = [
+  "프로젝트 고유값",
+  "프로젝트명",
+  "지역",
+  "국가",
+  "섹터",
   "사업비(달러 기준 추정액)",
-  "사업비",
-  "프로젝트 규모",
+  "사업비 환산 환율 / 기준",
+  "현재 단계",
+  "최근 업데이트일",
+  "대표 기사 고유값",
+  "비고",
+];
+
+const MAPPING_COLUMNS = [
+  "프로젝트 고유값",
+  "기사 고유값",
+  "기사일자",
+  "기사 시점 단계",
+  "해당 기사 기준 사업비",
+  "대표기사 여부",
+  "비고",
 ];
 
 const els = {
@@ -51,19 +74,34 @@ async function init() {
 
   try {
     const params = new URLSearchParams(window.location.search);
-    const projectId = cleanValue(params.get("id"));
-    const projectName = cleanValue(params.get("name"));
-    const country = cleanValue(params.get("country"));
-    const sector = cleanValue(params.get("sector"));
-    const rows = normalizeRows(await fetchSheetData());
-    const matchedRows = findProjectRows(rows, { projectId, projectName, country, sector });
+    const criteria = {
+      projectName: cleanValue(params.get("name")),
+      country: cleanValue(params.get("country")),
+      sector: cleanValue(params.get("sector")),
+      projectId: cleanValue(params.get("id")),
+    };
 
-    if (matchedRows.length === 0) {
-      showEmpty(projectName || country || sector || "프로젝트 정보 없음");
+    const [projectRows, mappingRows, resultRows] = await Promise.all([
+      fetchAndNormalize(CONFIG.PROJECT_SHEET_GID, PROJECT_COLUMNS),
+      fetchAndNormalize(CONFIG.MAPPING_SHEET_GID, MAPPING_COLUMNS),
+      fetchAndNormalize(CONFIG.RESULT_SHEET_GID, RESULT_COLUMNS),
+    ]);
+
+    const project = findProject(projectRows, criteria);
+    if (!project) {
+      showEmpty(criteria.projectName || criteria.country || criteria.sector || "프로젝트 정보 없음");
       return;
     }
 
-    renderProject(matchedRows, projectName);
+    const mappings = mappingRows
+      .filter((row) => row["프로젝트 고유값"] === project["프로젝트 고유값"])
+      .sort((a, b) => (parseSheetDate(b["기사일자"])?.getTime() || 0) - (parseSheetDate(a["기사일자"])?.getTime() || 0));
+    const articleMap = new Map(resultRows.map((row) => [row["기사 고유값"], row]));
+    const articles = mappings
+      .map((mapping) => ({ mapping, article: articleMap.get(mapping["기사 고유값"]) }))
+      .filter((item) => item.article);
+
+    renderProject(project, articles);
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
   } catch (error) {
     console.error("Project fetch error:", error);
@@ -71,8 +109,21 @@ async function init() {
   }
 }
 
-async function fetchSheetData() {
-  const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${CONFIG.SHEET_GID}&tqx=out:json`;
+async function fetchAndNormalize(gid, columns) {
+  const rows = await fetchSheetData(gid);
+  return rows
+    .map((row, index) => {
+      const normalized = { id: String(index) };
+      columns.forEach((column) => {
+        normalized[column] = cleanValue(row[column]);
+      });
+      return normalized;
+    })
+    .filter((row) => columns.some((column) => row[column]));
+}
+
+async function fetchSheetData(gid) {
+  const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${gid}&tqx=out:json`;
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
@@ -93,90 +144,65 @@ async function fetchSheetData() {
   });
 }
 
-function normalizeRows(rows) {
-  return rows
-    .map((row, index) => {
-      const normalized = { id: String(index) };
-      COLUMNS.forEach((column) => {
-        normalized[column] = cleanValue(row[column]);
-      });
-      normalized._publishedDate = parseSheetDate(normalized["원문게재일"]);
-      normalized._collectedDate = parseSheetDate(normalized["기사수집일"]);
-      return normalized;
-    })
-    .filter((row) => row["원문게재일"] || row["제목(한글)"] || row["제목(원문)"]);
-}
-
-function findProjectRows(rows, criteria) {
+function findProject(projectRows, criteria) {
   const projectNameLower = criteria.projectName.toLowerCase();
-  return rows
-    .filter((row) => row["정보 분류"] === "프로젝트 정보" || row["프로젝트명"])
-    .filter((row) => {
-      const idOk = criteria.projectId && row["프로젝트 고유값"] === criteria.projectId;
-      const nameOk = projectNameLower && row["프로젝트명"].toLowerCase() === projectNameLower;
-      const countryOk = !criteria.country || row["국가"] === criteria.country;
-      const sectorOk = !criteria.sector || row["섹터"] === criteria.sector;
-      return (idOk || nameOk) && countryOk && sectorOk;
-    })
-    .sort((a, b) => (b._publishedDate?.getTime() || 0) - (a._publishedDate?.getTime() || 0));
+  return projectRows.find((row) => {
+    const idOk = criteria.projectId && row["프로젝트 고유값"] === criteria.projectId;
+    const nameOk = projectNameLower && row["프로젝트명"].toLowerCase() === projectNameLower;
+    const countryOk = !criteria.country || row["국가"] === criteria.country;
+    const sectorOk = !criteria.sector || row["섹터"] === criteria.sector;
+    return (idOk || nameOk) && countryOk && sectorOk;
+  });
 }
 
-function renderProject(rows, fallbackName) {
-  const latest = rows[0];
-  const projectName = latest["프로젝트명"] || fallbackName || "프로젝트명 미입력";
-  const latestDate = formatDate(latest._publishedDate) || latest["원문게재일"] || "-";
-  const costText = findProjectCost(rows) || "사업비 미확인";
+function renderProject(project, articleItems) {
+  const latestDate = parseSheetDate(project["최근 업데이트일"]);
+  const costText = project["사업비(달러 기준 추정액)"] || "사업비 미확인";
 
   els.loadingState.hidden = true;
   els.errorState.hidden = true;
-  els.emptyState.hidden = true;
+  els.emptyState.hidden = false;
   els.projectContent.hidden = false;
-  els.projectTitle.textContent = projectName;
-  els.projectSubtitle.textContent = `${latest["국가"] || "국가 미확인"} · ${latest["섹터"] || "섹터 미확인"} · 관련 기사 ${numberFormat(rows.length)}건`;
+  els.projectTitle.textContent = project["프로젝트명"] || "프로젝트명 미입력";
+  els.projectSubtitle.textContent = `${project["국가"] || "국가 미확인"} · ${project["섹터"] || "섹터 미확인"} · 관련 기사 ${numberFormat(articleItems.length)}건`;
 
   els.projectMetaGrid.innerHTML = [
-    metaCard("지역", latest["지역"] || "-"),
-    metaCard("국가", latest["국가"] || "-"),
-    metaCard("섹터", latest["섹터"] || "-"),
-    metaCard("사업비", formatCost(costText)),
-    metaCard("현재 단계", latest["관련 단계"] || "-"),
-    metaCard("최근 업데이트", latestDate),
-    metaCard("정보 분류", latest["정보 분류"] || "프로젝트 정보"),
-    metaCard("관련 기사", `${numberFormat(rows.length)}건`),
+    metaCard("지역", project["지역"] || "-"),
+    metaCard("국가", project["국가"] || "-"),
+    metaCard("섹터", project["섹터"] || "-"),
+    metaCard("사업비(USD)", formatCost(costText)),
+    metaCard("환산 기준", project["사업비 환산 환율 / 기준"] || "-"),
+    metaCard("현재 단계", project["현재 단계"] || "-"),
+    metaCard("최근 업데이트일", formatDate(latestDate) || project["최근 업데이트일"] || "-"),
+    metaCard("관련 기사", `${numberFormat(articleItems.length)}건`),
   ].join("");
 
-  els.projectArticles.innerHTML = rows.map(renderArticleCard).join("");
-}
-
-function findProjectCost(articles) {
-  const costColumns = ["사업비(달러 기준 추정액)", "사업비", "프로젝트 규모"];
-  for (const article of articles) {
-    for (const column of costColumns) {
-      if (article[column]) return article[column];
-    }
-  }
-  return "";
+  els.projectArticles.innerHTML = articleItems.length
+    ? articleItems.map(renderArticleCard).join("")
+    : `<div class="state-box">연결된 관련 기사가 없습니다.</div>`;
 }
 
 function formatCost(value) {
   if (!value || value === "사업비 미확인") return "사업비 미확인";
   return value.includes("$") || value.includes("달러") || value.toLowerCase().includes("usd")
     ? value
-    : `${value} (달러 기준)`;
+    : `${value} (USD)`;
 }
 
-function renderArticleCard(row) {
-  const title = row["제목(한글)"] || row["제목(원문)"] || "제목 없음";
-  const date = formatDate(row._publishedDate) || row["원문게재일"] || "-";
+function renderArticleCard({ mapping, article }) {
+  const title = article["제목(한글)"] || article["제목(원문)"] || "제목 없음";
+  const articleDate = parseSheetDate(mapping["기사일자"] || article["원문게재일"]);
   return `
     <article class="project-article-card">
       <h3>${escapeHtml(title)}</h3>
-      <p>${escapeHtml(row["내용"] || "내용 요약이 없습니다.")}</p>
+      <p>${escapeHtml(article["내용"] || "내용 요약이 없습니다.")}</p>
       <div class="project-article-meta">
-        <span>${escapeHtml(date)}</span>
-        ${row["관련 단계"] ? `<span>${escapeHtml(row["관련 단계"])}</span>` : ""}
-        ${row["출처언어"] ? `<span>${escapeHtml(row["출처언어"])}</span>` : ""}
-        ${row["출처링크"] ? `<a href="${escapeAttribute(row["출처링크"])}" target="_blank" rel="noreferrer">원문 링크</a>` : ""}
+        <span>${escapeHtml(formatDate(articleDate) || mapping["기사일자"] || article["원문게재일"] || "-")}</span>
+        ${mapping["기사 시점 단계"] ? `<span>${escapeHtml(mapping["기사 시점 단계"])}</span>` : ""}
+        ${mapping["해당 기사 기준 사업비"] ? `<span>${escapeHtml(formatCost(mapping["해당 기사 기준 사업비"]))}</span>` : ""}
+        ${mapping["대표기사 여부"] === "Y" ? `<span>대표 기사</span>` : ""}
+        ${article["출처언어"] ? `<span>${escapeHtml(article["출처언어"])}</span>` : ""}
+        ${article["출처링크"] ? `<a href="${escapeAttribute(article["출처링크"])}" target="_blank" rel="noreferrer">원문 링크</a>` : ""}
       </div>
     </article>
   `;
@@ -215,23 +241,19 @@ function cleanValue(value) {
 
 function parseSheetDate(value) {
   if (!value) return null;
-  if (value instanceof Date) return value;
-
   const text = String(value).trim();
+  const serial = Number(text);
+  if (Number.isFinite(serial) && serial > 20000) {
+    return new Date(Math.round((serial - 25569) * 86400 * 1000));
+  }
   const dateCtorMatch = text.match(/^Date\((\d+),(\d+),(\d+)/);
   if (dateCtorMatch) {
-    return new Date(
-      Number(dateCtorMatch[1]),
-      Number(dateCtorMatch[2]),
-      Number(dateCtorMatch[3]),
-    );
+    return new Date(Number(dateCtorMatch[1]), Number(dateCtorMatch[2]), Number(dateCtorMatch[3]));
   }
-
   const isoMatch = text.match(/(\d{4})[.\/-](\d{1,2})[.\/-](\d{1,2})/);
   if (isoMatch) {
     return new Date(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3]));
   }
-
   const parsed = new Date(text);
   return Number.isNaN(parsed.getTime()) ? null : parsed;
 }
