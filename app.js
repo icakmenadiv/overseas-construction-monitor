@@ -64,7 +64,10 @@ async function init() {
   setDefaultDates();
 
   try {
-    const rows = await fetchSheetRowsWithJsonp();
+    const rows = await fetchSheetData();
+    if (!rows || rows.length === 0) {
+      throw new Error("No data returned from Google Sheets");
+    }
     state.rows = normalizeRows(rows);
     populateFilters();
     applyFilters();
@@ -132,17 +135,102 @@ async function refreshData() {
   try {
     els.refreshButton.disabled = true;
     els.syncStatus.textContent = "데이터 새로 고침 중...";
-    const rows = await fetchSheetRowsWithJsonp();
+    const rows = await fetchSheetData();
+    if (!rows || rows.length === 0) {
+      throw new Error("No data returned");
+    }
     state.rows = normalizeRows(rows);
     populateFilters();
     applyFilters();
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
   } catch (error) {
-    console.error(error);
+    console.error("Refresh error:", error);
     els.syncStatus.textContent = "새로 고침 실패 - 다시 시도해주세요";
   } finally {
     els.refreshButton.disabled = false;
   }
+}
+
+// Google Visualization API를 JSONP로 가져오기
+function fetchSheetData() {
+  return new Promise((resolve, reject) => {
+    const callbackName = `callback_${Date.now()}`;
+    
+    // 콜백 함수 정의
+    window[callbackName] = function(response) {
+      try {
+        // 응답 처리
+        if (response.isError?.()) {
+          reject(new Error(response.getMessage?.() || "Google Sheets API error"));
+          return;
+        }
+
+        const table = response.getDataTable?.();
+        if (!table) {
+          reject(new Error("No data table in response"));
+          return;
+        }
+
+        const rows = [];
+        const numCols = table.getNumberOfColumns();
+        const numRows = table.getNumberOfRows();
+
+        // 헤더 추출
+        const headers = [];
+        for (let i = 0; i < numCols; i++) {
+          headers.push(table.getColumnLabel(i));
+        }
+
+        // 데이터 추출
+        for (let i = 0; i < numRows; i++) {
+          const row = {};
+          for (let j = 0; j < numCols; j++) {
+            const value = table.getValue(i, j);
+            row[headers[j]] = value !== null && value !== undefined ? String(value) : "";
+          }
+          rows.push(row);
+        }
+
+        // 정리
+        delete window[callbackName];
+        const scriptTag = document.querySelector(`script[data-callback="${callbackName}"]`);
+        if (scriptTag) scriptTag.remove();
+
+        resolve(rows);
+      } catch (error) {
+        delete window[callbackName];
+        const scriptTag = document.querySelector(`script[data-callback="${callbackName}"]`);
+        if (scriptTag) scriptTag.remove();
+        reject(error);
+      }
+    };
+
+    // 타임아웃 설정
+    const timeoutId = setTimeout(() => {
+      delete window[callbackName];
+      const scriptTag = document.querySelector(`script[data-callback="${callbackName}"]`);
+      if (scriptTag) scriptTag.remove();
+      reject(new Error("Google Sheets API request timeout"));
+    }, 15000);
+
+    // 스크립트 태그 생성
+    const script = document.createElement("script");
+    const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?tqx=out:json&gid=${CONFIG.SHEET_GID}&callback=${callbackName}`;
+    
+    script.src = url;
+    script.setAttribute("data-callback", callbackName);
+    script.onerror = () => {
+      clearTimeout(timeoutId);
+      delete window[callbackName];
+      script.remove();
+      reject(new Error("Failed to load Google Sheets API script"));
+    };
+    script.onload = () => {
+      clearTimeout(timeoutId);
+    };
+
+    document.head.appendChild(script);
+  });
 }
 
 function saveFilterState() {
@@ -187,69 +275,6 @@ function setDefaultDates() {
   
   if (!els.startDate.value) els.startDate.value = toDateInputValue(start);
   if (!els.endDate.value) els.endDate.value = toDateInputValue(today);
-}
-
-// JSONP 방식으로 Google Sheets 데이터 가져오기
-function fetchSheetRowsWithJsonp() {
-  return new Promise((resolve, reject) => {
-    const callbackName = `googleSheetCallback_${Date.now()}`;
-    const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?tqx=out:json&gid=${CONFIG.SHEET_GID}&callback=${callbackName}`;
-
-    // 전역 콜백 함수 설정
-    window[callbackName] = function(response) {
-      try {
-        // 응답 파싱
-        if (response.isError?.()) {
-          reject(new Error(`Google Sheets API Error: ${response.getMessage()}`));
-          return;
-        }
-
-        // 데이터 추출
-        const table = response.getDataTable();
-        const cols = [];
-        const rows = [];
-
-        // 컬럼명 추출
-        for (let i = 0; i < table.getNumberOfColumns(); i++) {
-          cols.push(table.getColumnLabel(i));
-        }
-
-        // 행 데이터 추출
-        for (let i = 0; i < table.getNumberOfRows(); i++) {
-          const row = {};
-          for (let j = 0; j < cols.length; j++) {
-            row[cols[j]] = table.getValue(i, j) || "";
-          }
-          rows.push(row);
-        }
-
-        // 콜백 함수 삭제
-        delete window[callbackName];
-
-        resolve(rows);
-      } catch (error) {
-        delete window[callbackName];
-        reject(error);
-      }
-    };
-
-    // 스크립트 태그 생성 및 추가
-    const script = document.createElement("script");
-    script.src = url;
-    script.onerror = () => {
-      delete window[callbackName];
-      reject(new Error("Failed to load Google Sheets data"));
-    };
-    document.head.appendChild(script);
-
-    // 타임아웃 설정 (10초)
-    setTimeout(() => {
-      if (window[callbackName]) {
-        delete window[callbackName];
-        reject(new Error("Google Sheets API timeout"));
-      }
-    }, 10000);
-  });
 }
 
 function normalizeRows(rows) {
@@ -492,7 +517,7 @@ function showError() {
   if (els.errorState) els.errorState.hidden = false;
   if (els.emptyState) els.emptyState.hidden = true;
   if (els.tableWrap) els.tableWrap.hidden = true;
-  if (els.syncStatus) els.syncStatus.textContent = "데이터 연결 실패 - Google Sheets 공개 설정 확인";
+  if (els.syncStatus) els.syncStatus.textContent = "데이터 연결 실패 - Google Sheets 공개 설정을 확인해주세요";
 }
 
 function exportToCSV() {
