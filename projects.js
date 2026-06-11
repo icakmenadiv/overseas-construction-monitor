@@ -9,6 +9,7 @@ const PROJECT_COLUMNS = [
   "지역",
   "국가",
   "섹터",
+  "발주처",
   "사업비(달러 기준 추정액)",
   "사업비 환산 환율 / 기준",
   "현재 단계",
@@ -30,6 +31,7 @@ const els = {
   sectorFilter: document.getElementById("sectorFilter"),
   stageFilter: document.getElementById("stageFilter"),
   sortSelect: document.getElementById("sortSelect"),
+  knownCostOnly: document.getElementById("knownCostOnly"),
   resetButton: document.getElementById("resetButton"),
   refreshButton: document.getElementById("refreshButton"),
   backToTopButton: document.getElementById("backToTopButton"),
@@ -59,6 +61,7 @@ function bindEvents() {
 
   if (els.keywordInput) els.keywordInput.addEventListener("input", debouncedApplyFilters);
   if (els.sortSelect) els.sortSelect.addEventListener("input", debouncedApplyFilters);
+  if (els.knownCostOnly) els.knownCostOnly.addEventListener("change", applyFilters);
 
   [els.countryFilter, els.sectorFilter, els.stageFilter].forEach((element) => {
     if (element) element.addEventListener("change", debouncedApplyFilters);
@@ -78,6 +81,7 @@ function bindEvents() {
       clearCheckedValues(els.countryFilter);
       clearCheckedValues(els.sectorFilter);
       clearCheckedValues(els.stageFilter);
+      if (els.knownCostOnly) els.knownCostOnly.checked = false;
       if (els.sortSelect) els.sortSelect.value = "cost:desc";
       updateCountryOptions();
       applyFilters();
@@ -156,6 +160,7 @@ function normalizeRows(rows, columns) {
 
 function normalizeProject(row) {
   const costText = row["사업비(달러 기준 추정액)"] || "사업비 미확인";
+  const costValue = parseCostValue(costText);
   const latestDate = parseSheetDate(row["최근 업데이트일"]);
   return {
     projectId: row["프로젝트 고유값"],
@@ -163,8 +168,10 @@ function normalizeProject(row) {
     region: row["지역"],
     country: row["국가"],
     sector: row["섹터"],
+    owner: row["발주처"],
     costText,
-    costValue: parseCostValue(costText),
+    costValue,
+    costKnown: costValue > 0 && !isUnknownCost(costText),
     exchangeBasis: row["사업비 환산 환율 / 기준"],
     stage: row["현재 단계"] || "-",
     latestDate,
@@ -175,17 +182,22 @@ function normalizeProject(row) {
 }
 
 function parseCostValue(value) {
-  if (!value || value === "사업비 미확인" || value === "미공개") return 0;
+  if (isUnknownCost(value)) return 0;
   const text = String(value).toLowerCase().replace(/,/g, "");
   const firstNumber = Number((text.match(/[0-9]+(?:\.[0-9]+)?/) || [0])[0]);
   if (!firstNumber) return 0;
-  if (text.includes("billion")) return firstNumber * 1_000_000_000;
-  if (text.includes("million")) return firstNumber * 1_000_000;
-  if (text.includes("bn")) return firstNumber * 1_000_000_000;
-  if (text.includes("mn")) return firstNumber * 1_000_000;
+  if (text.includes("billion") || text.includes("bn")) return firstNumber * 1_000_000_000;
+  if (text.includes("million") || text.includes("mn") || text.includes("백만")) {
+    return firstNumber * 1_000_000;
+  }
   if (text.includes("억") && text.includes("달러")) return firstNumber * 100_000_000;
   if (text.includes("만") && text.includes("달러")) return firstNumber * 10_000;
   return firstNumber;
+}
+
+function isUnknownCost(value) {
+  const text = String(value || "").trim();
+  return !text || text === "사업비 미확인" || text === "미공개";
 }
 
 function populateFilters() {
@@ -262,11 +274,12 @@ function applyFilters() {
   const countries = getCheckedValues(els.countryFilter);
   const sectors = getCheckedValues(els.sectorFilter);
   const stages = getCheckedValues(els.stageFilter);
+  const knownCostOnly = Boolean(els.knownCostOnly?.checked);
 
   let projects = state.projects.filter((project) => {
     const keywordOk =
       !keyword ||
-      [project.name, project.region, project.country, project.sector, project.stage]
+      [project.name, project.owner, project.region, project.country, project.sector, project.stage]
         .join(" ")
         .toLowerCase()
         .includes(keyword);
@@ -274,7 +287,8 @@ function applyFilters() {
     const countryOk = !countries.length || countries.includes(project.country);
     const sectorOk = !sectors.length || sectors.includes(project.sector);
     const stageOk = !stages.length || stages.includes(project.stage);
-    return keywordOk && regionOk && countryOk && sectorOk && stageOk;
+    const costOk = !knownCostOnly || project.costKnown;
+    return keywordOk && regionOk && countryOk && sectorOk && stageOk && costOk;
   });
 
   projects = sortProjects(projects, els.sortSelect?.value || "cost:desc");
@@ -323,6 +337,7 @@ function renderProjects() {
       <td><span class="pill">${escapeHtml(project.region || "-")}</span></td>
       <td>${escapeHtml(project.country || "-")}</td>
       <td>${escapeHtml(project.sector || "-")}</td>
+      <td>${escapeHtml(project.owner || "-")}</td>
       <td>${escapeHtml(formatCost(project.costText))}</td>
       <td><span class="pill stage-pill">${escapeHtml(project.stage || "-")}</span></td>
       <td class="date-cell">${escapeHtml(project.latestDateText)}</td>
@@ -342,10 +357,8 @@ function buildProjectUrl(project) {
 }
 
 function formatCost(value) {
-  if (!value || value === "사업비 미확인") return "사업비 미확인";
-  return value.includes("$") || value.includes("달러") || value.toLowerCase().includes("usd")
-    ? value
-    : `${value} (USD)`;
+  if (isUnknownCost(value)) return "사업비 미확인";
+  return String(value).replace(/^약\s*/, "");
 }
 
 function updateActiveFilterText() {
@@ -355,6 +368,7 @@ function updateActiveFilterText() {
   pushSelectedFilter(filters, "국가", getCheckedValues(els.countryFilter));
   pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
   pushSelectedFilter(filters, "단계", getCheckedValues(els.stageFilter));
+  if (els.knownCostOnly?.checked) filters.push("사업비 확인 건만");
   els.activeFilterText.textContent = filters.length ? filters.join(" · ") : "전체 프로젝트";
 }
 
