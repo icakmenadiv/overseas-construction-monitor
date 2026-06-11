@@ -28,6 +28,24 @@ const REQUIRED_COLUMNS = [
   "출처링크",
 ];
 
+const EXPORT_COLUMNS = [
+  "원문게재일",
+  "기사수집일",
+  "지역",
+  "국가",
+  "섹터",
+  "주제",
+  "정보 분류",
+  "프로젝트명",
+  "관련 단계",
+  "제목(한글)",
+  "제목(원문)",
+  "내용",
+  "중요도",
+  "출처언어",
+  "출처링크",
+];
+
 const state = {
   rows: [],
   filteredRows: [],
@@ -44,6 +62,7 @@ const els = {
   regionFilter: document.getElementById("regionFilter"),
   countryFilter: document.getElementById("countryFilter"),
   sectorFilter: document.getElementById("sectorFilter"),
+  infoClassFilter: document.getElementById("infoClassFilter"),
   sortSelect: document.getElementById("sortSelect"),
   resetButton: document.getElementById("resetButton"),
   refreshButton: document.getElementById("refreshButton"),
@@ -98,6 +117,7 @@ function bindEvents() {
     els.regionFilter,
     els.countryFilter,
     els.sectorFilter,
+    els.infoClassFilter,
     els.sortSelect,
   ].forEach((element) => {
     if (element) element.addEventListener("input", debouncedApplyFilters);
@@ -116,6 +136,7 @@ function bindEvents() {
       if (els.regionFilter) els.regionFilter.value = "";
       if (els.countryFilter) els.countryFilter.value = "";
       if (els.sectorFilter) els.sectorFilter.value = "";
+      if (els.infoClassFilter) els.infoClassFilter.value = "";
       if (els.sortSelect) els.sortSelect.value = "원문게재일:desc";
       setDefaultDates();
       updateCountryOptions();
@@ -167,33 +188,25 @@ async function refreshData() {
   }
 }
 
-// GViz JSON 직접 읽기 (Google Charts 라이브러리 불필요)
 async function fetchSheetData() {
   try {
     const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${CONFIG.SHEET_GID}&tqx=out:json`;
-    
     const response = await fetch(url);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
 
     const text = await response.text();
-    
-    // GViz 응답에서 JSON 부분 추출
     const jsonStart = text.indexOf("{");
     const jsonEnd = text.lastIndexOf("}") + 1;
-    
     if (jsonStart === -1 || jsonEnd === 0) {
       throw new Error("Invalid GViz response format");
     }
 
-    const jsonText = text.substring(jsonStart, jsonEnd);
-    const data = JSON.parse(jsonText);
-
-    // 데이터 파싱
+    const data = JSON.parse(text.substring(jsonStart, jsonEnd));
     const rows = [];
     const cols = data.table.cols.map((col) => col.label || "");
-    
+
     data.table.rows.forEach((row) => {
       const item = {};
       cols.forEach((col, index) => {
@@ -218,6 +231,7 @@ function saveFilterState() {
     region: els.regionFilter?.value || "",
     country: els.countryFilter?.value || "",
     sector: els.sectorFilter?.value || "",
+    infoClass: els.infoClassFilter?.value || "",
     sort: els.sortSelect?.value || "원문게재일:desc",
   };
   try {
@@ -238,6 +252,7 @@ function loadFilterState() {
       if (els.regionFilter) els.regionFilter.value = filterState.region || "";
       if (els.countryFilter) els.countryFilter.value = filterState.country || "";
       if (els.sectorFilter) els.sectorFilter.value = filterState.sector || "";
+      if (els.infoClassFilter) els.infoClassFilter.value = filterState.infoClass || "";
       if (els.sortSelect) els.sortSelect.value = filterState.sort || "원문게재일:desc";
     }
   } catch (e) {
@@ -249,7 +264,7 @@ function setDefaultDates() {
   const today = new Date();
   const start = new Date(today);
   start.setDate(today.getDate() - CONFIG.DEFAULT_PERIOD_DAYS + 1);
-  
+
   if (!els.startDate.value) els.startDate.value = toDateInputValue(start);
   if (!els.endDate.value) els.endDate.value = toDateInputValue(today);
 }
@@ -298,6 +313,7 @@ function parseSheetDate(value) {
 function populateFilters() {
   setOptions(els.regionFilter, uniqueValues(state.rows, "지역"));
   setOptions(els.sectorFilter, uniqueValues(state.rows, "섹터"));
+  setOptions(els.infoClassFilter, uniqueValues(state.rows, "정보 분류"));
   updateCountryOptions();
 }
 
@@ -320,6 +336,7 @@ function uniqueValues(rows, key) {
 }
 
 function setOptions(select, values) {
+  if (!select) return;
   select.innerHTML = '<option value="">전체</option>';
   values.forEach((value) => {
     const option = document.createElement("option");
@@ -336,6 +353,7 @@ function applyFilters() {
   const region = els.regionFilter?.value || "";
   const country = els.countryFilter?.value || "";
   const sector = els.sectorFilter?.value || "";
+  const infoClass = els.infoClassFilter?.value || "";
 
   let rows = state.rows.filter((row) => {
     const date = row._publishedDate;
@@ -343,6 +361,7 @@ function applyFilters() {
     const regionOk = !region || row["지역"] === region;
     const countryOk = !country || row["국가"] === country;
     const sectorOk = !sector || row["섹터"] === sector;
+    const infoClassOk = !infoClass || row["정보 분류"] === infoClass;
     const keywordOk =
       !keyword ||
       [
@@ -355,11 +374,9 @@ function applyFilters() {
         "주제",
         "정보 분류",
         "프로젝트명",
-        "프로젝트 고유값",
-        "기사 고유값",
       ].some((key) => row[key].toLowerCase().includes(keyword));
 
-    return dateOk && regionOk && countryOk && sectorOk && keywordOk;
+    return dateOk && regionOk && countryOk && sectorOk && infoClassOk && keywordOk;
   });
 
   rows = sortRows(rows, els.sortSelect?.value || "원문게재일:desc");
@@ -432,8 +449,8 @@ function createMainRow(row, isExpanded) {
     <td>${escapeHtml(row["국가"] || "-")}</td>
     <td>${escapeHtml(row["섹터"] || "-")}</td>
     <td>${escapeHtml(row["주제"] || "-")}</td>
+    <td><span class="pill info-pill">${escapeHtml(row["정보 분류"] || "-")}</span></td>
     <td>${renderTitleLink(row)}</td>
-    <td>${escapeHtml(row["출처언어"] || "-")}</td>
     <td><button class="detail-button" type="button" aria-expanded="${isExpanded}" aria-label="상세 보기">${
       isExpanded ? "−" : "+"
     }</button></td>
@@ -461,7 +478,6 @@ function createDetailRow(row) {
         <div class="detail-meta">
           ${row["정보 분류"] ? `<span><strong>정보 분류</strong> ${escapeHtml(row["정보 분류"])}</span>` : ""}
           ${row["관련 단계"] ? `<span><strong>관련 단계</strong> ${escapeHtml(row["관련 단계"])}</span>` : ""}
-          ${row["기사 고유값"] ? `<span><strong>기사 고유값</strong> ${escapeHtml(row["기사 고유값"])}</span>` : ""}
           <span><strong>기사수집일</strong> ${escapeHtml(formatDate(row._collectedDate) || row["기사수집일"] || "-")}</span>
           <span><strong>출처언어</strong> ${escapeHtml(row["출처언어"] || "-")}</span>
           ${row["출처링크"] ? `<a href="${escapeAttribute(row["출처링크"])}" target="_blank" rel="noreferrer">원문 링크 열기</a>` : "<span>원문 링크 없음</span>"}
@@ -476,7 +492,6 @@ function renderProjectBlock(row) {
   if (!isProjectArticle(row)) return "";
 
   const projectName = row["프로젝트명"] || "프로젝트명 미입력";
-  const projectId = row["프로젝트 고유값"] || "";
   const detailUrl = buildProjectDetailUrl(row);
 
   return `
@@ -484,7 +499,6 @@ function renderProjectBlock(row) {
       <div>
         <strong>프로젝트명</strong>
         <span>${escapeHtml(projectName)}</span>
-        ${projectId ? `<small>${escapeHtml(projectId)}</small>` : ""}
       </div>
       <a class="project-detail-link" href="${escapeAttribute(detailUrl)}">프로젝트 상세페이지</a>
     </div>
@@ -492,13 +506,14 @@ function renderProjectBlock(row) {
 }
 
 function isProjectArticle(row) {
-  return row["정보 분류"] === "프로젝트 정보" || Boolean(row["프로젝트 고유값"] || row["프로젝트명"]);
+  return row["정보 분류"] === "프로젝트 정보" || Boolean(row["프로젝트명"]);
 }
 
 function buildProjectDetailUrl(row) {
   const params = new URLSearchParams();
-  if (row["프로젝트 고유값"]) params.set("id", row["프로젝트 고유값"]);
   if (row["프로젝트명"]) params.set("name", row["프로젝트명"]);
+  if (row["국가"]) params.set("country", row["국가"]);
+  if (row["섹터"]) params.set("sector", row["섹터"]);
   return `./project.html?${params.toString()}`;
 }
 
@@ -528,6 +543,7 @@ function updateActiveFilterText() {
   if (els.regionFilter?.value) filters.push(`지역: ${els.regionFilter.value}`);
   if (els.countryFilter?.value) filters.push(`국가: ${els.countryFilter.value}`);
   if (els.sectorFilter?.value) filters.push(`섹터: ${els.sectorFilter.value}`);
+  if (els.infoClassFilter?.value) filters.push(`정보 분류: ${els.infoClassFilter.value}`);
   if (els.activeFilterText) {
     els.activeFilterText.textContent = filters.length ? filters.join(" · ") : "전체 기간";
   }
@@ -552,7 +568,7 @@ function exportToCSV() {
     els.exportButton.disabled = true;
     els.exportButton.textContent = "내보내는 중...";
 
-    const headers = REQUIRED_COLUMNS;
+    const headers = EXPORT_COLUMNS;
     const csvContent = [
       headers.map((h) => `"${h}"`).join(","),
       ...state.filteredRows.map((row) =>
@@ -565,7 +581,7 @@ function exportToCSV() {
     const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = `dashboard-${new Date().toISOString().split("T")[0]}.csv`;
+    link.download = `market-monitoring-${new Date().toISOString().split("T")[0]}.csv`;
     link.click();
     URL.revokeObjectURL(link.href);
   } catch (error) {
