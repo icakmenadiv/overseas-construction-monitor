@@ -9,8 +9,12 @@
       content="국가별 해외 건설·인프라 시장뉴스 통합 조회 대시보드"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <!-- Google Visualization API -->
+    <!-- Google Visualization API 로더 -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      // Google Visualization API 초기화
+      google.charts.load('current', { packages: ['corechart', 'table'] });
+    </script>
   </head>
   <body>
     <header class="site-header">
