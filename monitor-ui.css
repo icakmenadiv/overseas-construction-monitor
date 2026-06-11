@@ -43,6 +43,10 @@
   min-width: 0;
 }
 
+.field-toggle {
+  min-width: 220px;
+}
+
 .checkbox-filter {
   display: flex;
   align-items: flex-start;
@@ -57,14 +61,16 @@
   background: #f8fbff;
 }
 
-.check-chip {
+.check-chip,
+.cost-toggle {
   position: relative;
   display: inline-flex;
   cursor: pointer;
   user-select: none;
 }
 
-.check-chip input {
+.check-chip input,
+.cost-toggle input {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -74,7 +80,8 @@
   cursor: pointer;
 }
 
-.check-chip span {
+.check-chip span,
+.cost-toggle span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -91,19 +98,27 @@
   transition: background 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
 }
 
-.check-chip:hover span {
+.cost-toggle span {
+  min-height: 48px;
+  padding: 0 16px;
+}
+
+.check-chip:hover span,
+.cost-toggle:hover span {
   border-color: rgba(19, 92, 155, 0.36);
   box-shadow: 0 5px 14px rgba(22, 46, 78, 0.08);
 }
 
-.check-chip input:checked + span {
+.check-chip input:checked + span,
+.cost-toggle input:checked + span {
   color: #ffffff;
   border-color: transparent;
   background: #135c9b;
   box-shadow: 0 8px 18px rgba(19, 92, 155, 0.18);
 }
 
-.check-chip input:focus-visible + span {
+.check-chip input:focus-visible + span,
+.cost-toggle input:focus-visible + span {
   outline: 3px solid rgba(67, 156, 231, 0.35);
   outline-offset: 2px;
 }
@@ -128,7 +143,7 @@
 }
 
 .project-list-table {
-  min-width: 1180px;
+  min-width: 1320px;
 }
 
 .field-grid-market {
@@ -177,7 +192,8 @@
     max-height: 180px;
   }
 
-  .check-chip span {
+  .check-chip span,
+  .cost-toggle span {
     min-height: 40px;
     padding: 0 14px;
   }
