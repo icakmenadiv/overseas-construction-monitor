@@ -1,6 +1,6 @@
 (() => {
-  const OPEN_DELAY_MS = 180;
-  const CLOSE_DELAY_MS = 300;
+  const OPEN_DELAY_MS = 420;
+  const CLOSE_DELAY_MS = 850;
   const timers = new WeakMap();
 
   function buildCollapsibleFilters() {
@@ -30,6 +30,7 @@
       field.append(details);
 
       updateFilterSummary(details);
+      bindHoverEvents(details);
       filter.addEventListener("change", () => updateFilterSummary(details));
       new MutationObserver(() => updateFilterSummary(details)).observe(filter, {
         childList: true,
@@ -38,6 +39,11 @@
         attributeFilter: ["checked"],
       });
     });
+  }
+
+  function bindHoverEvents(details) {
+    details.addEventListener("pointerenter", () => openFilter(details));
+    details.addEventListener("pointerleave", () => closeFilter(details));
   }
 
   function updateFilterSummary(details) {
@@ -97,35 +103,7 @@
     rememberTimers(details, { closeTimer });
   }
 
-  function getFilterDetails(event) {
-    const target = event.target;
-    if (!(target instanceof Element)) return null;
-    return target.closest(".filter-collapse");
-  }
-
   buildCollapsibleFilters();
-
-  document.addEventListener(
-    "mouseenter",
-    (event) => {
-      const details = getFilterDetails(event);
-      if (!details) return;
-      event.stopImmediatePropagation();
-      openFilter(details);
-    },
-    true,
-  );
-
-  document.addEventListener(
-    "mouseleave",
-    (event) => {
-      const details = getFilterDetails(event);
-      if (!details) return;
-      event.stopImmediatePropagation();
-      closeFilter(details);
-    },
-    true,
-  );
 
   document.addEventListener("toggle", (event) => {
     const details = event.target;
