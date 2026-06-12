@@ -69,58 +69,6 @@
       <button type="button" class="back-to-top" id="backToTopButton">상단으로 이동</button>
     </footer>
 
-    <script src="./project.js"></script>
-    <script>
-      (() => {
-        if (typeof window.buildArticleItems !== "function") return;
-
-        const originalBuildArticleItems = window.buildArticleItems;
-        const normalizeKey = (value) => String(value || "").replace(/\s+/g, " ").trim().toLowerCase();
-
-        window.buildArticleItems = function buildArticleItemsWithResultFallback(project, mappings, articleMap) {
-          const items = originalBuildArticleItems(project, mappings, articleMap);
-          const seenArticleIds = new Set(
-            items.map((item) => item.mapping?.["기사 고유값"]).filter(Boolean),
-          );
-          const projectId = project["프로젝트 고유값"];
-          const projectName = normalizeKey(project["프로젝트명"]);
-          const country = project["국가"];
-          const sector = project["섹터"];
-          const extraItems = [];
-
-          articleMap.forEach((article, articleId) => {
-            if (!articleId || seenArticleIds.has(articleId)) return;
-            if (article["정보 분류"] !== "프로젝트 정보") return;
-
-            const idMatch = projectId && article["프로젝트 고유값"] === projectId;
-            const nameMatch =
-              projectName &&
-              normalizeKey(article["프로젝트명"]) === projectName &&
-              (!country || article["국가"] === country) &&
-              (!sector || article["섹터"] === sector);
-
-            if (!idMatch && !nameMatch) return;
-            seenArticleIds.add(articleId);
-            extraItems.push({
-              mapping: {
-                "기사 고유값": articleId,
-                "기사일자": article["원문게재일"] || project["최근 업데이트일"],
-                "기사 시점 단계": article["관련 단계"] || project["현재 단계"],
-                "해당 기사 기준 사업비": project["사업비(달러 기준 추정액)"],
-                "대표기사 여부": articleId === project["대표 기사 고유값"] ? "Y" : "",
-                "비고": "결과 탭 기준 자동 연결",
-              },
-              article,
-            });
-          });
-
-          return [...items, ...extraItems].sort(
-            (a, b) =>
-              (parseSheetDate(b.mapping["기사일자"])?.getTime() || 0) -
-              (parseSheetDate(a.mapping["기사일자"])?.getTime() || 0),
-          );
-        };
-      })();
-    </script>
+    <script src="./project.js?v=20260612-4"></script>
   </body>
 </html>
