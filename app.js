@@ -533,7 +533,7 @@ function createDetailRow(row) {
 function renderProjectBlock(row) {
   if (!isProjectArticle(row)) return "";
 
-  const projectName = row["프로젝트명"] || "프로젝트명 미입력";
+  const projectName = row["프로젝트명"];
   const detailUrl = buildProjectDetailUrl(row);
 
   return `
@@ -548,7 +548,7 @@ function renderProjectBlock(row) {
 }
 
 function isProjectArticle(row) {
-  return row["정보 분류"] === "프로젝트 정보" || Boolean(row["프로젝트명"]);
+  return Boolean(row["프로젝트명"]);
 }
 
 function buildProjectDetailUrl(row) {
