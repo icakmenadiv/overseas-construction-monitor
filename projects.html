@@ -178,5 +178,21 @@
 
     <script src="./projects.js"></script>
     <script src="./filter-hover.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const resetButton = document.getElementById("resetButton");
+        const includeSmallCost = document.getElementById("includeSmallCost");
+        const includeUnknownCost = document.getElementById("includeUnknownCost");
+        if (!resetButton || !includeSmallCost || !includeUnknownCost) return;
+
+        resetButton.addEventListener("click", () => {
+          window.setTimeout(() => {
+            includeSmallCost.checked = true;
+            includeUnknownCost.checked = true;
+            if (typeof applyFilters === "function") applyFilters();
+          }, 0);
+        });
+      });
+    </script>
   </body>
 </html>
