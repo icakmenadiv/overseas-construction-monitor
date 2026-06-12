@@ -1,0 +1,192 @@
+:root {
+  --brand-green: #41b649;
+  --brand-blue: #006cb7;
+}
+
+.site-header {
+  min-height: 150px;
+  padding-top: 28px;
+  padding-bottom: 34px;
+}
+
+.site-header::after {
+  right: clamp(18px, 8vw, 140px);
+  bottom: -46px;
+  width: clamp(230px, 24vw, 390px);
+  height: clamp(126px, 14vw, 216px);
+  border: 0;
+  border-radius: 0;
+  background: url("./assets/logo-mark.svg") center / contain no-repeat;
+  filter: drop-shadow(0 22px 40px rgba(0, 0, 0, 0.22));
+  opacity: 0.22;
+  transform: rotate(-4deg);
+}
+
+.brand-wrap {
+  gap: clamp(18px, 2vw, 30px);
+}
+
+.brand {
+  width: clamp(212px, 17vw, 272px);
+  height: clamp(76px, 6vw, 94px);
+  padding: 12px 18px;
+  border-color: rgba(255, 255, 255, 0.68);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.99), rgba(244, 250, 255, 0.97));
+  box-shadow:
+    0 22px 46px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.92);
+}
+
+.brand::before {
+  position: absolute;
+  inset: auto 12px 8px 12px;
+  height: 4px;
+  content: "";
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--brand-green), var(--brand-blue));
+  opacity: 0.88;
+}
+
+.brand-logo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 226px;
+  max-height: 62px;
+}
+
+.brand-fallback {
+  position: relative;
+  z-index: 1;
+}
+
+.control-panel,
+.results-section,
+.project-section,
+.summary-item {
+  overflow: hidden;
+}
+
+.control-panel::after,
+.results-section::after,
+.project-section::after {
+  position: absolute;
+  right: -34px;
+  bottom: -24px;
+  z-index: 0;
+  width: 170px;
+  height: 94px;
+  content: "";
+  background: url("./assets/logo-mark.svg") center / contain no-repeat;
+  opacity: 0.055;
+  pointer-events: none;
+}
+
+.results-section::after,
+.project-section::after {
+  top: 10px;
+  right: 22px;
+  bottom: auto;
+  width: 150px;
+  height: 82px;
+  opacity: 0.07;
+}
+
+.section-head {
+  position: relative;
+}
+
+.section-head::before {
+  flex: 0 0 auto;
+  width: 76px;
+  height: 42px;
+  content: "";
+  order: 2;
+  margin-left: auto;
+  background: url("./assets/logo-mark.svg") center / contain no-repeat;
+  opacity: 0.24;
+}
+
+.section-head .result-count {
+  order: 3;
+}
+
+.summary-item::before {
+  background: url("./assets/logo-mark.svg") center / contain no-repeat,
+    linear-gradient(135deg, rgba(22, 166, 201, 0.16), rgba(65, 182, 73, 0.12));
+  opacity: 0.68;
+}
+
+.footer-brand {
+  padding: 10px 14px;
+  border: 1px solid rgba(18, 83, 164, 0.12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 24px rgba(7, 26, 51, 0.08);
+}
+
+.footer-brand img {
+  width: clamp(174px, 15vw, 230px);
+  max-height: 58px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+@media (max-width: 920px) {
+  .site-header::after {
+    right: -36px;
+    bottom: 22px;
+    width: 250px;
+    height: 138px;
+    opacity: 0.13;
+  }
+
+  .brand-wrap {
+    align-items: flex-start;
+  }
+
+  .brand {
+    width: min(250px, 78vw);
+    height: 84px;
+  }
+
+  .brand-logo {
+    max-width: 210px;
+    max-height: 58px;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-header {
+    min-height: 0;
+  }
+
+  .brand {
+    width: min(232px, 100%);
+    height: 78px;
+  }
+
+  .brand-logo {
+    max-width: 198px;
+    max-height: 54px;
+  }
+
+  .section-head::before {
+    width: 68px;
+    height: 38px;
+    margin-left: 0;
+    opacity: 0.18;
+  }
+
+  .footer-brand {
+    align-self: flex-start;
+  }
+
+  .footer-brand img {
+    width: min(210px, 72vw);
+  }
+}
