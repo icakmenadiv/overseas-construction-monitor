@@ -26,9 +26,9 @@ body:has(#projectBody) .control-panel .field-label {
   gap: 12px;
   border-radius: 11px;
   transition:
-    background 220ms ease,
-    box-shadow 220ms ease,
-    color 220ms ease;
+    background 520ms ease,
+    box-shadow 520ms ease,
+    color 520ms ease;
 }
 
 .filter-collapse summary:hover,
@@ -40,7 +40,7 @@ body:has(#projectBody) .control-panel .field-label {
 .filter-collapse summary::after {
   flex: 0 0 auto;
   font-size: 1.08rem;
-  transition: transform 280ms ease;
+  transition: transform 720ms ease;
 }
 
 .filter-title {
@@ -61,8 +61,8 @@ body:has(#projectBody) .control-panel .field-label {
   opacity: 0;
   transform: translateY(-4px);
   transition:
-    opacity 260ms ease,
-    transform 260ms ease;
+    opacity 720ms ease,
+    transform 720ms ease;
 }
 
 .filter-collapse[open] .checkbox-filter,
