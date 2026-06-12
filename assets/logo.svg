@@ -1,16 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 165" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 636" role="img" aria-labelledby="title desc">
   <title id="title">해외건설협회 ICAK</title>
-  <desc id="desc">International Contractors Association of Korea logo</desc>
-  <rect width="680" height="165" rx="10" fill="#fff"/>
-  <g transform="translate(36 24)">
-    <path d="M0 45 C32 20 68 9 110 12 L99 38 C68 36 42 43 18 62 Z" fill="#41b649"/>
-    <path d="M116 13 C155 12 189 22 220 45 L202 65 C179 50 151 42 120 42 Z" fill="#006cb7"/>
-    <path d="M45 70 C75 54 108 49 145 57 L135 86 C103 80 73 85 49 101 Z" fill="#41b649"/>
-    <text x="22" y="126" fill="#2f3338" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="700" letter-spacing="12">ICAK</text>
-  </g>
-  <g transform="translate(280 46)">
-    <text x="0" y="46" fill="#30343b" font-family="Pretendard, 'Noto Sans KR', Arial, sans-serif" font-size="46" font-weight="800">해외건설협회</text>
-    <text x="3" y="84" fill="#30343b" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">International Contractors</text>
-    <text x="3" y="108" fill="#30343b" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">Association of Korea</text>
-  </g>
+  <desc id="desc">International Contractors Association of Korea official CI</desc>
+  <image width="1000" height="636" href="https://www.icak.or.kr/file/icak_ci.jpg" preserveAspectRatio="xMidYMid meet"/>
 </svg>
