@@ -7,6 +7,21 @@ const CONFIG = {
   DISPLAY_LIMIT: 200,
 };
 
+const INFO_CLASS_ORDER = [
+  "프로젝트 정보",
+  "인프라 투자 동향",
+  "정부/민간 인프라 투자동향",
+  "건설 관련 법령 제·개정",
+  "건설관련 법령 제개정",
+  "외국 기업 동향",
+  "외국기업 동향",
+];
+
+const INFO_CLASS_FILTER_LABELS = {
+  "인프라 투자 동향": "정부/민간 인프라 투자동향",
+  "정부/민간 인프라 투자동향": "정부/민간 인프라 투자동향",
+};
+
 const REQUIRED_COLUMNS = [
   "원문게재일",
   "기사수집일",
@@ -88,6 +103,8 @@ const els = {
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
+  setupUnifiedHeader();
+  enableHoverFilters();
   els.sheetLink.href = CONFIG.SHEET_VIEW_URL;
   els.footerSheetLink.href = CONFIG.SHEET_VIEW_URL;
   loadFilterState();
@@ -107,6 +124,32 @@ async function init() {
     console.error("Data fetch error:", error);
     showError();
   }
+}
+
+function setupUnifiedHeader() {
+  const eyebrow = document.querySelector(".brand-wrap .eyebrow");
+  const title = document.querySelector(".brand-wrap h1");
+  const subtitle = document.querySelector(".brand-wrap .subtitle");
+  if (eyebrow) eyebrow.textContent = "해외건설협회 통합 모니터링";
+  if (title) title.textContent = "해외 건설시장 모니터링";
+  if (subtitle) {
+    subtitle.textContent = "해외건설협회가 수집한 해외 건설·인프라 시장뉴스와 프로젝트 정보를 통합 조회합니다.";
+  }
+}
+
+function enableHoverFilters() {
+  document.querySelectorAll(".filter-collapse").forEach((details) => {
+    let closeTimer;
+    details.addEventListener("mouseenter", () => {
+      clearTimeout(closeTimer);
+      details.open = true;
+    });
+    details.addEventListener("mouseleave", () => {
+      closeTimer = setTimeout(() => {
+        details.open = false;
+      }, 120);
+    });
+  });
 }
 
 function bindEvents() {
@@ -309,8 +352,9 @@ function populateFilters() {
   setCheckboxOptions(els.sectorFilter, uniqueValues(state.rows, "섹터"), getInitialSelection("sector", els.sectorFilter));
   setCheckboxOptions(
     els.infoClassFilter,
-    uniqueValues(state.rows, "정보 분류"),
+    sortInfoClasses(uniqueValues(state.rows, "정보 분류")),
     getInitialSelection("infoClass", els.infoClassFilter),
+    formatInfoClassFilterLabel,
   );
   updateCountryOptions();
   savedFilterState = null;
@@ -336,7 +380,23 @@ function uniqueValues(rows, key) {
   );
 }
 
-function setCheckboxOptions(container, values, selectedValues = []) {
+function sortInfoClasses(values) {
+  return [...values].sort((a, b) => {
+    const rank = getInfoClassRank(a) - getInfoClassRank(b);
+    return rank || a.localeCompare(b, "ko");
+  });
+}
+
+function getInfoClassRank(value) {
+  const index = INFO_CLASS_ORDER.indexOf(value);
+  return index === -1 ? 999 : index;
+}
+
+function formatInfoClassFilterLabel(value) {
+  return INFO_CLASS_FILTER_LABELS[value] || value;
+}
+
+function setCheckboxOptions(container, values, selectedValues = [], labelFormatter = (value) => value) {
   if (!container) return;
   const selected = new Set(selectedValues);
   container.innerHTML = "";
@@ -360,7 +420,7 @@ function setCheckboxOptions(container, values, selectedValues = []) {
     input.id = `${container.id}-${index}`;
 
     const text = document.createElement("span");
-    text.textContent = value;
+    text.textContent = labelFormatter(value);
 
     label.append(input, text);
     container.appendChild(label);
@@ -412,7 +472,8 @@ function applyFilters() {
         "주제",
         "정보 분류",
         "프로젝트명",
-      ].some((key) => row[key].toLowerCase().includes(keyword));
+      ].some((key) => row[key].toLowerCase().includes(keyword)) ||
+      formatInfoClassFilterLabel(row["정보 분류"]).toLowerCase().includes(keyword);
 
     return dateOk && regionOk && countryOk && sectorOk && infoClassOk && keywordOk;
   });
@@ -434,6 +495,10 @@ function sortRows(rows, sortValue) {
       const timeA = (key === "원문게재일" ? a._publishedDate : a._collectedDate)?.getTime() || 0;
       const timeB = (key === "원문게재일" ? b._publishedDate : b._collectedDate)?.getTime() || 0;
       return (timeA - timeB) * multiplier;
+    }
+    if (key === "정보 분류") {
+      const rank = getInfoClassRank(a[key]) - getInfoClassRank(b[key]);
+      return (rank || a[key].localeCompare(b[key], "ko")) * multiplier;
     }
     return a[key].localeCompare(b[key], "ko") * multiplier;
   });
@@ -585,7 +650,7 @@ function updateActiveFilterText() {
   pushSelectedFilter(filters, "지역", getCheckedValues(els.regionFilter));
   pushSelectedFilter(filters, "국가", getCheckedValues(els.countryFilter));
   pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
-  pushSelectedFilter(filters, "정보 분류", getCheckedValues(els.infoClassFilter));
+  pushSelectedFilter(filters, "정보 분류", getCheckedValues(els.infoClassFilter).map(formatInfoClassFilterLabel));
   if (els.activeFilterText) {
     els.activeFilterText.textContent = filters.length ? filters.join(" · ") : "전체 기간";
   }
