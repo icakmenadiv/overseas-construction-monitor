@@ -4,6 +4,16 @@
   const FETCH_TIMEOUT_MS = 7000;
   const JSONP_TIMEOUT_MS = 12000;
 
+  if (typeof window.debounce !== "function") {
+    window.debounce = function (fn, delay) {
+      let timeoutId;
+      return function (...args) {
+        window.clearTimeout(timeoutId);
+        timeoutId = window.setTimeout(() => fn.apply(this, args), delay);
+      };
+    };
+  }
+
   if (!window.fetch) return;
 
   const originalFetch = window.fetch.bind(window);
