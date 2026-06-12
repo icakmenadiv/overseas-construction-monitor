@@ -65,6 +65,7 @@ const state = {
   rows: [],
   filteredRows: [],
   expanded: new Set(),
+  highPriorityOnly: false,
 };
 
 let savedFilterState = null;
@@ -84,6 +85,7 @@ const els = {
   resetButton: document.getElementById("resetButton"),
   refreshButton: document.getElementById("refreshButton"),
   exportButton: document.getElementById("exportButton"),
+  highPriorityButton: document.getElementById("highPriorityButton"),
   backToTopButton: document.getElementById("backToTopButton"),
   activeFilterText: document.getElementById("activeFilterText"),
   totalCount: document.getElementById("totalCount"),
@@ -111,6 +113,7 @@ async function init() {
   loadFilterState();
   bindEvents();
   setDefaultDates();
+  syncHighPriorityButton();
 
   try {
     const rows = await fetchSheetData();
@@ -143,6 +146,10 @@ function setupActionLabels() {
   if (els.exportButton) {
     els.exportButton.textContent = "📥 목록 다운로드";
     els.exportButton.title = "CSV 목록 다운로드";
+  }
+  if (els.highPriorityButton) {
+    els.highPriorityButton.innerHTML = `중요도 '상' 기사만 보기 <span class="beta-badge">BETA</span>`;
+    els.highPriorityButton.title = "운영시트의 중요도 '상' 기사만 노출";
   }
   if (els.backToTopButton) els.backToTopButton.textContent = "상단으로 가기";
 }
@@ -188,6 +195,8 @@ function bindEvents() {
       clearCheckedValues(els.sectorFilter);
       clearCheckedValues(els.infoClassFilter);
       if (els.sortSelect) els.sortSelect.value = "원문게재일:desc";
+      state.highPriorityOnly = false;
+      syncHighPriorityButton();
       setDefaultDates(true);
       state.expanded.clear();
       updateCountryOptions();
@@ -202,6 +211,15 @@ function bindEvents() {
 
   if (els.exportButton) {
     els.exportButton.addEventListener("click", exportToCSV);
+  }
+
+  if (els.highPriorityButton) {
+    els.highPriorityButton.addEventListener("click", () => {
+      state.highPriorityOnly = !state.highPriorityOnly;
+      state.expanded.clear();
+      syncHighPriorityButton();
+      applyFilters();
+    });
   }
 
   if (els.backToTopButton) {
@@ -285,6 +303,7 @@ function saveFilterState() {
     sector: getCheckedValues(els.sectorFilter),
     infoClass: getCheckedValues(els.infoClassFilter),
     sort: els.sortSelect?.value || "원문게재일:desc",
+    highPriorityOnly: state.highPriorityOnly,
   };
   try {
     localStorage.setItem("dashboardFilters", JSON.stringify(filterState));
@@ -303,6 +322,7 @@ function loadFilterState() {
       if (els.startDate) els.startDate.value = filterState.startDate || "";
       if (els.endDate) els.endDate.value = filterState.endDate || "";
       if (els.sortSelect) els.sortSelect.value = filterState.sort || "원문게재일:desc";
+      state.highPriorityOnly = Boolean(filterState.highPriorityOnly);
     }
   } catch (e) {
     console.warn("Failed to load filter state:", e);
@@ -472,6 +492,7 @@ function applyFilters() {
     const countryOk = !countries.length || countries.includes(row["국가"]);
     const sectorOk = !sectors.length || sectors.includes(row["섹터"]);
     const infoClassOk = !infoClasses.length || infoClasses.includes(row["정보 분류"]);
+    const priorityOk = !state.highPriorityOnly || isHighPriorityArticle(row);
     const keywordOk =
       !keyword ||
       [
@@ -487,7 +508,7 @@ function applyFilters() {
       ].some((key) => row[key].toLowerCase().includes(keyword)) ||
       formatInfoClassFilterLabel(row["정보 분류"]).toLowerCase().includes(keyword);
 
-    return dateOk && regionOk && countryOk && sectorOk && infoClassOk && keywordOk;
+    return dateOk && regionOk && countryOk && sectorOk && infoClassOk && priorityOk && keywordOk;
   });
 
   rows = sortRows(rows, els.sortSelect?.value || "원문게재일:desc");
@@ -499,6 +520,16 @@ function applyFilters() {
   renderRows();
   updateActiveFilterText();
   saveFilterState();
+}
+
+function isHighPriorityArticle(row) {
+  return cleanValue(row["중요도"]) === "상";
+}
+
+function syncHighPriorityButton() {
+  if (!els.highPriorityButton) return;
+  els.highPriorityButton.classList.toggle("is-active", state.highPriorityOnly);
+  els.highPriorityButton.setAttribute("aria-pressed", String(state.highPriorityOnly));
 }
 
 function sortRows(rows, sortValue) {
@@ -667,6 +698,7 @@ function updateActiveFilterText() {
   pushSelectedFilter(filters, "국가", getCheckedValues(els.countryFilter));
   pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
   pushSelectedFilter(filters, "정보 분류", getCheckedValues(els.infoClassFilter).map(formatInfoClassFilterLabel));
+  if (state.highPriorityOnly) filters.push("중요도: 상");
   if (els.activeFilterText) {
     els.activeFilterText.textContent = filters.length ? filters.join(" · ") : "전체 기간";
   }
