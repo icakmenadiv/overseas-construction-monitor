@@ -104,6 +104,7 @@ document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
   setupUnifiedHeader();
+  setupActionLabels();
   enableHoverFilters();
   els.sheetLink.href = CONFIG.SHEET_VIEW_URL;
   els.footerSheetLink.href = CONFIG.SHEET_VIEW_URL;
@@ -135,6 +136,15 @@ function setupUnifiedHeader() {
   if (subtitle) {
     subtitle.textContent = "해외건설협회가 수집한 해외 건설·인프라 시장뉴스와 프로젝트 정보를 통합 조회합니다.";
   }
+}
+
+function setupActionLabels() {
+  if (els.resetButton) els.resetButton.textContent = "필터 초기화";
+  if (els.exportButton) {
+    els.exportButton.textContent = "📥 목록 다운로드";
+    els.exportButton.title = "CSV 목록 다운로드";
+  }
+  if (els.backToTopButton) els.backToTopButton.textContent = "상단으로 가기";
 }
 
 function enableHoverFilters() {
@@ -179,6 +189,7 @@ function bindEvents() {
       clearCheckedValues(els.infoClassFilter);
       if (els.sortSelect) els.sortSelect.value = "원문게재일:desc";
       setDefaultDates(true);
+      state.expanded.clear();
       updateCountryOptions();
       applyFilters();
       saveFilterState();
@@ -217,6 +228,7 @@ async function refreshData() {
       throw new Error("No data returned");
     }
     state.rows = normalizeRows(rows);
+    state.expanded.clear();
     populateFilters();
     applyFilters();
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
@@ -480,6 +492,9 @@ function applyFilters() {
 
   rows = sortRows(rows, els.sortSelect?.value || "원문게재일:desc");
   state.filteredRows = rows;
+  state.expanded.forEach((id) => {
+    if (!rows.some((row) => row.id === id)) state.expanded.delete(id);
+  });
   updateSummary();
   renderRows();
   updateActiveFilterText();
@@ -548,16 +563,16 @@ function renderRows() {
 function createMainRow(row, isExpanded) {
   const tr = document.createElement("tr");
   tr.innerHTML = `
-    <td class="market-title-cell">${renderTitleLink(row)}</td>
-    <td><span class="keyword-pill">${escapeHtml(row["주제"] || "-")}</span></td>
-    <td>
+    <td class="market-title-cell" data-label="제목">${renderTitleLink(row)}</td>
+    <td data-label="핵심 키워드"><span class="keyword-pill">${escapeHtml(row["주제"] || "-")}</span></td>
+    <td data-label="국가">
       <span class="country-name">${escapeHtml(row["국가"] || "-")}</span>
       ${row["지역"] ? `<span class="market-region">${escapeHtml(row["지역"])}</span>` : ""}
     </td>
-    <td>${escapeHtml(row["섹터"] || "-")}</td>
-    <td><span class="pill info-pill">${escapeHtml(row["정보 분류"] || "-")}</span></td>
-    <td class="date-cell">${escapeHtml(formatDate(row._publishedDate) || row["원문게재일"])}</td>
-    <td><button class="detail-button" type="button" aria-expanded="${isExpanded}" aria-label="상세 보기">${
+    <td data-label="섹터">${escapeHtml(row["섹터"] || "-")}</td>
+    <td data-label="정보 분류"><span class="pill info-pill">${escapeHtml(row["정보 분류"] || "-")}</span></td>
+    <td class="date-cell" data-label="원문게재일">${escapeHtml(formatDate(row._publishedDate) || row["원문게재일"])}</td>
+    <td data-label="상세"><button class="detail-button" type="button" aria-expanded="${isExpanded}" aria-label="상세 보기">${
       isExpanded ? "−" : "+"
     }</button></td>
   `;
@@ -636,6 +651,7 @@ function toggleDetail(id) {
   if (state.expanded.has(id)) {
     state.expanded.delete(id);
   } else {
+    state.expanded.clear();
     state.expanded.add(id);
   }
   renderRows();
@@ -673,13 +689,13 @@ function showError() {
 
 function exportToCSV() {
   if (state.filteredRows.length === 0) {
-    alert("내보낼 데이터가 없습니다.");
+    alert("다운로드할 데이터가 없습니다.");
     return;
   }
 
   try {
     els.exportButton.disabled = true;
-    els.exportButton.textContent = "내보내는 중...";
+    els.exportButton.textContent = "다운로드 중...";
 
     const headers = EXPORT_COLUMNS;
     const csvContent = [
@@ -687,20 +703,20 @@ function exportToCSV() {
       ...state.filteredRows.map((row) =>
         headers.map((col) => `"${String(row[col] || "").replace(/"/g, '""')}"`).join(","),
       ),
-    ].join("\n");
+    ].join("\r\n");
 
-    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const blob = new Blob(["\ufeff", csvContent], { type: "text/csv;charset=utf-8;" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = `market-monitoring-${new Date().toISOString().split("T")[0]}.csv`;
+    link.download = `market-monitoring-list-${new Date().toISOString().split("T")[0]}.csv`;
     link.click();
     URL.revokeObjectURL(link.href);
   } catch (error) {
     console.error("Export failed:", error);
-    alert("내보내기 중 오류가 발생했습니다.");
+    alert("목록 다운로드 중 오류가 발생했습니다.");
   } finally {
     els.exportButton.disabled = false;
-    els.exportButton.textContent = "📥 내보내기";
+    els.exportButton.textContent = "📥 목록 다운로드";
   }
 }
 
