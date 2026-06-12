@@ -4,55 +4,81 @@
   const ACTIVE_CLASS = "is-active";
 
   let highPriorityOnly = false;
-  let baseApplyFilters = null;
+  let baseCreateMainRow = null;
+  let baseRenderRows = null;
 
   function initHighPriorityFilter() {
     const button = document.getElementById(BUTTON_ID);
-    if (!button || typeof window.applyFilters !== "function") return;
+    if (!button) return;
 
-    baseApplyFilters = window.applyFilters;
     highPriorityOnly = localStorage.getItem(STORAGE_KEY) === "true";
     syncButtonState(button);
-
-    window.applyFilters = function patchedApplyFilters(...args) {
-      baseApplyFilters.apply(this, args);
-      applyHighPriorityOnly();
-    };
+    patchMarketRendering();
 
     button.addEventListener("click", () => {
       highPriorityOnly = !highPriorityOnly;
       localStorage.setItem(STORAGE_KEY, String(highPriorityOnly));
       syncButtonState(button);
-      window.applyFilters();
+      rerenderRows();
     });
 
-    applyHighPriorityOnly();
+    applyHighPriorityView();
   }
 
-  function applyHighPriorityOnly() {
-    const state = window.state;
-    const config = window.CONFIG || { DISPLAY_LIMIT: 200 };
-    const els = window.els || {};
-    if (!state || !Array.isArray(state.filteredRows)) return;
-
-    if (highPriorityOnly) {
-      state.filteredRows = state.filteredRows.filter(isHighPriorityRow);
+  function patchMarketRendering() {
+    if (typeof window.createMainRow === "function" && !baseCreateMainRow) {
+      baseCreateMainRow = window.createMainRow;
+      window.createMainRow = function patchedCreateMainRow(row, isExpanded) {
+        const tr = baseCreateMainRow.call(this, row, isExpanded);
+        tr.dataset.highPriority = String(isHighPriorityRow(row));
+        tr.dataset.marketRowId = row.id || "";
+        return tr;
+      };
     }
 
-    if (state.expanded && typeof state.expanded.forEach === "function") {
-      state.expanded.forEach((id) => {
-        if (!state.filteredRows.some((row) => row.id === id)) state.expanded.delete(id);
-      });
+    if (typeof window.renderRows === "function" && !baseRenderRows) {
+      baseRenderRows = window.renderRows;
+      window.renderRows = function patchedRenderRows(...args) {
+        baseRenderRows.apply(this, args);
+        applyHighPriorityView();
+      };
     }
+  }
 
-    if (typeof window.updateSummary === "function") window.updateSummary();
-    if (typeof window.renderRows === "function") window.renderRows();
-    updatePriorityFilterText(els, config);
+  function rerenderRows() {
+    if (typeof window.renderRows === "function") {
+      window.renderRows();
+    } else {
+      applyHighPriorityView();
+    }
+  }
+
+  function applyHighPriorityView() {
+    const resultBody = document.getElementById("resultBody");
+    if (!resultBody) return;
+
+    const rows = [...resultBody.querySelectorAll("tr")];
+    let visibleMainRows = 0;
+    let previousMainVisible = false;
+
+    rows.forEach((row) => {
+      if (row.classList.contains("detail-row")) {
+        row.hidden = highPriorityOnly && !previousMainVisible;
+        return;
+      }
+
+      const shouldShow = !highPriorityOnly || row.dataset.highPriority === "true";
+      row.hidden = !shouldShow;
+      previousMainVisible = shouldShow;
+      if (shouldShow) visibleMainRows += 1;
+    });
+
+    updatePriorityFilterText(visibleMainRows);
   }
 
   function isHighPriorityRow(row) {
-    const rawImportance = cleanText(row["중요도"]);
-    const rawCheck = cleanText(row["담당자 활용시 체크"]);
+    const rawImportance = cleanText(row?.["중요도"]);
+    const rawCheck = cleanText(row?.["담당자 활용시 체크"]);
     const text = `${rawImportance} ${rawCheck}`.toLowerCase();
 
     if (!text.trim()) return false;
@@ -69,26 +95,31 @@
     button.setAttribute("aria-pressed", String(highPriorityOnly));
   }
 
-  function updatePriorityFilterText(els, config) {
-    if (!els.activeFilterText || !highPriorityOnly) return;
+  function updatePriorityFilterText(visibleMainRows) {
+    const activeFilterText = document.getElementById("activeFilterText");
+    const resultCountLabel = document.getElementById("resultCountLabel");
+    const emptyState = document.getElementById("emptyState");
+    const tableWrap = document.getElementById("tableWrap");
+    const loadingState = document.getElementById("loadingState");
 
-    const currentText = els.activeFilterText.textContent || "";
-    const tag = "높은 중요도만";
-    if (!currentText.includes(tag)) {
-      els.activeFilterText.textContent = currentText ? `${currentText} · ${tag}` : tag;
+    if (!highPriorityOnly) return;
+
+    if (activeFilterText) {
+      const currentText = activeFilterText.textContent || "";
+      const tag = "높은 중요도만";
+      if (!currentText.includes(tag)) {
+        activeFilterText.textContent = currentText ? `${currentText} · ${tag}` : tag;
+      }
     }
 
-    if (els.resultCountLabel && window.state?.filteredRows) {
-      const shownCount = Math.min(window.state.filteredRows.length, config.DISPLAY_LIMIT || 200);
-      els.resultCountLabel.textContent =
-        window.state.filteredRows.length > (config.DISPLAY_LIMIT || 200)
-          ? `${numberFormatSafe(shownCount)}건 표시 / 전체 ${numberFormatSafe(window.state.filteredRows.length)}건`
-          : `${numberFormatSafe(window.state.filteredRows.length)}건`;
+    if (resultCountLabel) {
+      resultCountLabel.textContent = `${new Intl.NumberFormat("ko-KR").format(visibleMainRows)}건`;
     }
-  }
 
-  function numberFormatSafe(value) {
-    return typeof window.numberFormat === "function" ? window.numberFormat(value) : new Intl.NumberFormat("ko-KR").format(value);
+    if (loadingState && loadingState.hidden && emptyState && tableWrap) {
+      emptyState.hidden = visibleMainRows > 0;
+      tableWrap.hidden = visibleMainRows === 0;
+    }
   }
 
   document.addEventListener("DOMContentLoaded", () => {
