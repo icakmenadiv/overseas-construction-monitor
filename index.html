@@ -41,6 +41,10 @@
       </div>
     </header>
 
+    <p class="ai-notice top-notice">
+      본 페이지의 분류·요약·프로젝트 연결에는 AI 활용 결과가 포함될 수 있으므로, 활용 전 반드시 원문 출처와 공식 자료를 확인해 주세요.
+    </p>
+
     <main class="dashboard market-dashboard">
       <section class="control-panel market-filter-panel" aria-label="뉴스 검색 및 필터">
         <div class="search-field">
@@ -161,12 +165,96 @@
       </section>
     </main>
 
+    <p class="ai-notice bottom-notice">
+      AI 기반 정리 정보는 참고용이며, 계약·입찰·투자 판단에는 원문 출처와 발주처 공식 자료 확인이 필요합니다.
+    </p>
+
     <footer class="site-footer">
-      <span>외부 공개용 Google Sheets 데이터를 기반으로 표시됩니다.</span>
+      <span class="footer-brand"><img src="./assets/logo.png" alt="해외건설협회" />외부 공개용 Google Sheets 데이터를 기반으로 표시됩니다.</span>
       <button type="button" class="back-to-top" id="backToTopButton">상단으로 이동</button>
       <a hidden id="footerSheetLink" href="#" target="_blank" rel="noreferrer" aria-hidden="true" tabindex="-1"></a>
     </footer>
 
+    <script>
+      (function () {
+        const labels = { regionFilter: "지역", countryFilter: "국가", sectorFilter: "섹터", infoClassFilter: "정보 분류", stageFilter: "현재 단계" };
+        const tableBodies = ["resultBody", "projectBody"];
+        document.addEventListener("DOMContentLoaded", () => {
+          setupCollapsibleFilters();
+          setupObservers();
+          refreshFilterSummaries();
+          compactTableRows();
+        });
+        function setupCollapsibleFilters() {
+          Object.entries(labels).forEach(([id, label]) => {
+            const container = document.getElementById(id);
+            if (!container) return;
+            const field = container.closest(".field");
+            if (!field || field.querySelector(".filter-collapse")) return;
+            const oldLabel = field.querySelector(".field-label");
+            if (oldLabel) oldLabel.remove();
+            const details = document.createElement("details");
+            details.className = "filter-collapse";
+            details.dataset.filterFor = id;
+            const summary = document.createElement("summary");
+            summary.innerHTML = `<span class="filter-title">${label}</span><span class="filter-summary" data-filter-summary-for="${id}">전체</span>`;
+            details.append(summary, container);
+            field.appendChild(details);
+          });
+        }
+        function setupObservers() {
+          Object.keys(labels).forEach((id) => {
+            const container = document.getElementById(id);
+            if (!container) return;
+            container.addEventListener("change", refreshFilterSummaries);
+            new MutationObserver(refreshFilterSummaries).observe(container, { childList: true, subtree: true });
+          });
+          tableBodies.forEach((id) => {
+            const body = document.getElementById(id);
+            if (!body) return;
+            new MutationObserver(compactTableRows).observe(body, { childList: true, subtree: true });
+          });
+        }
+        function refreshFilterSummaries() {
+          Object.keys(labels).forEach((id) => {
+            const container = document.getElementById(id);
+            const summary = document.querySelector(`[data-filter-summary-for="${id}"]`);
+            const details = document.querySelector(`.filter-collapse[data-filter-for="${id}"]`);
+            if (!container || !summary) return;
+            const values = [...container.querySelectorAll('input[type="checkbox"]:checked')].map((input) => input.value);
+            if (!values.length) {
+              summary.textContent = "전체";
+              summary.classList.remove("has-active-filter");
+              if (details) details.classList.remove("has-active-filter");
+              return;
+            }
+            summary.textContent = `${values.slice(0, 2).join(", ")}${values.length > 2 ? ` 외 ${values.length - 2}` : ""}`;
+            summary.classList.add("has-active-filter");
+            if (details) details.classList.add("has-active-filter");
+          });
+        }
+        function compactTableRows() {
+          tableBodies.forEach((id) => {
+            const body = document.getElementById(id);
+            if (!body) return;
+            body.querySelectorAll("tr:not(.detail-row) td").forEach((cell) => {
+              if (cell.dataset.compacted === "true" || cell.querySelector("button")) return;
+              const link = cell.querySelector(".title-link");
+              if (link) {
+                link.classList.add("cell-clamp", "clamp-2");
+                cell.dataset.compacted = "true";
+                return;
+              }
+              const wrapper = document.createElement("span");
+              wrapper.className = "cell-clamp";
+              wrapper.innerHTML = cell.innerHTML;
+              cell.replaceChildren(wrapper);
+              cell.dataset.compacted = "true";
+            });
+          });
+        }
+      })();
+    </script>
     <script src="./app.js"></script>
   </body>
 </html>
