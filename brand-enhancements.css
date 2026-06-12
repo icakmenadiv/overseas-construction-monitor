@@ -1,60 +1,50 @@
-:root {
-  --brand-green: #41b649;
-  --brand-blue: #006cb7;
-}
-
 .site-header {
-  min-height: 150px;
+  min-height: 172px;
   padding-top: 28px;
-  padding-bottom: 34px;
+  padding-bottom: 36px;
 }
 
 .site-header::after {
-  right: clamp(18px, 8vw, 140px);
-  bottom: -46px;
-  width: clamp(230px, 24vw, 390px);
-  height: clamp(126px, 14vw, 216px);
-  border: 0;
-  border-radius: 0;
-  background: url("./assets/logo-mark.svg") center / contain no-repeat;
-  filter: drop-shadow(0 22px 40px rgba(0, 0, 0, 0.22));
-  opacity: 0.22;
-  transform: rotate(-4deg);
+  right: clamp(24px, 7vw, 110px);
+  bottom: -58px;
+  width: 190px;
+  height: 190px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.16), transparent 62%);
+  filter: none;
+  opacity: 1;
+  transform: none;
 }
 
 .brand-wrap {
-  gap: clamp(18px, 2vw, 30px);
+  gap: clamp(20px, 2.2vw, 34px);
 }
 
 .brand {
-  width: clamp(212px, 17vw, 272px);
-  height: clamp(76px, 6vw, 94px);
-  padding: 12px 18px;
-  border-color: rgba(255, 255, 255, 0.68);
+  width: clamp(214px, 18vw, 258px);
+  height: clamp(136px, 11vw, 156px);
+  padding: 14px 18px;
+  border-color: rgba(255, 255, 255, 0.72);
   border-radius: 18px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.99), rgba(244, 250, 255, 0.97));
+    linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(246, 250, 255, 0.98));
   box-shadow:
-    0 22px 46px rgba(0, 0, 0, 0.24),
-    inset 0 1px 0 rgba(255, 255, 255, 0.92);
+    0 24px 52px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
 }
 
 .brand::before {
-  position: absolute;
-  inset: auto 12px 8px 12px;
-  height: 4px;
-  content: "";
-  border-radius: 999px;
-  background: linear-gradient(90deg, var(--brand-green), var(--brand-blue));
-  opacity: 0.88;
+  display: none;
 }
 
 .brand-logo {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 226px;
-  max-height: 62px;
+  max-width: 220px;
+  max-height: 128px;
+  object-fit: contain;
 }
 
 .brand-fallback {
@@ -62,87 +52,30 @@
   z-index: 1;
 }
 
-.control-panel,
-.results-section,
-.project-section,
-.summary-item {
-  overflow: hidden;
-}
-
 .control-panel::after,
 .results-section::after,
-.project-section::after {
-  position: absolute;
-  right: -34px;
-  bottom: -24px;
-  z-index: 0;
-  width: 170px;
-  height: 94px;
-  content: "";
-  background: url("./assets/logo-mark.svg") center / contain no-repeat;
-  opacity: 0.055;
-  pointer-events: none;
-}
-
-.results-section::after,
-.project-section::after {
-  top: 10px;
-  right: 22px;
-  bottom: auto;
-  width: 150px;
-  height: 82px;
-  opacity: 0.07;
-}
-
-.section-head {
-  position: relative;
-}
-
+.project-section::after,
 .section-head::before {
-  flex: 0 0 auto;
-  width: 76px;
-  height: 42px;
-  content: "";
-  order: 2;
-  margin-left: auto;
-  background: url("./assets/logo-mark.svg") center / contain no-repeat;
-  opacity: 0.24;
-}
-
-.section-head .result-count {
-  order: 3;
+  display: none;
 }
 
 .summary-item::before {
-  background: url("./assets/logo-mark.svg") center / contain no-repeat,
-    linear-gradient(135deg, rgba(22, 166, 201, 0.16), rgba(65, 182, 73, 0.12));
-  opacity: 0.68;
+  background:
+    linear-gradient(135deg, rgba(22, 166, 201, 0.24), rgba(124, 92, 255, 0.18));
+  opacity: 1;
+}
+
+.site-footer {
+  justify-content: flex-end;
 }
 
 .footer-brand {
-  padding: 10px 14px;
-  border: 1px solid rgba(18, 83, 164, 0.12);
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.78);
-  box-shadow: 0 10px 24px rgba(7, 26, 51, 0.08);
-}
-
-.footer-brand img {
-  width: clamp(174px, 15vw, 230px);
-  max-height: 58px;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
+  display: none;
 }
 
 @media (max-width: 920px) {
-  .site-header::after {
-    right: -36px;
-    bottom: 22px;
-    width: 250px;
-    height: 138px;
-    opacity: 0.13;
+  .site-header {
+    min-height: 0;
   }
 
   .brand-wrap {
@@ -150,43 +83,24 @@
   }
 
   .brand {
-    width: min(250px, 78vw);
-    height: 84px;
+    width: min(238px, 78vw);
+    height: 148px;
   }
 
   .brand-logo {
-    max-width: 210px;
-    max-height: 58px;
+    max-width: 202px;
+    max-height: 120px;
   }
 }
 
 @media (max-width: 760px) {
-  .site-header {
-    min-height: 0;
-  }
-
   .brand {
-    width: min(232px, 100%);
-    height: 78px;
+    width: min(224px, 100%);
+    height: 140px;
   }
 
   .brand-logo {
-    max-width: 198px;
-    max-height: 54px;
-  }
-
-  .section-head::before {
-    width: 68px;
-    height: 38px;
-    margin-left: 0;
-    opacity: 0.18;
-  }
-
-  .footer-brand {
-    align-self: flex-start;
-  }
-
-  .footer-brand img {
-    width: min(210px, 72vw);
+    max-width: 190px;
+    max-height: 112px;
   }
 }
