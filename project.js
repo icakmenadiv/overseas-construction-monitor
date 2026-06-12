@@ -39,6 +39,7 @@ const PROJECT_COLUMNS = [
   "최근 업데이트일",
   "대표 기사 고유값",
   "비고",
+  "대표 기사 정보 분류",
 ];
 
 const MAPPING_COLUMNS = [
@@ -95,8 +96,8 @@ async function init() {
     }
 
     const mappings = mappingRows.filter((row) => row["프로젝트 고유값"] === project["프로젝트 고유값"]);
-    const articleMap = new Map(resultRows.map((row) => [row["기사 고유값"], row]));
-    const articles = buildArticleItems(project, mappings, articleMap);
+    const articleMap = new Map(resultRows.map((row) => [row["기사 고유값"], row]).filter(([articleId]) => articleId));
+    const articles = buildArticleItems(project, mappings, articleMap, resultRows);
 
     renderProject(project, articles);
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
@@ -142,45 +143,79 @@ async function fetchSheetData(gid) {
 }
 
 function findProject(projectRows, criteria) {
+  if (criteria.projectId) {
+    const byId = projectRows.find((row) => row["프로젝트 고유값"] === criteria.projectId);
+    if (byId) return byId;
+  }
+
   const projectNameLower = criteria.projectName.toLowerCase();
   return projectRows.find((row) => {
-    const idOk = criteria.projectId && row["프로젝트 고유값"] === criteria.projectId;
     const nameOk = projectNameLower && row["프로젝트명"].toLowerCase() === projectNameLower;
     const countryOk = !criteria.country || row["국가"] === criteria.country;
     const sectorOk = !criteria.sector || row["섹터"] === criteria.sector;
-    return (idOk || nameOk) && countryOk && sectorOk;
+    return nameOk && countryOk && sectorOk;
   });
 }
 
-function buildArticleItems(project, mappings, articleMap) {
+function buildArticleItems(project, mappings, articleMap, resultRows = []) {
   const seenArticleIds = new Set();
-  const items = mappings
-    .map((mapping) => ({ mapping, article: articleMap.get(mapping["기사 고유값"]) }))
-    .filter((item) => {
-      if (!item.article) return false;
-      const articleId = item.mapping["기사 고유값"];
-      if (seenArticleIds.has(articleId)) return false;
-      seenArticleIds.add(articleId);
-      return true;
-    });
+  const items = [];
 
+  const projectId = project["프로젝트 고유값"];
+  const projectName = normalizeKey(project["프로젝트명"]);
+  const country = project["국가"];
+  const sector = project["섹터"];
   const representativeArticleId = project["대표 기사 고유값"];
-  if (representativeArticleId && !seenArticleIds.has(representativeArticleId)) {
-    const representativeArticle = articleMap.get(representativeArticleId);
-    if (representativeArticle) {
-      items.push({
-        mapping: {
-          "기사 고유값": representativeArticleId,
-          "기사일자": representativeArticle["원문게재일"] || project["최근 업데이트일"],
-          "기사 시점 단계": representativeArticle["관련 단계"] || project["현재 단계"],
-          "해당 기사 기준 사업비": project["사업비(달러 기준 추정액)"],
-          "대표기사 여부": "Y",
-          "비고": "프로젝트 탭 대표기사 기준 자동 표시",
-        },
-        article: representativeArticle,
-      });
-    }
+
+  const addItem = (article, mapping = {}, fallbackNote = "") => {
+    if (!article) return;
+    const articleId = mapping["기사 고유값"] || article["기사 고유값"];
+    if (!articleId || seenArticleIds.has(articleId)) return;
+
+    seenArticleIds.add(articleId);
+    items.push({
+      mapping: {
+        "기사 고유값": articleId,
+        "기사일자": mapping["기사일자"] || article["원문게재일"] || project["최근 업데이트일"],
+        "기사 시점 단계": mapping["기사 시점 단계"] || article["관련 단계"] || project["현재 단계"],
+        "해당 기사 기준 사업비": mapping["해당 기사 기준 사업비"] || project["사업비(달러 기준 추정액)"],
+        "대표기사 여부": mapping["대표기사 여부"] || (articleId === representativeArticleId ? "Y" : ""),
+        "비고": mapping["비고"] || fallbackNote,
+      },
+      article,
+    });
+  };
+
+  mappings.forEach((mapping) => {
+    addItem(articleMap.get(mapping["기사 고유값"]), mapping, "프로젝트-기사 연결 탭 기준");
+  });
+
+  if (representativeArticleId) {
+    addItem(articleMap.get(representativeArticleId), {
+      "기사 고유값": representativeArticleId,
+      "대표기사 여부": "Y",
+    }, "프로젝트 탭 대표기사 기준 자동 표시");
   }
+
+  resultRows.forEach((article) => {
+    const articleId = article["기사 고유값"];
+    if (!articleId || seenArticleIds.has(articleId)) return;
+
+    const idMatch = projectId && article["프로젝트 고유값"] === projectId;
+    const representativeMatch = representativeArticleId && articleId === representativeArticleId;
+    const nameMatch =
+      projectName &&
+      normalizeKey(article["프로젝트명"]) === projectName &&
+      (!country || article["국가"] === country) &&
+      (!sector || article["섹터"] === sector);
+
+    if (!idMatch && !representativeMatch && !nameMatch) return;
+
+    addItem(article, {
+      "기사 고유값": articleId,
+      "대표기사 여부": representativeMatch ? "Y" : "",
+    }, "시장 모니터링 결과 탭 기준 자동 연결");
+  });
 
   return items.sort(
     (a, b) =>
@@ -271,6 +306,10 @@ function showError() {
 
 function cleanValue(value) {
   return String(value ?? "").replace(/\s+/g, " ").trim();
+}
+
+function normalizeKey(value) {
+  return cleanValue(value).toLowerCase();
 }
 
 function parseSheetDate(value) {
