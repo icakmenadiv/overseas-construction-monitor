@@ -19,6 +19,7 @@ const PROJECT_COLUMNS = [
   "최근 업데이트일",
   "대표 기사 고유값",
   "비고",
+  "대표 기사 정보 분류",
 ];
 
 const state = {
@@ -144,7 +145,9 @@ async function loadProjects() {
     if (els.refreshButton) els.refreshButton.disabled = true;
     els.syncStatus.textContent = "데이터 새로 고침 중...";
     const rows = normalizeRows(await fetchSheetData(CONFIG.PROJECT_SHEET_GID), PROJECT_COLUMNS);
-    state.projects = rows.map(normalizeProject).filter((project) => project.name && project.latestDateText);
+    state.projects = rows
+      .map(normalizeProject)
+      .filter((project) => project.name && project.latestDateText && project.representativeInfoClass === "프로젝트 정보");
     populateFilters();
     applyFilters();
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
@@ -218,6 +221,7 @@ function normalizeProject(row) {
     latestDate,
     latestDateText,
     representativeArticleId: row["대표 기사 고유값"],
+    representativeInfoClass: row["대표 기사 정보 분류"] || "프로젝트 정보",
     note: row["비고"],
   };
 }
