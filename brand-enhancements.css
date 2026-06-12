@@ -8,7 +8,7 @@ html::before {
     radial-gradient(circle at 18% 22%, rgba(49, 213, 233, 0.34), transparent 28rem),
     radial-gradient(circle at 82% 12%, rgba(65, 182, 73, 0.22), transparent 26rem),
     linear-gradient(135deg, #020814 0%, #06152b 46%, #0a2342 100%);
-  animation: cinematicFade 3.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: cinematicFade 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 html::after {
@@ -21,18 +21,18 @@ html::after {
     linear-gradient(110deg, transparent 0 36%, rgba(255, 255, 255, 0.32) 46%, transparent 58%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 52%);
   transform: translateX(-115%);
-  animation: lightSweep 3.2s 240ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: lightSweep 0.9s 80ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 body {
-  animation: pageTone 3.25s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: pageTone 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .site-header {
   min-height: 172px;
   padding-top: 28px;
   padding-bottom: 36px;
-  animation: headerReveal 2.45s 320ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: headerReveal 0.75s 80ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .site-header::after {
@@ -63,7 +63,7 @@ body {
   box-shadow:
     0 24px 52px rgba(0, 0, 0, 0.24),
     inset 0 1px 0 rgba(255, 255, 255, 0.95);
-  animation: logoRise 2.15s 780ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: logoRise 0.7s 160ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .brand::before {
@@ -85,31 +85,31 @@ body {
 }
 
 .brand-wrap > div {
-  animation: copyRise 2.1s 940ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: copyRise 0.65s 190ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .header-actions {
-  animation: copyRise 2.1s 1040ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: copyRise 0.65s 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .top-notice {
-  animation: softFade 1.8s 1500ms ease-out both;
+  animation: softFade 0.45s 350ms ease-out both;
 }
 
 .dashboard > * {
-  animation: panelReveal 2.15s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: panelReveal 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .dashboard > *:nth-child(1) {
-  animation-delay: 1320ms;
+  animation-delay: 260ms;
 }
 
 .dashboard > *:nth-child(2) {
-  animation-delay: 1420ms;
+  animation-delay: 320ms;
 }
 
 .dashboard > *:nth-child(3) {
-  animation-delay: 1520ms;
+  animation-delay: 380ms;
 }
 
 .control-panel::after,
@@ -138,12 +138,12 @@ body {
     opacity: 1;
     clip-path: inset(0 0 0 0);
   }
-  42% {
-    opacity: 0.94;
+  30% {
+    opacity: 0.72;
     clip-path: inset(0 0 0 0);
   }
-  76% {
-    opacity: 0.38;
+  70% {
+    opacity: 0.2;
     clip-path: inset(0 0 0 0);
   }
   100% {
@@ -159,10 +159,10 @@ body {
     transform: translateX(-115%);
   }
   20% {
-    opacity: 0.7;
+    opacity: 0.55;
   }
   66% {
-    opacity: 0.48;
+    opacity: 0.32;
     transform: translateX(85%);
   }
   100% {
@@ -174,10 +174,10 @@ body {
 
 @keyframes pageTone {
   0% {
-    filter: brightness(0.62) saturate(0.72) contrast(1.08);
+    filter: brightness(0.78) saturate(0.86) contrast(1.04);
   }
   48% {
-    filter: brightness(0.76) saturate(0.88) contrast(1.05);
+    filter: brightness(0.9) saturate(0.94) contrast(1.02);
   }
   100% {
     filter: brightness(1) saturate(1) contrast(1);
@@ -229,8 +229,8 @@ body {
 @keyframes panelReveal {
   from {
     opacity: 0;
-    transform: translateY(26px) scale(0.985);
-    filter: blur(5px);
+    transform: translateY(18px) scale(0.99);
+    filter: blur(3px);
   }
   to {
     opacity: 1;
