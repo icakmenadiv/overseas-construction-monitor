@@ -2,6 +2,7 @@
   min-height: 172px;
   padding-top: 28px;
   padding-bottom: 36px;
+  animation: headerReveal 620ms ease-out both;
 }
 
 .site-header::after {
@@ -18,12 +19,12 @@
 }
 
 .brand-wrap {
-  gap: clamp(20px, 2.2vw, 34px);
+  gap: clamp(22px, 2.4vw, 38px);
 }
 
 .brand {
-  width: clamp(214px, 18vw, 258px);
-  height: clamp(136px, 11vw, 156px);
+  width: clamp(236px, 20vw, 292px);
+  height: clamp(146px, 12vw, 174px);
   padding: 14px 18px;
   border-color: rgba(255, 255, 255, 0.72);
   border-radius: 18px;
@@ -32,6 +33,7 @@
   box-shadow:
     0 24px 52px rgba(0, 0, 0, 0.24),
     inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  animation: logoRise 720ms 110ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .brand::before {
@@ -42,14 +44,42 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 220px;
-  max-height: 128px;
+  max-width: 252px;
+  max-height: 144px;
   object-fit: contain;
 }
 
 .brand-fallback {
   position: relative;
   z-index: 1;
+}
+
+.brand-wrap > div {
+  animation: copyRise 680ms 180ms ease-out both;
+}
+
+.header-actions {
+  animation: copyRise 680ms 260ms ease-out both;
+}
+
+.top-notice {
+  animation: softFade 520ms 420ms ease-out both;
+}
+
+.dashboard > * {
+  animation: panelReveal 620ms ease-out both;
+}
+
+.dashboard > *:nth-child(1) {
+  animation-delay: 360ms;
+}
+
+.dashboard > *:nth-child(2) {
+  animation-delay: 440ms;
+}
+
+.dashboard > *:nth-child(3) {
+  animation-delay: 520ms;
 }
 
 .control-panel::after,
@@ -73,6 +103,70 @@
   display: none;
 }
 
+@keyframes headerReveal {
+  from {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0.72;
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+
+@keyframes logoRise {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes copyRise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes panelReveal {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes softFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header,
+  .brand,
+  .brand-wrap > div,
+  .header-actions,
+  .top-notice,
+  .dashboard > * {
+    animation: none;
+  }
+}
+
 @media (max-width: 920px) {
   .site-header {
     min-height: 0;
@@ -83,24 +177,24 @@
   }
 
   .brand {
-    width: min(238px, 78vw);
-    height: 148px;
+    width: min(260px, 78vw);
+    height: 158px;
   }
 
   .brand-logo {
-    max-width: 202px;
-    max-height: 120px;
+    max-width: 224px;
+    max-height: 132px;
   }
 }
 
 @media (max-width: 760px) {
   .brand {
-    width: min(224px, 100%);
-    height: 140px;
+    width: min(238px, 100%);
+    height: 148px;
   }
 
   .brand-logo {
-    max-width: 190px;
-    max-height: 112px;
+    max-width: 204px;
+    max-height: 124px;
   }
 }
