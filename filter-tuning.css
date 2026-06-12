@@ -1,3 +1,20 @@
+.market-filter-panel .field > label:not(.check-chip):not(.cost-toggle),
+.market-filter-panel .field-label,
+body:has(#projectBody) .control-panel .field > label:not(.check-chip):not(.cost-toggle),
+body:has(#projectBody) .control-panel .field-label {
+  display: flex;
+  align-items: center;
+  min-height: 34px;
+  margin-bottom: 8px;
+  padding: 0 11px;
+  border-radius: 10px;
+  color: #1d3654;
+  background: rgba(237, 246, 255, 0.86);
+  font-size: 0.92rem;
+  font-weight: 950;
+  line-height: 1.25;
+}
+
 .filter-collapse {
   width: 100%;
   border-radius: 12px;
@@ -60,6 +77,14 @@
 }
 
 @media (max-width: 760px) {
+  .market-filter-panel .field > label:not(.check-chip):not(.cost-toggle),
+  .market-filter-panel .field-label,
+  body:has(#projectBody) .control-panel .field > label:not(.check-chip):not(.cost-toggle),
+  body:has(#projectBody) .control-panel .field-label {
+    min-height: 38px;
+    font-size: 0.98rem;
+  }
+
   .filter-collapse summary {
     min-height: 52px;
     padding: 0 15px;
