@@ -1,0 +1,119 @@
+.market-table th:first-child,
+.market-table td.market-title-cell,
+.project-list-table th:first-child,
+.project-list-table td:first-child {
+  padding-left: 22px;
+}
+
+.market-title-cell .title-link,
+.project-list-table td:first-child a,
+.project-list-table td:first-child span {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.beta-filter-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid rgba(18, 83, 164, 0.18);
+  border-radius: 999px;
+  color: var(--slate-700);
+  background: rgba(255, 255, 255, 0.86);
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(7, 26, 51, 0.08);
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease;
+}
+
+.beta-filter-button:hover,
+.beta-filter-button.is-active {
+  color: var(--navy-900);
+  border-color: rgba(22, 166, 201, 0.42);
+  background: linear-gradient(135deg, rgba(49, 213, 233, 0.18), rgba(255, 255, 255, 0.96));
+  box-shadow: 0 12px 24px rgba(23, 105, 194, 0.16);
+  transform: translateY(-1px);
+}
+
+.beta-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  border-radius: 999px;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--blue-600), var(--violet-500));
+  font-size: 0.66rem;
+  font-weight: 950;
+  letter-spacing: 0.03em;
+}
+
+.priority-help {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  color: var(--blue-700);
+  background: rgba(18, 83, 164, 0.10);
+  font-size: 0.85rem;
+  font-weight: 950;
+  cursor: help;
+}
+
+.priority-help::after {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  z-index: 10;
+  width: min(280px, 72vw);
+  padding: 10px 12px;
+  color: var(--white);
+  background: rgba(15, 23, 42, 0.94);
+  border-radius: 12px;
+  box-shadow: 0 16px 36px rgba(6, 21, 43, 0.20);
+  content: "베타 기능입니다. AI 판단 기준이어서 실제 중요도와 맞지 않을 수 있으며, 대규모 사업 초기 단계 관련 기사를 우선 노출합니다.";
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.5;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 6px);
+  transition:
+    opacity 160ms ease,
+    transform 160ms ease;
+}
+
+.priority-help:hover::after,
+.priority-help:focus::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width: 760px) {
+  .market-table th:first-child,
+  .market-table td.market-title-cell,
+  .project-list-table th:first-child,
+  .project-list-table td:first-child {
+    padding-left: 16px;
+  }
+
+  .priority-help::after {
+    left: auto;
+    right: 0;
+    transform: translate(0, 6px);
+  }
+
+  .priority-help:hover::after,
+  .priority-help:focus::after {
+    transform: translate(0, 0);
+  }
+}
