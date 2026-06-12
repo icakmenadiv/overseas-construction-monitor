@@ -15,6 +15,8 @@ const INFO_CLASS_DISPLAY_LABELS = {
   "인프라 투자 동향": "정부/민간 인프라투자 동향",
 };
 
+let isReorderingInfoClassFilter = false;
+
 function normalizeInfoClassLabel(value) {
   return INFO_CLASS_DISPLAY_LABELS[value] || value;
 }
@@ -25,24 +27,34 @@ function getInfoClassFilterRank(value) {
 }
 
 function reorderInfoClassFilter() {
+  if (isReorderingInfoClassFilter) return false;
+
   const container = document.getElementById("infoClassFilter");
   if (!container || !container.children.length) return false;
 
   const chips = [...container.querySelectorAll(".check-chip")];
+  if (!chips.length) return false;
+
   chips.forEach((chip) => {
     const input = chip.querySelector('input[type="checkbox"]');
     const text = chip.querySelector("span");
     if (input && text) text.textContent = normalizeInfoClassLabel(input.value);
   });
-  chips
-    .sort((a, b) => {
-      const valueA = a.querySelector('input[type="checkbox"]')?.value || "";
-      const valueB = b.querySelector('input[type="checkbox"]')?.value || "";
-      const rank = getInfoClassFilterRank(valueA) - getInfoClassFilterRank(valueB);
-      return rank || normalizeInfoClassLabel(valueA).localeCompare(normalizeInfoClassLabel(valueB), "ko");
-    })
-    .forEach((chip) => container.appendChild(chip));
 
+  const sortedChips = [...chips].sort((a, b) => {
+    const valueA = a.querySelector('input[type="checkbox"]')?.value || "";
+    const valueB = b.querySelector('input[type="checkbox"]')?.value || "";
+    const rank = getInfoClassFilterRank(valueA) - getInfoClassFilterRank(valueB);
+    return rank || normalizeInfoClassLabel(valueA).localeCompare(normalizeInfoClassLabel(valueB), "ko");
+  });
+
+  const currentOrder = chips.map((chip) => chip.querySelector('input[type="checkbox"]')?.value || "").join("\u001f");
+  const nextOrder = sortedChips.map((chip) => chip.querySelector('input[type="checkbox"]')?.value || "").join("\u001f");
+  if (currentOrder === nextOrder) return true;
+
+  isReorderingInfoClassFilter = true;
+  sortedChips.forEach((chip) => container.appendChild(chip));
+  isReorderingInfoClassFilter = false;
   return true;
 }
 
@@ -57,6 +69,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const container = document.getElementById("infoClassFilter");
   if (container) {
-    new MutationObserver(reorderInfoClassFilter).observe(container, { childList: true, subtree: true });
+    const observer = new MutationObserver(() => {
+      if (!isReorderingInfoClassFilter) reorderInfoClassFilter();
+    });
+    observer.observe(container, { childList: true });
   }
 });
