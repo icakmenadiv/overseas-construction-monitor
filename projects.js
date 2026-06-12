@@ -56,8 +56,42 @@ const els = {
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
+  setupUnifiedHeader();
+  enableHoverFilters();
+  updateProjectHelpText();
   bindEvents();
   await loadProjects();
+}
+
+function setupUnifiedHeader() {
+  const eyebrow = document.querySelector(".brand-wrap .eyebrow");
+  const title = document.querySelector(".brand-wrap h1");
+  const subtitle = document.querySelector(".brand-wrap .subtitle");
+  if (eyebrow) eyebrow.textContent = "해외건설협회 통합 모니터링";
+  if (title) title.textContent = "해외 건설시장 모니터링";
+  if (subtitle) {
+    subtitle.textContent = "해외건설협회가 수집한 해외 건설·인프라 시장뉴스와 프로젝트 정보를 통합 조회합니다.";
+  }
+}
+
+function enableHoverFilters() {
+  document.querySelectorAll(".filter-collapse").forEach((details) => {
+    let closeTimer;
+    details.addEventListener("mouseenter", () => {
+      clearTimeout(closeTimer);
+      details.open = true;
+    });
+    details.addEventListener("mouseleave", () => {
+      closeTimer = setTimeout(() => {
+        details.open = false;
+      }, 120);
+    });
+  });
+}
+
+function updateProjectHelpText() {
+  const helpText = document.querySelector(".results-section .section-head p");
+  if (helpText) helpText.textContent = "프로젝트 행을 누르면 관련 기사 상세 목록을 확인할 수 있습니다.";
 }
 
 function bindEvents() {
@@ -344,9 +378,14 @@ function renderProjects() {
 
   const fragment = document.createDocumentFragment();
   state.filteredProjects.forEach((project) => {
+    const url = buildProjectUrl(project);
     const tr = document.createElement("tr");
+    tr.className = "project-row-link";
+    tr.tabIndex = 0;
+    tr.setAttribute("role", "link");
+    tr.setAttribute("aria-label", `${project.name} 프로젝트 상세페이지 열기`);
     tr.innerHTML = `
-      <td><a class="title-link" href="${escapeAttribute(buildProjectUrl(project))}">${escapeHtml(project.name)}</a></td>
+      <td><a class="title-link" href="${escapeAttribute(url)}">${escapeHtml(project.name)}</a></td>
       <td><span class="pill">${escapeHtml(project.region || "-")}</span></td>
       <td>${escapeHtml(project.country || "-")}</td>
       <td>${escapeHtml(project.sector || "-")}</td>
@@ -356,6 +395,16 @@ function renderProjects() {
       <td class="date-cell">${escapeHtml(project.latestDateText)}</td>
       <td>${escapeHtml(project.note || "-")}</td>
     `;
+    tr.addEventListener("click", (event) => {
+      if (event.target.closest("a")) return;
+      window.location.href = url;
+    });
+    tr.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        window.location.href = url;
+      }
+    });
     fragment.appendChild(tr);
   });
   els.projectBody.appendChild(fragment);
