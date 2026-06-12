@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./large-text.css" />
     <link rel="stylesheet" href="./filter-tuning.css" />
     <link rel="stylesheet" href="./brand-enhancements.css" />
+    <link rel="stylesheet" href="./high-priority-filter.css" />
   </head>
   <body>
     <header class="site-header" id="top">
@@ -102,6 +103,20 @@
           <div class="action-buttons">
             <button type="button" id="resetButton">필터 초기화</button>
             <button type="button" id="exportButton" title="현재 목록을 CSV로 다운로드">목록 다운로드</button>
+            <button
+              type="button"
+              id="highPriorityButton"
+              class="beta-filter-button"
+              aria-pressed="false"
+              title="운영시트의 높은 중요도 기준 기사만 노출"
+            >
+              높은 중요도만 <span class="beta-badge">BETA</span>
+            </button>
+            <span
+              class="priority-help"
+              tabindex="0"
+              aria-label="베타 기능 안내: AI 판단 기준이어서 실제 중요도와 맞지 않을 수 있으며 대규모 사업 초기 단계 관련 기사를 우선 노출합니다."
+            >?</span>
           </div>
           <span id="activeFilterText">최근 30일 기준</span>
         </div>
@@ -134,7 +149,7 @@
         <div class="section-head">
           <div>
             <h2>시장 모니터링 기사 목록</h2>
-            <p>제목과 핵심 키워드를 중심으로 확인하고, 제목을 누르면 원문이 새 탭에서 열립니다.</p>
+            <p>제목과 핵심 키워드 중심으로 상세 보기 가능하며, 제목을 클릭하면 원문을 확인할 수 있습니다.</p>
           </div>
           <span class="result-count" id="resultCountLabel">0건</span>
         </div>
@@ -177,6 +192,7 @@
     </footer>
 
     <script src="./app.js"></script>
+    <script src="./high-priority-filter.js"></script>
     <script src="./filter-hover.js"></script>
     <script src="./header-copy.js"></script>
   </body>
