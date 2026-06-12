@@ -1,8 +1,38 @@
+html::before {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  content: "";
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(49, 213, 233, 0.34), transparent 28rem),
+    radial-gradient(circle at 82% 12%, rgba(65, 182, 73, 0.22), transparent 26rem),
+    linear-gradient(135deg, #020814 0%, #06152b 46%, #0a2342 100%);
+  animation: cinematicFade 3.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+html::after {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  content: "";
+  pointer-events: none;
+  background:
+    linear-gradient(110deg, transparent 0 36%, rgba(255, 255, 255, 0.32) 46%, transparent 58%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 52%);
+  transform: translateX(-115%);
+  animation: lightSweep 3.2s 240ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+body {
+  animation: pageTone 3.25s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
 .site-header {
   min-height: 172px;
   padding-top: 28px;
   padding-bottom: 36px;
-  animation: headerReveal 620ms ease-out both;
+  animation: headerReveal 2.45s 320ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .site-header::after {
@@ -33,7 +63,7 @@
   box-shadow:
     0 24px 52px rgba(0, 0, 0, 0.24),
     inset 0 1px 0 rgba(255, 255, 255, 0.95);
-  animation: logoRise 720ms 110ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: logoRise 2.15s 780ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .brand::before {
@@ -55,31 +85,31 @@
 }
 
 .brand-wrap > div {
-  animation: copyRise 680ms 180ms ease-out both;
+  animation: copyRise 2.1s 940ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .header-actions {
-  animation: copyRise 680ms 260ms ease-out both;
+  animation: copyRise 2.1s 1040ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .top-notice {
-  animation: softFade 520ms 420ms ease-out both;
+  animation: softFade 1.8s 1500ms ease-out both;
 }
 
 .dashboard > * {
-  animation: panelReveal 620ms ease-out both;
+  animation: panelReveal 2.15s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .dashboard > *:nth-child(1) {
-  animation-delay: 360ms;
+  animation-delay: 1320ms;
 }
 
 .dashboard > *:nth-child(2) {
-  animation-delay: 440ms;
+  animation-delay: 1420ms;
 }
 
 .dashboard > *:nth-child(3) {
-  animation-delay: 520ms;
+  animation-delay: 1520ms;
 }
 
 .control-panel::after,
@@ -103,47 +133,109 @@
   display: none;
 }
 
-@keyframes headerReveal {
-  from {
+@keyframes cinematicFade {
+  0% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+  42% {
+    opacity: 0.94;
+    clip-path: inset(0 0 0 0);
+  }
+  76% {
+    opacity: 0.38;
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    opacity: 0;
     clip-path: inset(0 0 100% 0);
+    visibility: hidden;
+  }
+}
+
+@keyframes lightSweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-115%);
+  }
+  20% {
+    opacity: 0.7;
+  }
+  66% {
+    opacity: 0.48;
+    transform: translateX(85%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(115%);
+    visibility: hidden;
+  }
+}
+
+@keyframes pageTone {
+  0% {
+    filter: brightness(0.62) saturate(0.72) contrast(1.08);
+  }
+  48% {
+    filter: brightness(0.76) saturate(0.88) contrast(1.05);
+  }
+  100% {
+    filter: brightness(1) saturate(1) contrast(1);
+  }
+}
+
+@keyframes headerReveal {
+  0% {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+  38% {
     opacity: 0.72;
   }
-  to {
+  100% {
     clip-path: inset(0 0 0 0);
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
 @keyframes logoRise {
   from {
     opacity: 0;
-    transform: translateY(18px) scale(0.96);
+    transform: translateY(24px) scale(0.94);
+    filter: blur(5px);
   }
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
+    filter: blur(0);
   }
 }
 
 @keyframes copyRise {
   from {
     opacity: 0;
-    transform: translateY(14px);
+    transform: translateY(18px);
+    filter: blur(4px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0);
   }
 }
 
 @keyframes panelReveal {
   from {
     opacity: 0;
-    transform: translateY(16px);
+    transform: translateY(26px) scale(0.985);
+    filter: blur(5px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
+    filter: blur(0);
   }
 }
 
@@ -157,6 +249,9 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html::before,
+  html::after,
+  body,
   .site-header,
   .brand,
   .brand-wrap > div,
@@ -164,6 +259,11 @@
   .top-notice,
   .dashboard > * {
     animation: none;
+  }
+
+  html::before,
+  html::after {
+    display: none;
   }
 }
 
