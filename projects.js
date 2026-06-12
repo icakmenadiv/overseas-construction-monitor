@@ -2,6 +2,8 @@ const CONFIG = {
   SHEET_ID: "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
   PROJECT_SHEET_GID: "20260612",
   SMALL_COST_THRESHOLD_USD: 1_000_000,
+  HUNDRED_MILLION_USD: 100_000_000,
+  MILLION_USD: 1_000_000,
 };
 
 const PROJECT_COLUMNS = [
@@ -108,7 +110,7 @@ async function loadProjects() {
     if (els.refreshButton) els.refreshButton.disabled = true;
     els.syncStatus.textContent = "데이터 새로 고침 중...";
     const rows = normalizeRows(await fetchSheetData(CONFIG.PROJECT_SHEET_GID), PROJECT_COLUMNS);
-    state.projects = rows.map(normalizeProject).filter((project) => project.name);
+    state.projects = rows.map(normalizeProject).filter((project) => project.name && project.latestDateText);
     populateFilters();
     applyFilters();
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
@@ -166,6 +168,7 @@ function normalizeProject(row) {
   const costText = row["사업비(달러 기준 추정액)"] || "사업비 미확인";
   const costValue = parseCostValue(costText);
   const latestDate = parseSheetDate(row["최근 업데이트일"]);
+  const latestDateText = formatDate(latestDate) || row["최근 업데이트일"];
   return {
     projectId: row["프로젝트 고유값"],
     name: row["프로젝트명"],
@@ -179,7 +182,7 @@ function normalizeProject(row) {
     exchangeBasis: row["사업비 환산 환율 / 기준"],
     stage: row["현재 단계"] || "-",
     latestDate,
-    latestDateText: formatDate(latestDate) || row["최근 업데이트일"] || "-",
+    latestDateText,
     representativeArticleId: row["대표 기사 고유값"],
     note: row["비고"],
   };
@@ -368,10 +371,15 @@ function buildProjectUrl(project) {
 
 function formatCost(project) {
   if (!project.costKnown) return "사업비 미확인";
-  if (project.costValue <= CONFIG.SMALL_COST_THRESHOLD_USD) {
-    return `USD ${numberFormat(Math.round(project.costValue))}`;
+  if (project.costValue >= CONFIG.HUNDRED_MILLION_USD) {
+    return `${formatCompactAmount(project.costValue / CONFIG.HUNDRED_MILLION_USD)}억불`;
   }
-  return String(project.costText).replace(/^약\s*/, "");
+  return `${formatCompactAmount(project.costValue / CONFIG.MILLION_USD)}백만불`;
+}
+
+function formatCompactAmount(value) {
+  const rounded = Math.round(value * 10) / 10;
+  return Number.isInteger(rounded) ? numberFormat(rounded) : numberFormat(rounded).replace(/\.0$/, "");
 }
 
 function updateActiveFilterText() {
