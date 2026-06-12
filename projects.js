@@ -67,10 +67,10 @@ function setupUnifiedHeader() {
   const eyebrow = document.querySelector(".brand-wrap .eyebrow");
   const title = document.querySelector(".brand-wrap h1");
   const subtitle = document.querySelector(".brand-wrap .subtitle");
-  if (eyebrow) eyebrow.textContent = "해외건설협회 통합 모니터링";
-  if (title) title.textContent = "해외 건설시장 모니터링";
+  if (eyebrow) eyebrow.textContent = "Project Pipeline Tracker";
+  if (title) title.textContent = "글로벌 프로젝트 모니터링";
   if (subtitle) {
-    subtitle.textContent = "해외건설협회가 수집한 해외 건설·인프라 시장뉴스와 프로젝트 정보를 통합 조회합니다.";
+    subtitle.textContent = "사업 단계와 최신 업데이트를 연결해 유망 사업을 지속적으로 추적합니다.";
   }
 }
 
