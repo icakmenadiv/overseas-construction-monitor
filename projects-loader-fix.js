@@ -20,8 +20,23 @@
   const withTimeout = (promise, ms) =>
     Promise.race([
       promise,
-      new Promise((_, reject) => window.setTimeout(() => reject(new Error("Project sheet fetch timeout")), ms)),
+      new Promise((_, reject) => window.setTimeout(() => reject(new Error("Project sheet request timeout")), ms)),
     ]);
+
+  const makeSheetResponse = (text) =>
+    new Response(text, {
+      status: 200,
+      headers: { "Content-Type": "application/json; charset=utf-8" },
+    });
+
+  const validateGvizText = (text) => {
+    const jsonStart = text.indexOf("{");
+    const jsonEnd = text.lastIndexOf("}") + 1;
+    if (jsonStart === -1 || jsonEnd === 0) throw new Error("Invalid project sheet GViz response");
+    const data = JSON.parse(text.substring(jsonStart, jsonEnd));
+    if (!data?.table?.cols || !data?.table?.rows) throw new Error("Project sheet GViz table missing");
+    return text;
+  };
 
   const fetchProjectSheetJsonp = () =>
     new Promise((resolve, reject) => {
@@ -39,12 +54,8 @@
       window[callbackName] = (data) => {
         window.clearTimeout(timeoutId);
         try {
-          resolve(
-            new Response(JSON.stringify(data), {
-              status: 200,
-              headers: { "Content-Type": "application/json; charset=utf-8" },
-            }),
-          );
+          if (!data?.table?.cols || !data?.table?.rows) throw new Error("Project sheet JSONP table missing");
+          resolve(makeSheetResponse(JSON.stringify(data)));
         } catch (error) {
           reject(error);
         } finally {
@@ -57,7 +68,7 @@
         cleanup();
         reject(new Error("Project sheet JSONP load failed"));
       };
-      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${PROJECT_SHEET_GID}&tqx=responseHandler:${callbackName};out:json`;
+      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${PROJECT_SHEET_GID}&tqx=out:json;responseHandler:${callbackName}`;
       document.head.appendChild(script);
     });
 
@@ -65,7 +76,10 @@
     if (!isProjectSheetRequest(resource)) return originalFetch(resource, options);
 
     try {
-      return await withTimeout(originalFetch(resource, options), FETCH_TIMEOUT_MS);
+      const response = await withTimeout(originalFetch(resource, options), FETCH_TIMEOUT_MS);
+      if (!response.ok) throw new Error(`Project sheet HTTP ${response.status}`);
+      const text = await withTimeout(response.clone().text(), FETCH_TIMEOUT_MS);
+      return makeSheetResponse(validateGvizText(text));
     } catch (error) {
       console.warn("Project sheet fetch failed; using JSONP fallback", error);
       return fetchProjectSheetJsonp();
