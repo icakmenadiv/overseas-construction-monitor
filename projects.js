@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
   setupUnifiedHeader();
-  enableHoverFilters();
   updateProjectHelpText();
   bindEvents();
   await loadProjects();
@@ -73,21 +72,6 @@ function setupUnifiedHeader() {
   if (subtitle) {
     subtitle.textContent = "해외건설협회가 수집한 해외 건설·인프라 시장뉴스와 프로젝트 정보를 통합 조회합니다.";
   }
-}
-
-function enableHoverFilters() {
-  document.querySelectorAll(".filter-collapse").forEach((details) => {
-    let closeTimer;
-    details.addEventListener("mouseenter", () => {
-      clearTimeout(closeTimer);
-      details.open = true;
-    });
-    details.addEventListener("mouseleave", () => {
-      closeTimer = setTimeout(() => {
-        details.open = false;
-      }, 120);
-    });
-  });
 }
 
 function updateProjectHelpText() {
@@ -129,42 +113,31 @@ function bindEvents() {
     });
   }
 
-  if (els.refreshButton) {
-    els.refreshButton.addEventListener("click", loadProjects);
-  }
-
+  if (els.refreshButton) els.refreshButton.addEventListener("click", loadProjects);
   if (els.backToTopButton) {
-    els.backToTopButton.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
+    els.backToTopButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
   }
 }
 
 async function loadProjects() {
   try {
     if (els.refreshButton) els.refreshButton.disabled = true;
-    els.syncStatus.textContent = "데이터 새로 고침 중...";
+    if (els.syncStatus) els.syncStatus.textContent = "데이터 새로 고침 중...";
+
     const rows = normalizeRows(await fetchSheetData(CONFIG.PROJECT_SHEET_GID), PROJECT_COLUMNS);
     state.projects = rows
       .map(normalizeProject)
-      .filter((project) => project.name && project.latestDateText && project.representativeInfoClass === "프로젝트 정보");
+      .filter((project) => project.name && project.latestDateText);
+
     populateFilters();
     applyFilters();
-    els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
+    if (els.syncStatus) els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
   } catch (error) {
     console.error("Project monitoring fetch error:", error);
     showError();
   } finally {
     if (els.refreshButton) els.refreshButton.disabled = false;
   }
-}
-
-function debounce(fn, delay) {
-  let timeoutId;
-  return function (...args) {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => fn(...args), delay);
-  };
 }
 
 async function fetchSheetData(gid) {
@@ -206,6 +179,7 @@ function normalizeProject(row) {
   const costValue = parseCostValue(costText);
   const latestDate = parseSheetDate(row["최근 업데이트일"]);
   const latestDateText = formatDate(latestDate) || row["최근 업데이트일"];
+
   return {
     projectId: row["프로젝트 고유값"],
     name: row["프로젝트명"],
@@ -232,9 +206,7 @@ function parseCostValue(value) {
   const firstNumber = Number((text.match(/[0-9]+(?:\.[0-9]+)?/) || [0])[0]);
   if (!firstNumber) return 0;
   if (text.includes("billion") || text.includes("bn")) return firstNumber * 1_000_000_000;
-  if (text.includes("million") || text.includes("mn") || text.includes("백만")) {
-    return firstNumber * 1_000_000;
-  }
+  if (text.includes("million") || text.includes("mn") || text.includes("백만")) return firstNumber * 1_000_000;
   if (text.includes("억") && text.includes("달러")) return firstNumber * 100_000_000;
   if (text.includes("만") && text.includes("달러")) return firstNumber * 10_000;
   return firstNumber;
@@ -268,55 +240,6 @@ function updateCountryOptions() {
   setCheckboxOptions(els.countryFilter, uniqueValues(source, "country"), getCheckedValues(els.countryFilter));
 }
 
-function uniqueValues(rows, key) {
-  return [...new Set(rows.map((row) => row[key]).filter(Boolean))].sort((a, b) =>
-    a.localeCompare(b, "ko"),
-  );
-}
-
-function setCheckboxOptions(container, values, selectedValues = []) {
-  if (!container) return;
-  const selected = new Set(selectedValues);
-  container.innerHTML = "";
-
-  if (!values.length) {
-    const empty = document.createElement("span");
-    empty.className = "checkbox-empty";
-    empty.textContent = "선택 가능한 항목 없음";
-    container.appendChild(empty);
-    return;
-  }
-
-  values.forEach((value, index) => {
-    const label = document.createElement("label");
-    label.className = "check-chip";
-
-    const input = document.createElement("input");
-    input.type = "checkbox";
-    input.value = value;
-    input.checked = selected.has(value);
-    input.id = `${container.id}-${index}`;
-
-    const text = document.createElement("span");
-    text.textContent = value;
-
-    label.append(input, text);
-    container.appendChild(label);
-  });
-}
-
-function getCheckedValues(container) {
-  if (!container) return [];
-  return [...container.querySelectorAll('input[type="checkbox"]:checked')].map((input) => input.value);
-}
-
-function clearCheckedValues(container) {
-  if (!container) return;
-  container.querySelectorAll('input[type="checkbox"]').forEach((input) => {
-    input.checked = false;
-  });
-}
-
 function applyFilters() {
   const keyword = (els.keywordInput?.value || "").trim().toLowerCase();
   const regions = getCheckedValues(els.regionFilter);
@@ -329,7 +252,7 @@ function applyFilters() {
   let projects = state.projects.filter((project) => {
     const keywordOk =
       !keyword ||
-      [project.name, project.owner, project.region, project.country, project.sector, project.stage]
+      [project.name, project.owner, project.region, project.country, project.sector, project.stage, project.note]
         .join(" ")
         .toLowerCase()
         .includes(keyword);
@@ -358,19 +281,6 @@ function sortProjects(projects, sortValue) {
     if (key === "country") return a.country.localeCompare(b.country, "ko") * multiplier;
     return a.name.localeCompare(b.name, "ko") * multiplier;
   });
-}
-
-function updateSummary() {
-  const latest = state.projects
-    .map((project) => project.latestDate)
-    .filter(Boolean)
-    .sort((a, b) => b.getTime() - a.getTime())[0];
-  els.totalCount.textContent = numberFormat(state.projects.length);
-  els.filteredCount.textContent = numberFormat(state.filteredProjects.length);
-  els.countryCount.textContent = numberFormat(uniqueValues(state.projects, "country").length);
-  els.sectorCount.textContent = numberFormat(uniqueValues(state.projects, "sector").length);
-  els.latestDate.textContent = latest ? formatDate(latest) : "-";
-  els.resultCountLabel.textContent = `${numberFormat(state.filteredProjects.length)}건`;
 }
 
 function renderProjects() {
@@ -422,6 +332,86 @@ function buildProjectUrl(project) {
   return `./project.html?${params.toString()}`;
 }
 
+function updateSummary() {
+  const latest = state.projects
+    .map((project) => project.latestDate)
+    .filter(Boolean)
+    .sort((a, b) => b.getTime() - a.getTime())[0];
+  els.totalCount.textContent = numberFormat(state.projects.length);
+  els.filteredCount.textContent = numberFormat(state.filteredProjects.length);
+  els.countryCount.textContent = numberFormat(uniqueValues(state.projects, "country").length);
+  els.sectorCount.textContent = numberFormat(uniqueValues(state.projects, "sector").length);
+  els.latestDate.textContent = latest ? formatDate(latest) : "-";
+  els.resultCountLabel.textContent = `${numberFormat(state.filteredProjects.length)}건`;
+}
+
+function updateActiveFilterText() {
+  const filters = [];
+  if (els.keywordInput?.value?.trim()) filters.push(`검색: ${els.keywordInput.value.trim()}`);
+  pushSelectedFilter(filters, "지역", getCheckedValues(els.regionFilter));
+  pushSelectedFilter(filters, "국가", getCheckedValues(els.countryFilter));
+  pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
+  pushSelectedFilter(filters, "단계", getCheckedValues(els.stageFilter));
+  filters.push(els.includeSmallCost?.checked ? "1백만불 이하 포함" : "1백만불 이하 제외");
+  filters.push(els.includeUnknownCost?.checked ? "미확인 사업 포함" : "사업비 미확인 제외");
+  els.activeFilterText.textContent = filters.join(" · ");
+}
+
+function pushSelectedFilter(filters, label, values) {
+  if (!values.length) return;
+  const suffix = values.length > 1 ? ` 외 ${values.length - 1}` : "";
+  filters.push(`${label}: ${values[0]}${suffix}`);
+}
+
+function setCheckboxOptions(container, values, selectedValues = []) {
+  if (!container) return;
+  const selected = new Set(selectedValues);
+  container.innerHTML = "";
+
+  if (!values.length) {
+    const empty = document.createElement("span");
+    empty.className = "checkbox-empty";
+    empty.textContent = "선택 가능한 항목 없음";
+    container.appendChild(empty);
+    return;
+  }
+
+  values.forEach((value, index) => {
+    const label = document.createElement("label");
+    label.className = "check-chip";
+
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = value;
+    input.checked = selected.has(value);
+    input.id = `${container.id}-${index}`;
+
+    const text = document.createElement("span");
+    text.textContent = value;
+
+    label.append(input, text);
+    container.appendChild(label);
+  });
+}
+
+function getCheckedValues(container) {
+  if (!container) return [];
+  return [...container.querySelectorAll('input[type="checkbox"]:checked')].map((input) => input.value);
+}
+
+function clearCheckedValues(container) {
+  if (!container) return;
+  container.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+    input.checked = false;
+  });
+}
+
+function uniqueValues(rows, key) {
+  return [...new Set(rows.map((row) => row[key]).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b, "ko"),
+  );
+}
+
 function formatCost(project) {
   if (!project.costKnown) return "사업비 미확인";
   if (project.costValue >= CONFIG.HUNDRED_MILLION_USD) {
@@ -435,30 +425,12 @@ function formatCompactAmount(value) {
   return Number.isInteger(rounded) ? numberFormat(rounded) : numberFormat(rounded).replace(/\.0$/, "");
 }
 
-function updateActiveFilterText() {
-  const filters = [];
-  if (els.keywordInput?.value?.trim()) filters.push(`검색: ${els.keywordInput.value.trim()}`);
-  pushSelectedFilter(filters, "지역", getCheckedValues(els.regionFilter));
-  pushSelectedFilter(filters, "국가", getCheckedValues(els.countryFilter));
-  pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
-  pushSelectedFilter(filters, "단계", getCheckedValues(els.stageFilter));
-  filters.push(els.includeSmallCost?.checked ? "1백만불 이하 포함" : "1백만불 이하 제외");
-  filters.push(els.includeUnknownCost?.checked ? "미확인 사업 포함" : "사업비 미확인 제외");
-  els.activeFilterText.textContent = filters.length ? filters.join(" · ") : "전체 프로젝트";
-}
-
-function pushSelectedFilter(filters, label, values) {
-  if (!values.length) return;
-  const suffix = values.length > 1 ? ` 외 ${values.length - 1}` : "";
-  filters.push(`${label}: ${values[0]}${suffix}`);
-}
-
 function showError() {
   els.loadingState.hidden = true;
   els.errorState.hidden = false;
   els.emptyState.hidden = true;
   els.tableWrap.hidden = true;
-  els.syncStatus.textContent = "데이터 연결 실패 - Google Sheets 공개 설정을 확인해주세요";
+  if (els.syncStatus) els.syncStatus.textContent = "데이터 연결 실패 - Google Sheets 공개 설정을 확인해주세요";
 }
 
 function cleanValue(value) {
