@@ -3,6 +3,62 @@
   const CLOSE_DELAY_MS = 300;
   const timers = new WeakMap();
 
+  function buildCollapsibleFilters() {
+    document.querySelectorAll(".field-wide").forEach((field) => {
+      if (field.querySelector(".filter-collapse")) return;
+
+      const label = field.querySelector(":scope > .field-label");
+      const filter = field.querySelector(":scope > .checkbox-filter");
+      if (!label || !filter) return;
+
+      const details = document.createElement("details");
+      details.className = "filter-collapse";
+
+      const summary = document.createElement("summary");
+      const title = document.createElement("span");
+      title.className = "filter-title";
+      title.textContent = label.textContent.trim();
+
+      const selectedSummary = document.createElement("span");
+      selectedSummary.className = "filter-summary";
+      selectedSummary.textContent = "전체";
+
+      summary.append(title, selectedSummary);
+      details.append(summary);
+      details.append(filter);
+      label.remove();
+      field.append(details);
+
+      updateFilterSummary(details);
+      filter.addEventListener("change", () => updateFilterSummary(details));
+      new MutationObserver(() => updateFilterSummary(details)).observe(filter, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ["checked"],
+      });
+    });
+  }
+
+  function updateFilterSummary(details) {
+    const summary = details.querySelector(".filter-summary");
+    const checked = [...details.querySelectorAll('input[type="checkbox"]:checked')].map(
+      (input) => input.closest("label")?.textContent.trim() || input.value,
+    );
+    if (!summary) return;
+
+    if (!checked.length) {
+      summary.textContent = "전체";
+      summary.classList.remove("has-active-filter");
+      details.classList.remove("has-active-filter");
+      return;
+    }
+
+    summary.textContent = checked.length === 1 ? checked[0] : `${checked[0]} 외 ${checked.length - 1}`;
+    summary.classList.add("has-active-filter");
+    details.classList.add("has-active-filter");
+  }
+
   function clearTimers(details) {
     const active = timers.get(details);
     if (!active) return;
@@ -44,9 +100,10 @@
   function getFilterDetails(event) {
     const target = event.target;
     if (!(target instanceof Element)) return null;
-    const details = target.closest(".filter-collapse");
-    return details === target ? details : null;
+    return target.closest(".filter-collapse");
   }
+
+  buildCollapsibleFilters();
 
   document.addEventListener(
     "mouseenter",
