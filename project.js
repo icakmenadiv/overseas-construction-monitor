@@ -2,7 +2,6 @@ const CONFIG = {
   SHEET_ID: "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
   RESULT_SHEET_GID: "748239675",
   PROJECT_SHEET_GID: "20260612",
-  MAPPING_SHEET_GID: "20260614",
 };
 
 const RESULT_COLUMNS = [
@@ -42,16 +41,6 @@ const PROJECT_COLUMNS = [
   "대표 기사 정보 분류",
 ];
 
-const MAPPING_COLUMNS = [
-  "프로젝트 고유값",
-  "기사 고유값",
-  "기사일자",
-  "기사 시점 단계",
-  "해당 기사 기준 사업비",
-  "대표기사 여부",
-  "비고",
-];
-
 const els = {
   syncStatus: document.getElementById("syncStatus"),
   projectTitle: document.getElementById("projectTitle"),
@@ -83,9 +72,8 @@ async function init() {
       projectId: cleanValue(params.get("id")),
     };
 
-    const [projectRows, mappingRows, resultRows] = await Promise.all([
+    const [projectRows, resultRows] = await Promise.all([
       fetchAndNormalize(CONFIG.PROJECT_SHEET_GID, PROJECT_COLUMNS),
-      fetchAndNormalize(CONFIG.MAPPING_SHEET_GID, MAPPING_COLUMNS),
       fetchAndNormalize(CONFIG.RESULT_SHEET_GID, RESULT_COLUMNS),
     ]);
 
@@ -95,9 +83,7 @@ async function init() {
       return;
     }
 
-    const mappings = mappingRows.filter((row) => row["프로젝트 고유값"] === project["프로젝트 고유값"]);
-    const articleMap = new Map(resultRows.map((row) => [row["기사 고유값"], row]).filter(([articleId]) => articleId));
-    const articles = buildArticleItems(project, mappings, articleMap, resultRows);
+    const articles = buildArticleItems(project, resultRows);
 
     renderProject(project, articles);
     els.syncStatus.textContent = `마지막 불러오기 ${formatDateTime(new Date())}`;
@@ -157,7 +143,7 @@ function findProject(projectRows, criteria) {
   });
 }
 
-function buildArticleItems(project, mappings, articleMap, resultRows = []) {
+function buildArticleItems(project, resultRows = []) {
   const seenArticleIds = new Set();
   const items = [];
 
@@ -167,35 +153,23 @@ function buildArticleItems(project, mappings, articleMap, resultRows = []) {
   const sector = project["섹터"];
   const representativeArticleId = project["대표 기사 고유값"];
 
-  const addItem = (article, mapping = {}, fallbackNote = "") => {
+  const addItem = (article, override = {}) => {
     if (!article) return;
-    const articleId = mapping["기사 고유값"] || article["기사 고유값"];
+    const articleId = override["기사 고유값"] || article["기사 고유값"];
     if (!articleId || seenArticleIds.has(articleId)) return;
 
     seenArticleIds.add(articleId);
     items.push({
       mapping: {
         "기사 고유값": articleId,
-        "기사일자": mapping["기사일자"] || article["원문게재일"] || project["최근 업데이트일"],
-        "기사 시점 단계": mapping["기사 시점 단계"] || article["관련 단계"] || project["현재 단계"],
-        "해당 기사 기준 사업비": mapping["해당 기사 기준 사업비"] || project["사업비(달러 기준 추정액)"],
-        "대표기사 여부": mapping["대표기사 여부"] || (articleId === representativeArticleId ? "Y" : ""),
-        "비고": mapping["비고"] || fallbackNote,
+        "기사일자": article["원문게재일"] || project["최근 업데이트일"],
+        "기사 시점 단계": article["관련 단계"] || project["현재 단계"],
+        "해당 기사 기준 사업비": project["사업비(달러 기준 추정액)"],
+        "대표기사 여부": override["대표기사 여부"] || (articleId === representativeArticleId ? "Y" : ""),
       },
       article,
     });
   };
-
-  mappings.forEach((mapping) => {
-    addItem(articleMap.get(mapping["기사 고유값"]), mapping, "프로젝트-기사 연결 탭 기준");
-  });
-
-  if (representativeArticleId) {
-    addItem(articleMap.get(representativeArticleId), {
-      "기사 고유값": representativeArticleId,
-      "대표기사 여부": "Y",
-    }, "프로젝트 탭 대표기사 기준 자동 표시");
-  }
 
   resultRows.forEach((article) => {
     const articleId = article["기사 고유값"];
@@ -214,7 +188,7 @@ function buildArticleItems(project, mappings, articleMap, resultRows = []) {
     addItem(article, {
       "기사 고유값": articleId,
       "대표기사 여부": representativeMatch ? "Y" : "",
-    }, "시장 모니터링 결과 탭 기준 자동 연결");
+    });
   });
 
   return items.sort(
