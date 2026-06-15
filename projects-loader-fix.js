@@ -23,6 +23,7 @@
       url.includes("docs.google.com/spreadsheets") &&
       url.includes(`/d/${SHEET_ID}/`) &&
       url.includes(`gid=${PROJECT_SHEET_GID}`) &&
+      url.includes("headers=1") &&
       url.includes("tqx=out:json")
     );
   };
@@ -78,7 +79,7 @@
         cleanup();
         reject(new Error("Project sheet JSONP load failed"));
       };
-      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${PROJECT_SHEET_GID}&tqx=out:json;responseHandler:${callbackName}`;
+      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${PROJECT_SHEET_GID}&headers=1&tqx=out:json;responseHandler:${callbackName}`;
       document.head.appendChild(script);
     });
 
