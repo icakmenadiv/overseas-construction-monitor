@@ -17,7 +17,7 @@
       const summary = document.createElement("summary");
       const title = document.createElement("span");
       title.className = "filter-title";
-      title.textContent = `필터 · ${label.textContent.trim()}`;
+      title.textContent = label.textContent.trim();
 
       const selectedSummary = document.createElement("span");
       selectedSummary.className = "filter-summary";
