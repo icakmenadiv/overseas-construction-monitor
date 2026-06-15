@@ -5,6 +5,10 @@ const CONFIG = {
   SMALL_COST_THRESHOLD_USD: 1_000_000,
   HUNDRED_MILLION_USD: 100_000_000,
   MILLION_USD: 1_000_000,
+  SHEET_RANGES: {
+    "20260612": "A:M",
+    "748239675": "A:R",
+  },
 };
 
 const PROJECT_COLUMNS = [
@@ -109,8 +113,8 @@ function bindEvents() {
       clearCheckedValues(els.countryFilter);
       clearCheckedValues(els.sectorFilter);
       clearCheckedValues(els.stageFilter);
-      if (els.includeSmallCost) els.includeSmallCost.checked = false;
-      if (els.includeUnknownCost) els.includeUnknownCost.checked = false;
+      if (els.includeSmallCost) els.includeSmallCost.checked = true;
+      if (els.includeUnknownCost) els.includeUnknownCost.checked = true;
       if (els.sortSelect) els.sortSelect.value = "cost:desc";
       updateCountryOptions();
       applyFilters();
@@ -162,7 +166,9 @@ async function loadRepresentativeTopics() {
 }
 
 async function fetchSheetData(gid) {
-  const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${gid}&headers=1&tqx=out:json`;
+  const range = CONFIG.SHEET_RANGES[gid];
+  const rangeParam = range ? `&range=${encodeURIComponent(range)}` : "";
+  const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${gid}&headers=1${rangeParam}&tqx=out:json`;
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
@@ -276,9 +282,12 @@ function applyFilters() {
     const keywordOk =
       !keyword ||
       [
+        project.projectId,
         project.name,
         project.owner,
+        project.representativeArticleId,
         project.representativeTopic,
+        project.note,
         project.region,
         project.country,
         project.sector,
@@ -401,6 +410,7 @@ function renderProjects() {
 
 function buildProjectUrl(project) {
   const params = new URLSearchParams();
+  if (project.projectId) params.set("id", project.projectId);
   params.set("name", project.name);
   if (project.country) params.set("country", project.country);
   if (project.sector) params.set("sector", project.sector);
