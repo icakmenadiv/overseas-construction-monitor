@@ -1,6 +1,7 @@
 (() => {
   const SECTION_ID = "projectScaleInfographic";
-  const MAX_SEGMENTS = 8;
+  const MAX_ITEMS = 5;
+  const MAX_COUNTRIES = 4;
 
   document.addEventListener("DOMContentLoaded", () => {
     ensureSection();
@@ -45,6 +46,7 @@
     const section = document.getElementById(SECTION_ID);
     if (!section) return;
 
+    const wasOpen = section.querySelector("details.scale-details")?.open ?? true;
     const projects = getProjects().filter((project) => project.costKnown && project.costValue > 0);
     if (!projects.length) {
       section.hidden = true;
@@ -52,82 +54,80 @@
       return;
     }
 
-    const sectorData = aggregateProjects(projects, "sector");
-    const stageData = aggregateProjects(projects, "stage");
     const total = projects.reduce((sum, project) => sum + project.costValue, 0);
-    const activeSectors = getCheckedValuesById("sectorFilter");
-    const activeStages = getCheckedValuesById("stageFilter");
+    const sectorData = aggregateProjects(projects, "sector").slice(0, MAX_ITEMS);
+    const stageData = aggregateProjects(projects, "stage").slice(0, MAX_ITEMS);
+    const regionData = aggregateProjects(projects, "region").slice(0, MAX_ITEMS);
+    const countryData = compactCountryData(aggregateProjects(projects, "country"));
 
     section.hidden = false;
     section.innerHTML = `
-      <div class="scale-info-head">
-        <div>
-          <span class="scale-kicker">Project Scale Intelligence</span>
-          <h2>프로젝트 규모 인포그래픽</h2>
-          <p>현재 필터 결과의 사업비 확인 프로젝트를 섹터별·단계별 총 사업규모로 집계합니다.</p>
-        </div>
-        <div class="scale-total-card">
-          <span>총 사업규모</span>
-          <strong>${escapeHtml(formatScaleAmount(total))}</strong>
+      <details class="scale-details" ${wasOpen ? "open" : ""}>
+        <summary class="scale-summary">
+          <div>
+            <span class="scale-kicker">Project Scale Intelligence</span>
+            <h2>프로젝트 규모 인포그래픽</h2>
+            <p>현재 필터 결과의 사업비 확인 프로젝트를 지역·국가·섹터·단계별로 집계합니다.</p>
+          </div>
+          <div class="scale-total-card">
+            <span>총 사업규모</span>
+            <strong>${escapeHtml(formatScaleAmount(total))}</strong>
+          </div>
+        </summary>
+        <div class="scale-toolbar">
+          <span>항목을 누르면 해당 필터가 적용됩니다.</span>
           <button type="button" class="scale-reset-button">필터 초기화</button>
         </div>
-      </div>
-      <div class="scale-chart-grid">
-        ${renderChart("섹터별", "sector", sectorData, activeSectors)}
-        ${renderChart("단계별", "stage", stageData, activeStages)}
-      </div>
+        <div class="scale-insight-grid">
+          ${renderPanel("지역별", "region", regionData, getCheckedValuesById("regionFilter"))}
+          ${renderPanel("국가별", "country", countryData, getCheckedValuesById("countryFilter"))}
+          ${renderPanel("섹터별", "sector", sectorData, getCheckedValuesById("sectorFilter"))}
+          ${renderPanel("단계별", "stage", stageData, getCheckedValuesById("stageFilter"))}
+        </div>
+      </details>
     `;
 
-    section.querySelector(".scale-reset-button")?.addEventListener("click", () => {
+    section.querySelector(".scale-reset-button")?.addEventListener("click", (event) => {
+      event.preventDefault();
       document.getElementById("resetButton")?.click();
       setTimeout(renderProjectScaleInfographic, 0);
     });
 
-    section.querySelectorAll(".scale-segment, .scale-list-button").forEach((button) => {
+    section.querySelectorAll(".scale-rank-button").forEach((button) => {
       button.addEventListener("click", () => {
+        if (button.dataset.filterDisabled === "true") return;
         applySingleFilter(button.dataset.filterType, button.dataset.filterValue);
       });
     });
   }
 
-  function renderChart(title, filterType, data, activeValues) {
-    const chartData = data.slice(0, MAX_SEGMENTS);
-    const total = chartData.reduce((sum, item) => sum + item.value, 0);
-    let offset = 0;
-
-    const segments = chartData
+  function renderPanel(title, filterType, data, activeValues) {
+    const total = data.reduce((sum, item) => sum + item.value, 0);
+    const rows = data
       .map((item, index) => {
-        const width = total ? (item.value / total) * 100 : 0;
-        const style = `--scale-left:${offset}%;--scale-width:${width}%;--scale-index:${index};`;
-        offset += width;
+        const pct = total ? Math.max(3, Math.round((item.value / total) * 100)) : 0;
         const active = activeValues.includes(item.name) ? " is-active" : "";
-        return `<button type="button" class="scale-segment${active}" style="${style}" data-filter-type="${filterType}" data-filter-value="${escapeAttribute(item.name)}" aria-label="${escapeAttribute(`${title} ${item.name} 필터 적용`)}"><span>${escapeHtml(item.name)}</span></button>`;
-      })
-      .join("");
-
-    const list = chartData
-      .map((item, index) => {
-        const pct = total ? Math.round((item.value / total) * 100) : 0;
-        const active = activeValues.includes(item.name) ? " is-active" : "";
+        const disabled = item.isOther ? "true" : "false";
         return `
-          <button type="button" class="scale-list-button${active}" data-filter-type="${filterType}" data-filter-value="${escapeAttribute(item.name)}">
-            <span class="scale-dot" aria-hidden="true">${index + 1}</span>
-            <span class="scale-list-name">${escapeHtml(item.name)}</span>
-            <strong>${escapeHtml(formatScaleAmount(item.value))}</strong>
-            <em>${pct}%</em>
+          <button type="button" class="scale-rank-button${active}${item.isOther ? " is-other" : ""}" data-filter-type="${filterType}" data-filter-value="${escapeAttribute(item.name)}" data-filter-disabled="${disabled}" style="--scale-pct:${pct}%; --scale-index:${index};">
+            <span class="scale-rank-no">${index + 1}</span>
+            <span class="scale-rank-main">
+              <strong>${escapeHtml(item.label || item.name)}</strong>
+              <em>${escapeHtml(formatScaleAmount(item.value))}</em>
+            </span>
+            <span class="scale-rank-pct">${total ? Math.round((item.value / total) * 100) : 0}%</span>
           </button>
         `;
       })
       .join("");
 
     return `
-      <article class="scale-chart-card">
-        <div class="scale-chart-title">
+      <article class="scale-panel-card">
+        <div class="scale-panel-head">
           <span>${escapeHtml(title)}</span>
           <strong>${escapeHtml(formatScaleAmount(total))}</strong>
         </div>
-        <div class="scale-stack" role="img" aria-label="${escapeAttribute(`${title} 사업규모 누적 막대 그래프`)}">${segments}</div>
-        <div class="scale-list">${list}</div>
+        <div class="scale-rank-list">${rows}</div>
       </article>
     `;
   }
@@ -144,8 +144,30 @@
       .sort((a, b) => b.value - a.value || a.name.localeCompare(b.name, "ko"));
   }
 
+  function compactCountryData(data) {
+    if (data.length <= MAX_COUNTRIES) return data;
+    const visible = data.slice(0, MAX_COUNTRIES);
+    const rest = data.slice(MAX_COUNTRIES);
+    const restValue = rest.reduce((sum, item) => sum + item.value, 0);
+    const firstRest = rest[0]?.name || "기타";
+    return [
+      ...visible,
+      {
+        name: "__other_countries__",
+        label: `${firstRest} 외 ${rest.length - 1}개국`,
+        value: restValue,
+        isOther: true,
+      },
+    ];
+  }
+
   function applySingleFilter(type, value) {
-    const containerId = type === "sector" ? "sectorFilter" : "stageFilter";
+    const containerId = {
+      region: "regionFilter",
+      country: "countryFilter",
+      sector: "sectorFilter",
+      stage: "stageFilter",
+    }[type];
     const container = document.getElementById(containerId);
     if (!container || !value) return;
 
