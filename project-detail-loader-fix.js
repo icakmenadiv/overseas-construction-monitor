@@ -1,8 +1,8 @@
 (() => {
   const SHEET_ID = "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E";
   const RANGES_BY_GID = {
-    "748239675": "A:R",
-    "20260612": "A:M",
+    "748239675": "A1:R50000",
+    "20260612": "A1:M10000",
   };
 
   if (!window.fetch) return;
