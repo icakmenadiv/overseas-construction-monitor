@@ -1,6 +1,7 @@
 const CONFIG = {
   SHEET_ID: "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
   PROJECT_SHEET_GID: "20260612",
+  RESULT_SHEET_GID: "748239675",
   SMALL_COST_THRESHOLD_USD: 1_000_000,
   HUNDRED_MILLION_USD: 100_000_000,
   MILLION_USD: 1_000_000,
@@ -21,6 +22,8 @@ const PROJECT_COLUMNS = [
   "비고",
   "대표 기사 정보 분류",
 ];
+
+const RESULT_COLUMNS = ["기사 고유값", "주제"];
 
 const state = {
   projects: [],
@@ -52,6 +55,7 @@ const els = {
   emptyState: document.getElementById("emptyState"),
   tableWrap: document.getElementById("tableWrap"),
   projectBody: document.getElementById("projectBody"),
+  featuredProjects: document.getElementById("featuredProjects"),
 };
 
 document.addEventListener("DOMContentLoaded", init);
@@ -124,9 +128,11 @@ async function loadProjects() {
     if (els.refreshButton) els.refreshButton.disabled = true;
     if (els.syncStatus) els.syncStatus.textContent = "데이터 새로 고침 중...";
 
-    const rows = normalizeRows(await fetchSheetData(CONFIG.PROJECT_SHEET_GID), PROJECT_COLUMNS);
-    state.projects = rows
-      .map(normalizeProject)
+    const projectRows = normalizeRows(await fetchSheetData(CONFIG.PROJECT_SHEET_GID), PROJECT_COLUMNS);
+    const representativeTopics = await loadRepresentativeTopics();
+
+    state.projects = projectRows
+      .map((row) => normalizeProject(row, representativeTopics))
       .filter((project) => project.name && project.latestDateText);
 
     populateFilters();
@@ -137,6 +143,21 @@ async function loadProjects() {
     showError();
   } finally {
     if (els.refreshButton) els.refreshButton.disabled = false;
+  }
+}
+
+async function loadRepresentativeTopics() {
+  try {
+    const rows = normalizeRows(await fetchSheetData(CONFIG.RESULT_SHEET_GID), RESULT_COLUMNS);
+    return rows.reduce((map, row) => {
+      const articleId = row["기사 고유값"];
+      const topic = row["주제"];
+      if (articleId && topic) map.set(articleId, topic);
+      return map;
+    }, new Map());
+  } catch (error) {
+    console.warn("Representative article topic fetch failed:", error);
+    return new Map();
   }
 }
 
@@ -174,11 +195,12 @@ function normalizeRows(rows, columns) {
     .filter((row) => columns.some((column) => row[column]));
 }
 
-function normalizeProject(row) {
+function normalizeProject(row, representativeTopics = new Map()) {
   const costText = row["사업비(달러 기준 추정액)"] || "사업비 미확인";
   const costValue = parseCostValue(costText);
   const latestDate = parseSheetDate(row["최근 업데이트일"]);
   const latestDateText = formatDate(latestDate) || row["최근 업데이트일"];
+  const representativeArticleId = row["대표 기사 고유값"];
 
   return {
     projectId: row["프로젝트 고유값"],
@@ -194,7 +216,8 @@ function normalizeProject(row) {
     stage: row["현재 단계"] || "-",
     latestDate,
     latestDateText,
-    representativeArticleId: row["대표 기사 고유값"],
+    representativeArticleId,
+    representativeTopic: representativeTopics.get(representativeArticleId) || "",
     representativeInfoClass: row["대표 기사 정보 분류"] || "프로젝트 정보",
     note: row["비고"],
   };
@@ -252,7 +275,15 @@ function applyFilters() {
   let projects = state.projects.filter((project) => {
     const keywordOk =
       !keyword ||
-      [project.name, project.owner, project.region, project.country, project.sector, project.stage, project.note]
+      [
+        project.name,
+        project.owner,
+        project.representativeTopic,
+        project.region,
+        project.country,
+        project.sector,
+        project.stage,
+      ]
         .join(" ")
         .toLowerCase()
         .includes(keyword);
@@ -268,6 +299,7 @@ function applyFilters() {
   projects = sortProjects(projects, els.sortSelect?.value || "cost:desc");
   state.filteredProjects = projects;
   updateSummary();
+  renderFeaturedProjects();
   renderProjects();
   updateActiveFilterText();
 }
@@ -281,6 +313,49 @@ function sortProjects(projects, sortValue) {
     if (key === "country") return a.country.localeCompare(b.country, "ko") * multiplier;
     return a.name.localeCompare(b.name, "ko") * multiplier;
   });
+}
+
+function renderFeaturedProjects() {
+  if (!els.featuredProjects) return;
+
+  const featured = [...state.filteredProjects]
+    .filter((project) => project.costKnown)
+    .sort((a, b) => b.costValue - a.costValue)
+    .slice(0, 3);
+
+  els.featuredProjects.hidden = featured.length === 0;
+  if (!featured.length) {
+    els.featuredProjects.innerHTML = "";
+    return;
+  }
+
+  els.featuredProjects.innerHTML = `
+    <div class="featured-projects-head">
+      <div>
+        <span>대표 프로젝트</span>
+        <h2>사업비 규모 기준 상위 3건</h2>
+      </div>
+      <p>현재 필터 결과에서 사업비가 확인된 프로젝트만 기준으로 표시합니다.</p>
+    </div>
+    <div class="featured-project-card-grid">
+      ${featured.map(renderFeaturedProjectCard).join("")}
+    </div>
+  `;
+}
+
+function renderFeaturedProjectCard(project, index) {
+  const url = buildProjectUrl(project);
+  return `
+    <article class="featured-project-card">
+      <a href="${escapeAttribute(url)}" aria-label="${escapeAttribute(project.name)} 프로젝트 상세페이지 열기">
+        <span class="featured-rank">Top ${index + 1}</span>
+        <strong>${escapeHtml(project.name)}</strong>
+        <span class="featured-cost">${escapeHtml(formatCost(project))}</span>
+        <span class="featured-meta">${escapeHtml(project.country || "-")} · ${escapeHtml(project.sector || "-")} · ${escapeHtml(project.stage || "-")}</span>
+        <span class="featured-keyword">${escapeHtml(project.representativeTopic || "키워드 미확인")}</span>
+      </a>
+    </article>
+  `;
 }
 
 function renderProjects() {
@@ -299,15 +374,15 @@ function renderProjects() {
     tr.setAttribute("role", "link");
     tr.setAttribute("aria-label", `${project.name} 프로젝트 상세페이지 열기`);
     tr.innerHTML = `
-      <td><a class="title-link" href="${escapeAttribute(url)}">${escapeHtml(project.name)}</a></td>
+      <td class="project-title-cell"><a class="title-link" href="${escapeAttribute(url)}">${escapeHtml(project.name)}</a></td>
       <td><span class="pill">${escapeHtml(project.region || "-")}</span></td>
       <td>${escapeHtml(project.country || "-")}</td>
       <td>${escapeHtml(project.sector || "-")}</td>
+      <td><span class="keyword-pill">${escapeHtml(project.representativeTopic || "-")}</span></td>
       <td>${escapeHtml(project.owner || "-")}</td>
       <td>${escapeHtml(formatCost(project))}</td>
       <td><span class="pill stage-pill">${escapeHtml(project.stage || "-")}</span></td>
       <td class="date-cell">${escapeHtml(project.latestDateText)}</td>
-      <td>${escapeHtml(project.note || "-")}</td>
     `;
     tr.addEventListener("click", (event) => {
       if (event.target.closest("a")) return;
@@ -430,6 +505,7 @@ function showError() {
   els.errorState.hidden = false;
   els.emptyState.hidden = true;
   els.tableWrap.hidden = true;
+  if (els.featuredProjects) els.featuredProjects.hidden = true;
   if (els.syncStatus) els.syncStatus.textContent = "데이터 연결 실패 - Google Sheets 공개 설정을 확인해주세요";
 }
 
