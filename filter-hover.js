@@ -1,7 +1,7 @@
 (() => {
-  const OPEN_DELAY_MS = 420;
-  const CLOSE_DELAY_MS = 850;
-  const timers = new WeakMap();
+  const COUNTRY_FILTER_ID = "countryFilter";
+  const GROUPED_CLASS = "is-country-grouped";
+  const groupingTimers = new WeakMap();
 
   function buildCollapsibleFilters() {
     document.querySelectorAll(".field-wide").forEach((field) => {
@@ -17,7 +17,7 @@
       const summary = document.createElement("summary");
       const title = document.createElement("span");
       title.className = "filter-title";
-      title.textContent = label.textContent.trim();
+      title.textContent = `필터 · ${label.textContent.trim()}`;
 
       const selectedSummary = document.createElement("span");
       selectedSummary.className = "filter-summary";
@@ -30,20 +30,19 @@
       field.append(details);
 
       updateFilterSummary(details);
-      bindHoverEvents(details);
+      if (filter.id === COUNTRY_FILTER_ID) scheduleCountryGrouping(filter);
+
       filter.addEventListener("change", () => updateFilterSummary(details));
-      new MutationObserver(() => updateFilterSummary(details)).observe(filter, {
+      new MutationObserver(() => {
+        updateFilterSummary(details);
+        if (filter.id === COUNTRY_FILTER_ID) scheduleCountryGrouping(filter);
+      }).observe(filter, {
         childList: true,
         subtree: true,
         attributes: true,
         attributeFilter: ["checked"],
       });
     });
-  }
-
-  function bindHoverEvents(details) {
-    details.addEventListener("pointerenter", () => openFilter(details));
-    details.addEventListener("pointerleave", () => closeFilter(details));
   }
 
   function updateFilterSummary(details) {
@@ -65,42 +64,71 @@
     details.classList.add("has-active-filter");
   }
 
-  function clearTimers(details) {
-    const active = timers.get(details);
-    if (!active) return;
-    clearTimeout(active.openTimer);
-    clearTimeout(active.closeTimer);
-    timers.delete(details);
+  function scheduleCountryGrouping(container) {
+    const activeTimer = groupingTimers.get(container);
+    if (activeTimer) clearTimeout(activeTimer);
+    const timer = setTimeout(() => groupCountryChips(container), 0);
+    groupingTimers.set(container, timer);
   }
 
-  function rememberTimers(details, nextTimers) {
-    const active = timers.get(details) || {};
-    timers.set(details, { ...active, ...nextTimers });
+  function groupCountryChips(container) {
+    if (!container || container.dataset.grouping === "true") return;
+
+    const labels = [...container.querySelectorAll(":scope > label.check-chip")];
+    if (!labels.length) {
+      container.classList.remove(GROUPED_CLASS);
+      return;
+    }
+
+    container.dataset.grouping = "true";
+    container.innerHTML = "";
+    container.classList.add(GROUPED_CLASS);
+
+    const groups = new Map();
+    labels.forEach((label) => {
+      const value = label.querySelector('input[type="checkbox"]')?.value || label.textContent.trim();
+      const key = getKoreanGroupKey(value);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(label);
+    });
+
+    [...groups.keys()].sort(compareKoreanGroupKeys).forEach((key) => {
+      const group = document.createElement("div");
+      group.className = "country-chip-group";
+
+      const heading = document.createElement("span");
+      heading.className = "country-chip-group-title";
+      heading.textContent = key;
+
+      const chips = document.createElement("div");
+      chips.className = "country-chip-group-list";
+      groups.get(key).forEach((label) => chips.appendChild(label));
+
+      group.append(heading, chips);
+      container.appendChild(group);
+    });
+
+    delete container.dataset.grouping;
   }
 
-  function setOpenState(details, isOpen) {
-    details.classList.toggle("is-open", isOpen);
-    details.classList.toggle("is-closing", false);
+  function getKoreanGroupKey(value) {
+    const text = String(value || "").trim();
+    if (!text) return "기타";
+    const first = text[0];
+    const code = first.charCodeAt(0);
+    if (code >= 0xac00 && code <= 0xd7a3) {
+      const initialIndex = Math.floor((code - 0xac00) / 588);
+      return ["ㄱ", "ㄲ", "ㄴ", "ㄷ", "ㄸ", "ㄹ", "ㅁ", "ㅂ", "ㅃ", "ㅅ", "ㅆ", "ㅇ", "ㅈ", "ㅉ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ"][initialIndex] || "기타";
+    }
+    const upper = first.toUpperCase();
+    if (upper >= "A" && upper <= "Z") return "A-Z";
+    if (upper >= "0" && upper <= "9") return "0-9";
+    return "기타";
   }
 
-  function openFilter(details) {
-    clearTimers(details);
-    const openTimer = setTimeout(() => {
-      details.open = true;
-      requestAnimationFrame(() => setOpenState(details, true));
-    }, OPEN_DELAY_MS);
-    rememberTimers(details, { openTimer });
-  }
-
-  function closeFilter(details) {
-    clearTimers(details);
-    details.classList.toggle("is-open", false);
-    details.classList.toggle("is-closing", true);
-    const closeTimer = setTimeout(() => {
-      details.open = false;
-      details.classList.toggle("is-closing", false);
-    }, CLOSE_DELAY_MS);
-    rememberTimers(details, { closeTimer });
+  function compareKoreanGroupKeys(a, b) {
+    const order = ["ㄱ", "ㄲ", "ㄴ", "ㄷ", "ㄸ", "ㄹ", "ㅁ", "ㅂ", "ㅃ", "ㅅ", "ㅆ", "ㅇ", "ㅈ", "ㅉ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ", "A-Z", "0-9", "기타"];
+    return order.indexOf(a) - order.indexOf(b);
   }
 
   buildCollapsibleFilters();
@@ -110,6 +138,6 @@
     if (!(details instanceof HTMLDetailsElement) || !details.classList.contains("filter-collapse")) {
       return;
     }
-    requestAnimationFrame(() => setOpenState(details, details.open));
+    requestAnimationFrame(() => details.classList.toggle("is-open", details.open));
   }, true);
 })();
