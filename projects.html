@@ -63,11 +63,11 @@
           <div class="field field-toggle">
             <span class="field-label">사업비</span>
             <label class="cost-toggle">
-              <input id="includeSmallCost" type="checkbox" />
+              <input id="includeSmallCost" type="checkbox" checked />
               <span>1백만불 이하 포함</span>
             </label>
             <label class="cost-toggle">
-              <input id="includeUnknownCost" type="checkbox" />
+              <input id="includeUnknownCost" type="checkbox" checked />
               <span>미확인 사업도 포함</span>
             </label>
           </div>
@@ -102,7 +102,7 @@
           <div class="action-buttons">
             <button type="button" id="resetButton">필터 초기화</button>
           </div>
-          <span id="activeFilterText">1백만불 이하 제외 · 사업비 미확인 제외</span>
+          <span id="activeFilterText">1백만불 이하 포함 · 미확인 사업 포함</span>
         </div>
       </section>
 
@@ -179,7 +179,8 @@
     </footer>
 
     <script src="./projects-loader-fix.js?v=20260615-1"></script>
-    <script src="./projects.js?v=20260615-2"></script>
+    <script src="./projects.js?v=20260615-3"></script>
+    <script src="./projects-visibility-fix.js?v=20260615-1"></script>
     <script src="./filter-hover.js?v=20260612-3"></script>
   </body>
 </html>
