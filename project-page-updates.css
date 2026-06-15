@@ -14,6 +14,10 @@ body:has(#projectBody) .featured-projects + .results-section {
   grid-row: 3;
 }
 
+body:has(#projectBody) .featured-projects[hidden] + .results-section {
+  grid-row: 2;
+}
+
 .featured-projects-head {
   display: flex;
   align-items: flex-end;
