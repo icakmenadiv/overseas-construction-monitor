@@ -191,11 +191,98 @@ function buildArticleItems(project, resultRows = []) {
     });
   });
 
-  return items.sort(
+  const sortedItems = items.sort(
     (a, b) =>
       (parseSheetDate(b.mapping["기사일자"])?.getTime() || 0) -
       (parseSheetDate(a.mapping["기사일자"])?.getTime() || 0),
   );
+
+  return collapseDuplicateArticleItems(sortedItems);
+}
+
+function collapseDuplicateArticleItems(items) {
+  const byStrictKey = new Map();
+  const byTitleKey = new Map();
+
+  items.forEach((item) => {
+    const strictKey = getStrictDuplicateKey(item);
+    const titleKey = getTitleDuplicateKey(item);
+    const existing = byStrictKey.get(strictKey) || byTitleKey.get(titleKey);
+
+    if (existing) {
+      const preferred = choosePreferredArticleItem(existing, item);
+      byStrictKey.set(getStrictDuplicateKey(preferred), preferred);
+      byTitleKey.set(getTitleDuplicateKey(preferred), preferred);
+      return;
+    }
+
+    byStrictKey.set(strictKey, item);
+    byTitleKey.set(titleKey, item);
+  });
+
+  return Array.from(new Set(byStrictKey.values())).sort(
+    (a, b) =>
+      (parseSheetDate(b.mapping["기사일자"])?.getTime() || 0) -
+      (parseSheetDate(a.mapping["기사일자"])?.getTime() || 0),
+  );
+}
+
+function getStrictDuplicateKey({ mapping, article }) {
+  return [
+    article["프로젝트 고유값"] || normalizeKey(article["프로젝트명"]),
+    mapping["기사일자"] || article["원문게재일"],
+    mapping["기사 시점 단계"] || article["관련 단계"],
+    normalizeSourceLink(article["출처링크"]),
+  ].join("|");
+}
+
+function getTitleDuplicateKey({ mapping, article }) {
+  return [
+    article["프로젝트 고유값"] || normalizeKey(article["프로젝트명"]),
+    mapping["기사일자"] || article["원문게재일"],
+    mapping["기사 시점 단계"] || article["관련 단계"],
+    normalizeComparableTitle(article["제목(원문)"] || article["제목(한글)"]),
+  ].join("|");
+}
+
+function choosePreferredArticleItem(current, candidate) {
+  const currentScore = scoreArticleItem(current);
+  const candidateScore = scoreArticleItem(candidate);
+  return candidateScore > currentScore ? candidate : current;
+}
+
+function scoreArticleItem({ mapping, article }) {
+  let score = 0;
+  if (mapping["대표기사 여부"] === "Y") score += 100;
+  if (article["출처링크"]) score += 20;
+  if (article["내용"] && article["내용"].length > 80) score += 10;
+  if (article["제목(원문)"]) score += 5;
+  if (article["출처언어"]) score += 2;
+  return score;
+}
+
+function normalizeSourceLink(value) {
+  const text = cleanValue(value);
+  if (!text) return "";
+
+  try {
+    const url = new URL(text);
+    url.hash = "";
+    ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "fbclid", "gclid"].forEach((key) => {
+      url.searchParams.delete(key);
+    });
+    return `${url.hostname.replace(/^www\./, "")}${url.pathname.replace(/\/$/, "")}?${url.searchParams.toString()}`;
+  } catch (error) {
+    return text.toLowerCase();
+  }
+}
+
+function normalizeComparableTitle(value) {
+  return normalizeKey(value)
+    .replace(/[\s\-_:|/\\.,'"()\[\]{}]+/g, " ")
+    .replace(/\b(project|tender|contract|award|construction|infrastructure|development)\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function renderProject(project, articleItems) {
