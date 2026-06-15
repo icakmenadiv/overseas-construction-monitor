@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./large-text.css" />
     <link rel="stylesheet" href="./filter-tuning.css" />
     <link rel="stylesheet" href="./brand-enhancements.css" />
+    <link rel="stylesheet" href="./project-page-updates.css?v=20260615-2" />
   </head>
   <body>
     <header class="site-header" id="top">
@@ -53,7 +54,7 @@
           <input
             id="keywordInput"
             type="search"
-            placeholder="프로젝트명, 발주처, 국가, 지역, 섹터, 단계 검색"
+            placeholder="프로젝트명, 발주처, 키워드, 국가, 지역, 섹터, 단계 검색"
             autocomplete="off"
           />
         </div>
@@ -62,11 +63,11 @@
           <div class="field field-toggle">
             <span class="field-label">사업비</span>
             <label class="cost-toggle">
-              <input id="includeSmallCost" type="checkbox" checked />
+              <input id="includeSmallCost" type="checkbox" />
               <span>1백만불 이하 포함</span>
             </label>
             <label class="cost-toggle">
-              <input id="includeUnknownCost" type="checkbox" checked />
+              <input id="includeUnknownCost" type="checkbox" />
               <span>미확인 사업도 포함</span>
             </label>
           </div>
@@ -101,7 +102,7 @@
           <div class="action-buttons">
             <button type="button" id="resetButton">필터 초기화</button>
           </div>
-          <span id="activeFilterText">전체 프로젝트</span>
+          <span id="activeFilterText">1백만불 이하 제외 · 사업비 미확인 제외</span>
         </div>
       </section>
 
@@ -128,6 +129,8 @@
         </article>
       </section>
 
+      <section class="featured-projects" id="featuredProjects" aria-label="대표 프로젝트" hidden></section>
+
       <section class="results-section" aria-label="프로젝트 결과">
         <div class="section-head">
           <div>
@@ -151,11 +154,11 @@
                 <th>지역</th>
                 <th>국가</th>
                 <th>섹터</th>
+                <th>키워드</th>
                 <th>발주처</th>
                 <th>사업비(USD)</th>
                 <th>현재 단계</th>
                 <th>최근 업데이트일</th>
-                <th>비고</th>
               </tr>
             </thead>
             <tbody id="projectBody"></tbody>
@@ -176,23 +179,7 @@
     </footer>
 
     <script src="./projects-loader-fix.js?v=20260615-1"></script>
-    <script src="./projects.js?v=20260615-1"></script>
+    <script src="./projects.js?v=20260615-2"></script>
     <script src="./filter-hover.js?v=20260612-3"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const resetButton = document.getElementById("resetButton");
-        const includeSmallCost = document.getElementById("includeSmallCost");
-        const includeUnknownCost = document.getElementById("includeUnknownCost");
-        if (!resetButton || !includeSmallCost || !includeUnknownCost) return;
-
-        resetButton.addEventListener("click", () => {
-          window.setTimeout(() => {
-            includeSmallCost.checked = true;
-            includeUnknownCost.checked = true;
-            if (typeof applyFilters === "function") applyFilters();
-          }, 0);
-        });
-      });
-    </script>
   </body>
 </html>
