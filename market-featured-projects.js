@@ -29,6 +29,13 @@
     if (resultBody) {
       new MutationObserver(renderMarketFeaturedProjects).observe(resultBody, { childList: true });
     }
+
+    ["keywordInput", "startDate", "endDate", "sortSelect", "regionFilter", "countryFilter", "sectorFilter", "infoClassFilter", "highPriorityButton", "resetButton"].forEach((id) => {
+      const element = document.getElementById(id);
+      if (element) element.addEventListener("click", () => setTimeout(renderMarketFeaturedProjects, 0));
+      if (element) element.addEventListener("change", () => setTimeout(renderMarketFeaturedProjects, 0));
+      if (element) element.addEventListener("input", () => setTimeout(renderMarketFeaturedProjects, 320));
+    });
   }
 
   function renderWhenReady() {
@@ -45,7 +52,7 @@
       const rows = await fetchProjectSheetData();
       rows.forEach((row) => {
         const project = normalizeProjectRow(row);
-        if (!project.name || !project.costKnown) return;
+        if (!project.name) return;
         if (project.id) projectCostMap.set(`id:${project.id}`, project);
         projectCostMap.set(`name:${project.name}`, project);
       });
@@ -85,7 +92,7 @@
     const section = document.createElement("section");
     section.id = "marketFeaturedProjects";
     section.className = "market-featured-projects";
-    section.setAttribute("aria-label", "시장 모니터링 대표 프로젝트");
+    section.setAttribute("aria-label", "시장동향 주요 뉴스");
     section.hidden = true;
     results.parentNode.insertBefore(section, results);
   }
@@ -95,20 +102,25 @@
     if (!section) return;
 
     const rows = getRows();
-    const featured = selectFeaturedProjects(rows);
+    const featured = selectFeaturedNews(rows);
     section.hidden = featured.length === 0;
     if (!featured.length) {
       section.innerHTML = "";
       return;
     }
 
+    const projectLinkedCount = featured.filter((item) => item.linkedProject?.costKnown).length;
+    const helperText = projectLinkedCount
+      ? "현재 시장동향 결과 중 사업비가 확인된 프로젝트 연결 기사를 우선 노출하고, 부족할 경우 중요도·최신성 기준으로 보완합니다."
+      : "현재 시장동향 결과에서 중요도·담당자 활용 체크·최신성 기준으로 주요 뉴스를 노출합니다.";
+
     section.innerHTML = `
       <div class="market-featured-head">
         <div>
-          <span>Featured Project Cards</span>
-          <h2>대표 프로젝트 3건</h2>
+          <span>Market News Cards</span>
+          <h2>시장동향 주요 뉴스 3건</h2>
         </div>
-        <p>현재 시장 모니터링 결과 중 프로젝트 시트와 연결되고 사업비가 확인된 건을 규모순으로 노출합니다. 목록에는 동일 기사가 중복 표시됩니다.</p>
+        <p>${escapeHtml(helperText)}</p>
       </div>
       <div class="market-featured-grid">
         ${featured.map(renderMarketFeaturedCard).join("")}
@@ -116,45 +128,74 @@
     `;
   }
 
-  function selectFeaturedProjects(rows) {
-    const projectMap = new Map();
-    rows.forEach((row) => {
-      const linked = findLinkedProject(row);
-      if (!linked) return;
-      const key = linked.id || linked.name;
-      const existing = projectMap.get(key);
-      const articleDate = row._publishedDate?.getTime() || 0;
-      if (!existing || linked.costValue > existing.costValue || articleDate > existing.articleDate) {
-        projectMap.set(key, {
-          ...linked,
-          articleTitle: row["제목(한글)"] || row["제목(원문)"] || linked.name,
-          articleTopic: row["주제"] || "키워드 미확인",
-          infoClass: row["정보 분류"] || "프로젝트 정보",
-          articleDate,
-        });
-      }
-    });
+  function selectFeaturedNews(rows) {
+    const candidates = rows.map((row) => ({ row, linkedProject: findLinkedProject(row) }));
+    const projectLinked = candidates
+      .filter((item) => item.linkedProject?.costKnown)
+      .sort((a, b) => b.linkedProject.costValue - a.linkedProject.costValue || getRowTime(b.row) - getRowTime(a.row));
 
-    return [...projectMap.values()].sort((a, b) => b.costValue - a.costValue || b.articleDate - a.articleDate).slice(0, 3);
+    const fallback = candidates
+      .filter((item) => !projectLinked.some((selected) => selected.row.id === item.row.id))
+      .sort(compareNewsPriority);
+
+    const merged = [...projectLinked, ...fallback];
+    const seen = new Set();
+    const selected = [];
+    for (const item of merged) {
+      const key = item.linkedProject?.id || item.row["기사 고유값"] || item.row.id;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      selected.push(item);
+      if (selected.length >= 3) break;
+    }
+    return selected;
+  }
+
+  function compareNewsPriority(a, b) {
+    return getPriorityScore(b) - getPriorityScore(a) || getRowTime(b.row) - getRowTime(a.row);
+  }
+
+  function getPriorityScore(item) {
+    let score = 0;
+    const row = item.row;
+    if (clean(row["중요도"]) === "상") score += 1000;
+    if (clean(row["담당자 활용시 체크"])) score += 400;
+    if (item.linkedProject?.costKnown) score += 300;
+    if (clean(row["정보 분류"]) === "프로젝트 정보") score += 120;
+    if (clean(row["프로젝트명"])) score += 80;
+    if (clean(row["출처링크"])) score += 20;
+    return score;
+  }
+
+  function getRowTime(row) {
+    return row._publishedDate?.getTime?.() || row._collectedDate?.getTime?.() || 0;
   }
 
   function findLinkedProject(row) {
-    const projectId = row["프로젝트 고유값"];
-    const projectName = row["프로젝트명"];
+    const projectId = clean(row["프로젝트 고유값"]);
+    const projectName = clean(row["프로젝트명"]);
     return (projectId && projectCostMap.get(`id:${projectId}`)) || (projectName && projectCostMap.get(`name:${projectName}`)) || null;
   }
 
-  function renderMarketFeaturedCard(project, index) {
-    const url = buildProjectUrl(project);
+  function renderMarketFeaturedCard(item, index) {
+    const row = item.row;
+    const project = item.linkedProject;
+    const title = row["제목(한글)"] || row["제목(원문)"] || project?.name || "제목 미확인";
+    const url = project ? buildProjectUrl(project) : row["출처링크"] || "#";
+    const costText = project?.costKnown ? formatCostText(project.costValue) : "주요 뉴스";
+    const meta = [row["국가"], row["섹터"], row["정보 분류"]].filter(Boolean).join(" · ") || "시장동향";
+    const topic = row["주제"] || project?.stage || "키워드 미확인";
+    const dateText = typeof formatDate === "function" ? formatDate(row._publishedDate) : "";
+
     return `
       <article class="market-featured-card">
-        <a href="${escapeAttribute(url)}" aria-label="${escapeAttribute(project.name)} 프로젝트 상세 열기">
+        <a href="${escapeAttribute(url)}" ${url === "#" ? "" : 'target="_blank" rel="noreferrer"'} aria-label="${escapeAttribute(title)} 열기">
           <span class="market-featured-rank">Top ${index + 1}</span>
-          <strong>${escapeHtml(project.name)}</strong>
-          <span class="market-featured-cost">${escapeHtml(formatCostText(project.costValue))}</span>
-          <span class="market-featured-meta">${escapeHtml(project.country || "-")} · ${escapeHtml(project.sector || "-")} · ${escapeHtml(project.stage || "-")}</span>
-          <span class="market-featured-topic">${escapeHtml(project.articleTopic)}</span>
-          <small>${escapeHtml(project.articleTitle)}</small>
+          <strong>${escapeHtml(project?.name || title)}</strong>
+          <span class="market-featured-cost">${escapeHtml(costText)}</span>
+          <span class="market-featured-meta">${escapeHtml(meta)}${dateText ? ` · ${escapeHtml(dateText)}` : ""}</span>
+          <span class="market-featured-topic">${escapeHtml(topic)}</span>
+          <small>${escapeHtml(title)}</small>
         </a>
       </article>
     `;
