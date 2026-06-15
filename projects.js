@@ -29,6 +29,31 @@ const PROJECT_COLUMNS = [
 
 const RESULT_COLUMNS = ["기사 고유값", "주제"];
 
+const STAGE_ORDER = [
+  "concept",
+  "pre-feasibility",
+  "feasibility study",
+  "feasibility",
+  "planning",
+  "design",
+  "pre-qualification",
+  "prequalification",
+  "tender",
+  "bidding",
+  "bid evaluation",
+  "contract award",
+  "contract awarded",
+  "contract signing",
+  "financial close",
+  "pre-construction",
+  "construction",
+  "completion",
+  "completed",
+  "operation",
+  "on hold",
+  "cancelled",
+];
+
 const state = {
   projects: [],
   filteredProjects: [],
@@ -255,7 +280,7 @@ function populateFilters() {
   setCheckboxOptions(els.sectorFilter, uniqueValues(state.projects, "sector"), getCheckedValues(els.sectorFilter));
   setCheckboxOptions(
     els.stageFilter,
-    uniqueValues(state.projects, "stage").filter((value) => value !== "-"),
+    sortStageValues(uniqueValues(state.projects, "stage").filter((value) => value !== "-")),
     getCheckedValues(els.stageFilter),
   );
   updateCountryOptions();
@@ -495,6 +520,31 @@ function uniqueValues(rows, key) {
   return [...new Set(rows.map((row) => row[key]).filter(Boolean))].sort((a, b) =>
     a.localeCompare(b, "ko"),
   );
+}
+
+function sortStageValues(values) {
+  return [...values].sort((a, b) => {
+    const rankDiff = getStageRank(a) - getStageRank(b);
+    return rankDiff || a.localeCompare(b, "ko");
+  });
+}
+
+function getStageRank(value) {
+  const normalized = normalizeStageName(value);
+  const exactIndex = STAGE_ORDER.indexOf(normalized);
+  if (exactIndex !== -1) return exactIndex;
+
+  const partialIndex = STAGE_ORDER.findIndex((stage) => normalized.includes(stage) || stage.includes(normalized));
+  return partialIndex === -1 ? 999 : partialIndex;
+}
+
+function normalizeStageName(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[–—]/g, "-")
+    .replace(/_/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function formatCost(project) {
