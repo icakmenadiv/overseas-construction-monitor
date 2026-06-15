@@ -121,7 +121,7 @@ async function fetchAndNormalize(gid, columns) {
 }
 
 async function fetchSheetData(gid) {
-  const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${gid}&tqx=out:json`;
+  const url = `https://docs.google.com/spreadsheets/d/${CONFIG.SHEET_ID}/gviz/tq?gid=${gid}&headers=1&tqx=out:json`;
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
@@ -358,7 +358,7 @@ function escapeHtml(value) {
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
+    .replaceAll('\"', "&quot;")
     .replaceAll("'", "&#039;");
 }
 
