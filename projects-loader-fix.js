@@ -1,6 +1,8 @@
 (() => {
   const SHEET_ID = "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E";
   const PROJECT_SHEET_GID = "20260612";
+  const PROJECT_SHEET_RANGE = "A1:M1200";
+  const MIN_EXPECTED_PROJECT_ROWS = 500;
   const FETCH_TIMEOUT_MS = 7000;
   const JSONP_TIMEOUT_MS = 12000;
 
@@ -17,8 +19,9 @@
   if (!window.fetch) return;
 
   const originalFetch = window.fetch.bind(window);
+  const getUrlText = (resource) => (typeof resource === "string" ? resource : resource?.url || "");
   const isProjectSheetRequest = (resource) => {
-    const url = typeof resource === "string" ? resource : resource?.url || "";
+    const url = getUrlText(resource);
     return (
       url.includes("docs.google.com/spreadsheets") &&
       url.includes(`/d/${SHEET_ID}/`) &&
@@ -26,6 +29,12 @@
       url.includes("headers=1") &&
       url.includes("tqx=out:json")
     );
+  };
+
+  const withProjectRange = (resource) => {
+    const url = new URL(getUrlText(resource));
+    url.searchParams.set("range", PROJECT_SHEET_RANGE);
+    return url.toString();
   };
 
   const withTimeout = (promise, ms) =>
@@ -46,6 +55,9 @@
     if (jsonStart === -1 || jsonEnd === 0) throw new Error("Invalid project sheet GViz response");
     const data = JSON.parse(text.substring(jsonStart, jsonEnd));
     if (!data?.table?.cols || !data?.table?.rows) throw new Error("Project sheet GViz table missing");
+    if (data.table.rows.length < MIN_EXPECTED_PROJECT_ROWS) {
+      throw new Error(`Project sheet GViz returned too few rows: ${data.table.rows.length}`);
+    }
     return text;
   };
 
@@ -66,6 +78,9 @@
         window.clearTimeout(timeoutId);
         try {
           if (!data?.table?.cols || !data?.table?.rows) throw new Error("Project sheet JSONP table missing");
+          if (data.table.rows.length < MIN_EXPECTED_PROJECT_ROWS) {
+            throw new Error(`Project sheet JSONP returned too few rows: ${data.table.rows.length}`);
+          }
           resolve(makeSheetResponse(JSON.stringify(data)));
         } catch (error) {
           reject(error);
@@ -79,7 +94,7 @@
         cleanup();
         reject(new Error("Project sheet JSONP load failed"));
       };
-      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${PROJECT_SHEET_GID}&headers=1&tqx=out:json;responseHandler:${callbackName}`;
+      script.src = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${PROJECT_SHEET_GID}&headers=1&range=${encodeURIComponent(PROJECT_SHEET_RANGE)}&tqx=out:json;responseHandler:${callbackName}`;
       document.head.appendChild(script);
     });
 
@@ -87,7 +102,7 @@
     if (!isProjectSheetRequest(resource)) return originalFetch(resource, options);
 
     try {
-      const response = await withTimeout(originalFetch(resource, options), FETCH_TIMEOUT_MS);
+      const response = await withTimeout(originalFetch(withProjectRange(resource), options), FETCH_TIMEOUT_MS);
       if (!response.ok) throw new Error(`Project sheet HTTP ${response.status}`);
       const text = await withTimeout(response.clone().text(), FETCH_TIMEOUT_MS);
       return makeSheetResponse(validateGvizText(text));
