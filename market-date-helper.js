@@ -12,9 +12,6 @@
     input.dataset.dateHelperReady = "true";
 
     input.classList.add("enhanced-date-input");
-    input.addEventListener("click", () => {
-      if (typeof input.showPicker === "function") input.showPicker();
-    });
 
     const helper = document.createElement("div");
     helper.className = "date-helper-row";
@@ -94,10 +91,14 @@
     style.id = "marketDateHelperStyles";
     style.textContent = `
       .enhanced-date-input {
-        min-height: 48px;
-        padding: 0 16px;
-        font-size: 1rem;
-        cursor: pointer;
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 0 !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
       }
 
       .date-helper-row {
@@ -109,28 +110,27 @@
 
       .date-helper-select,
       .date-helper-today {
-        min-height: 38px;
+        min-height: 42px;
         border: 1px solid rgba(18, 83, 164, 0.18);
         border-radius: 12px;
         color: var(--slate-700);
         background: rgba(255, 255, 255, 0.92);
-        font-size: 0.82rem;
+        font-size: 0.86rem;
         font-weight: 850;
         cursor: pointer;
       }
 
       .date-helper-select {
-        padding: 0 7px;
+        padding: 0 8px;
       }
 
       .date-helper-today {
-        padding: 0 10px;
+        padding: 0 11px;
         color: var(--blue-700);
       }
 
       .date-helper-select:focus,
-      .date-helper-today:focus,
-      .enhanced-date-input:focus {
+      .date-helper-today:focus {
         outline: 3px solid rgba(49, 213, 233, 0.22);
         border-color: rgba(22, 166, 201, 0.55);
       }
