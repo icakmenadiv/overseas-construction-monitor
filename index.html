@@ -215,16 +215,12 @@
       (() => {
         try {
           const versionKey = "marketFilterSchemaVersion";
-          const currentVersion = "20260617-importance-v2";
-          if (localStorage.getItem(versionKey) !== currentVersion) {
-            const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
-            saved.sort = "중요도:desc";
-            saved.startDate = "";
-            saved.endDate = "";
-            saved.highPriorityOnly = false;
-            localStorage.setItem("dashboardFilters", JSON.stringify(saved));
-            localStorage.setItem(versionKey, currentVersion);
-          }
+          const currentVersion = "20260617-importance-v3";
+          const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
+          saved.sort = saved.sort || "중요도:desc";
+          saved.highPriorityOnly = false;
+          localStorage.setItem("dashboardFilters", JSON.stringify(saved));
+          localStorage.setItem(versionKey, currentVersion);
         } catch (error) {
           console.warn("Failed to migrate market filter defaults:", error);
         }
@@ -232,7 +228,8 @@
     </script>
     <script src="./app.js?v=20260617-2"></script>
     <script src="./filter-hover.js?v=20260617-3"></script>
-    <script src="./market-all-period.js?v=20260617-2"></script>
+    <script src="./market-all-period.js?v=20260617-3"></script>
+    <script src="./market-date-helper.js?v=20260617-1"></script>
     <script src="./header-copy.js"></script>
   </body>
 </html>
