@@ -3,8 +3,9 @@ const CONFIG = {
   SHEET_GID: "748239675",
   SHEET_VIEW_URL:
     "https://docs.google.com/spreadsheets/d/11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E/edit?gid=748239675#gid=748239675",
-  DEFAULT_PERIOD_DAYS: 30,
+  DEFAULT_PERIOD_DAYS: 7,
   DISPLAY_LIMIT: 200,
+  TOP_NEWS_LIMIT: 6,
 };
 
 const INFO_CLASS_ORDER = [
@@ -86,6 +87,9 @@ const els = {
   refreshButton: document.getElementById("refreshButton"),
   exportButton: document.getElementById("exportButton"),
   highPriorityButton: document.getElementById("highPriorityButton"),
+  datePresetButtons: document.querySelectorAll(".date-preset-button"),
+  topNewsSection: document.getElementById("topNewsSection"),
+  topNewsCards: document.getElementById("topNewsCards"),
   backToTopButton: document.getElementById("backToTopButton"),
   activeFilterText: document.getElementById("activeFilterText"),
   totalCount: document.getElementById("totalCount"),
@@ -114,6 +118,7 @@ async function init() {
   bindEvents();
   setDefaultDates();
   syncHighPriorityButton();
+  syncDatePresetButtons();
 
   try {
     const rows = await fetchSheetData();
@@ -187,6 +192,14 @@ function bindEvents() {
     });
   }
 
+  if (els.datePresetButtons) {
+    els.datePresetButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        setRelativeDateRange(Number(button.dataset.days || CONFIG.DEFAULT_PERIOD_DAYS), true);
+      });
+    });
+  }
+
   if (els.resetButton) {
     els.resetButton.addEventListener("click", () => {
       if (els.keywordInput) els.keywordInput.value = "";
@@ -194,7 +207,7 @@ function bindEvents() {
       clearCheckedValues(els.countryFilter);
       clearCheckedValues(els.sectorFilter);
       clearCheckedValues(els.infoClassFilter);
-      if (els.sortSelect) els.sortSelect.value = "원문게재일:desc";
+      if (els.sortSelect) els.sortSelect.value = "중요도:desc";
       state.highPriorityOnly = false;
       syncHighPriorityButton();
       setDefaultDates(true);
@@ -302,7 +315,7 @@ function saveFilterState() {
     country: getCheckedValues(els.countryFilter),
     sector: getCheckedValues(els.sectorFilter),
     infoClass: getCheckedValues(els.infoClassFilter),
-    sort: els.sortSelect?.value || "원문게재일:desc",
+    sort: els.sortSelect?.value || "중요도:desc",
     highPriorityOnly: state.highPriorityOnly,
   };
   try {
@@ -321,21 +334,53 @@ function loadFilterState() {
       if (els.keywordInput) els.keywordInput.value = filterState.keyword || "";
       if (els.startDate) els.startDate.value = filterState.startDate || "";
       if (els.endDate) els.endDate.value = filterState.endDate || "";
-      if (els.sortSelect) els.sortSelect.value = filterState.sort || "원문게재일:desc";
+      if (els.sortSelect) els.sortSelect.value = filterState.sort || "중요도:desc";
       state.highPriorityOnly = Boolean(filterState.highPriorityOnly);
+    } else if (els.sortSelect) {
+      els.sortSelect.value = "중요도:desc";
     }
   } catch (e) {
     console.warn("Failed to load filter state:", e);
+    if (els.sortSelect) els.sortSelect.value = "중요도:desc";
   }
 }
 
 function setDefaultDates(force = false) {
+  if (force || !els.startDate.value || !els.endDate.value) {
+    setRelativeDateRange(CONFIG.DEFAULT_PERIOD_DAYS, false);
+  }
+}
+
+function setRelativeDateRange(days, shouldApply = true) {
   const today = new Date();
   const start = new Date(today);
-  start.setDate(today.getDate() - CONFIG.DEFAULT_PERIOD_DAYS + 1);
+  start.setDate(today.getDate() - days + 1);
 
-  if (force || !els.startDate.value) els.startDate.value = toDateInputValue(start);
-  if (force || !els.endDate.value) els.endDate.value = toDateInputValue(today);
+  if (els.startDate) els.startDate.value = toDateInputValue(start);
+  if (els.endDate) els.endDate.value = toDateInputValue(today);
+  syncDatePresetButtons(days);
+
+  if (shouldApply) {
+    state.expanded.clear();
+    applyFilters();
+  }
+}
+
+function syncDatePresetButtons(activeDays = null) {
+  const days = activeDays || getCurrentPresetDays();
+  els.datePresetButtons?.forEach((button) => {
+    const isActive = Number(button.dataset.days) === days;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
+}
+
+function getCurrentPresetDays() {
+  if (!els.startDate?.value || !els.endDate?.value) return null;
+  const start = new Date(`${els.startDate.value}T00:00:00`);
+  const end = new Date(`${els.endDate.value}T00:00:00`);
+  const diff = Math.round((end.getTime() - start.getTime()) / 86400000) + 1;
+  return diff > 0 ? diff : null;
 }
 
 function normalizeRows(rows) {
@@ -347,6 +392,7 @@ function normalizeRows(rows) {
       });
       normalized._publishedDate = parseSheetDate(normalized["원문게재일"]);
       normalized._collectedDate = parseSheetDate(normalized["기사수집일"]);
+      normalized._importanceScore = getImportanceScore(normalized["중요도"]);
       return normalized;
     })
     .filter((row) => row["원문게재일"] || row["제목(한글)"] || row["제목(원문)"]);
@@ -511,19 +557,21 @@ function applyFilters() {
     return dateOk && regionOk && countryOk && sectorOk && infoClassOk && priorityOk && keywordOk;
   });
 
-  rows = sortRows(rows, els.sortSelect?.value || "원문게재일:desc");
+  rows = sortRows(rows, els.sortSelect?.value || "중요도:desc");
   state.filteredRows = rows;
   state.expanded.forEach((id) => {
     if (!rows.some((row) => row.id === id)) state.expanded.delete(id);
   });
   updateSummary();
+  renderTopNewsCards();
   renderRows();
   updateActiveFilterText();
+  syncDatePresetButtons();
   saveFilterState();
 }
 
 function isHighPriorityArticle(row) {
-  return cleanValue(row["중요도"]) === "상";
+  return cleanValue(row["중요도"]) === "상" || getImportanceScore(row["중요도"]) >= 80;
 }
 
 function syncHighPriorityButton() {
@@ -532,11 +580,29 @@ function syncHighPriorityButton() {
   els.highPriorityButton.setAttribute("aria-pressed", String(state.highPriorityOnly));
 }
 
+function getImportanceScore(value) {
+  const text = cleanValue(value);
+  if (!text) return -1;
+  const numberMatch = text.match(/-?\d+(?:\.\d+)?/);
+  if (numberMatch) return Number(numberMatch[0]);
+  if (/상|높|high|중요|우선/.test(text.toLowerCase())) return 90;
+  if (/중|보통|medium/.test(text.toLowerCase())) return 50;
+  if (/하|낮|low/.test(text.toLowerCase())) return 10;
+  return -1;
+}
+
 function sortRows(rows, sortValue) {
   const [key, direction] = sortValue.split(":");
   const multiplier = direction === "desc" ? -1 : 1;
 
   return [...rows].sort((a, b) => {
+    if (key === "중요도") {
+      const scoreDiff = (getImportanceScore(a["중요도"]) - getImportanceScore(b["중요도"])) * multiplier;
+      if (scoreDiff) return scoreDiff;
+      const timeA = a._publishedDate?.getTime() || 0;
+      const timeB = b._publishedDate?.getTime() || 0;
+      return timeB - timeA;
+    }
     if (key.includes("일")) {
       const timeA = (key === "원문게재일" ? a._publishedDate : a._collectedDate)?.getTime() || 0;
       const timeB = (key === "원문게재일" ? b._publishedDate : b._collectedDate)?.getTime() || 0;
@@ -570,6 +636,47 @@ function updateSummary() {
         ? `${numberFormat(shownCount)}건 표시 / 전체 ${numberFormat(state.filteredRows.length)}건`
         : `${numberFormat(state.filteredRows.length)}건`;
   }
+}
+
+function renderTopNewsCards() {
+  if (!els.topNewsSection || !els.topNewsCards) return;
+  const topRows = sortRows(state.filteredRows, "중요도:desc")
+    .filter((row) => getImportanceScore(row["중요도"]) >= 0)
+    .slice(0, CONFIG.TOP_NEWS_LIMIT);
+
+  els.topNewsSection.hidden = topRows.length === 0;
+  els.topNewsCards.innerHTML = "";
+  if (!topRows.length) return;
+
+  const fragment = document.createDocumentFragment();
+  topRows.forEach((row, index) => fragment.appendChild(createTopNewsCard(row, index + 1)));
+  els.topNewsCards.appendChild(fragment);
+}
+
+function createTopNewsCard(row, rank) {
+  const article = document.createElement("article");
+  article.className = "top-news-card";
+  const title = row["제목(한글)"] || row["제목(원문)"] || "제목 없음";
+  const score = getImportanceScore(row["중요도"]);
+  const importanceLabel = score >= 0 ? row["중요도"] || score : "-";
+  const titleMarkup = row["출처링크"]
+    ? `<a href="${escapeAttribute(row["출처링크"])}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a>`
+    : `<span>${escapeHtml(title)}</span>`;
+
+  article.innerHTML = `
+    <div class="top-news-meta">
+      <span class="top-news-rank">TOP ${rank}</span>
+      <span>${escapeHtml(row["국가"] || "-")}</span>
+      <span>${escapeHtml(row["섹터"] || "-")}</span>
+    </div>
+    <h3>${titleMarkup}</h3>
+    <p>${escapeHtml(row["주제"] || row["정보 분류"] || "핵심 키워드 없음")}</p>
+    <div class="top-news-foot">
+      <span>중요도 ${escapeHtml(importanceLabel)}</span>
+      <span>${escapeHtml(formatDate(row._publishedDate) || row["원문게재일"] || "-")}</span>
+    </div>
+  `;
+  return article;
 }
 
 function renderRows() {
@@ -630,6 +737,7 @@ function createDetailRow(row) {
         <div class="detail-meta">
           ${row["주제"] ? `<span><strong>핵심 키워드</strong> ${escapeHtml(row["주제"])}</span>` : ""}
           ${row["정보 분류"] ? `<span><strong>정보 분류</strong> ${escapeHtml(row["정보 분류"])}</span>` : ""}
+          ${row["중요도"] ? `<span><strong>중요도</strong> ${escapeHtml(row["중요도"])}</span>` : ""}
           ${row["관련 단계"] ? `<span><strong>관련 단계</strong> ${escapeHtml(row["관련 단계"])}</span>` : ""}
           <span><strong>기사수집일</strong> ${escapeHtml(formatDate(row._collectedDate) || row["기사수집일"] || "-")}</span>
           <span><strong>출처언어</strong> ${escapeHtml(row["출처언어"] || "-")}</span>
@@ -690,7 +798,11 @@ function toggleDetail(id) {
 
 function updateActiveFilterText() {
   const filters = [];
-  if (els.startDate?.value || els.endDate?.value) {
+  const presetDays = getCurrentPresetDays();
+  const presetLabel = getPresetLabel(presetDays);
+  if (presetLabel) {
+    filters.push(presetLabel);
+  } else if (els.startDate?.value || els.endDate?.value) {
     filters.push(`${els.startDate?.value || "전체"} ~ ${els.endDate?.value || "전체"}`);
   }
   if (els.keywordInput?.value?.trim()) filters.push(`검색: ${els.keywordInput.value.trim()}`);
@@ -704,6 +816,13 @@ function updateActiveFilterText() {
   }
 }
 
+function getPresetLabel(days) {
+  if (days === 7) return "최근 1주일";
+  if (days === 30) return "최근 1개월";
+  if (days === 90) return "최근 3개월";
+  return "";
+}
+
 function pushSelectedFilter(filters, label, values) {
   if (!values.length) return;
   const suffix = values.length > 1 ? ` 외 ${values.length - 1}` : "";
@@ -715,6 +834,7 @@ function showError() {
   if (els.errorState) els.errorState.hidden = false;
   if (els.emptyState) els.emptyState.hidden = true;
   if (els.tableWrap) els.tableWrap.hidden = true;
+  if (els.topNewsSection) els.topNewsSection.hidden = true;
   if (els.limitNotice) els.limitNotice.hidden = true;
   if (els.syncStatus) els.syncStatus.textContent = "데이터 연결 실패 - Google Sheets 공개 설정을 확인해주세요";
 }
