@@ -3,6 +3,60 @@
   const GROUPED_CLASS = "is-country-grouped";
   const groupingTimers = new WeakMap();
 
+  function injectFilterActionStyles() {
+    if (document.getElementById("filterQuickActionStyles")) return;
+    const style = document.createElement("style");
+    style.id = "filterQuickActionStyles";
+    style.textContent = `
+      .filter-top-actions {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 0 14px;
+      }
+
+      .top-reset-button {
+        min-height: 34px;
+        padding: 0 13px;
+        border: 1px solid rgba(18, 83, 164, 0.18);
+        border-radius: 999px;
+        color: var(--slate-700);
+        background: rgba(255, 255, 255, 0.86);
+        font-size: 0.78rem;
+        font-weight: 900;
+        cursor: pointer;
+      }
+
+      .top-reset-button:hover {
+        color: var(--white);
+        border-color: rgba(22, 166, 201, 0.58);
+        background: linear-gradient(135deg, var(--blue-700), var(--cyan-500));
+      }
+
+      .filter-mini-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 6px;
+        padding: 8px 10px 0;
+      }
+
+      .filter-mini-actions button {
+        border: 0;
+        color: var(--slate-500);
+        background: transparent;
+        font-size: 0.72rem;
+        font-weight: 850;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        cursor: pointer;
+      }
+
+      .filter-mini-actions button:hover {
+        color: var(--blue-700);
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
   function buildCollapsibleFilters() {
     document.querySelectorAll(".field-wide").forEach((field) => {
       if (field.querySelector(".filter-collapse")) return;
@@ -166,6 +220,7 @@
     return order.indexOf(a) - order.indexOf(b);
   }
 
+  injectFilterActionStyles();
   buildCollapsibleFilters();
   bindGlobalResetButtons();
 
