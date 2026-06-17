@@ -80,6 +80,13 @@
 
         <div class="filter-section-label" aria-hidden="true">필터</div>
 
+        <div class="date-preset-row" aria-label="기간 빠른 선택">
+          <span class="date-preset-label">기간 빠른 선택</span>
+          <button type="button" class="date-preset-button" data-days="7" aria-pressed="true">최근 1주일</button>
+          <button type="button" class="date-preset-button" data-days="30" aria-pressed="false">최근 1개월</button>
+          <button type="button" class="date-preset-button" data-days="90" aria-pressed="false">최근 3개월</button>
+        </div>
+
         <div class="field-grid field-grid-market">
           <div class="field">
             <label for="startDate">시작일</label>
@@ -106,8 +113,16 @@
             <div class="checkbox-filter" id="infoClassFilter" role="group" aria-label="정보 분류 다중 선택"></div>
           </div>
           <div class="field">
-            <label for="sortSelect">정렬</label>
+            <div class="sort-label-row">
+              <label for="sortSelect">정렬</label>
+              <span
+                class="sort-help"
+                tabindex="0"
+                aria-label="중요도 산정 기준: 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
+              >?</span>
+            </div>
             <select id="sortSelect">
+              <option value="중요도:desc" selected>중요도순</option>
               <option value="원문게재일:desc">원문게재일 최신순</option>
               <option value="원문게재일:asc">원문게재일 오래된순</option>
               <option value="기사수집일:desc">기사수집일 최신순</option>
@@ -124,7 +139,7 @@
             <button type="button" id="resetButton">필터 초기화</button>
             <button type="button" id="exportButton" title="현재 목록을 CSV로 다운로드">목록 다운로드</button>
           </div>
-          <span id="activeFilterText">최근 30일 기준</span>
+          <span id="activeFilterText">최근 1주일 기준</span>
         </div>
       </section>
 
@@ -149,6 +164,21 @@
           <span>최근 원문게재일</span>
           <strong id="latestDate">-</strong>
         </article>
+      </section>
+
+      <section class="top-news-section" id="topNewsSection" aria-label="주요 뉴스" hidden>
+        <div class="section-head top-news-head">
+          <div>
+            <h2>주요 뉴스</h2>
+            <p>필터링 결과 중 중요도 수치값 기준 상위 6건을 우선 노출합니다.</p>
+          </div>
+          <span
+            class="top-news-help"
+            tabindex="0"
+            aria-label="주요 뉴스 산정 기준: 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
+          >?</span>
+        </div>
+        <div class="top-news-grid" id="topNewsCards"></div>
       </section>
 
       <section class="results-section market-results-section" aria-label="뉴스 결과">
@@ -197,7 +227,7 @@
       <a hidden id="footerSheetLink" href="#" target="_blank" rel="noreferrer" aria-hidden="true" tabindex="-1"></a>
     </footer>
 
-    <script src="./app.js"></script>
+    <script src="./app.js?v=20260617-1"></script>
     <script src="./filter-hover.js?v=20260615-6"></script>
     <script src="./header-copy.js"></script>
   </body>
