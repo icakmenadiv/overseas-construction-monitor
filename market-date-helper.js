@@ -1,9 +1,14 @@
 (() => {
+  let lastStartValue = "";
+  let lastEndValue = "";
+
   function initDateHelpers() {
     if (!document.querySelector(".market-dashboard")) return;
     enhanceDateInput("startDate");
     enhanceDateInput("endDate");
     bindQuickPresetSync();
+    exposeSyncFunction();
+    startValueWatcher();
     injectStyles();
   }
 
@@ -35,6 +40,7 @@
         const lastDay = new Date(Number(year.value), Number(month.value), 0).getDate();
         if (Number(day.value) > lastDay) day.value = String(lastDay);
         input.value = `${year.value}-${String(month.value).padStart(2, "0")}-${String(day.value).padStart(2, "0")}`;
+        rememberCurrentValues();
         input.dispatchEvent(new Event("input", { bubbles: true }));
         input.dispatchEvent(new Event("change", { bubbles: true }));
       });
@@ -43,23 +49,56 @@
     todayButton.addEventListener("click", () => {
       input.value = toDateInputValue(new Date());
       syncSelectsFromInput(input, year, month, day);
+      rememberCurrentValues();
       input.dispatchEvent(new Event("input", { bubbles: true }));
       input.dispatchEvent(new Event("change", { bubbles: true }));
     });
 
-    input.addEventListener("change", () => syncSelectsFromInput(input, year, month, day));
-    input.addEventListener("input", () => syncSelectsFromInput(input, year, month, day));
+    input.addEventListener("change", syncAllDateSelects);
+    input.addEventListener("input", syncAllDateSelects);
   }
 
   function bindQuickPresetSync() {
     document.querySelectorAll(".date-preset-button").forEach((button) => {
       if (button.dataset.dateHelperSyncBound === "true") return;
       button.dataset.dateHelperSyncBound = "true";
-      button.addEventListener("click", () => {
-        window.setTimeout(syncAllDateSelects, 0);
-        window.setTimeout(syncAllDateSelects, 80);
-      });
+      button.addEventListener("click", () => runSyncBurst(), true);
+      button.addEventListener("click", () => runSyncBurst());
     });
+  }
+
+  function runSyncBurst() {
+    [0, 30, 90, 180, 360].forEach((delay) => window.setTimeout(syncAllDateSelects, delay));
+  }
+
+  function exposeSyncFunction() {
+    window.syncMarketDateSelects = syncAllDateSelects;
+    const originalSetRelativeDateRange = window.setRelativeDateRange;
+    if (typeof originalSetRelativeDateRange === "function" && originalSetRelativeDateRange.dataset?.dateHelperWrapped !== "true") {
+      const wrapped = function wrappedSetRelativeDateRange(...args) {
+        const result = originalSetRelativeDateRange.apply(this, args);
+        runSyncBurst();
+        return result;
+      };
+      wrapped.dataset = { dateHelperWrapped: "true" };
+      window.setRelativeDateRange = wrapped;
+    }
+  }
+
+  function startValueWatcher() {
+    rememberCurrentValues();
+    window.setInterval(() => {
+      const start = document.getElementById("startDate")?.value || "";
+      const end = document.getElementById("endDate")?.value || "";
+      if (start !== lastStartValue || end !== lastEndValue) {
+        syncAllDateSelects();
+      }
+    }, 250);
+  }
+
+  function rememberCurrentValues() {
+    lastStartValue = document.getElementById("startDate")?.value || "";
+    lastEndValue = document.getElementById("endDate")?.value || "";
   }
 
   function syncAllDateSelects() {
@@ -71,6 +110,7 @@
       if (!year || !month || !day) return;
       syncSelectsFromInput(input, year, month, day);
     });
+    rememberCurrentValues();
   }
 
   function createSelect(label, values) {
