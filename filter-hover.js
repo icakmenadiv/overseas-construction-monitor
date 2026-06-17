@@ -3,6 +3,101 @@
   const GROUPED_CLASS = "is-country-grouped";
   const groupingTimers = new WeakMap();
 
+  patchMarketDateHandling();
+
+  function patchMarketDateHandling() {
+    if (!document.querySelector(".market-dashboard")) return;
+
+    try {
+      const versionKey = "marketDateFilterSchemaVersion";
+      const currentVersion = "20260617-date-inclusive-v2";
+      if (localStorage.getItem(versionKey) !== currentVersion) {
+        const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
+        saved.startDate = "";
+        saved.endDate = "";
+        saved.sort = saved.sort || "중요도:desc";
+        localStorage.setItem("dashboardFilters", JSON.stringify(saved));
+        localStorage.setItem(versionKey, currentVersion);
+      }
+    } catch (error) {
+      console.warn("Failed to reset market date filter defaults:", error);
+    }
+
+    window.parseSheetDate = function patchedParseSheetDate(value) {
+      if (!value) return null;
+      if (value instanceof Date) return Number.isNaN(value.getTime()) ? null : value;
+
+      if (typeof value === "number" && Number.isFinite(value)) {
+        if (value > 20000) return new Date(Math.round((value - 25569) * 86400 * 1000));
+        return null;
+      }
+
+      const text = String(value).trim();
+      const dateCtorMatch = text.match(/^Date\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
+      if (dateCtorMatch) {
+        return new Date(Number(dateCtorMatch[1]), Number(dateCtorMatch[2]), Number(dateCtorMatch[3]));
+      }
+
+      const normalized = text
+        .replace(/[년월]/g, "-")
+        .replace(/일/g, "")
+        .replace(/[./]/g, "-")
+        .replace(/\s+/g, "")
+        .replace(/-+/g, "-")
+        .replace(/-$/, "");
+
+      const isoMatch = normalized.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+      if (isoMatch) {
+        return new Date(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3]));
+      }
+
+      const parsed = new Date(text);
+      return Number.isNaN(parsed.getTime()) ? null : parsed;
+    };
+
+    window.setRelativeDateRange = function patchedSetRelativeDateRange(days, shouldApply = true) {
+      const end = getMarketRangeEndDate();
+      const start = new Date(end);
+      start.setDate(end.getDate() - Number(days || 7));
+
+      const startDate = document.getElementById("startDate");
+      const endDate = document.getElementById("endDate");
+      if (startDate) startDate.value = toDateInputValueSafe(start);
+      if (endDate) endDate.value = toDateInputValueSafe(end);
+
+      if (typeof window.syncDatePresetButtons === "function") window.syncDatePresetButtons(Number(days || 7));
+      if (shouldApply && typeof window.applyFilters === "function") {
+        window.state?.expanded?.clear?.();
+        window.applyFilters();
+      }
+    };
+
+    window.getCurrentPresetDays = function patchedGetCurrentPresetDays() {
+      const startDate = document.getElementById("startDate");
+      const endDate = document.getElementById("endDate");
+      if (!startDate?.value || !endDate?.value) return null;
+      const start = new Date(`${startDate.value}T00:00:00`);
+      const end = new Date(`${endDate.value}T00:00:00`);
+      const diff = Math.round((end.getTime() - start.getTime()) / 86400000);
+      return diff > 0 ? diff : null;
+    };
+  }
+
+  function getMarketRangeEndDate() {
+    const validDates = Array.isArray(window.state?.rows)
+      ? window.state.rows.map((row) => row._publishedDate).filter((date) => date && !Number.isNaN(date.getTime()))
+      : [];
+    if (validDates.length) return new Date(Math.max(...validDates.map((date) => date.getTime())));
+    return new Date();
+  }
+
+  function toDateInputValueSafe(date) {
+    const yyyy = date.getFullYear();
+    const mm = String(date.getMonth() + 1).padStart(2, "0");
+    const dd = String(date.getDate()).padStart(2, "0");
+    return `${yyyy}-${mm}-${dd}`;
+  }
+
   function injectFilterActionStyles() {
     if (document.getElementById("filterQuickActionStyles")) return;
     const style = document.createElement("style");
