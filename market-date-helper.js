@@ -3,6 +3,7 @@
     if (!document.querySelector(".market-dashboard")) return;
     enhanceDateInput("startDate");
     enhanceDateInput("endDate");
+    bindQuickPresetSync();
     injectStyles();
   }
 
@@ -48,6 +49,28 @@
 
     input.addEventListener("change", () => syncSelectsFromInput(input, year, month, day));
     input.addEventListener("input", () => syncSelectsFromInput(input, year, month, day));
+  }
+
+  function bindQuickPresetSync() {
+    document.querySelectorAll(".date-preset-button").forEach((button) => {
+      if (button.dataset.dateHelperSyncBound === "true") return;
+      button.dataset.dateHelperSyncBound = "true";
+      button.addEventListener("click", () => {
+        window.setTimeout(syncAllDateSelects, 0);
+        window.setTimeout(syncAllDateSelects, 80);
+      });
+    });
+  }
+
+  function syncAllDateSelects() {
+    ["startDate", "endDate"].forEach((inputId) => {
+      const input = document.getElementById(inputId);
+      const helper = input?.nextElementSibling;
+      if (!input || !helper?.classList.contains("date-helper-row")) return;
+      const [year, month, day] = helper.querySelectorAll(".date-helper-select");
+      if (!year || !month || !day) return;
+      syncSelectsFromInput(input, year, month, day);
+    });
   }
 
   function createSelect(label, values) {
