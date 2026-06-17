@@ -51,21 +51,7 @@
 
     <main class="dashboard market-dashboard">
       <section class="control-panel market-filter-panel" aria-label="뉴스 검색 및 필터">
-        <div class="priority-filter-top">
-          <button
-            type="button"
-            id="highPriorityButton"
-            class="beta-filter-button"
-            aria-pressed="false"
-            title="운영시트의 중요도 '상' 기사만 노출"
-          >
-            중요도 '상' 기사만 보기 <span class="beta-badge">BETA</span>
-          </button>
-          <span
-            class="priority-help"
-            tabindex="0"
-            aria-label="베타 기능 안내: 운영시트의 중요도 값이 '상'인 기사만 노출합니다. AI 판단 기준이어서 실제 중요도와 맞지 않을 수 있습니다."
-          >?</span>
+        <div class="filter-top-actions">
           <button type="button" class="top-reset-button" data-reset-filter>필터 초기화</button>
         </div>
 
@@ -83,8 +69,9 @@
 
         <div class="date-preset-row" aria-label="기간 빠른 선택">
           <button type="button" class="date-preset-button" data-days="7" aria-pressed="true">최근 1주일</button>
-          <button type="button" class="date-preset-button" data-days="30" aria-pressed="false">최근 1개월</button>
-          <button type="button" class="date-preset-button" data-days="90" aria-pressed="false">최근 3개월</button>
+          <button type="button" class="date-preset-button" data-days="30" aria-pressed="false">1개월</button>
+          <button type="button" class="date-preset-button" data-days="90" aria-pressed="false">3개월</button>
+          <button type="button" class="date-preset-button" data-days="365" aria-pressed="false">1년</button>
         </div>
 
         <div class="field-grid field-grid-market">
@@ -123,6 +110,7 @@
             </div>
             <select id="sortSelect">
               <option value="중요도:desc" selected>중요도순</option>
+              <option value="기사수집일:desc">업데이트일순</option>
               <option value="원문게재일:desc">원문게재일 최신순</option>
               <option value="원문게재일:asc">원문게재일 오래된순</option>
             </select>
@@ -226,12 +214,13 @@
       (() => {
         try {
           const versionKey = "marketFilterSchemaVersion";
-          const currentVersion = "20260617-importance-v1";
+          const currentVersion = "20260617-importance-v2";
           if (localStorage.getItem(versionKey) !== currentVersion) {
             const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
             saved.sort = "중요도:desc";
             saved.startDate = "";
             saved.endDate = "";
+            saved.highPriorityOnly = false;
             localStorage.setItem("dashboardFilters", JSON.stringify(saved));
             localStorage.setItem(versionKey, currentVersion);
           }
@@ -241,7 +230,7 @@
       })();
     </script>
     <script src="./app.js?v=20260617-2"></script>
-    <script src="./filter-hover.js?v=20260617-2"></script>
+    <script src="./filter-hover.js?v=20260617-3"></script>
     <script src="./header-copy.js"></script>
   </body>
 </html>
