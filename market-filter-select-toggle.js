@@ -36,43 +36,51 @@
   }
 
   function installSingleToggleButtons() {
-    document.addEventListener(
-      "click",
-      (event) => {
-        const button = event.target.closest(".market-dashboard .filter-mini-actions button");
-        if (!button) return;
+    if (document.body.dataset.marketSingleToggleReady !== "true") {
+      document.body.dataset.marketSingleToggleReady = "true";
+      document.addEventListener(
+        "click",
+        (event) => {
+          const button = event.target.closest(".market-dashboard .filter-mini-actions button");
+          if (!button) return;
 
-        event.preventDefault();
-        event.stopPropagation();
-        if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
+          event.preventDefault();
+          event.stopPropagation();
+          if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
 
-        const details = button.closest(".filter-collapse");
-        const container = details?.querySelector(".checkbox-filter");
-        if (!container || !FILTER_IDS.includes(container.id)) return;
+          const details = button.closest(".filter-collapse");
+          const container = details?.querySelector(".checkbox-filter");
+          if (!container || !FILTER_IDS.includes(container.id)) return;
 
-        const inputs = [...container.querySelectorAll('input[type="checkbox"]')];
-        const allSelected = inputs.length > 0 && inputs.every((input) => input.checked);
-        setAll(container, !allSelected);
-        updateNearestSummary(container);
-      },
-      true,
-    );
+          const inputs = [...container.querySelectorAll('input[type="checkbox"]')];
+          const allSelected = inputs.length > 0 && inputs.every((input) => input.checked);
+          setAll(container, !allSelected);
+          updateNearestSummary(container);
+        },
+        true,
+      );
+    }
 
     normalizeMiniActions();
-    new MutationObserver(normalizeMiniActions).observe(document.body, {
-      childList: true,
-      subtree: true,
-    });
+    if (document.body.dataset.marketMiniActionObserverReady !== "true") {
+      document.body.dataset.marketMiniActionObserverReady = "true";
+      new MutationObserver(() => window.setTimeout(normalizeMiniActions, 0)).observe(document.body, {
+        childList: true,
+        subtree: true,
+      });
+    }
   }
 
   function normalizeMiniActions() {
     document.querySelectorAll(".market-dashboard .filter-mini-actions").forEach((actions) => {
+      if (actions.dataset.singleToggleReady === "true") return;
       const buttons = [...actions.querySelectorAll("button")];
       if (!buttons.length) return;
       const main = buttons[0];
       main.textContent = "전체선택/해제";
       main.dataset.filterAction = "toggle-all";
       buttons.slice(1).forEach((button) => button.remove());
+      actions.dataset.singleToggleReady = "true";
     });
   }
 
