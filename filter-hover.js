@@ -23,11 +23,26 @@
       selectedSummary.className = "filter-summary";
       selectedSummary.textContent = "전체";
 
+      const actions = document.createElement("div");
+      actions.className = "filter-mini-actions";
+      actions.innerHTML = `
+        <button type="button" data-filter-action="select-all">전체 선택</button>
+        <button type="button" data-filter-action="clear-all">전체 해제</button>
+      `;
+
       summary.append(title, selectedSummary);
-      details.append(summary);
-      details.append(filter);
+      details.append(summary, actions, filter);
       label.remove();
       field.append(details);
+
+      actions.addEventListener("click", (event) => {
+        const button = event.target.closest("button[data-filter-action]");
+        if (!button) return;
+        event.preventDefault();
+        event.stopPropagation();
+        setAllCheckboxes(filter, button.dataset.filterAction === "select-all");
+        updateFilterSummary(details);
+      });
 
       updateFilterSummary(details);
       if (filter.id === COUNTRY_FILTER_ID) scheduleCountryGrouping(filter);
@@ -45,6 +60,13 @@
     });
   }
 
+  function setAllCheckboxes(filter, checked) {
+    filter.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+      input.checked = checked;
+    });
+    filter.dispatchEvent(new Event("change", { bubbles: true }));
+  }
+
   function updateFilterSummary(details) {
     const summary = details.querySelector(".filter-summary");
     const checked = [...details.querySelectorAll('input[type="checkbox"]:checked')].map(
@@ -59,7 +81,12 @@
       return;
     }
 
-    summary.textContent = checked.length === 1 ? checked[0] : `${checked[0]} 외 ${checked.length - 1}`;
+    const total = details.querySelectorAll('input[type="checkbox"]').length;
+    if (checked.length === total && total > 0) {
+      summary.textContent = "전체 선택";
+    } else {
+      summary.textContent = checked.length === 1 ? checked[0] : `${checked[0]} 외 ${checked.length - 1}`;
+    }
     summary.classList.add("has-active-filter");
     details.classList.add("has-active-filter");
   }
@@ -111,6 +138,14 @@
     delete container.dataset.grouping;
   }
 
+  function bindGlobalResetButtons() {
+    document.querySelectorAll("[data-reset-filter]").forEach((button) => {
+      if (button.dataset.resetBound === "true") return;
+      button.dataset.resetBound = "true";
+      button.addEventListener("click", () => document.getElementById("resetButton")?.click());
+    });
+  }
+
   function getKoreanGroupKey(value) {
     const text = String(value || "").trim();
     if (!text) return "기타";
@@ -132,6 +167,7 @@
   }
 
   buildCollapsibleFilters();
+  bindGlobalResetButtons();
 
   document.addEventListener("toggle", (event) => {
     const details = event.target;
