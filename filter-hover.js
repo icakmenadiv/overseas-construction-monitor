@@ -4,18 +4,20 @@
   const groupingTimers = new WeakMap();
 
   patchMarketDateHandling();
+  patchTopNewsCards();
 
   function patchMarketDateHandling() {
     if (!document.querySelector(".market-dashboard")) return;
 
     try {
       const versionKey = "marketDateFilterSchemaVersion";
-      const currentVersion = "20260617-date-inclusive-v2";
+      const currentVersion = "20260617-date-inclusive-v3";
       if (localStorage.getItem(versionKey) !== currentVersion) {
         const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
         saved.startDate = "";
         saved.endDate = "";
         saved.sort = saved.sort || "중요도:desc";
+        saved.highPriorityOnly = false;
         localStorage.setItem("dashboardFilters", JSON.stringify(saved));
         localStorage.setItem(versionKey, currentVersion);
       }
@@ -81,13 +83,17 @@
       const diff = Math.round((end.getTime() - start.getTime()) / 86400000);
       return diff > 0 ? diff : null;
     };
+
+    window.getPresetLabel = function patchedGetPresetLabel(days) {
+      if (days === 7) return "최근 1주일";
+      if (days === 30) return "최근 1개월";
+      if (days === 90) return "최근 3개월";
+      if (days === 365) return "최근 1년";
+      return "";
+    };
   }
 
   function getMarketRangeEndDate() {
-    const validDates = Array.isArray(window.state?.rows)
-      ? window.state.rows.map((row) => row._publishedDate).filter((date) => date && !Number.isNaN(date.getTime()))
-      : [];
-    if (validDates.length) return new Date(Math.max(...validDates.map((date) => date.getTime())));
     return new Date();
   }
 
@@ -96,6 +102,63 @@
     const mm = String(date.getMonth() + 1).padStart(2, "0");
     const dd = String(date.getDate()).padStart(2, "0");
     return `${yyyy}-${mm}-${dd}`;
+  }
+
+  function patchTopNewsCards() {
+    if (!document.querySelector(".market-dashboard")) return;
+    if (typeof window.createTopNewsCard !== "function") return;
+
+    window.createTopNewsCard = function patchedCreateTopNewsCard(row) {
+      const article = document.createElement("article");
+      article.className = "top-news-card top-news-card-expandable";
+      const title = row["제목(한글)"] || row["제목(원문)"] || "제목 없음";
+      const dateText = typeof window.formatDate === "function" ? window.formatDate(row._publishedDate) : "";
+      const sourceLink = row["출처링크"]
+        ? `<a class="top-news-source-link" href="${escapeAttributeSafe(row["출처링크"])}" target="_blank" rel="noreferrer">원문 확인</a>`
+        : "";
+
+      article.innerHTML = `
+        <button type="button" class="top-news-toggle" aria-expanded="false">
+          <div class="top-news-meta">
+            <span>${escapeHtmlSafe(row["국가"] || "-")}</span>
+            <span>${escapeHtmlSafe(row["섹터"] || "-")}</span>
+            <span>${escapeHtmlSafe(dateText || row["원문게재일"] || "-")}</span>
+          </div>
+          <h3>${escapeHtmlSafe(title)}</h3>
+          <p>${escapeHtmlSafe(row["주제"] || row["정보 분류"] || "핵심 키워드 없음")}</p>
+        </button>
+        <div class="top-news-detail" hidden>
+          <p>${escapeHtmlSafe(row["내용"] || "상세 내용이 없습니다.")}</p>
+          <div class="top-news-detail-meta">
+            ${row["정보 분류"] ? `<span>${escapeHtmlSafe(row["정보 분류"])}</span>` : ""}
+            ${row["관련 단계"] ? `<span>${escapeHtmlSafe(row["관련 단계"])}</span>` : ""}
+            ${sourceLink}
+          </div>
+        </div>
+      `;
+
+      const toggle = article.querySelector(".top-news-toggle");
+      const detail = article.querySelector(".top-news-detail");
+      toggle.addEventListener("click", () => {
+        const expanded = article.classList.toggle("is-expanded");
+        toggle.setAttribute("aria-expanded", String(expanded));
+        detail.hidden = !expanded;
+      });
+      return article;
+    };
+  }
+
+  function escapeHtmlSafe(value) {
+    return String(value ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function escapeAttributeSafe(value) {
+    return escapeHtmlSafe(value).replaceAll("`", "&#096;");
   }
 
   function injectFilterActionStyles() {
@@ -147,6 +210,61 @@
 
       .filter-mini-actions button:hover {
         color: var(--blue-700);
+      }
+
+      .top-news-card-expandable {
+        overflow: hidden;
+      }
+
+      .top-news-toggle {
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: 0;
+        color: inherit;
+        background: transparent;
+        text-align: left;
+        cursor: pointer;
+      }
+
+      .top-news-card-expandable.is-expanded {
+        border-color: rgba(22, 166, 201, 0.44);
+        box-shadow: 0 18px 38px rgba(23, 105, 194, 0.18);
+      }
+
+      .top-news-detail {
+        margin-top: 14px;
+        padding-top: 14px;
+        border-top: 1px solid rgba(18, 83, 164, 0.14);
+      }
+
+      .top-news-detail p {
+        display: block;
+        min-height: 0;
+        margin: 0 0 10px;
+        color: var(--slate-700);
+        -webkit-line-clamp: unset;
+      }
+
+      .top-news-detail-meta {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        font-size: 0.76rem;
+        font-weight: 850;
+      }
+
+      .top-news-detail-meta span,
+      .top-news-source-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 24px;
+        padding: 0 9px;
+        border-radius: 999px;
+        color: var(--blue-700);
+        background: rgba(49, 213, 233, 0.12);
+        text-decoration: none;
       }
     `;
     document.head.appendChild(style);
@@ -214,6 +332,50 @@
       input.checked = checked;
     });
     filter.dispatchEvent(new Event("change", { bubbles: true }));
+  }
+
+  function forceResetFilters() {
+    const isMarket = Boolean(document.querySelector(".market-dashboard"));
+    const keywordInput = document.getElementById("keywordInput");
+    const sortSelect = document.getElementById("sortSelect");
+    if (keywordInput) keywordInput.value = "";
+
+    document.querySelectorAll(".checkbox-filter").forEach((filter) => setAllCheckboxes(filter, false));
+
+    if (isMarket) {
+      const startDate = document.getElementById("startDate");
+      const endDate = document.getElementById("endDate");
+      if (startDate) startDate.value = "";
+      if (endDate) endDate.value = "";
+      document.querySelectorAll(".date-preset-button").forEach((button) => {
+        button.classList.remove("is-active");
+        button.setAttribute("aria-pressed", "false");
+      });
+      if (sortSelect) sortSelect.value = "중요도:desc";
+      try {
+        const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
+        saved.keyword = "";
+        saved.startDate = "";
+        saved.endDate = "";
+        saved.region = [];
+        saved.country = [];
+        saved.sector = [];
+        saved.infoClass = [];
+        saved.sort = "중요도:desc";
+        saved.highPriorityOnly = false;
+        localStorage.setItem("dashboardFilters", JSON.stringify(saved));
+      } catch (error) {
+        console.warn("Failed to clear saved market filters:", error);
+      }
+      if (typeof window.applyFilters === "function") window.setTimeout(() => window.applyFilters(), 0);
+    } else {
+      const includeSmallCost = document.getElementById("includeSmallCost");
+      const includeUnknownCost = document.getElementById("includeUnknownCost");
+      if (includeSmallCost) includeSmallCost.checked = true;
+      if (includeUnknownCost) includeUnknownCost.checked = true;
+      if (sortSelect) sortSelect.value = "cost:desc";
+      if (typeof window.applyFilters === "function") window.setTimeout(() => window.applyFilters(), 0);
+    }
   }
 
   function updateFilterSummary(details) {
@@ -295,6 +457,13 @@
     });
   }
 
+  function bindResetFix() {
+    const resetButton = document.getElementById("resetButton");
+    if (!resetButton || resetButton.dataset.forceResetBound === "true") return;
+    resetButton.dataset.forceResetBound = "true";
+    resetButton.addEventListener("click", () => window.setTimeout(forceResetFilters, 0));
+  }
+
   function getKoreanGroupKey(value) {
     const text = String(value || "").trim();
     if (!text) return "기타";
@@ -318,6 +487,7 @@
   injectFilterActionStyles();
   buildCollapsibleFilters();
   bindGlobalResetButtons();
+  document.addEventListener("DOMContentLoaded", bindResetFix);
 
   document.addEventListener("toggle", (event) => {
     const details = event.target;
