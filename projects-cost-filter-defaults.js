@@ -1,44 +1,54 @@
 (() => {
   const TEN_MILLION_USD = 10_000_000;
 
-  try {
-    if (typeof CONFIG !== "undefined") {
-      CONFIG.SMALL_COST_THRESHOLD_USD = TEN_MILLION_USD;
+  function getProjectBindings() {
+    try {
+      return {
+        hasBindings: typeof state !== "undefined" && typeof els !== "undefined",
+        state,
+        els,
+      };
+    } catch (error) {
+      return { hasBindings: false, state: null, els: null };
     }
-  } catch (error) {
-    console.warn("Failed to set project cost threshold:", error);
   }
 
-  function setDefaultControls() {
+  function setLabelsAndDefaults() {
     const smallCost = document.getElementById("includeSmallCost");
     const unknownCost = document.getElementById("includeUnknownCost");
     const activeText = document.getElementById("activeFilterText");
 
     if (smallCost) {
       smallCost.checked = true;
+      smallCost.setAttribute("aria-label", "1천만불 이하 제외");
       const label = smallCost.closest("label")?.querySelector("span");
       if (label) label.textContent = "1천만불 이하 제외";
     }
 
     if (unknownCost) {
       unknownCost.checked = true;
+      unknownCost.setAttribute("aria-label", "사업비 미포함 제외");
       const label = unknownCost.closest("label")?.querySelector("span");
       if (label) label.textContent = "사업비 미포함 제외";
     }
 
-    if (activeText && /1백만불|미확인 사업 포함|미확인 사업 제외|사업비 미확인/.test(activeText.textContent || "")) {
-      activeText.textContent = (activeText.textContent || "")
-        .replaceAll("1백만불 이하 포함", "1천만불 이하 제외")
-        .replaceAll("1백만불 이하 제외", "1천만불 이하 포함")
-        .replaceAll("미확인 사업 포함", "사업비 미포함 제외")
-        .replaceAll("사업비 미확인 제외", "사업비 미포함 제외");
-    }
+    if (activeText) activeText.textContent = "1천만불 이하 제외 · 사업비 미포함 제외";
+  }
+
+  function isExcludedByCost(project, excludeSmall, excludeUnknown) {
+    const costKnown = Boolean(project?.costKnown);
+    const costValue = Number(project?.costValue || 0);
+    if (excludeUnknown && !costKnown) return true;
+    if (excludeSmall && costKnown && costValue <= TEN_MILLION_USD) return true;
+    return false;
   }
 
   function patchProjectFiltering() {
-    try {
-      if (typeof applyFilters !== "function" || typeof state === "undefined" || typeof els === "undefined") return;
+    const bindings = getProjectBindings();
+    if (!bindings.hasBindings) return false;
+    const { state, els } = bindings;
 
+    try {
       applyFilters = function patchedProjectApplyFilters() {
         const keyword = (els.keywordInput?.value || "").trim().toLowerCase();
         const regions = getCheckedValues(els.regionFilter);
@@ -70,9 +80,8 @@
           const countryOk = !countries.length || countries.includes(project.country);
           const sectorOk = !sectors.length || sectors.includes(project.sector);
           const stageOk = !stages.length || stages.includes(project.stage);
-          const unknownCostOk = !excludeUnknownCost || project.costKnown;
-          const smallCostOk = !excludeSmallCost || !isSmallCost(project);
-          return keywordOk && regionOk && countryOk && sectorOk && stageOk && unknownCostOk && smallCostOk;
+          const costOk = !isExcludedByCost(project, excludeSmallCost, excludeUnknownCost);
+          return keywordOk && regionOk && countryOk && sectorOk && stageOk && costOk;
         });
 
         projects = sortProjects(projects, els.sortSelect?.value || "cost:desc");
@@ -94,28 +103,54 @@
         filters.push(els.includeUnknownCost?.checked ? "사업비 미포함 제외" : "사업비 미포함 포함");
         els.activeFilterText.textContent = filters.join(" · ");
       };
+
+      isSmallCost = function patchedIsSmallCost(project) {
+        return Boolean(project?.costKnown) && Number(project?.costValue || 0) <= TEN_MILLION_USD;
+      };
+
+      return true;
     } catch (error) {
-      console.warn("Failed to patch project filters:", error);
+      console.warn("Failed to patch project cost filters:", error);
+      return false;
     }
   }
 
-  function reinforceDefaultsAfterReset() {
-    const resetButton = document.getElementById("resetButton");
-    if (!resetButton || resetButton.dataset.costDefaultsReady === "true") return;
-    resetButton.dataset.costDefaultsReady = "true";
-    resetButton.addEventListener("click", () => {
-      window.setTimeout(() => {
-        setDefaultControls();
+  function bindControls() {
+    const smallCost = document.getElementById("includeSmallCost");
+    const unknownCost = document.getElementById("includeUnknownCost");
+    [smallCost, unknownCost].forEach((input) => {
+      if (!input || input.dataset.costPatchReady === "true") return;
+      input.dataset.costPatchReady = "true";
+      input.addEventListener("change", () => {
+        patchProjectFiltering();
         if (typeof applyFilters === "function") applyFilters();
-      }, 80);
+      });
     });
+
+    const resetButton = document.getElementById("resetButton");
+    if (resetButton && resetButton.dataset.costDefaultsReady !== "true") {
+      resetButton.dataset.costDefaultsReady = "true";
+      resetButton.addEventListener("click", () => {
+        window.setTimeout(() => {
+          setLabelsAndDefaults();
+          patchProjectFiltering();
+          if (typeof applyFilters === "function") applyFilters();
+        }, 80);
+      });
+    }
   }
 
-  setDefaultControls();
-  patchProjectFiltering();
+  function initCostPatch() {
+    setLabelsAndDefaults();
+    patchProjectFiltering();
+    bindControls();
+    window.setTimeout(() => {
+      setLabelsAndDefaults();
+      patchProjectFiltering();
+      if (typeof applyFilters === "function") applyFilters();
+    }, 250);
+  }
 
-  document.addEventListener("DOMContentLoaded", () => {
-    setDefaultControls();
-    reinforceDefaultsAfterReset();
-  });
+  initCostPatch();
+  document.addEventListener("DOMContentLoaded", initCostPatch);
 })();
