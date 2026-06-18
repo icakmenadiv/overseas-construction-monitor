@@ -1,0 +1,92 @@
+.interest-header-cell,
+.interest-cell {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.interest-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-width: 74px;
+  min-height: 34px;
+  padding: 5px 9px;
+  border: 1px solid #d7dce5;
+  border-radius: 999px;
+  background: #fff;
+  color: #5d6675;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.16s ease, border-color 0.16s ease, background-color 0.16s ease, color 0.16s ease;
+}
+
+.interest-button:hover {
+  transform: translateY(-1px);
+  border-color: #e25265;
+  color: #d83148;
+  background: #fff6f7;
+}
+
+.interest-button.is-active {
+  border-color: #e25265;
+  background: #fff0f3;
+  color: #d83148;
+}
+
+.interest-button.is-loading {
+  opacity: 0.62;
+  pointer-events: none;
+}
+
+.interest-heart {
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.interest-count {
+  min-width: 1.2em;
+  text-align: right;
+}
+
+.interest-note {
+  display: block;
+  margin-top: 7px;
+  color: #6c7280;
+  font-size: 0.78rem;
+}
+
+.detail-panel .interest-detail-box {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid #e2e7ef;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.detail-panel .interest-detail-box strong {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.top-news-card .interest-button {
+  margin-top: 10px;
+  min-height: 32px;
+}
+
+@media (max-width: 720px) {
+  .interest-cell::before {
+    content: attr(data-label);
+    color: #6c7280;
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin-right: 8px;
+  }
+
+  .interest-button {
+    min-width: 68px;
+  }
+}
