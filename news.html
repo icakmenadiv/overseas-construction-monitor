@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>해외건설시장 뉴스 | Overseas Construction News</title>
+    <meta name="description" content="해외건설협회가 수집한 해외 건설·인프라 시장 뉴스를 언론사형 화면으로 제공합니다." />
+    <link rel="stylesheet" href="./news.css" />
+  </head>
+  <body data-news-page="home" data-lang="ko">
+    <header class="news-header">
+      <div class="utility-bar">
+        <a href="./index.html">시장 모니터링</a>
+        <a href="./projects.html">프로젝트 모니터링</a>
+        <a href="./news-en.html">English</a>
+      </div>
+      <div class="masthead">
+        <a class="brand-mark" href="./news.html" aria-label="해외건설시장 뉴스 홈">
+          <span>OCN</span>
+        </a>
+        <div>
+          <p class="kicker">Overseas Construction Association of Korea</p>
+          <h1>해외건설시장 뉴스</h1>
+          <p>글로벌 건설·인프라 시장 동향, 프로젝트, 정책 변화를 한눈에 보는 전문 뉴스 허브</p>
+        </div>
+      </div>
+      <nav class="section-nav" aria-label="뉴스 섹션">
+        <a href="#latest">최신뉴스</a>
+        <a href="#regions">지역별</a>
+        <a href="#sectors">공종별</a>
+        <a href="#brief">시장 브리프</a>
+      </nav>
+    </header>
+
+    <main class="news-shell">
+      <section class="notice-strip" role="note">
+        AI 기반 분류·요약·번역 정보가 포함될 수 있으므로, 계약·입찰·투자 판단 전 원문 출처와 공식 자료를 확인해 주세요.
+      </section>
+
+      <section class="lead-layout" aria-label="주요 기사">
+        <article class="headline-card" id="headlineCard">
+          <span class="skeleton-line wide"></span>
+          <span class="skeleton-line"></span>
+          <span class="skeleton-line short"></span>
+        </article>
+        <aside class="side-leads" id="sideLeads" aria-label="주요 기사 목록"></aside>
+      </section>
+
+      <section class="filter-deck" aria-label="뉴스 검색 및 필터">
+        <div class="search-box">
+          <label for="newsSearch">뉴스 검색</label>
+          <input id="newsSearch" type="search" placeholder="제목, 국가, 지역, 공종, 키워드 검색" autocomplete="off" />
+        </div>
+        <div class="select-row">
+          <label>
+            지역
+            <select id="regionSelect"><option value="">전체 지역</option></select>
+          </label>
+          <label>
+            국가
+            <select id="countrySelect"><option value="">전체 국가</option></select>
+          </label>
+          <label>
+            공종
+            <select id="sectorSelect"><option value="">전체 공종</option></select>
+          </label>
+          <label>
+            정렬
+            <select id="sortSelect">
+              <option value="importance">중요도순</option>
+              <option value="latest">최신순</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="news-grid-section" id="latest">
+        <div class="section-title-row">
+          <div>
+            <p class="kicker">Latest</p>
+            <h2>최신 해외건설시장 뉴스</h2>
+          </div>
+          <span id="resultCount">데이터 불러오는 중</span>
+        </div>
+        <div class="story-grid" id="storyGrid"></div>
+        <p class="empty-state" id="emptyState" hidden>조건에 맞는 기사가 없습니다.</p>
+      </section>
+
+      <section class="split-sections">
+        <article id="regions" class="rank-panel">
+          <p class="kicker">By Region</p>
+          <h2>지역별 주요 흐름</h2>
+          <div id="regionDigest" class="digest-list"></div>
+        </article>
+        <article id="sectors" class="rank-panel">
+          <p class="kicker">By Sector</p>
+          <h2>공종별 주요 흐름</h2>
+          <div id="sectorDigest" class="digest-list"></div>
+        </article>
+      </section>
+
+      <section id="brief" class="brief-panel">
+        <div>
+          <p class="kicker">Market Brief</p>
+          <h2>운영 안내</h2>
+        </div>
+        <p>
+          본 뉴스 페이지는 기존 시장 모니터링 데이터와 동일한 원천을 사용합니다. 향후 CSV 기반 자동 빌드가 활성화되면 최신 기사, 검색 인덱스, 기사 상세 JSON을 자동 생성하여 대량 기사도 빠르게 제공할 수 있습니다.
+        </p>
+      </section>
+    </main>
+
+    <footer class="news-footer">
+      <span>해외건설협회 해외건설시장 뉴스</span>
+      <a href="./index.html">내부 모니터링으로 이동</a>
+    </footer>
+
+    <script src="./news.js?v=20260618-1"></script>
+  </body>
+</html>
