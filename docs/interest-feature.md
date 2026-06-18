@@ -1,13 +1,36 @@
 # 관심 하트 기능 운영 메모
 
+## 안전 적용 원칙
+
+이번 기능은 운영 페이지 장애를 막기 위해 기본값을 꺼둔 상태로 둡니다.
+
+- `interest-config.js`의 `window.INTEREST_FEATURE_ENABLED = false`가 기본값입니다.
+- 일반 접속에서는 하트 기능이 실행되지 않습니다.
+- 미리보기는 URL 뒤에 `?interest=1`을 붙여 확인합니다.
+
+예시:
+
+```text
+index.html?interest=1
+project.html?name=프로젝트명&country=국가&sector=섹터&interest=1
+```
+
+UI와 데이터 로딩이 모두 안정적으로 확인된 뒤에만 `window.INTEREST_FEATURE_ENABLED = true`로 전환합니다.
+
 ## 동작 방식
 
-- 기존 시장 모니터링 목록에 `♡/♥` 관심 버튼을 자동 삽입합니다.
+- 기존 시장 모니터링 목록에 `♡/♥` 관심 버튼을 표시합니다.
 - 프로젝트 상세 페이지에도 프로젝트 단위 관심 버튼과 연결 기사별 관심 버튼을 표시합니다.
 - 같은 브라우저에서는 `localStorage`의 익명 visitorId로 내가 누른 상태를 기억합니다.
 - 한 번 누르면 관심 등록, 다시 누르면 관심 취소입니다.
 - `interest-config.js`의 `window.INTEREST_API_ENDPOINT`가 비어 있으면 브라우저 안에서만 임시 카운트가 유지됩니다.
 - Cloudflare Worker URL을 넣으면 기사별·프로젝트별 전체 관심 수가 서버에 누적됩니다.
+
+## 구현 방식
+
+이전 버전처럼 `MutationObserver`로 렌더링된 DOM 전체를 감시하지 않습니다.
+
+이번 버전은 기존 렌더링 함수가 행·카드를 만들 때만 하트 UI를 붙이도록 래핑하며, 기능이 꺼져 있으면 아무 동작도 하지 않습니다.
 
 ## 프로젝트 전체 관심 수 산식
 
