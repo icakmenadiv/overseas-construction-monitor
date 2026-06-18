@@ -9,6 +9,7 @@
   const observerOptions = { childList: true, subtree: true };
   const hydrationQueue = new Set();
   let hydrationTimer = null;
+  let projectAggregate = null;
 
   document.addEventListener("DOMContentLoaded", initInterestButtons);
 
@@ -17,6 +18,7 @@
     installTableHeader();
     enhanceCurrentRows();
     enhanceTopNewsCards();
+    enhanceProjectPage();
 
     const resultBody = document.getElementById("resultBody");
     if (resultBody) {
@@ -29,6 +31,11 @@
     const topNewsCards = document.getElementById("topNewsCards");
     if (topNewsCards) {
       new MutationObserver(enhanceTopNewsCards).observe(topNewsCards, observerOptions);
+    }
+
+    const projectContent = document.getElementById("projectContent");
+    if (projectContent) {
+      new MutationObserver(enhanceProjectPage).observe(projectContent, observerOptions);
     }
   }
 
@@ -102,10 +109,61 @@
     hydrateVisibleButtons();
   }
 
-  function createInterestButton(story) {
+  function enhanceProjectPage() {
+    const projectContent = document.getElementById("projectContent");
+    const projectTitle = document.getElementById("projectTitle");
+    if (!projectContent || !projectTitle || projectContent.hidden) return;
+
+    const projectStory = extractProjectStory();
+    if (projectStory.id) {
+      installProjectInterestBox(projectStory);
+    }
+
+    enhanceProjectArticleCards();
+    refreshProjectAggregate();
+    hydrateVisibleButtons();
+  }
+
+  function installProjectInterestBox(projectStory) {
+    const toolbar = document.querySelector(".project-toolbar");
+    if (!toolbar || toolbar.querySelector(".project-interest-box")) return;
+
+    const box = document.createElement("div");
+    box.className = "project-interest-box";
+    box.dataset.projectInterestId = projectStory.id;
+    box.innerHTML = `
+      <span class="project-interest-label">프로젝트 관심</span>
+      <strong class="project-interest-total" data-project-total-count>0</strong>
+      <span class="project-interest-caption">프로젝트 직접 관심 + 연결 기사 관심 합산</span>
+    `;
+    const button = createInterestButton(projectStory, { role: "project" });
+    box.insertBefore(button, box.querySelector(".project-interest-caption"));
+    toolbar.appendChild(box);
+  }
+
+  function enhanceProjectArticleCards() {
+    const cards = [...document.querySelectorAll("#projectArticles .project-article-card")];
+    cards.forEach((card) => {
+      if (card.dataset.interestReady === "true") return;
+      const story = extractStoryFromProjectArticle(card);
+      if (!story.id) return;
+      card.dataset.interestReady = "true";
+      card.dataset.articleId = story.id;
+      card.dataset.projectLinkedInterest = "true";
+
+      const meta = card.querySelector(".project-article-meta") || card;
+      const wrap = document.createElement("span");
+      wrap.className = "project-article-interest";
+      wrap.appendChild(createInterestButton(story, { role: "project-article" }));
+      meta.appendChild(wrap);
+    });
+  }
+
+  function createInterestButton(story, options = {}) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "interest-button";
+    if (options.role) button.dataset.interestRole = options.role;
     button.dataset.articleId = story.id;
     button.dataset.articleTitle = story.title;
     button.dataset.articleUrl = story.url || "";
@@ -153,6 +211,7 @@
       showButtonError(story.id);
     } finally {
       setButtonLoading(story.id, false);
+      refreshProjectAggregate();
     }
   }
 
@@ -168,6 +227,7 @@
 
     if (!API_ENDPOINT) {
       ids.forEach((id) => updateButtons(id, hasLocalVote(id), getLocalCount(id)));
+      refreshProjectAggregate();
       return;
     }
 
@@ -185,6 +245,8 @@
     } catch (error) {
       console.info("Interest count hydration skipped:", error);
       ids.forEach((id) => updateButtons(id, hasLocalVote(id), getLocalCount(id)));
+    } finally {
+      refreshProjectAggregate();
     }
   }
 
@@ -208,6 +270,21 @@
       if (heart) heart.textContent = active ? "♥" : "♡";
       if (countEl) countEl.textContent = numberFormat(Math.max(0, Number(count || 0)));
     });
+  }
+
+  function refreshProjectAggregate() {
+    const totalEl = document.querySelector("[data-project-total-count]");
+    if (!totalEl) return;
+
+    const projectId = document.querySelector(".project-interest-box .interest-button")?.dataset.articleId;
+    const linkedArticleIds = [...new Set(
+      [...document.querySelectorAll("#projectArticles .project-article-card[data-project-linked-interest='true']")]
+        .map((card) => card.dataset.articleId)
+        .filter(Boolean),
+    )];
+    const totalIds = [...new Set([projectId, ...linkedArticleIds].filter(Boolean))];
+    const total = totalIds.reduce((sum, id) => sum + getLocalCount(id), 0);
+    totalEl.textContent = numberFormat(total);
   }
 
   function applyLocalState(button) {
@@ -255,6 +332,32 @@
     };
   }
 
+  function extractProjectStory() {
+    const params = new URLSearchParams(window.location.search);
+    const title = clean(document.getElementById("projectTitle")?.textContent) || clean(params.get("name")) || "프로젝트";
+    const subtitle = clean(document.getElementById("projectSubtitle")?.textContent);
+    const projectId = clean(params.get("id"));
+    const country = clean(params.get("country"));
+    const sector = clean(params.get("sector"));
+    return {
+      id: makeProjectId({ projectId, title, country, sector, subtitle }),
+      title: `프로젝트: ${title}`,
+      url: window.location.href,
+    };
+  }
+
+  function extractStoryFromProjectArticle(card) {
+    const title = clean(card.querySelector("h3")?.textContent) || "제목 없음";
+    const link = card.querySelector('.project-article-meta a[href]');
+    const url = link?.href || "";
+    const metaText = clean(card.querySelector(".project-article-meta")?.textContent);
+    return {
+      id: makeArticleId({ title, url, country: metaText, sector: "", date: metaText }),
+      title,
+      url,
+    };
+  }
+
   function previousMainRow(row) {
     let current = row.previousElementSibling;
     while (current && current.classList.contains("detail-row")) current = current.previousElementSibling;
@@ -264,12 +367,21 @@
   function makeArticleId({ title, url, country, sector, date }) {
     const primary = clean(url) || clean(title);
     const seed = primary ? [primary, title].map(clean).join("|") : [title, country, sector, date].map(clean).join("|");
+    return `article-${hashSeed(seed)}`;
+  }
+
+  function makeProjectId({ projectId, title, country, sector, subtitle }) {
+    const primary = clean(projectId) || [title, country, sector, subtitle].map(clean).join("|");
+    return `project-${hashSeed(primary)}`;
+  }
+
+  function hashSeed(seed) {
     let hash = 2166136261;
     for (let i = 0; i < seed.length; i += 1) {
       hash ^= seed.charCodeAt(i);
       hash = Math.imul(hash, 16777619);
     }
-    return `article-${(hash >>> 0).toString(16)}`;
+    return (hash >>> 0).toString(16);
   }
 
   function ensureVisitorId() {
