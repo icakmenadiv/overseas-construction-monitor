@@ -17,9 +17,17 @@ window.INTEREST_API_ENDPOINT = "";
   const shouldPolish = Boolean(window.INTEREST_FEATURE_ENABLED) || previewEnabled;
   if (!shouldPolish) return;
 
+  let runTimer = null;
+  let observersInstalled = false;
+
   const run = () => {
     window.InterestFeature?.enhanceAll?.();
     polishMarketInterestColumn();
+  };
+
+  const queueRun = (delay = 80) => {
+    clearTimeout(runTimer);
+    runTimer = setTimeout(run, delay);
   };
 
   if (document.readyState === "loading") {
@@ -29,13 +37,43 @@ window.INTEREST_API_ENDPOINT = "";
   }
 
   function schedule() {
-    [160, 500, 1100, 1900].forEach((delay) => setTimeout(run, delay));
+    [80, 180, 420, 900, 1600, 2600].forEach((delay) => setTimeout(run, delay));
+    installRenderObservers();
     document.addEventListener("click", () => {
-      setTimeout(run, 260);
-      setTimeout(run, 760);
+      queueRun(40);
+      setTimeout(run, 180);
+      setTimeout(run, 520);
     });
-    document.addEventListener("input", () => setTimeout(run, 500));
-    document.addEventListener("change", () => setTimeout(run, 500));
+    document.addEventListener("input", () => queueRun(120));
+    document.addEventListener("change", () => queueRun(120));
+  }
+
+  function installRenderObservers() {
+    if (observersInstalled) return;
+    observersInstalled = true;
+
+    const tryInstall = () => {
+      const targets = [
+        document.getElementById("resultBody"),
+        document.getElementById("topNewsCards"),
+        document.getElementById("projectArticles"),
+        document.getElementById("projectContent"),
+      ].filter(Boolean);
+
+      if (!targets.length) {
+        setTimeout(tryInstall, 250);
+        return;
+      }
+
+      targets.forEach((target) => {
+        new MutationObserver(() => queueRun(40)).observe(target, {
+          childList: true,
+          subtree: true,
+        });
+      });
+    };
+
+    tryInstall();
   }
 
   function polishMarketInterestColumn() {
