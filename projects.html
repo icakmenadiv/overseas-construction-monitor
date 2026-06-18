@@ -71,11 +71,11 @@
             <span class="field-label">사업비</span>
             <label class="cost-toggle">
               <input id="includeSmallCost" type="checkbox" checked />
-              <span>1백만불 이하 포함</span>
+              <span>1천만불 이하 제외</span>
             </label>
             <label class="cost-toggle">
               <input id="includeUnknownCost" type="checkbox" checked />
-              <span>미확인 사업도 포함</span>
+              <span>사업비 미포함 제외</span>
             </label>
           </div>
           <div class="field field-wide">
@@ -109,7 +109,7 @@
           <div class="action-buttons">
             <button type="button" id="resetButton">필터 초기화</button>
           </div>
-          <span id="activeFilterText">1백만불 이하 포함 · 미확인 사업 포함</span>
+          <span id="activeFilterText">1천만불 이하 제외 · 사업비 미포함 제외</span>
         </div>
       </section>
 
@@ -187,6 +187,7 @@
 
     <script src="./projects-loader-fix.js?v=20260615-4"></script>
     <script src="./projects.js?v=20260615-6"></script>
+    <script src="./projects-cost-filter-defaults.js?v=20260617-1"></script>
     <script src="./project-stage-rules.js?v=20260615-1"></script>
     <script src="./project-scale-infographic.js?v=20260615-2"></script>
     <script src="./sheet-range-override.js?v=20260615-2"></script>
