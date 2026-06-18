@@ -262,7 +262,8 @@
   }
 
   function makeArticleId({ title, url, country, sector, date }) {
-    const seed = [url, title, country, sector, date].map(clean).join("|");
+    const primary = clean(url) || clean(title);
+    const seed = primary ? [primary, title].map(clean).join("|") : [title, country, sector, date].map(clean).join("|");
     let hash = 2166136261;
     for (let i = 0; i < seed.length; i += 1) {
       hash ^= seed.charCodeAt(i);
