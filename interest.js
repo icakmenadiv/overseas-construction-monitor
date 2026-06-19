@@ -194,12 +194,15 @@
       }
     } catch (error) {
       console.warn("Interest update failed:", error);
-      const activeNow = setLocalVote(story.id, nextActive);
-      const count = adjustLocalCount(story.id, activeNow ? 1 : -1);
-      updateButtons(story.id, activeNow, count);
-      button.title = "관심 수 서버 저장에 실패하여 이 브라우저에만 임시 반영되었습니다.";
+      if (!API_ENDPOINT) {
+        const activeNow = setLocalVote(story.id, nextActive);
+        const count = adjustLocalCount(story.id, activeNow ? 1 : -1);
+        updateButtons(story.id, activeNow, count);
+      }
+      button.title = "관심 수 서버 저장 또는 조회에 실패했습니다. 잠시 후 새로고침해 주세요.";
     } finally {
       setButtonLoading(story.id, false);
+      setTimeout(hydrateVisibleButtons, 300);
       refreshProjectAggregate();
     }
   }
@@ -215,18 +218,24 @@
     }
 
     try {
-      const payload = await apiRequest(`/counts?ids=${encodeURIComponent(ids.join(","))}&visitorId=${encodeURIComponent(getVisitorId())}`);
-      (payload.items || []).forEach((item) => {
-        const id = clean(item.articleId);
-        const count = Number(item.count || 0);
-        const active = Boolean(item.active);
-        setLocalVote(id, active);
-        updateLocalCount(id, count);
-        updateButtons(id, active, count);
-      });
+      const chunks = chunkArray(ids, 80);
+      for (const chunk of chunks) {
+        const query = `/counts?ids=${encodeURIComponent(chunk.join(","))}&visitorId=${encodeURIComponent(getVisitorId())}&_=${Date.now()}`;
+        const payload = await apiRequest(query, { method: "GET" });
+        (payload.items || []).forEach((item) => {
+          const id = clean(item.articleId);
+          const count = Number(item.count || 0);
+          const active = Boolean(item.active);
+          setLocalVote(id, active);
+          updateLocalCount(id, count);
+          updateButtons(id, active, count);
+        });
+      }
     } catch (error) {
       console.info("Interest count hydration skipped:", error);
-      ids.forEach((id) => updateButtons(id, hasLocalVote(id), getLocalCount(id)));
+      document.querySelectorAll(".interest-button").forEach((button) => {
+        button.title = "서버 누적 관심 수를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.";
+      });
     } finally {
       refreshProjectAggregate();
     }
@@ -236,6 +245,7 @@
     const init = {
       method: options.method || "GET",
       headers: { "Content-Type": "application/json" },
+      cache: "no-store",
     };
     if (options.body) init.body = JSON.stringify(options.body);
     const response = await fetch(`${API_ENDPOINT}${path}`, init);
@@ -409,6 +419,14 @@
     } catch (error) {
       console.warn("Failed to write interest localStorage:", error);
     }
+  }
+
+  function chunkArray(values, size) {
+    const chunks = [];
+    for (let index = 0; index < values.length; index += size) {
+      chunks.push(values.slice(index, index + size));
+    }
+    return chunks;
   }
 
   function clean(value) {
