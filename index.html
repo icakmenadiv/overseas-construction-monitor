@@ -157,7 +157,7 @@
         <div class="section-head">
           <div>
             <h2>시장 모니터링 기사 목록</h2>
-            <p>제목과 핵심 키워드 중심으로 상세 보기 가능하며, 제목을 클릭하면 원문을 확인할 수 있습니다.</p>
+            <p>활용 가치가 높은 경우나 후속기사 추적을 원하는 경우 ♥표시<br />기사 클릭 시 상세 열기/접기 가능</p>
           </div>
           <span class="result-count" id="resultCountLabel">0건</span>
         </div>
@@ -171,14 +171,15 @@
         <section class="top-news-section" id="topNewsSection" aria-label="주요 뉴스" hidden>
           <div class="section-head top-news-head">
             <div>
-              <h2>주요 뉴스</h2>
+              <h2 class="top-news-title-inline">주요 뉴스
+                <span
+                  class="top-news-help"
+                  tabindex="0"
+                  aria-label="주요 뉴스 산정 기준: 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다. 관심도는 하트 누적 수를 기준으로 참고합니다."
+                >?</span>
+              </h2>
               <p>필터링 결과 중 중요도 수치값 기준 상위 6건을 우선 노출합니다.</p>
             </div>
-            <span
-              class="top-news-help"
-              tabindex="0"
-              aria-label="주요 뉴스 산정 기준: 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다. 관심도는 하트 누적 수를 기준으로 참고합니다."
-            >?</span>
           </div>
           <div class="top-news-grid" id="topNewsCards"></div>
         </section>
@@ -238,7 +239,7 @@
     <script src="./market-card-row-expand.js?v=20260617-2"></script>
     <script src="./interest-config.js"></script>
     <script src="./interest.js?v=20260618-safe-1"></script>
-    <script src="./interest-behavior-fix.js?v=20260619-1"></script>
+    <script src="./interest-behavior-fix.js?v=20260619-2"></script>
     <script src="./interest-sort-enhancement.js?v=20260619-1"></script>
     <script src="./mobile-list-cards.js?v=20260619-1"></script>
     <script src="./header-copy.js"></script>
