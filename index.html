@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./high-priority-filter.css" />
     <link rel="stylesheet" href="./interest.css" />
     <link rel="stylesheet" href="./monitor-enhancements.css?v=20260615-4" />
+    <link rel="stylesheet" href="./filter-tooltip-fix.css?v=20260619-1" />
+    <link rel="stylesheet" href="./responsive-mobile-cards.css?v=20260619-1" />
   </head>
   <body>
     <header class="site-header" id="top">
@@ -107,7 +109,7 @@
               <span
                 class="sort-help"
                 tabindex="0"
-                aria-label="중요도 산정 기준: 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
+                aria-label="관심도순은 하트 관심 수가 높은 기사를 우선 표시합니다. 중요도순은 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
               >?</span>
             </div>
             <select id="sortSelect">
@@ -175,7 +177,7 @@
             <span
               class="top-news-help"
               tabindex="0"
-              aria-label="주요 뉴스 산정 기준: 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
+              aria-label="주요 뉴스 산정 기준: 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다. 관심도는 하트 누적 수를 기준으로 참고합니다."
             >?</span>
           </div>
           <div class="top-news-grid" id="topNewsCards"></div>
@@ -236,6 +238,9 @@
     <script src="./market-card-row-expand.js?v=20260617-2"></script>
     <script src="./interest-config.js"></script>
     <script src="./interest.js?v=20260618-safe-1"></script>
+    <script src="./interest-behavior-fix.js?v=20260619-1"></script>
+    <script src="./interest-sort-enhancement.js?v=20260619-1"></script>
+    <script src="./mobile-list-cards.js?v=20260619-1"></script>
     <script src="./header-copy.js"></script>
   </body>
 </html>
