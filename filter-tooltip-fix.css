@@ -1,0 +1,33 @@
+.control-panel,
+.field-grid,
+.field,
+.sort-label-row,
+.filter-top-actions,
+.field-toggle {
+  overflow: visible !important;
+}
+
+.sort-help {
+  position: relative;
+  z-index: 120;
+}
+
+.sort-help::after,
+.sort-help::before {
+  z-index: 9999 !important;
+}
+
+.sort-help::after {
+  max-width: min(360px, calc(100vw - 32px)) !important;
+  white-space: normal !important;
+  line-height: 1.45 !important;
+}
+
+@media (max-width: 760px) {
+  .sort-help::after {
+    left: auto !important;
+    right: 0 !important;
+    transform: none !important;
+    width: min(320px, calc(100vw - 40px)) !important;
+  }
+}
