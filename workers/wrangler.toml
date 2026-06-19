@@ -2,9 +2,8 @@ name = "icak-interest-api"
 main = "interest-worker.js"
 compatibility_date = "2026-06-18"
 
-# Replace database_id after creating the D1 database in Cloudflare.
 # Required binding name: DB
 [[d1_databases]]
 binding = "DB"
 database_name = "icak-interest-db"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "a4589c64-e837-4319-8791-f2bfedc81f88"
