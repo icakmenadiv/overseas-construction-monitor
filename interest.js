@@ -9,14 +9,25 @@
   const previewEnabled = params.get("interest") === "1";
   const featureEnabled = Boolean(window.INTEREST_FEATURE_ENABLED) || previewEnabled;
   const API_ENDPOINT = String(window.INTEREST_API_ENDPOINT || "").replace(/\/$/, "");
+  let marketRenderersWrapped = false;
 
   if (!featureEnabled) {
     window.InterestFeature = { enabled: false, reason: "disabled_by_feature_flag" };
     return;
   }
 
-  window.InterestFeature = { enabled: true, enhanceAll, hydrate: hydrateVisibleButtons };
+  window.InterestFeature = {
+    enabled: true,
+    enhanceAll,
+    hydrate: hydrateVisibleButtons,
+    enhanceMarketRowNow,
+    createMarketInterestCell,
+    getMarketStory: storyFromMarketRowData,
+  };
+
   ensureVisitorId();
+  wrapMarketRenderers();
+  [0, 50, 200, 700].forEach((delay) => setTimeout(wrapMarketRenderers, delay));
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", scheduleEnhanceAll);
@@ -34,19 +45,62 @@
         event.target.closest("input") ||
         event.target.closest("select")
       ) {
-        setTimeout(enhanceAll, 220);
-        setTimeout(enhanceAll, 700);
+        setTimeout(enhanceAll, 120);
+        setTimeout(enhanceAll, 420);
       }
     });
-    document.addEventListener("input", () => setTimeout(enhanceAll, 450));
-    document.addEventListener("change", () => setTimeout(enhanceAll, 450));
+    document.addEventListener("input", () => setTimeout(enhanceAll, 300));
+    document.addEventListener("change", () => setTimeout(enhanceAll, 300));
+  }
+
+  function wrapMarketRenderers() {
+    if (marketRenderersWrapped || typeof window.createMainRow !== "function") return;
+
+    const originalCreateMainRow = window.createMainRow;
+    window.createMainRow = function wrappedCreateMainRow(row, isExpanded) {
+      const tr = originalCreateMainRow.call(this, row, isExpanded);
+      return enhanceMarketRowNow(tr, row);
+    };
+
+    marketRenderersWrapped = true;
   }
 
   function enhanceAll() {
+    wrapMarketRenderers();
     enhanceMarketTable();
     enhanceTopNewsCards();
     enhanceProjectPage();
     hydrateVisibleButtons();
+  }
+
+  function enhanceMarketRowNow(row, rowData = null) {
+    if (!row || row.classList.contains("detail-row")) return row;
+
+    [...row.children].forEach((cell) => {
+      if (cell.querySelector(".detail-button") || clean(cell.getAttribute("data-label")) === "상세") {
+        cell.remove();
+      }
+    });
+
+    let cell = row.querySelector(".interest-cell");
+    if (!cell) {
+      const story = rowData ? storyFromMarketRowData(rowData) : storyFromMarketRowElement(row);
+      if (!story.id) return row;
+      cell = createMarketInterestCell(story);
+      row.appendChild(cell);
+      row.dataset.articleId = story.id;
+    }
+
+    row.dataset.interestReady = "true";
+    return row;
+  }
+
+  function createMarketInterestCell(story) {
+    const td = document.createElement("td");
+    td.className = "interest-cell";
+    td.dataset.label = "관심";
+    td.appendChild(createInterestButton(story));
+    return td;
   }
 
   function enhanceMarketTable() {
@@ -55,29 +109,25 @@
     if (!table || !tbody) return;
 
     const headerRow = table.querySelector("thead tr");
-    if (headerRow && !headerRow.querySelector(".interest-header-cell")) {
-      const detailHeader = [...headerRow.children].find((cell) => clean(cell.textContent) === "상세") || headerRow.lastElementChild;
-      const th = document.createElement("th");
-      th.className = "interest-header-cell";
-      th.textContent = "관심";
-      headerRow.insertBefore(th, detailHeader);
+    if (headerRow) {
+      [...headerRow.children].forEach((cell) => {
+        if (clean(cell.textContent) === "상세") cell.remove();
+      });
+      if (!headerRow.querySelector(".interest-header-cell")) {
+        const th = document.createElement("th");
+        th.className = "interest-header-cell";
+        th.setAttribute("aria-label", "관심");
+        th.textContent = "";
+        headerRow.appendChild(th);
+      }
     }
 
-    [...tbody.querySelectorAll("tr:not(.detail-row)")].forEach((row) => {
-      if (row.dataset.interestReady === "true") return;
-      const story = storyFromMarketRowElement(row);
-      if (!story.id) return;
-      const detailCell = row.lastElementChild;
-      const td = document.createElement("td");
-      td.className = "interest-cell";
-      td.dataset.label = "관심";
-      td.appendChild(createInterestButton(story));
-      row.insertBefore(td, detailCell);
-      row.dataset.interestReady = "true";
-      row.dataset.articleId = story.id;
-    });
+    [...tbody.querySelectorAll("tr:not(.detail-row)")].forEach((row) => enhanceMarketRowNow(row));
 
     [...tbody.querySelectorAll("tr.detail-row")].forEach((row) => {
+      const cell = row.querySelector("td");
+      if (cell && headerRow) cell.colSpan = headerRow.children.length;
+
       if (row.dataset.interestReady === "true") return;
       const previous = previousMainRow(row);
       const story = previous ? storyFromMarketRowElement(previous) : null;
@@ -103,7 +153,10 @@
       if (card.dataset.interestReady === "true") return;
       const story = storyFromTopNewsCard(card);
       if (!story.id) return;
-      card.appendChild(createInterestButton(story));
+      const wrap = document.createElement("div");
+      wrap.className = "top-news-interest";
+      wrap.appendChild(createInterestButton(story, "top-news"));
+      card.appendChild(wrap);
       card.dataset.interestReady = "true";
       card.dataset.articleId = story.id;
     });
@@ -121,9 +174,9 @@
       box.className = "project-interest-box";
       box.dataset.projectInterestId = projectStory.id;
       box.innerHTML = `
-        <span class="project-interest-label">프로젝트 관심</span>
+        <span class="project-interest-label">연결 기사 관심 합계</span>
         <strong class="project-interest-total" data-project-total-count>0</strong>
-        <span class="project-interest-caption">프로젝트 직접 관심 + 연결 기사 관심 합산</span>
+        <span class="project-interest-caption">현재 상세페이지에 표시된 연결 기사 관심 수만 합산</span>
       `;
       box.insertBefore(createInterestButton(projectStory, "project"), box.querySelector(".project-interest-caption"));
       toolbar.appendChild(box);
@@ -267,15 +320,24 @@
   function refreshProjectAggregate() {
     const totalEl = document.querySelector("[data-project-total-count]");
     if (!totalEl) return;
-    const projectId = document.querySelector(".project-interest-box .interest-button")?.dataset.articleId;
+
     const linkedIds = [...new Set(
       [...document.querySelectorAll("#projectArticles [data-project-linked-interest='true'], #projectArticles .project-article-card[data-project-linked-interest='true']")]
         .map((node) => node.dataset.articleId)
         .filter(Boolean),
     )];
-    const ids = [...new Set([projectId, ...linkedIds].filter(Boolean))];
-    const total = ids.reduce((sum, id) => sum + getLocalCount(id), 0);
+
+    const total = linkedIds.reduce((sum, id) => sum + getLocalCount(id), 0);
     totalEl.textContent = numberFormat(total);
+  }
+
+  function storyFromMarketRowData(row) {
+    const title = clean(row?.["제목(한글)"] || row?.["제목(원문)"] || "제목 없음");
+    const url = clean(row?.["출처링크"] || "");
+    const country = clean(row?.["국가"] || "");
+    const sector = clean(row?.["섹터"] || "");
+    const date = clean(row?.["원문게재일"] || "");
+    return { id: makeArticleId({ title, url, country, sector, date }), title, url };
   }
 
   function storyFromMarketRowElement(row) {
