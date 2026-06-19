@@ -1,0 +1,129 @@
+@media (max-width: 760px) {
+  body {
+    background-attachment: fixed;
+  }
+
+  .dashboard {
+    padding: 10px;
+  }
+
+  .control-panel {
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    max-height: 62vh;
+    overflow: auto !important;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.16);
+  }
+
+  .summary-grid,
+  .top-news-section,
+  .featured-projects {
+    display: none !important;
+  }
+
+  .results-section .section-head p,
+  .limit-notice {
+    display: none;
+  }
+
+  .table-wrap {
+    overflow: visible;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .market-table,
+  .project-list-table,
+  .market-table tbody,
+  .project-list-table tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .market-table thead,
+  .project-list-table thead {
+    display: none;
+  }
+
+  .market-table tr:not(.detail-row),
+  .project-list-table tr {
+    display: block;
+    margin: 0 0 12px;
+    padding: 14px;
+    border: 1px solid #dfe7f2;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
+  }
+
+  .market-table td,
+  .project-list-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    width: auto;
+    padding: 8px 0;
+    border: 0;
+    font-size: 0.86rem;
+  }
+
+  .market-table td::before,
+  .project-list-table td::before {
+    content: attr(data-label);
+    flex: 0 0 86px;
+    color: #64748b;
+    font-size: 0.74rem;
+    font-weight: 800;
+  }
+
+  .market-table .market-title-cell,
+  .project-list-table .project-title-cell {
+    display: block;
+    padding-top: 0;
+  }
+
+  .market-table .market-title-cell::before,
+  .project-list-table .project-title-cell::before,
+  .market-table .interest-cell::before {
+    content: none;
+  }
+
+  .market-table .title-link,
+  .project-list-table .title-link {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  .market-table .interest-cell {
+    justify-content: flex-end;
+    padding-top: 10px;
+  }
+
+  .market-table tr.mobile-extra,
+  .project-list-table tr.mobile-extra {
+    display: none !important;
+  }
+
+  .market-table tr.detail-row {
+    display: block;
+    margin: -6px 0 12px;
+  }
+
+  .market-table tr.detail-row > td {
+    display: block;
+    padding: 0;
+  }
+
+  .market-table tr.detail-row > td::before {
+    content: none;
+  }
+
+  .project-list-table td:nth-child(n+6) {
+    display: none;
+  }
+}
