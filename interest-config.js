@@ -19,6 +19,7 @@ window.INTEREST_API_ENDPOINT = "https://icak-interest-api.icak-mena-div.workers.
   const run = () => {
     window.InterestFeature?.enhanceAll?.();
     polishMarketInterestColumn();
+    syncTopNewsInterestCards();
   };
 
   const queueRun = (delay = 80) => {
@@ -102,7 +103,92 @@ window.INTEREST_API_ENDPOINT = "https://icak-interest-api.icak-mena-div.workers.
     });
   }
 
+  function syncTopNewsInterestCards() {
+    const cards = [...document.querySelectorAll("#topNewsCards .top-news-card")];
+    if (!cards.length) return;
+
+    cards.forEach((card) => {
+      const matchedButton = findMatchingListHeart(card);
+      if (!matchedButton) return;
+
+      let wrap = card.querySelector(".top-news-interest");
+      let button = wrap?.querySelector(".interest-button");
+      const matchedId = matchedButton.dataset.articleId;
+
+      if (!wrap) {
+        wrap = document.createElement("div");
+        wrap.className = "top-news-interest";
+        card.appendChild(wrap);
+      }
+
+      if (!button || button.dataset.articleId !== matchedId || button.dataset.proxyReady !== "true") {
+        wrap.innerHTML = "";
+        button = matchedButton.cloneNode(true);
+        button.disabled = matchedButton.disabled;
+        button.dataset.proxyReady = "true";
+        button.addEventListener("click", (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          const currentMatch = findMatchingListHeart(card);
+          if (currentMatch) currentMatch.click();
+        });
+        wrap.appendChild(button);
+      }
+
+      mirrorButtonState(matchedButton, button);
+      card.dataset.interestReady = "true";
+      card.dataset.articleId = matchedId;
+    });
+  }
+
+  function findMatchingListHeart(card) {
+    const cardTitle = normalize(card.querySelector("h3")?.textContent);
+    const cardUrl = normalizeUrl(card.querySelector("h3 a")?.getAttribute("href") || "");
+    const rows = [...document.querySelectorAll("#resultBody tr:not(.detail-row)")];
+
+    for (const row of rows) {
+      const titleEl = row.querySelector(".market-title-cell .title-link") || row.querySelector(".market-title-cell a, .market-title-cell span");
+      const rowTitle = normalize(titleEl?.textContent);
+      const rowUrl = normalizeUrl(titleEl?.getAttribute("href") || "");
+      const button = row.querySelector(".interest-button");
+      if (!button) continue;
+      if (cardUrl && rowUrl && cardUrl === rowUrl) return button;
+      if (cardTitle && rowTitle && cardTitle === rowTitle) return button;
+    }
+
+    return null;
+  }
+
+  function mirrorButtonState(source, target) {
+    target.dataset.articleId = source.dataset.articleId;
+    target.dataset.articleTitle = source.dataset.articleTitle || target.dataset.articleTitle || "";
+    target.dataset.articleUrl = source.dataset.articleUrl || target.dataset.articleUrl || "";
+    target.classList.toggle("is-active", source.classList.contains("is-active"));
+    target.classList.toggle("is-loading", source.classList.contains("is-loading"));
+    target.setAttribute("aria-pressed", source.getAttribute("aria-pressed") || "false");
+    const sourceHeart = source.querySelector(".interest-heart")?.textContent || "♡";
+    const sourceCount = source.querySelector(".interest-count")?.textContent || "0";
+    const targetHeart = target.querySelector(".interest-heart");
+    const targetCount = target.querySelector(".interest-count");
+    if (targetHeart) targetHeart.textContent = sourceHeart;
+    if (targetCount) targetCount.textContent = sourceCount;
+  }
+
   function clean(value) {
     return String(value || "").replace(/\s+/g, " ").trim();
+  }
+
+  function normalize(value) {
+    return clean(value).toLowerCase();
+  }
+
+  function normalizeUrl(value) {
+    try {
+      const url = new URL(value, window.location.href);
+      url.hash = "";
+      return `${url.hostname.replace(/^www\./, "")}${url.pathname.replace(/\/$/, "")}`.toLowerCase();
+    } catch (error) {
+      return normalize(value).replace(/\/$/, "");
+    }
   }
 })();
