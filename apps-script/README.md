@@ -11,6 +11,24 @@
 - 발송 건수: 상위 10건
 - 포함 링크: 원문 링크, 시장 모니터링 대시보드 링크
 
+## 수신자 시트
+
+수신자는 아래 Google Sheets에서 자동으로 읽습니다.
+
+- Spreadsheet ID: `1de_e5MEID7aBiyUuGorO_mNLil4tNDF_vRT_0i-QMGk`
+- Sheet GID: `1185967773`
+
+수신자 시트는 두 가지 방식 모두 가능합니다.
+
+1. 아무 셀에나 이메일 주소를 입력
+   - 시트 전체에서 이메일 형식을 자동 추출해 수신자로 사용합니다.
+
+2. 헤더를 둔 방식
+   - 첫 행에 `to`, `cc`, `bcc` 또는 `수신`, `참조`, `숨은참조` 같은 헤더를 둡니다.
+   - 각 열에 이메일을 입력하면 해당 구분으로 발송합니다.
+
+수신자 시트를 읽지 못하거나 유효한 이메일이 없으면 `CONFIG.FALLBACK_RECIPIENTS`에 있는 `icak.mena.div@gmail.com`으로 발송됩니다.
+
 ## 설치 방법
 
 1. Google Sheets를 엽니다.
@@ -18,8 +36,9 @@
 3. 기본 `Code.gs` 내용을 삭제합니다.
 4. `daily-market-brief.gs` 전체 내용을 붙여넣습니다.
 5. `CONFIG` 값을 확인합니다.
-   - `RECIPIENTS`: 실제 수신자 이메일
-   - `CC`, `BCC`: 필요 시 참조/숨은참조
+   - `RECIPIENT_SPREADSHEET_ID`: 수신자 목록 스프레드시트 ID
+   - `RECIPIENT_SHEET_GID`: 수신자 목록 시트 GID
+   - `FALLBACK_RECIPIENTS`: 수신자 시트 읽기 실패 시 예비 수신자
    - `TRIGGER_HOUR`: 자동 발송 시간. 기본값은 한국시간 오전 8시입니다.
 6. 저장합니다.
 
