@@ -4,18 +4,20 @@
  * 사용 방법
  * 1. Google Sheets에서 확장 프로그램 > Apps Script를 엽니다.
  * 2. 이 파일 전체 내용을 Code.gs에 붙여넣습니다.
- * 3. CONFIG.RECIPIENTS, CONFIG.CC, CONFIG.BCC를 실제 수신자에 맞게 수정합니다.
- * 4. sendTestDailyMarketBrief()를 먼저 실행해 테스트 메일을 확인합니다.
- * 5. 이상 없으면 createDailyMarketBriefTrigger()를 1회 실행해 매일 자동 발송 트리거를 생성합니다.
+ * 3. sendTestDailyMarketBrief()를 먼저 실행해 테스트 메일을 확인합니다.
+ * 4. 이상 없으면 createDailyMarketBriefTrigger()를 1회 실행해 매일 자동 발송 트리거를 생성합니다.
+ *
+ * 수신자는 CONFIG.RECIPIENT_SPREADSHEET_ID / CONFIG.RECIPIENT_SHEET_GID 시트에서 자동으로 읽습니다.
+ * 시트에 이메일 주소만 넣어도 되고, 헤더를 to/cc/bcc 또는 수신/참조/숨은참조 등으로 두어도 됩니다.
  */
 
 const CONFIG = {
   SPREADSHEET_ID: '11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E',
   MARKET_SHEET_GID: 748239675,
+  RECIPIENT_SPREADSHEET_ID: '1de_e5MEID7aBiyUuGorO_mNLil4tNDF_vRT_0i-QMGk',
+  RECIPIENT_SHEET_GID: 1185967773,
   DASHBOARD_URL: 'https://icakmenadiv.github.io/overseas-construction-monitor/',
-  RECIPIENTS: ['icak.mena.div@gmail.com'],
-  CC: [],
-  BCC: [],
+  FALLBACK_RECIPIENTS: ['icak.mena.div@gmail.com'],
   SENDER_NAME: 'ICAK 해외 건설시장 모니터링',
   TIMEZONE: 'Asia/Seoul',
   TOP_LIMIT: 10,
@@ -39,6 +41,11 @@ const COLUMN_ALIASES = {
 };
 
 function sendDailyMarketBrief() {
+  const recipients = loadMailRecipients_();
+  if (!recipients.to.length) {
+    throw new Error('수신자 시트에서 유효한 이메일 주소를 찾지 못했습니다.');
+  }
+
   const rows = loadMarketRows_();
   if (!rows.length) throw new Error('시장 모니터링 시트에서 기사 데이터를 찾지 못했습니다.');
 
@@ -54,13 +61,13 @@ function sendDailyMarketBrief() {
   if (!targetRows.length) throw new Error(`${targetDateKey} 기준 발송 대상 기사가 없습니다.`);
 
   const subject = `해외 건설시장 Daily Brief | ${targetDateKey} 기준 주요 기사 ${targetRows.length}건`;
-  const htmlBody = buildEmailHtml_(targetRows, latestCollectedDate);
+  const htmlBody = buildEmailHtml_(targetRows, latestCollectedDate, recipients);
   const plainBody = buildPlainText_(targetRows, latestCollectedDate);
 
   MailApp.sendEmail({
-    to: CONFIG.RECIPIENTS.join(','),
-    cc: CONFIG.CC.join(','),
-    bcc: CONFIG.BCC.join(','),
+    to: recipients.to.join(','),
+    cc: recipients.cc.join(','),
+    bcc: recipients.bcc.join(','),
     subject,
     htmlBody,
     body: plainBody,
@@ -91,6 +98,7 @@ function deleteDailyMarketBriefTriggers() {
 }
 
 function previewDailyMarketBriefHtml() {
+  const recipients = loadMailRecipients_();
   const rows = loadMarketRows_();
   const latestCollectedDate = getLatestCollectedDate_(rows);
   const targetDateKey = formatDateKey_(latestCollectedDate);
@@ -98,7 +106,77 @@ function previewDailyMarketBriefHtml() {
     .filter((row) => formatDateKey_(row._collectedDate) === targetDateKey)
     .sort(sortByImportanceThenDate_)
     .slice(0, CONFIG.TOP_LIMIT);
-  return buildEmailHtml_(targetRows, latestCollectedDate);
+  return buildEmailHtml_(targetRows, latestCollectedDate, recipients);
+}
+
+function loadMailRecipients_() {
+  const result = { to: [], cc: [], bcc: [] };
+
+  try {
+    const spreadsheet = SpreadsheetApp.openById(CONFIG.RECIPIENT_SPREADSHEET_ID);
+    const sheet = spreadsheet.getSheets().find((item) => item.getSheetId() === CONFIG.RECIPIENT_SHEET_GID);
+    if (!sheet) throw new Error(`GID ${CONFIG.RECIPIENT_SHEET_GID} 수신자 시트를 찾지 못했습니다.`);
+
+    const values = sheet.getDataRange().getValues();
+    if (!values.length) return fallbackRecipients_();
+
+    const headers = values[0].map((value) => normalizeHeader_(value));
+    const hasHeader = headers.some((header) => ['to', 'recipient', '수신', '수신자', '받는사람', 'email', '이메일', 'cc', '참조', 'bcc', '숨은참조'].includes(header));
+
+    if (hasHeader) {
+      values.slice(1).forEach((row) => {
+        row.forEach((cell, index) => {
+          const header = headers[index];
+          const emails = extractEmails_(cell);
+          if (!emails.length) return;
+          if (['cc', '참조'].includes(header)) {
+            result.cc.push(...emails);
+          } else if (['bcc', '숨은참조'].includes(header)) {
+            result.bcc.push(...emails);
+          } else {
+            result.to.push(...emails);
+          }
+        });
+      });
+    } else {
+      values.forEach((row) => {
+        row.forEach((cell) => result.to.push(...extractEmails_(cell)));
+      });
+    }
+  } catch (error) {
+    console.warn('수신자 시트 읽기 실패. FALLBACK_RECIPIENTS를 사용합니다:', error);
+    return fallbackRecipients_();
+  }
+
+  result.to = uniqueEmails_(result.to);
+  result.cc = uniqueEmails_(result.cc).filter((email) => !result.to.includes(email));
+  result.bcc = uniqueEmails_(result.bcc).filter((email) => !result.to.includes(email) && !result.cc.includes(email));
+
+  if (!result.to.length) return fallbackRecipients_();
+  return result;
+}
+
+function fallbackRecipients_() {
+  return {
+    to: uniqueEmails_(CONFIG.FALLBACK_RECIPIENTS || []),
+    cc: [],
+    bcc: [],
+  };
+}
+
+function extractEmails_(value) {
+  const text = cleanText_(value);
+  if (!text) return [];
+  const matches = text.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi);
+  return matches ? matches.map((email) => email.toLowerCase()) : [];
+}
+
+function uniqueEmails_(emails) {
+  return [...new Set((emails || []).map((email) => cleanText_(email).toLowerCase()).filter(Boolean))];
+}
+
+function normalizeHeader_(value) {
+  return cleanText_(value).toLowerCase().replace(/\s+/g, '').replace(/[()\[\]{}]/g, '');
 }
 
 function loadMarketRows_() {
@@ -197,10 +275,11 @@ function parseSheetDate_(value) {
   return Number.isNaN(parsed.getTime()) ? null : parsed;
 }
 
-function buildEmailHtml_(rows, latestCollectedDate) {
+function buildEmailHtml_(rows, latestCollectedDate, recipients) {
   const dateKey = formatDateKey_(latestCollectedDate);
   const generatedAt = Utilities.formatDate(new Date(), CONFIG.TIMEZONE, 'yyyy-MM-dd HH:mm');
   const cards = rows.map((row, index) => buildCardHtml_(row, index + 1)).join('');
+  const recipientCount = recipients ? recipients.to.length + recipients.cc.length + recipients.bcc.length : 0;
 
   return `
 <!doctype html>
@@ -225,7 +304,7 @@ function buildEmailHtml_(rows, latestCollectedDate) {
             </tr>
             <tr>
               <td style="padding:24px 32px 8px;">
-                <p style="margin:0;color:#64748b;font-size:13px;line-height:1.7;">발송 기준: 기사수집일 ${escapeHtml_(dateKey)} · 생성시각 ${escapeHtml_(generatedAt)} · AI 기반 분류·요약은 참고용이며 활용 전 원문 확인이 필요합니다.</p>
+                <p style="margin:0;color:#64748b;font-size:13px;line-height:1.7;">발송 기준: 기사수집일 ${escapeHtml_(dateKey)} · 생성시각 ${escapeHtml_(generatedAt)} · 수신자 ${recipientCount}명 · AI 기반 분류·요약은 참고용이며 활용 전 원문 확인이 필요합니다.</p>
               </td>
             </tr>
             <tr>
@@ -235,7 +314,7 @@ function buildEmailHtml_(rows, latestCollectedDate) {
             </tr>
             <tr>
               <td style="padding:18px 32px;background:#f8fafc;color:#64748b;font-size:12px;line-height:1.7;border-top:1px solid #e2e8f0;">
-                본 메일은 Google Apps Script를 통해 자동 발송됩니다. 수신자 변경, 발송 중지, 기준 조정은 Apps Script의 CONFIG 값을 수정해 주세요.
+                본 메일은 Google Apps Script를 통해 자동 발송됩니다. 수신자는 별도 Google Sheets에서 자동으로 읽어옵니다.
               </td>
             </tr>
           </table>
