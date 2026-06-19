@@ -1,15 +1,11 @@
 // Anonymous interest-heart feature configuration.
 //
-// Safety rule:
-// - Keep INTEREST_FEATURE_ENABLED false on production unless the UI has been tested.
-// - You can preview the feature without changing this file by opening index.html?interest=1.
-//
-// Backend rule:
-// - Leave INTEREST_API_ENDPOINT empty for browser-only test mode.
-// - After deploying the Cloudflare Worker, set it to the Worker URL.
+// Production mode:
+// - INTEREST_FEATURE_ENABLED true shows hearts on normal site URLs.
+// - INTEREST_API_ENDPOINT stores and reads shared counts through Cloudflare Worker + D1.
 
-window.INTEREST_FEATURE_ENABLED = false;
-window.INTEREST_API_ENDPOINT = "";
+window.INTEREST_FEATURE_ENABLED = true;
+window.INTEREST_API_ENDPOINT = "https://icak-interest-api.icak-mena-div.workers.dev";
 
 (() => {
   const params = new URLSearchParams(window.location.search);
