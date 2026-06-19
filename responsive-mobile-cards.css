@@ -1,6 +1,12 @@
 @media (max-width: 760px) {
   body {
-    background-attachment: fixed;
+    background-attachment: scroll;
+    overflow-x: hidden;
+  }
+
+  .site-header {
+    position: relative;
+    z-index: 1;
   }
 
   .dashboard {
@@ -8,13 +14,41 @@
   }
 
   .control-panel {
-    position: sticky;
-    top: 0;
-    z-index: 60;
-    max-height: 62vh;
-    overflow: auto !important;
-    border-radius: 0 0 18px 18px;
-    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.16);
+    position: static !important;
+    top: auto !important;
+    z-index: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    margin-bottom: 14px;
+    border-radius: 20px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  }
+
+  .field-grid,
+  .field-grid-market,
+  .field-grid-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .field,
+  .field-wide,
+  .field-toggle {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .date-preset-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .date-preset-button,
+  .action-buttons button,
+  .top-reset-button {
+    white-space: nowrap;
   }
 
   .summary-grid,
@@ -23,16 +57,25 @@
     display: none !important;
   }
 
+  .results-section {
+    margin-top: 14px;
+  }
+
+  .results-section .section-head {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
   .results-section .section-head p,
   .limit-notice {
     display: none;
   }
 
   .table-wrap {
-    overflow: visible;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
+    overflow: visible !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
   }
 
   .market-table,
@@ -41,6 +84,7 @@
   .project-list-table tbody {
     display: block;
     width: 100%;
+    min-width: 0 !important;
   }
 
   .market-table thead,
@@ -50,34 +94,45 @@
 
   .market-table tr:not(.detail-row),
   .project-list-table tr {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    width: 100%;
+    min-width: 0;
     margin: 0 0 12px;
-    padding: 14px;
+    padding: 16px;
     border: 1px solid #dfe7f2;
     border-radius: 18px;
-    background: rgba(255, 255, 255, 0.96);
+    background: rgba(255, 255, 255, 0.98);
     box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
   }
 
   .market-table td,
   .project-list-table td {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-    width: auto;
-    padding: 8px 0;
+    display: grid;
+    grid-template-columns: minmax(78px, 0.32fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 10px;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    padding: 6px 0;
     border: 0;
-    font-size: 0.86rem;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
   }
 
   .market-table td::before,
   .project-list-table td::before {
     content: attr(data-label);
-    flex: 0 0 86px;
+    min-width: 0;
     color: #64748b;
-    font-size: 0.74rem;
+    font-size: 0.76rem;
     font-weight: 800;
+    line-height: 1.35;
+    word-break: keep-all;
   }
 
   .market-table .market-title-cell,
@@ -95,11 +150,23 @@
   .market-table .title-link,
   .project-list-table .title-link {
     display: block;
-    font-size: 1rem;
+    width: 100%;
+    min-width: 0;
+    font-size: 1.02rem;
     line-height: 1.45;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+
+  .project-list-table .project-title-cell {
+    margin-bottom: 4px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #edf2f7;
   }
 
   .market-table .interest-cell {
+    display: flex;
     justify-content: flex-end;
     padding-top: 10px;
   }
@@ -112,6 +179,10 @@
   .market-table tr.detail-row {
     display: block;
     margin: -6px 0 12px;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
   }
 
   .market-table tr.detail-row > td {
@@ -125,5 +196,15 @@
 
   .project-list-table td:nth-child(n+6) {
     display: none;
+  }
+
+  .pill,
+  .keyword-pill,
+  .stage-pill {
+    display: inline-flex;
+    max-width: 100%;
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
   }
 }
