@@ -1,10 +1,23 @@
 # 관심 하트 기능 운영 메모
 
+## 현재 운영 단계
+
+관심 하트 기능은 두 단계로 운영합니다.
+
+1. 미리보기 단계
+   - `index.html?interest=1`에서만 하트가 보입니다.
+   - `interest-config.js`의 `window.INTEREST_FEATURE_ENABLED = false`입니다.
+   - `window.INTEREST_API_ENDPOINT = ""`이므로 같은 브라우저 안에서만 임시 카운트가 유지됩니다.
+
+2. 실제 누적 단계
+   - Cloudflare Worker + D1을 배포합니다.
+   - 배포된 Worker URL을 `interest-config.js`에 넣습니다.
+   - `window.INTEREST_FEATURE_ENABLED = true`로 바꾸면 일반 URL에서도 하트가 보이고 전체 관심 수가 누적됩니다.
+
 ## 안전 적용 원칙
 
-이번 기능은 운영 페이지 장애를 막기 위해 기본값을 꺼둔 상태로 둡니다.
+운영 페이지 장애를 막기 위해 서버 누적 전까지 기본값은 꺼둡니다.
 
-- `interest-config.js`의 `window.INTEREST_FEATURE_ENABLED = false`가 기본값입니다.
 - 일반 접속에서는 하트 기능이 실행되지 않습니다.
 - 미리보기는 URL 뒤에 `?interest=1`을 붙여 확인합니다.
 
@@ -26,11 +39,60 @@ UI와 데이터 로딩이 모두 안정적으로 확인된 뒤에만 `window.INT
 - `interest-config.js`의 `window.INTEREST_API_ENDPOINT`가 비어 있으면 브라우저 안에서만 임시 카운트가 유지됩니다.
 - Cloudflare Worker URL을 넣으면 기사별·프로젝트별 전체 관심 수가 서버에 누적됩니다.
 
-## 구현 방식
+## 실제 누적 적용 절차
 
-이전 버전처럼 `MutationObserver`로 렌더링된 DOM 전체를 감시하지 않습니다.
+### 1. Cloudflare D1 데이터베이스 생성
 
-이번 버전은 기존 렌더링 함수가 행·카드를 만들 때만 하트 UI를 붙이도록 래핑하며, 기능이 꺼져 있으면 아무 동작도 하지 않습니다.
+Cloudflare Dashboard 또는 Wrangler CLI에서 D1 데이터베이스를 생성합니다.
+
+권장 이름:
+
+```text
+icak-interest-db
+```
+
+### 2. `workers/wrangler.toml`의 database_id 교체
+
+`workers/wrangler.toml`에서 아래 값을 실제 D1 database_id로 바꿉니다.
+
+```toml
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+```
+
+### 3. D1 스키마 적용
+
+`workers/interest-schema.sql`을 D1에 적용합니다.
+
+Wrangler CLI 기준 예시:
+
+```bash
+cd workers
+npx wrangler d1 execute icak-interest-db --file=./interest-schema.sql
+```
+
+### 4. Worker 배포
+
+```bash
+cd workers
+npx wrangler deploy
+```
+
+배포 후 예시 URL:
+
+```text
+https://icak-interest-api.<cloudflare-subdomain>.workers.dev
+```
+
+### 5. 프론트엔드 운영 전환
+
+`interest-config.js`를 아래처럼 바꿉니다.
+
+```js
+window.INTEREST_FEATURE_ENABLED = true;
+window.INTEREST_API_ENDPOINT = "https://icak-interest-api.<cloudflare-subdomain>.workers.dev";
+```
+
+이후 일반 URL에서도 하트가 표시되고, 관심 수가 전체 사용자 기준으로 누적됩니다.
 
 ## 프로젝트 전체 관심 수 산식
 
@@ -64,20 +126,6 @@ UI와 데이터 로딩이 모두 안정적으로 확인된 뒤에만 `window.INT
 - 브라우저 localStorage 삭제
 
 따라서 이 수치는 투표 결과가 아니라 후속 추적 우선순위 판단용 참고 지표로 사용하는 것이 적합합니다.
-
-## Cloudflare Worker 연결 절차
-
-1. Cloudflare D1 데이터베이스를 생성합니다.
-2. `workers/interest-schema.sql`을 D1에 실행합니다.
-3. `workers/interest-worker.js`를 Cloudflare Worker로 배포합니다.
-4. Worker에 D1 binding 이름을 `DB`로 연결합니다.
-5. 배포된 Worker URL을 `interest-config.js`에 입력합니다.
-
-예시:
-
-```js
-window.INTEREST_API_ENDPOINT = "https://icak-interest-api.your-subdomain.workers.dev";
-```
 
 ## API
 
