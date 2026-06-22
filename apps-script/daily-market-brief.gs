@@ -2,11 +2,12 @@
  * ICAK 해외 건설시장 Daily Brief 자동 발송 스크립트
  *
  * 반영 기준
- * - 원문게재일 기준 최근 3일 기사 중 중요도 수치값 상위 10건 발송
- * - 이전 정식 발송 메일에서 보낸 기사는 제외
+ * - 수신자별 선호 지역 기사만 발송
+ * - 원문게재일 기준 최근 5일 기사 중 중요도 수치값 상위 30건 발송
+ * - 이전 정식 발송 메일에서 해당 수신자에게 보낸 기사는 제외
  * - 테스트 발송 메일 제목에는 [테스트발송] 표시
  * - 수신자 시트 E열/신청 구분이 수신거부인 이메일은 수신자에서 제외하고 해당 이메일 포함 행을 삭제
- * - 중복 이메일은 1건만 발송
+ * - 중복 이메일은 최신 등록 1건만 사용
  */
 
 const CONFIG = {
@@ -19,9 +20,11 @@ const CONFIG = {
   FALLBACK_RECIPIENTS: ['icak.mena.div@gmail.com'],
   SENDER_NAME: 'ICAK 해외 건설시장 모니터링',
   TIMEZONE: 'Asia/Seoul',
-  TOP_LIMIT: 10,
-  RECENT_DAYS_BY_PUBLISHED_DATE: 3,
+  TOP_LIMIT: 30,
+  RECENT_DAYS_BY_PUBLISHED_DATE: 5,
   TRIGGER_HOUR: 8,
+  MAX_BCC_PER_EMAIL: 80,
+  TEST_ONLY_FALLBACK_RECIPIENTS: false,
 };
 
 const COLUMN_ALIASES = {
@@ -34,7 +37,7 @@ const COLUMN_ALIASES = {
   sector: ['섹터', '공종'],
   infoClass: ['정보 분류', '정보분류'],
   topic: ['주제', '핵심 키워드', '키워드'],
-  importance: ['중요도'],
+  importance: ['중요도', '중요도 수치값'],
   sourceUrl: ['출처링크', '링크', 'URL'],
   publishedDate: ['원문게재일', '게재일'],
   collectedDate: ['기사수집일', '수집일', '업데이트일'],
@@ -50,7 +53,8 @@ function sendTestDailyMarketBrief() {
 
 function sendMarketBrief_({ isTest }) {
   const recipients = loadMailRecipients_();
-  if (!recipients.to.length) throw new Error('수신자 시트에서 유효한 이메일 주소를 찾지 못했습니다.');
+  const recipientGroups = buildRecipientGroups_(recipients, isTest);
+  if (!recipientGroups.length) throw new Error('유효한 수신자 그룹을 찾지 못했습니다.');
 
   const rows = loadMarketRows_();
   if (!rows.length) throw new Error('시장 모니터링 시트에서 기사 데이터를 찾지 못했습니다.');
@@ -59,33 +63,43 @@ function sendMarketBrief_({ isTest }) {
   if (!latestPublishedDate) throw new Error('원문게재일을 해석할 수 있는 행이 없습니다.');
 
   const range = getRecentPublishedDateRange_(latestPublishedDate);
-  const sentKeys = getSentArticleKeySet_();
-  const targetRows = rows
-    .filter((row) => isWithinDateRange_(row._publishedDate, range.start, range.end))
-    .filter((row) => isTest || !sentKeys.has(getArticleKey_(row)))
-    .sort(sortByImportanceThenDate_)
-    .slice(0, CONFIG.TOP_LIMIT);
+  const sentMap = getSentArticleMap_();
+  let sentEmailCount = 0;
 
-  if (!targetRows.length) {
-    throw new Error(`${formatDateKey_(range.start)}~${formatDateKey_(range.end)} 원문게재일 기준 신규 발송 대상 기사가 없습니다.`);
-  }
+  recipientGroups.forEach((group) => {
+    const groupRows = rows
+      .filter((row) => isWithinDateRange_(row._publishedDate, range.start, range.end))
+      .filter((row) => isRegionMatched_(row.region, group.regions))
+      .filter((row) => isTest || !wasSentToAllRecipients_(row, group.recipients, sentMap))
+      .sort(sortByImportanceThenDate_)
+      .slice(0, CONFIG.TOP_LIMIT);
 
-  const baseSubject = `해외 건설시장 Daily Brief | 원문게재일 최근 ${CONFIG.RECENT_DAYS_BY_PUBLISHED_DATE}일 주요 기사 ${targetRows.length}건`;
-  const subject = isTest ? `[테스트발송] ${baseSubject}` : baseSubject;
-  const htmlBody = buildEmailHtml_(targetRows, range, recipients, isTest);
-  const plainBody = buildPlainText_(targetRows, range, isTest);
+    if (!groupRows.length) return;
 
-  MailApp.sendEmail({
-    to: recipients.to.join(','),
-    cc: recipients.cc.join(','),
-    bcc: recipients.bcc.join(','),
-    subject,
-    htmlBody,
-    body: plainBody,
-    name: CONFIG.SENDER_NAME,
+    const regionLabel = group.regions.length ? group.regions.join(', ') : '전체 지역';
+    const baseSubject = `해외 건설시장 Daily Brief | ${regionLabel} 최근 ${CONFIG.RECENT_DAYS_BY_PUBLISHED_DATE}일 주요 기사 ${groupRows.length}건`;
+    const subject = isTest ? `[테스트발송] ${baseSubject}` : baseSubject;
+    const htmlBody = buildEmailHtml_(groupRows, range, group, isTest);
+    const plainBody = buildPlainText_(groupRows, range, group, isTest);
+
+    const chunks = chunkArray_(group.recipients, CONFIG.MAX_BCC_PER_EMAIL);
+    chunks.forEach((chunk) => {
+      MailApp.sendEmail({
+        to: CONFIG.FALLBACK_RECIPIENTS[0],
+        bcc: chunk.map((recipient) => recipient.email).join(','),
+        subject,
+        htmlBody,
+        body: plainBody,
+        name: CONFIG.SENDER_NAME,
+      });
+      sentEmailCount += 1;
+      if (!isTest) recordSentArticles_(groupRows, chunk, range, subject, regionLabel);
+    });
   });
 
-  if (!isTest) recordSentArticles_(targetRows, recipients, range, subject);
+  if (!sentEmailCount) {
+    throw new Error(`${formatDateKey_(range.start)}~${formatDateKey_(range.end)} 원문게재일 기준 신규 발송 대상 기사가 없습니다.`);
+  }
 }
 
 function createDailyMarketBriefTrigger() {
@@ -106,19 +120,21 @@ function deleteDailyMarketBriefTriggers() {
 
 function previewDailyMarketBriefHtml() {
   const recipients = loadMailRecipients_();
+  const groups = buildRecipientGroups_(recipients, true);
   const rows = loadMarketRows_();
   const latestPublishedDate = getLatestPublishedDate_(rows);
   const range = getRecentPublishedDateRange_(latestPublishedDate);
-  const sentKeys = getSentArticleKeySet_();
+  const group = groups[0];
   const targetRows = rows
     .filter((row) => isWithinDateRange_(row._publishedDate, range.start, range.end))
-    .filter((row) => !sentKeys.has(getArticleKey_(row)))
+    .filter((row) => isRegionMatched_(row.region, group.regions))
     .sort(sortByImportanceThenDate_)
     .slice(0, CONFIG.TOP_LIMIT);
-  return buildEmailHtml_(targetRows, range, recipients, true);
+  return buildEmailHtml_(targetRows, range, group, true);
 }
 
 function resetSentArticleHistory() {
+  PropertiesService.getScriptProperties().deleteProperty('SENT_ARTICLE_MAP');
   PropertiesService.getScriptProperties().deleteProperty('SENT_ARTICLE_KEYS');
 }
 
@@ -131,25 +147,36 @@ function loadMailRecipients_() {
     cleanupUnsubscribedRows_(sheet);
 
     const values = sheet.getDataRange().getValues();
-    if (!values.length) return fallbackRecipients_();
+    if (values.length < 2) return fallbackRecipientObjects_();
 
     const headers = values[0].map((value) => normalizeHeader_(value));
     const emailIndex = findHeaderIndex_(headers, ['이메일주소', '이메일', 'email', '메일', 'mail']);
-    const result = { to: [], cc: [], bcc: [] };
+    const nameIndex = findHeaderIndex_(headers, ['성명', '이름', 'name']);
+    const orgIndex = findHeaderIndex_(headers, ['소속', '기관', 'org', 'organization']);
+    const regionIndex = findHeaderIndex_(headers, ['선호지역', '희망지역', '지역']);
+    const regionOnlyIndex = findHeaderIndex_(headers, ['선호지역기사만수신을원하는지여부', '선호지역기사만수신', '지역기사만수신']);
 
-    if (emailIndex >= 0) {
-      values.slice(1).forEach((row) => result.to.push(...extractEmails_(row[emailIndex])));
-    } else {
-      values.forEach((row) => row.forEach((cell) => result.to.push(...extractEmails_(cell))));
-    }
+    if (emailIndex < 0) return fallbackRecipientObjects_();
 
-    result.to = uniqueEmails_(result.to);
-    result.cc = [];
-    result.bcc = [];
-    return result.to.length ? result : fallbackRecipients_();
+    const latestByEmail = new Map();
+    values.slice(1).forEach((row, zeroBasedIndex) => {
+      extractEmails_(row[emailIndex]).forEach((email) => {
+        latestByEmail.set(email, {
+          email,
+          name: cleanText_(nameIndex >= 0 ? row[nameIndex] : ''),
+          org: cleanText_(orgIndex >= 0 ? row[orgIndex] : ''),
+          regions: parseRegions_(regionIndex >= 0 ? row[regionIndex] : ''),
+          regionOnly: cleanText_(regionOnlyIndex >= 0 ? row[regionOnlyIndex] : '').includes('기사만'),
+          rowNumber: zeroBasedIndex + 2,
+        });
+      });
+    });
+
+    const recipients = [...latestByEmail.values()].filter((recipient) => recipient.email);
+    return recipients.length ? recipients : fallbackRecipientObjects_();
   } catch (error) {
     console.warn('수신자 시트 읽기 실패. FALLBACK_RECIPIENTS를 사용합니다:', error);
-    return fallbackRecipients_();
+    return fallbackRecipientObjects_();
   }
 }
 
@@ -160,17 +187,14 @@ function cleanupUnsubscribedRows_(sheet) {
   const headers = values[0].map((value) => normalizeHeader_(value));
   const emailIndex = findHeaderIndex_(headers, ['이메일주소', '이메일', 'email', '메일', 'mail']);
   const statusIndex = findHeaderIndex_(headers, ['신청구분', '신청', '구분', 'status']);
-  const effectiveStatusIndex = statusIndex >= 0 ? statusIndex : 4; // E열 fallback
+  const effectiveStatusIndex = statusIndex >= 0 ? statusIndex : 4;
   if (emailIndex < 0) return;
 
   const unsubscribeEmails = new Set();
   values.slice(1).forEach((row) => {
     const statusText = cleanText_(row[effectiveStatusIndex]);
-    if (statusText.includes('수신거부')) {
-      extractEmails_(row[emailIndex]).forEach((email) => unsubscribeEmails.add(email));
-    }
+    if (statusText.includes('수신거부')) extractEmails_(row[emailIndex]).forEach((email) => unsubscribeEmails.add(email));
   });
-
   if (!unsubscribeEmails.size) return;
 
   for (let r = values.length - 1; r >= 1; r -= 1) {
@@ -179,8 +203,22 @@ function cleanupUnsubscribedRows_(sheet) {
   }
 }
 
-function fallbackRecipients_() {
-  return { to: uniqueEmails_(CONFIG.FALLBACK_RECIPIENTS || []), cc: [], bcc: [] };
+function buildRecipientGroups_(recipients, isTest) {
+  const activeRecipients = isTest && CONFIG.TEST_ONLY_FALLBACK_RECIPIENTS ? fallbackRecipientObjects_() : recipients;
+  const groups = new Map();
+
+  activeRecipients.forEach((recipient) => {
+    const regions = recipient.regions.length ? recipient.regions : [];
+    const key = regions.length ? regions.slice().sort().join('|') : 'ALL';
+    if (!groups.has(key)) groups.set(key, { key, regions, recipients: [] });
+    groups.get(key).recipients.push(recipient);
+  });
+
+  return [...groups.values()];
+}
+
+function fallbackRecipientObjects_() {
+  return uniqueEmails_(CONFIG.FALLBACK_RECIPIENTS || []).map((email) => ({ email, name: '', org: '', regions: [], regionOnly: false }));
 }
 
 function loadMarketRows_() {
@@ -227,10 +265,7 @@ function getByAliases_(raw, aliases) {
 }
 
 function getLatestPublishedDate_(rows) {
-  return rows
-    .map((row) => row._publishedDate)
-    .filter((date) => date && !Number.isNaN(date.getTime()))
-    .sort((a, b) => b.getTime() - a.getTime())[0] || null;
+  return rows.map((row) => row._publishedDate).filter((date) => date && !Number.isNaN(date.getTime())).sort((a, b) => b.getTime() - a.getTime())[0] || null;
 }
 
 function getRecentPublishedDateRange_(latestDate) {
@@ -243,6 +278,12 @@ function getRecentPublishedDateRange_(latestDate) {
 
 function isWithinDateRange_(date, start, end) {
   return date && !Number.isNaN(date.getTime()) && date >= start && date <= end;
+}
+
+function isRegionMatched_(articleRegion, preferredRegions) {
+  if (!preferredRegions.length) return true;
+  const normalizedArticleRegion = normalizeRegion_(articleRegion);
+  return preferredRegions.some((region) => normalizedArticleRegion === region || normalizedArticleRegion.includes(region) || region.includes(normalizedArticleRegion));
 }
 
 function sortByImportanceThenDate_(a, b) {
@@ -265,31 +306,44 @@ function getArticleKey_(row) {
   return cleanText_(row.id) || cleanText_(row.sourceUrl) || `${row.title}|${formatDateKey_(row._publishedDate)}`;
 }
 
-function getSentArticleKeySet_() {
-  const stored = PropertiesService.getScriptProperties().getProperty('SENT_ARTICLE_KEYS') || '[]';
+function wasSentToAllRecipients_(row, recipients, sentMap) {
+  const articleKey = getArticleKey_(row);
+  return recipients.every((recipient) => Boolean(sentMap[makeRecipientArticleKey_(recipient.email, articleKey)]));
+}
+
+function makeRecipientArticleKey_(email, articleKey) {
+  return `${email}::${articleKey}`;
+}
+
+function getSentArticleMap_() {
+  const stored = PropertiesService.getScriptProperties().getProperty('SENT_ARTICLE_MAP') || '{}';
   try {
-    return new Set(JSON.parse(stored));
+    return JSON.parse(stored);
   } catch (error) {
-    return new Set();
+    return {};
   }
 }
 
-function recordSentArticles_(rows, recipients, range, subject) {
-  const keys = getSentArticleKeySet_();
-  rows.forEach((row) => keys.add(getArticleKey_(row)));
-  PropertiesService.getScriptProperties().setProperty('SENT_ARTICLE_KEYS', JSON.stringify([...keys].slice(-2000)));
+function recordSentArticles_(rows, recipients, range, subject, regionLabel) {
+  const sentMap = getSentArticleMap_();
+  rows.forEach((row) => {
+    const articleKey = getArticleKey_(row);
+    recipients.forEach((recipient) => { sentMap[makeRecipientArticleKey_(recipient.email, articleKey)] = new Date().toISOString(); });
+  });
+  const entries = Object.entries(sentMap).slice(-5000);
+  PropertiesService.getScriptProperties().setProperty('SENT_ARTICLE_MAP', JSON.stringify(Object.fromEntries(entries)));
 
   const spreadsheet = SpreadsheetApp.openById(CONFIG.RECIPIENT_SPREADSHEET_ID);
   let logSheet = spreadsheet.getSheetByName(CONFIG.LOG_SHEET_NAME);
   if (!logSheet) logSheet = spreadsheet.insertSheet(CONFIG.LOG_SHEET_NAME);
   if (logSheet.getLastRow() === 0) {
-    logSheet.appendRow(['발송시각', '제목', '기준시작일', '기준종료일', '발송건수', '수신자수', '기사고유값', '기사제목']);
+    logSheet.appendRow(['발송시각', '제목', '지역그룹', '기준시작일', '기준종료일', '발송건수', '수신자수', '수신자', '기사고유값', '기사제목']);
   }
 
   const now = Utilities.formatDate(new Date(), CONFIG.TIMEZONE, 'yyyy-MM-dd HH:mm:ss');
-  const recipientCount = recipients.to.length + recipients.cc.length + recipients.bcc.length;
+  const recipientEmails = recipients.map((recipient) => recipient.email).join(', ');
   rows.forEach((row) => {
-    logSheet.appendRow([now, subject, formatDateKey_(range.start), formatDateKey_(range.end), rows.length, recipientCount, getArticleKey_(row), row.title]);
+    logSheet.appendRow([now, subject, regionLabel, formatDateKey_(range.start), formatDateKey_(range.end), rows.length, recipients.length, recipientEmails, getArticleKey_(row), row.title]);
   });
 }
 
@@ -310,19 +364,20 @@ function parseSheetDate_(value) {
   return Number.isNaN(parsed.getTime()) ? null : parsed;
 }
 
-function buildEmailHtml_(rows, range, recipients, isTest) {
+function buildEmailHtml_(rows, range, group, isTest) {
   const startKey = formatDateKey_(range.start);
   const endKey = formatDateKey_(range.end);
   const generatedAt = Utilities.formatDate(new Date(), CONFIG.TIMEZONE, 'yyyy-MM-dd HH:mm');
   const cards = rows.map((row, index) => buildCardHtml_(row, index + 1)).join('');
-  const recipientCount = recipients ? recipients.to.length + recipients.cc.length + recipients.bcc.length : 0;
+  const recipientCount = group ? group.recipients.length : 0;
+  const regionLabel = group && group.regions.length ? group.regions.join(', ') : '전체 지역';
   const testBadge = isTest ? '<span style="display:inline-block;background:#fef3c7;color:#92400e;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:800;margin-bottom:10px;">테스트발송</span>' : '';
 
   return `
 <!doctype html>
 <html lang="ko">
   <body style="margin:0;padding:0;background:#f3f7fb;font-family:Arial,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;color:#1f2937;">
-    <div style="display:none;max-height:0;overflow:hidden;opacity:0;">원문게재일 ${startKey}~${endKey} 기준 주요 기사 ${rows.length}건입니다.</div>
+    <div style="display:none;max-height:0;overflow:hidden;opacity:0;">${regionLabel} 원문게재일 ${startKey}~${endKey} 기준 주요 기사 ${rows.length}건입니다.</div>
     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f3f7fb;padding:24px 0;">
       <tr><td align="center">
         <table role="presentation" width="760" cellspacing="0" cellpadding="0" style="width:760px;max-width:94%;background:#ffffff;border-radius:24px;overflow:hidden;border:1px solid #dbeafe;box-shadow:0 18px 45px rgba(15,23,42,0.10);">
@@ -330,12 +385,12 @@ function buildEmailHtml_(rows, range, recipients, isTest) {
             ${testBadge}
             <div style="font-size:13px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.86;">ICAK Market Monitoring</div>
             <h1 style="margin:8px 0 10px;font-size:26px;line-height:1.3;font-weight:800;">해외 건설시장 Daily Brief</h1>
-            <p style="margin:0;font-size:15px;line-height:1.7;opacity:0.94;">원문게재일 ${escapeHtml_(startKey)}~${escapeHtml_(endKey)} 기준 주요 기사 ${rows.length}건</p>
+            <p style="margin:0;font-size:15px;line-height:1.7;opacity:0.94;">${escapeHtml_(regionLabel)} · 원문게재일 ${escapeHtml_(startKey)}~${escapeHtml_(endKey)} 주요 기사 ${rows.length}건</p>
             <div style="margin-top:18px;"><a href="${escapeAttribute_(CONFIG.DASHBOARD_URL)}" target="_blank" style="display:inline-block;background:#ffffff;color:#0f4c81;text-decoration:none;font-weight:800;border-radius:999px;padding:10px 16px;font-size:14px;">대시보드 바로가기</a></div>
           </td></tr>
-          <tr><td style="padding:24px 32px 8px;"><p style="margin:0;color:#64748b;font-size:13px;line-height:1.7;">발송 기준: 원문게재일 최근 ${CONFIG.RECENT_DAYS_BY_PUBLISHED_DATE}일 · 생성시각 ${escapeHtml_(generatedAt)} · 수신자 ${recipientCount}명 · 검색, 번역 및 분류, 요약에 AI가 활용되어 오류가 있을 수 있습니다.</p></td></tr>
+          <tr><td style="padding:24px 32px 8px;"><p style="margin:0;color:#64748b;font-size:13px;line-height:1.7;">발송 기준: 선호지역 ${escapeHtml_(regionLabel)} · 원문게재일 최근 ${CONFIG.RECENT_DAYS_BY_PUBLISHED_DATE}일 · 생성시각 ${escapeHtml_(generatedAt)} · 수신자 ${recipientCount}명 · 검색, 번역 및 분류, 요약에 AI가 활용되어 오류가 있을 수 있습니다.</p></td></tr>
           <tr><td style="padding:8px 32px 28px;">${cards}</td></tr>
-          <tr><td style="padding:18px 32px;background:#f8fafc;color:#64748b;font-size:12px;line-height:1.7;border-top:1px solid #e2e8f0;">본 메일은 Google Apps Script를 통해 자동 발송됩니다. 수신자는 별도 Google Sheets에서 자동으로 읽어옵니다.</td></tr>
+          <tr><td style="padding:18px 32px;background:#f8fafc;color:#64748b;font-size:12px;line-height:1.7;border-top:1px solid #e2e8f0;">본 메일은 Google Apps Script를 통해 자동 발송됩니다. 수신자는 선호지역별로 분리해 발송됩니다.</td></tr>
         </table>
       </td></tr>
     </table>
@@ -364,15 +419,27 @@ function buildCardHtml_(row, rank) {
     </table>`;
 }
 
-function buildPlainText_(rows, range, isTest) {
-  const lines = [`${isTest ? '[테스트발송] ' : ''}해외 건설시장 Daily Brief`, `기준: 원문게재일 ${formatDateKey_(range.start)}~${formatDateKey_(range.end)}`, `대시보드: ${CONFIG.DASHBOARD_URL}`, ''];
+function buildPlainText_(rows, range, group, isTest) {
+  const regionLabel = group && group.regions.length ? group.regions.join(', ') : '전체 지역';
+  const lines = [`${isTest ? '[테스트발송] ' : ''}해외 건설시장 Daily Brief`, `선호지역: ${regionLabel}`, `기준: 원문게재일 ${formatDateKey_(range.start)}~${formatDateKey_(range.end)}`, `대시보드: ${CONFIG.DASHBOARD_URL}`, ''];
   rows.forEach((row, index) => {
     lines.push(`${index + 1}. ${row.title}`);
-    lines.push(`국가/섹터: ${[row.country, row.sector].filter(Boolean).join(' / ') || '-'}`);
+    lines.push(`국가/지역/섹터: ${[row.country, row.region, row.sector].filter(Boolean).join(' / ') || '-'}`);
     if (row.sourceUrl) lines.push(`원문: ${row.sourceUrl}`);
     lines.push('');
   });
   return lines.join('\n');
+}
+
+function parseRegions_(value) {
+  return cleanText_(value)
+    .split(/[,.،，\/|·ㆍ;；\n]+/)
+    .map((item) => normalizeRegion_(item))
+    .filter(Boolean);
+}
+
+function normalizeRegion_(value) {
+  return cleanText_(value).replace(/\s+/g, '').replace(/,/g, '');
 }
 
 function findHeaderIndex_(headers, candidates) {
@@ -392,6 +459,12 @@ function uniqueEmails_(emails) {
 
 function normalizeHeader_(value) {
   return cleanText_(value).toLowerCase().replace(/\s+/g, '').replace(/[()\[\]{}]/g, '');
+}
+
+function chunkArray_(items, size) {
+  const chunks = [];
+  for (let index = 0; index < items.length; index += size) chunks.push(items.slice(index, index + size));
+  return chunks;
 }
 
 function formatDateKey_(date) {
