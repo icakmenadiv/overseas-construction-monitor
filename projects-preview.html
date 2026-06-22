@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./monitor-enhancements.css?v=20260615-4" />
     <link rel="stylesheet" href="./filter-tooltip-fix.css?v=20260619-1" />
     <link rel="stylesheet" href="./responsive-mobile-cards.css?v=20260619-1" />
-    <link rel="stylesheet" href="./preview-redesign.css?v=20260622-1" />
+    <link rel="stylesheet" href="./preview-redesign.css?v=20260622-3" />
   </head>
   <body class="preview-redesign">
     <header class="site-header" id="top">
@@ -95,7 +95,7 @@
 
       <section class="results-section" aria-label="프로젝트 결과">
         <div class="section-head">
-          <div><h2>프로젝트 목록</h2><p>프로젝트명을 누르면 관련 기사 상세 목록을 확인할 수 있습니다.</p></div>
+          <div><h2>프로젝트 목록 <button type="button" class="inline-help" aria-label="프로젝트명을 누르면 관련 기사 상세 목록을 확인할 수 있습니다.">?</button></h2></div>
           <span class="result-count" id="resultCountLabel">0건</span>
         </div>
         <div class="state-box" id="loadingState">데이터를 불러오는 중입니다.</div>
@@ -107,17 +107,14 @@
             <tbody id="projectBody"></tbody>
           </table>
         </div>
-        <div class="limit-notice">프로젝트 정보 수정이 필요한 경우 담당자에게 수정 요청해 주세요.</div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <a class="footer-icak-logo" href="https://www.icak.or.kr/" target="_blank" rel="noreferrer"><img src="https://www.icak.or.kr/file/icak_ci.jpg" alt="해외건설협회" />해외건설협회</a>
       <button type="button" class="back-to-top" id="backToTopButton">상단으로 가기</button>
     </footer>
 
     <script>document.addEventListener('click',function(e){const b=e.target.closest('.preview-info-button');if(!b)return;const box=document.getElementById(b.getAttribute('aria-controls'));const open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));if(box)box.hidden=open;});function keepPreviewCopy(){const h=document.querySelector('.brand-wrap h1');if(h)h.textContent='프로젝트 목록';document.querySelectorAll('a[href^="./project.html?"]').forEach(a=>{a.href=a.href.replace('project.html?','project-preview.html?');});}new MutationObserver(keepPreviewCopy).observe(document.body,{childList:true,subtree:true});setInterval(keepPreviewCopy,700);</script>
-    <script src="./projects-loader-fix.js?v=20260615-4"></script>
     <script src="./projects.js?v=20260615-6"></script>
     <script src="./projects-cost-filter-defaults.js?v=20260617-2"></script>
     <script src="./project-stage-rules.js?v=20260615-1"></script>
