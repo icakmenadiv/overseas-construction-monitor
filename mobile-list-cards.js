@@ -22,15 +22,16 @@
   };
 
   const visibleLimits = new Map();
-  let scheduled = false;
+  const rowSignatures = new Map();
   let styleInjected = false;
+  let scheduled = false;
 
   document.addEventListener("DOMContentLoaded", schedule);
   if (document.readyState !== "loading") schedule();
 
   function schedule() {
     injectLoadMoreStyles();
-    [100, 400, 1000, 1800].forEach((delay) => setTimeout(() => apply(true), delay));
+    [100, 400, 1000, 1800].forEach((delay) => setTimeout(() => apply(false), delay));
     window.addEventListener("resize", debounce(() => apply(false), 180));
     document.addEventListener("change", () => setTimeout(() => apply(true), 260));
 
@@ -38,13 +39,18 @@
       const target = document.getElementById(id);
       if (!target || target.dataset.loadMoreObserver === "true") return;
       target.dataset.loadMoreObserver = "true";
-      new MutationObserver(() => setTimeout(() => apply(true), 80)).observe(target, { childList: true, subtree: true });
+      new MutationObserver(() => setTimeout(() => apply(null), 80)).observe(target, { childList: true, subtree: true });
     });
   }
 
-  function apply(resetLimits) {
-    labelProjectRows();
-    Object.keys(LOAD_MORE_CONFIGS).forEach((bodyId) => applyLoadMore(bodyId, resetLimits));
+  function apply(resetMode) {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(() => {
+      scheduled = false;
+      labelProjectRows();
+      Object.keys(LOAD_MORE_CONFIGS).forEach((bodyId) => applyLoadMore(bodyId, resetMode));
+    });
   }
 
   function labelProjectRows() {
@@ -55,18 +61,23 @@
     });
   }
 
-  function applyLoadMore(bodyId, resetLimit) {
+  function applyLoadMore(bodyId, resetMode) {
     const config = LOAD_MORE_CONFIGS[bodyId];
     const body = document.getElementById(bodyId);
     if (!body) return;
 
     const mainRows = [...body.querySelectorAll(config.mainSelector)];
     const total = mainRows.length;
-    if (resetLimit || !visibleLimits.has(bodyId)) {
+    const signature = getRowSignature(mainRows);
+    const previousSignature = rowSignatures.get(bodyId);
+    const dataChanged = signature !== previousSignature;
+
+    rowSignatures.set(bodyId, signature);
+    if (resetMode === true || !visibleLimits.has(bodyId) || (resetMode === null && dataChanged)) {
       visibleLimits.set(bodyId, getInitialLimit(config));
     }
 
-    const limit = Math.min(visibleLimits.get(bodyId), total);
+    const limit = Math.min(visibleLimits.get(bodyId) || getInitialLimit(config), total);
     mainRows.forEach((row, index) => {
       row.classList.remove("mobile-extra");
       row.hidden = index >= limit;
@@ -80,6 +91,15 @@
     }
 
     renderLoadMorePanel(body, bodyId, total, limit, config);
+  }
+
+  function getRowSignature(rows) {
+    return rows
+      .map((row, index) => {
+        const title = row.querySelector(".title-link, .market-title-cell, .project-title-cell")?.textContent || row.textContent || "";
+        return `${index}:${normalizeText(title).slice(0, 80)}`;
+      })
+      .join("|");
   }
 
   function renderLoadMorePanel(body, bodyId, total, limit, config) {
@@ -97,7 +117,9 @@
         <button type="button" class="load-more-button">더 로드하기</button>
       `;
       tableWrap.insertAdjacentElement("afterend", panel);
-      panel.querySelector(".load-more-button").addEventListener("click", () => {
+      panel.querySelector(".load-more-button").addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
         const current = visibleLimits.get(bodyId) || getInitialLimit(config);
         visibleLimits.set(bodyId, current + getStep(config));
         applyLoadMore(bodyId, false);
@@ -139,6 +161,10 @@
 
   function isMobile() {
     return window.matchMedia("(max-width: 760px)").matches;
+  }
+
+  function normalizeText(value) {
+    return String(value || "").replace(/\s+/g, " ").trim();
   }
 
   function numberFormat(value) {
