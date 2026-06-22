@@ -7,6 +7,7 @@
     const grid = document.getElementById("topNewsCards");
     if (!grid) return;
 
+    patchProjectDetailUrlBuilder();
     observeCards(grid);
     transformCards(grid);
 
@@ -31,6 +32,17 @@
         true,
       );
     }
+  }
+
+  function patchProjectDetailUrlBuilder() {
+    window.buildProjectDetailUrl = function buildProjectDetailUrlPatched(row) {
+      const params = new URLSearchParams();
+      if (row["프로젝트 고유값"]) params.set("id", row["프로젝트 고유값"]);
+      if (row["프로젝트명"]) params.set("name", row["프로젝트명"]);
+      if (row["국가"]) params.set("country", row["국가"]);
+      if (row["섹터"]) params.set("sector", row["섹터"]);
+      return `./project.html?${params.toString()}`;
+    };
   }
 
   function observeCards(grid) {
@@ -64,9 +76,12 @@
     const title = row?.["제목(한글)"] || row?.["제목(원문)"] || originalTitle || "제목 없음";
     const topic = row?.["주제"] || row?.["정보 분류"] || card.querySelector("p")?.textContent.trim() || "핵심 키워드 없음";
     const detail = row?.["내용"] || "상세 내용이 없습니다.";
+    const projectUrl = row && isProjectArticle(row) ? buildCardProjectDetailUrl(row) : "";
     const sourceLink = row?.["출처링크"]
       ? `<a class="top-news-source-link" href="${escapeAttribute(row["출처링크"])}" target="_blank" rel="noreferrer">원문 확인</a>`
       : "";
+    const projectLink = projectUrl ? `<a class="top-news-project-link" href="${escapeAttribute(projectUrl)}">프로젝트 상세</a>` : "";
+    const badges = renderBadges(row, topic);
 
     card.innerHTML = `
       <button type="button" class="top-news-toggle" aria-expanded="false">
@@ -75,19 +90,39 @@
           <span>${escapeHtml(row?.["섹터"] || existingMeta[1] || "-")}</span>
           <span>${escapeHtml(formatDateText(dateText))}</span>
         </div>
+        ${badges}
         <h3>${escapeHtml(title)}</h3>
-        <p>${escapeHtml(topic)}</p>
       </button>
       <div class="top-news-detail" hidden>
         <p>${escapeHtml(detail)}</p>
         <div class="top-news-detail-meta">
-          ${row?.["정보 분류"] ? `<span>${escapeHtml(row["정보 분류"])}</span>` : ""}
-          ${row?.["관련 단계"] ? `<span>${escapeHtml(row["관련 단계"])}</span>` : ""}
           ${row?.["기사수집일"] ? `<span>기사수집일 ${escapeHtml(formatDateText(row["기사수집일"]))}</span>` : ""}
+          ${projectLink}
           ${sourceLink}
         </div>
       </div>
     `;
+  }
+
+  function renderBadges(row, fallbackTopic) {
+    const values = [row?.["정보 분류"], row?.["주제"] || fallbackTopic, row?.["관련 단계"]]
+      .map((value) => String(value || "").trim())
+      .filter(Boolean);
+    if (!values.length) return "";
+    return `<div class="top-news-badges">${values.map((value) => `<span>${escapeHtml(value)}</span>`).join("")}</div>`;
+  }
+
+  function isProjectArticle(row) {
+    return Boolean(row?.["프로젝트명"] || row?.["프로젝트 고유값"] || row?.["정보 분류"] === "프로젝트 정보");
+  }
+
+  function buildCardProjectDetailUrl(row) {
+    const params = new URLSearchParams();
+    if (row["프로젝트 고유값"]) params.set("id", row["프로젝트 고유값"]);
+    if (row["프로젝트명"]) params.set("name", row["프로젝트명"]);
+    if (row["국가"]) params.set("country", row["국가"]);
+    if (row["섹터"]) params.set("sector", row["섹터"]);
+    return `./project.html?${params.toString()}`;
   }
 
   async function getRowMap() {
