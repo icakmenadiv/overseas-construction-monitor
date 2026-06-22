@@ -2,6 +2,9 @@
   const API_ENDPOINT = String(window.INTEREST_API_ENDPOINT || "https://icak-interest-api.icak-mena-div.workers.dev").replace(/\/$/, "");
   const STORAGE_KEY = "icakInterestLocalCounts";
   let refreshTimer = null;
+  let isSorting = false;
+  let isHydrating = false;
+  let lastProjectIdSignature = "";
 
   document.addEventListener("DOMContentLoaded", init);
   if (document.readyState !== "loading") init();
@@ -9,9 +12,9 @@
   function init() {
     addInterestSortOption();
     patchSortHelp();
-    refreshInterestData();
-    document.addEventListener("click", () => setTimeout(refreshInterestData, 350));
-    document.addEventListener("change", () => setTimeout(refreshInterestData, 350));
+    refreshInterestData({ forceFetch: true });
+    document.addEventListener("click", () => setTimeout(() => refreshInterestData(), 350));
+    document.addEventListener("change", () => setTimeout(() => refreshInterestData(), 350));
     observeLists();
   }
 
@@ -24,7 +27,7 @@
     sortSelect.insertBefore(option, sortSelect.firstElementChild);
     sortSelect.addEventListener("change", () => {
       if (sortSelect.value === "interest:desc") {
-        refreshInterestData();
+        refreshInterestData({ forceFetch: true });
         setTimeout(applyInterestSort, 300);
       }
     });
@@ -38,9 +41,9 @@
     if (!help) {
       const label = document.querySelector('label[for="sortSelect"]');
       if (!label) return;
-      help = document.createElement("span");
+      help = document.createElement("button");
+      help.type = "button";
       help.className = "sort-help";
-      help.tabIndex = 0;
       help.textContent = "?";
       label.insertAdjacentElement("afterend", help);
     }
@@ -51,20 +54,32 @@
     );
   }
 
-  async function refreshInterestData() {
+  async function refreshInterestData(options = {}) {
+    if (isSorting || isHydrating) return;
     clearTimeout(refreshTimer);
     refreshTimer = setTimeout(async () => {
-      await hydrateProjectListCounts();
-      applyInterestSort();
-    }, 80);
+      isHydrating = true;
+      try {
+        await hydrateProjectListCounts(Boolean(options.forceFetch));
+        applyInterestSort();
+      } finally {
+        isHydrating = false;
+      }
+    }, 120);
   }
 
-  async function hydrateProjectListCounts() {
+  async function hydrateProjectListCounts(forceFetch = false) {
     const projectRows = [...document.querySelectorAll("#projectBody tr")];
     if (!projectRows.length || !API_ENDPOINT) return;
 
     const ids = projectRows.map(getProjectIdFromRow).filter(Boolean);
     if (!ids.length) return;
+
+    const signature = [...new Set(ids)].join("|");
+    if (!forceFetch && signature === lastProjectIdSignature && projectRows.every((row) => row.dataset.interestCount !== undefined)) {
+      return;
+    }
+    lastProjectIdSignature = signature;
 
     try {
       const visitorId = getVisitorId();
@@ -82,10 +97,17 @@
 
   function applyInterestSort() {
     const sortSelect = document.getElementById("sortSelect");
-    if (!sortSelect || sortSelect.value !== "interest:desc") return;
+    if (!sortSelect || sortSelect.value !== "interest:desc" || isSorting) return;
 
-    sortMarketRowsByInterest();
-    sortProjectRowsByInterest();
+    isSorting = true;
+    try {
+      sortMarketRowsByInterest();
+      sortProjectRowsByInterest();
+    } finally {
+      requestAnimationFrame(() => {
+        isSorting = false;
+      });
+    }
   }
 
   function sortMarketRowsByInterest() {
@@ -105,30 +127,54 @@
 
     if (!groups.length) return;
 
-    groups
-      .sort((a, b) => getRowInterestCount(b.row) - getRowInterestCount(a.row))
-      .forEach((group) => {
-        tbody.appendChild(group.row);
-        group.details.forEach((detail) => tbody.appendChild(detail));
-      });
+    const currentSignature = groups.map((group) => getStableRowKey(group.row)).join("|");
+    const sortedGroups = [...groups].sort((a, b) => {
+      const interestDiff = getRowInterestCount(b.row) - getRowInterestCount(a.row);
+      return interestDiff || getStableRowKey(a.row).localeCompare(getStableRowKey(b.row), "ko");
+    });
+    const sortedSignature = sortedGroups.map((group) => getStableRowKey(group.row)).join("|");
+    if (currentSignature === sortedSignature) return;
+
+    const fragment = document.createDocumentFragment();
+    sortedGroups.forEach((group) => {
+      fragment.appendChild(group.row);
+      group.details.forEach((detail) => fragment.appendChild(detail));
+    });
+    tbody.appendChild(fragment);
   }
 
   function sortProjectRowsByInterest() {
     const tbody = document.getElementById("projectBody");
     if (!tbody) return;
-    [...tbody.querySelectorAll("tr")]
-      .sort((a, b) => Number(b.dataset.interestCount || 0) - Number(a.dataset.interestCount || 0))
-      .forEach((row) => tbody.appendChild(row));
+    const rows = [...tbody.querySelectorAll("tr")];
+    if (!rows.length) return;
+
+    const currentSignature = rows.map(getStableRowKey).join("|");
+    const sortedRows = [...rows].sort((a, b) => {
+      const interestDiff = Number(b.dataset.interestCount || 0) - Number(a.dataset.interestCount || 0);
+      return interestDiff || getStableRowKey(a).localeCompare(getStableRowKey(b), "ko");
+    });
+    const sortedSignature = sortedRows.map(getStableRowKey).join("|");
+    if (currentSignature === sortedSignature) return;
+
+    const fragment = document.createDocumentFragment();
+    sortedRows.forEach((row) => fragment.appendChild(row));
+    tbody.appendChild(fragment);
   }
 
   function getRowInterestCount(row) {
     const button = row.querySelector(".interest-button");
-    if (!button) return 0;
+    if (!button) return Number(row.dataset.interestCount || 0);
     const id = button.dataset.articleId;
     const serverText = button.querySelector(".interest-count")?.textContent || "0";
     const serverValue = Number(String(serverText).replace(/[^0-9.-]/g, ""));
     if (Number.isFinite(serverValue)) return Math.max(0, serverValue);
     return getStoredCount(id);
+  }
+
+  function getStableRowKey(row) {
+    const link = row.querySelector(".title-link, .project-title-cell a, .market-title-cell a");
+    return clean(link?.getAttribute("href") || link?.textContent || row.textContent).slice(0, 160);
   }
 
   function getProjectIdFromRow(row) {
@@ -166,7 +212,13 @@
       const target = document.getElementById(id);
       if (!target || target.dataset.interestSortObserved === "true") return;
       target.dataset.interestSortObserved = "true";
-      new MutationObserver(() => refreshInterestData()).observe(target, { childList: true, subtree: true });
+      new MutationObserver((mutations) => {
+        if (isSorting || isHydrating) return;
+        const hasMeaningfulChange = mutations.some((mutation) =>
+          [...mutation.addedNodes, ...mutation.removedNodes].some((node) => node.nodeType === Node.ELEMENT_NODE),
+        );
+        if (hasMeaningfulChange) refreshInterestData();
+      }).observe(target, { childList: true });
     });
   }
 
