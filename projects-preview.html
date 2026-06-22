@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>프로젝트 목록 | Preview</title>
-    <meta name="description" content="수집된 해외 건설시장 뉴스 기반 프로젝트 목록 시안 페이지" />
+    <meta name="description" content="프로젝트 목록 시안 페이지" />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./monitor-ui.css" />
     <link rel="stylesheet" href="./large-text.css" />
@@ -12,22 +12,23 @@
     <link rel="stylesheet" href="./brand-enhancements.css" />
     <link rel="stylesheet" href="./project-page-updates.css?v=20260615-3" />
     <link rel="stylesheet" href="./monitor-enhancements.css?v=20260615-4" />
-    <link rel="stylesheet" href="./filter-tooltip-fix.css?v=20260619-1" />
     <link rel="stylesheet" href="./responsive-mobile-cards.css?v=20260619-1" />
-    <link rel="stylesheet" href="./preview-redesign.css?v=20260622-3" />
+    <link rel="stylesheet" href="./preview-redesign.css?v=20260622-4" />
+    <style>
+      .preview-static-note { display:none; }
+      .preview-redesign .section-head h2 { display:flex; align-items:center; gap:8px; }
+      .preview-redesign .inline-help { width:22px; height:22px; border-radius:999px; border:1px solid rgba(15,45,79,.16); background:#fff; color:#1b5f9e; font-weight:950; font-size:.8rem; cursor:pointer; }
+      .preview-redesign .mock-chip { display:inline-flex; align-items:center; border-radius:999px; padding:5px 9px; color:#1b5f9e; background:#eef6ff; font-weight:850; font-size:.78rem; }
+      .preview-redesign .preview-mock-row td { vertical-align:middle; }
+    </style>
   </head>
   <body class="preview-redesign">
     <header class="site-header" id="top">
       <div class="brand-wrap">
-        <a class="brand" href="https://www.icak.or.kr/" target="_blank" rel="noreferrer">
-          <img src="https://www.icak.or.kr/file/icak_ci.jpg" alt="ICAK CI" class="brand-logo" />
-          <span class="brand-fallback" aria-hidden="true">ICAK</span>
-        </a>
         <div>
-          <p class="eyebrow">Preview</p>
           <h1>프로젝트 목록</h1>
           <div class="preview-info-wrap">
-            <button type="button" class="preview-info-button" aria-expanded="false" aria-controls="projectsPreviewInfo">서비스 안내</button>
+            <button type="button" class="preview-info-button" aria-expanded="false" aria-controls="projectsPreviewInfo">?</button>
             <p class="preview-info-box" id="projectsPreviewInfo" hidden>
               수집된 해외 건설시장 뉴스 중 프로젝트 정보로 분류된 항목을 모아 제공합니다. 동일 프로젝트 관련 기사들을 누적 연결해 사업 개요와 추진 단계 변화를 확인할 수 있습니다.
             </p>
@@ -35,19 +36,18 @@
         </div>
       </div>
       <div class="header-actions">
-        <nav class="page-nav" aria-label="모니터링 페이지 이동">
+        <nav class="page-nav" aria-label="시안 페이지 이동">
           <a href="./market-preview.html">해외 건설시장 뉴스</a>
           <a class="is-active" href="./projects-preview.html">프로젝트 목록</a>
         </nav>
-        <p class="sync-status" id="syncStatus">데이터 연결 대기 중</p>
-        <button type="button" id="refreshButton" class="action-button" title="새로 고침">🔄</button>
+        <button type="button" class="action-button" title="새로 고침" onclick="window.location.reload()">🔄</button>
       </div>
     </header>
 
     <main class="dashboard">
       <section class="control-panel" aria-label="프로젝트 검색 및 필터">
         <div class="filter-top-actions">
-          <button type="button" class="top-reset-button" data-reset-filter>필터 초기화</button>
+          <button type="button" class="top-reset-button">필터 초기화</button>
         </div>
         <div class="search-field">
           <label for="keywordInput">프로젝트 검색</label>
@@ -57,73 +57,73 @@
         <div class="field-grid field-grid-projects">
           <div class="field field-toggle">
             <span class="field-label">사업비</span>
-            <label class="cost-toggle"><input id="includeSmallCost" type="checkbox" checked /><span>1백만불 이하 포함</span></label>
-            <label class="cost-toggle"><input id="includeUnknownCost" type="checkbox" checked /><span>사업비 미확인 포함</span></label>
+            <label class="cost-toggle"><input type="checkbox" checked /><span>1백만불 이하 포함</span></label>
+            <label class="cost-toggle"><input type="checkbox" checked /><span>사업비 미확인 포함</span></label>
           </div>
-          <div class="field field-wide"><span class="field-label">지역</span><div class="checkbox-filter" id="regionFilter" role="group" aria-label="지역 다중 선택"></div></div>
-          <div class="field field-wide"><span class="field-label">국가</span><div class="checkbox-filter" id="countryFilter" role="group" aria-label="국가 다중 선택"></div></div>
-          <div class="field field-wide"><span class="field-label">섹터</span><div class="checkbox-filter" id="sectorFilter" role="group" aria-label="섹터 다중 선택"></div></div>
-          <div class="field field-wide"><span class="field-label">현재 단계</span><div class="checkbox-filter" id="stageFilter" role="group" aria-label="현재 단계 다중 선택"></div></div>
+          <div class="field field-wide"><span class="field-label">지역</span><div class="checkbox-filter"><label class="check-chip"><input type="checkbox" /><span>중동</span></label><label class="check-chip"><input type="checkbox" /><span>아프리카</span></label><label class="check-chip"><input type="checkbox" /><span>아시아</span></label><label class="check-chip"><input type="checkbox" /><span>유럽</span></label></div></div>
+          <div class="field field-wide"><span class="field-label">국가</span><div class="checkbox-filter"><label class="check-chip"><input type="checkbox" /><span>이라크</span></label><label class="check-chip"><input type="checkbox" /><span>사우디아라비아</span></label><label class="check-chip"><input type="checkbox" /><span>탄자니아</span></label><label class="check-chip"><input type="checkbox" /><span>우즈베키스탄</span></label></div></div>
+          <div class="field field-wide"><span class="field-label">섹터</span><div class="checkbox-filter"><label class="check-chip"><input type="checkbox" /><span>교통</span></label><label class="check-chip"><input type="checkbox" /><span>에너지</span></label><label class="check-chip"><input type="checkbox" /><span>공항</span></label><label class="check-chip"><input type="checkbox" /><span>수자원</span></label></div></div>
+          <div class="field field-wide"><span class="field-label">현재 단계</span><div class="checkbox-filter"><label class="check-chip"><input type="checkbox" /><span>계획</span></label><label class="check-chip"><input type="checkbox" /><span>입찰</span></label><label class="check-chip"><input type="checkbox" /><span>계약</span></label><label class="check-chip"><input type="checkbox" /><span>공사</span></label></div></div>
           <div class="field">
-            <div class="sort-label-row">
-              <label for="sortSelect">정렬</label>
-              <button type="button" class="sort-help" aria-label="관심도순은 하트 관심 수가 높은 프로젝트를 우선 표시합니다. 사업비 규모순은 사업비가 확인된 프로젝트를 큰 금액순으로 표시합니다.">?</button>
-            </div>
-            <select id="sortSelect">
-              <option value="cost:desc">사업비 규모순</option>
-              <option value="latest:desc">최근 업데이트순</option>
-              <option value="name:asc">프로젝트명 가나다순</option>
-              <option value="country:asc">국가 가나다순</option>
-            </select>
+            <div class="sort-label-row"><label for="sortSelect">정렬</label><button type="button" class="sort-help" aria-label="사업비 규모순, 최근 업데이트순 등으로 정렬합니다.">?</button></div>
+            <select id="sortSelect"><option>사업비 규모순</option><option>최근 업데이트순</option><option>프로젝트명 가나다순</option></select>
           </div>
         </div>
         <div class="panel-actions">
           <div class="action-buttons"><button type="button" id="resetButton">필터 초기화</button></div>
-          <span id="activeFilterText">1백만불 이하 포함 · 사업비 미확인 포함</span>
+          <span id="activeFilterText">시안 화면입니다</span>
         </div>
       </section>
 
       <section class="summary-grid" aria-label="프로젝트 요약 지표">
-        <article class="summary-item"><span>전체 프로젝트 수</span><strong id="totalCount">0</strong></article>
-        <article class="summary-item"><span>필터 적용 후</span><strong id="filteredCount">0</strong></article>
-        <article class="summary-item"><span>국가 수</span><strong id="countryCount">0</strong></article>
-        <article class="summary-item"><span>섹터 수</span><strong id="sectorCount">0</strong></article>
-        <article class="summary-item"><span>최근 업데이트</span><strong id="latestDate">-</strong></article>
+        <article class="summary-item"><span>전체 프로젝트 수</span><strong>175</strong></article>
+        <article class="summary-item"><span>필터 적용 후</span><strong>175</strong></article>
+        <article class="summary-item"><span>국가 수</span><strong>42</strong></article>
+        <article class="summary-item"><span>섹터 수</span><strong>12</strong></article>
+        <article class="summary-item"><span>최근 업데이트</span><strong>2026-06-22</strong></article>
       </section>
 
-      <section class="featured-projects" id="featuredProjects" aria-label="대표 프로젝트" hidden></section>
+      <section class="featured-projects" aria-label="대표 프로젝트">
+        <div class="featured-projects-head">
+          <div><span>대표 프로젝트</span><h2>사업비 규모 기준 상위 3건 <button type="button" class="inline-help" aria-label="현재 필터 결과 중 사업비가 확인된 프로젝트를 기준으로 표시합니다.">?</button></h2></div>
+        </div>
+        <div class="featured-project-card-grid">
+          <article class="featured-project-card"><a href="./project-preview.html?name=Baghdad%20Metro%20Project&country=Iraq&sector=Transport"><span class="featured-rank">Top 1</span><strong>Baghdad Metro Project</strong><span class="featured-cost">약 180억 달러</span><span class="featured-meta">이라크 · 교통 · 계획</span><span class="featured-keyword">도시철도</span></a></article>
+          <article class="featured-project-card"><a href="./project-preview.html?name=New%20Tashkent%20Airport&country=Uzbekistan&sector=Airport"><span class="featured-rank">Top 2</span><strong>New Tashkent Airport</strong><span class="featured-cost">약 50억 달러</span><span class="featured-meta">우즈베키스탄 · 공항 · 개발</span><span class="featured-keyword">공항</span></a></article>
+          <article class="featured-project-card"><a href="./project-preview.html?name=Hydropower%20Project&country=Tanzania&sector=Energy"><span class="featured-rank">Top 3</span><strong>Hydropower Project</strong><span class="featured-cost">약 30억 달러</span><span class="featured-meta">탄자니아 · 에너지 · 공사</span><span class="featured-keyword">수력발전</span></a></article>
+        </div>
+      </section>
 
       <section class="results-section" aria-label="프로젝트 결과">
         <div class="section-head">
           <div><h2>프로젝트 목록 <button type="button" class="inline-help" aria-label="프로젝트명을 누르면 관련 기사 상세 목록을 확인할 수 있습니다.">?</button></h2></div>
-          <span class="result-count" id="resultCountLabel">0건</span>
+          <span class="result-count">175건</span>
         </div>
-        <div class="state-box" id="loadingState">데이터를 불러오는 중입니다.</div>
-        <div class="state-box is-error" id="errorState" hidden>데이터를 불러오지 못했습니다. 시트 API URL과 공개 설정을 확인해주세요.</div>
-        <div class="state-box" id="emptyState" hidden>조건에 맞는 프로젝트가 없습니다.</div>
-        <div class="table-wrap" id="tableWrap" hidden>
+        <div class="table-wrap">
           <table class="project-list-table">
             <thead><tr><th>프로젝트명</th><th>지역</th><th>국가</th><th>섹터</th><th>키워드</th><th>발주처</th><th>사업비(USD)</th><th>현재 단계</th><th>최근 업데이트일</th></tr></thead>
-            <tbody id="projectBody"></tbody>
+            <tbody>
+              <tr class="project-row-link preview-mock-row"><td class="project-title-cell"><a class="title-link" href="./project-preview.html?name=Baghdad%20Metro%20Project&country=Iraq&sector=Transport">Baghdad Metro Project</a></td><td><span class="pill">중동</span></td><td>이라크</td><td>교통</td><td><span class="keyword-pill">도시철도</span></td><td>Baghdad Municipality</td><td>18,000 million</td><td><span class="pill stage-pill">계획</span></td><td class="date-cell">2026-06-22</td></tr>
+              <tr class="project-row-link preview-mock-row"><td class="project-title-cell"><a class="title-link" href="./project-preview.html?name=New%20Tashkent%20Airport&country=Uzbekistan&sector=Airport">New Tashkent Airport</a></td><td><span class="pill">중앙아시아</span></td><td>우즈베키스탄</td><td>공항</td><td><span class="keyword-pill">공항</span></td><td>Uzbekistan Airports</td><td>5,000 million</td><td><span class="pill stage-pill">개발</span></td><td class="date-cell">2026-06-20</td></tr>
+              <tr class="project-row-link preview-mock-row"><td class="project-title-cell"><a class="title-link" href="./project-preview.html?name=Hydropower%20Project&country=Tanzania&sector=Energy">Hydropower Project</a></td><td><span class="pill">아프리카</span></td><td>탄자니아</td><td>에너지</td><td><span class="keyword-pill">수력발전</span></td><td>Government of Tanzania</td><td>3,000 million</td><td><span class="pill stage-pill">공사</span></td><td class="date-cell">2026-06-18</td></tr>
+              <tr class="project-row-link preview-mock-row"><td class="project-title-cell"><a class="title-link" href="./project-preview.html?name=Water%20PPP%20Project&country=Saudi%20Arabia&sector=Water">Water PPP Project</a></td><td><span class="pill">중동</span></td><td>사우디아라비아</td><td>수자원</td><td><span class="keyword-pill">PPP</span></td><td>SWPC</td><td>1,200 million</td><td><span class="pill stage-pill">입찰</span></td><td class="date-cell">2026-06-16</td></tr>
+            </tbody>
           </table>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <button type="button" class="back-to-top" id="backToTopButton">상단으로 가기</button>
-    </footer>
+    <footer class="site-footer"><button type="button" class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">상단으로 가기</button></footer>
 
-    <script>document.addEventListener('click',function(e){const b=e.target.closest('.preview-info-button');if(!b)return;const box=document.getElementById(b.getAttribute('aria-controls'));const open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));if(box)box.hidden=open;});function keepPreviewCopy(){const h=document.querySelector('.brand-wrap h1');if(h)h.textContent='프로젝트 목록';document.querySelectorAll('a[href^="./project.html?"]').forEach(a=>{a.href=a.href.replace('project.html?','project-preview.html?');});}new MutationObserver(keepPreviewCopy).observe(document.body,{childList:true,subtree:true});setInterval(keepPreviewCopy,700);</script>
-    <script src="./projects.js?v=20260615-6"></script>
-    <script src="./projects-cost-filter-defaults.js?v=20260617-2"></script>
-    <script src="./project-stage-rules.js?v=20260615-1"></script>
-    <script src="./project-scale-infographic.js?v=20260615-2"></script>
-    <script src="./sheet-range-override.js?v=20260615-2"></script>
-    <script src="./projects-visibility-fix.js?v=20260615-1"></script>
-    <script src="./filter-hover.js?v=20260617-3"></script>
-    <script src="./projects-filter-semantics-fix.js?v=20260619-1"></script>
-    <script src="./interest-sort-enhancement.js?v=20260619-1"></script>
-    <script src="./mobile-list-cards.js?v=20260619-1"></script>
+    <script>
+      document.addEventListener("click", function (event) {
+        const button = event.target.closest(".preview-info-button");
+        if (!button) return;
+        const box = document.getElementById(button.getAttribute("aria-controls"));
+        const open = button.getAttribute("aria-expanded") === "true";
+        button.setAttribute("aria-expanded", String(!open));
+        if (box) box.hidden = open;
+      });
+    </script>
   </body>
 </html>
