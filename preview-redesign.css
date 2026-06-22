@@ -1,0 +1,179 @@
+.preview-redesign {
+  --preview-header-gap: 18px;
+}
+
+.preview-redesign .site-header {
+  align-items: center;
+  gap: var(--preview-header-gap);
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.preview-redesign .brand-wrap {
+  align-items: center;
+  gap: 0;
+}
+
+.preview-redesign .brand-wrap .brand,
+.preview-redesign .brand-fallback {
+  display: none !important;
+}
+
+.preview-redesign .brand-wrap .eyebrow,
+.preview-redesign .beta-badge {
+  display: none !important;
+}
+
+.preview-redesign .brand-wrap h1 {
+  margin: 0;
+  color: var(--slate-950, #0f172a);
+  font-size: clamp(1.55rem, 3vw, 2.3rem);
+  letter-spacing: -0.04em;
+}
+
+.preview-redesign .brand-wrap .subtitle {
+  margin: 6px 0 0;
+  color: var(--slate-500, #64748b);
+  font-size: 0.95rem;
+  font-weight: 750;
+}
+
+.preview-redesign .preview-info-wrap {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.preview-redesign .preview-info-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 34px;
+  padding: 0 13px;
+  border: 1px solid rgba(18, 83, 164, 0.16);
+  border-radius: 999px;
+  color: var(--blue-700, #1769c2);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+  font-size: 0.8rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.preview-redesign .preview-info-button::after {
+  content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(135deg, #1769c2, #16a6c9);
+  font-size: 0.78rem;
+  font-weight: 950;
+}
+
+.preview-redesign .preview-info-button[aria-expanded="true"]::after {
+  content: "−";
+}
+
+.preview-redesign .preview-info-box {
+  max-width: 760px;
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid rgba(18, 83, 164, 0.12);
+  border-radius: 14px;
+  color: var(--slate-700, #334155);
+  background: rgba(255, 255, 255, 0.88);
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.preview-redesign .control-panel {
+  max-height: calc(100vh - 118px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+.preview-redesign .control-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.preview-redesign .control-panel::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(23, 105, 194, 0.24);
+}
+
+.preview-redesign .footer-icak-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--slate-500, #64748b);
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.preview-redesign .footer-icak-logo img {
+  width: 54px;
+  max-height: 20px;
+  object-fit: contain;
+  opacity: 0.76;
+}
+
+.preview-redesign .site-footer {
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.preview-redesign .project-toolbar {
+  align-items: flex-start;
+}
+
+.preview-redesign .project-title-block h2 {
+  margin-bottom: 6px;
+  font-size: clamp(1.35rem, 2.4vw, 1.95rem);
+  letter-spacing: -0.035em;
+}
+
+.preview-redesign .project-title-block p {
+  margin: 0;
+  color: var(--slate-500, #64748b);
+  font-weight: 750;
+}
+
+@media (max-width: 980px) {
+  .preview-redesign .control-panel {
+    max-height: 72vh;
+  }
+}
+
+@media (max-width: 760px) {
+  .preview-redesign .site-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .preview-redesign .brand-wrap h1 {
+    font-size: 1.55rem;
+  }
+
+  .preview-redesign .brand-wrap .subtitle {
+    font-size: 0.86rem;
+  }
+
+  .preview-redesign .control-panel {
+    max-height: 68vh;
+  }
+
+  .preview-redesign .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
