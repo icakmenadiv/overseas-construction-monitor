@@ -1,26 +1,50 @@
 (() => {
-  const MAX_MOBILE_ROWS = 20;
   const PROJECT_LABELS = ["프로젝트명", "지역", "국가", "섹터", "키워드", "발주처", "사업비(USD)", "현재 단계", "최근 업데이트일"];
+  const LOAD_MORE_CONFIGS = {
+    resultBody: {
+      mainSelector: "tr:not(.detail-row)",
+      detailSelector: "tr.detail-row",
+      desktopInitial: 30,
+      desktopStep: 30,
+      mobileInitial: 15,
+      mobileStep: 15,
+      itemLabel: "기사",
+    },
+    projectBody: {
+      mainSelector: "tr",
+      detailSelector: "",
+      desktopInitial: 30,
+      desktopStep: 30,
+      mobileInitial: 15,
+      mobileStep: 15,
+      itemLabel: "프로젝트",
+    },
+  };
+
+  const visibleLimits = new Map();
+  let scheduled = false;
+  let styleInjected = false;
 
   document.addEventListener("DOMContentLoaded", schedule);
   if (document.readyState !== "loading") schedule();
 
   function schedule() {
-    [100, 400, 1000, 1800].forEach((delay) => setTimeout(apply, delay));
-    window.addEventListener("resize", () => setTimeout(apply, 120));
-    document.addEventListener("click", () => setTimeout(apply, 160));
-    document.addEventListener("change", () => setTimeout(apply, 260));
-    ["resultBody", "projectBody"].forEach((id) => {
+    injectLoadMoreStyles();
+    [100, 400, 1000, 1800].forEach((delay) => setTimeout(() => apply(true), delay));
+    window.addEventListener("resize", debounce(() => apply(false), 180));
+    document.addEventListener("change", () => setTimeout(() => apply(true), 260));
+
+    Object.keys(LOAD_MORE_CONFIGS).forEach((id) => {
       const target = document.getElementById(id);
-      if (!target) return;
-      new MutationObserver(() => setTimeout(apply, 80)).observe(target, { childList: true, subtree: true });
+      if (!target || target.dataset.loadMoreObserver === "true") return;
+      target.dataset.loadMoreObserver = "true";
+      new MutationObserver(() => setTimeout(() => apply(true), 80)).observe(target, { childList: true, subtree: true });
     });
   }
 
-  function apply() {
+  function apply(resetLimits) {
     labelProjectRows();
-    limitRows("#resultBody tr:not(.detail-row)");
-    limitRows("#projectBody tr");
+    Object.keys(LOAD_MORE_CONFIGS).forEach((bodyId) => applyLoadMore(bodyId, resetLimits));
   }
 
   function labelProjectRows() {
@@ -31,10 +55,170 @@
     });
   }
 
-  function limitRows(selector) {
-    const rows = [...document.querySelectorAll(selector)];
-    rows.forEach((row, index) => {
-      row.classList.toggle("mobile-extra", index >= MAX_MOBILE_ROWS);
+  function applyLoadMore(bodyId, resetLimit) {
+    const config = LOAD_MORE_CONFIGS[bodyId];
+    const body = document.getElementById(bodyId);
+    if (!body) return;
+
+    const mainRows = [...body.querySelectorAll(config.mainSelector)];
+    const total = mainRows.length;
+    if (resetLimit || !visibleLimits.has(bodyId)) {
+      visibleLimits.set(bodyId, getInitialLimit(config));
+    }
+
+    const limit = Math.min(visibleLimits.get(bodyId), total);
+    mainRows.forEach((row, index) => {
+      row.classList.remove("mobile-extra");
+      row.hidden = index >= limit;
     });
+
+    if (config.detailSelector) {
+      [...body.querySelectorAll(config.detailSelector)].forEach((row) => {
+        const previousMainRow = findPreviousMainRow(row);
+        row.hidden = previousMainRow ? previousMainRow.hidden : false;
+      });
+    }
+
+    renderLoadMorePanel(body, bodyId, total, limit, config);
+  }
+
+  function renderLoadMorePanel(body, bodyId, total, limit, config) {
+    const tableWrap = body.closest(".table-wrap");
+    const resultsSection = body.closest(".results-section");
+    if (!tableWrap || !resultsSection) return;
+
+    let panel = resultsSection.querySelector(`.load-more-panel[data-target="${bodyId}"]`);
+    if (!panel) {
+      panel = document.createElement("div");
+      panel.className = "load-more-panel";
+      panel.dataset.target = bodyId;
+      panel.innerHTML = `
+        <span class="load-more-status" aria-live="polite"></span>
+        <button type="button" class="load-more-button">더 로드하기</button>
+      `;
+      tableWrap.insertAdjacentElement("afterend", panel);
+      panel.querySelector(".load-more-button").addEventListener("click", () => {
+        const current = visibleLimits.get(bodyId) || getInitialLimit(config);
+        visibleLimits.set(bodyId, current + getStep(config));
+        applyLoadMore(bodyId, false);
+      });
+    }
+
+    const shown = Math.min(limit, total);
+    const status = panel.querySelector(".load-more-status");
+    const button = panel.querySelector(".load-more-button");
+    panel.hidden = total === 0;
+    status.textContent = `${numberFormat(shown)} / ${numberFormat(total)}건 표시 중`;
+
+    if (shown >= total) {
+      button.textContent = `전체 ${config.itemLabel} 표시 완료`;
+      button.disabled = true;
+      button.hidden = total <= getInitialLimit(config);
+    } else {
+      button.textContent = "더 로드하기";
+      button.disabled = false;
+      button.hidden = false;
+    }
+  }
+
+  function findPreviousMainRow(row) {
+    let previous = row.previousElementSibling;
+    while (previous && previous.classList.contains("detail-row")) {
+      previous = previous.previousElementSibling;
+    }
+    return previous;
+  }
+
+  function getInitialLimit(config) {
+    return isMobile() ? config.mobileInitial : config.desktopInitial;
+  }
+
+  function getStep(config) {
+    return isMobile() ? config.mobileStep : config.desktopStep;
+  }
+
+  function isMobile() {
+    return window.matchMedia("(max-width: 760px)").matches;
+  }
+
+  function numberFormat(value) {
+    return new Intl.NumberFormat("ko-KR").format(value);
+  }
+
+  function debounce(fn, delay) {
+    let timer;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => fn(...args), delay);
+    };
+  }
+
+  function injectLoadMoreStyles() {
+    if (styleInjected || document.getElementById("loadMoreInlineStyles")) return;
+    styleInjected = true;
+    const style = document.createElement("style");
+    style.id = "loadMoreInlineStyles";
+    style.textContent = `
+      .load-more-panel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding: 18px 0 4px;
+      }
+
+      .load-more-status {
+        color: #64748b;
+        font-size: 0.86rem;
+        font-weight: 800;
+      }
+
+      .load-more-button {
+        min-width: 170px;
+        border: 1px solid #bae6fd;
+        border-radius: 999px;
+        background: linear-gradient(135deg, #ffffff, #ecfeff);
+        color: #0f3f68;
+        cursor: pointer;
+        font-size: 0.92rem;
+        font-weight: 900;
+        padding: 10px 18px;
+        box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+        transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+      }
+
+      .load-more-button:hover,
+      .load-more-button:focus-visible {
+        border-color: #38bdf8;
+        box-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
+        transform: translateY(-1px);
+      }
+
+      .load-more-button:disabled {
+        cursor: default;
+        opacity: 0.72;
+        transform: none;
+      }
+
+      @media (max-width: 760px) {
+        .load-more-panel {
+          align-items: stretch;
+          flex-direction: column;
+          gap: 8px;
+          padding-top: 12px;
+        }
+
+        .load-more-status {
+          text-align: center;
+        }
+
+        .load-more-button {
+          width: 100%;
+          min-height: 44px;
+        }
+      }
+    `;
+    document.head.appendChild(style);
   }
 })();
