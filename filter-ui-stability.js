@@ -1,9 +1,4 @@
 (() => {
-  const DEFAULTS = {
-    marketSort: "중요도:desc",
-    projectSort: "cost:desc",
-  };
-
   document.addEventListener("DOMContentLoaded", init);
   if (document.readyState !== "loading") init();
 
@@ -63,11 +58,15 @@
       "정렬 도움말: 관심도순은 하트 관심 수가 높은 항목을 우선 표시합니다. 중요도순은 국가·섹터별 진출 실적과 우리 기업 관심도 등을 종합한 AI 판단값입니다.",
     );
     help.title = "관심도순은 하트 관심 수 기준, 중요도순은 AI 판단값 기준입니다.";
+
     if (help.dataset.stabilityBound !== "true") {
       help.dataset.stabilityBound = "true";
       help.addEventListener("click", (event) => {
         event.preventDefault();
         event.stopPropagation();
+        document.querySelectorAll(".sort-help.is-active").forEach((item) => {
+          if (item !== help) item.classList.remove("is-active");
+        });
         help.classList.toggle("is-active");
         help.focus();
       });
@@ -91,23 +90,30 @@
         else details.prepend(actions);
       }
 
-      if (actions.dataset.unifiedToggle === "true") return;
-      actions.dataset.unifiedToggle = "true";
-      actions.innerHTML = `<button type="button" data-filter-action="toggle-all">전체 선택/해제</button>`;
-      actions.addEventListener("click", (event) => {
-        const button = event.target.closest('button[data-filter-action="toggle-all"]');
-        if (!button) return;
-        event.preventDefault();
-        event.stopPropagation();
+      if (actions.dataset.unifiedToggle !== "true") {
+        const cleanActions = actions.cloneNode(false);
+        cleanActions.className = actions.className;
+        cleanActions.dataset.unifiedToggle = "true";
+        cleanActions.innerHTML = `<button type="button" data-filter-action="toggle-all">전체 선택/해제</button>`;
+        actions.replaceWith(cleanActions);
+        actions = cleanActions;
 
-        const inputs = [...filter.querySelectorAll('input[type="checkbox"]')];
-        const shouldSelect = inputs.some((input) => !input.checked);
-        inputs.forEach((input) => {
-          input.checked = shouldSelect;
+        actions.addEventListener("click", (event) => {
+          const button = event.target.closest('button[data-filter-action="toggle-all"]');
+          if (!button) return;
+          event.preventDefault();
+          event.stopPropagation();
+          if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
+
+          const inputs = [...filter.querySelectorAll('input[type="checkbox"]')];
+          const shouldSelect = inputs.some((input) => !input.checked);
+          inputs.forEach((input) => {
+            input.checked = shouldSelect;
+          });
+          filter.dispatchEvent(new Event("change", { bubbles: true }));
+          updateOneFilterSummary(details);
         });
-        filter.dispatchEvent(new Event("change", { bubbles: true }));
-        updateOneFilterSummary(details);
-      });
+      }
     });
   }
 
@@ -155,7 +161,10 @@
     style.id = "filterUiStabilityStyles";
     style.textContent = `
       .filter-mini-actions {
+        display: flex !important;
         justify-content: flex-end !important;
+        gap: 6px !important;
+        padding: 8px 10px 0 !important;
       }
 
       .filter-mini-actions button[data-filter-action="toggle-all"] {
@@ -174,27 +183,81 @@
         color: var(--blue-700, #1769c2);
       }
 
+      .sort-label-row {
+        display: flex !important;
+        align-items: center !important;
+        gap: 7px !important;
+        margin-bottom: 8px !important;
+      }
+
+      .sort-label-row label {
+        margin-bottom: 0 !important;
+      }
+
       button.sort-help,
       .sort-help {
-        border: 0;
-        appearance: none;
-        -webkit-appearance: none;
-        user-select: none;
+        position: relative !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex: 0 0 auto !important;
+        width: 22px !important;
+        height: 22px !important;
+        padding: 0 !important;
+        border: 0 !important;
+        border-radius: 999px !important;
+        color: var(--blue-700, #1769c2) !important;
+        background: rgba(18, 83, 164, 0.12) !important;
+        appearance: none !important;
+        -webkit-appearance: none !important;
+        font-size: 0.78rem !important;
+        font-weight: 950 !important;
+        line-height: 1 !important;
+        cursor: help !important;
+        user-select: none !important;
+        z-index: 120 !important;
       }
 
-      button.sort-help {
-        padding: 0;
+      .sort-help::after {
+        position: absolute;
+        left: 50%;
+        bottom: calc(100% + 10px);
+        z-index: 9999;
+        width: min(340px, 72vw);
+        padding: 10px 12px;
+        color: #fff;
+        background: rgba(15, 23, 42, 0.94);
+        border-radius: 12px;
+        box-shadow: 0 16px 36px rgba(6, 21, 43, 0.20);
+        content: attr(aria-label);
+        font-size: 0.76rem;
+        font-weight: 700;
+        line-height: 1.5;
+        opacity: 0;
+        pointer-events: none;
+        white-space: normal;
+        transform: translate(-50%, 6px);
+        transition: opacity 160ms ease, transform 160ms ease;
       }
 
-      .sort-help.is-active::after,
-      .sort-help.is-active::before {
+      .sort-help:hover::after,
+      .sort-help:focus::after,
+      .sort-help.is-active::after {
         opacity: 1 !important;
         transform: translate(-50%, 0) !important;
       }
 
       @media (max-width: 760px) {
-        .sort-help.is-active::after,
-        .sort-help.is-active::before {
+        .sort-help::after {
+          left: auto !important;
+          right: 0 !important;
+          width: min(320px, calc(100vw - 40px)) !important;
+          transform: translate(0, 6px) !important;
+        }
+
+        .sort-help:hover::after,
+        .sort-help:focus::after,
+        .sort-help.is-active::after {
           transform: translate(0, 0) !important;
         }
       }
