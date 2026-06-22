@@ -65,9 +65,7 @@
       <details class="scale-details" ${wasOpen ? "open" : ""}>
         <summary class="scale-summary">
           <div>
-            <span class="scale-kicker">Project Scale Intelligence</span>
-            <h2>프로젝트 규모 인포그래픽</h2>
-            <p>현재 필터 결과의 사업비 확인 프로젝트를 지역·국가·섹터·단계별로 집계합니다.</p>
+            <h2>프로젝트 규모</h2>
           </div>
           <div class="scale-total-card">
             <span>총 사업규모</span>
@@ -75,7 +73,6 @@
           </div>
         </summary>
         <div class="scale-toolbar">
-          <span>항목을 누르면 해당 필터가 적용됩니다.</span>
           <button type="button" class="scale-reset-button">필터 초기화</button>
         </div>
         <div class="scale-insight-grid">
