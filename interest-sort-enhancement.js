@@ -37,17 +37,42 @@
     const sortSelect = document.getElementById("sortSelect");
     if (!sortSelect) return;
 
-    let help = document.querySelector(".sort-help");
-    if (!help) {
-      const label = document.querySelector('label[for="sortSelect"]');
-      if (!label) return;
-      help = document.createElement("button");
-      help.type = "button";
-      help.className = "sort-help";
-      help.textContent = "?";
-      label.insertAdjacentElement("afterend", help);
+    const field = sortSelect.closest(".field") || document;
+    const label = field.querySelector('label[for="sortSelect"]') || document.querySelector('label[for="sortSelect"]');
+    if (!label) return;
+
+    let labelRow = field.querySelector(".sort-label-row");
+    if (!labelRow) {
+      labelRow = document.createElement("div");
+      labelRow.className = "sort-label-row";
+      label.parentNode.insertBefore(labelRow, label);
+      labelRow.appendChild(label);
+    } else if (!labelRow.contains(label)) {
+      labelRow.prepend(label);
     }
 
+    const existingHelps = [...field.querySelectorAll(".sort-help")];
+    let help = existingHelps.find((item) => labelRow.contains(item)) || existingHelps[0];
+    if (!help) {
+      help = document.createElement("button");
+      help.className = "sort-help";
+      help.textContent = "?";
+    }
+    if (help.tagName !== "BUTTON") {
+      const button = document.createElement("button");
+      button.className = help.className;
+      button.textContent = help.textContent.trim() || "?";
+      help.replaceWith(button);
+      help = button;
+    }
+
+    labelRow.appendChild(help);
+    [...field.querySelectorAll(".sort-help")].forEach((item) => {
+      if (item !== help) item.remove();
+    });
+
+    help.type = "button";
+    help.textContent = "?";
     help.setAttribute(
       "aria-label",
       "관심도순은 하트 관심 수가 높은 항목을 우선 표시합니다. 시장 모니터링의 중요도순은 국가·섹터별 진출 실적과 우리 기업 관심도를 함께 고려한 AI 판단값입니다.",
