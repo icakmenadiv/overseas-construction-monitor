@@ -2,8 +2,18 @@ name: Sync sheet cache
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "quick keeps cached rows missing from the sheet; reconcile removes them."
+        required: false
+        default: "quick"
+        type: choice
+        options:
+          - quick
+          - reconcile
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/5 * * * *"
+    - cron: "10 18 * * *"
 
 permissions:
   contents: write
@@ -25,7 +35,12 @@ jobs:
           node-version: "20"
 
       - name: Build static data cache
-        run: node scripts/sync-sheet-cache.mjs
+        run: |
+          MODE="${{ github.event.inputs.mode || 'quick' }}"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "10 18 * * *" ]; then
+            MODE="reconcile"
+          fi
+          node scripts/sync-sheet-cache.mjs --mode="$MODE"
 
       - name: Commit cache updates
         run: |
