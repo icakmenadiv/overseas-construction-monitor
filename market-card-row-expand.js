@@ -16,6 +16,8 @@
       grid.addEventListener(
         "click",
         (event) => {
+          if (event.target.closest(".interest-button, .top-news-interest, .card-badge-project, a[href]")) return;
+
           const toggle = event.target.closest(".top-news-toggle");
           if (!toggle) return;
           const card = toggle.closest(".top-news-card");
