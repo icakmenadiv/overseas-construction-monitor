@@ -4,8 +4,9 @@
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
     "projectGid": "20260612",
-    "resultRange": "A1:R50000",
-    "projectRange": "A1:M20000"
+    "resultRange": "A1:Z50000",
+    "projectRange": "A1:M20000",
+    "mode": "quick"
   },
   "counts": {
     "articles": 0,
