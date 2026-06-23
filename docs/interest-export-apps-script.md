@@ -2,6 +2,8 @@
 
 이 문서는 Cloudflare D1에 저장된 관심도 집계를 Google Sheets `관심도_집계` 탭으로 주기 export하기 위한 Google Apps Script Web App 코드와 배포 절차를 정리한다.
 
+관심도는 기사뿐 아니라 프로젝트 자체에도 붙을 수 있으므로, export 스키마는 `기사`가 아니라 `관심대상` 기준으로 운영한다.
+
 ## 대상 스프레드시트
 
 - Spreadsheet ID: `11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E`
@@ -13,15 +15,17 @@
 | 열 | 이름 | 설명 |
 | --- | --- | --- |
 | A | 집계시각 | Worker가 export를 생성한 시각 또는 Apps Script 처리 시각 |
-| B | 기사ID | 관심도 기능에서 쓰는 article id |
-| C | 기사제목 | 기사 제목 |
-| D | 기사URL | 기사 원문 URL |
-| E | 관심수 | 서버 기준 누적 관심 수 |
-| F | 내브라우저활성여부_참고 | 분석용 export에서는 보통 공란 |
-| G | 최근서버반영일 | D1에서 마지막으로 반영된 시각 |
-| H | 최근클릭일 | D1에서 마지막 클릭/변경 시각 |
-| I | 데이터출처 | 예: `cloudflare-d1` |
-| J | 비고 | 오류/보정 메모 |
+| B | 대상유형 | `article` 또는 `project` |
+| C | 관심대상ID | 관심도 기능에서 쓰는 ID. 예: `article-...`, `project-...` |
+| D | 표시명 | 기사 제목 또는 프로젝트명 |
+| E | URL | 기사 원문 URL 또는 프로젝트 상세 URL |
+| F | 관심수 | 서버 기준 누적 관심 수 |
+| G | 프로젝트고유값 | 확인 가능한 경우 프로젝트 고유값 |
+| H | 기사고유값 | 확인 가능한 경우 기사 고유값 |
+| I | 최근서버반영일 | D1에서 마지막으로 반영된 시각 |
+| J | 최근클릭일 | D1에서 마지막 클릭/변경 시각 |
+| K | 데이터출처 | 예: `cloudflare-d1` |
+| L | 비고 | 오류/보정 메모 |
 
 ## Apps Script 코드
 
@@ -32,11 +36,13 @@ const SPREADSHEET_ID = '11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E';
 const SHEET_NAME = '관심도_집계';
 const HEADER = [
   '집계시각',
-  '기사ID',
-  '기사제목',
-  '기사URL',
+  '대상유형',
+  '관심대상ID',
+  '표시명',
+  'URL',
   '관심수',
-  '내브라우저활성여부_참고',
+  '프로젝트고유값',
+  '기사고유값',
   '최근서버반영일',
   '최근클릭일',
   '데이터출처',
@@ -110,22 +116,42 @@ function ensureHeader(sheet) {
 function buildRows(items, generatedAt) {
   return items
     .map((item) => {
+      const targetId = normalizeText(item.targetId || item.target_id || item.articleId || item.article_id);
       const count = Number(item.count || item.interestCount || item.interest_count || 0);
+      const targetType = normalizeTargetType(item.targetType || item.target_type, targetId);
       return [
         generatedAt,
-        normalizeText(item.articleId || item.article_id),
-        normalizeText(item.articleTitle || item.article_title),
-        normalizeText(item.articleUrl || item.article_url),
+        targetType,
+        targetId,
+        normalizeText(item.displayName || item.display_name || item.articleTitle || item.article_title || item.projectTitle || item.project_title),
+        normalizeText(item.url || item.articleUrl || item.article_url || item.projectUrl || item.project_url),
         Number.isFinite(count) ? Math.max(0, count) : 0,
-        '',
+        normalizeText(item.projectUid || item.project_uid || item.projectUniqueId || item.project_unique_id),
+        normalizeText(item.articleUid || item.article_uid || item.articleUniqueId || item.article_unique_id),
         normalizeText(item.lastUpdatedAt || item.last_updated_at),
         normalizeText(item.lastClickedAt || item.last_clicked_at),
         normalizeText(item.source) || 'cloudflare-d1',
         normalizeText(item.note),
       ];
     })
-    .filter((row) => row[1])
-    .sort((a, b) => Number(b[4]) - Number(a[4]) || String(a[2]).localeCompare(String(b[2]), 'ko'));
+    .filter((row) => row[2])
+    .sort((a, b) => {
+      const typeRank = targetTypeRank(a[1]) - targetTypeRank(b[1]);
+      return typeRank || Number(b[5]) - Number(a[5]) || String(a[3]).localeCompare(String(b[3]), 'ko');
+    });
+}
+
+function normalizeTargetType(value, targetId) {
+  const text = normalizeText(value).toLowerCase();
+  if (text === 'project' || targetId.indexOf('project-') === 0) return 'project';
+  if (text === 'article' || targetId.indexOf('article-') === 0) return 'article';
+  return text || 'unknown';
+}
+
+function targetTypeRank(value) {
+  if (value === 'project') return 0;
+  if (value === 'article') return 1;
+  return 9;
 }
 
 function replaceDataRows(sheet, rows) {
@@ -183,10 +209,24 @@ Apps Script 왼쪽 메뉴에서 `프로젝트 설정 > 스크립트 속성`에 �
   "generatedAt": "2026-06-23T05:30:00.000Z",
   "items": [
     {
-      "articleId": "article-abc123",
-      "articleTitle": "기사 제목",
-      "articleUrl": "https://example.com/news/1",
+      "targetType": "article",
+      "targetId": "article-abc123",
+      "displayName": "기사 제목",
+      "url": "https://example.com/news/1",
       "count": 12,
+      "projectUid": "SAU-OILGAS-RASTANURA-GART22-PIPELINE",
+      "articleUid": "ART-20260619-004574",
+      "lastUpdatedAt": "2026-06-23T05:20:00.000Z",
+      "lastClickedAt": "2026-06-23T05:20:00.000Z",
+      "source": "cloudflare-d1"
+    },
+    {
+      "targetType": "project",
+      "targetId": "project-def456",
+      "displayName": "프로젝트: Ras Tanura GART-22 Pipeline Replacement Project",
+      "url": "https://icakmenadiv.github.io/overseas-construction-monitor/project.html?id=SAU-OILGAS-RASTANURA-GART22-PIPELINE",
+      "count": 5,
+      "projectUid": "SAU-OILGAS-RASTANURA-GART22-PIPELINE",
       "lastUpdatedAt": "2026-06-23T05:20:00.000Z",
       "lastClickedAt": "2026-06-23T05:20:00.000Z",
       "source": "cloudflare-d1"
@@ -198,5 +238,6 @@ Apps Script 왼쪽 메뉴에서 `프로젝트 설정 > 스크립트 속성`에 �
 ## 운영 원칙
 
 - Apps Script는 D1 전체 관심도 집계를 snapshot 방식으로 `관심도_집계` 탭에 덮어쓴다.
-- 삭제되거나 0건이 된 기사도 D1 집계에서 빠지면 시트에서 빠지므로 분석 데이터가 최신 상태로 유지된다.
+- 삭제되거나 0건이 된 관심대상도 D1 집계에서 빠지면 시트에서 빠지므로 분석 데이터가 최신 상태로 유지된다.
 - 실시간 UI는 기존 Worker/D1을 계속 사용하고, 에이전트 분석은 `관심도_집계` 탭을 기준으로 한다.
+- 분석 시 `대상유형=project`는 프로젝트 자체 관심도, `대상유형=article`은 기사 관심도로 분리 집계한다.
