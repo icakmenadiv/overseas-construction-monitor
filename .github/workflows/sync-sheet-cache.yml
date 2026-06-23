@@ -1,0 +1,40 @@
+name: Sync sheet cache
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-sheet-cache
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build static data cache
+        run: node scripts/sync-sheet-cache.mjs
+
+      - name: Commit cache updates
+        run: |
+          if git diff --quiet -- data; then
+            echo "No cache changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json data/projects.json data/meta.json
+          git commit -m "Update sheet data cache"
+          git push
