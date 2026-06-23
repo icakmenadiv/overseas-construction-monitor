@@ -1,4 +1,15 @@
 (() => {
+  const ensureBadgeStyles = () => {
+    if (document.querySelector('link[data-card-badge-fix="true"]')) return;
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "./card-badge-fix.css?v=20260623-1";
+    link.dataset.cardBadgeFix = "true";
+    document.head.appendChild(link);
+  };
+
+  ensureBadgeStyles();
+
   const normalize = (value) => String(value || "").replace(/\s+/g, " ").trim().toLowerCase();
   const loose = (value) => normalize(value).replace(/[\s\-_/.,:|()[\]{}'\"]/g, "");
 
@@ -48,12 +59,14 @@
     const looseProjectName = loose(project["프로젝트명"]);
     const country = normalize(project["국가"]);
     const sector = normalize(project["섹터"]);
+    const representativeArticleId = project["대표 기사 고유값"];
 
     resultRows.forEach((article, index) => {
       const articleId = article["기사 고유값"] || `fallback-${index}`;
       if (seen.has(articleId)) return;
 
       const idMatch = projectId && normalize(article["프로젝트 고유값"]) === projectId;
+      const representativeMatch = representativeArticleId && articleId === representativeArticleId;
       const articleName = normalize(article["프로젝트명"]);
       const looseArticleName = loose(article["프로젝트명"]);
       const nameMatch = projectName && articleName === projectName;
@@ -61,7 +74,7 @@
       const countryOk = !country || normalize(article["국가"]) === country;
       const sectorOk = !sector || normalize(article["섹터"]) === sector;
 
-      if (!(idMatch || ((nameMatch || looseNameMatch) && countryOk && sectorOk))) return;
+      if (!(idMatch || representativeMatch || ((nameMatch || looseNameMatch) && countryOk && sectorOk))) return;
 
       seen.add(articleId);
       baseItems.push({
@@ -70,7 +83,7 @@
           "기사일자": article["원문게재일"] || project["최근 업데이트일"],
           "기사 시점 단계": article["관련 단계"] || project["현재 단계"],
           "해당 기사 기준 사업비": project["사업비(달러 기준 추정액)"],
-          "대표기사 여부": articleId === project["대표 기사 고유값"] ? "Y" : "",
+          "대표기사 여부": representativeMatch ? "Y" : "",
         },
         article,
       });
