@@ -100,7 +100,6 @@
             <label for="sortSelect">정렬</label>
             <select id="sortSelect">
               <option value="cost:desc">사업비 규모순</option>
-              <option value="interest:desc">관심도순</option>
               <option value="latest:desc">최근 업데이트순</option>
               <option value="name:asc">프로젝트명 가나다순</option>
               <option value="country:asc">국가 가나다순</option>
@@ -173,6 +172,13 @@
       <button type="button" class="back-to-top" id="backToTopButton">상단으로 가기</button>
     </footer>
 
+    <script>
+      document.addEventListener("click", (event) => {
+        if (event.target.closest("[data-reset-filter]")) document.getElementById("resetButton")?.click();
+      });
+    </script>
+    <script src="./sheet-cost-optimizer.js?v=20260623-1"></script>
     <script src="./projects.js?v=20260623-clean-1"></script>
+    <script src="./projects-filter-semantics-fix.js?v=20260623-clean-1"></script>
   </body>
 </html>
