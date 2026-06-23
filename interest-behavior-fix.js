@@ -1,22 +1,22 @@
 (() => {
   const INTEREST_HELP_TEXT = "활용 가치가 높은 경우나 후속기사 추적을 원하는 경우 표시";
-  let totalObserverInstalled = false;
-  let syncingTotal = false;
+  let scheduled = false;
 
   document.addEventListener("DOMContentLoaded", schedule);
   if (document.readyState !== "loading") schedule();
 
   function schedule() {
-    [30, 60, 120, 240, 420, 900, 1800, 3000].forEach((delay) => setTimeout(run, delay));
-    document.addEventListener("click", () => {
-      setTimeout(run, 20);
-      setTimeout(run, 80);
-      setTimeout(run, 180);
-      setTimeout(run, 500);
-    });
-    document.addEventListener("change", () => setTimeout(run, 120));
+    queueRun();
     observeDynamicAreas();
-    observeProjectTotalElement();
+  }
+
+  function queueRun() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(() => {
+      scheduled = false;
+      run();
+    });
   }
 
   function run() {
@@ -30,17 +30,13 @@
       button.setAttribute("aria-label", INTEREST_HELP_TEXT);
       button.title = INTEREST_HELP_TEXT;
     });
-
     document.querySelectorAll(".interest-detail-box strong").forEach((strong) => {
       strong.textContent = INTEREST_HELP_TEXT;
     });
-
     document.querySelectorAll(".interest-note").forEach((note) => note.remove());
-
     document.querySelectorAll(".project-interest-label").forEach((label) => {
       label.textContent = "관심 합계";
     });
-
     document.querySelectorAll(".project-interest-caption").forEach((caption) => {
       caption.textContent = INTEREST_HELP_TEXT;
     });
@@ -49,47 +45,19 @@
   function syncProjectTotal() {
     const totalEl = document.querySelector("[data-project-total-count]");
     if (!totalEl) return;
-
-    const total = calculateProjectTotal();
-    const formatted = numberFormat(total);
-    if (totalEl.textContent !== formatted) {
-      syncingTotal = true;
-      totalEl.textContent = formatted;
-      totalEl.dataset.stableTotal = formatted;
-      requestAnimationFrame(() => {
-        syncingTotal = false;
-      });
-    } else {
-      totalEl.dataset.stableTotal = formatted;
-    }
-  }
-
-  function calculateProjectTotal() {
-    const projectButton = document.querySelector(".project-interest-box .interest-button");
-    const linkedButtons = [...document.querySelectorAll("#projectArticles .project-article-interest .interest-button")];
     const ids = new Set();
     let total = 0;
-
-    if (projectButton?.dataset.articleId) {
-      ids.add(projectButton.dataset.articleId);
-      total += readButtonCount(projectButton);
-    }
-
-    linkedButtons.forEach((button) => {
+    document.querySelectorAll(".project-interest-box .interest-button, #projectArticles .project-article-interest .interest-button").forEach((button) => {
       const id = button.dataset.articleId;
       if (!id || ids.has(id)) return;
       ids.add(id);
       total += readButtonCount(button);
     });
-
-    return total;
+    totalEl.textContent = numberFormat(total);
   }
 
   function syncTopNewsProxyButtons() {
-    const cards = [...document.querySelectorAll("#topNewsCards .top-news-card")];
-    if (!cards.length) return;
-
-    cards.forEach((card) => {
+    document.querySelectorAll("#topNewsCards .top-news-card").forEach((card) => {
       const listButton = findMatchingListButton(card);
       if (!listButton) return;
 
@@ -110,9 +78,7 @@
           event.stopPropagation();
           const current = findMatchingListButton(card);
           if (current) current.click();
-          setTimeout(run, 40);
-          setTimeout(run, 160);
-          setTimeout(run, 360);
+          queueRun();
         });
         wrap.appendChild(cardButton);
       }
@@ -127,7 +93,6 @@
     const cardTitle = normalize(card.querySelector("h3")?.textContent);
     const cardUrl = normalizeUrl(card.querySelector("h3 a")?.getAttribute("href") || "");
     const rows = [...document.querySelectorAll("#resultBody tr:not(.detail-row)")];
-
     for (const row of rows) {
       const titleEl = row.querySelector(".market-title-cell .title-link") || row.querySelector(".market-title-cell a, .market-title-cell span");
       const rowTitle = normalize(titleEl?.textContent);
@@ -150,7 +115,6 @@
     target.setAttribute("aria-pressed", source.getAttribute("aria-pressed") || "false");
     target.setAttribute("aria-label", INTEREST_HELP_TEXT);
     target.title = INTEREST_HELP_TEXT;
-
     const sourceHeart = source.querySelector(".interest-heart")?.textContent || "♡";
     const sourceCount = source.querySelector(".interest-count")?.textContent || "0";
     const targetHeart = target.querySelector(".interest-heart");
@@ -171,29 +135,9 @@
       targets.forEach((target) => {
         if (target.dataset.interestBehaviorObserved === "true") return;
         target.dataset.interestBehaviorObserved = "true";
-        new MutationObserver(() => setTimeout(run, 20)).observe(target, { childList: true, subtree: true, characterData: true });
+        new MutationObserver(queueRun).observe(target, { childList: true, subtree: true });
       });
     };
-    install();
-  }
-
-  function observeProjectTotalElement() {
-    if (totalObserverInstalled) return;
-    totalObserverInstalled = true;
-
-    const install = () => {
-      const totalEl = document.querySelector("[data-project-total-count]");
-      if (!totalEl) {
-        setTimeout(install, 250);
-        return;
-      }
-
-      new MutationObserver(() => {
-        if (syncingTotal) return;
-        requestAnimationFrame(syncProjectTotal);
-      }).observe(totalEl, { childList: true, characterData: true, subtree: true });
-    };
-
     install();
   }
 
