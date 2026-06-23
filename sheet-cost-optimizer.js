@@ -2,99 +2,86 @@
   const SHEET_ID = "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E";
   const RESULT_GID = "748239675";
   const PROJECT_GID = "20260612";
-  const PROJECT_RANGE = "A1:M20000";
-  const CACHE_PREFIX = "sheetCostCache:";
-  const CACHE_TTL_MS = 10 * 60 * 1000;
-  const MAX_CACHE_CHARS = 4_500_000;
-
-  const storage = (() => {
-    try {
-      return window.sessionStorage || null;
-    } catch (error) {
-      return null;
-    }
-  })();
-
-  if (!window.fetch || !window.URLSearchParams) return;
-
-  const originalFetch = window.fetch.bind(window);
-  const getUrlText = (resource) => (typeof resource === "string" ? resource : resource?.url || "");
-  const isSheetRequest = (url) =>
-    url.includes("docs.google.com/spreadsheets") &&
-    url.includes(`/d/${SHEET_ID}/`) &&
-    url.includes("gviz/tq") &&
-    url.includes("tqx=out:json");
-
-  const pageName = () => window.location.pathname.split("/").pop() || "index.html";
-
-  const normalizeSheetUrl = (rawUrl) => {
-    const url = new URL(rawUrl, window.location.href);
-    const gid = url.searchParams.get("gid");
-    const currentPage = pageName();
-
-    if ((currentPage === "projects.html" || currentPage === "project.html") && gid === PROJECT_GID) {
-      url.searchParams.set("range", PROJECT_RANGE);
-      if (currentPage === "project.html") url.searchParams.delete("tq");
-    }
-
-    if (currentPage === "projects.html" && gid === RESULT_GID) {
-      url.searchParams.set("range", "A:R");
-      url.searchParams.set("tq", "select F,J where J is not null");
-    }
-
-    if (currentPage === "project.html" && gid === RESULT_GID) {
-      url.searchParams.set("range", "A:R");
-      url.searchParams.delete("tq");
-    }
-
-    url.searchParams.sort();
-    return url.toString();
+  const CACHE_URLS = {
+    [RESULT_GID]: "./data/articles.json",
+    [PROJECT_GID]: "./data/projects.json",
   };
 
-  const makeResponse = (text, sourceUrl) =>
-    new Response(text, {
+  const memoryCache = new Map();
+  const originalFetch = window.fetch?.bind(window);
+  if (!originalFetch) return;
+
+  window.fetch = async (resource, options) => {
+    const urlText = getUrlText(resource);
+    const gid = getSheetGid(urlText);
+    if (!gid) return originalFetch(resource, options);
+
+    try {
+      const rows = await loadCachedRows(gid);
+      return makeGvizResponse(rows);
+    } catch (error) {
+      console.warn("Static sheet cache failed; falling back to Google Sheets", error);
+      return originalFetch(resource, options);
+    }
+  };
+
+  function getUrlText(resource) {
+    return typeof resource === "string" ? resource : resource?.url || "";
+  }
+
+  function getSheetGid(urlText) {
+    if (!urlText || !urlText.includes("docs.google.com/spreadsheets")) return "";
+    if (!urlText.includes(`/d/${SHEET_ID}/`) || !urlText.includes("gviz/tq")) return "";
+    if (urlText.includes(`gid=${RESULT_GID}`)) return RESULT_GID;
+    if (urlText.includes(`gid=${PROJECT_GID}`)) return PROJECT_GID;
+    return "";
+  }
+
+  async function loadCachedRows(gid) {
+    const cacheUrl = CACHE_URLS[gid];
+    if (!cacheUrl) throw new Error(`Unsupported sheet gid: ${gid}`);
+    if (memoryCache.has(cacheUrl)) return memoryCache.get(cacheUrl);
+
+    const response = await originalFetch(cacheUrl, { cache: "no-cache" });
+    if (!response.ok) throw new Error(`Cache HTTP ${response.status}: ${cacheUrl}`);
+    const payload = await response.json();
+    const rows = Array.isArray(payload) ? payload : payload?.articles || payload?.projects || [];
+    if (!rows.length) throw new Error(`Static cache is empty: ${cacheUrl}`);
+    memoryCache.set(cacheUrl, rows);
+    return rows;
+  }
+
+  function makeGvizResponse(rows) {
+    const columns = collectColumns(rows);
+    const table = {
+      cols: columns.map((label) => ({ id: label, label, type: "string" })),
+      rows: rows.map((row) => ({
+        c: columns.map((column) => {
+          const value = row[column] ?? "";
+          return value === "" ? null : { v: String(value), f: String(value) };
+        }),
+      })),
+    };
+    const text = `/*O_o*/\ngoogle.visualization.Query.setResponse(${JSON.stringify({ version: "0.6", status: "ok", table })});`;
+    return new Response(text, {
       status: 200,
       headers: {
         "Content-Type": "application/json; charset=utf-8",
-        "X-Sheet-Cache": "hit",
-        "X-Sheet-Source": sourceUrl,
+        "X-Static-Sheet-Cache": "hit",
       },
     });
+  }
 
-  const readCache = (key) => {
-    if (!storage) return null;
-    try {
-      const cached = JSON.parse(storage.getItem(key) || "null");
-      if (!cached || Date.now() - cached.time > CACHE_TTL_MS) return null;
-      return cached.text;
-    } catch (error) {
-      return null;
-    }
-  };
-
-  const writeCache = (key, text) => {
-    if (!storage || !text || text.length > MAX_CACHE_CHARS) return;
-    try {
-      storage.setItem(key, JSON.stringify({ time: Date.now(), text }));
-    } catch (error) {
-      // Storage can be full or disabled; the page should still work without caching.
-    }
-  };
-
-  window.fetch = async (resource, options) => {
-    const rawUrl = getUrlText(resource);
-    if (!rawUrl || !isSheetRequest(rawUrl)) return originalFetch(resource, options);
-
-    const optimizedUrl = normalizeSheetUrl(rawUrl);
-    const cacheKey = `${CACHE_PREFIX}${optimizedUrl}`;
-    const cachedText = readCache(cacheKey);
-    if (cachedText) return makeResponse(cachedText, optimizedUrl);
-
-    const response = await originalFetch(optimizedUrl, options);
-    if (!response.ok) return response;
-
-    const text = await response.clone().text();
-    writeCache(cacheKey, text);
-    return makeResponse(text, optimizedUrl);
-  };
+  function collectColumns(rows) {
+    const columns = [];
+    const seen = new Set();
+    rows.forEach((row) => {
+      Object.keys(row || {}).forEach((key) => {
+        if (seen.has(key)) return;
+        seen.add(key);
+        columns.push(key);
+      });
+    });
+    return columns;
+  }
 })();
