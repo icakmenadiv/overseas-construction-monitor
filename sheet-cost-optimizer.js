@@ -6,7 +6,15 @@
   const CACHE_TTL_MS = 10 * 60 * 1000;
   const MAX_CACHE_CHARS = 4_500_000;
 
-  if (!window.fetch || !window.URLSearchParams || !window.sessionStorage) return;
+  const storage = (() => {
+    try {
+      return window.sessionStorage || null;
+    } catch (error) {
+      return null;
+    }
+  })();
+
+  if (!window.fetch || !window.URLSearchParams) return;
 
   const originalFetch = window.fetch.bind(window);
   const getUrlText = (resource) => (typeof resource === "string" ? resource : resource?.url || "");
@@ -19,6 +27,29 @@
   const pageName = () => window.location.pathname.split("/").pop() || "index.html";
 
   const escapeQueryValue = (value) => String(value || "").replace(/'/g, "\\'");
+
+  const buildIdentityWhere = ({ idColumn, nameColumn, countryColumn, sectorColumn }) => {
+    const params = new URLSearchParams(window.location.search);
+    const projectId = params.get("id");
+    const name = params.get("name");
+    const country = params.get("country");
+    const sector = params.get("sector");
+    const clauses = [];
+
+    if (projectId) clauses.push(`${idColumn} = '${escapeQueryValue(projectId)}'`);
+    if (name) {
+      const nameClauses = [
+        `${nameColumn} = '${escapeQueryValue(name)}'`,
+        country ? `${countryColumn} = '${escapeQueryValue(country)}'` : "",
+        sector ? `${sectorColumn} = '${escapeQueryValue(sector)}'` : "",
+      ]
+        .filter(Boolean)
+        .join(" and ");
+      clauses.push(`(${nameClauses})`);
+    }
+
+    return clauses.join(" or ");
+  };
 
   const normalizeSheetUrl = (rawUrl) => {
     const url = new URL(rawUrl, window.location.href);
@@ -36,44 +67,24 @@
 
     if (currentPage === "project.html" && gid === PROJECT_GID) {
       url.searchParams.set("range", "A:M");
-      const params = new URLSearchParams(window.location.search);
-      const projectId = params.get("id");
-      const name = params.get("name");
-      const country = params.get("country");
-      const sector = params.get("sector");
-      if (projectId) {
-        url.searchParams.set("tq", `select * where A = '${escapeQueryValue(projectId)}'`);
-      } else if (name) {
-        const where = [
-          `B = '${escapeQueryValue(name)}'`,
-          country ? `D = '${escapeQueryValue(country)}'` : "",
-          sector ? `E = '${escapeQueryValue(sector)}'` : "",
-        ]
-          .filter(Boolean)
-          .join(" and ");
-        url.searchParams.set("tq", `select * where ${where}`);
-      }
+      const where = buildIdentityWhere({
+        idColumn: "A",
+        nameColumn: "B",
+        countryColumn: "D",
+        sectorColumn: "E",
+      });
+      if (where) url.searchParams.set("tq", `select * where ${where}`);
     }
 
     if (currentPage === "project.html" && gid === RESULT_GID) {
       url.searchParams.set("range", "A:R");
-      const params = new URLSearchParams(window.location.search);
-      const projectId = params.get("id");
-      const name = params.get("name");
-      const country = params.get("country");
-      const sector = params.get("sector");
-      if (projectId) {
-        url.searchParams.set("tq", `select * where H = '${escapeQueryValue(projectId)}'`);
-      } else if (name) {
-        const where = [
-          `I = '${escapeQueryValue(name)}'`,
-          country ? `D = '${escapeQueryValue(country)}'` : "",
-          sector ? `E = '${escapeQueryValue(sector)}'` : "",
-        ]
-          .filter(Boolean)
-          .join(" and ");
-        url.searchParams.set("tq", `select * where ${where}`);
-      }
+      const where = buildIdentityWhere({
+        idColumn: "H",
+        nameColumn: "I",
+        countryColumn: "D",
+        sectorColumn: "E",
+      });
+      if (where) url.searchParams.set("tq", `select * where ${where}`);
     }
 
     url.searchParams.sort();
@@ -91,8 +102,9 @@
     });
 
   const readCache = (key) => {
+    if (!storage) return null;
     try {
-      const cached = JSON.parse(sessionStorage.getItem(key) || "null");
+      const cached = JSON.parse(storage.getItem(key) || "null");
       if (!cached || Date.now() - cached.time > CACHE_TTL_MS) return null;
       return cached.text;
     } catch (error) {
@@ -101,9 +113,9 @@
   };
 
   const writeCache = (key, text) => {
-    if (!text || text.length > MAX_CACHE_CHARS) return;
+    if (!storage || !text || text.length > MAX_CACHE_CHARS) return;
     try {
-      sessionStorage.setItem(key, JSON.stringify({ time: Date.now(), text }));
+      storage.setItem(key, JSON.stringify({ time: Date.now(), text }));
     } catch (error) {
       // Storage can be full or disabled; the page should still work without caching.
     }
