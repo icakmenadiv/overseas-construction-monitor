@@ -1,10 +1,10 @@
 (() => {
-  const API_ENDPOINT = String(window.INTEREST_API_ENDPOINT || "https://icak-interest-api.icak-mena-div.workers.dev").replace(/\/$/, "");
-  const STORAGE_KEY = "icakInterestLocalCounts";
+  const COUNT_COLUMNS = Array.isArray(window.INTEREST_COUNT_COLUMNS)
+    ? window.INTEREST_COUNT_COLUMNS
+    : ["관심도", "관심도 집계", "관심수", "하트수", "관심도 수치"];
   let refreshTimer = null;
   let isSorting = false;
-  let isHydrating = false;
-  let lastProjectIdSignature = "";
+  let projectInterestMap = null;
 
   document.addEventListener("DOMContentLoaded", init);
   if (document.readyState !== "loading") init();
@@ -12,9 +12,9 @@
   function init() {
     addInterestSortOption();
     patchSortHelp();
-    refreshInterestData({ forceFetch: true });
-    document.addEventListener("click", () => setTimeout(() => refreshInterestData(), 350));
-    document.addEventListener("change", () => setTimeout(() => refreshInterestData(), 350));
+    refreshInterestData();
+    document.addEventListener("click", () => setTimeout(() => refreshInterestData(), 250));
+    document.addEventListener("change", () => setTimeout(() => refreshInterestData(), 250));
     observeLists();
   }
 
@@ -27,8 +27,8 @@
     sortSelect.insertBefore(option, sortSelect.firstElementChild);
     sortSelect.addEventListener("change", () => {
       if (sortSelect.value === "interest:desc") {
-        refreshInterestData({ forceFetch: true });
-        setTimeout(applyInterestSort, 300);
+        refreshInterestData();
+        setTimeout(applyInterestSort, 200);
       }
     });
   }
@@ -36,7 +36,6 @@
   function patchSortHelp() {
     const sortSelect = document.getElementById("sortSelect");
     if (!sortSelect) return;
-
     const field = sortSelect.closest(".field") || document;
     const label = field.querySelector('label[for="sortSelect"]') || document.querySelector('label[for="sortSelect"]');
     if (!label) return;
@@ -51,79 +50,71 @@
       labelRow.prepend(label);
     }
 
-    const existingHelps = [...field.querySelectorAll(".sort-help")];
-    let help = existingHelps.find((item) => labelRow.contains(item)) || existingHelps[0];
+    let help = field.querySelector(".sort-help");
     if (!help) {
       help = document.createElement("button");
       help.className = "sort-help";
       help.textContent = "?";
+      labelRow.appendChild(help);
     }
-    if (help.tagName !== "BUTTON") {
-      const button = document.createElement("button");
-      button.className = help.className;
-      button.textContent = help.textContent.trim() || "?";
-      help.replaceWith(button);
-      help = button;
-    }
-
-    labelRow.appendChild(help);
-    [...field.querySelectorAll(".sort-help")].forEach((item) => {
-      if (item !== help) item.remove();
-    });
-
     help.type = "button";
     help.textContent = "?";
     help.setAttribute(
       "aria-label",
-      "관심도순은 하트 관심 수가 높은 항목을 우선 표시합니다. 시장 모니터링의 중요도순은 국가·섹터별 진출 실적과 우리 기업 관심도를 함께 고려한 AI 판단값입니다.",
+      "관심도순은 스프레드시트 관심도 집계 열에 반영된 수치를 기준으로 정렬합니다. 방금 누른 값은 이 브라우저에서 즉시 보이지만 전체 집계는 다음 캐시 동기화 후 반영됩니다.",
     );
   }
 
-  async function refreshInterestData(options = {}) {
-    if (isSorting || isHydrating) return;
+  function refreshInterestData() {
     clearTimeout(refreshTimer);
     refreshTimer = setTimeout(async () => {
-      isHydrating = true;
-      try {
-        await hydrateProjectListCounts(Boolean(options.forceFetch));
-        applyInterestSort();
-      } finally {
-        isHydrating = false;
-      }
+      await hydrateProjectListCounts();
+      applyInterestSort();
     }, 120);
   }
 
-  async function hydrateProjectListCounts(forceFetch = false) {
+  async function hydrateProjectListCounts() {
     const projectRows = [...document.querySelectorAll("#projectBody tr")];
-    if (!projectRows.length || !API_ENDPOINT) return;
+    if (!projectRows.length) return;
+    const map = await getProjectInterestMap();
+    projectRows.forEach((row) => {
+      const projectId = getProjectSheetIdFromRow(row);
+      row.dataset.interestCount = String(map.get(projectId) || 0);
+    });
+  }
 
-    const ids = projectRows.map(getProjectIdFromRow).filter(Boolean);
-    if (!ids.length) return;
-
-    const signature = [...new Set(ids)].join("|");
-    if (!forceFetch && signature === lastProjectIdSignature && projectRows.every((row) => row.dataset.interestCount !== undefined)) {
-      return;
-    }
-    lastProjectIdSignature = signature;
-
+  async function getProjectInterestMap() {
+    if (projectInterestMap) return projectInterestMap;
+    projectInterestMap = new Map();
     try {
-      const visitorId = getVisitorId();
-      const query = `/counts?ids=${encodeURIComponent([...new Set(ids)].join(","))}&visitorId=${encodeURIComponent(visitorId)}&_=${Date.now()}`;
-      const payload = await fetch(`${API_ENDPOINT}${query}`, { cache: "no-store" }).then((response) => response.json());
-      const countMap = new Map((payload.items || []).map((item) => [String(item.articleId), Number(item.count || 0)]));
-      projectRows.forEach((row) => {
-        const id = getProjectIdFromRow(row);
-        row.dataset.interestCount = String(countMap.get(id) || 0);
+      const [articles, projects] = await Promise.all([fetchJson("./data/articles.json"), fetchJson("./data/projects.json")]);
+      const articleCounts = new Map(
+        articles
+          .map((row) => [clean(row["기사 고유값"]), getSheetCount(row)])
+          .filter(([id]) => id),
+      );
+      projects.forEach((project) => {
+        const projectId = clean(project["프로젝트 고유값"]);
+        const representativeArticleId = clean(project["대표 기사 고유값"]);
+        if (!projectId) return;
+        projectInterestMap.set(projectId, articleCounts.get(representativeArticleId) || 0);
       });
     } catch (error) {
-      console.info("Project interest sort count fetch skipped:", error);
+      console.info("Project interest cache read skipped:", error);
     }
+    return projectInterestMap;
+  }
+
+  async function fetchJson(path) {
+    const response = await fetch(path, { cache: "no-cache" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    return Array.isArray(payload) ? payload : payload?.articles || payload?.projects || [];
   }
 
   function applyInterestSort() {
     const sortSelect = document.getElementById("sortSelect");
     if (!sortSelect || sortSelect.value !== "interest:desc" || isSorting) return;
-
     isSorting = true;
     try {
       sortMarketRowsByInterest();
@@ -138,7 +129,6 @@
   function sortMarketRowsByInterest() {
     const tbody = document.getElementById("resultBody");
     if (!tbody) return;
-
     const groups = [];
     let currentGroup = null;
     [...tbody.children].forEach((row) => {
@@ -149,7 +139,6 @@
         currentGroup.details.push(row);
       }
     });
-
     if (!groups.length) return;
 
     const currentSignature = groups.map((group) => getStableRowKey(group.row)).join("|");
@@ -173,7 +162,6 @@
     if (!tbody) return;
     const rows = [...tbody.querySelectorAll("tr")];
     if (!rows.length) return;
-
     const currentSignature = rows.map(getStableRowKey).join("|");
     const sortedRows = [...rows].sort((a, b) => {
       const interestDiff = Number(b.dataset.interestCount || 0) - Number(a.dataset.interestCount || 0);
@@ -190,11 +178,9 @@
   function getRowInterestCount(row) {
     const button = row.querySelector(".interest-button");
     if (!button) return Number(row.dataset.interestCount || 0);
-    const id = button.dataset.articleId;
-    const serverText = button.querySelector(".interest-count")?.textContent || "0";
-    const serverValue = Number(String(serverText).replace(/[^0-9.-]/g, ""));
-    if (Number.isFinite(serverValue)) return Math.max(0, serverValue);
-    return getStoredCount(id);
+    const text = button.querySelector(".interest-count")?.textContent || "0";
+    const value = Number(String(text).replace(/[^0-9.-]/g, ""));
+    return Number.isFinite(value) ? Math.max(0, value) : 0;
   }
 
   function getStableRowKey(row) {
@@ -202,34 +188,18 @@
     return clean(link?.getAttribute("href") || link?.textContent || row.textContent).slice(0, 160);
   }
 
-  function getProjectIdFromRow(row) {
+  function getProjectSheetIdFromRow(row) {
     const link = row.querySelector(".project-title-cell a[href]");
     const url = new URL(link?.getAttribute("href") || "", window.location.href);
-    const params = url.searchParams;
-    const projectId = clean(params.get("id"));
-    const title = clean(params.get("name") || link?.textContent);
-    const country = clean(params.get("country") || row.children[2]?.textContent);
-    const sector = clean(params.get("sector") || row.children[3]?.textContent);
-    const seed = projectId || [title, country, sector].join("|");
-    return seed ? `project-${hashSeed(seed)}` : "";
+    return clean(url.searchParams.get("id"));
   }
 
-  function getStoredCount(id) {
-    try {
-      const counts = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-      return Number(counts[id] || 0);
-    } catch (error) {
-      return 0;
+  function getSheetCount(row) {
+    for (const column of COUNT_COLUMNS) {
+      const value = Number(String(row?.[column] || "").replace(/[^0-9.-]/g, ""));
+      if (Number.isFinite(value) && value > 0) return value;
     }
-  }
-
-  function getVisitorId() {
-    const key = "icakInterestVisitorId";
-    let existing = localStorage.getItem(key);
-    if (existing) return existing;
-    existing = crypto?.randomUUID ? crypto.randomUUID() : `visitor-${Date.now()}-${Math.random().toString(16).slice(2)}`;
-    localStorage.setItem(key, existing);
-    return existing;
+    return 0;
   }
 
   function observeLists() {
@@ -238,22 +208,13 @@
       if (!target || target.dataset.interestSortObserved === "true") return;
       target.dataset.interestSortObserved = "true";
       new MutationObserver((mutations) => {
-        if (isSorting || isHydrating) return;
+        if (isSorting) return;
         const hasMeaningfulChange = mutations.some((mutation) =>
           [...mutation.addedNodes, ...mutation.removedNodes].some((node) => node.nodeType === Node.ELEMENT_NODE),
         );
         if (hasMeaningfulChange) refreshInterestData();
       }).observe(target, { childList: true });
     });
-  }
-
-  function hashSeed(seed) {
-    let hash = 2166136261;
-    for (let i = 0; i < seed.length; i += 1) {
-      hash ^= seed.charCodeAt(i);
-      hash = Math.imul(hash, 16777619);
-    }
-    return (hash >>> 0).toString(16);
   }
 
   function clean(value) {
