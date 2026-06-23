@@ -6,6 +6,14 @@
 
 중요: 현재 UI는 기사 관심도와 프로젝트 자체 관심도를 모두 같은 Worker에 저장한다. 따라서 export는 `article` 전용이 아니라 `관심대상(target)` 기준이어야 한다.
 
+## 장기 운영 원칙
+
+- UI 응답성: 브라우저에서는 클릭 즉시 localStorage로 반영한다.
+- 서버 원천: Cloudflare D1은 사용자별 관심 상태의 원천이다.
+- 분석 원천: Google Sheets `관심도_집계`는 D1의 현재 관심수 snapshot이다.
+- 0건 처리: export는 관심수 1 이상인 대상만 보낸다. Sheets에는 0건 대상이 남지 않는다.
+- D1 정리: `active = 0`인 비활성 row는 토글 복구와 중복 방지를 위해 잠시 보관하되, 90일 이상 지난 비활성 row는 cron에서 삭제하는 것을 권장한다.
+
 ## 필요한 Cloudflare 환경 변수/Secret
 
 Worker에 아래 값을 설정한다.
@@ -61,12 +69,17 @@ export default {
       return exportInterestToSheets(env);
     }
 
+    if (url.pathname === '/cleanup-inactive-interest') {
+      return cleanupInactiveInterest(env);
+    }
+
     // 기존 /counts, /toggle 라우트는 기존 코드 유지
     return new Response('Not found', { status: 404 });
   },
 
   async scheduled(event, env, ctx) {
     ctx.waitUntil(exportInterestToSheets(env));
+    ctx.waitUntil(cleanupInactiveInterest(env));
   },
 };
 
@@ -109,6 +122,7 @@ async function readInterestSummary(env) {
     FROM interests
     WHERE active = 1
     GROUP BY article_id
+    HAVING COUNT(*) > 0
     ORDER BY count DESC, lastUpdatedAt DESC
   `).all();
 
@@ -126,6 +140,22 @@ async function readInterestSummary(env) {
       lastClickedAt: row.lastClickedAt || '',
       source: 'cloudflare-d1',
     };
+  });
+}
+
+async function cleanupInactiveInterest(env) {
+  // 90일 이상 지난 비활성 관심 row만 삭제한다.
+  // active 컬럼/updated_at 컬럼명이 다르면 실제 D1 구조에 맞춰 수정한다.
+  const cutoff = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString();
+  const result = await env.DB.prepare(`
+    DELETE FROM interests
+    WHERE active = 0
+      AND updated_at < ?
+  `).bind(cutoff).run();
+
+  return new Response(JSON.stringify({ ok: true, cutoff, result }), {
+    status: 200,
+    headers: { 'Content-Type': 'application/json' },
   });
 }
 
@@ -188,7 +218,16 @@ SELECT
 FROM interests
 WHERE active = 1
 GROUP BY target_id, target_type
+HAVING COUNT(*) > 0
 ORDER BY count DESC, lastUpdatedAt DESC;
+```
+
+cleanup SQL도 더 명확해진다.
+
+```sql
+DELETE FROM interests
+WHERE active = 0
+  AND updated_at < ?;
 ```
 
 ## 테이블 구조별 SQL 조정 메모
@@ -199,7 +238,8 @@ ORDER BY count DESC, lastUpdatedAt DESC;
 SELECT article_id targetId, MAX(article_title) displayName, MAX(article_url) url, COUNT(*) count
 FROM interests
 WHERE active = 1
-GROUP BY article_id;
+GROUP BY article_id
+HAVING COUNT(*) > 0;
 ```
 
 이 경우 `targetId` 접두사로 `article`/`project`를 구분한다.
@@ -210,7 +250,8 @@ GROUP BY article_id;
 SELECT target_id targetId, target_type targetType, MAX(display_name) displayName, MAX(url) url, COUNT(*) count
 FROM interests
 WHERE active = 1
-GROUP BY target_id, target_type;
+GROUP BY target_id, target_type
+HAVING COUNT(*) > 0;
 ```
 
 ### 구조 C: 집계 테이블 별도 저장
@@ -218,6 +259,7 @@ GROUP BY target_id, target_type;
 ```sql
 SELECT target_id, target_type, display_name, url, count, updated_at
 FROM interest_counts
+WHERE count > 0
 ORDER BY count DESC;
 ```
 
