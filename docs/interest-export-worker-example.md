@@ -10,9 +10,11 @@
 
 - UI 응답성: 브라우저에서는 클릭 즉시 localStorage로 반영한다.
 - 서버 원천: Cloudflare D1은 사용자별 관심 상태의 원천이다.
-- 분석 원천: Google Sheets `관심도_집계`는 D1의 현재 관심수 snapshot이다.
-- 0건 처리: export는 관심수 1 이상인 대상만 보낸다. Sheets에는 0건 대상이 남지 않는다.
-- D1 정리: `active = 0`인 비활성 row는 토글 복구와 중복 방지를 위해 잠시 보관하되, 90일 이상 지난 비활성 row는 cron에서 삭제하는 것을 권장한다.
+- 분석 원천: Google Sheets `관심도_집계`는 D1의 현재 관심수 테이블이다.
+- 평상시 sync: 마지막 export 이후 바뀐 관심대상만 `mode=incremental`로 보낸다.
+- 정합성 보정: 하루 1회 `mode=full` 전체 reconcile을 실행한다.
+- 0건 처리: incremental export에는 관심수 0이 된 대상도 포함해 보낸다. Apps Script가 해당 행을 삭제한다.
+- D1 정리: export가 성공한 뒤 `active = 0`인 비활성 row는 매일 삭제한다.
 
 ## 필요한 Cloudflare 환경 변수/Secret
 
@@ -31,21 +33,30 @@ wrangler secret put INTEREST_EXPORT_TOKEN
 
 D1 binding은 기존 Worker 설정에 맞춘다.
 
+## 필요한 D1 상태 테이블
+
+마지막 export 시각을 저장하기 위해 상태 테이블을 추가한다.
+
+```sql
+CREATE TABLE IF NOT EXISTS export_state (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL,
+  updated_at TEXT NOT NULL
+);
+```
+
+최초 실행 시 상태값이 없으면 전체 export처럼 동작하거나, 충분히 과거 시각을 사용한다.
+
 ## Cron Trigger 예시
 
-`wrangler.toml`에 아래처럼 추가한다.
+변경분은 매시간, 전체 reconcile과 cleanup은 하루 1회 실행하는 구성을 권장한다.
 
 ```toml
 [triggers]
-crons = ["0 * * * *"] # 매시 정각
+crons = ["0 * * * *", "30 18 * * *"] # UTC 기준: 매시 정각, 한국시간 03:30 전체 reconcile/cleanup
 ```
 
-하루 2회만 필요하면 예를 들어 아래처럼 둔다.
-
-```toml
-[triggers]
-crons = ["0 23,8 * * *"] # UTC 기준, 한국시간 08:00/17:00
-```
+Cloudflare scheduled event의 cron 문자열로 분기한다.
 
 ## Worker 코드 예시
 
@@ -61,12 +72,15 @@ crons = ["0 23,8 * * *"] # UTC 기준, 한국시간 08:00/17:00
 기존 API 이름이 article 중심이어도 export에서는 `targetType`, `targetId`, `displayName`, `url`로 변환한다.
 
 ```javascript
+const EXPORT_STATE_KEY = 'interest_last_export_at';
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
     if (url.pathname === '/export-interest-to-sheets') {
-      return exportInterestToSheets(env);
+      const mode = url.searchParams.get('mode') === 'full' ? 'full' : 'incremental';
+      return exportInterestToSheets(env, mode);
     }
 
     if (url.pathname === '/cleanup-inactive-interest') {
@@ -78,16 +92,26 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
-    ctx.waitUntil(exportInterestToSheets(env));
-    ctx.waitUntil(cleanupInactiveInterest(env));
+    const cron = event.cron || '';
+    if (cron === '30 18 * * *') {
+      ctx.waitUntil(exportInterestToSheets(env, 'full').then(() => cleanupInactiveInterest(env)));
+      return;
+    }
+    ctx.waitUntil(exportInterestToSheets(env, 'incremental'));
   },
 };
 
-async function exportInterestToSheets(env) {
-  const items = await readInterestSummary(env);
+async function exportInterestToSheets(env, mode = 'incremental') {
+  const startedAt = new Date().toISOString();
+  const lastExportAt = mode === 'full' ? null : await getExportState(env, EXPORT_STATE_KEY);
+  const items = mode === 'full'
+    ? await readFullInterestSummary(env)
+    : await readChangedInterestSummary(env, lastExportAt || '1970-01-01T00:00:00.000Z');
+
   const payload = {
     token: env.INTEREST_EXPORT_TOKEN,
-    generatedAt: new Date().toISOString(),
+    mode,
+    generatedAt: startedAt,
     items,
   };
 
@@ -102,15 +126,41 @@ async function exportInterestToSheets(env) {
     return new Response(`Google Sheets export failed: ${response.status} ${text}`, { status: 502 });
   }
 
+  await setExportState(env, EXPORT_STATE_KEY, startedAt);
+
   return new Response(text, {
     status: 200,
     headers: { 'Content-Type': 'application/json' },
   });
 }
 
-async function readInterestSummary(env) {
-  // 아래 SQL은 예시다. 실제 D1 테이블/컬럼명에 맞게 수정한다.
-  // article_id 컬럼에 article-* 및 project-* 대상 ID가 함께 저장되어 있다고 가정한다.
+async function readChangedInterestSummary(env, lastExportAt) {
+  // 기존 article_id 컬럼에 article-* 및 project-* 대상 ID가 함께 저장되어 있다고 가정한다.
+  // lastExportAt 이후 한 번이라도 바뀐 target만 고르고, 그 target의 현재 active count를 다시 계산한다.
+  // count가 0인 row도 보내야 Apps Script가 시트에서 삭제할 수 있다.
+  const result = await env.DB.prepare(`
+    WITH changed AS (
+      SELECT DISTINCT article_id AS targetId
+      FROM interests
+      WHERE updated_at > ?
+    )
+    SELECT
+      changed.targetId AS targetId,
+      MAX(interests.article_title) AS displayName,
+      MAX(interests.article_url) AS url,
+      SUM(CASE WHEN interests.active = 1 THEN 1 ELSE 0 END) AS count,
+      MAX(interests.updated_at) AS lastUpdatedAt,
+      MAX(interests.updated_at) AS lastClickedAt
+    FROM changed
+    LEFT JOIN interests ON interests.article_id = changed.targetId
+    GROUP BY changed.targetId
+    ORDER BY count DESC, lastUpdatedAt DESC
+  `).bind(lastExportAt).all();
+
+  return normalizeInterestRows(result.results || []);
+}
+
+async function readFullInterestSummary(env) {
   const result = await env.DB.prepare(`
     SELECT
       article_id AS targetId,
@@ -126,7 +176,11 @@ async function readInterestSummary(env) {
     ORDER BY count DESC, lastUpdatedAt DESC
   `).all();
 
-  return (result.results || []).map((row) => {
+  return normalizeInterestRows(result.results || []);
+}
+
+function normalizeInterestRows(rows) {
+  return rows.map((row) => {
     const targetId = String(row.targetId || '');
     return {
       targetType: inferTargetType(targetId),
@@ -144,19 +198,33 @@ async function readInterestSummary(env) {
 }
 
 async function cleanupInactiveInterest(env) {
-  // 90일 이상 지난 비활성 관심 row만 삭제한다.
-  // active 컬럼/updated_at 컬럼명이 다르면 실제 D1 구조에 맞춰 수정한다.
-  const cutoff = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString();
+  // 사용자 요청 기준: active=0 비활성 row는 매일 삭제한다.
+  // exportInterestToSheets 성공 후 실행하는 것이 안전하다.
   const result = await env.DB.prepare(`
     DELETE FROM interests
     WHERE active = 0
-      AND updated_at < ?
-  `).bind(cutoff).run();
+  `).run();
 
-  return new Response(JSON.stringify({ ok: true, cutoff, result }), {
+  return new Response(JSON.stringify({ ok: true, result }), {
     status: 200,
     headers: { 'Content-Type': 'application/json' },
   });
+}
+
+async function getExportState(env, key) {
+  const row = await env.DB.prepare(`
+    SELECT value FROM export_state WHERE key = ?
+  `).bind(key).first();
+  return row && row.value ? String(row.value) : '';
+}
+
+async function setExportState(env, key, value) {
+  const now = new Date().toISOString();
+  await env.DB.prepare(`
+    INSERT INTO export_state (key, value, updated_at)
+    VALUES (?, ?, ?)
+    ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at
+  `).bind(key, value, now).run();
 }
 
 function inferTargetType(targetId) {
@@ -182,7 +250,7 @@ function inferArticleUid(targetId, url, displayName) {
 }
 ```
 
-## 더 좋은 D1 구조 권장안
+## target_id 구조로 개선할 경우
 
 앞으로 Worker를 수정할 수 있다면 D1에는 article/project 공통 필드를 명시적으로 저장하는 것이 좋다.
 
@@ -202,7 +270,30 @@ CREATE TABLE IF NOT EXISTS interests (
 );
 ```
 
-이 구조라면 export SQL은 더 명확해진다.
+이 구조라면 변경분 SQL은 아래처럼 바뀐다.
+
+```sql
+WITH changed AS (
+  SELECT DISTINCT target_id AS targetId
+  FROM interests
+  WHERE updated_at > ?
+)
+SELECT
+  changed.targetId AS targetId,
+  MAX(interests.target_type) AS targetType,
+  MAX(interests.display_name) AS displayName,
+  MAX(interests.url) AS url,
+  SUM(CASE WHEN interests.active = 1 THEN 1 ELSE 0 END) AS count,
+  MAX(interests.project_uid) AS projectUid,
+  MAX(interests.article_uid) AS articleUid,
+  MAX(interests.updated_at) AS lastUpdatedAt,
+  MAX(interests.updated_at) AS lastClickedAt
+FROM changed
+LEFT JOIN interests ON interests.target_id = changed.targetId
+GROUP BY changed.targetId;
+```
+
+전체 reconcile SQL은 아래처럼 바뀐다.
 
 ```sql
 SELECT
@@ -222,55 +313,20 @@ HAVING COUNT(*) > 0
 ORDER BY count DESC, lastUpdatedAt DESC;
 ```
 
-cleanup SQL도 더 명확해진다.
+cleanup SQL은 아래처럼 매일 실행한다.
 
 ```sql
 DELETE FROM interests
-WHERE active = 0
-  AND updated_at < ?;
+WHERE active = 0;
 ```
-
-## 테이블 구조별 SQL 조정 메모
-
-### 구조 A: 기존 article_id에 모든 대상 ID 저장
-
-```sql
-SELECT article_id targetId, MAX(article_title) displayName, MAX(article_url) url, COUNT(*) count
-FROM interests
-WHERE active = 1
-GROUP BY article_id
-HAVING COUNT(*) > 0;
-```
-
-이 경우 `targetId` 접두사로 `article`/`project`를 구분한다.
-
-### 구조 B: target_type/target_id 명시 저장
-
-```sql
-SELECT target_id targetId, target_type targetType, MAX(display_name) displayName, MAX(url) url, COUNT(*) count
-FROM interests
-WHERE active = 1
-GROUP BY target_id, target_type
-HAVING COUNT(*) > 0;
-```
-
-### 구조 C: 집계 테이블 별도 저장
-
-```sql
-SELECT target_id, target_type, display_name, url, count, updated_at
-FROM interest_counts
-WHERE count > 0
-ORDER BY count DESC;
-```
-
-실제 Worker 코드의 기존 `/counts`, `/toggle` SQL을 확인한 뒤 그 테이블명과 컬럼명을 그대로 맞추는 것이 가장 안전하다.
 
 ## 수동 테스트
 
 Apps Script 배포 후 Worker에 임시 테스트 라우트 `/export-interest-to-sheets`를 열어두면 브라우저나 curl로 수동 실행할 수 있다.
 
 ```bash
-curl https://<worker-domain>/export-interest-to-sheets
+curl 'https://<worker-domain>/export-interest-to-sheets?mode=incremental'
+curl 'https://<worker-domain>/export-interest-to-sheets?mode=full'
 ```
 
 성공하면 `관심도_집계` 탭에 최신 D1 집계가 기록된다.
