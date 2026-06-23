@@ -4,12 +4,15 @@
     localVotes: "icakInterestLocalVotes",
     localCounts: "icakInterestLocalCounts",
   };
+  const HYDRATE_INTERVAL_MS = 60 * 1000;
 
   const params = new URLSearchParams(window.location.search);
   const previewEnabled = params.get("interest") === "1";
   const featureEnabled = Boolean(window.INTEREST_FEATURE_ENABLED) || previewEnabled;
   const API_ENDPOINT = String(window.INTEREST_API_ENDPOINT || "").replace(/\/$/, "");
   let marketRenderersWrapped = false;
+  let lastHydrateAt = 0;
+  let hydrateInFlight = false;
 
   if (!featureEnabled) {
     window.InterestFeature = { enabled: false, reason: "disabled_by_feature_flag" };
@@ -28,6 +31,7 @@
   ensureVisitorId();
   wrapMarketRenderers();
   [0, 50, 200, 700].forEach((delay) => setTimeout(wrapMarketRenderers, delay));
+  window.setInterval(() => hydrateVisibleButtons({ force: true }), HYDRATE_INTERVAL_MS);
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", scheduleEnhanceAll);
@@ -37,6 +41,7 @@
 
   function scheduleEnhanceAll() {
     [80, 400, 1000, 1800].forEach((delay) => setTimeout(enhanceAll, delay));
+    setTimeout(() => hydrateVisibleButtons({ force: true }), 1200);
     document.addEventListener("click", (event) => {
       if (
         event.target.closest(".detail-button") ||
@@ -51,6 +56,7 @@
     });
     document.addEventListener("input", () => setTimeout(enhanceAll, 300));
     document.addEventListener("change", () => setTimeout(enhanceAll, 300));
+    window.addEventListener("focus", () => hydrateVisibleButtons({ force: false }));
   }
 
   function wrapMarketRenderers() {
@@ -70,7 +76,7 @@
     enhanceMarketTable();
     enhanceTopNewsCards();
     enhanceProjectPage();
-    hydrateVisibleButtons();
+    hydrateVisibleButtons({ force: false });
   }
 
   function enhanceMarketRowNow(row, rowData = null) {
@@ -140,7 +146,7 @@
       const note = document.createElement("span");
       note.className = "interest-note";
       note.textContent = API_ENDPOINT
-        ? "같은 브라우저에서는 다시 눌러 관심을 취소할 수 있습니다."
+        ? "클릭 즉시 이 브라우저에 반영되고, 서버 누적 수는 주기적으로 동기화됩니다."
         : "현재는 브라우저 내 임시 저장 모드입니다. API 연결 후 전체 관심 수가 공유됩니다.";
       box.appendChild(note);
       panel.appendChild(box);
@@ -216,6 +222,7 @@
     button.addEventListener("click", (event) => {
       event.preventDefault();
       event.stopPropagation();
+      if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
       toggleInterest(button, story);
     });
     applyLocalState(button);
@@ -224,43 +231,46 @@
 
   async function toggleInterest(button, story) {
     const nextActive = !button.classList.contains("is-active");
-    setButtonLoading(story.id, true);
+    const optimisticCount = adjustLocalCount(story.id, nextActive ? 1 : -1);
+
+    setLocalVote(story.id, nextActive);
+    updateButtons(story.id, nextActive, optimisticCount);
+    setButtonSyncing(story.id, true);
+    refreshProjectAggregate();
+
+    if (!API_ENDPOINT) {
+      setButtonSyncing(story.id, false);
+      return;
+    }
 
     try {
-      if (API_ENDPOINT) {
-        const payload = await apiRequest("/toggle", {
-          method: "POST",
-          body: {
-            articleId: story.id,
-            articleTitle: story.title,
-            articleUrl: story.url || "",
-            visitorId: getVisitorId(),
-          },
-        });
-        setLocalVote(story.id, Boolean(payload.active));
-        updateLocalCount(story.id, Number(payload.count || 0));
-        updateButtons(story.id, Boolean(payload.active), Number(payload.count || 0));
-      } else {
-        const activeNow = setLocalVote(story.id, nextActive);
-        const count = adjustLocalCount(story.id, activeNow ? 1 : -1);
-        updateButtons(story.id, activeNow, count);
-      }
+      const payload = await apiRequest("/toggle", {
+        method: "POST",
+        body: {
+          articleId: story.id,
+          articleTitle: story.title,
+          articleUrl: story.url || "",
+          visitorId: getVisitorId(),
+        },
+      });
+      const active = Boolean(payload.active);
+      const count = Number(payload.count || 0);
+      setLocalVote(story.id, active);
+      updateLocalCount(story.id, count);
+      updateButtons(story.id, active, count);
+      lastHydrateAt = Date.now();
     } catch (error) {
       console.warn("Interest update failed:", error);
-      if (!API_ENDPOINT) {
-        const activeNow = setLocalVote(story.id, nextActive);
-        const count = adjustLocalCount(story.id, activeNow ? 1 : -1);
-        updateButtons(story.id, activeNow, count);
-      }
-      button.title = "관심 수 서버 저장 또는 조회에 실패했습니다. 잠시 후 새로고침해 주세요.";
+      document.querySelectorAll(`.interest-button[data-article-id="${cssEscape(story.id)}"]`).forEach((matchedButton) => {
+        matchedButton.title = "현재 브라우저에는 반영됐고, 서버 저장은 잠시 후 다시 시도해 주세요.";
+      });
     } finally {
-      setButtonLoading(story.id, false);
-      setTimeout(hydrateVisibleButtons, 300);
+      setButtonSyncing(story.id, false);
       refreshProjectAggregate();
     }
   }
 
-  async function hydrateVisibleButtons() {
+  async function hydrateVisibleButtons(options = {}) {
     const ids = [...new Set([...document.querySelectorAll(".interest-button")].map((button) => button.dataset.articleId).filter(Boolean))];
     if (!ids.length) return;
 
@@ -270,10 +280,21 @@
       return;
     }
 
+    const now = Date.now();
+    const shouldFetch = Boolean(options.force) || now - lastHydrateAt >= HYDRATE_INTERVAL_MS;
+    if (!shouldFetch || hydrateInFlight) {
+      ids.forEach((id) => updateButtons(id, hasLocalVote(id), getLocalCount(id)));
+      refreshProjectAggregate();
+      return;
+    }
+
+    hydrateInFlight = true;
+    lastHydrateAt = now;
+
     try {
       const chunks = chunkArray(ids, 80);
       for (const chunk of chunks) {
-        const query = `/counts?ids=${encodeURIComponent(chunk.join(","))}&visitorId=${encodeURIComponent(getVisitorId())}&_=${Date.now()}`;
+        const query = `/counts?ids=${encodeURIComponent(chunk.join(","))}&visitorId=${encodeURIComponent(getVisitorId())}&_=${Math.floor(now / HYDRATE_INTERVAL_MS)}`;
         const payload = await apiRequest(query, { method: "GET" });
         (payload.items || []).forEach((item) => {
           const id = clean(item.articleId);
@@ -286,10 +307,11 @@
       }
     } catch (error) {
       console.info("Interest count hydration skipped:", error);
-      document.querySelectorAll(".interest-button").forEach((button) => {
-        button.title = "서버 누적 관심 수를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.";
+      document.querySelectorAll(".interest-button").forEach((matchedButton) => {
+        matchedButton.title = "서버 누적 관심 수를 불러오지 못했습니다. 현재 브라우저 값으로 표시 중입니다.";
       });
     } finally {
+      hydrateInFlight = false;
       refreshProjectAggregate();
     }
   }
@@ -409,10 +431,10 @@
     updateButtons(button.dataset.articleId, hasLocalVote(button.dataset.articleId), getLocalCount(button.dataset.articleId));
   }
 
-  function setButtonLoading(articleId, isLoading) {
+  function setButtonSyncing(articleId, isSyncing) {
     document.querySelectorAll(`.interest-button[data-article-id="${cssEscape(articleId)}"]`).forEach((button) => {
-      button.classList.toggle("is-loading", isLoading);
-      button.disabled = isLoading;
+      button.classList.toggle("is-syncing", isSyncing);
+      button.disabled = false;
     });
   }
 
