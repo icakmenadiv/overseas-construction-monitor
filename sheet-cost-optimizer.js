@@ -26,31 +26,6 @@
 
   const pageName = () => window.location.pathname.split("/").pop() || "index.html";
 
-  const escapeQueryValue = (value) => String(value || "").replace(/'/g, "\\'");
-
-  const buildIdentityWhere = ({ idColumn, nameColumn, countryColumn, sectorColumn }) => {
-    const params = new URLSearchParams(window.location.search);
-    const projectId = params.get("id");
-    const name = params.get("name");
-    const country = params.get("country");
-    const sector = params.get("sector");
-    const clauses = [];
-
-    if (projectId) clauses.push(`${idColumn} = '${escapeQueryValue(projectId)}'`);
-    if (name) {
-      const nameClauses = [
-        `${nameColumn} = '${escapeQueryValue(name)}'`,
-        country ? `${countryColumn} = '${escapeQueryValue(country)}'` : "",
-        sector ? `${sectorColumn} = '${escapeQueryValue(sector)}'` : "",
-      ]
-        .filter(Boolean)
-        .join(" and ");
-      clauses.push(`(${nameClauses})`);
-    }
-
-    return clauses.join(" or ");
-  };
-
   const normalizeSheetUrl = (rawUrl) => {
     const url = new URL(rawUrl, window.location.href);
     const gid = url.searchParams.get("gid");
@@ -66,14 +41,8 @@
     }
 
     if (currentPage === "project.html" && gid === PROJECT_GID) {
-      url.searchParams.set("range", "A:M");
-      const where = buildIdentityWhere({
-        idColumn: "A",
-        nameColumn: "B",
-        countryColumn: "D",
-        sectorColumn: "E",
-      });
-      if (where) url.searchParams.set("tq", `select * where ${where}`);
+      url.searchParams.set("range", "A1:M10000");
+      url.searchParams.delete("tq");
     }
 
     if (currentPage === "project.html" && gid === RESULT_GID) {
