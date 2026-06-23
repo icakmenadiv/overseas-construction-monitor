@@ -28,7 +28,7 @@
 
   const escapeQueryValue = (value) => String(value || "").replace(/'/g, "\\'");
 
-  const buildIdentityWhere = ({ idColumn, nameColumn, countryColumn, sectorColumn, requireId = false }) => {
+  const buildIdentityWhere = ({ idColumn, nameColumn, countryColumn, sectorColumn }) => {
     const params = new URLSearchParams(window.location.search);
     const projectId = params.get("id");
     const name = params.get("name");
@@ -37,7 +37,7 @@
     const clauses = [];
 
     if (projectId) clauses.push(`${idColumn} = '${escapeQueryValue(projectId)}'`);
-    if (!requireId && name) {
+    if (name) {
       const nameClauses = [
         `${nameColumn} = '${escapeQueryValue(name)}'`,
         country ? `${countryColumn} = '${escapeQueryValue(country)}'` : "",
@@ -78,18 +78,7 @@
 
     if (currentPage === "project.html" && gid === RESULT_GID) {
       url.searchParams.set("range", "A:R");
-      const where = buildIdentityWhere({
-        idColumn: "H",
-        nameColumn: "I",
-        countryColumn: "D",
-        sectorColumn: "E",
-        requireId: true,
-      });
-      if (where) {
-        url.searchParams.set("tq", `select * where ${where}`);
-      } else {
-        url.searchParams.delete("tq");
-      }
+      url.searchParams.delete("tq");
     }
 
     url.searchParams.sort();
