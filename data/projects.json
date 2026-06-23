@@ -12870,6 +12870,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "BWA-ENERGY-TATI-SOLAR-100MW",
+    "프로젝트명": "Tati Solar Project",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "에너지",
+    "발주처": "Tati Solar (Pty) Ltd / Etavi Renewables / Shumba Energy / Rand Merchant Bank",
+    "사업비(달러 기준 추정액)": "약 USD 100백만",
+    "사업비 환산 환율 / 기준": "Renewables Now 2026-06-22 기준 RMB 금융 패키지 USD 100m, Shumba 공시 기준 투자액 BWP 1bn+.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-005300",
+    "비고": "Francistown 인근 North-East District 특구 내 100MW 태양광 발전소. Etavi Renewables가 공동 개발하고 Tati Solar(Pty)가 보유하며, 전력은 Southern African Power Pool 시장에 판매 예정. 2027년 상업운전 목표, full notice to proceed 및 현장 동원 확인. 후속 EPC 세부, 공정률, 계통연계, 상업운전 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BWA-RAIL-TRANS-KALAHARI",
     "프로젝트명": "Trans-Kalahari Railway Project",
     "지역": "아프리카",
@@ -16380,6 +16395,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ISR-ENERGY-ASHALIM-PV-BESS",
+    "프로젝트명": "Ashalim PV and Battery Energy Storage Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "에너지",
+    "발주처": "Shikun & Binui Energy / Noy Fund / Negev Energy PV / State of Israel BOT concession",
+    "사업비(달러 기준 추정액)": "약 170백만 달러",
+    "사업비 환산 환율 / 기준": "Magdilim 2026-06-23 기준 건설비 NIS 589~619m 및 금융약정 NIS 557m, 약 USD 170m 수준 추정",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005288",
+    "비고": "Ashalim 기존 태양열 BOT 단지 내 150MW PV와 460MWh ESS를 결합하는 프로젝트. Bank Leumi 금융약정 체결, 2027년 상업운전 전망. 후속 EPC·계통연계·준공·상업운전 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ISR-IND-TZVAIM-WEST-INDUSTRIAL-PARK",
+    "프로젝트명": "Tzvaim West Industrial Park Expansion Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "산업·물류",
+    "발주처": "Israel Land Authority / Beit She'an Municipality / Emek HaMa'ayanot Regional Council",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005289",
+    "비고": "Tzvaim West 산업단지 약 375두남 계획구역, 산업용지 214두남 추가, 약 238,000㎡ 건축권, 도로 47두남·주차장 2두남·공공녹지 110두남 포함. 예치 승인 이후 인프라 조성 및 산업용지 개발 단계 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ISR-LRT-GUSH-DAN-PURPLE-LINE",
     "프로젝트명": "Gush Dan Purple Line Light Rail Project",
     "지역": "중동",
@@ -16528,6 +16573,21 @@
     "대표 기사 고유값": "ART-20260616-003613",
     "비고": "Ashkelon 도심의 신규 중심업무지구 복합개발 계획. 27층 주거타워 4동, 20층 시청 타워, 10층 업무·상업타워, 대형 지하주차장과 공공·문화시설을 포함. 예치 이후 인허가, 재원, 시공 패키지 후속 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "ISR-URBAN-HADERA-MITCHAM13",
+    "프로젝트명": "Hadera Mitcham 13 New Residential District Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "도시개발·주택",
+    "발주처": "Israel Land Authority / Hadera Municipality / Haifa District Planning and Building Committee",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260621-005291",
+    "비고": "Hadera 북부 국유지 약 310두남에 약 3,000가구, 공공시설, 녹지, 상업·고용공간을 조성하는 신규 주거지 계획. 실제 예치 단계이며 후속 승인, 택지개발, 인프라 패키지 발주 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "ISR-URBAN-KIRYATSHMONA-NAHALIM-QUARTER",
@@ -16737,6 +16797,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260618-004200",
     "비고": "관련 기사: ART-20260611-001173, ART-20260618-004200. Aqaba-Amman 대형 담수화·송수 PPP. 연 3억㎥ 담수화, 438~450km 송수시스템, 약 281MWp 재생에너지 구성. Meridiam-Suez 컨소시엄 최종 제안 제출 이후 KfW/독일 1억2,700만 유로 보조금 협정이 확인되어 financing 단계로 갱신. 후속 금융종결·계약 체결 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JOR-WATER-WADI-ARABA-HARVESTING",
+    "프로젝트명": "Wadi Araba Water Harvesting Infrastructure Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "수자원·환경",
+    "발주처": "Jordan Valley Authority / Ministry of Planning and International Cooperation / Jordan-Japan Counterpart Fund",
+    "사업비(달러 기준 추정액)": "약 USD 0.24백만 추정",
+    "사업비 환산 환율 / 기준": "Petra 2026-06-23 기준 JD 169,342, 1 JOD≈USD 1.41 간이 환산",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005286",
+    "비고": "Aqaba 주 Wadi Araba의 소규모 물 수확 인프라 프로젝트. Jordan-Japan Counterpart Fund 재원으로 Jordan Valley Authority를 지원하며, 강우 수집과 물 수확 기술 개선을 통해 농업·축산 지역의 물 부족과 기후적응을 보완하는 사업이다. 후속 실제 공사 착수, 시설 범위, 준공 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -18330,6 +18405,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MAR-ENERGY-KHALLADI-WIND-EXPANSION",
+    "프로젝트명": "Khalladi Wind Farm 40MW Expansion Project",
+    "지역": "중동",
+    "국가": "모로코",
+    "섹터": "에너지",
+    "발주처": "ACWA Maroc / ACWA Power",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Médias24 2026-06-23 기준 기존 120MW Khalladi 풍력단지는 MAD 1.8bn; 40MW 확장 사업비는 미공개.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005281",
+    "비고": "탕헤르 동쪽 약 50km Jbel Sendouq의 기존 120MW Khalladi 풍력발전단지 40MW 확장 계획. ACWA Maroc가 산업 고객 대상 탈탄소 전력 공급 확대를 목표로 검토 중이며, 확장 후 총 설비용량은 160MW가 될 예정. 후속 인허가, PPA·산업고객 계약, 금융조달, EPC/터빈 조달 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MAR-PORT-CASABLANCA-MPT-DEEPENING",
     "프로젝트명": "Casablanca Port Multipurpose Terminal Deepening Project",
     "지역": "중동",
@@ -19035,6 +19125,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "MOZ-OILGAS-ROVUMA-LNG",
+    "프로젝트명": "Rovuma LNG Project",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "석유가스·화학",
+    "발주처": "ExxonMobil / Eni / CNPC / ADNOC / Mozambique Rovuma Venture (Area 4 partners)",
+    "사업비(달러 기준 추정액)": "약 USD 25,000백만",
+    "사업비 환산 환율 / 기준": "TXF 2026-06-22 기준 $25bn Rovuma LNG project. 기존 Coral Norte FLNG와 별도 onshore LNG 금융조달 후보로 관리.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-005302",
+    "비고": "Rovuma Basin Area 4의 대형 LNG 개발사업. 2026-06-22 TXF 기준 스폰서들이 연내 은행단 위임을 추진할 것으로 보도됐으며, UKEF 등 ECA 지원 여부와 상업은행 금융 구조가 후속 관찰 대상임. 금융기관 위임, 금융종결, EPC·초기공사 패키지 전환 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MOZ-RAIL-RESSANO-GARCIA-DOUBLING",
     "프로젝트명": "Ressano Garcia Railway Line Doubling Phase 2",
     "지역": "아프리카",
@@ -19215,6 +19320,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NGA-IND-HASETINS-UKE-RARE-EARTH-PLANT",
+    "프로젝트명": "Hasetins Uke Rare Earth Processing Plant Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "산업·물류",
+    "발주처": "Hasetins Commodities Ltd",
+    "사업비(달러 기준 추정액)": "약 USD 400백만",
+    "사업비 환산 환율 / 기준": "ThisDay 2026-06-19 기준 $400m rare earth processing plant",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260619-005295",
+    "비고": "Nasarawa State Uke 희토류 가공 플랜트. 나이지리아 최초의 대형 희토류 가공시설로 소개됐으며 1만 개 일자리와 첨단 제조 가치사슬 편입 효과가 제시됨. 후속 공정률, 기자재·EPC, 시운전·상업운전 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NGA-IND-OGUN-SAPZ-GARMENT-POWER-ACCESS",
     "프로젝트명": "Ogun SAPZ Garment Training Centre, Power Facility and Access Roads Project",
     "지역": "아프리카",
@@ -19290,6 +19410,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NGA-ROAD-ABIDJAN-LAGOS-CORRIDOR-HIGHWAY",
+    "프로젝트명": "Abidjan-Lagos Corridor Highway Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "ECOWAS / Abidjan-Lagos Corridor Management Authority (ALCOMA) / corridor states",
+    "사업비(달러 기준 추정액)": "약 USD 15,000백만",
+    "사업비 환산 환율 / 기준": "Guardian Nigeria 2026-06-22 기준 $15bn corridor highway",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-005297",
+    "비고": "코트디부아르-가나-토고-베냉-나이지리아를 잇는 서아프리카 고속도로 회랑. Project Implementation Board 활성화로 투자 유치·실행 체계가 전환되는 단계로 확인됨. 나이지리아 구간, PPP/금융 구조, 본공사 패키지 발주를 같은 프로젝트로 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NGA-ROAD-AKWANGA-MAIDUGURI-DUALISATION",
     "프로젝트명": "Akwanga-Jos-Bauchi-Gombe-Biu-Maiduguri Dual Carriageway Project",
     "지역": "아프리카",
@@ -19317,6 +19452,36 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260620-004921",
     "비고": "Abuja Katampe District의 Collector Road CN2 및 Important Local Street 5 도로망. Katampe, Mabushi, Jahi, Maitama 연결 개선 및 주변 민간개발 촉진 효과가 언급됨. 준공 완료 프로젝트로 신규 수주 relevance는 낮지만 FCT 위성·도심 연결도로 후속 패키지 추적에 참고.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ROAD-FCT-N16-CO1-INSTITUTION-RESEARCH",
+    "프로젝트명": "FCT Arterial Road N16 and Collector Road CO1 Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "Federal Capital Territory Administration (FCTA)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005298",
+    "비고": "Abuja Institution and Research District 접근성 개선을 위한 N16 및 Collector Road CO1 공사. Ring Road II~III 구간, 두 개 인터체인지와 약 6km 도로를 포함하며 CGC Nigeria가 수행 중임. 후속 준공 또는 별도 패키지 발주 확인 시 업데이트.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ROAD-FCT-SOUTHERN-PARKWAY-SERVICE-LANES",
+    "프로젝트명": "FCT Southern Parkway Service Lanes Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "Federal Capital Territory Administration (FCTA)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005299",
+    "비고": "Abuja Southern Parkway Arterial Road N16 서비스도로 및 Wasa·Apo 교량 포함 공사. CGC Nigeria가 수행 중이며 2026년 5월 완공 목표가 제시됨. FCT Katampe·Kuje-Airport 등 기존 도로 프로젝트와 노선·범위가 달라 별도 프로젝트로 관리.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -22063,6 +22228,21 @@
     "대표 기사 고유값": "ART-20260622-005098",
     "비고": "White Nile주 Jebel Awliya-Rabak 연결도로의 Kawa-Shawal 구간 보수 프로젝트. 피해가 큰 구간으로 확인되어 주정부 현장점검과 서비스 개선 지원이 이어졌으며, 후속 공사범위·사업비·시공사·준공 일정 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "SDN-URBAN-ATBARA-SUIDACII-INFRA",
+    "프로젝트명": "Atbara SUIDAC II Rehabilitation and Infrastructure Development Activities",
+    "지역": "중동",
+    "국가": "수단",
+    "섹터": "도시개발·주택",
+    "발주처": "International Organization for Migration (IOM Sudan)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "IOM Sudan 2026-06-21 공고 기준 사업비 미공개. Atbara SUIDAC II 하위 도시 인프라 재활·개발 civil works 입찰.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260621-005292",
+    "비고": "River Nile State Atbara 도시권 SUIDAC II 하위 인프라 재활·개발 공사. 2026-06-21 게시, 2026-07-25 마감으로 확인되며, 후속 낙찰자 선정·계약·착공 여부를 같은 프로젝트 고유값으로 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "SDN-WATER-GEDAREF-RADICAL-SOLUTION",
