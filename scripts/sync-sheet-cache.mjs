@@ -5,9 +5,10 @@ import path from "node:path";
 const SHEET_ID = "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E";
 const RESULT_GID = "748239675";
 const PROJECT_GID = "20260612";
-const RESULT_RANGE = "A1:R50000";
+const RESULT_RANGE = "A1:Z50000";
 const PROJECT_RANGE = "A1:M20000";
 const DATA_DIR = "data";
+const MODE = parseMode();
 
 const ARTICLE_ID_COLUMN = "기사 고유값";
 const PROJECT_ID_COLUMN = "프로젝트 고유값";
@@ -25,8 +26,10 @@ async function main() {
     fetchSheetRows(PROJECT_GID, PROJECT_RANGE),
   ]);
 
-  const cleanArticles = normalizeRows(articles, ARTICLE_ID_COLUMN).sort(compareArticleRows);
-  const cleanProjects = normalizeRows(projects, PROJECT_ID_COLUMN).sort(compareProjectRows);
+  const sheetArticles = normalizeRows(articles, ARTICLE_ID_COLUMN);
+  const sheetProjects = normalizeRows(projects, PROJECT_ID_COLUMN);
+  const cleanArticles = mergeRows(previousArticles, sheetArticles, ARTICLE_ID_COLUMN, MODE).sort(compareArticleRows);
+  const cleanProjects = mergeRows(previousProjects, sheetProjects, PROJECT_ID_COLUMN, MODE).sort(compareProjectRows);
 
   const articleDiff = diffRows(previousArticles, cleanArticles, ARTICLE_ID_COLUMN);
   const projectDiff = diffRows(previousProjects, cleanProjects, PROJECT_ID_COLUMN);
@@ -38,6 +41,7 @@ async function main() {
       projectGid: PROJECT_GID,
       resultRange: RESULT_RANGE,
       projectRange: PROJECT_RANGE,
+      mode: MODE,
     },
     counts: {
       articles: cleanArticles.length,
@@ -61,10 +65,15 @@ async function main() {
   ]);
 
   console.log(
-    `Synced ${cleanArticles.length} articles and ${cleanProjects.length} projects. ` +
+    `Synced ${cleanArticles.length} articles and ${cleanProjects.length} projects in ${MODE} mode. ` +
       `Articles +${articleDiff.added.length}/~${articleDiff.updated.length}/-${articleDiff.removed.length}, ` +
       `Projects +${projectDiff.added.length}/~${projectDiff.updated.length}/-${projectDiff.removed.length}.`,
   );
+}
+
+function parseMode() {
+  const rawMode = process.argv.find((arg) => arg.startsWith("--mode="))?.split("=")[1] || process.env.SYNC_MODE || "quick";
+  return rawMode === "reconcile" || rawMode === "full" ? "reconcile" : "quick";
 }
 
 async function fetchSheetRows(gid, range) {
@@ -116,6 +125,19 @@ function normalizeRows(rows, idColumn) {
       seen.add(id);
       return true;
     });
+}
+
+function mergeRows(previousRows, sheetRows, idColumn, mode) {
+  if (mode === "reconcile") return sheetRows;
+
+  const merged = new Map();
+  previousRows
+    .filter((row) => row?.[idColumn])
+    .forEach((row) => merged.set(row[idColumn], row));
+  sheetRows
+    .filter((row) => row?.[idColumn])
+    .forEach((row) => merged.set(row[idColumn], row));
+  return [...merged.values()];
 }
 
 function compareArticleRows(a, b) {
