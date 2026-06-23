@@ -81,6 +81,7 @@
 
   const normalizeTopNewsCards = () => {
     document.querySelectorAll("#topNewsCards .top-news-card").forEach((card) => {
+      const toggle = card.querySelector(".top-news-toggle");
       const title = card.querySelector("h3");
       let badgeRow = card.querySelector(".card-badge-row");
       const badgeRows = [...card.querySelectorAll(".card-badge-row")];
@@ -94,15 +95,16 @@
         badgeRow = document.createElement("div");
         badgeRow.className = "card-badge-row";
         badgeRow.setAttribute("aria-label", "기사 분류와 키워드");
-        if (title?.nextSibling) {
-          title.parentNode.insertBefore(badgeRow, title.nextSibling);
-        } else if (title) {
-          title.after(badgeRow);
-        } else {
-          card.prepend(badgeRow);
+      }
+
+      if (toggle) {
+        if (badgeRow.parentElement !== card || badgeRow.previousElementSibling !== toggle) {
+          toggle.after(badgeRow);
         }
       } else if (title && badgeRow.previousElementSibling !== title) {
         title.after(badgeRow);
+      } else if (!title && badgeRow.parentElement !== card) {
+        card.prepend(badgeRow);
       }
 
       const plainTopics = [...card.children].filter(
