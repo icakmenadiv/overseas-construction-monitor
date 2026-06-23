@@ -109,11 +109,12 @@
               <span
                 class="sort-help"
                 tabindex="0"
-                aria-label="관심도순은 하트 관심 수가 높은 기사를 우선 표시합니다. 중요도순은 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
+                aria-label="관심도순은 스프레드시트 관심도 집계 열의 수치를 기준으로 정렬합니다. 중요도순은 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
               >?</span>
             </div>
             <select id="sortSelect">
               <option value="중요도:desc" selected>중요도순</option>
+              <option value="interest:desc">관심도순</option>
               <option value="기사수집일:desc">업데이트일순</option>
               <option value="원문게재일:desc">원문게재일 최신순</option>
               <option value="원문게재일:asc">원문게재일 오래된순</option>
@@ -131,26 +132,11 @@
       </section>
 
       <section class="summary-grid" aria-label="요약 지표">
-        <article class="summary-item">
-          <span>전체 기사 수</span>
-          <strong id="totalCount">0</strong>
-        </article>
-        <article class="summary-item">
-          <span>필터 적용 후</span>
-          <strong id="filteredCount">0</strong>
-        </article>
-        <article class="summary-item">
-          <span>국가 수</span>
-          <strong id="countryCount">0</strong>
-        </article>
-        <article class="summary-item">
-          <span>섹터 수</span>
-          <strong id="sectorCount">0</strong>
-        </article>
-        <article class="summary-item">
-          <span>최근 원문게재일</span>
-          <strong id="latestDate">-</strong>
-        </article>
+        <article class="summary-item"><span>전체 기사 수</span><strong id="totalCount">0</strong></article>
+        <article class="summary-item"><span>필터 적용 후</span><strong id="filteredCount">0</strong></article>
+        <article class="summary-item"><span>국가 수</span><strong id="countryCount">0</strong></article>
+        <article class="summary-item"><span>섹터 수</span><strong id="sectorCount">0</strong></article>
+        <article class="summary-item"><span>최근 원문게재일</span><strong id="latestDate">-</strong></article>
       </section>
 
       <section class="results-section market-results-section" aria-label="뉴스 결과">
@@ -219,7 +205,7 @@
       (() => {
         try {
           const versionKey = "marketFilterSchemaVersion";
-          const currentVersion = "20260617-importance-v3";
+          const currentVersion = "20260623-clean-1";
           const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
           saved.sort = saved.sort || "중요도:desc";
           saved.highPriorityOnly = false;
@@ -231,20 +217,10 @@
       })();
     </script>
     <script src="./sheet-cost-optimizer.js?v=20260623-1"></script>
-    <script src="./app.js?v=20260617-2"></script>
+    <script src="./app.js?v=20260623-clean-1"></script>
     <script src="./robust-date-parser.js?v=20260619-1"></script>
-    <script src="./market-filter-robustness-fix.js?v=20260619-1"></script>
-    <script src="./filter-hover.js?v=20260617-3"></script>
-    <script src="./market-filter-click-only.js?v=20260617-1"></script>
-    <script src="./market-filter-select-toggle.js?v=20260617-2"></script>
     <script src="./market-all-period.js?v=20260617-3"></script>
-    <script src="./market-date-helper.js?v=20260617-4"></script>
     <script src="./market-card-row-expand.js?v=20260623-2"></script>
-    <script src="./interest-config.js?v=20260623-2"></script>
-    <script src="./interest.js?v=20260623-2"></script>
-    <script src="./interest-behavior-fix.js?v=20260623-2"></script>
-    <script src="./interest-sort-enhancement.js?v=20260623-2"></script>
-    <script src="./mobile-list-cards.js?v=20260619-1"></script>
-    <script src="./header-copy.js?v=20260623-3"></script>
+    <script src="./interest.js?v=20260623-clean-1"></script>
   </body>
 </html>
