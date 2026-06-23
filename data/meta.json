@@ -1,0 +1,31 @@
+{
+  "updatedAt": "",
+  "source": {
+    "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
+    "resultGid": "748239675",
+    "projectGid": "20260612",
+    "resultRange": "A1:R50000",
+    "projectRange": "A1:M20000"
+  },
+  "counts": {
+    "articles": 0,
+    "projects": 0
+  },
+  "diff": {
+    "articles": {
+      "added": [],
+      "updated": [],
+      "removed": []
+    },
+    "projects": {
+      "added": [],
+      "updated": [],
+      "removed": []
+    }
+  },
+  "latest": {
+    "articleCollectedDate": "",
+    "articlePublishedDate": "",
+    "projectUpdatedDate": ""
+  }
+}
