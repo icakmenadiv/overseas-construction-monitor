@@ -1,11 +1,14 @@
 (() => {
   const RUN_DELAYS = [0, 120, 360, 900, 1800, 3200];
   let queued = false;
+  let initialized = false;
 
   document.addEventListener("DOMContentLoaded", init);
   if (document.readyState !== "loading") init();
 
   function init() {
+    if (initialized) return;
+    initialized = true;
     injectStyles();
     patchMenuLabels();
     RUN_DELAYS.forEach((delay) => setTimeout(run, delay));
@@ -25,6 +28,7 @@
 
   function run() {
     patchMenuLabels();
+    moveSortFieldToTop();
     setupCollapsibleFilters();
     updateFilterSummaries();
     enhanceTopNewsCards();
@@ -36,6 +40,17 @@
     const navLinks = document.querySelectorAll(".page-nav a");
     if (navLinks[0]) navLinks[0].textContent = "해외 건설시장 뉴스";
     if (navLinks[1]) navLinks[1].textContent = "프로젝트 목록";
+  }
+
+  function moveSortFieldToTop() {
+    const sort = document.getElementById("sortSelect");
+    const sortField = sort?.closest(".field");
+    const topActions = document.querySelector(".control-panel .filter-top-actions");
+    if (!sort || !sortField || !topActions || sortField.dataset.sortTopReady === "true") return;
+
+    sortField.classList.add("sort-field-top");
+    sortField.dataset.sortTopReady = "true";
+    topActions.appendChild(sortField);
   }
 
   function setupCollapsibleFilters() {
@@ -113,29 +128,34 @@
   }
 
   function ensureTopNewsBadges(card, row) {
-    let wrap = card.querySelector(".top-news-badges");
-    if (!wrap) {
-      wrap = document.createElement("div");
+    const badgeGroups = [...card.querySelectorAll(".top-news-badges")];
+    const wrap = badgeGroups[0] || document.createElement("div");
+    badgeGroups.slice(1).forEach((group) => group.remove());
+    if (!wrap.parentElement) {
       wrap.className = "top-news-badges";
       const title = card.querySelector("h3");
       title?.insertAdjacentElement("afterend", wrap);
     }
-    if (!wrap || wrap.dataset.badgeReady === row?.dataset.rowId) return;
 
     const cells = row ? [...row.children] : [];
     const keyword = clean(cells.find((cell) => clean(cell.dataset.label) === "핵심 키워드")?.textContent);
     const infoClass = clean(cells.find((cell) => clean(cell.dataset.label) === "정보 분류")?.textContent);
     const country = clean(cells.find((cell) => clean(cell.dataset.label) === "국가")?.querySelector(".country-name")?.textContent);
+    const signature = [infoClass, country, keyword].join("|") || "static";
+    if (wrap.dataset.badgeSignature === signature) return;
+
     wrap.innerHTML = [
       infoClass ? `<span class="top-news-badge is-info">${escapeHtml(infoClass)}</span>` : "",
       country ? `<span class="top-news-badge">${escapeHtml(country)}</span>` : "",
       keyword ? `<span class="top-news-badge is-keyword">${escapeHtml(keyword)}</span>` : "",
     ].join("");
-    wrap.dataset.badgeReady = row?.dataset.rowId || "static";
+    wrap.dataset.badgeSignature = signature;
   }
 
   function ensureOpenHint(card) {
-    if (card.querySelector(".top-news-open-hint")) return;
+    const hints = [...card.querySelectorAll(".top-news-open-hint")];
+    hints.slice(1).forEach((hint) => hint.remove());
+    if (hints[0]) return;
     const hint = document.createElement("span");
     hint.className = "top-news-open-hint";
     hint.textContent = "카드 클릭 시 목록 상세 열기";
@@ -146,9 +166,7 @@
     const row = findMatchingArticleRow(card);
     if (!row) return;
     const button = row.querySelector(".detail-button");
-    if (button?.getAttribute("aria-expanded") !== "true") {
-      button?.click();
-    }
+    if (button?.getAttribute("aria-expanded") !== "true") button?.click();
     requestAnimationFrame(() => row.scrollIntoView({ behavior: "smooth", block: "center" }));
   }
 
@@ -168,21 +186,28 @@
 
   function enhanceFeaturedProjectCards() {
     document.querySelectorAll(".featured-project-card").forEach((card) => {
-      if (card.dataset.coreBadgeReady === "true") return;
       const link = card.querySelector("a");
       if (!link) return;
+      const badgeGroups = [...link.querySelectorAll(".featured-project-badges")];
+      const wrap = badgeGroups[0] || document.createElement("span");
+      badgeGroups.slice(1).forEach((group) => group.remove());
+      if (!wrap.parentElement) {
+        wrap.className = "featured-project-badges";
+        link.appendChild(wrap);
+      }
+
       const cost = clean(card.querySelector(".featured-cost")?.textContent);
       const metaParts = clean(card.querySelector(".featured-meta")?.textContent).split("·").map(clean).filter(Boolean);
       const keyword = clean(card.querySelector(".featured-keyword")?.textContent);
-      const wrap = document.createElement("span");
-      wrap.className = "featured-project-badges";
+      const signature = [cost, metaParts[2], keyword].join("|");
+      if (wrap.dataset.badgeSignature === signature) return;
+
       wrap.innerHTML = [
         cost ? `<span class="featured-project-badge is-cost">${escapeHtml(cost)}</span>` : "",
         metaParts[2] ? `<span class="featured-project-badge is-stage">${escapeHtml(metaParts[2])}</span>` : "",
         keyword && keyword !== "키워드 미확인" ? `<span class="featured-project-badge">${escapeHtml(keyword)}</span>` : "",
       ].join("");
-      link.appendChild(wrap);
-      card.dataset.coreBadgeReady = "true";
+      wrap.dataset.badgeSignature = signature;
     });
   }
 
@@ -202,6 +227,10 @@
         .dashboard>.control-panel,.dashboard>.featured-projects,.dashboard>.results-section{grid-column:1}
         .dashboard>.summary-grid{grid-column:2;grid-row:1 / span 3;position:sticky;top:16px;z-index:4;align-self:start}
       }
+      .filter-top-actions{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+      .sort-field-top{display:flex;align-items:center;gap:8px;margin-left:auto;min-width:220px}
+      .sort-field-top label,.sort-field-top .sort-label-row{margin:0;white-space:nowrap}
+      .sort-field-top select{min-width:180px}
       .filter-collapse{width:100%}
       .filter-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:42px;padding:10px 12px;border:1px solid rgba(30,41,59,.14);border-radius:8px;background:#fff;cursor:pointer;list-style:none}
       .filter-summary::-webkit-details-marker{display:none}
@@ -219,6 +248,11 @@
       .top-news-badge.is-keyword{background:#f8fafc;color:#334155}
       .featured-project-badge.is-cost{background:#fff7ed;color:#9a3412}
       .top-news-open-hint{display:inline-flex;margin-top:8px;color:#475569;font-size:.86rem}
+      @media (max-width:720px){
+        .filter-top-actions{align-items:stretch}
+        .sort-field-top{width:100%;margin-left:0;justify-content:space-between}
+        .sort-field-top select{flex:1;min-width:0}
+      }
     `;
     document.head.appendChild(style);
   }
