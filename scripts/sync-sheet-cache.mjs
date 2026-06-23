@@ -12,6 +12,8 @@ const MODE = parseMode();
 
 const ARTICLE_ID_COLUMN = "기사 고유값";
 const PROJECT_ID_COLUMN = "프로젝트 고유값";
+const MIN_ARTICLE_ROWS = 100;
+const MIN_PROJECT_ROWS = 20;
 
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
@@ -28,6 +30,9 @@ async function main() {
 
   const sheetArticles = normalizeRows(articles, ARTICLE_ID_COLUMN);
   const sheetProjects = normalizeRows(projects, PROJECT_ID_COLUMN);
+  assertHealthySheetRead(sheetArticles, previousArticles, ARTICLE_ID_COLUMN, "articles", MIN_ARTICLE_ROWS);
+  assertHealthySheetRead(sheetProjects, previousProjects, PROJECT_ID_COLUMN, "projects", MIN_PROJECT_ROWS);
+
   const cleanArticles = mergeRows(previousArticles, sheetArticles, ARTICLE_ID_COLUMN, MODE).sort(compareArticleRows);
   const cleanProjects = mergeRows(previousProjects, sheetProjects, PROJECT_ID_COLUMN, MODE).sort(compareProjectRows);
 
@@ -138,6 +143,17 @@ function mergeRows(previousRows, sheetRows, idColumn, mode) {
     .filter((row) => row?.[idColumn])
     .forEach((row) => merged.set(row[idColumn], row));
   return [...merged.values()];
+}
+
+function assertHealthySheetRead(sheetRows, previousRows, idColumn, label, minimumRows) {
+  if (sheetRows.length >= minimumRows) return;
+
+  const previousCount = previousRows.filter((row) => row?.[idColumn]).length;
+  const detail = `${label} sheet read returned ${sheetRows.length} valid rows; previous cache has ${previousCount}.`;
+  if (previousCount > 0) {
+    throw new Error(`${detail} Refusing to overwrite a populated cache with a suspiciously small result.`);
+  }
+  throw new Error(`${detail} Refusing to create an empty or incomplete cache.`);
 }
 
 function compareArticleRows(a, b) {
