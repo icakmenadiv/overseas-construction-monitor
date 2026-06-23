@@ -2,6 +2,7 @@
   const SHEET_ID = "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E";
   const RESULT_GID = "748239675";
   const PROJECT_GID = "20260612";
+  const PROJECT_RANGE = "A1:M20000";
   const CACHE_PREFIX = "sheetCostCache:";
   const CACHE_TTL_MS = 10 * 60 * 1000;
   const MAX_CACHE_CHARS = 4_500_000;
@@ -31,18 +32,14 @@
     const gid = url.searchParams.get("gid");
     const currentPage = pageName();
 
-    if (currentPage === "projects.html" && gid === PROJECT_GID) {
-      url.searchParams.set("range", "A1:M10000");
+    if ((currentPage === "projects.html" || currentPage === "project.html") && gid === PROJECT_GID) {
+      url.searchParams.set("range", PROJECT_RANGE);
+      if (currentPage === "project.html") url.searchParams.delete("tq");
     }
 
     if (currentPage === "projects.html" && gid === RESULT_GID) {
       url.searchParams.set("range", "A:R");
       url.searchParams.set("tq", "select F,J where J is not null");
-    }
-
-    if (currentPage === "project.html" && gid === PROJECT_GID) {
-      url.searchParams.set("range", "A1:M10000");
-      url.searchParams.delete("tq");
     }
 
     if (currentPage === "project.html" && gid === RESULT_GID) {
