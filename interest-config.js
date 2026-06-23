@@ -1,11 +1,12 @@
 // Anonymous interest-heart feature configuration.
 //
-// Production mode:
-// - INTEREST_FEATURE_ENABLED true shows hearts on normal site URLs.
-// - INTEREST_API_ENDPOINT stores and reads shared counts through Cloudflare Worker + D1.
+// Counts are displayed from the static sheet cache. Clicks update the browser
+// immediately for the current visitor, while shared totals follow the next
+// spreadsheet-to-GitHub cache sync.
 
 window.INTEREST_FEATURE_ENABLED = true;
-window.INTEREST_API_ENDPOINT = "https://icak-interest-api.icak-mena-div.workers.dev";
+window.INTEREST_API_ENDPOINT = "";
+window.INTEREST_COUNT_COLUMNS = ["관심도", "관심도 집계", "관심수", "하트수", "관심도 수치"];
 
 (() => {
   const params = new URLSearchParams(window.location.search);
