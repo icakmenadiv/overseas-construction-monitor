@@ -4,6 +4,25 @@
 
 관심도는 기사뿐 아니라 프로젝트 자체에도 붙을 수 있으므로, export 스키마는 `기사`가 아니라 `관심대상` 기준으로 운영한다.
 
+## 권장 데이터 흐름
+
+- Cloudflare Worker/D1: 실시간 관심도 원천 저장소
+- Apps Script Web App: Worker가 내보낸 JSON을 받아 Google Sheets에 기록하는 수신 endpoint
+- Google Sheets `관심도_집계`: 에이전트 분석 및 운영자 확인용 snapshot
+
+즉, Cloudflare가 Google Sheets로 `내보내고(export)`, Apps Script가 이를 `받아와서(import/receive)` 시트에 쓴다.
+
+## 0건 관심도 처리 원칙
+
+장기 운영 기준 권장 방식은 아래와 같다.
+
+1. Worker export SQL은 `active = 1` 또는 집계 count가 1 이상인 대상만 내보낸다.
+2. Apps Script도 방어적으로 `관심수 <= 0` 행은 시트에 쓰지 않는다.
+3. Sheets는 매번 snapshot 방식으로 덮어쓴다. 따라서 기존에 관심수 1이었다가 0이 된 대상은 다음 export 때 시트에서 자동으로 사라진다.
+4. Cloudflare D1에는 토글 이력/비활성 row가 남을 수 있으므로, 장기적으로는 `active = 0 AND updated_at < 90일 전` 같은 cleanup을 Worker cron에 추가하는 것이 좋다.
+
+이렇게 하면 운영 시트는 항상 현재 관심도가 있는 대상만 보이고, D1은 사용자별 중복 방지와 이력 관리를 유지하면서도 오래된 비활성 데이터가 무한히 쌓이지 않는다.
+
 ## 대상 스프레드시트
 
 - Spreadsheet ID: `11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E`
@@ -19,7 +38,7 @@
 | C | 관심대상ID | 관심도 기능에서 쓰는 ID. 예: `article-...`, `project-...` |
 | D | 표시명 | 기사 제목 또는 프로젝트명 |
 | E | URL | 기사 원문 URL 또는 프로젝트 상세 URL |
-| F | 관심수 | 서버 기준 누적 관심 수 |
+| F | 관심수 | 서버 기준 누적 관심 수. 0 이하는 시트에 기록하지 않음 |
 | G | 프로젝트고유값 | 확인 가능한 경우 프로젝트 고유값 |
 | H | 기사고유값 | 확인 가능한 경우 기사 고유값 |
 | I | 최근서버반영일 | D1에서 마지막으로 반영된 시각 |
@@ -134,7 +153,7 @@ function buildRows(items, generatedAt) {
         normalizeText(item.note),
       ];
     })
-    .filter((row) => row[2])
+    .filter((row) => row[2] && Number(row[5]) > 0)
     .sort((a, b) => {
       const typeRank = targetTypeRank(a[1]) - targetTypeRank(b[1]);
       return typeRank || Number(b[5]) - Number(a[5]) || String(a[3]).localeCompare(String(b[3]), 'ko');
@@ -238,6 +257,7 @@ Apps Script 왼쪽 메뉴에서 `프로젝트 설정 > 스크립트 속성`에 �
 ## 운영 원칙
 
 - Apps Script는 D1 전체 관심도 집계를 snapshot 방식으로 `관심도_집계` 탭에 덮어쓴다.
-- 삭제되거나 0건이 된 관심대상도 D1 집계에서 빠지면 시트에서 빠지므로 분석 데이터가 최신 상태로 유지된다.
+- 관심수 0 이하는 시트에 기록하지 않는다.
+- 삭제되거나 0건이 된 관심대상도 D1 집계에서 빠지거나 count 0으로 내려오면 다음 snapshot에서 시트에서 사라진다.
 - 실시간 UI는 기존 Worker/D1을 계속 사용하고, 에이전트 분석은 `관심도_집계` 탭을 기준으로 한다.
 - 분석 시 `대상유형=project`는 프로젝트 자체 관심도, `대상유형=article`은 기사 관심도로 분리 집계한다.
