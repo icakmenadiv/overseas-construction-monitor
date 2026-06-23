@@ -205,7 +205,7 @@
       (() => {
         try {
           const versionKey = "marketFilterSchemaVersion";
-          const currentVersion = "20260623-ui-core-1";
+          const currentVersion = "20260623-ui-core-2";
           const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
           saved.sort = saved.sort || "중요도:desc";
           saved.highPriorityOnly = false;
@@ -217,7 +217,7 @@
       })();
     </script>
     <script src="./app.js?v=20260623-restore-2"></script>
-    <script src="./monitor-core-ui.js?v=20260623-1"></script>
+    <script src="./monitor-core-ui.js?v=20260623-2"></script>
     <script src="./interest.js?v=20260623-clean-1"></script>
   </body>
 </html>
