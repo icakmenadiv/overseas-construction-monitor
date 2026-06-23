@@ -1,40 +1,56 @@
 (() => {
-  const SHEET_ID = "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E";
-  const SHEET_GID = "748239675";
-  let rowMapPromise = null;
+  const rowById = new Map();
+  let expandedId = "";
 
-  function initCardRowExpand() {
-    const grid = document.getElementById("topNewsCards");
-    if (!grid) return;
+  const originalCreateMainRow = window.createMainRow;
+  const originalCreateDetailRow = window.createDetailRow;
 
-    patchProjectDetailUrlBuilder();
-    observeCards(grid);
-    transformCards(grid);
+  if (typeof originalCreateMainRow !== "function" || typeof originalCreateDetailRow !== "function") return;
 
-    if (grid.dataset.rowExpandReady !== "true") {
-      grid.dataset.rowExpandReady = "true";
-      grid.addEventListener(
-        "click",
-        (event) => {
-          if (event.target.closest(".interest-button, .top-news-interest, .card-badge-project, a[href]")) return;
+  patchProjectDetailUrlBuilder();
 
-          const toggle = event.target.closest(".top-news-toggle");
-          if (!toggle) return;
-          const card = toggle.closest(".top-news-card");
-          if (!card) return;
+  window.createMainRow = function optimizedCreateMainRow(row, isExpanded) {
+    rowById.set(String(row.id), row);
+    const tr = originalCreateMainRow.call(this, row, isExpanded);
+    tr.dataset.rowId = String(row.id);
+    tr.dataset.mainRow = "true";
+    return tr;
+  };
 
-          event.preventDefault();
-          event.stopPropagation();
-          if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
+  window.toggleDetail = function optimizedToggleDetail(id) {
+    const rowId = String(id);
+    const currentDetail = document.querySelector("#resultBody tr.detail-row[data-detail-for]");
+    const currentMain = currentDetail
+      ? document.querySelector(`#resultBody tr[data-main-row="true"][data-row-id="${cssEscape(currentDetail.dataset.detailFor)}"]`)
+      : null;
 
-          const willExpand = !card.classList.contains("is-expanded");
-          const rowCards = getSameRowCards(grid, card);
-          rowCards.forEach((rowCard) => setCardExpanded(rowCard, willExpand));
-        },
-        true,
-      );
+    if (currentDetail) currentDetail.remove();
+    if (currentMain) setExpanded(currentMain, false);
+
+    if (expandedId === rowId) {
+      expandedId = "";
+      return;
     }
-  }
+
+    const mainRow = document.querySelector(`#resultBody tr[data-main-row="true"][data-row-id="${cssEscape(rowId)}"]`);
+    const row = rowById.get(rowId);
+    if (!mainRow || !row) {
+      expandedId = "";
+      return;
+    }
+
+    const detailRow = originalCreateDetailRow.call(this, row);
+    detailRow.dataset.detailFor = rowId;
+    const headerCount = document.querySelector(".market-table thead tr")?.children.length;
+    const detailCell = detailRow.querySelector("td");
+    if (detailCell && headerCount) detailCell.colSpan = headerCount;
+
+    mainRow.insertAdjacentElement("afterend", detailRow);
+    setExpanded(mainRow, true);
+    expandedId = rowId;
+
+    window.InterestFeature?.enhanceAll?.();
+  };
 
   function patchProjectDetailUrlBuilder() {
     window.buildProjectDetailUrl = function buildProjectDetailUrlPatched(row) {
@@ -47,167 +63,15 @@
     };
   }
 
-  function observeCards(grid) {
-    if (grid.dataset.rowExpandObserverReady === "true") return;
-    grid.dataset.rowExpandObserverReady = "true";
-    new MutationObserver(() => transformCards(grid)).observe(grid, {
-      childList: true,
-      subtree: true,
-    });
+  function setExpanded(row, expanded) {
+    const button = row.querySelector(".detail-button");
+    if (!button) return;
+    button.setAttribute("aria-expanded", String(expanded));
+    button.textContent = expanded ? "−" : "+";
   }
 
-  async function transformCards(grid) {
-    const cards = [...grid.querySelectorAll(".top-news-card")].filter((card) => card.dataset.rowExpandableReady !== "true");
-    if (!cards.length) return;
-
-    const rowMap = await getRowMap().catch(() => new Map());
-    cards.forEach((card) => transformCard(card, rowMap));
+  function cssEscape(value) {
+    if (window.CSS?.escape) return CSS.escape(value);
+    return String(value).replace(/["\\]/g, "\\$&");
   }
-
-  function transformCard(card, rowMap) {
-    if (card.dataset.rowExpandableReady === "true") return;
-    card.dataset.rowExpandableReady = "true";
-    card.classList.add("top-news-card-expandable");
-
-    const originalTitle = (card.querySelector("h3")?.textContent || "").trim();
-    const row = rowMap.get(normalizeKey(originalTitle));
-    const existingMeta = [...card.querySelectorAll(".top-news-meta span")]
-      .map((span) => span.textContent.trim())
-      .filter((text) => text && !/^TOP\s*\d+/i.test(text));
-    const dateText = row?.["원문게재일"] || [...card.querySelectorAll(".top-news-foot span")].at(-1)?.textContent.trim() || "-";
-    const title = row?.["제목(한글)"] || row?.["제목(원문)"] || originalTitle || "제목 없음";
-    const topic = row?.["주제"] || row?.["정보 분류"] || card.querySelector("p")?.textContent.trim() || "핵심 키워드 없음";
-    const detail = row?.["내용"] || "상세 내용이 없습니다.";
-    const projectUrl = row && isProjectArticle(row) ? buildCardProjectDetailUrl(row) : "";
-    const sourceLink = row?.["출처링크"]
-      ? `<a class="top-news-source-link" href="${escapeAttribute(row["출처링크"])}" target="_blank" rel="noreferrer">원문 확인</a>`
-      : "";
-    const projectLink = projectUrl ? `<a class="top-news-project-link" href="${escapeAttribute(projectUrl)}">프로젝트 상세</a>` : "";
-    const badges = renderBadges(row, topic);
-
-    card.innerHTML = `
-      <button type="button" class="top-news-toggle" aria-expanded="false">
-        <div class="top-news-meta">
-          <span>${escapeHtml(row?.["국가"] || existingMeta[0] || "-")}</span>
-          <span>${escapeHtml(row?.["섹터"] || existingMeta[1] || "-")}</span>
-          <span>${escapeHtml(formatDateText(dateText))}</span>
-        </div>
-        ${badges}
-        <h3>${escapeHtml(title)}</h3>
-      </button>
-      <div class="top-news-detail" hidden>
-        <p>${escapeHtml(detail)}</p>
-        <div class="top-news-detail-meta">
-          ${row?.["기사수집일"] ? `<span>기사수집일 ${escapeHtml(formatDateText(row["기사수집일"]))}</span>` : ""}
-          ${projectLink}
-          ${sourceLink}
-        </div>
-      </div>
-    `;
-  }
-
-  function renderBadges(row, fallbackTopic) {
-    const values = [row?.["정보 분류"], row?.["주제"] || fallbackTopic, row?.["관련 단계"]]
-      .map((value) => String(value || "").trim())
-      .filter(Boolean);
-    if (!values.length) return "";
-    return `<div class="top-news-badges">${values.map((value) => `<span>${escapeHtml(value)}</span>`).join("")}</div>`;
-  }
-
-  function isProjectArticle(row) {
-    return Boolean(row?.["프로젝트명"] || row?.["프로젝트 고유값"] || row?.["정보 분류"] === "프로젝트 정보");
-  }
-
-  function buildCardProjectDetailUrl(row) {
-    const params = new URLSearchParams();
-    if (row["프로젝트 고유값"]) params.set("id", row["프로젝트 고유값"]);
-    if (row["프로젝트명"]) params.set("name", row["프로젝트명"]);
-    if (row["국가"]) params.set("country", row["국가"]);
-    if (row["섹터"]) params.set("sector", row["섹터"]);
-    return `./project.html?${params.toString()}`;
-  }
-
-  async function getRowMap() {
-    if (rowMapPromise) return rowMapPromise;
-    rowMapPromise = fetchRows().then((rows) => {
-      const map = new Map();
-      rows.forEach((row) => {
-        [row["제목(한글)"], row["제목(원문)"]].filter(Boolean).forEach((title) => {
-          map.set(normalizeKey(title), row);
-        });
-      });
-      return map;
-    });
-    return rowMapPromise;
-  }
-
-  async function fetchRows() {
-    const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?gid=${SHEET_GID}&tqx=out:json`;
-    const response = await fetch(url);
-    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-    const text = await response.text();
-    const jsonStart = text.indexOf("{");
-    const jsonEnd = text.lastIndexOf("}") + 1;
-    const data = JSON.parse(text.substring(jsonStart, jsonEnd));
-    const headers = data.table.cols.map((col) => col.label || "");
-    return data.table.rows.map((row) => {
-      const record = {};
-      headers.forEach((header, index) => {
-        record[header] = cleanCell(row.c[index]);
-      });
-      return record;
-    });
-  }
-
-  function cleanCell(cell) {
-    if (!cell) return "";
-    return cell.f || cell.v || "";
-  }
-
-  function getSameRowCards(grid, targetCard) {
-    const targetTop = Math.round(targetCard.offsetTop);
-    return [...grid.querySelectorAll(".top-news-card")].filter(
-      (card) => Math.abs(Math.round(card.offsetTop) - targetTop) <= 6,
-    );
-  }
-
-  function setCardExpanded(card, expanded) {
-    card.classList.toggle("is-expanded", expanded);
-    const toggle = card.querySelector(".top-news-toggle");
-    const detail = card.querySelector(".top-news-detail");
-    if (toggle) toggle.setAttribute("aria-expanded", String(expanded));
-    if (detail) detail.hidden = !expanded;
-  }
-
-  function normalizeKey(value) {
-    return String(value || "").replace(/\s+/g, " ").trim().toLowerCase();
-  }
-
-  function formatDateText(value) {
-    const text = String(value || "").trim();
-    const dateCtorMatch = text.match(/^Date\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
-    if (dateCtorMatch) {
-      const date = new Date(Number(dateCtorMatch[1]), Number(dateCtorMatch[2]), Number(dateCtorMatch[3]));
-      return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
-    }
-    return text || "-";
-  }
-
-  function escapeHtml(value) {
-    return String(value ?? "")
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
-  }
-
-  function escapeAttribute(value) {
-    return escapeHtml(value).replaceAll("`", "&#096;");
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    initCardRowExpand();
-    window.setTimeout(initCardRowExpand, 400);
-  });
 })();
