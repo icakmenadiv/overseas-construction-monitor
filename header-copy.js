@@ -12,9 +12,33 @@
     if (navLinks[1]) navLinks[1].textContent = "프로젝트 목록";
   };
 
-  applyHeaderCopy();
-  document.addEventListener("DOMContentLoaded", applyHeaderCopy);
-  window.addEventListener("load", applyHeaderCopy);
-  setTimeout(applyHeaderCopy, 300);
-  setTimeout(applyHeaderCopy, 1000);
+  const patchMarketProjectDetailLinks = () => {
+    window.isProjectArticle = function isProjectArticlePatched(row) {
+      return Boolean(
+        row?.["프로젝트 고유값"] ||
+          row?.["프로젝트명"] ||
+          String(row?.["정보 분류"] || "").includes("프로젝트"),
+      );
+    };
+
+    window.buildProjectDetailUrl = function buildProjectDetailUrlPatched(row) {
+      const params = new URLSearchParams();
+      if (row?.["프로젝트 고유값"]) params.set("id", row["프로젝트 고유값"]);
+      if (row?.["프로젝트명"]) params.set("name", row["프로젝트명"]);
+      if (row?.["국가"]) params.set("country", row["국가"]);
+      if (row?.["섹터"]) params.set("sector", row["섹터"]);
+      return `./project.html?${params.toString()}`;
+    };
+  };
+
+  const applyAll = () => {
+    applyHeaderCopy();
+    patchMarketProjectDetailLinks();
+  };
+
+  applyAll();
+  document.addEventListener("DOMContentLoaded", applyAll);
+  window.addEventListener("load", applyAll);
+  setTimeout(applyAll, 300);
+  setTimeout(applyAll, 1000);
 })();
