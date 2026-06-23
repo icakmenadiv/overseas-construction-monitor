@@ -1,9 +1,12 @@
 (() => {
+  let topNewsObserverInstalled = false;
+  let normalizeTimer = null;
+
   const ensureBadgeStyles = () => {
     if (document.querySelector('link[data-card-badge-fix="true"]')) return;
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "./card-badge-fix.css?v=20260623-1";
+    link.href = "./card-badge-fix.css?v=20260623-2";
     link.dataset.cardBadgeFix = "true";
     document.head.appendChild(link);
   };
@@ -76,11 +79,106 @@
     };
   };
 
+  const normalizeTopNewsCards = () => {
+    document.querySelectorAll("#topNewsCards .top-news-card").forEach((card) => {
+      const title = card.querySelector("h3");
+      let badgeRow = card.querySelector(".card-badge-row");
+      const badgeRows = [...card.querySelectorAll(".card-badge-row")];
+
+      if (badgeRows.length > 1) {
+        badgeRow = badgeRows[0];
+        badgeRows.slice(1).forEach((row) => row.remove());
+      }
+
+      if (!badgeRow) {
+        badgeRow = document.createElement("div");
+        badgeRow.className = "card-badge-row";
+        badgeRow.setAttribute("aria-label", "기사 분류와 키워드");
+        if (title?.nextSibling) {
+          title.parentNode.insertBefore(badgeRow, title.nextSibling);
+        } else if (title) {
+          title.after(badgeRow);
+        } else {
+          card.prepend(badgeRow);
+        }
+      } else if (title && badgeRow.previousElementSibling !== title) {
+        title.after(badgeRow);
+      }
+
+      const plainTopics = [...card.children].filter(
+        (child) => child.tagName === "P" && !child.classList.contains("ai-notice"),
+      );
+      plainTopics.forEach((paragraph) => {
+        const text = cleanText(paragraph.textContent);
+        if (text && text !== "핵심 키워드 없음") addBadgeIfMissing(badgeRow, text, "card-badge-topic");
+        paragraph.remove();
+      });
+
+      const interestWraps = [...card.querySelectorAll(".top-news-interest")];
+      if (interestWraps.length) {
+        const keeper = interestWraps[0];
+        interestWraps.slice(1).forEach((wrap) => wrap.remove());
+        keeper.classList.add("card-badge-interest");
+        if (keeper.parentElement !== badgeRow) badgeRow.appendChild(keeper);
+      }
+
+      dedupeBadges(badgeRow);
+    });
+  };
+
+  const addBadgeIfMissing = (badgeRow, text, className) => {
+    const normalized = normalizeText(text);
+    const exists = [...badgeRow.querySelectorAll(".card-badge")].some((badge) => normalizeText(badge.textContent) === normalized);
+    if (exists) return;
+
+    const badge = document.createElement("span");
+    badge.className = `card-badge ${className}`;
+    badge.textContent = text;
+    badgeRow.appendChild(badge);
+  };
+
+  const dedupeBadges = (badgeRow) => {
+    const seen = new Set();
+    badgeRow.querySelectorAll(".card-badge").forEach((badge) => {
+      const key = `${badge.tagName}:${normalizeText(badge.textContent)}:${badge.getAttribute("href") || ""}`;
+      if (seen.has(key)) {
+        badge.remove();
+        return;
+      }
+      seen.add(key);
+    });
+  };
+
+  const installTopNewsObserver = () => {
+    if (topNewsObserverInstalled) return;
+    const target = document.getElementById("topNewsCards");
+    if (!target) {
+      setTimeout(installTopNewsObserver, 250);
+      return;
+    }
+
+    topNewsObserverInstalled = true;
+    new MutationObserver(() => queueNormalizeTopNews(30)).observe(target, {
+      childList: true,
+      subtree: true,
+    });
+  };
+
+  const queueNormalizeTopNews = (delay = 80) => {
+    clearTimeout(normalizeTimer);
+    normalizeTimer = setTimeout(normalizeTopNewsCards, delay);
+  };
+
+  const cleanText = (value) => String(value || "").replace(/\s+/g, " ").trim();
+  const normalizeText = (value) => cleanText(value).toLowerCase();
+
   const applyAll = () => {
     ensureBadgeStyles();
     applyHeaderCopy();
     patchMarketProjectDetailLinks();
     patchTopNewsCards();
+    normalizeTopNewsCards();
+    installTopNewsObserver();
   };
 
   applyAll();
@@ -88,4 +186,5 @@
   window.addEventListener("load", applyAll);
   setTimeout(applyAll, 300);
   setTimeout(applyAll, 1000);
+  setTimeout(() => queueNormalizeTopNews(20), 1800);
 })();
