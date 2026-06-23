@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>시장 모니터링 | 글로벌 인프라 뉴스 대시보드</title>
+    <title>해외 건설시장 뉴스 | 글로벌 인프라 뉴스 대시보드</title>
     <meta
       name="description"
       content="국가별 인프라 시장뉴스와 프로젝트 흐름을 통합 조회하는 대시보드"
@@ -33,14 +33,14 @@
         </a>
         <div>
           <p class="eyebrow">통합 모니터링</p>
-          <h1>해외 건설시장 모니터링</h1>
+          <h1>해외 건설시장 뉴스</h1>
           <p class="subtitle">글로벌 건설·인프라 동향 및 프로젝트 정보를 한눈에</p>
         </div>
       </div>
       <div class="header-actions">
         <nav class="page-nav" aria-label="모니터링 페이지 이동">
-          <a class="is-active" href="./index.html">시장 모니터링</a>
-          <a href="./projects.html">프로젝트 모니터링</a>
+          <a class="is-active" href="./index.html">해외 건설시장 뉴스</a>
+          <a href="./projects.html">프로젝트 목록</a>
         </nav>
         <p class="sync-status" id="syncStatus">데이터 연결 대기 중</p>
         <button type="button" id="refreshButton" class="action-button" title="새로 고침">🔄</button>
@@ -205,7 +205,7 @@
       (() => {
         try {
           const versionKey = "marketFilterSchemaVersion";
-          const currentVersion = "20260623-restore-2";
+          const currentVersion = "20260623-ui-core-1";
           const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
           saved.sort = saved.sort || "중요도:desc";
           saved.highPriorityOnly = false;
@@ -217,6 +217,7 @@
       })();
     </script>
     <script src="./app.js?v=20260623-restore-2"></script>
+    <script src="./monitor-core-ui.js?v=20260623-1"></script>
     <script src="./interest.js?v=20260623-clean-1"></script>
   </body>
 </html>
