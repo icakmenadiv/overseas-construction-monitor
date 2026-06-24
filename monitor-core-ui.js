@@ -129,7 +129,7 @@
         card.addEventListener(
           "click",
           (event) => {
-            if (event.target.closest(".top-news-source-link, .project-detail-link")) return;
+            if (event.target.closest(".interest-button, .top-news-source-link, .project-detail-link")) return;
             event.preventDefault();
             event.stopImmediatePropagation();
             toggleTopNewsRow(card);
@@ -140,6 +140,7 @@
           "keydown",
           (event) => {
             if (event.key !== "Enter" && event.key !== " ") return;
+            if (event.target.closest(".interest-button, .top-news-source-link, .project-detail-link")) return;
             event.preventDefault();
             event.stopImmediatePropagation();
             toggleTopNewsRow(card);
@@ -326,7 +327,7 @@
       .top-news-card{cursor:pointer}
       .top-news-card:hover,.top-news-card:focus{transform:translateY(-1px)}
       .top-news-card[aria-expanded="true"]{border-color:rgba(19,92,155,.34);box-shadow:0 16px 30px rgba(18,40,72,.12)}
-      .top-news-rank,.top-news-foot span:first-child{display:none !important}
+      .top-news-rank,.top-news-foot span:first-child,.top-news-card>p{display:none !important}
       .top-news-badges,.featured-project-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
       .top-news-badge,.featured-project-badge{display:inline-flex;align-items:center;min-height:24px;padding:3px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:.74rem;font-weight:800}
       .top-news-badge.is-info,.featured-project-badge.is-stage{background:#ecfdf5;color:#047857}
