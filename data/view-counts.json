@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T07:43:52.927Z",
+  "updatedAt": "2026-06-24T15:38:37.637Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -15,6 +15,12 @@
         "source_link_click": 1
       },
       "ART-20260616-003597": {
+        "article_detail_open": 1
+      },
+      "ART-20260616-004581": {
+        "article_detail_open": 1
+      },
+      "ART-20260617-004760": {
         "article_detail_open": 1
       },
       "ART-20260618-004152": {
@@ -39,6 +45,9 @@
       "ART-20260618-004919": {
         "article_detail_open": 1
       },
+      "ART-20260618-004990": {
+        "source_link_click": 1
+      },
       "ART-20260619-004574": {
         "article_detail_open": 2
       },
@@ -50,13 +59,14 @@
       },
       "ART-20260619-004759": {
         "article_detail_open": 1,
-        "source_link_click": 1
+        "source_link_click": 2
       },
       "ART-20260619-004789": {
         "article_detail_open": 1
       },
       "ART-20260619-004855": {
-        "article_detail_open": 1
+        "article_detail_open": 1,
+        "source_link_click": 1
       },
       "ART-20260619-004932": {
         "article_detail_open": 1
@@ -90,6 +100,9 @@
         "project_detail_open": 1
       },
       "BGR-ENERGY-KOZLODUY-UNITS-7-8": {
+        "project_detail_open": 1
+      },
+      "ECU-ROAD-PUENTE-VICTORIA-SHUSHUFINDI": {
         "project_detail_open": 1
       },
       "GBR-ENERGY-SIZEWELL-C": {
@@ -151,6 +164,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260616-004581",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:54:49.889Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260617-004760",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:53:14.666Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260618-004152",
       "eventType": "article_detail_open",
       "count": 1,
@@ -207,6 +234,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260618-004990",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-24T08:54:36.111Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260619-004574",
       "eventType": "article_detail_open",
       "count": 2,
@@ -237,8 +271,8 @@
       "targetType": "article",
       "targetId": "ART-20260619-004759",
       "eventType": "source_link_click",
-      "count": 1,
-      "updatedAt": "2026-06-24T07:22:28.768Z"
+      "count": 2,
+      "updatedAt": "2026-06-24T07:52:28.755Z"
     },
     {
       "targetType": "article",
@@ -253,6 +287,13 @@
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:20:19.109Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004855",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-24T08:53:27.328Z"
     },
     {
       "targetType": "article",
@@ -323,6 +364,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T06:47:42.439Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "ECU-ROAD-PUENTE-VICTORIA-SHUSHUFINDI",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T08:53:23.757Z"
     },
     {
       "targetType": "project",
