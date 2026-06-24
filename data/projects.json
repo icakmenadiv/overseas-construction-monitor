@@ -13830,6 +13830,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "COL-SOC-RAFAELCALVO-MATERNITY-REPLACEMENT",
+    "프로젝트명": "Rafael Calvo Maternity Clinic Infrastructure Replacement Project",
+    "지역": "중남미",
+    "국가": "콜롬비아",
+    "섹터": "사회인프라",
+    "발주처": "Agencia Nacional de Infraestructura (ANI) / Banco Interamericano de Desarrollo (BID) / E.S.E. Clínica de Maternidad Rafael Calvo C.",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "ANI 2026-06-23 공식 보도 기준 타당성 구조화 공동재원 최대 USD 500,000. 건설·운영 총사업비는 미공개.",
+    "현재 단계": "study",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005410",
+    "비고": "Cartagena 소재 E.S.E. Clínica de Maternidad Rafael Calvo C. 인프라 교체 프로젝트. ANI-BID 기술협력 협약의 추가 보건 인프라 구조화 대상이며, factibilidad 수준의 종합 구조화 공동재원 최대 USD 500k가 확보됨. INC 외래진료·CpreD 프로젝트와 같은 ANI Social/보건 인프라 APP 구조화 흐름이나 위치·기관·시설 기능이 달라 별도 프로젝트로 관리. 후속 타당성 완료, APP 구조 확정, 사업비 공개, 사업·감리 선정 공고를 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "COL-SOC-UIS-FISICOMECHANICAL-ENGINEERING",
     "프로젝트명": "UIS Faculty of Physicomechanical Engineering Modernization and Expansion Project",
     "지역": "중남미",
@@ -14457,6 +14472,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20250905-004119",
     "비고": "관련 기사: ART-20250403-004117, ART-20250828-004118, ART-20250905-004119. Zamora Chinchipe Bellavista-Zumba-La Balsa 51.71km+접근로 국경도로 설계·시공·유지관리 사업. IDB 1억5,000만 달러 재원, FIDIC Yellow Book 모델, 본선 포장·사면 안정화·구조물·배수·환경저감·조기경보 시스템 포함. 후속 낙찰, 계약, 착공 및 유지관리 조건 확정 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ECU-ROAD-CUENCA-MOLLETURO-EMPALME",
+    "프로젝트명": "Cuenca-Molleturo-El Empalme Road Rehabilitation Project",
+    "지역": "중남미",
+    "국가": "에콰도르",
+    "섹터": "교통",
+    "발주처": "Ministerio de Infraestructura y Transporte (MIT) / World Bank",
+    "사업비(달러 기준 추정액)": "약 USD 21.8백만",
+    "사업비 환산 환율 / 기준": "MIT 2026-06-23 기준 USD 21.8m, World Bank 재원 종합 재활계약",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005413",
+    "비고": "Azuay주 Cuenca-Molleturo-El Empalme 산악도로 종합 재활사업. 2026-03 체결 계약 기준 World Bank 재원 USD 21.8m이며, km 101 사면 안정화·토사 제거·도로 구조 복구, km 92·57 플랫폼 복구 대안 검토, km 7~15 덕트 교체·배수 확장·노면 개선 및 표지 설치를 포함한다. 후속 주요 공정 완료, 준공, 추가 복구 패키지 또는 계약변경 여부를 같은 프로젝트 고유값으로 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -20955,6 +20985,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "PER-AIR-CHINCHERO-INTERNATIONAL-AIRPORT",
+    "프로젝트명": "Chinchero International Airport Construction Project",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "교통",
+    "발주처": "MTC",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "기사 내 사업비 미공개",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005416",
+    "비고": "쿠스코 친체로 국제공항 건설 연속성 확보 조치. 공정·계약관리 후속 모니터링 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PER-BRIDGE-PUERTOOCOPA-ATALAYA-MODULAR",
     "프로젝트명": "Puerto Ocopa-Atalaya Modular Bridges Project",
     "지역": "중남미",
@@ -21102,6 +21147,66 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260620-004850",
     "비고": "Cusco, Huancavelica, Pasco 3개 COAR를 설계·금융·건설·운영지원하는 20년 교육 APP. 2026-06-20 기준 Cusco 40%, Huancavelica 25%, Pasco 24% 공정률. 2027년 1분기 내 준공 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-SOC-HOSPITAL-ANTONIO-LORENA",
+    "프로젝트명": "Hospital Antonio Lorena de Cusco Project",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "사회인프라",
+    "발주처": "MINSA / PRONIS",
+    "사업비(달러 기준 추정액)": "약 USD 286.2백만 (S/1,059백만 이상)",
+    "사업비 환산 환율 / 기준": "기사 기준 S/ 금액, 편의상 USD 1 = S/3.7 환산",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260620-005422",
+    "비고": "쿠스코 대형 병원. 인프라·장비 구축 완료 단계, 운영 전환 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-SOC-HOSPITAL-TAMBOBAMBA",
+    "프로젝트명": "Hospital de Tambobamba Project",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "사회인프라",
+    "발주처": "MINSA / PRONIS",
+    "사업비(달러 기준 추정액)": "약 USD 39.7백만 (S/147백만 이상)",
+    "사업비 환산 환율 / 기준": "기사 기준 S/ 금액, 편의상 USD 1 = S/3.7 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-005415",
+    "비고": "아푸리막 코타밤바스 병원 신축. 15% 이상 공정, 기초 슬래브 타설·면진장치 설치 진행.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-SOC-LIMA-CONVENTION-CENTER-OM",
+    "프로젝트명": "Lima Convention Center Operation and Management PPP Project",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "사회인프라",
+    "발주처": "PROINVERSIÓN / MVCS",
+    "사업비(달러 기준 추정액)": "USD 151백만",
+    "사업비 환산 환율 / 기준": "기사 명시 금액",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005419",
+    "비고": "리마 컨벤션센터 운영·관리 APP. 최종 경쟁 3개사 선정, 2026년 7월 낙찰 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-SOC-SORITOR-HEALTH-CENTER",
+    "프로젝트명": "Soritor Health Center Construction Project",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "사회인프라",
+    "발주처": "MINSA / PRONIS / Municipalidad Distrital de Soritor",
+    "사업비(달러 기준 추정액)": "약 USD 14.3백만 (S/53백만 이상)",
+    "사업비 환산 환율 / 기준": "기사 기준 S/ 금액, 편의상 USD 1 = S/3.7 환산",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005417",
+    "비고": "산마르틴 소리토르 보건센터 신축. 자유부지 인수 완료, 공사 착수 전 단계.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -23040,6 +23145,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SLV-SOC-NEJAPA-HOSPITAL",
+    "프로젝트명": "Nejapa Hospital Project",
+    "지역": "중남미",
+    "국가": "엘살바도르",
+    "섹터": "사회인프라",
+    "발주처": "Ministerio de Salud (MINSAL)",
+    "사업비(달러 기준 추정액)": "약 USD 50백만",
+    "사업비 환산 환율 / 기준": "2023년 착공 당시 대통령 발표 기준 BID 재원 포함 약 USD 50m",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-005414",
+    "비고": "Nejapa 2차 병원 플러스급 신축 프로젝트. 2026-06-22 기준 공사가 사실상 완료되고 수술실·CT 등 의료장비 반입 및 디지털 연결 작업이 진행 중임. 개원 전 장비 통합·운영준비 단계로, 후속 개원·운영 개시 보도는 같은 프로젝트 고유값으로 연결한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SLV-WATER-GULUCHAPA-SUPPLY-UPGRADE",
     "프로젝트명": "Guluchapa Potable Water System Improvement Project",
     "지역": "중남미",
@@ -24432,6 +24552,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260622-005211",
     "비고": "몬테비데오 광역권 상수원 확보를 위한 118백만㎥급 댐·저수지. 2025년 금융확보와 CAF 차관계약, 2026년 입찰준비 이력 확인. 2026-06-22 기준 입찰문서 승인 임박, 8개 컨소시엄 참여 가능, 첫 380ha 수용보상 완료 및 2027년 1분기 착공 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "URY-WATER-ROCHA-SANITATION",
+    "프로젝트명": "Rocha Sanitation Expansion Project",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "수자원·환경",
+    "발주처": "Obras Sanitarias del Estado (OSE)",
+    "사업비(달러 기준 추정액)": "약 USD 5.5백만",
+    "사업비 환산 환율 / 기준": "Presidencia/OSE 2026-06-24 공식 기사 기준 USD 5.5m",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-005412",
+    "비고": "Rocha시 국가 하수도계획 내 하수도 확장사업. 주간선 하수관 약 15km, 펌프장 2곳, 압송관 1km를 포함하며 2026-06-24 기준 집수관 13.5km 설치 완료, 잔여 공사 진행 중. 약 1,400가구·3,000명 수혜 예정이며 공사 완료 후 가구별 내부 설비 점검과 OSE 계약을 거쳐 연결 개시. 후속 준공·연결 개시 여부를 같은 프로젝트 고유값으로 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
