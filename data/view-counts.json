@@ -1,8 +1,22 @@
 {
-  "updatedAt": "2026-06-24T06:58:33.177Z",
+  "updatedAt": "2026-06-24T07:43:52.927Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
+      "ART-20260605-000212": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260610-001548": {
+        "source_link_click": 1
+      },
+      "ART-20260611-002726": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260616-003597": {
+        "article_detail_open": 1
+      },
       "ART-20260618-004152": {
         "article_detail_open": 1
       },
@@ -18,16 +32,36 @@
       "ART-20260618-004837": {
         "article_detail_open": 1
       },
+      "ART-20260618-004897": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
       "ART-20260618-004919": {
         "article_detail_open": 1
       },
       "ART-20260619-004574": {
-        "article_detail_open": 1
+        "article_detail_open": 2
       },
       "ART-20260619-004646": {
         "article_detail_open": 1
       },
+      "ART-20260619-004743": {
+        "article_detail_open": 1
+      },
+      "ART-20260619-004759": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260619-004789": {
+        "article_detail_open": 1
+      },
       "ART-20260619-004855": {
+        "article_detail_open": 1
+      },
+      "ART-20260619-004932": {
+        "article_detail_open": 1
+      },
+      "ART-20260620-004738": {
         "article_detail_open": 1
       },
       "ART-20260620-004958": {
@@ -37,6 +71,12 @@
         "article_detail_open": 1
       },
       "ART-20260622-005239": {
+        "article_detail_open": 1
+      },
+      "ART-20260623-005218": {
+        "article_detail_open": 1
+      },
+      "ART-20260623-005237": {
         "article_detail_open": 1
       }
     },
@@ -55,6 +95,9 @@
       "GBR-ENERGY-SIZEWELL-C": {
         "project_detail_open": 1
       },
+      "GBR-ROAD-LOWER-THAMES-CROSSING": {
+        "project_detail_open": 1
+      },
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
         "project_detail_open": 1
       },
@@ -64,6 +107,48 @@
     }
   },
   "rows": [
+    {
+      "targetType": "article",
+      "targetId": "ART-20260605-000212",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:24:58.634Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260605-000212",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:25:02.199Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260610-001548",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:25:30.861Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260611-002726",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:24:35.880Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260611-002726",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:24:44.512Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260616-003597",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:25:18.528Z"
+    },
     {
       "targetType": "article",
       "targetId": "ART-20260618-004152",
@@ -101,6 +186,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260618-004897",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:22:56.946Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260618-004897",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:23:04.471Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260618-004919",
       "eventType": "article_detail_open",
       "count": 1,
@@ -110,8 +209,8 @@
       "targetType": "article",
       "targetId": "ART-20260619-004574",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-24T05:20:29.067Z"
+      "count": 2,
+      "updatedAt": "2026-06-24T07:22:40.170Z"
     },
     {
       "targetType": "article",
@@ -122,10 +221,52 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260619-004743",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:22:51.330Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004759",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:21:47.550Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004759",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:22:28.768Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004789",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:21:54.789Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260619-004855",
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:20:19.109Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004932",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:00:44.580Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260620-004738",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:23:37.147Z"
     },
     {
       "targetType": "article",
@@ -147,6 +288,20 @@
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:20:23.429Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260623-005218",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:08:25.814Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260623-005237",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:21:57.314Z"
     },
     {
       "targetType": "page",
@@ -175,6 +330,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:20:37.519Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "GBR-ROAD-LOWER-THAMES-CROSSING",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T07:06:55.349Z"
     },
     {
       "targetType": "project",
