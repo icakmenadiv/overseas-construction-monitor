@@ -31,6 +31,7 @@
     patchMenuLabels();
     moveSummaryIntoFilter();
     moveSortFieldToTop();
+    setupTopResetButtons();
     setupCollapsibleFilters();
     updateFilterSummaries();
     enhanceTopNewsCards();
@@ -45,9 +46,10 @@
   }
 
   function moveSummaryIntoFilter() {
-    const panel = document.querySelector(".market-filter-panel");
-    const summary = document.querySelector(".market-dashboard .summary-grid");
-    if (!panel || !summary || panel.contains(summary)) return;
+    const dashboard = document.querySelector(".dashboard");
+    const panel = document.querySelector(".market-filter-panel") || document.querySelector(".dashboard > .control-panel");
+    const summary = document.querySelector(".dashboard > .summary-grid");
+    if (!dashboard || !panel || !summary || panel.contains(summary)) return;
     panel.insertBefore(summary, panel.firstElementChild);
   }
 
@@ -62,9 +64,46 @@
     topActions.appendChild(sortField);
   }
 
+  function setupTopResetButtons() {
+    document.querySelectorAll("[data-reset-filter]").forEach((button) => {
+      if (button.dataset.coreResetReady === "true") return;
+      button.dataset.coreResetReady = "true";
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const resetButton = document.getElementById("resetButton");
+        if (resetButton) {
+          resetButton.click();
+          return;
+        }
+        resetFilterFormFallback();
+      });
+    });
+  }
+
+  function resetFilterFormFallback() {
+    const panel = document.querySelector(".control-panel");
+    if (!panel) return;
+    panel.querySelectorAll('input[type="search"], input[type="text"], input[type="date"]').forEach((input) => {
+      input.value = "";
+      input.dispatchEvent(new Event("input", { bubbles: true }));
+    });
+    panel.querySelectorAll('.checkbox-filter input[type="checkbox"]').forEach((input) => {
+      input.checked = false;
+    });
+    panel.querySelectorAll(".checkbox-filter").forEach((filter) => {
+      filter.dispatchEvent(new Event("change", { bubbles: true }));
+    });
+  }
+
   function setupCollapsibleFilters() {
     document.querySelectorAll(".field-wide").forEach((field) => {
-      if (field.dataset.coreFilterReady === "true") return;
+      const currentDetails = field.querySelector(":scope > .filter-collapse");
+      if (field.dataset.coreFilterReady === "true" && currentDetails) {
+        ensureBulkButton(currentDetails);
+        return;
+      }
+
       const label = field.querySelector(":scope > .field-label");
       const filter = field.querySelector(":scope > .checkbox-filter");
       if (!label || !filter) return;
@@ -83,32 +122,88 @@
       count.textContent = "전체";
       summary.append(title, count);
 
+      const panel = document.createElement("div");
+      panel.className = "filter-options-panel";
+      const bulkButton = createBulkButton(filter);
+
       label.remove();
       field.appendChild(details);
-      details.append(summary, filter);
+      details.append(summary, panel);
+      panel.append(bulkButton, filter);
       field.dataset.coreFilterReady = "true";
 
-      let closeTimer = null;
-      details.addEventListener("mouseenter", () => {
-        clearTimeout(closeTimer);
-        details.open = true;
-      });
-      details.addEventListener("mouseleave", () => {
-        closeTimer = setTimeout(() => {
-          details.open = false;
-        }, 140);
+      details.addEventListener("toggle", () => {
+        if (details.open && details.dataset.openedOnce !== "true") {
+          details.dataset.openedOnce = "true";
+          clearAllIfEverythingIsChecked(filter);
+        }
+        updateFilterSummaries();
       });
     });
+  }
+
+  function ensureBulkButton(details) {
+    const filter = details.querySelector(".checkbox-filter");
+    if (!filter) return;
+    let panel = details.querySelector(":scope > .filter-options-panel");
+    if (!panel) {
+      panel = document.createElement("div");
+      panel.className = "filter-options-panel";
+      details.appendChild(panel);
+      panel.appendChild(filter);
+    }
+    if (!panel.querySelector(":scope > .filter-bulk-toggle")) {
+      panel.insertBefore(createBulkButton(filter), panel.firstElementChild);
+    }
+  }
+
+  function createBulkButton(filter) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "filter-bulk-toggle";
+    button.textContent = "전체 선택/해제";
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      toggleFilterSelection(filter);
+    });
+    return button;
+  }
+
+  function toggleFilterSelection(filter) {
+    const inputs = [...filter.querySelectorAll('input[type="checkbox"]')];
+    if (!inputs.length) return;
+    const checkedCount = inputs.filter((input) => input.checked).length;
+    const shouldSelectAll = checkedCount === 0;
+    inputs.forEach((input) => {
+      input.checked = shouldSelectAll;
+    });
+    filter.dispatchEvent(new Event("change", { bubbles: true }));
+    updateFilterSummaries();
+  }
+
+  function clearAllIfEverythingIsChecked(filter) {
+    const inputs = [...filter.querySelectorAll('input[type="checkbox"]')];
+    if (!inputs.length || inputs.some((input) => !input.checked)) return;
+    inputs.forEach((input) => {
+      input.checked = false;
+    });
+    filter.dispatchEvent(new Event("change", { bubbles: true }));
   }
 
   function updateFilterSummaries() {
     document.querySelectorAll(".filter-collapse").forEach((details) => {
       const filter = details.querySelector(".checkbox-filter");
       const count = details.querySelector(".filter-summary-count");
+      const bulkButton = details.querySelector(".filter-bulk-toggle");
       if (!filter || !count) return;
       const checked = filter.querySelectorAll('input[type="checkbox"]:checked').length;
       const total = filter.querySelectorAll('input[type="checkbox"]').length;
       count.textContent = checked ? `${formatNumber(checked)}개 선택` : total ? "전체" : "항목 없음";
+      if (bulkButton) {
+        bulkButton.textContent = checked ? "전체 해제" : "전체 선택";
+        bulkButton.disabled = total === 0;
+      }
     });
   }
 
@@ -289,41 +384,52 @@
     style.textContent = `
       @media (min-width:1120px){
         .market-dashboard{display:grid !important;grid-template-columns:minmax(300px,360px) minmax(0,1fr) !important;gap:14px !important;align-items:start !important;width:min(1680px,100%) !important;padding:18px clamp(12px,2vw,28px) 34px !important}
-        .market-dashboard>.market-filter-panel{grid-column:1 !important;grid-row:1 / span 2 !important;position:sticky !important;top:12px !important;align-self:start !important;width:auto !important;max-height:calc(100vh - 24px) !important;margin:0 !important;padding:12px !important;overflow-x:hidden !important;overflow-y:hidden !important;transform:none !important;scrollbar-gutter:stable}
-        .market-dashboard>.market-filter-panel:hover,.market-dashboard>.market-filter-panel:focus-within{overflow-y:auto !important}
+        .market-dashboard>.market-filter-panel{grid-column:1 !important;grid-row:1 / span 2 !important;position:sticky !important;top:12px !important;align-self:start !important;width:auto !important;max-height:calc(100vh - 24px) !important;margin:0 !important;padding:12px !important;overflow-x:hidden !important;overflow-y:auto !important;transform:none !important;scrollbar-gutter:stable}
         .market-dashboard>.market-results-section{grid-column:2 !important;grid-row:1 / span 2 !important;min-width:0 !important;margin:0 !important}
-        .market-filter-panel>.summary-grid{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:6px !important;margin:0 0 10px !important}
-        .market-filter-panel>.summary-grid .summary-item:nth-child(5){grid-column:1 / -1}
+        .dashboard:not(.market-dashboard){display:grid !important;grid-template-columns:minmax(300px,360px) minmax(0,1fr) !important;gap:14px !important;align-items:start !important;width:min(1680px,100%) !important;padding:18px clamp(12px,2vw,28px) 34px !important}
+        .dashboard:not(.market-dashboard)>.control-panel{grid-column:1 !important;grid-row:1 / span 3 !important;position:sticky !important;top:12px !important;align-self:start !important;width:auto !important;max-height:calc(100vh - 24px) !important;margin:0 !important;padding:12px !important;overflow-x:hidden !important;overflow-y:auto !important;transform:none !important;scrollbar-gutter:stable}
+        .dashboard:not(.market-dashboard)>.featured-projects,.dashboard:not(.market-dashboard)>.results-section{grid-column:2 !important;min-width:0 !important;margin:0 !important}
+        .dashboard:not(.market-dashboard)>.featured-projects{grid-row:1 !important}
+        .dashboard:not(.market-dashboard)>.results-section{grid-row:2 !important}
+        .control-panel>.summary-grid{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:6px !important;margin:0 0 10px !important}
+        .control-panel>.summary-grid .summary-item:nth-child(5){grid-column:1 / -1}
       }
       .filter-top-actions{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:end;gap:8px;margin:0 0 10px}
-      .top-reset-button{min-height:30px !important;padding:0 10px !important;border-radius:6px !important;font-size:.66rem !important;white-space:nowrap}
+      .top-reset-button{display:inline-flex !important;align-items:center !important;justify-content:center !important;min-height:32px !important;padding:0 12px !important;border:1px solid rgba(13,77,132,.18) !important;border-radius:8px !important;background:linear-gradient(180deg,#1f6fb2,#155895) !important;color:#fff !important;box-shadow:0 7px 16px rgba(21,88,149,.18) !important;font-size:.68rem !important;font-weight:900 !important;line-height:1 !important;white-space:nowrap;cursor:pointer}
+      .top-reset-button:hover{background:linear-gradient(180deg,#2b7fc6,#17609f) !important;transform:translateY(-1px)}
+      .top-reset-button:active{transform:translateY(0)}
       .sort-field-top{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:6px;min-width:0;margin-left:0}
       .sort-field-top label,.sort-field-top .sort-label-row{margin:0;white-space:nowrap;font-size:.68rem !important}
       .sort-field-top select{min-width:0;min-height:32px !important;padding-inline:8px !important;border-radius:8px !important;font-size:.7rem !important}
       .filter-collapse{width:100%}
       .filter-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:34px;padding:7px 9px;border:1px solid rgba(30,41,59,.14);border-radius:8px;background:#fff;cursor:pointer;list-style:none}
       .filter-summary::-webkit-details-marker{display:none}
+      .filter-summary::after{content:"▾";margin-left:auto;color:#64748b;font-size:.72rem;transition:transform .16s ease}
+      .filter-collapse[open] .filter-summary::after{transform:rotate(180deg)}
       .filter-summary-title{font-weight:800;font-size:.68rem}
       .filter-summary-count{font-size:.64rem;color:#64748b;white-space:nowrap}
-      .filter-collapse[open] .filter-summary{border-bottom-left-radius:0;border-bottom-right-radius:0}
-      .filter-collapse .checkbox-filter{max-height:230px;overflow-y:auto;overscroll-behavior:contain;padding:6px 4px 2px 0;scrollbar-width:thin}
+      .filter-collapse[open] .filter-summary{border-bottom-left-radius:0;border-bottom-right-radius:0;background:#f8fbff}
+      .filter-options-panel{padding:6px;border:1px solid rgba(30,41,59,.12);border-top:0;border-bottom-left-radius:8px;border-bottom-right-radius:8px;background:#fff}
+      .filter-bulk-toggle{width:100%;min-height:28px;margin:0 0 6px;padding:0 9px;border:1px solid rgba(30,41,59,.12);border-radius:7px;background:#f8fafc;color:#25415f;font-size:.65rem;font-weight:900;cursor:pointer}
+      .filter-bulk-toggle:hover{background:#eef6ff;border-color:rgba(21,88,149,.24)}
+      .filter-collapse .checkbox-filter{max-height:230px;overflow-y:auto;overscroll-behavior:contain;padding:0 2px 2px 0;scrollbar-width:thin}
       .filter-collapse .checkbox-filter::-webkit-scrollbar{width:8px}
       .filter-collapse .checkbox-filter::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:999px}
-      .market-filter-panel .summary-item{min-height:54px !important;padding:8px 9px !important;border-radius:9px !important}
-      .market-filter-panel .summary-item::before{top:8px !important;right:8px !important;width:16px !important;height:16px !important;border-radius:6px !important}
-      .market-filter-panel .summary-item::after{display:none !important}
-      .market-filter-panel .summary-item span{max-width:calc(100% - 18px) !important;font-size:.58rem !important;line-height:1.18 !important;letter-spacing:0 !important}
-      .market-filter-panel .summary-item strong{margin-top:5px !important;font-size:1.02rem !important;letter-spacing:0 !important}
-      .market-filter-panel label,.market-filter-panel .field-label,.market-filter-panel .filter-section-label{font-size:.68rem !important;letter-spacing:0 !important}
-      .market-filter-panel .search-field label{font-size:.76rem !important}
-      .market-filter-panel input,.market-filter-panel select,.market-filter-panel .search-field input{min-height:34px !important;padding-inline:9px !important;border-radius:9px !important;font-size:.72rem !important}
-      .market-filter-panel .date-preset-row{gap:5px !important}
-      .market-filter-panel .date-preset-button,.market-filter-panel .panel-actions button{min-height:28px !important;padding:0 9px !important;font-size:.66rem !important}
-      .market-filter-panel .check-chip span,.market-filter-panel .cost-toggle span{min-height:23px !important;padding:0 7px !important;font-size:.63rem !important}
-      .market-filter-panel .checkbox-filter{gap:4px !important;min-height:30px !important;padding:6px !important}
-      .market-filter-panel #activeFilterText{min-height:27px !important;padding:5px 8px !important;font-size:.64rem !important;line-height:1.3 !important}
-      .market-filter-panel .panel-actions #resetButton{display:none}
-      .market-filter-panel .panel-actions .action-buttons{grid-template-columns:1fr !important}
+      .control-panel .summary-item{min-height:54px !important;padding:8px 9px !important;border-radius:9px !important}
+      .control-panel .summary-item::before{top:8px !important;right:8px !important;width:16px !important;height:16px !important;border-radius:6px !important}
+      .control-panel .summary-item::after{display:none !important}
+      .control-panel .summary-item span{max-width:calc(100% - 18px) !important;font-size:.58rem !important;line-height:1.18 !important;letter-spacing:0 !important}
+      .control-panel .summary-item strong{margin-top:5px !important;font-size:1.02rem !important;letter-spacing:0 !important}
+      .control-panel label,.control-panel .field-label,.control-panel .filter-section-label{font-size:.68rem !important;letter-spacing:0 !important}
+      .control-panel .search-field label{font-size:.76rem !important}
+      .control-panel input,.control-panel select,.control-panel .search-field input{min-height:34px !important;padding-inline:9px !important;border-radius:9px !important;font-size:.72rem !important}
+      .control-panel .date-preset-row{gap:5px !important}
+      .control-panel .date-preset-button,.control-panel .panel-actions button{min-height:28px !important;padding:0 9px !important;font-size:.66rem !important}
+      .control-panel .check-chip span,.control-panel .cost-toggle span{min-height:23px !important;padding:0 7px !important;font-size:.63rem !important}
+      .control-panel .checkbox-filter{gap:4px !important;min-height:30px !important;padding:0 !important}
+      .control-panel #activeFilterText{min-height:27px !important;padding:5px 8px !important;font-size:.64rem !important;line-height:1.3 !important}
+      .control-panel .panel-actions #resetButton{display:none}
+      .control-panel .panel-actions .action-buttons{grid-template-columns:1fr !important}
       .top-news-card{cursor:pointer}
       .top-news-card:hover,.top-news-card:focus{transform:translateY(-1px)}
       .top-news-card[aria-expanded="true"]{border-color:rgba(19,92,155,.34);box-shadow:0 16px 30px rgba(18,40,72,.12)}
