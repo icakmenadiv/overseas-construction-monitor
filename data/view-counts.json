@@ -1,20 +1,194 @@
 {
-  "updatedAt": "2026-06-24T05:19:25.263Z",
+  "updatedAt": "2026-06-24T06:58:33.177Z",
   "source": "cloudflare-d1",
   "counts": {
+    "article": {
+      "ART-20260618-004152": {
+        "article_detail_open": 1
+      },
+      "ART-20260618-004176": {
+        "article_detail_open": 2
+      },
+      "ART-20260618-004240": {
+        "article_detail_open": 1
+      },
+      "ART-20260618-004639": {
+        "article_detail_open": 1
+      },
+      "ART-20260618-004837": {
+        "article_detail_open": 1
+      },
+      "ART-20260618-004919": {
+        "article_detail_open": 1
+      },
+      "ART-20260619-004574": {
+        "article_detail_open": 1
+      },
+      "ART-20260619-004646": {
+        "article_detail_open": 1
+      },
+      "ART-20260619-004855": {
+        "article_detail_open": 1
+      },
+      "ART-20260620-004958": {
+        "article_detail_open": 1
+      },
+      "ART-20260621-004960": {
+        "article_detail_open": 1
+      },
+      "ART-20260622-005239": {
+        "article_detail_open": 1
+      }
+    },
     "page": {
       "market-home": {
         "market_page_visit": 6
       }
+    },
+    "project": {
+      "AUS-ENERGY-MOORABOOL-BESS-VBB2": {
+        "project_detail_open": 1
+      },
+      "BGR-ENERGY-KOZLODUY-UNITS-7-8": {
+        "project_detail_open": 1
+      },
+      "GBR-ENERGY-SIZEWELL-C": {
+        "project_detail_open": 1
+      },
+      "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
+        "project_detail_open": 1
+      },
+      "UAE-URBAN-EMAAR-AED200BN-MASTERPLAN": {
+        "project_detail_open": 1
+      }
     }
   },
   "rows": [
+    {
+      "targetType": "article",
+      "targetId": "ART-20260618-004152",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T06:40:45.445Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260618-004176",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-06-24T06:40:41.252Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260618-004240",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:20:13.017Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260618-004639",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:20:14.831Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260618-004837",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T06:40:46.412Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260618-004919",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T06:40:47.180Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004574",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:20:29.067Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004646",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:20:16.897Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004855",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:20:19.109Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260620-004958",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T06:40:44.691Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260621-004960",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T06:40:43.523Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260622-005239",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:20:23.429Z"
+    },
     {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
       "count": 6,
       "updatedAt": "2026-06-24T04:54:30.837Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "AUS-ENERGY-MOORABOOL-BESS-VBB2",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:22:26.325Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "BGR-ENERGY-KOZLODUY-UNITS-7-8",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T06:47:42.439Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "GBR-ENERGY-SIZEWELL-C",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:20:37.519Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "SAU-OILGAS-RASTANURA-GART22-PIPELINE",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T05:20:31.226Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "UAE-URBAN-EMAAR-AED200BN-MASTERPLAN",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-24T06:56:08.314Z"
     }
   ]
 }
