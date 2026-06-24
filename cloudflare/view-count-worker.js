@@ -5,29 +5,30 @@ const EVENT_TARGET_TYPE = {
   market_page_visit: "page",
 };
 
+const DEFAULT_ALLOWED_ORIGINS = ["https://icakmenadiv.github.io"];
 const DEFAULT_DEDUPE_WINDOW_MS = 5 * 60 * 1000;
 const DEFAULT_RECENT_RETENTION_MS = 24 * 60 * 60 * 1000;
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (request.method === "OPTIONS") return withCors(new Response(null, { status: 204 }), env);
+    if (request.method === "OPTIONS") return withCors(new Response(null, { status: 204 }), request, env);
 
     try {
       if (url.pathname === "/track" && request.method === "POST") {
-        return withCors(await trackEvent(request, env), env);
+        return withCors(await trackEvent(request, env), request, env);
       }
       if (url.pathname === "/counts" && request.method === "GET") {
         const auth = authorizeRead(request, env);
-        if (!auth.ok) return withCors(json({ error: auth.error }, 401), env);
-        return withCors(await getCounts(env), env);
+        if (!auth.ok) return withCors(json({ error: auth.error }, 401), request, env);
+        return withCors(await getCounts(env), request, env);
       }
       if (url.pathname === "/health" && request.method === "GET") {
-        return withCors(json({ ok: true }), env);
+        return withCors(json({ ok: true }), request, env);
       }
-      return withCors(json({ error: "not_found" }, 404), env);
+      return withCors(json({ error: "not_found" }, 404), request, env);
     } catch (error) {
-      return withCors(json({ error: "server_error", message: String(error?.message || error) }, 500), env);
+      return withCors(json({ error: "server_error", message: String(error?.message || error) }, 500), request, env);
     }
   },
 };
@@ -105,13 +106,29 @@ function authorizeRead(request, env) {
   return header === `Bearer ${token}` ? { ok: true } : { ok: false, error: "unauthorized" };
 }
 
-function withCors(response, env) {
+function withCors(response, request, env) {
   const headers = new Headers(response.headers);
-  headers.set("Access-Control-Allow-Origin", clean(env.ALLOWED_ORIGIN) || "*");
+  const allowedOrigin = getAllowedOrigin(request, env);
+  if (allowedOrigin) {
+    headers.set("Access-Control-Allow-Origin", allowedOrigin);
+    headers.set("Access-Control-Allow-Credentials", "true");
+    headers.append("Vary", "Origin");
+  }
   headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
   headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization");
   headers.set("Access-Control-Max-Age", "86400");
   return new Response(response.body, { status: response.status, headers });
+}
+
+function getAllowedOrigin(request, env) {
+  const origin = request.headers.get("Origin") || "";
+  const configured = clean(env.ALLOWED_ORIGIN || env.ALLOWED_ORIGINS);
+  const allowedOrigins = configured
+    ? configured.split(",").map((item) => clean(item)).filter(Boolean)
+    : DEFAULT_ALLOWED_ORIGINS;
+  if (allowedOrigins.includes("*")) return origin || "*";
+  if (origin && allowedOrigins.includes(origin)) return origin;
+  return allowedOrigins[0] || "";
 }
 
 function json(value, status = 200) {
