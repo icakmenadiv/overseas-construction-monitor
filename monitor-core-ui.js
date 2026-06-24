@@ -2,7 +2,7 @@
   const RUN_DELAYS = [0, 120, 360, 900, 1800, 3200];
   let queued = false;
   let initialized = false;
-  let expandedTopNewsId = "";
+  let expandedTopNewsRowKey = "";
 
   document.addEventListener("DOMContentLoaded", init);
   if (document.readyState !== "loading") init();
@@ -113,13 +113,16 @@
   }
 
   function enhanceTopNewsCards() {
-    document.querySelectorAll("#topNewsCards .top-news-card").forEach((card) => {
+    const cards = [...document.querySelectorAll("#topNewsCards .top-news-card")];
+    const columnCount = getTopNewsColumnCount();
+    cards.forEach((card, index) => {
       const row = findArticleForCard(card);
-      const articleId = row?.id || normalize(card.querySelector("h3")?.textContent);
-      card.dataset.articleId = articleId;
+      const rowKey = `row-${Math.floor(index / columnCount)}`;
+      card.dataset.topNewsRowKey = rowKey;
+      card.dataset.articleId = row?.id || normalize(card.querySelector("h3")?.textContent);
       card.setAttribute("role", "button");
       card.tabIndex = 0;
-      card.setAttribute("aria-expanded", String(expandedTopNewsId === articleId));
+      card.setAttribute("aria-expanded", String(expandedTopNewsRowKey === rowKey));
 
       if (card.dataset.coreCardReady !== "true") {
         card.dataset.coreCardReady = "true";
@@ -129,7 +132,7 @@
             if (event.target.closest(".top-news-source-link, .project-detail-link")) return;
             event.preventDefault();
             event.stopImmediatePropagation();
-            toggleTopNewsCard(card);
+            toggleTopNewsRow(card);
           },
           true,
         );
@@ -139,7 +142,7 @@
             if (event.key !== "Enter" && event.key !== " ") return;
             event.preventDefault();
             event.stopImmediatePropagation();
-            toggleTopNewsCard(card);
+            toggleTopNewsRow(card);
           },
           true,
         );
@@ -147,13 +150,21 @@
 
       ensureTopNewsBadges(card, row);
       ensureOpenHint(card);
-      renderTopNewsDetail(card, row, expandedTopNewsId === articleId);
+      renderTopNewsDetail(card, row, expandedTopNewsRowKey === rowKey);
     });
   }
 
-  function toggleTopNewsCard(card) {
-    const articleId = card.dataset.articleId || normalize(card.querySelector("h3")?.textContent);
-    expandedTopNewsId = expandedTopNewsId === articleId ? "" : articleId;
+  function getTopNewsColumnCount() {
+    const grid = document.getElementById("topNewsCards");
+    if (!grid) return 1;
+    const columns = getComputedStyle(grid).gridTemplateColumns;
+    if (!columns || columns === "none") return 1;
+    return Math.max(1, columns.split(" ").filter(Boolean).length);
+  }
+
+  function toggleTopNewsRow(card) {
+    const rowKey = card.dataset.topNewsRowKey || "row-0";
+    expandedTopNewsRowKey = expandedTopNewsRowKey === rowKey ? "" : rowKey;
     enhanceTopNewsCards();
   }
 
@@ -169,26 +180,18 @@
 
     const keyword = clean(row?.["주제"]);
     const infoClass = clean(row?.["정보 분류"]);
-    const country = clean(row?.["국가"]);
-    const signature = [infoClass, country, keyword].join("|") || "static";
+    const signature = [infoClass, keyword].join("|") || "static";
     if (wrap.dataset.badgeSignature === signature) return;
 
     wrap.innerHTML = [
       infoClass ? `<span class="top-news-badge is-info">${escapeHtml(infoClass)}</span>` : "",
-      country ? `<span class="top-news-badge">${escapeHtml(country)}</span>` : "",
       keyword ? `<span class="top-news-badge is-keyword">${escapeHtml(keyword)}</span>` : "",
     ].join("");
     wrap.dataset.badgeSignature = signature;
   }
 
   function ensureOpenHint(card) {
-    const hints = [...card.querySelectorAll(".top-news-open-hint")];
-    hints.slice(1).forEach((hint) => hint.remove());
-    if (hints[0]) return;
-    const hint = document.createElement("span");
-    hint.className = "top-news-open-hint";
-    hint.textContent = "카드 클릭 시 상세 열기";
-    card.appendChild(hint);
+    card.querySelectorAll(".top-news-open-hint").forEach((hint) => hint.remove());
   }
 
   function renderTopNewsDetail(card, row, isExpanded) {
@@ -329,10 +332,10 @@
       .top-news-badge.is-info,.featured-project-badge.is-stage{background:#ecfdf5;color:#047857}
       .top-news-badge.is-keyword{background:#f8fafc;color:#334155}
       .featured-project-badge.is-cost{background:#fff7ed;color:#9a3412}
-      .top-news-open-hint{display:inline-flex;margin-top:8px;color:#475569;font-size:.76rem}
+      .top-news-open-hint{display:none !important}
       .top-news-card-detail{display:grid;gap:9px;margin-top:12px;padding-top:12px;border-top:1px solid rgba(42,65,97,.12)}
       .top-news-card-detail h4{margin:0;color:#0f2742;font-size:.82rem;font-weight:950;line-height:1.38}
-      .top-news-card-detail p{margin:0;color:#44546a;font-size:.76rem;font-weight:650;line-height:1.58}
+      .top-news-card-detail p{display:block !important;max-height:none !important;margin:0;color:#44546a;font-size:.76rem;font-weight:650;line-height:1.58;overflow:visible !important;-webkit-line-clamp:unset !important;-webkit-box-orient:initial !important}
       .top-news-detail-meta{display:flex;flex-wrap:wrap;gap:6px;color:#526276;font-size:.7rem;font-weight:750}
       .top-news-detail-meta span,.top-news-detail-meta a{display:inline-flex;align-items:center;min-height:24px;padding:3px 7px;border-radius:999px;background:#f1f7ff;text-decoration:none}
       .top-news-detail-meta a{color:#1253a4;font-weight:900}
