@@ -11445,21 +11445,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "ARG-OILGAS-ARGENTINA-LNG-IGTP",
-    "프로젝트명": "Argentina LNG Integrated Gas Treatment Project",
-    "지역": "중남미",
-    "국가": "아르헨티나",
-    "섹터": "석유가스·화학",
-    "발주처": "YPF / ENI / SACDE-Tecnimont UTE",
-    "사업비(달러 기준 추정액)": "약 USD 7,000백만",
-    "사업비 환산 환율 / 기준": "EconoJournal 2026-06-19 기준 관련 IGTP·분리·topping 인프라 투자액 약 USD 7bn",
-    "현재 단계": "awarded",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260619-005384",
-    "비고": "Argentina LNG의 Neuquén Integrated Gas Treatment Project. Vaca Muerta 가스를 처리·분리해 Golfo San Matías 액화·수출 설비로 공급하는 50MMm³/d급 핵심 중류 인프라로, SACDE-Tecnimont가 상세엔지니어링·실시설계·예산 산정 선도사로 선정됨. 후속 EPC 본계약, FID, 가스관·해상터미널 패키지와 혼동하지 않도록 IGTP 시설명 기준으로 추적 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "ARG-OILGAS-PERITO-MORENO-GPM-EXPANSION",
     "프로젝트명": "Perito Moreno Gas Pipeline Tramo I Expansion Project",
     "지역": "중남미",
@@ -11637,21 +11622,6 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260617-004002",
     "비고": "Line D Congreso de Tucumán 차고·작업장 잔여공사. UTE OSP-Miavasa와 Zonis 제안이 적격으로 인정되어 경제제안 개봉 단계로 진행. 후속 낙찰·계약·공사 재개 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "ARG-WATER-CASA-DE-PIEDRA-IRRIGATION-INTAKES",
-    "프로젝트명": "Casa de Piedra Water Intakes and Irrigation Expansion Project",
-    "지역": "중남미",
-    "국가": "아르헨티나",
-    "섹터": "수자원·환경",
-    "발주처": "Gobierno de La Pampa / Administración Provincial del Agua",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "El Constructor 2026-06-22 기준 사업비 미공개, 신규 관개면적 약 1,000ha",
-    "현재 단계": "construction",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260622-005385",
-    "비고": "La Pampa Casa de Piedra 생산권역 관개 확대를 위한 Toma Uno·Toma Dos 취수시설, 압송시스템, 저장용 시스터나 공사. 약 1,000ha 신규 관개면적 확보와 농업·와인·농산업 개발 기반 조성이 목표이며 후속 공정률, 준공, 추가 관개·상수도 패키지 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -12598,6 +12568,21 @@
     "대표 기사 고유값": "ART-20260615-003271",
     "비고": "Seef Mall - Seef District 상업시설 재활성화·리노베이션 프로젝트. Mohammed Jalal Contracting이 주계약자로 선정되었으며, 쇼핑몰 자산 현대화와 방문객 경험 개선을 목표로 함.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "BHR-WATER-JIDALI-SEWER-BLOCK721",
+    "프로젝트명": "Jidali Sewer Scheme in Block 721",
+    "지역": "중동",
+    "국가": "바레인",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Works / Sanitary Engineering Services",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Tender Board 2026-06-22 개찰 결과 기준 사업비 미공개. 2,954m uPVC 주하수관, 49개 F137형 프리캐스트 맨홀, 88개 주택 연결.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-005918",
+    "비고": "Jidali Block 721 하수도 공사 패키지. 약 2,954m uPVC 주하수관(150mm, 200mm, 250mm), 49개 F137형 프리캐스트 맨홀, 88개 주택 연결을 포함하는 Tender Board 공고 207/2026/BTB(SES-24/0015) 개찰 결과가 2026-06-22 확인됨. 후속 낙찰자 선정, 계약, 착공, 준공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "BLR-RAIL-MINSK-AIRPORT-EXPRESS",
@@ -13980,21 +13965,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "COL-WATER-SANTAMARTA-DESALINATION-PLANT",
-    "프로젝트명": "Santa Marta Desalination Plant Project",
-    "지역": "중남미",
-    "국가": "콜롬비아",
-    "섹터": "수자원·환경",
-    "발주처": "Ministerio de Vivienda, Ciudad y Territorio / Distrito de Santa Marta / ESSMAR ESP",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "2026-06-19 Minvivienda 공식 보도 기준 사업비 미공개. 중앙정부 재원, Santa Marta시 부지 제공, ESSMAR ESP 공개 공모 구조화.",
-    "현재 단계": "tender",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260619-005409",
-    "비고": "Santa Marta 식수 공급 안정화를 위한 담수화 플랜트 설계·건설·운영 조달 착수. 국내외 담수화 전문기업 대상 공개 선정 절차로, 후속 입찰 일정, 낙찰, 계약 체결, 착공과 운영개시 여부를 같은 프로젝트 고유값으로 추적.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "CYP-OILGAS-VASILIKOS-LNG",
     "프로젝트명": "Vasilikos LNG Import Terminal Project",
     "지역": "유럽",
@@ -14637,21 +14607,6 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260619-004855",
     "비고": "Sucumbíos주 Shushufindi-Yamanunca 도로의 Río Victoria 차량교량 및 접근도로 공사. 공고번호 EC-MTOP-504006-CW-RFB, 공사기간 240일, 현장방문 2026-06-26, 입찰마감 2026-07-13. 후속 낙찰, 계약, 착공 여부 추적 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "ECU-ROAD-QUIMIS-BRIDGE",
-    "프로젝트명": "Quimís Bridge Construction Project",
-    "지역": "중남미",
-    "국가": "에콰도르",
-    "섹터": "교통",
-    "발주처": "Ministerio de Infraestructura y Transporte (MIT) / Gobierno de Ecuador",
-    "사업비(달러 기준 추정액)": "약 USD 7.3백만",
-    "사업비 환산 환율 / 기준": "MIT 2026-06-23 기준 USD 7.3m, 교량 2개(각 30m) 및 1.73km 도로·접근부 포함",
-    "현재 단계": "construction",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260623-005405",
-    "비고": "Manabí주 Montecristi-Jipijapa 연결축의 Quimís 교량 및 접근도로 건설사업. 2026-06-23 MIT 공식 기사 기준 공정률 85%, 국가 투자 USD 7.3m, 교량 2개와 1.73km 도로·접근부, 표지·조명 등 부대시설을 포함하며 약 20일 내 인도·개통 목표. 후속 공식 개통, 준공, 추가 접근도로·보강 패키지 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -16980,6 +16935,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ISR-AIR-BENGURION-ATC-CONTROL-BUILDING",
+    "프로젝트명": "Ben Gurion Airport Main Control Unit Building Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "교통",
+    "발주처": "Israel Airports Authority",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "IAA 2026-06-22 공개입찰 목록 기준 사업비 미공개",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-005922",
+    "비고": "벤구리온공항 주관제시설(יב\"ר) 건물 및 부속건물 건설공사. 사전심사 포함 공개입찰로 2026-06-22 게시, 2026-07-23 제안 마감. 기존 Ben Gurion Airport Terminal 3 Hotel Project와는 기능·공사 범위가 달라 별도 프로젝트로 관리하고, 후속 낙찰·계약·착공 여부를 확인한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ISR-ENERGY-ASHALIM-PV-BESS",
     "프로젝트명": "Ashalim PV and Battery Energy Storage Project",
     "지역": "중동",
@@ -17067,6 +17037,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260622-005087",
     "비고": "하데라 기존 설비 인근 약 850MW 천연가스 복합화력발전소 확장사업. Capacity tariff 승인과 금융종결 조건 충족 확인, Bank Leumi 금융약정 및 국제 EPC contractor-Solel Boneh JV EPC 계약이 확인됨. 후속 실제 금융종결, 착공, 공정률, 상업운전일 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ISR-RAIL-EASTERN-RAILWAY",
+    "프로젝트명": "Israel Eastern Railway Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "교통",
+    "발주처": "Israel Ministry of Transport and Road Safety / Public Transport Authority / Israel Railways / Netivei Israel",
+    "사업비(달러 기준 추정액)": "약 USD 2,360백만 추정",
+    "사업비 환산 환율 / 기준": "과거 Ynet 2024 보도 기준 약 NIS 8.5bn, 2026년 환율 변동 고려한 간이 환산",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-005921",
+    "비고": "이스라엘 동부철도 약 65km 철도축. 2026-06-24 공식 발표 기준 1단계로 Hadera East, Shomron-Taibe, Tira-Kochav Yair 3개 신역이 2026-06-28 여객 운행을 시작하며, 향후 전철화 완료 후 Shoham-Airport, Elad, Lod까지 단계적 연장 예정. 후속 완전 전철화, 남부 연장, 추가역 개통 및 운영 전환 기사 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -17668,21 +17653,6 @@
     "대표 기사 고유값": "ART-20260615-003232",
     "비고": "에키바스투즈 GRES-1 인근 Data Center Valley. 최종 10개 데이터센터·총 1GW 목표, 1단계는 Kazakhtelecom 주도 125MW 시설과 유틸리티 네트워크. 2026-06-15 기준 카자흐스탄 정부·Firebird·NVIDIA의 100억 달러 AI 인프라 협약 패키지와 2027년 가동 목표가 확인됨.",
     "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "KAZ-DIGITAL-KTZ-LTER-NETWORK",
-    "프로젝트명": "KTZ LTE-R Railway Digital Network Project",
-    "지역": "중앙아시아",
-    "국가": "카자흐스탄",
-    "섹터": "디지털·데이터센터",
-    "발주처": "Kazakhstan Temir Zholy / Transtelecom",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "rail-news.kz 2026-06-22 기준 사업비 미공개. 전국 20,000km 이상 철도 노선 및 약 3,000개 LTE-R 무선통신 시설 구축 계획.",
-    "현재 단계": "planning",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260622-005031",
-    "비고": "KTZ와 Transtelecom이 추진하는 전국 철도 LTE-R 디지털 통신망 구축 프로젝트. 열차·관제·자동화시스템·철도 인프라 간 실시간 통신, 스마트 인프라·디지털 역·예측정비 기반, 국제운송회랑 처리능력 향상이 핵심 목적. 후속 조달 패키지, 장비공급사, 구간별 구축 일정, 5G/FRMCS 전환 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "KAZ-IND-AKBEIT-GOLD-RECOVERY-PLANT",
@@ -19230,6 +19200,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MAR-WATER-SAFI-MARRAKECH-DESALINATION-TRANSFER",
+    "프로젝트명": "Safi-Marrakech Desalinated Water Transfer Project",
+    "지역": "중동",
+    "국가": "모로코",
+    "섹터": "수자원·환경",
+    "발주처": "Société Régionale Multiservices de Marrakech-Safi / OCP Green Water",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Morocco World News 2026-06-22 기준 사업비 미공개. 연 100백만㎥ 담수화수 이송, 185.3km 강관망, 3개 펌프장 및 조절저류지 포함.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-005919",
+    "비고": "Safi OCP Green Water 해수담수화 플랜트에서 Greater Marrakech로 담수화수를 이송하는 전략 상수도 프로젝트. 185.3km 강관망, 3개 펌프장, Oulad Dlim 조절저류지를 포함하며 2026년 7월 말 공급 개시 예정. 후속 실제 통수·운영개시 및 추가 확장 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MEX-ENERGY-MEXICALI-GONZALEZ-ORTEGA-CCC",
     "프로젝트명": "Central Ciclo Combinado Gonzalez Ortega Mexicali Project",
     "지역": "중남미",
@@ -20235,6 +20220,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NGA-ROAD-IBADAN-IFE-ILESA",
+    "프로젝트명": "Ibadan-Ife-Ilesa Road Reconstruction Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "Federal Ministry of Works / CBC Global Civil and Building Construction Nigeria Ltd",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "FMINO 2026-06-23 기준 전체 사업비 미공개. 기사 내 ₦2.8bn palliative works certificate 이슈 언급.",
+    "현재 단계": "on-hold",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005933",
+    "비고": "나이지리아 남서부 108km Ibadan-Ife-Ilesa 도로 재건사업. 공공사업부 장관이 포장 혼합물 기준 재검토와 주요 공사 일시중지를 지시해 품질·감리 리스크가 발생한 상태. 후속 공사 재개, 공정률, 계약·비용 조정 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ROAD-KUJE-GWAGWALADA-DUAL-CARRIAGEWAY",
+    "프로젝트명": "Kuje-Gwagwalada Dual Carriageway Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "Federal Capital Territory Administration (FCTA) / Satellite Towns Development Department / Gilmor Engineering Nigeria Limited",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Voice of Nigeria 2026-06-24 기준 사업비 미공개. 1단계 7km 준공, 잔여 6km 2단계 2026년 12월 완료 목표.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-005932",
+    "비고": "FCT Kuje-Gwagwalada 도로축 이중차도 개선사업. 1단계 7km 구간 준공, 전체 회랑은 잔여 6km 2단계가 남아 있어 현재 단계는 construction으로 관리. 후속 2단계 준공, 비용·공정 업데이트 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NGA-ROAD-LAGOS-CALABAR-COASTAL",
     "프로젝트명": "Lagos-Calabar Coastal Highway Project",
     "지역": "아프리카",
@@ -20338,6 +20353,21 @@
     "대표 기사 고유값": "ART-20260620-005100",
     "비고": "Lagos Lagoon 대중 수상교통망 구축 프로젝트. 15개 정규 ferry routes, 약 140km 노선, 25개 ferry terminals 개선·확장, passenger stations, maintenance facilities, 전기 선박 75척 도입을 포함함. 후속 본공사 조달, 터미널·조선/선박공급 패키지, 착공·운영개시 여부 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "NGA-WATER-KARU-SATELLITE-TOWN-SUPPLY",
+    "프로젝트명": "Karu Satellite Town Water Supply Network Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "수자원·환경",
+    "발주처": "Federal Capital Territory Administration (FCTA) / CGC Nigeria Limited",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Xinhua 2026-06-23 기준 사업비 미공개. 194km 이상 관망, 1,000개 이상 배수 라인, 100개 이상 제어밸브 설치.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005931",
+    "비고": "Abuja Karu Satellite Town 상수도망 준공 사업. CGC Nigeria가 10개월 내 완공했으며 FCT 위성도시 기초서비스 확장과 중국-나이지리아 인프라 협력 사례로 관리. 후속 유지관리, 추가 위성도시 상수도 패키지, CGC 후속 계약 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "NIC-ROAD-LIAUBRA-PRODUCTIVE-ROAD",
@@ -25215,21 +25245,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "URY-OILGAS-FRAYLOG-PAYSANDU-CNG",
-    "프로젝트명": "Fraylog Paysandú Compressed Natural Gas Plant Project",
-    "지역": "중남미",
-    "국가": "우루과이",
-    "섹터": "석유가스·화학",
-    "발주처": "Fraylog / Ministerio de Ambiente",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "El Observador 2026-06-23 기사 기준 사업비 미공개. 최대 400,000㎥/일 GNC 처리, 공사기간 약 12개월.",
-    "현재 단계": "planning",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260623-005407",
-    "비고": "Paysandú Ruta 3·ANCAP 부지 인근 산업용 GNC 압축·트럭 운송 플랜트. Gasoducto del Litoral에서 가스를 취입해 압축·적재 후 원거리 산업고객에 공급하는 구조. 2026-06-23 기준 환경부 검토 단계이며 후보지 A/B, Hot Tap 연결, 6기 압축기, 6개 적재섬, UTE 중압 전력연계, 환경 분류·부지 확정 및 후속 인허가 추적 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "URY-OILGAS-HIF-PAYSANDU-EFUELS",
     "프로젝트명": "HIF Paysandú e-Fuels Project",
     "지역": "중남미",
@@ -25257,21 +25272,6 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20250820-004237",
     "비고": "Montevideo 도심과 El Pinar를 연결하는 약 35km 도시철도/Tren-Tram PPP 구상. Setec의 교외철도 타당성 검토와 ITA 2025년 인프라 가이드에서 여객철도 현대화·도시교통 개선 기회로 확인됨. 후속 정부 의사결정, PPP 입찰, 민간제안 승인, 차량·시스템·토목 패키지 분리 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "URY-URBAN-BANADOS-CARRASCO-HOUSING",
-    "프로젝트명": "Bañados de Carrasco Urban Housing Development Project",
-    "지역": "중남미",
-    "국가": "우루과이",
-    "섹터": "도시개발·주택",
-    "발주처": "Bislun S.A. / Junta Departamental de Montevideo",
-    "사업비(달러 기준 추정액)": "약 USD 1,248백만",
-    "사업비 환산 환율 / 기준": "El Observador 2026-06-23 기술자료 인용 기준 총투자 USD 1.248bn, 15년 개발기간",
-    "현재 단계": "planning",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260623-005406",
-    "비고": "Montevideo Bañados de Carrasco 228ha 부지의 3,000가구 도시개발·주거복합 프로젝트. 2026-06-23 기준 Junta Departamental이 토지유형 변경 및 PAI Complementario 진행 여부를 6~7월 심의 예정. 습지·홍수위험 쟁점과 환경·도시계획 심의 결과, 개발사 Bislun S.A. 후속 자료 제출, 토지용도 변경 최종 승인 여부를 추적 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
