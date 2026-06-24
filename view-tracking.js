@@ -123,7 +123,7 @@
 
   function trackMarketPageVisit() {
     if (!isMarketPage()) return;
-    track("market_page_visit", "market-home", { targetType: "market" });
+    track("market_page_visit", "market-home", { targetType: "page" });
   }
 
   function trackProjectPageOpen() {
@@ -219,7 +219,7 @@
 
   function inferTargetType(eventType) {
     if (eventType === "project_detail_open") return "project";
-    if (eventType === "market_page_visit") return "market";
+    if (eventType === "market_page_visit") return "page";
     return "article";
   }
 
