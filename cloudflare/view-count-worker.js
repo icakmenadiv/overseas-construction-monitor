@@ -2,6 +2,7 @@ const EVENT_TARGET_TYPE = {
   article_detail_open: "article",
   source_link_click: "article",
   project_detail_open: "project",
+  market_page_visit: "page",
 };
 
 const DEFAULT_DEDUPE_WINDOW_MS = 5 * 60 * 1000;
