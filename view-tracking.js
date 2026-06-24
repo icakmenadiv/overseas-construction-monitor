@@ -12,6 +12,7 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     loadCountCache();
+    trackMarketPageVisit();
     trackProjectPageOpen();
   });
 
@@ -112,10 +113,20 @@
     return window.ViewCounts?.counts?.[targetType]?.[targetId] || {};
   }
 
+  function trackMarketPageVisit() {
+    if (!isMarketPage()) return;
+    track("market_page_visit", "market-home");
+  }
+
   function trackProjectPageOpen() {
     if (!/project\.html$/i.test(window.location.pathname)) return;
     const projectId = getProjectIdFromUrl(new URL(window.location.href));
     if (projectId) track("project_detail_open", projectId);
+  }
+
+  function isMarketPage() {
+    const path = window.location.pathname.replace(/\/+$/, "");
+    return path === "" || path === "/" || /\/index\.html$/i.test(window.location.pathname);
   }
 
   function isProjectDetailLink(url, link) {
