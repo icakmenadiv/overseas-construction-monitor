@@ -1,7 +1,9 @@
 (() => {
   const TRACKING_ENDPOINT = getTrackingEndpoint();
   const SESSION_KEY = "icakViewSessionId";
+  const BROWSER_KEY = "icakViewBrowserId";
   const DEDUPE_KEY = "icakViewEventDedupe";
+  const MARKET_DEDUPE_KEY = "icakViewMarketVisitDedupe";
   const DEDUPE_WINDOW_MS = 5 * 60 * 1000;
 
   window.ViewTracking = {
@@ -48,19 +50,19 @@
 
     if (isProjectDetailLink(url, link)) {
       const projectId = getProjectIdFromUrl(url);
-      if (projectId) track("project_detail_open", projectId, { sourceUrl: url.toString() });
+      if (projectId) track("project_detail_open", projectId, { targetType: "project", sourceUrl: url.toString() });
       return;
     }
 
     if (!isSourceLink(url, link)) return;
     const articleId = findArticleId(link);
-    if (articleId) track("source_link_click", articleId, { sourceUrl: url.toString() });
+    if (articleId) track("source_link_click", articleId, { targetType: "article", sourceUrl: url.toString() });
   }
 
   function scheduleArticleDetailTrack(articleId, trigger) {
     if (!articleId) return;
     setTimeout(() => {
-      if (isExpanded(trigger, articleId)) track("article_detail_open", articleId);
+      if (isExpanded(trigger, articleId)) track("article_detail_open", articleId, { targetType: "article" });
     }, 0);
   }
 
@@ -74,13 +76,19 @@
   }
 
   function track(eventType, targetId, options = {}) {
-    if (!TRACKING_ENDPOINT || !targetId || shouldDedupe(eventType, targetId)) return;
+    if (!TRACKING_ENDPOINT || !targetId) return;
+    const sessionId = getSessionId();
+    const browserId = getBrowserId();
+    if (shouldDedupe(eventType, targetId, { sessionId, browserId })) return;
     const payload = {
       event_type: eventType,
+      target_type: options.targetType || inferTargetType(eventType),
       target_id: String(targetId),
-      session_id: getSessionId(),
+      session_id: sessionId,
+      browser_id: browserId,
       source_url: options.sourceUrl || "",
       page_path: `${window.location.pathname}${window.location.search}`,
+      event_date_kst: getKstDateKey(),
     };
     sendPayload(payload);
   }
@@ -115,13 +123,13 @@
 
   function trackMarketPageVisit() {
     if (!isMarketPage()) return;
-    track("market_page_visit", "market-home");
+    track("market_page_visit", "market-home", { targetType: "market" });
   }
 
   function trackProjectPageOpen() {
     if (!/project\.html$/i.test(window.location.pathname)) return;
     const projectId = getProjectIdFromUrl(new URL(window.location.href));
-    if (projectId) track("project_detail_open", projectId);
+    if (projectId) track("project_detail_open", projectId, { targetType: "project" });
   }
 
   function isMarketPage() {
@@ -154,31 +162,75 @@
     return clean(url.searchParams.get("id")) || clean(url.searchParams.get("name"));
   }
 
-  function shouldDedupe(eventType, targetId) {
+  function shouldDedupe(eventType, targetId, ids) {
+    if (eventType === "market_page_visit") {
+      return shouldDedupeMarketVisit(eventType, targetId, ids.browserId);
+    }
+    return shouldDedupeRecentEvent(eventType, targetId, ids.sessionId);
+  }
+
+  function shouldDedupeMarketVisit(eventType, targetId, browserId) {
+    const dateKey = getKstDateKey();
+    const dedupeKey = `${eventType}|${targetId}|${browserId}|${dateKey}`;
+    const cache = readJson(MARKET_DEDUPE_KEY, {}, localStorage);
+    if (cache[dedupeKey]) return true;
+    cache[dedupeKey] = Date.now();
+    Object.keys(cache).forEach((itemKey) => {
+      if (!itemKey.endsWith(`|${dateKey}`)) delete cache[itemKey];
+    });
+    writeJson(MARKET_DEDUPE_KEY, cache, localStorage);
+    return false;
+  }
+
+  function shouldDedupeRecentEvent(eventType, targetId, sessionId) {
     const now = Date.now();
-    const key = `${eventType}|${targetId}|${getSessionId()}`;
-    const cache = readJson(DEDUPE_KEY, {});
+    const key = `${eventType}|${targetId}|${sessionId}`;
+    const cache = readJson(DEDUPE_KEY, {}, sessionStorage);
     const last = Number(cache[key] || 0);
     if (last && now - last < DEDUPE_WINDOW_MS) return true;
     cache[key] = now;
     Object.keys(cache).forEach((itemKey) => {
       if (now - Number(cache[itemKey] || 0) > 24 * 60 * 60 * 1000) delete cache[itemKey];
     });
-    writeJson(DEDUPE_KEY, cache);
+    writeJson(DEDUPE_KEY, cache, sessionStorage);
     return false;
   }
 
   function getSessionId() {
+    return getStoredId(sessionStorage, SESSION_KEY, "session-unavailable");
+  }
+
+  function getBrowserId() {
+    return getStoredId(localStorage, BROWSER_KEY, "browser-unavailable");
+  }
+
+  function getStoredId(storage, key, fallback) {
     try {
-      let id = sessionStorage.getItem(SESSION_KEY);
+      let id = storage.getItem(key);
       if (!id) {
         id = crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
-        sessionStorage.setItem(SESSION_KEY, id);
+        storage.setItem(key, id);
       }
       return id;
     } catch (error) {
-      return "session-unavailable";
+      return fallback;
     }
+  }
+
+  function inferTargetType(eventType) {
+    if (eventType === "project_detail_open") return "project";
+    if (eventType === "market_page_visit") return "market";
+    return "article";
+  }
+
+  function getKstDateKey() {
+    const formatter = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Seoul",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    });
+    return formatter.format(new Date());
   }
 
   function getTrackingEndpoint() {
@@ -189,17 +241,17 @@
     return url.toString();
   }
 
-  function readJson(key, fallback) {
+  function readJson(key, fallback, storage = sessionStorage) {
     try {
-      return JSON.parse(sessionStorage.getItem(key) || JSON.stringify(fallback));
+      return JSON.parse(storage.getItem(key) || JSON.stringify(fallback));
     } catch (error) {
       return fallback;
     }
   }
 
-  function writeJson(key, value) {
+  function writeJson(key, value, storage = sessionStorage) {
     try {
-      sessionStorage.setItem(key, JSON.stringify(value));
+      storage.setItem(key, JSON.stringify(value));
     } catch (error) {}
   }
 
