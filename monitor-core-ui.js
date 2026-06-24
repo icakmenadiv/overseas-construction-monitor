@@ -30,7 +30,9 @@
   function run() {
     patchMenuLabels();
     moveSummaryIntoFilter();
+    removeDateSummaryItems();
     moveSortFieldToTop();
+    reorderFilterFields();
     setupTopResetButtons();
     setupCollapsibleFilters();
     updateFilterSummaries();
@@ -46,11 +48,17 @@
   }
 
   function moveSummaryIntoFilter() {
-    const dashboard = document.querySelector(".dashboard");
     const panel = document.querySelector(".market-filter-panel") || document.querySelector(".dashboard > .control-panel");
     const summary = document.querySelector(".dashboard > .summary-grid");
-    if (!dashboard || !panel || !summary || panel.contains(summary)) return;
+    if (!panel || !summary || panel.contains(summary)) return;
     panel.insertBefore(summary, panel.firstElementChild);
+  }
+
+  function removeDateSummaryItems() {
+    document.querySelectorAll(".control-panel > .summary-grid .summary-item").forEach((item) => {
+      const label = clean(item.querySelector("span")?.textContent);
+      if (label === "최근 원문게재일" || label === "최근 업데이트") item.remove();
+    });
   }
 
   function moveSortFieldToTop() {
@@ -58,10 +66,18 @@
     const sortField = sort?.closest(".field");
     const topActions = document.querySelector(".control-panel .filter-top-actions");
     if (!sort || !sortField || !topActions || sortField.dataset.sortTopReady === "true") return;
-
     sortField.classList.add("sort-field-top");
     sortField.dataset.sortTopReady = "true";
     topActions.appendChild(sortField);
+  }
+
+  function reorderFilterFields() {
+    const grid = document.querySelector(".control-panel .field-grid");
+    if (!grid) return;
+    ["regionFilter", "countryFilter", "sectorFilter", "stageFilter", "infoClassFilter"].forEach((id) => {
+      const field = document.getElementById(id)?.closest(".field");
+      if (field && field.parentElement === grid) grid.appendChild(field);
+    });
   }
 
   function setupTopResetButtons() {
@@ -392,7 +408,6 @@
         .dashboard:not(.market-dashboard)>.featured-projects{grid-row:1 !important}
         .dashboard:not(.market-dashboard)>.results-section{grid-row:2 !important}
         .control-panel>.summary-grid{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:6px !important;margin:0 0 10px !important}
-        .control-panel>.summary-grid .summary-item:nth-child(5){grid-column:1 / -1}
       }
       .filter-top-actions{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:end;gap:8px;margin:0 0 10px}
       .top-reset-button{display:inline-flex !important;align-items:center !important;justify-content:center !important;min-height:32px !important;padding:0 12px !important;border:1px solid rgba(13,77,132,.18) !important;border-radius:8px !important;background:linear-gradient(180deg,#1f6fb2,#155895) !important;color:#fff !important;box-shadow:0 7px 16px rgba(21,88,149,.18) !important;font-size:.68rem !important;font-weight:900 !important;line-height:1 !important;white-space:nowrap;cursor:pointer}
@@ -404,7 +419,7 @@
       .filter-collapse{width:100%}
       .filter-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:34px;padding:7px 9px;border:1px solid rgba(30,41,59,.14);border-radius:8px;background:#fff;cursor:pointer;list-style:none}
       .filter-summary::-webkit-details-marker{display:none}
-      .filter-summary::after{content:"▾";margin-left:auto;color:#64748b;font-size:.72rem;transition:transform .16s ease}
+      .filter-summary::after{content:"v";margin-left:auto;color:#64748b;font-size:.72rem;transition:transform .16s ease}
       .filter-collapse[open] .filter-summary::after{transform:rotate(180deg)}
       .filter-summary-title{font-weight:800;font-size:.68rem}
       .filter-summary-count{font-size:.64rem;color:#64748b;white-space:nowrap}
