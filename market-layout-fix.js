@@ -49,17 +49,27 @@
 
       if (card.dataset.marketDetailReady !== "true") {
         card.dataset.marketDetailReady = "true";
-        card.addEventListener("click", (event) => {
-          const sourceLink = event.target.closest(".top-news-source-link, .project-detail-link");
-          if (sourceLink) return;
-          event.preventDefault();
-          toggleTopNewsCard(card);
-        });
-        card.addEventListener("keydown", (event) => {
-          if (event.key !== "Enter" && event.key !== " ") return;
-          event.preventDefault();
-          toggleTopNewsCard(card);
-        });
+        card.addEventListener(
+          "click",
+          (event) => {
+            const passthroughLink = event.target.closest(".top-news-source-link, .project-detail-link");
+            if (passthroughLink) return;
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            toggleTopNewsCard(card);
+          },
+          true,
+        );
+        card.addEventListener(
+          "keydown",
+          (event) => {
+            if (event.key !== "Enter" && event.key !== " ") return;
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            toggleTopNewsCard(card);
+          },
+          true,
+        );
       }
 
       renderTopNewsDetail(card, row, expandedTopNewsId === articleId);
