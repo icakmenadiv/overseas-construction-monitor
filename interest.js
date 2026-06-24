@@ -4,6 +4,8 @@
     localDeltas: "icakInterestLocalDeltas",
   };
   const COUNT_COLUMNS = ["관심도", "관심도 집계", "관심수", "하트수", "관심도 수치"];
+  const PROJECT_ENHANCE_DELAYS = [0, 120, 360, 900, 1800, 3200];
+  let projectObserverReady = false;
 
   window.InterestFeature = {
     enabled: true,
@@ -18,9 +20,14 @@
     wrapMarketRenderers();
     wrapTopNewsRenderer();
     wrapProjectRenderer();
-    enhanceExistingProjectPage();
+    watchProjectPage();
+    scheduleProjectEnhance();
     hydrateButtons();
   });
+  if (document.readyState !== "loading") {
+    watchProjectPage();
+    scheduleProjectEnhance();
+  }
 
   function wrapMarketRenderers() {
     if (window.__interestMarketWrapped || typeof window.createMainRow !== "function") return;
@@ -56,9 +63,25 @@
     const originalRenderProject = window.renderProject;
     window.renderProject = function renderProjectWithInterest(project, articleItems) {
       const result = originalRenderProject.call(this, project, articleItems);
-      enhanceExistingProjectPage();
+      scheduleProjectEnhance();
       return result;
     };
+  }
+
+  function watchProjectPage() {
+    if (projectObserverReady) return;
+    const content = document.getElementById("projectContent");
+    if (!content) return;
+    projectObserverReady = true;
+    const observer = new MutationObserver(() => scheduleProjectEnhance());
+    observer.observe(content, { childList: true, subtree: true, attributes: true, attributeFilter: ["hidden"] });
+  }
+
+  function scheduleProjectEnhance() {
+    PROJECT_ENHANCE_DELAYS.forEach((delay) => setTimeout(() => {
+      enhanceExistingProjectPage();
+      hydrateButtons();
+    }, delay));
   }
 
   function enhanceMarketRow(row, rowData) {
@@ -91,6 +114,7 @@
   function enhanceExistingProjectPage() {
     const content = document.getElementById("projectContent");
     if (!content || content.hidden) return;
+    ensureProjectInterestBox();
     document.querySelectorAll("#projectArticles .project-article-card").forEach((card) => {
       if (card.dataset.interestReady === "true") return;
       const story = storyFromProjectArticleCard(card);
@@ -105,6 +129,20 @@
       card.dataset.interestReady = "true";
     });
     refreshProjectAggregate();
+  }
+
+  function ensureProjectInterestBox() {
+    const toolbar = document.querySelector(".project-toolbar");
+    if (!toolbar || toolbar.querySelector(".project-interest-box")) return;
+    const projectStory = storyFromProjectPage();
+    const box = document.createElement("div");
+    box.className = "project-interest-box";
+    box.innerHTML = `
+      <span class="project-interest-label">프로젝트 관심 표시</span>
+      <strong class="project-interest-total" data-project-total-count>0</strong>
+      <span class="project-interest-caption">관심 표시 수는 관련 기사 관심도와 이 화면의 프로젝트 표시를 함께 보는 참고 신호입니다.</span>`;
+    box.insertBefore(createInterestButton(projectStory, "project"), box.querySelector(".project-interest-caption"));
+    toolbar.appendChild(box);
   }
 
   function createInterestButton(story, role) {
@@ -166,13 +204,16 @@
   function refreshProjectAggregate() {
     const totalEl = document.querySelector("[data-project-total-count]");
     if (!totalEl) return;
-    const ids = [...new Set([...document.querySelectorAll("#projectArticles .project-article-interest")].map((node) => node.dataset.articleId).filter(Boolean))];
-    const total = ids.reduce((sum, id) => {
+    const articleIds = [...new Set([...document.querySelectorAll("#projectArticles .project-article-interest")].map((node) => node.dataset.articleId).filter(Boolean))];
+    const articleTotal = articleIds.reduce((sum, id) => {
       const button = document.querySelector(`.interest-button[data-article-id="${cssEscape(id)}"]`);
       const sheetCount = Number(button?.dataset.sheetCount || 0);
       return sum + Math.max(0, sheetCount + Number(readJson(STORAGE_KEYS.localDeltas, {})[id] || 0));
     }, 0);
-    totalEl.textContent = numberFormat(total);
+    const projectId = storyFromProjectPage().id;
+    const projectButton = document.querySelector(`.project-interest-box .interest-button[data-article-id="${cssEscape(projectId)}"]`);
+    const projectTotal = projectButton ? Math.max(0, Number(projectButton.dataset.sheetCount || 0) + Number(readJson(STORAGE_KEYS.localDeltas, {})[projectId] || 0)) : 0;
+    totalEl.textContent = numberFormat(articleTotal + projectTotal);
   }
 
   function storyFromArticleRow(row) {
@@ -183,6 +224,12 @@
   function storyFromProjectArticleCard(card) {
     const id = clean(card.dataset.articleId);
     return { id, sheetCount: Number(card.dataset.sheetInterestCount || 0) };
+  }
+
+  function storyFromProjectPage() {
+    const params = new URLSearchParams(window.location.search);
+    const id = clean(params.get("id")) || clean(params.get("name")) || clean(document.getElementById("projectTitle")?.textContent) || "project-detail";
+    return { id: `project:${id}`, sheetCount: 0 };
   }
 
   function getSheetCount(row) {
