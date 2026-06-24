@@ -2,6 +2,9 @@ name: Sync view counts
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/view-count-sync-trigger.txt"
   schedule:
     - cron: "17 */6 * * *"
 
