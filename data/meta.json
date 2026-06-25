@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T05:27:23.537Z",
+  "updatedAt": "2026-06-25T10:20:08.398Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -23,18 +23,23 @@
     "mode": "reconcile"
   },
   "counts": {
-    "articles": 4411,
+    "articles": 4409,
     "projects": 1763
   },
   "diff": {
     "articles": {
       "added": [],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20260620-005337",
+        "ART-20260622-005127"
+      ]
     },
     "projects": {
       "added": [],
-      "updated": [],
+      "updated": [
+        "IDN-WATER-JAVA-GIANT-SEA-WALL"
+      ],
       "removed": []
     }
   },
