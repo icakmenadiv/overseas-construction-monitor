@@ -11085,21 +11085,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "TUN-ENERGY-ELMED-INTERCONNECTOR",
-    "프로젝트명": "ELMED Italy-Tunisia HVDC Interconnector Project",
-    "지역": "중동",
-    "국가": "튀니지",
-    "섹터": "에너지",
-    "발주처": "Terna / STEG",
-    "사업비(달러 기준 추정액)": "약 1,080백만 달러 추정",
-    "사업비 환산 환율 / 기준": "DispatchRisk 2025-08 기준 총사업비 약 EUR 1bn, 1 EUR≈1.08 USD 간이 환산. Prysmian 해저케이블 패키지 약 EUR 460m.",
-    "현재 단계": "awarded",
-    "최근 업데이트일": "2025. 9. 26",
-    "대표 기사 고유값": "ART-20250926-001829",
-    "비고": "600MW, 500kV급 이탈리아-튀니지 HVDC 해저 전력연계. Partanna-Sicily와 Mlaabi-Cap Bon 변전소 연결, 해저 약 200km 포함. Team Europe 금융 패키지 후 Prysmian 해저케이블 패키지 낙찰.",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "MDA-POWER-BALTI-SUCEAVA-400KV",
     "프로젝트명": "Balti-Suceava 400kV Overhead Power Line Project",
     "지역": "유럽",
@@ -11580,6 +11565,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "ARG-SOC-MIRAMAR-SUBZONAL-HOSPITAL",
+    "프로젝트명": "Hospital Subzonal de Miramar First Stage Project",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "사회인프라",
+    "발주처": "Ministerio de Infraestructura y Servicios Públicos de la Provincia de Buenos Aires",
+    "사업비(달러 기준 추정액)": "USD 환산 미공개",
+    "사업비 환산 환율 / 기준": "La Capital / Buenos Aires Province 2026-06-23 기준 ARS 14,098,339,348.14, 공기 540일. 환율 변동이 커 USD 환산은 보류.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-005522",
+    "비고": "Buenos Aires주 General Alvarado partido Miramar의 Hospital Subzonal 1단계 공사 입찰 프로젝트. 2026-07-14 La Plata에서 제안서 개찰 예정이며, 병원 기능 확충을 위한 사회인프라 사업으로 관리한다. 후속 낙찰자, 계약금액, 병상·MEP·의료설비 범위, 착공 여부를 같은 프로젝트 고유값으로 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARG-TRANSPORT-VNT-CONCESSION",
     "프로젝트명": "Vía Navegable Troncal Concession Project",
     "지역": "중남미",
@@ -11740,8 +11740,8 @@
     "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 총리 발언상 수십억 달러 투자 유입 전망",
     "현재 단계": "financing",
     "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260623-005226",
-    "비고": "남부 아르메니아 통과 철도·도로·에너지·디지털 회랑. 2026-06-23 주미대사관 공개 기본협정 기준 TDC/SPV 구조, 미국 74%·아르메니아 26% 합작, 49년 토지사용·개발권, 조달·PPP·회사법 예외 및 금융지원 의향이 확인됨. 후속 협정 발효, TDC 설립, SPV별 사업 확정, 입찰·양허계약 체결 추적 필요.",
+    "대표 기사 고유값": "ART-20260625-006215",
+    "비고": "남부 아르메니아 통과 철도·도로·에너지·디지털 회랑. 2026-06-23 주미대사관 공개 기본협정 기준 TDC/SPV 구조, 미국 74%·아르메니아 26% 합작, 49년 토지사용·개발권, 조달·PPP·회사법상 예외 및 금융지원 의향이 확인됨. 2026-06-25 파시냔 총리는 현장 엔지니어링 조사와 교통허브·전력선 검토가 진행 중이며 기술 문제가 없으면 올해 현장공사 착수를 목표로 한다고 밝힘. 후속 TDC 설립, 공구·시설별 범위, RFQ/RFP, 금융조건, 본공사 착수 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -12105,18 +12105,33 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "AUS-URBAN-SOUTHBRISBANE-VISY-PRECINCT",
-    "프로젝트명": "South Brisbane Visy Site Riverfront Precinct Redevelopment",
+    "프로젝트 고유값": "AUS-SOC-TWELVE-APOSTLES-VISITOR-CENTRE",
+    "프로젝트명": "Twelve Apostles Visitor Experience Centre Project",
     "지역": "태평양",
     "국가": "호주",
-    "섹터": "도시개발·주택",
-    "발주처": "Queensland Government / Lendlease",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "Courier Mail 2026-06-24 기준 총사업비 미공개. 주정부 부지 매입가는 AUD 165m이나 개발 총사업비와 별도.",
-    "현재 단계": "planning",
+    "섹터": "사회인프라",
+    "발주처": "Australian Government / Victorian Government",
+    "사업비(달러 기준 추정액)": "약 USD 81.9백만 추정",
+    "사업비 환산 환율 / 기준": "공식 보도자료 2026-06-25 기준 AUD 126m, 1 AUD≈0.65 USD 간이 환산.",
+    "현재 단계": "construction",
     "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260624-005440",
-    "비고": "South Brisbane Montague Road 옛 Visy 7.1ha 강변부지 재개발. 4,000호 이상 주택, 13개 건물, 1.2ha 공공 강변공원, 보드워크·광장·보행·자전거 연결시설을 포함하며 Lendlease가 개발 파트너로 보도됨. 2027년 초 주민 의견수렴과 2027년 4월 이후 부지 인계를 거쳐 단계별 개발, 1단계 강변 활성화 구간은 2032년 목표. 후속 PDA/마스터플랜 승인, 세부 DA, 시공 패키지, 금융 구조 확인 필요.",
+    "대표 기사 고유값": "ART-20260625-006115",
+    "비고": "Twelve Apostles 관광지의 신규 방문객센터·방문객 경험 개선 재개발 사업. 2025년 착공 이후 750명 이상 고용과 50명 이상 견습생 투입이 확인됨. 후속 건축·토목 공정, 접근·주차·유틸리티 연계, 준공·개장 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AUS-TRANSPORT-BOWEN-MARINE-INFRA-REPLACEMENT",
+    "프로젝트명": "Bowen Marine Infrastructure Replacement Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "교통",
+    "발주처": "North Queensland Bulk Ports Corporation / Queensland Government",
+    "사업비(달러 기준 추정액)": "약 USD 44.2백만 추정",
+    "사업비 환산 환율 / 기준": "현지 보도 2026-06-25 기준 AUD 68m, 1 AUD≈0.65 USD 간이 환산. Queensland Government AUD 50m + NQBP AUD 18m.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006116",
+    "비고": "노후 Bowen Wharf 대체를 위한 신규 공공 recreational jetty 설계·시공 EOI. 별도 상업부두는 Port of Abbot Point 예인 운영 지원용으로 별도 사업성·재원 검토 대상. 2026년 말 tender, 2027년 착공, 2028년 말 완료 목표.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -12252,6 +12267,36 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260507-003839",
     "비고": "Bilajari-Yalama 북남철도 회랑 전철화·신호·통신 현대화. ADB 3.25억 달러 금융 준비 후 2026년 5월 설계·시공 입찰 단계 확인. 25kV AC 전철화, 신호·통신, 역 개선 및 42개월 공기. 후속 낙찰·계약·착공 확인 필요.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "AZE-RAIL-YEVLAKH-BARDA",
+    "프로젝트명": "Yevlakh-Barda Railway Reconstruction Project",
+    "지역": "유럽",
+    "국가": "아제르바이잔",
+    "섹터": "교통",
+    "발주처": "Azerbaijan Railways (ADY)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Report.az 2026-06-24 기준 사업비 미공개. 30km 철도 재건, 174개 구조물 계획.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006223",
+    "비고": "Yevlakh-Barda 30km 철도 노선 재건사업. 철거 완료 후 노반 공사 진행 중이며 교량 4개, 차량 고가교 12개, 암거 98개, 비상 고가교 60개 등 총 174개 구조물 건설 계획. 1967년 이후 대수선이 없던 노선의 속도와 안정성을 높이고 Yevlakh-Khankandi 철도 연결성을 구축하는 사업으로, 후속 완공·운행재개·전기·신호·통신 패키지를 추적.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "AZE-ROAD-AGHBAND-BORDER-CROSSING",
+    "프로젝트명": "Aghband Border Crossing Point Project",
+    "지역": "유럽",
+    "국가": "아제르바이잔",
+    "섹터": "교통",
+    "발주처": "State Customs Committee of Azerbaijan",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Report.az 2026-06-25 기준 사업비·시공사 미공개. East Zangazur Aghband 국경검문소 운영 준비 단계.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006224",
+    "비고": "East Zangazur 소재 Aghband 국경검문소 운영 준비 프로젝트. 국가관세위원회는 환승 잠재력 확대와 국경 인프라 처리능력 확충의 일환으로 Aghband 검문소가 가까운 시일 내 운영될 것으로 예상된다고 설명. 실제 운영 개시, 접속도로·통관시설 확장, Southern Astara 2단계와의 연계 발표를 후속 추적.",
     "대표 기사 정보 분류": ""
   },
   {
@@ -12855,6 +12900,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "BRA-ROAD-BR487-ESTRADA-BOIADEIRA-PAVING",
+    "프로젝트명": "BR-487/PR Estrada Boiadeira Paving Project",
+    "지역": "중남미",
+    "국가": "브라질",
+    "섹터": "교통",
+    "발주처": "Ministério dos Transportes / DNIT",
+    "사업비(달러 기준 추정액)": "약 USD 67백만",
+    "사업비 환산 환율 / 기준": "gov.br/Transportes 2026-06-24 기준 R$343.9m, 1 USD≈5.1 BRL 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-005983",
+    "비고": "Paraná BR-487/PR Estrada Boiadeira 37.39km 신설·포장 프로젝트. Novo PAC 재원으로 Serra dos Dourados-Umuarama-Cruzeiro do Oeste 구간 공사가 착수됐으며, 토공·배수·소구조물·표지를 포함한다. 후속 공정률, 추가 연결구간, 완공 및 물류회랑 효과 기사를 같은 프로젝트로 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BRA-ROAD-BR494-DIVINOPOLIS-URBAN-CROSSING",
     "프로젝트명": "BR-494/MG Divinópolis Urban Crossing Duplication Project",
     "지역": "중남미",
@@ -12988,6 +13048,21 @@
     "대표 기사 고유값": "ART-20260616-003750",
     "비고": "30년 상하수도 concession. 2026-06-16 B3 leilão에서 Consórcio Serra da Mantiqueira가 R$44m outorga, 최소 outorga 대비 133.35% ágio로 낙찰. 물·하수 서비스 확장·운영·현대화와 universalização 목표 후속 concession signing·investment start 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "BRA-WATER-PARNAIBA-DRAINAGE",
+    "프로젝트명": "Parnaíba Integrated Drainage System Project",
+    "지역": "중남미",
+    "국가": "브라질",
+    "섹터": "수자원·환경",
+    "발주처": "Ministério das Cidades / Governo do Estado do Piauí / Caixa Econômica Federal",
+    "사업비(달러 기준 추정액)": "약 USD 20.6백만",
+    "사업비 환산 환율 / 기준": "gov.br/Cidades 2026-06-24 기준 R$105m, 1 USD≈5.1 BRL 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-005984",
+    "비고": "Parnaíba Parque Piauí 및 São José 지역 통합 배수시스템 공사. Termo de Compromisso nº 972550/2024와 Novo PAC 연계 재원으로 AIO가 서명됐으며 우수 집수·배수 인프라를 구축한다. 후속 시공자, 착공, 공정률, 추가 배수구간 공개 여부를 같은 프로젝트로 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "BRA-WATER-QUEIMADOS-ETE",
@@ -13395,6 +13470,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "CAN-TRANSPORT-HAMILTON-BIRCH-TRANSIT-CENTRE",
+    "프로젝트명": "Hamilton Birch Transit Centre Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "교통",
+    "발주처": "City of Hamilton / Hamilton Street Railway",
+    "사업비(달러 기준 추정액)": "USD 약 285m",
+    "사업비 환산 환율 / 기준": "CHCH 2026-06-23 기준 CAD 390.4m, 1 CAD≈0.73 USD 간이 환산",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006114",
+    "비고": "Hamilton 대중교통 버스 유지관리·보관·운영 지원 시설. 전기버스 전환과 차량 현대화를 지원하는 차고지·정비센터로, 2026-06-23 개소가 확인됨. 후속 전기버스 충전설비, 배전·차고지 전기공사, 유지관리 장비 및 운영 시스템 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CHE-RAIL-ZURICH-WINTERTHUR-BRUTTEN",
     "프로젝트명": "MehrSpur Zurich-Winterthur / Bruttener Tunnel Project",
     "지역": "유럽",
@@ -13465,8 +13555,8 @@
     "사업비 환산 환율 / 기준": "전체 프로젝트 USD 4.45bn, EPSA 기반시설 USD 1.95bn",
     "현재 단계": "financing",
     "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260619-004689",
-    "비고": "CAF 5,000만 달러 초기 활성화·환경보상 금융 집행 및 2026년 내 EPSA 국가 기반시설 금융전략 확정 예정 보강. 방파제·준설·터미널 양허를 포함한 칠레 최대 외항 개발로 계속 추적.",
+    "대표 기사 고유값": "ART-20260625-005982",
+    "비고": "CAF 5,000만 달러 초기 금융 집행과 향후 추가 지원 의향 확인. 방파제·준설·터미널 양허에 앞선 habilitating works 및 EPSA 금융전략 후속을 계속 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -13497,6 +13587,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260623-005426",
     "비고": "Los Ríos 지역 Ruta 202·206 총 86.7km 확장·개선·보전·운영 양허. 2025-12-10 입찰공고, 2026-06-23 기준 입찰서 구매기업 목록 업데이트, 2026-09-10 제안 접수 및 2026-10-09 경제제안 개찰 예정. Valdivia 접근성·물류·관광 연결성 개선 목적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHL-ROAD-RUTA-PIE-DE-MONTE",
+    "프로젝트명": "Ruta Pie de Monte Road Concession Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas / Dirección General de Concesiones / Sacyr Concesiones Chile SPA",
+    "사업비(달러 기준 추정액)": "약 USD 355백만",
+    "사업비 환산 환율 / 기준": "MOP 2026-06-24 기준 UF 9,145,000 / 약 USD 355m",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-005981",
+    "비고": "Biobío San Pedro de la Paz-Coronel 20km 왕복분리 고속도로 PPP 양허. Sacyr Concesiones Chile SPA 낙찰, 2030년 착공·2034년 운영개시 예정이며 교량, 입체교차로, 고가교, 배수·안전·전자통행료 설비를 포함한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -13542,6 +13647,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260623-005327",
     "비고": "우한 동서호구 국가망안기지 핵심구역 데이터센터 2기 계획조정·확장 프로젝트. 원 2기 6개 데이터기계실과 대데이터 응용센터를 3개 고밀도 데이터센터로 재구성하고 변전소, 디젤발전 플랫폼, 축냉탱크, 내부 교통체계를 보강하는 내용. 후속 공시 승인, 착공, EPC/기전 패키지, 준공·운영개시 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHN-ENERGY-ABA-CHENGDUEAST-UHVAC",
+    "프로젝트명": "Aba-Chengdu East 1000kV UHV AC Transmission Project",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "에너지",
+    "발주처": "State Grid / State Grid Sichuan Electric Power",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "기사 기준 사업비 미공개. 송전선 734.8km, 1,400여 기 철탑, 2026년 말 건성·투운 목표.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006153",
+    "비고": "쓰촨성 아바-청두동 1000kV 특고압 교류 송전사업. 2026-06-22 전 구간 1,400여 기 철탑 조립을 완료하고 도선 가설 단계에 진입했으며, 완공 시 쓰촨 서부 신재생에너지 송출능력 확대가 예상된다. 후속 도선 가설, 준공, 계통연계, 투운 여부를 같은 프로젝트 고유값으로 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -14800,9 +14920,9 @@
     "사업비 환산 환율 / 기준": "러시아 금융 85% 및 외신 보도 기준 약 300억 달러 규모",
     "현재 단계": "construction",
     "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260126-003783",
-    "비고": "Matrouh El Dabaa 4기 VVER-1200 원전 건설사업. 2024년 1호기 내부 격납건물 설치와 2026년 Rosatom 공정 진전 발표를 연결, 주요 구조물·장비 설치와 상업운전 목표 후속 추적 필요.",
-    "대표 기사 정보 분류": ""
+    "대표 기사 고유값": "ART-20260623-006911",
+    "비고": "Matrouh El Dabaa 4기 VVER-1200 원전 건설사업. 2026년 6월 전력부가 핵연료 도착 전 보안 인프라·전용 보안도시·공정 현황을 점검했으며, 러시아 측과 일정 준수 및 국가 전력망 연계 준비를 계속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "EGY-ENERGY-NEFER-MINYA-SOLAR",
@@ -14817,6 +14937,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260621-005068",
     "비고": "Minya 소재 1.2GWp Nefer 태양광 프로젝트. Infinity Power와 Hassan Allam Utilities Energy가 참여하고 AIKO Energy 모듈 공급 Letter of Award가 2026년 1분기 체결·공식화됨. 후속 EPC, 금융종결, 착공·상업운전 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "EGY-ENERGY-SANY-GULF-SUEZ-WIND",
+    "프로젝트명": "SANY Gulf of Suez 2GW Wind Farm Project",
+    "지역": "중동",
+    "국가": "이집트",
+    "섹터": "에너지",
+    "발주처": "SANY Renewable Energy / EETC / NREA",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "현 기사 내 총사업비 미공개, 2,000MW 풍력발전 규모",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006909",
+    "비고": "수에즈만 2GW 풍력발전 개발 MOU. PPA, 계통연계, 금융종결, EPC/BoP 및 터빈 공급 계약 후속 확인 필요. 같은 기사 내 제조시설과 별도 프로젝트로 관리.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -14892,6 +15027,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260624-005273",
     "비고": "SCZONE이 Port Said 항만 트럭 동선 조직·혼잡 완화를 위해 Nafith Egypt에 114,000㎡ 부지를 배정한 스마트 물류야드 프로젝트. Egytrans NOSCO와 Nafith International의 항만 물류 플랫폼 확장 흐름이며 Sokhna Port 167,000㎡ 스마트 트럭야드와 별도 위치·부지의 사업으로 관리. 후속 착공, IT 시스템 구축, 운영개시 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "EGY-IND-SANY-WIND-TURBINE-FACTORY",
+    "프로젝트명": "SANY Wind Turbine Manufacturing Hub in Ain Sokhna",
+    "지역": "중동",
+    "국가": "이집트",
+    "섹터": "산업·물류",
+    "발주처": "SANY Renewable Energy / EETC / NREA",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "현 기사 내 총사업비 미공개, 연 2GW 풍력터빈 생산능력",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006908",
+    "비고": "이집트 첫 풍력터빈 제조시설 조성 MOU. 부지, 최종 투자계약, EPC 패키지, 현지화율과 착공 일정 후속 확인 필요. 같은 기사 내 2GW 수에즈만 풍력발전과는 별도 프로젝트로 관리.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -14982,6 +15132,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260622-005271",
     "비고": "광역카이로 순환도로 BRT 1단계 이용객 주차시설 조성 프로젝트. 2026-06-22 교통부 결정 제334호로 카이로 내 Suez Road, Carrefour Maadi, Autostrad, Mokattam Middle Plateau, Sokhna Road 등 주요 정거장 주변 토지·건물 수용 절차가 진행됨. 후속 토지보상, 시공 입찰, 주차시설 착공·운영개시 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "EGY-URBAN-MADA-CITY-MAF-MIXEDUSE",
+    "프로젝트명": "MADA City Majid Al Futtaim Mixed-use Development",
+    "지역": "중동",
+    "국가": "이집트",
+    "섹터": "도시개발·주택",
+    "발주처": "MIDAR for Investment and Urban Development / Majid Al Futtaim",
+    "사업비(달러 기준 추정액)": "약 USD 3,100백만",
+    "사업비 환산 환율 / 기준": "Invest-Gate 2026-06-21 발표 총 개발가치 USD 3.1bn 기준",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260621-006910",
+    "비고": "New Cairo MADA City 내 553 feddan 복합개발 전략적 파트너십. 1단계 200 feddan, 후속 300 feddan 및 60 feddan 쇼핑·엔터테인먼트 구역. EPC·시공사·유틸리티 패키지 후속 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -15870,6 +16035,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HKG-WATER-EASTERN-DISTRICT-DRAINAGE",
+    "프로젝트명": "Drainage improvement works in Eastern District",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "수자원·환경",
+    "발주처": "Drainage Services Department",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "LegCo PWSC agenda 및 DSD 프로젝트 페이지 기준 사업비 미공개",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-006133",
+    "비고": "PWP No. 4181CD. Eastern District 홍수 위험 완화를 위한 주 배수터널·우수 유입구·방류구·도로·사면 연계 공사. DSD 공식 페이지 기준 planning & design 상태이며, 2026-06-22 공개된 PWSC 2026-06-29/07-03 안건에 상정되어 후속 재원승인·입찰 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "HKG-WATER-SHATIN-TRANSFER-STATION-FOLLOWON3",
     "프로젝트명": "Sha Tin Transfer Station Third Follow-On Contract",
     "지역": "아시아",
@@ -16050,6 +16230,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "IDN-ENERGY-DIENG-GEOTHERMAL-UNIT2",
+    "프로젝트명": "Dieng Geothermal Power Plant Unit 2 Project",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "에너지",
+    "발주처": "PT Geo Dipa Energi / ESDM Ministry",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "원문 사업비 미공개",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006202",
+    "비고": "Central Java Wonosobo 55MW 지열발전 2호기, 2028년 운영 목표",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-ENERGY-JAILOLO-GEOTHERMAL",
     "프로젝트명": "Jailolo Geothermal Project",
     "지역": "아시아",
@@ -16140,6 +16335,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "IDN-OILGAS-MAKO-GAS-FIELD",
+    "프로젝트명": "Mako Gas Field Development Project",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "석유가스·화학",
+    "발주처": "Conrad Asia Energy / West Natuna Exploration Limited / PLN EPI",
+    "사업비(달러 기준 추정액)": "약 320백만 달러",
+    "사업비 환산 환율 / 기준": "기존 2026-06-05 Mako 개발 기사 기준 first gas까지 총 CAPEX USD 320m",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006200",
+    "비고": "West Natuna Basin Mako 가스전 개발 및 WNTS-Pemping 파이프라인 연계 후속 추적 대상",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-OILGAS-WNTS-PEMPING-PIPELINE",
     "프로젝트명": "West Natuna Transportation System-Pemping Gas Pipeline Project",
     "지역": "아시아",
@@ -16168,6 +16378,21 @@
     "대표 기사 고유값": "ART-20260616-003660",
     "비고": "해수 브롬 화학 프로젝트. 세부 위치, 투자자 구조, 인허가·EPC 패키지는 공개 범위가 제한적이므로 후속 공식 발표와 조달 기사 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "IDN-PETCHEM-TUBAN-SAG-MINI-LNG",
+    "프로젝트명": "PT SAG Tuban Mini LNG Plant Project",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "석유가스·화학",
+    "발주처": "PT Sumber Aneka Gas / ESDM Ministry",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "원문 사업비 미공개",
+    "현재 단계": "operation",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006203",
+    "비고": "East Java Tuban Mini LNG, LPG·CNG·콘덴세이트·액화 CO2 생산 및 산업용 공급",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "IDN-PORT-TANJUNG-UBAN-EXPANSION",
@@ -16255,7 +16480,7 @@
     "사업비 환산 환율 / 기준": "ANTARA 2026-05-23 기준 전체 약 USD 80bn, 초기 Jakarta Bay 구간 USD 8~10bn 언급",
     "현재 단계": "financing",
     "최근 업데이트일": "",
-    "대표 기사 고유값": "2026. 6. 16",
+    "대표 기사 고유값": "ART-20260622-006201",
     "비고": "ART-20260616-003653",
     "대표 기사 정보 분류": "관련 기사: ART-20241002-003488, ART-20260605-000300, ART-20260616-003653. Java 북부 Pantura 연안 575km 규모 해안방어·경제개발 연계 프로젝트. 2026-06-16 기준 정부가 민간 투자자와 MDB 참여를 유치하고 Danantara를 통해 투자 구조 정의와 투자자 유치 지원을 추진 중임. 후속 타당성조사, 구간별 패키지, 금융구조, 입찰 공고 확인 필요."
   },
@@ -16365,6 +16590,66 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IND-ENERGY-BSES-DELHI-195MWH-BESS",
+    "프로젝트명": "BSES Rajdhani 195MWh Grid-Scale BESS Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "에너지",
+    "발주처": "BSES Rajdhani Power / Delhi Electricity Regulatory Commission",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Mercom India 2026-06-24 기준 사업비 미공개. 195MWh BESS at 66/11kV substations.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006145",
+    "비고": "Delhi Harinagar, Sagarpur, Pappankala 2, Bindapur, G4 Dwarka 등 변전소 연계 BESS. DERC가 tender 발행 청원을 승인했으며 후속 BSES 입찰공고 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-ENERGY-DHULE-600MW-SOLAR",
+    "프로젝트명": "NTPC REL Dhule 600MW Grid-Connected Solar Projects",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "에너지",
+    "발주처": "NTPC Renewable Energy (NTPC REL)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Mercom India 2026-06-24 기준 사업비 미공개. Dhule, Maharashtra 600MW grid-connected solar EPC tender.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006143",
+    "비고": "Maharashtra Dhule 600MW 계통연계 태양광 EPC 패키지. 후속 입찰서 조건, 모듈·BoS 범위, 송전접속, 마감일, 낙찰 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-ENERGY-GUJARAT-BESS-900MWH",
+    "프로젝트명": "GUVNL 450MW/900MWh Battery Energy Storage Systems Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "에너지",
+    "발주처": "Gujarat Urja Vikas Nigam (GUVNL)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Mercom India 2026-06-23 기준 사업비 미공개. 450MW/900MWh BESS with VGF under PSDF Phase-IX.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006144",
+    "비고": "Gujarat 내 450MW/900MWh BESS RfS. 2026-07-13 입찰 마감 예정. 위치별 용량 배분, VGF 조건, 계통연계, 낙찰자 선정 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-ENERGY-RAMAGIRI-SOLAR-BESS",
+    "프로젝트명": "SECI Ramagiri 70MW Solar + 25MW/50MWh BESS Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "에너지",
+    "발주처": "Solar Energy Corporation of India (SECI)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Mercom India 2026-06-24 기준 사업비 미공개. 70MW solar + 25MW/50MWh BESS BoS tender.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006142",
+    "비고": "Andhra Pradesh Sri Sathya Sai district Ramagiri의 ISTS 연계 태양광+BESS BoS 패키지. 2026-07-24 입찰 마감 예정. 후속 질의응답, 입찰 연장, 참여사, 낙찰 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IND-ENERGY-RYAPTE-2GW-SOLAR-TRANS",
     "프로젝트명": "Ryapte 2GW Solar Park Power Evacuation Transmission Project",
     "지역": "아시아",
@@ -16392,6 +16677,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260622-005333",
     "비고": "West Bengal Salboni 2x800MW 화력발전 프로젝트의 BTG 구역 토목·구조공사 패키지. Power Mech Projects가 36개월 공기로 수주했으며, 후속 착수·주요 기자재·공정률·시운전 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-ENERGY-TELANGANA-BESS-1500MWH",
+    "프로젝트명": "Telangana DISCOMs 375MW/1,500MWh Battery Storage Procurement",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "에너지",
+    "발주처": "Telangana DISCOMs / TGGENCO / Telangana Electricity Regulatory Commission",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Mercom India 2026-06-25 기준 사업비 미공개. 375MW/1,500MWh procurement under VGF program.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006146",
+    "비고": "Telangana DISCOMs가 TGGENCO를 통해 추진하는 375MW/1,500MWh BESS 조달. TGERC 승인 완료, 실제 tender 공고·용량 배분·VGF 조건 후속 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -16740,6 +17040,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRN-OILGAS-AHVAZ-KHAMI-STUDIES",
+    "프로젝트명": "Ahvaz Khami Preliminary Engineering Studies Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "석유가스·화학",
+    "발주처": "National Iranian South Oil Co. (NISOC)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "IranOilGas Network 2026-06-21 기준 사업비 미공개. Ahvaz Khami preliminary engineering studies tender.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260621-006905",
+    "비고": "Ahvaz Khami 개발 관련 예비 엔지니어링 연구 입찰. 공개 정보가 제한되어 구체 시설, 사업비, 제출기한은 입찰 문서 확인 필요. 후속 FEED·EPC 전환, 낙찰, 개발범위 확정 기사를 같은 프로젝트로 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IRN-OILGAS-AZADEGAN-PHASE2",
     "프로젝트명": "Azadegan Oil Field Phase 2 Development Project",
     "지역": "중동",
@@ -16798,6 +17113,21 @@
     "대표 기사 고유값": "ART-20260617-003887",
     "비고": "Dehaq 가스 압력증강소 6차 증설 유닛. 제2·제3 전국 가스간선망 압력 안정성을 높이는 전략 설비로, 터보컴프레서·스크러버·에어쿨러 설치 완료 후 기계·배관 연결 작업 진행 중. 후속 pre-commissioning, commissioning 및 상업가동 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "IRN-OILGAS-MARUN-ASMARI-FEED",
+    "프로젝트명": "Marun Asmari Surface Facilities FEED Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "석유가스·화학",
+    "발주처": "National Iranian South Oil Co. (NISOC)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "IranOilGas Network 2026-06-21 기준 사업비 미공개. Preliminary engineering studies and FEED documents tender.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260621-006904",
+    "비고": "Marun Asmari 지상설비 예비 엔지니어링·FEED 문서 작성 입찰. 공개 본문이 제한되어 시설 세부 범위와 후속 EPC 일정은 미확인. FEED 낙찰, 개발범위 확정, 본공사 조달 전환 시 같은 프로젝트로 연결.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "IRN-OILGAS-MARUN-ASMARI-SURFACE-FACILITIES",
@@ -16890,6 +17220,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "IRN-OILGAS-YADAVARAN-POWER-SUPPLY",
+    "프로젝트명": "Yadavaran Oilfield Power Supply Network Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "석유가스·화학",
+    "발주처": "Petroleum Engineering & Development Co. (PEDEC)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "IranOilGas Network 2026-06-23 기준 사업비 미공개. Yadavaran oilfield power supply network construction tender.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006903",
+    "비고": "Yadavaran 유전 전력공급망 건설 입찰 프로젝트. 공개 본문은 회원 전용으로 제한되어 세부 전압, 선로·변전 범위, 사업비, 제출기한은 추가 확인 필요. 후속 낙찰, 계약, 착공, 전력설비 상세 범위가 나오면 같은 프로젝트 고유값으로 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IRN-OILGAS-YADAVARAN-POWER-SUPPLY-NETWORK",
     "프로젝트명": "Yadavaran Oil Field Power Supply Network EPC Project",
     "지역": "중동",
@@ -16935,6 +17280,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "IRQ-OILGAS-KHLIESIEA-GAS-FIELD",
+    "프로젝트명": "Khliesiea Gas Field Development Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "석유가스·화학",
+    "발주처": "KAR Group / Iraq Ministry of Oil / Al-Anbar provincial government",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Shafaq News 2026-06-22 기준 사업비 미공개. al-Khliesiea block 면적 약 8,167㎢, al-Anbar-Nineveh border 인근, exploratory well 긍정 가스 지표.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-005264",
+    "비고": "KAR Group이 2024년 5월 제6차 라이선싱 라운드에서 확보한 al-Khliesiea gas exploration block 개발 프로젝트. 2026-06-22 결과 탭에는 반영되어 있었으나 프로젝트 기준행이 없어 보강 생성. 후속 공식 착수일, 탐사·개발계획 승인, 처리시설·집송관·발전연계 패키지 공개 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IRQ-OILGAS-KIRKUK-BANIYAS-PIPELINE",
     "프로젝트명": "Kirkuk-Baniyas Oil Pipeline Rehabilitation Project",
     "지역": "중동",
@@ -16962,6 +17322,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260618-004176",
     "비고": "Basra와 이란 Shalamcheh를 연결하는 국경철도 사업. 내각이 Iraqi Railways Company 기술위원회의 협상 회의록을 승인했고 Legal Department 의견 반영 후 Imathia와 계약 최종화 예정. 후속 계약 서명, 착공, Imathia·Consultrans 역할 및 사업비 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IRQ-SOC-AMERICAN-HOSPITAL",
+    "프로젝트명": "American Hospital in Iraq Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "사회인프라",
+    "발주처": "Iraqi Ministry of Trade / American Medical Services (AGMS)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "IraqiNews 2026-06-24 기준 사업비·입지 미공개. 공동 기술 태스크포스가 타당성조사와 최적 입지를 검토 예정.",
+    "현재 단계": "study",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006239",
+    "비고": "이라크 내 첨단 American Hospital 건설을 목표로 한 AGMS 투자 모델. 2026-06-24 기준 양측이 공동 기술 태스크포스를 구성해 타당성조사와 최적 입지를 검토하기로 했으며, 후속 투자허가, 입지, 사업비, 시공사·운영사 선정 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -17100,6 +17475,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ISR-AIR-TELAVIV-ATIDIM-VERTIPORT",
+    "프로젝트명": "Tel Aviv Atidim Vertiport Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "교통",
+    "발주처": "Atidim Park Tel Aviv / Medica Rafael Hospital / ATI Air Taxi Israel",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Port2Port 2026-06-25 기준 사업비 미공개",
+    "현재 단계": "operation",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-005950",
+    "비고": "Tel Aviv Atidim Park 버티포트. 초기 의료 드론 배송과 향후 전기 에어택시 운항을 위한 도시 항공교통 인프라로, 추가 버티포트·충전·관제·안전설비 발주 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ISR-ENERGY-ASHALIM-PV-BESS",
     "프로젝트명": "Ashalim PV and Battery Energy Storage Project",
     "지역": "중동",
@@ -17112,6 +17502,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260623-005288",
     "비고": "Ashalim 기존 태양열 BOT 단지 내 150MW PV와 460MWh ESS를 결합하는 프로젝트. Bank Leumi 금융약정 체결, 2027년 상업운전 전망. 후속 EPC·계통연계·준공·상업운전 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ISR-IND-KIRYATSHMONA-AGROFOODTECH-HUB",
+    "프로젝트명": "Kiryat Shmona and Galilee Agro-FoodTech Hub Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "산업·물류",
+    "발주처": "Ministry of Economy and Industry / MIGAL Research Institute / Agro-FoodTech Administration",
+    "사업비(달러 기준 추정액)": "약 USD 8.9백만 이상 추정",
+    "사업비 환산 환율 / 기준": "Port2Port 2026-06-25 기준 NIS 30m 이상, 간이 환산",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-005952",
+    "비고": "Kiryat Shmona FoodTech Avenue 및 Upper Galilee National Agrotech Center 2개 거점. 준공·개소 이후 장비, 확장동, 입주기업용 산업·물류 인프라 후속 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -17340,6 +17745,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ISR-WASTE-GADOT-ECOLOGY-RECYCLING-FACILITY",
+    "프로젝트명": "Gadot Ecology Recycling Facility Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "수자원·환경",
+    "발주처": "Gadot Ecology Services / Ministry of Environmental Protection / Ministry of Economy and Industry",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Port2Port 2026-06-25 기준 개별 시설 사업비 미공개, Yerushalem 프로그램 총지원 규모 약 NIS 400m",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-005951",
+    "비고": "Gadot Ecology 신규 재활용·자원회수 시설. 정부 지원금 선정 이후 위치, 공사비, 인허가, EPC·장비 조달, 운영개시 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ITA-PORT-GENOA-NEW-BREAKWATER",
     "프로젝트명": "Genoa New Breakwater Project",
     "지역": "유럽",
@@ -17498,10 +17918,10 @@
     "발주처": "요르단 수자원관개부",
     "사업비(달러 기준 추정액)": "204백만 달러",
     "사업비 환산 환율 / 기준": "원문 주요 패키지 약 144.7m JOD, JOD 1=USD 1.41 페그 기준 환산",
-    "현재 단계": "construction",
+    "현재 단계": "financing",
     "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260617-003912",
-    "비고": "관련 기사: ART-20260611-001174, ART-20260617-003912. 상수관망 교체, 하수처리장 확장, 처리수 저장조 및 상하수도 보강 패키지. 2026-06-17 내각 승인 기준 EU/KfW 2,500만 유로 보조금으로 Madaba 하수처리장·위생 관망 개선 및 처리용량 16,000㎥/일 확대가 확인됨. 전체 패키지 공정·시공계약·준공 후속 확인 필요.",
+    "대표 기사 고유값": "ART-20260625-006924",
+    "비고": "관련 기사: ART-20260611-001174, ART-20260617-003912, ART-20260625-006924. 상수관망 교체, 하수처리장 확장, 처리수 저장조 및 상하수도 보강 패키지. 2026-06-25 Petra 기준 EU 2,500만 유로 보조금, AFD·KfW 차관 9,700만 유로 등 총 1억2,300만 유로 재원 구조와 2027년 1분기 시행 예정이 확인됨. 전체 패키지 공사 패키지·시공계약·착공 후속 확인 필요.",
     "대표 기사 정보 분류": ""
   },
   {
@@ -17532,21 +17952,6 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260623-005286",
     "비고": "Aqaba 주 Wadi Araba의 소규모 물 수확 인프라 프로젝트. Jordan-Japan Counterpart Fund 재원으로 Jordan Valley Authority를 지원하며, 강우 수집과 물 수확 기술 개선을 통해 농업·축산 지역의 물 부족과 기후적응을 보완하는 사업이다. 후속 실제 공사 착수, 시설 범위, 준공 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "JPN-DIGITAL-TOMAKOMAI-AIDC-66KV-SUBSTATION",
-    "프로젝트명": "Tomakomai AI Data Center 66kV Substation Project",
-    "지역": "아시아",
-    "국가": "일본",
-    "섹터": "디지털·데이터센터",
-    "발주처": "AI Tech Tomakomai / Environment Friendly Holdings / YURTEC",
-    "사업비(달러 기준 추정액)": "약 USD 27.3백만 추정",
-    "사업비 환산 환율 / 기준": "Zaikei 2026-06-22 기준 JPY 3.938bn, 1 USD≈144 JPY 간이 환산",
-    "현재 단계": "contracted",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260622-005353",
-    "비고": "홋카이도 도마코마이시 가시와바라 32-17 AI 데이터센터용 66kV 특고압 변전소 건설공사. 2026년 7월 착공, 2027년 12월 13일 완공 예정이며 1단계 10MW 수전 이후 장기 50MW 확장 기반 전력 인프라로 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -17700,6 +18105,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "JPN-SOC-MAKUHARI-ARENA",
+    "프로젝트명": "Makuhari Arena Project",
+    "지역": "아시아",
+    "국가": "일본",
+    "섹터": "사회인프라",
+    "발주처": "Hulic / Chiba City",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "2026-06-25 기사 기준 사업비 미공개, 연면적 약 54,000㎡",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006131",
+    "비고": "지바현립 마쿠하리 해변공원 내 가칭 마쿠하리 아레나. 오바야시구미 설계·시공, 2026년 8월 해체·조성, 2027년 본체공사, 2030년 준공·개업 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "JPN-SOC-OSAKA-SONEZAKI-POLICE-REBUILD",
     "프로젝트명": "Osaka Sonezaki Police Station Rebuilding Project",
     "지역": "아시아",
@@ -17727,6 +18147,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260619-005354",
     "비고": "우쓰노미야역 동공원 후보지의 약 28,000㎡, 스포츠 10,000석·음악 8,000석 규모 신아레나 계획. B.PREMIER 2030-31 시즌 개업 목표이며, 사업비·정비 일정은 설계·시공 제안과 관계자 협의 후 확정될 예정으로 후속 설계 착수·사업구조 확정·시공자 선정 여부를 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JPN-URBAN-TAKENOTSUKA-EAST-REDEV",
+    "프로젝트명": "Takenotsuka Station East Exit Redevelopment Project",
+    "지역": "아시아",
+    "국가": "일본",
+    "섹터": "도시개발·주택",
+    "발주처": "Adachi City / UR Urban Renaissance Agency / Tobu Railway",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "2026-06-25 기사 기준 사업비 미공개, 약 1.3ha 구역",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006130",
+    "비고": "다케노쓰카역 동구 약 1.3ha 제1종 시가지재개발사업. 공공·공익시설, 상업·주거 복합시설, 동구역전광장 재정비 포함. 2026년도 말 도시계획 결정, 2036년도 무렵 완료 목표.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -17773,6 +18208,21 @@
     "대표 기사 고유값": "ART-20260615-003363",
     "비고": "이시코시 정화센터 내 하수슬러지 비료화 시설 DBO. 최대 55t/day 처리, 설계·공사 2030-03-31까지, 운영·비료매매 2050-03-31까지.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION",
+    "프로젝트명": "Shiogama Cleaning Plant Large-Scale Renovation Project",
+    "지역": "아시아",
+    "국가": "일본",
+    "섹터": "수자원·환경",
+    "발주처": "Shiogama City",
+    "사업비(달러 기준 추정액)": "약 USD 20.7백만 추정",
+    "사업비 환산 환율 / 기준": "Kensetsu News 2026-06-25 기준 약 JPY 3bn, 1 USD≈JPY145 간이 환산",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006132",
+    "비고": "시오가마시 기존 청소공장 15년 연명 대규모 개보수. 2026년도 4분기 1차 공사 발주 예정, 크레인·레일·주행반·굴뚝 상부·컨베이어 등 포함, 공기 2028년도까지 검토.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "KAZ-DIGITAL-AZKZ-SEA-CABLE",
@@ -18120,6 +18570,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KGZ-ENERGY-BISHKEK-DISTRICT-HEATING",
+    "프로젝트명": "Bishkek District Heating Network Modernization Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "에너지",
+    "발주처": "Bishkek Mayor's Office / Bishkekteploset / Bishkekteploenergo / EBRD",
+    "사업비(달러 기준 추정액)": "약 USD 69백만",
+    "사업비 환산 환율 / 기준": "Kabar 2026-06-24 기준 €64m, TCA 병기 약 USD 69m",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006237",
+    "비고": "비슈케크 수도권 지역난방망·펌프장·보일러실 현대화 및 제어·에너지효율 장비 도입 프로젝트. EBRD와 국제 파트너 지원을 통해 Green Cities 성격으로 추진되며, 후속 EBRD 조달공고, 유틸리티별 패키지, 설계·감리·장비 발주 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KGZ-ENERGY-KARAKECHE-TPP",
     "프로젝트명": "Kara-Keche Thermal Power Plant Project",
     "지역": "중앙아시아",
@@ -18163,6 +18628,21 @@
     "대표 기사 고유값": "ART-20260617-003862",
     "비고": "나린주 Kulanak 100MW 수력발전소. 댐, 발전소 건물, 6.5km 도수로 공사 진행 중이며 2027년 가동 목표. 전력부족 완화와 관개 인프라 개선 연계.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "KGZ-ENERGY-KURTKA-SHPP",
+    "프로젝트명": "Kurtka River Small Hydropower Plant Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "에너지",
+    "발주처": "Kyrgyz government / Naryn oblast local authorities",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Kabar 2026-06-25 기준 사업비 미공개. Naryn oblast Zhany-Talap village Kurtka River 소수력.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006238",
+    "비고": "나린주 Ak-Tala 지역 Zhany-Talap 마을 Kurtka강 소수력발전소. 2026년 말 준공·가동 목표로 공사가 진행 중이며, 후속 터빈·발전기 공급, 계통연계, 준공·운영 전환 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "KGZ-ENERGY-ORTOK-SOLAR",
@@ -18295,8 +18775,8 @@
     "사업비 환산 환율 / 기준": "Kabar 2025-12-17 및 2026-06-04 원문: total cost USD 4.7bn",
     "현재 단계": "construction",
     "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260623-005511",
-    "비고": "키르기스스탄 구간 약 304~305km, 교량 50개·터널 29개·터널/교량 약 120km. 2026-06-17 기준 터널 굴진·토공·교량 공사 진행 및 350만㎥ 이상 토공 완료 확인. 2026-06-23 내각이 키르기스 측 지분 조달을 위한 중국 수출입은행 3억450만 달러 양허성 차관 비준안을 의회에 제출했으나, 물리적 현재 단계는 construction으로 유지.",
+    "대표 기사 고유값": "ART-20260625-006236",
+    "비고": "키르기스스탄 구간 약 304~305km, 교량 50개·터널 29개·터널/교량 약 120km. 2026-06-17 기준 터널 굴진·토공·교량 공사 진행 및 350만㎥ 이상 토공 완료 확인. 2026-06-25 의회 1독회에서 키르기스 측 지분 납입을 위한 중국 수출입은행 3억450만 달러 우대차관 협정 비준안이 승인됐으나, 물리적 현재 단계는 construction으로 유지.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -18342,6 +18822,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260618-004161",
     "비고": "나린시 하수서비스 개선사업. 신규 하수처리장, 주 하수관망 확장, 2개 펌프장, 운영 장비 도입 포함. 현재 하수서비스 연결률 약 22%, 완료 후 수혜 인구 2만 명 전망.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KGZ-WATER-OSH-ECOAZYK-WASTEWATER",
+    "프로젝트명": "Eco Azyk Wastewater Connection Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "수자원·환경",
+    "발주처": "ARIS / Center for Agribusiness Competitiveness / Osh City Hall / Eco Azyk",
+    "사업비(달러 기준 추정액)": "약 USD 0.12백만 추정",
+    "사업비 환산 환율 / 기준": "Kabar 2026-06-25 기준 10,852,167 KGS, 1 KGS≈USD 0.01144 간이 환산",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006239",
+    "비고": "오시시 Eco Azyk 무역·물류·가공센터 하수관을 도시 공공 하수도망에 연결하는 World Bank RED 계열 소규모 인프라 사업. 세계은행 보조금 1,000만솜과 기업 자체 재원으로 추진되며, 실제 발주·시공·연결 완료 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -18630,6 +19125,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KWT-ENERGY-DIBDIBAH-SHAGAYA-PH3-ZONE1",
+    "프로젝트명": "Al Dibdibah Power and Al Shagaya Renewable Energy Phase III Zone 1 Solar PV Project",
+    "지역": "중동",
+    "국가": "쿠웨이트",
+    "섹터": "에너지",
+    "발주처": "Kuwait Authority for Partnership Projects / Ministry of Electricity, Water and Renewable Energy",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Zawya 2026-06-23 기준 1.1GW 태양광 PV, 사업비 미공개. 기술평가 완료 후 금융입찰 개봉 예정.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006140",
+    "비고": "Shagaya Renewable Energy Park의 1.1GW Al Dibdibah Power and Al Shagaya Phase III Zone 1 태양광 프로젝트. ACWA, Masdar, EDF Renewables 주도 컨소시엄 3곳이 기술제안서를 제출했고, 금융입찰 개봉 및 State Audit Bureau 승인 후 우선협상자 발표가 예상됨. 기존 Zone 2 500MW 프로젝트와 용량·입찰 단계가 달라 별도 프로젝트로 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KWT-ENERGY-SHAGAYA-SUBIYA-400KV-OHTL",
     "프로젝트명": "Shagaya-Subiya 400kV Overhead Transmission Line Project",
     "지역": "중동",
@@ -18688,6 +19198,21 @@
     "대표 기사 고유값": "ART-20260617-003891",
     "비고": "Al-Zour Refinery 수소 생산 유닛 Phase 1의 대체 원료 설비 프로젝트. EPC, pre-commissioning, 운영 지원, 성능시험 포함. 2026년 6월 적격사 사전회의, 2026년 9월 말 입찰 마감 예정. KIPIC-KNPC 통합 이후 KNPC 인수 가능성 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "KWT-OILGAS-KOC-RHM-ALP-POWER-SUPPLY",
+    "프로젝트명": "KOC Industrial Lift Pumps and Remote Header Manifolds Power Supply Projects",
+    "지역": "중동",
+    "국가": "쿠웨이트",
+    "섹터": "석유가스·화학",
+    "발주처": "Kuwait Oil Company (KOC)",
+    "사업비(달러 기준 추정액)": "약 USD 427백만",
+    "사업비 환산 환율 / 기준": "SaudiGulf Projects/MEED 2026-06-25 기준 MECC 3개 계약 합산 최저가 약 KWD 132.28m, 약 USD 427m.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006907",
+    "비고": "KOC 운영구역 산업용 리프트 펌프 시스템과 remote header manifold 시설을 지원하기 위한 신규 area substation 및 관련 전력공급 인프라 3개 계약. MECC가 합산 최저가 입찰자로 확인됐으며, 후속 정식 낙찰·계약 체결·공구별 범위·착공 여부 확인 필요. 기존 KOC 원유수출 인프라, BS-140/BS-150 booster station, KNPC 배관 사업과는 시설 범위가 달라 별도 프로젝트로 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "KWT-WATER-DOHA-SWRO-STAGE2",
@@ -18870,6 +19395,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "LKA-DIGITAL-DTTB-PROJECT",
+    "프로젝트명": "Sri Lanka Digital Terrestrial Television Broadcasting Project",
+    "지역": "아시아",
+    "국가": "스리랑카",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Ministry of Digital Economy / TRCSL / JICA",
+    "사업비(달러 기준 추정액)": "추가지원 약 JPY 400백만, 총사업비 미공개",
+    "사업비 환산 환율 / 기준": "Newswire 2026-06-22 기준 JICA 추가 무상지원 JPY 400m",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-006123",
+    "비고": "스리랑카 전국 디지털TV 전환사업. 2029년 서비스 공식 개시 목표이며, 잔여 건설·기술 작업과 JICA 기술협력 프로젝트 후속 조달 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "LKA-ENERGY-CEB-GRID-BESS-160MW-640MWH",
     "프로젝트명": "CEB Grid-Scale Battery Energy Storage System 160MW/640MWh Programme",
     "지역": "아시아",
@@ -18928,6 +19468,21 @@
     "대표 기사 고유값": "ART-20260615-003384",
     "비고": "Siyambalanduwa 500에이커 부지 100MW 태양광 발전소, 132kV 송전시설 및 12MWh BESS 포함. 2026-06-15 기준 공정률 20%, 약 20만 장 패널 설치 예정.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "LKA-HOUSING-MALAYAGAM-INDIA",
+    "프로젝트명": "India-funded Malayagam Community Housing Project",
+    "지역": "아시아",
+    "국가": "스리랑카",
+    "섹터": "도시개발·주택",
+    "발주처": "Presidential Secretariat / Government of India / Government of Sri Lanka",
+    "사업비(달러 기준 추정액)": "주택당 약 LKR 3.2백만, 총사업비 미공개",
+    "사업비 환산 환율 / 기준": "News.lk 2026-06-24 기준 인도 LKR 2.8m + 스리랑카 LKR 0.4m per house, 총 4,700호",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006124",
+    "비고": "Malayagam 공동체 대상 인도 지원 4,700호 주택사업. 재해위험 2,026가구와 플랜테이션 부문 거주 노동자를 포함해 수혜자를 배정하며, 패키지별 시공·공정 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "LKA-IND-HAMBANTOTA-KELYAPURA-CONTAINER-INFRA",
@@ -19455,6 +20010,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MEX-ROAD-AMADO-NERVO-BRIDGE",
+    "프로젝트명": "Amado Nervo Bridge Modernization Project",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "교통",
+    "발주처": "Secretaría de Infraestructura, Comunicaciones y Transportes (SICT)",
+    "사업비(달러 기준 추정액)": "약 USD 48.2백만",
+    "사업비 환산 환율 / 기준": "SICT 2026-06-23 기준 MXN 930m / SHCP 2026 1 USD=MXN 19.3 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006102",
+    "비고": "Nayarit Bahía de Banderas와 Jalisco Puerto Vallarta를 연결하는 Amado Nervo 교량·접속도로 사업. 2026-06-23 기준 공정률 80%, 2026년 7월 완료 예상.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MEX-ROAD-ANTONIO-DOVALI-JAIME-REHAB",
+    "프로젝트명": "Antonio Dovalí Jaime Bridge Rehabilitation Project",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "교통",
+    "발주처": "Secretaría de Infraestructura, Comunicaciones y Transportes (SICT)",
+    "사업비(달러 기준 추정액)": "약 USD 57.0백만",
+    "사업비 환산 환율 / 기준": "SICT/W Radio 2026-06-22 기준 MXN 1,100m / SHCP 2026 1 USD=MXN 19.3 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-006103",
+    "비고": "Veracruz Coatzacoalcos 강을 건너는 Antonio Dovalí Jaime 사장교 재활·현대화 프로젝트. 2026년 14개 케이블 추가 교체, 포장면 보수, 32km 접근도로 보전 및 구조 모니터링을 포함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MEX-ROAD-MANZANILLO-MAIN-ENTRANCE-OVERPASS",
     "프로젝트명": "Main Entrance to Manzanillo Vehicular Overpass Project",
     "지역": "중남미",
@@ -19497,6 +20082,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260617-004683",
     "비고": "Colima주 Armería 유도댐. 관개용수 2,922ha 공급, 150m 월류부와 2.6㎥/s 취수, 공공공사 전통 방식. 2025-11-01 착공, 2026-11-30 계약기간 종료 예정. 관련 기사: ART-20260617-004683.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MEX-WATER-ROSARITO-DESALINATION",
+    "프로젝트명": "Playas de Rosarito Desalination Plant Project",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "수자원·환경",
+    "발주처": "Comisión Nacional del Agua (Conagua)",
+    "사업비(달러 기준 추정액)": "약 USD 666.4백만",
+    "사업비 환산 환율 / 기준": "Proyectos México 2026-06-05 기준 MXN 12,861.4m / SHCP 2026 1 USD=MXN 19.3. 2026-06-25 기사에서는 재추진 투자액 약 MXN 6,000m 언급",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006101",
+    "비고": "Playas de Rosarito 2,200l/s 담수화 플랜트, 송수관, 저장탱크 프로젝트. Conagua 두 차례 유찰 후 2026-06-25 대통령 발언 기준 역경매 또는 배정 방식 재추진 가능성이 확인됨.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -19785,6 +20385,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "MNG-AIR-ATC-ULAANBAATAR-SAINSHAND",
+    "프로젝트명": "Ulaanbaatar and Sainshand Area ATC Center System and Equipment Modernization Project",
+    "지역": "아시아",
+    "국가": "몽골",
+    "섹터": "교통",
+    "발주처": "Civil Aviation Authority of Mongolia / Ministry of Finance / Thales LAS France SAS / Czech Export Bank",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "수출신용계약 체결 보도 기준 사업비 미공개; Ulaanbaatar 및 Sainshand 관제센터 시스템·장비 현대화",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006128",
+    "비고": "울란바토르와 사인샨드 지역 항공교통관제센터의 시스템·장비를 현대화하는 항공관제 인프라 프로젝트. 2026-06-25 몽골 재무부-체코수출은행 수출신용계약 및 Thales LAS France SAS 공급계약 변경·연장 계약 체결이 확인되어 financing 단계로 관리. 후속 설치·시운전, 관제센터 운영 전환, 추가 항공관제·공항 디지털 인프라 패키지 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MNG-ENERGY-10AIMAG-HEATING-PLANTS",
     "프로젝트명": "10 Aimag District Heating Plants Project",
     "지역": "아시아",
@@ -19965,6 +20580,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "MOZ-OILGAS-BEIRA-FERUKA-PIPELINE-EXP",
+    "프로젝트명": "Beira-Feruka Pipeline Capacity Expansion Project",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "석유가스·화학",
+    "발주처": "Companhia do Pipeline Moçambique Zimbabwe (CPMZ) / PZL / NOIC",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "2026-06-24 CPMZ 기준 연 5,000,000㎥ 용량 목표, 사업비 미공개",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006932",
+    "비고": "Beira-Feruka 정제유 송유관의 추가 용량 증설 사업. 엔지니어링 검토가 완료 단계이고 2026년 하반기 공사 착수, 2027년 말 상업운전 목표가 제시됨. 후속 펌프장·계측·기계·토목 패키지 조달과 EPC/기자재 공급사 선정 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MOZ-OILGAS-CORAL-NORTE-FLNG",
     "프로젝트명": "Coral Norte FLNG Project",
     "지역": "아프리카",
@@ -19978,6 +20608,21 @@
     "대표 기사 고유값": "ART-20260608-000280",
     "비고": "Rovuma Basin Area 4 해상 Coral North/Norte FLNG. 2025년 개발계획 승인, 2025년 FID, 2026년 Technip Energies·JGC·Samsung Heavy Industries EPCIC 계약을 같은 프로젝트 이력으로 연결.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "MOZ-OILGAS-ROVUMA-FLNG-THIRD",
+    "프로젝트명": "Third Rovuma FLNG Platform Project",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "석유가스·화학",
+    "발주처": "Mozambique Rovuma Venture / Eni / ENH / CNPC / KOGAS / XRG",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "2026-06-25 Lusa/Club of Mozambique 기준 최대 6 mtpa FLNG, 사업비 미공개",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006931",
+    "비고": "Rovuma Basin Area 4의 세 번째 대형 FLNG 생산설비 후보. MRV가 최대 6 mtpa FLNG EPCIC 관심표명을 발행했으며, Coral Sul·Coral Norte와 별도 후속 개발로 관리. 후속 후보자 선정, RFP, FID, EPCIC 계약 및 한국 기업 참여 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "MOZ-OILGAS-ROVUMA-LNG",
@@ -20037,6 +20682,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260623-005479",
     "비고": "Cyberjaya 소재 65MW 데이터센터 개발사업. SIC Quantum Data Centre가 수행하고 SIC는 토지·개발역량, DC Union은 기술·자금·운영 전문성을 제공하며 full immersion cooling 적용 및 Nvidia 인증 인력 양성 계획을 포함한다. 후속 확정계약, 인허가, EPC/건설계약, 착공 여부를 같은 프로젝트로 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MYS-ENERGY-BUKITSELAMBAU-LSSPV",
+    "프로젝트명": "Bukit Selambau 99.99MWac Large-Scale Solar PV Plant",
+    "지역": "아시아",
+    "국가": "말련",
+    "섹터": "에너지",
+    "발주처": "Atlantic Blue Sdn Bhd / Kee Ming Group Bhd",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "The Star 2026-06-24 기준 Kee Ming M&E 하도급 RM70m(+provisional sum RM2m), 총사업비 미공개",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006156",
+    "비고": "Kedah Bukit Selambau 99.99MWac LSSPV 발전소의 M&E 및 TNB interconnection facility 하도급 계약. 후속 총사업비, 주계약자·EPC 구조, 계통연계 승인, 공정률·시운전·상업운전 여부 확인 필요. Kampar WDSB LSSPV 및 Northern Solar 조정계약과는 위치·계약주체가 달라 별도 프로젝트로 유지.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -20248,6 +20908,21 @@
     "대표 기사 고유값": "ART-20260616-003620",
     "비고": "Ondo주 Olokola 산업·자유무역지대 개발사업. 전력, 물, 물류, 가스 인프라와 산업 제조시설을 포함하는 완전 서비스형 투자거점으로 계획됨. 시공사 현장 동원과 2026년 4분기 착공 계획, 주정부 기술위원회 구성 후속 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "NGA-OILGAS-APEX-AFRICAN-GAS-70TPD-PLANT",
+    "프로젝트명": "Apex African Gas 70TPD Air Separation Unit Plant",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "석유가스·화학",
+    "발주처": "Apex African Gas Nigeria Limited",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Nairametrics 2026-06-25 기준 70TPD 공기분리 플랜트, 투자액은 약 3년 전 기준 100억 나이라 초과로 공개됐으나 달러 환산은 환율 변동으로 후속 확인 필요",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006929",
+    "비고": "산소·질소·아르곤·특수가스 생산시설로 준공·가동 단계. 후속 증설, 저장·충전·전력설비 보강, 산업단지 연계 또는 추가 플랜트 계획 확인 시 같은 프로젝트 후보로 비교한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "NGA-RAIL-KADUNA-LIGHT-RAIL",
@@ -20668,6 +21343,21 @@
     "대표 기사 고유값": "ART-20260112-004713",
     "비고": "Groningen-Emmen-Twente 신규 철도 연결. Veendam-Emmen 약 44km 신규 철도와 기존 선로·역 개선, 신규역 검토 포함. 관련 기사: ART-20251006-004712, ART-20260112-004713. 2025~2028 MIRT 탐색 후 선호대안 결정 예정.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "NPL-AIR-TARIGAUN-AIRPORT-UPGRADE",
+    "프로젝트명": "Tarigaun Airport Runway Extension and Infrastructure Upgrade Project",
+    "지역": "아시아",
+    "국가": "네팔",
+    "섹터": "교통",
+    "발주처": "Ministry of Culture, Tourism and Civil Aviation / Civil Aviation Authority of Nepal 후보",
+    "사업비(달러 기준 추정액)": "약 USD 1.8백만 추정",
+    "사업비 환산 환율 / 기준": "MyRepublica 2026-06-25 기준 NPR 250m, 1 USD≈NPR 136 간이 환산",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006122",
+    "비고": "Dang Tulsipur의 Tarigaun Airport 활주로를 750m에서 2,500m로 확장하기 위한 토지 확보 및 인프라 개선 예산 배정. 2026-06-25 기준 다년도 업그레이드 계획이 언급됐으며, 후속 토지 확보, CAAN/관광항공부 조달공고, 활주로·터미널·항행안전시설 패키지 분리 여부를 확인한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "NPL-ENERGY-ARUNIII-HYDRO-TL",
@@ -21405,6 +22095,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PAK-ENERGY-KP-HYDRO-RENEWABLE-RESTRUCTURE",
+    "프로젝트명": "Khyber Pakhtunkhwa Hydropower and Renewable Energy Development Project",
+    "지역": "아시아",
+    "국가": "파키스탄",
+    "섹터": "에너지",
+    "발주처": "Khyber Pakhtunkhwa Government / World Bank / PEDO",
+    "사업비(달러 기준 추정액)": "약 USD 480.6백만",
+    "사업비 환산 환율 / 기준": "Business Recorder 2026-06-24 기준 구조조정 후 USD480.6m, 기존 USD727m에서 축소",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006127",
+    "비고": "World Bank 지원 KP 수력·재생에너지 사업. 215MW Madyan HPP는 재원 부족으로 중단하고 88MW GabralKalam HPP, 태양광 투자, 기술지원 중심으로 구조조정 예정. GabralKalam 주요 계약·조달, 신규 재생에너지 배정분, 2030년 완료기한 연장 확정 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PAK-ENERGY-SIALKOT-VEHARI-500KV-TL",
     "프로젝트명": "500kV Sialkot and Vehari Substation Associated Transmission Lines Project",
     "지역": "아시아",
@@ -21450,6 +22155,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "PAK-ROAD-KHARIAN-RAWALPINDI-M13",
+    "프로젝트명": "Kharian-Rawalpindi Motorway (M-13) Project",
+    "지역": "아시아",
+    "국가": "파키스탄",
+    "섹터": "교통",
+    "발주처": "National Highway Authority / Public Private Partnership Authority / Frontier Works Organisation",
+    "사업비(달러 기준 추정액)": "약 USD 724백만 추정",
+    "사업비 환산 환율 / 기준": "Dawn 2026-06-25 기준 Rs205bn, 1 USD≈283 PKR 간이 환산",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006125",
+    "비고": "Kharian-Rawalpindi 구간 117km 6차로 motorway BOT 사업. P3A 이사회가 NHA 제안을 바탕으로 FWO 협상계약 추진을 허용했으며, 연방정부 승인과 concession 조건 평가가 남아 있다. 기존 Ecnec 국제경쟁입찰 지시와 다른 조달경로라 후속 승인·계약 체결 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PAK-ROAD-M6-HYDERABAD-SUKKUR-MOTORWAY",
     "프로젝트명": "Hyderabad-Sukkur Motorway M-6 Project",
     "지역": "아시아",
@@ -21463,6 +22183,21 @@
     "대표 기사 고유값": "ART-20260421-003467",
     "비고": "관련 기사: ART-20250128-003465, ART-20251107-003466, ART-20260421-003467",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "PAK-ROAD-PESHAWAR-TORKHAM-MOTORWAY",
+    "프로젝트명": "Peshawar-Torkham Motorway / Khyber Pass Economic Corridor Project",
+    "지역": "아시아",
+    "국가": "파키스탄",
+    "섹터": "교통",
+    "발주처": "National Highway Authority / Ministry of Communications / World Bank",
+    "사업비(달러 기준 추정액)": "약 USD 460백만",
+    "사업비 환산 환율 / 기준": "Dawn 2026-06-23 기준 World Bank loan USD460m, cost overrun 후 약 Rs130bn 언급",
+    "현재 단계": "on-hold",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006126",
+    "비고": "Peshawar-Torkham 47km access-controlled motorway / Khyber Pass Economic Corridor. 2020년 World Bank 차관 발효 후 착수 지연과 원가 초과로 구조조정 검토 중이며, Southern Link Road 삭제와 본선 3개 lot 분할, 차관 연장 협상이 핵심 후속 변수다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "PAK-WATER-KIV-GREATER-KARACHI-BULK-WATER",
@@ -21553,6 +22288,21 @@
     "대표 기사 고유값": "ART-20260616-004841",
     "비고": "파나마시티 Vía España 간선축 확장·도시교통 개선사업. 녹지·약 2,000그루 식재, 접근 가능한 보도, 우수 배수 개선, Mi Bus 전용차로·정류장, 전력·통신선 지중화 포함. 주민설명 및 계획 구체화 단계로, 후속 입찰·사업비·패키지 범위 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PAN-SOC-LAS-GARZAS-PENITENTIARY",
+    "프로젝트명": "Las Garzas Penitentiary Rehabilitation Center Project",
+    "지역": "중남미",
+    "국가": "파나마",
+    "섹터": "사회인프라",
+    "발주처": "Ministerio de Gobierno",
+    "사업비(달러 기준 추정액)": "약 USD 85백만",
+    "사업비 환산 환율 / 기준": "La Estrella de Panamá 2026-06-24 기준 기준가격 USD 85m",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006100",
+    "비고": "Las Garzas 지역 신규 수감자 보상·재활센터 설계·시공·장비공급·유지관리 입찰. 2026-06-24 기준 사전회의와 기준확인 절차에 12개 기업·컨소시엄 참여, 제안서 제출 및 개찰은 2026-07-14 예정. 기존 Divisa 교정시설 프로젝트와 위치·입찰번호·사업비가 달라 별도 프로젝트로 관리.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "PAN-SOC-SNM-CURUNDU-HQ",
@@ -22080,6 +22830,36 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "PHL-WATER-ANTONG-DAM-IRRIGATION",
+    "프로젝트명": "Antong Dam and Irrigation System Project",
+    "지역": "아시아",
+    "국가": "필리핀",
+    "섹터": "수자원·환경",
+    "발주처": "National Irrigation Administration / Government of the Philippines",
+    "사업비(달러 기준 추정액)": "약 USD 17.0백만",
+    "사업비 환산 환율 / 기준": "GMA Regional TV 2026-06-25 기준 약 PHP 1bn, 1 USD≈58.8 PHP 간이 환산",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006150",
+    "비고": "Sultan Kudarat Lutayan의 Antong Dam and Irrigation System 재활·재개통 사업. 2022년 태풍 Paeng 피해 이후 3년 이상 재활을 거쳐 재개통됐으며 1,500ha 이상 농지와 300명 이상 농민 수혜가 제시됨. 후속 NIA Mindanao 9개 댐·관개 프로젝트와 별도 신규 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PHL-WATER-MABINI-CAYACAY-SRIP",
+    "프로젝트명": "Mabini-Cayacay Small Reservoir Irrigation Project",
+    "지역": "아시아",
+    "국가": "필리핀",
+    "섹터": "수자원·환경",
+    "발주처": "National Irrigation Administration",
+    "사업비(달러 기준 추정액)": "약 USD 14.2백만",
+    "사업비 환산 환율 / 기준": "PNA/대통령실 2026-06-22 기준 PHP 833.37m, 1 USD≈58.8 PHP 간이 환산",
+    "현재 단계": "completion",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-006149",
+    "비고": "Bohol주 Mabini Barangay Abaca의 소규모 저수지 관개사업. 약 530ha 농지 관개와 지역 농민 지원이 기대되며, 2026-06-22 대통령 주재 준공식으로 completion 단계 확인. 후속 실제 물 공급 성능, 유지관리, 추가 관개망 확장 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PHL-WATER-MANANGA-FLOOD-MITIGATION",
     "프로젝트명": "Mananga River Flood Mitigation Structure Rehabilitation Project",
     "지역": "아시아",
@@ -22198,6 +22978,21 @@
     "대표 기사 고유값": "ART-20260225-003807",
     "비고": "Port Moresby와 Vanimo 도시 상하수도 보강 프로젝트. 2026년 ADB 승인 후 Water PNG 조달 패키지로 Port Moresby Waigani Sewage Pond #3 준설 등 공사 입찰이 확인되어 후속 tender·낙찰·착공 추적 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "POL-AIR-CHOPIN-MODERNIZATION",
+    "프로젝트명": "Warsaw Chopin Airport Modernization Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "Polskie Porty Lotnicze (PPL)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "2026-06-25 기사 내 사업비 미공개",
+    "현재 단계": "tender",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006219",
+    "비고": "바르샤바 쇼팽공항 현대화 사업. 남측 피어·터미널·수하물 시설·접근도로 개선을 포함하며 경쟁대화 후 2027년 4월 시공계약, 2029년 7월 운영개시 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "POL-AIR-CPK-GIK",
@@ -22512,6 +23307,36 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260619-004722",
     "비고": "DK61 16.8km 신설 2차로 구간과 DK57 약 3km 신설 구간으로 구성된 Pułtusk 우회도로. 2021년 설계·시공 계약, 2023년 ZRID 후 공사 착수, 2026-06-19 개통. 100개 우회도로 프로그램 및 KPO 재원 도로사업 이정표로 기록.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "POL-ROAD-S19-RZESZOW-BABICA",
+    "프로젝트명": "S19 Rzeszów Południe-Babica Expressway Tunnel Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "GDDKiA",
+    "사업비(달러 기준 추정액)": "약 822백만 달러 추정",
+    "사업비 환산 환율 / 기준": "Rynek Infrastruktury 2026-06-25 기준 변경 후 PLN 3.039bn, 1 USD≈3.70 PLN 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006221",
+    "비고": "S19 Rzeszów Południe-Babica 약 10km 도로 및 2,255m급 쌍굴 터널. Mostostal Warszawa-Acciona 컨소시엄 수행, TBM Karpatka가 2026-06-17 두 번째 나우 굴착 착수.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "POL-ROAD-S6-POLICE-GOLENIOW",
+    "프로젝트명": "S6 Police-Goleniów Expressway Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "GDDKiA",
+    "사업비(달러 기준 추정액)": "약 9.6백만 달러(감리계약) / 총사업비 별도 확인 필요",
+    "사업비 환산 환율 / 기준": "Rynek Infrastruktury/B-Act 2026-06-22 기준 PLN 35.6m, 1 USD≈3.70 PLN 간이 환산",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-006220",
+    "비고": "S6 Police-Goleniów 23.4km 구간 및 오드라강 하부 5km 터널 포함. B-Act 주도 컨소시엄이 계약관리·감리 역할을 맡음.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -23070,21 +23895,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "ROU-ENERGY-BALENI-WIND-BESS",
-    "프로젝트명": "Băleni Wind Farm Battery Energy Storage System Project",
-    "지역": "유럽",
-    "국가": "루마니아",
-    "섹터": "에너지",
-    "발주처": "ENGIE Romania",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "e-nergia 2026-06-24 기준 사업비 미공개. 기존 50MW 풍력단지에 5MW/10MWh BESS 추가.",
-    "현재 단계": "construction",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260624-005490",
-    "비고": "Galați주 Băleni 50MW 운영 풍력단지에 5MW/10MWh BESS를 통합하는 ENGIE 그룹 유럽 첫 하이브리드 풍력·저장 프로젝트. 연말 가동 예정이며 후속 상업운전, 저장 포트폴리오 확대, Șelimbăr 80MW/160MWh 프로젝트와 혼동하지 않도록 위치 기준 관리 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "ROU-ENERGY-CRAIOVA-SACET-COGEN",
     "프로젝트명": "Craiova SACET High-efficiency Cogeneration and District Heating Production Project",
     "지역": "유럽",
@@ -23145,6 +23955,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ROU-ENERGY-PESTERA-II-WIND",
+    "프로젝트명": "Peștera II Onshore Wind Farm Project",
+    "지역": "유럽",
+    "국가": "루마니아",
+    "섹터": "에너지",
+    "발주처": "Copenhagen Infrastructure Partners / Growth Markets Fund II",
+    "사업비(달러 기준 추정액)": "약 USD 551백만 금융",
+    "사업비 환산 환율 / 기준": "Renewable Energy Magazine/Windtech 2026-06-25 기준 금융 약 EUR 510m, 1 EUR≈1.08 USD 간이 환산",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006208",
+    "비고": "Constanța주 392MW Peștera II 육상풍력 프로젝트. 2024년 12월 245MW CfD 확보, 2026-06-25 금융종결, 2028년 상업운전 목표. 후속 터빈 공급, EPC/BoP, 변전·송전, 착공·계통연계·상업운전 기사를 같은 프로젝트 고유값으로 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ROU-ENERGY-SATUMARE3-PV",
     "프로젝트명": "Satu Mare 3 Photovoltaic Park Project",
     "지역": "유럽",
@@ -23157,21 +23982,6 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260623-005215",
     "비고": "Satu Mare주 Doba 인근 62.5MWp 태양광 발전소 및 110kV 변전소 건설사업. General Electro Proexim 주관 컨소시엄이 EPC와 3년 O&M을 수행하며, 계약 체결 후 실행 단계로 전환됨. 후속 착공, 공정, 계통연계, 준공 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "ROU-ENERGY-SCORNICESTI-BESS",
-    "프로젝트명": "Scornicești Battery Energy Storage System Project",
-    "지역": "유럽",
-    "국가": "루마니아",
-    "섹터": "에너지",
-    "발주처": "RPOWER BESS-TWO SRL / R.Power / EBRD",
-    "사업비(달러 기준 추정액)": "약 USD 47.5백만 금융",
-    "사업비 환산 환율 / 기준": "e-nergia 2026-06-24 기준 EBRD 최대 EUR 44m, 1 EUR≈1.08 USD 간이 환산. 설비 127MW/254MWh.",
-    "현재 단계": "financing",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260624-005489",
-    "비고": "Olt주 Scornicești Constantinești 일대 127MW/254MWh BESS 및 계통연계 인프라. ANRE 설립허가 심의와 EBRD/InvestEU 금융이 확인된 초기 실행 단계. 후속 허가 확정, EPC·배터리 공급, 착공·준공 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -23220,6 +24030,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ROU-RAIL-CRAIOVA-DROBETA-CARANSEBES-LOT3",
+    "프로젝트명": "Craiova-Drobeta Turnu Severin-Caransebeș Railway Modernization Lot 3 Project",
+    "지역": "유럽",
+    "국가": "루마니아",
+    "섹터": "교통",
+    "발주처": "CFR S.A. / FCC Construcción S.A.",
+    "사업비(달러 기준 추정액)": "약 USD 1,214백만 추정",
+    "사업비 환산 환율 / 기준": "CFR 2026-06-25 기준 RON 5.1666bn without VAT, 1 USD≈4.255 RON 간이 환산",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006207",
+    "비고": "Craiova-Drobeta Turnu Severin-Caransebeș 철도 현대화 Lot 3 Igiroasa-Drobeta Turnu Severin. km 331+000-km 362+632 구간 설계·시공, 연결선, Drobeta Marfă역, ERTMS ETCS Level 2/GSM-R, 25kV 전철화와 구조물·배수·역사 현대화 포함. 낙찰자 선정 이후 최종 계약체결, 착공명령, 시스템·전철화·하도급 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ROU-ROAD-A3-ZIMBOR-POARTA-SALAJULUI",
     "프로젝트명": "A3 Zimbor-Poarta Salajului Motorway Section Project",
     "지역": "유럽",
@@ -23233,21 +24058,6 @@
     "대표 기사 고유값": "ART-20260622-004875",
     "비고": "A3 Transilvania 고속도로 Zimbor-Poarta Salajului 12.24km 구간. 2026-06-22 보도 기준 막바지 공사와 CESTRIN 시험·검사 진행, 2026년 7월 준공검수 및 교통개방 목표. 대규모 고가교, 굴착, 옹벽, 사면 안정화가 포함된 산악 고속도로 구간으로 Nadaselu-Zimbor 연계 개통 시 Poarta Salajului-Targu Mures 장거리 연결성 강화.",
     "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "ROU-ROAD-A8-JOSENI-DITRAU",
-    "프로젝트명": "A8 Joseni-Ditrău Motorway Section Project",
-    "지역": "유럽",
-    "국가": "루마니아",
-    "섹터": "교통",
-    "발주처": "Compania Națională de Investiții Rutiere (CNIR) / Danlin XXL-Groma Hold-Intertranscom Impex",
-    "사업비(달러 기준 추정액)": "섹터 전체 약 USD 4,320백만, 로트별 금액 미공개",
-    "사업비 환산 환율 / 기준": "Economica 2026-06-24 기준 A8 산악구간 약 EUR 4bn, 1 EUR≈1.08 USD 간이 환산. Joseni-Ditrău 14.4km 로트별 계약금액은 기사 내 미공개.",
-    "현재 단계": "construction",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260624-005485",
-    "비고": "A8 Autostrada Unirii 산악구간의 첫 공사 로트. 14.4km, 18개 교량·통로, 3개 생태통로, Joseni 나들목, Ditrău 임시 연결부 포함. PAC 승인 후 건설허가·PTE 승인·착공 명령 및 2028년 전후 준공 여부 추적 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "ROU-ROAD-A8-TARGUNEAMT-IASI-UNGHENI-LOT4",
@@ -23505,6 +24315,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-ENERGY-WADI-AL-SHAMAL-WIND-FARM",
+    "프로젝트명": "Wadi Al Shamal Wind Farm Project",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "에너지",
+    "발주처": "SEPCO III / Saudi renewable energy project stakeholders",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "SaudiGulf Projects 2026-06-25 기준 500MW, 67기 7.7MW 터빈. 사업비 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006901",
+    "비고": "Northern Borders Province 소재 500MW 육상풍력 EPC 프로젝트. SEPCO III가 전체 67기 풍력터빈 계통연계를 완료했으며, 후속 상업운전·인수인계·준공 확인 필요. Al Ghat 600MW 풍력과 별도 프로젝트로 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SAU-IND-SPARK-READYBUILT-FACTORIES",
     "프로젝트명": "King Salman Energy Park Ready-built Factory Complex Project",
     "지역": "중동",
@@ -23565,6 +24390,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-ROAD-RIYADH-MAIN-RING-ROAD-PKG4",
+    "프로젝트명": "Riyadh Main and Ring Road Axes Development Program Fourth Package",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "교통",
+    "발주처": "Royal Commission for Riyadh City (RCRC)",
+    "사업비(달러 기준 추정액)": "약 USD 2,600백만",
+    "사업비 환산 환율 / 기준": "SaudiGulf Projects 2026-06-24 기준 SAR 9.8bn / USD 2.6bn 병기",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006900",
+    "비고": "Riyadh Main and Ring Road Axes Development Program 4차 패키지. Sheikh Jaber Al-Sabah, Prince Turki bin Abdulaziz Al Awwal, Prince Mishal bin Abdulaziz, Najmuddin Al-Ayoubi 등 4개 도로축 40km, 14개 교차로, 33개 교량, 5개 터널, 6개 보행교 포함. 후속 개별 도로축 계약·입찰·착공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SAU-SOC-ALULA-MANARA",
     "프로젝트명": "AlUla Manara Astronomy and Astro-Tourism Project",
     "지역": "중동",
@@ -23578,6 +24418,21 @@
     "대표 기사 고유값": "ART-20260617-003868",
     "비고": "AlUla 북부 천문대·연구시설·방문자센터·교육·전시·관측 인프라 개발사업. RCU 이사회 설계 승인 확인, 후속 인허가·입찰·시공계약 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "SAU-SOC-PMFU-SPECIALITY-HOSPITAL-ALKHOBAR",
+    "프로젝트명": "Prince Mohammed Bin Fahd University Speciality Hospital in Al-Khobar",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "사회인프라",
+    "발주처": "Prince Mohammed Bin Fahd University / Zhejiang Construction International",
+    "사업비(달러 기준 추정액)": "약 USD 265백만",
+    "사업비 환산 환율 / 기준": "Construction Week Saudi/MEED 2026-06-24 기준 SAR 994m / USD 265m",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006902",
+    "비고": "Al Khobar 소재 Prince Mohammed Bin Fahd University Speciality Hospital 건설 프로젝트. Zhejiang Construction International이 약 994m 리얄 계약을 확보했고 병원 연면적은 약 60,000㎡로 보도됨. 후속 착공, 주요 하도급·MEP·의료설비 패키지, 준공 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "SAU-SOC-QIDDIYA-INDOOR-ARENA",
@@ -23743,6 +24598,21 @@
     "대표 기사 고유값": "ART-20260615-003618",
     "비고": "Port Sudan Al-Khair 석유항 2단계 확장. 150,000DWT급 신규 석유 접안시설, 80m 예인선 접안시설, 접안교, 하역 플랫폼, 소방·가스누출·유출 조기경보 설비를 포함. 연료 수입 하역 병목 완화 목적이며 후속 공정률·완공·운영개시 기사 추적 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "SDN-ROAD-ARDAMATA-BRIDGE-REHAB",
+    "프로젝트명": "Ardamata Bridge Rehabilitation Project",
+    "지역": "중동",
+    "국가": "수단",
+    "섹터": "교통",
+    "발주처": "관계기관 미공개",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Logistics Cluster 2026-06-25 회의록 기준 사업비 미공개. Ardamata 교량 피해와 복구 진행, 제한적 통행 및 우회·환적 필요성이 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006927",
+    "비고": "West Darfur El Geneina 인근 Ardamata 교량 복구 프로젝트. 부분 파괴 후 제한적 통행과 중량 화물 우회·환적이 필요한 상태이며, 후속 완전 복구, 통행중량 정상화, 발주처·재원·시공사 공개 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "SDN-ROAD-JEBELAWLIYA-RABAK-KAWA-SHAWAL",
@@ -24255,6 +25125,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "THA-URBAN-MEGABANGNA-EXPANSION",
+    "프로젝트명": "Megabangna Expansion and Megacity Masterplan Project",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "도시개발·주택",
+    "발주처": "Central Pattana / Ikano Centres / Megabangna Shopping Centre and Megacity",
+    "사업비(달러 기준 추정액)": "약 USD 179백만",
+    "사업비 환산 환율 / 기준": "Nation Thailand/Inside Retail 2026-06-24 기준 THB 6bn, 기사 내 USD 179m 병기",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006139",
+    "비고": "Megabangna 쇼핑센터에 약 17만㎡ 연면적, 신규 리테일 공간, 주차면 1,750개를 추가하는 60억 밧 확장사업. 2028년 3분기 완공 목표이며, 장기적으로 325라이 부지와 130만㎡ 이상 개발면적, 총 700억 밧 규모 Megacity 마스터플랜의 일부. 후속 설계·시공 패키지, 착공, 주요 시공사·전문공종 계약 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "THA-WATER-RAYONG-EEC-DRAINAGE",
     "프로젝트명": "Rayong EEC Flood Drainage Project",
     "지역": "아시아",
@@ -24465,6 +25350,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TUN-ENERGY-ELMED-INTERCONNECTOR",
+    "프로젝트명": "ELMED Italy-Tunisia HVDC Interconnector Project",
+    "지역": "중동",
+    "국가": "튀니지",
+    "섹터": "에너지",
+    "발주처": "Terna / STEG",
+    "사업비(달러 기준 추정액)": "약 1,080백만 달러 추정",
+    "사업비 환산 환율 / 기준": "DispatchRisk 2025-08 기준 총사업비 약 EUR 1bn, 1 EUR≈1.08 USD 간이 환산. Prysmian 해저케이블 패키지 약 EUR 460m.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260622-006926",
+    "비고": "600MW, 500kV급 이탈리아-튀니지 HVDC 해저 전력연계. Partanna-Sicily와 Mlaabi-Cap Bon 변전소 연결, 해저 약 200km 포함. Team Europe 금융 패키지와 2025년 Prysmian 해저케이블 패키지 낙찰 이후 2026년 6월 Prysmian이 Terna·STEG로부터 착공 진행 통보를 수령해 construction 단계로 갱신.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "TUN-ENERGY-SIDI-BOUZID-II-SOLAR",
     "프로젝트명": "Sidi Bouzid II Solar PV Project",
     "지역": "중동",
@@ -24615,6 +25515,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "TUR-ENERGY-D11-WIND-BESS",
+    "프로젝트명": "D11 Wind Power Plant and Electricity Storage Facility Project",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "에너지",
+    "발주처": "Dere Enerji A.Ş.",
+    "사업비(달러 기준 추정액)": "약 USD 43백만 추정",
+    "사업비 환산 환율 / 기준": "Yatırımlar 2026-06-23 기준 TRY 1.736bn, 1 USD≈40 TRY 간이 환산",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006916",
+    "비고": "Antalya İbradı-Manavgat D11 RES 및 EDT. 80MWm/70MWe 풍력, 70MWe/80MWh 저장장치, 연 196GWh 발전 계획. ÇED 절차 착수 단계로 후속 환경결정, 계통접속, EPC·ESS 공급자 선정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TUR-ENERGY-DEVEKIRAN-400KV-SUBSTATION",
     "프로젝트명": "Devekıran 400/154/33kV Substation Turnkey Construction Project",
     "지역": "중동",
@@ -24627,6 +25542,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260617-004582",
     "비고": "세계은행 금융 TTPS 범위의 Şanlıurfa Devekıran 400/154/33kV AIS 변전소 턴키 건설사업. 제안서 제출 마감 2026-07-30, 공기 540일, 입찰보증 750,000 EUR. 후속 낙찰·계약 체결 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUR-ENERGY-ENERJISA-YEKA2024-EDIRNE-BALKAYA-WIND",
+    "프로젝트명": "Enerjisa YEKA 2024 Edirne and Balkaya Wind Power Projects",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "에너지",
+    "발주처": "Enerjisa Üretim / ABB Türkiye",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Yatırımlar 2026-06-24 기준 총 750MW(Edine 410MW, Balkaya 340MW), 사업비 미공개",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006919",
+    "비고": "Enerjisa Üretim YEKA 2024 Edirne 410MW 및 Balkaya 340MW 풍력 프로젝트의 고전압 GIS 공급 협력. ABB Türkiye가 계통연계용 가스절연개폐설비를 공급하며, 후속 EPC 공정·계통연계·시운전·운영 개시 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -24765,6 +25695,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TUR-RAIL-MALATYA-NARLI",
+    "프로젝트명": "Malatya-Narlı Railway Line Construction Project",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "교통",
+    "발주처": "Altyapı Yatırımları Genel Müdürlüğü (AYGM) / Kalyon İnşaat",
+    "사업비(달러 기준 추정액)": "약 USD 2,085백만 추정",
+    "사업비 환산 환율 / 기준": "Yatırımlar 2026-06-24 기준 계약금 TRY 83.400bn, 1 USD≈40 TRY 간이 환산",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006914",
+    "비고": "Malatya-Narlı 155km 복선 철도 인프라·상부공사. Kalyon İnşaat과 2026-06-22 계약 체결. 후속 착공, 공구별 하도급, 전철화·신호·통신 패키지, 주요 공정률 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUR-ROAD-CEYHAN-POZANTI-MOTORWAY",
+    "프로젝트명": "Ceyhan-Pozantı Motorway Project",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "교통",
+    "발주처": "Karayolları Genel Müdürlüğü (KGM)",
+    "사업비(달러 기준 추정액)": "약 USD 1,777백만 추정",
+    "사업비 환산 환율 / 기준": "Yatırımlar 2026-06-25 기준 TRY 71.083bn, 1 USD≈40 TRY 간이 환산",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006913",
+    "비고": "Adana-Mersin 권역 Ceyhan-Pozantı 고속도로 114.1km(본선 약 92.4km+연결도로), 8개 터널, 4개 비아덕트, 9개 교차로 포함. ÇED 절차 착수 단계이며 후속 ÇED 승인, 투자프로그램, KGM 본공사 입찰·패키지 분할 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TUR-ROAD-KINALI-MALKARA-MOTORWAY-FINANCE",
     "프로젝트명": "Kınalı-Malkara Motorway Project Financing",
     "지역": "중동",
@@ -24807,6 +25767,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260619-004583",
     "비고": "Halkalı-Arnavutköy 22km 구간이 2026-06-19 실제 개통되어 전체 69km Gayrettepe-İstanbul Havalimanı-Halkalı 지하 도시철도 링이 완성됨. 5개 역 추가, 2026-07-31까지 무료 운행 발표. 기존 2026-06-17 completion/개통예정 기사에서 operation 단계로 갱신.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUR-WATER-MELEN-DAM-COMPLETION",
+    "프로젝트명": "Istanbul Melen Dam Completion Project",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "수자원·환경",
+    "발주처": "Devlet Su İşleri (DSİ) Barajlar ve HES Dairesi Başkanlığı / Limak İnşaat",
+    "사업비(달러 기준 추정액)": "약 USD 362백만 추정",
+    "사업비 환산 환율 / 기준": "Yatırımlar 2026-06-24 기준 계약금 TRY 14.496bn, 1 USD≈40 TRY 간이 환산",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006915",
+    "비고": "Istanbul Melen Dam 완성공사. Limak İnşaat과 2026-06-22 계약 체결. 기존 본공사·보완·보강 이력과 연결되는 수자원 핵심 인프라로 후속 착공, 공정률, 구조 안정화·계측·수문 설비 범위 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -25062,6 +26037,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260618-004787",
     "비고": "Uganda-Tanzania 전력 연계사업. Tanzania 구간은 Ibadakuli-Nyakanazi-Kyaka-Mutukula 약 550km 400kV 이중회선 송전선과 Kyaka, Nyakanazi, Ibadakuli 변전소를 포함하는 것으로 World Bank 사업문서에 제시됨. 2026-06-18 World Bank Group의 RETRADE-EA 16억 달러 승인 발표에서 1단계 Uganda-Tanzania Interconnector가 포함되어 financing 단계로 신규 생성. 후속 Tanzania 구간 조달공고, 환경·사회 문서, EPC·감리 패키지 및 양국 연계 공정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TZA-IND-IMWELO-GOLD-PH1",
+    "프로젝트명": "Imwelo Gold Project Phase 1 Infrastructure",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "산업·물류",
+    "발주처": "Lake Victoria Gold / Tembo Gold (T) Limited / Taifa Mining",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Stockwatch/Newsfile 2026-06-23 기준 사업비 미공개. 공정 플랜트·숙소/캠프 부지, 접근도로 개량, site clearing, civil/foundation design, EPCM·Phase 1 infrastructure procurement 포함.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006937",
+    "비고": "Geita Region Imwelo Gold Project 1단계 인프라. Sterilization drilling으로 process plant와 accommodation/man-camp footprints가 확인됐고, 접근도로 개량·부지정리·캠프 설치·EPCM 및 조달 후속을 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -25680,6 +26670,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "USA-DIGITAL-PROJECT-KILBY-AI-DC-POWER",
+    "프로젝트명": "Project Kilby AI Data Center and Dedicated Power Infrastructure Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Chevron / Microsoft / Engine No. 1 / Energy Forge One",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Energy Digital 2026-06-23 기준 2.67GW 전용 가스화력 전력공급, 20년 PPA, 2028년 가동 목표. 사업비 미공개.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006118",
+    "비고": "West Texas AI·cloud 데이터센터 전력공급을 위한 Project Kilby. Chevron 자회사 Energy Forge One이 건설·운영하고 Microsoft가 장기 전력구매자로 참여하며, 2026년 말 FID 예정. 후속 FID, 인허가, EPC·터빈 공급계약, 착공 기사와 연결 관리 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "USA-DIGITAL-WESTTEXAS-CIRCE-AI-CAMPUS",
     "프로젝트명": "Circe West Texas AI Infrastructure Campus",
     "지역": "북미",
@@ -25890,6 +26895,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UZB-AIR-NAMANGAN-TERMINAL",
+    "프로젝트명": "Namangan International Airport New Passenger Terminal Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Uzbekistan Airports / Namangan regional administration / private partner",
+    "사업비(달러 기준 추정액)": "약 USD 175백만",
+    "사업비 환산 환율 / 기준": "Kun.uz 2026-06-23 기준 총투자 USD 175m, 민간 파트너 직접 투자 약 USD 70m 언급",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260623-006230",
+    "비고": "Namangan International Airport 신 여객터미널 현대화 프로젝트. 22,600㎡ 3층 터미널, 시간당 1,200명 이상·연간 300만 명 처리능력, 국경·세관·비자·상업시설 포함. 2026년 말 여객 운영 개시 목표이며 2027년 말 하루 50톤 처리능력 화물터미널 후속 구축 예정. 기존 Tashkent New Airport·Yangi Bukhara PPP와는 위치·사업범위가 달라 별도 프로젝트로 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UZB-AIR-TASHKENT-NEW-AIRPORT",
     "프로젝트명": "New Tashkent International Airport Project",
     "지역": "중앙아시아",
@@ -26010,6 +27030,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "UZB-ROAD-PUNGAN-NAMANGAN",
+    "프로젝트명": "Pungan-Namangan Highway Upgrade Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Government of Uzbekistan / Namangan regional administration / CITIC Construction",
+    "사업비(달러 기준 추정액)": "약 USD 246백만",
+    "사업비 환산 환율 / 기준": "Kun.uz 2026-06-25 기준 estimated valuation USD 246m",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006231",
+    "비고": "Pungan-Namangan 75km 도로 개량사업. 4차로 콘크리트 도로, 설계속도 120km/h, 교량 21개와 보행자 횡단시설 22개 포함. 2013년 계획 후 지연됐다가 2024년 3월 대통령 승인으로 재개됐고, 2025년 말 실제 현장작업 착수. CITIC Construction이 시행관리하며 후속 주요 공정률·완공·ITS·안전시설·유지관리 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UZB-SOC-FERGANA-PLUS-MEDCLUSTER",
     "프로젝트명": "Fergana Plus Medical Cluster and 800-bed Hospital PPP Project",
     "지역": "중앙아시아",
@@ -26067,6 +27102,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260619-004743",
     "비고": "TIIF-2026에서 Head of Terms 체결. 중앙아시아 유해폐기물 처리·관리 인프라 구축 사업으로 보도됨. 후속 사업구조, 부지, EPC/운영계약, 금융종결 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UZB-WATER-ANDIJAN-MAIN-PIPELINE",
+    "프로젝트명": "Andijan Main Water Pipeline Reconstruction Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "수자원·환경",
+    "발주처": "Andijan regional administration / relevant water utility authorities",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Kun.uz 2026-06-25 기사 기준 사업비·연장·시공사 미공개",
+    "현재 단계": "planning",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006232",
+    "비고": "Andijan 지역 1980년대 주 상수관로 전면 재건 프로젝트. 노후 관로가 가구·마할라·공공기관에 식수를 공급하는 핵심 유틸리티망으로 확인됐고, 고위급 실무점검에서 공사기한·책임자 지정·의사결정 가속 필요성이 제시됨. 후속 사업비, 관로 연장, 발주기관, 설계·시공 공고, 수질·누수저감·SCADA 패키지 공개 여부를 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -26217,21 +27267,6 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260619-004933",
     "비고": "Quang Tri 동남경제구역 42ha 부지의 340MW 가스화력 BOT 사업. Gazprom International이 2020년 배정됐으나 PPP 투자절차를 완료하지 못하고 철수했으며, 당국은 PDP VIII 일정 유지를 위해 대체 투자자 물색 필요. 후속 투자자 선정, 조달 재개, 사업구조 변경 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "VNM-ENERGY-THANGHUNG-WIND",
-    "프로젝트명": "Thang Hung Wind Power Plants Phase 1 & 2",
-    "지역": "아시아",
-    "국가": "베트남",
-    "섹터": "에너지",
-    "발주처": "VinEnergo Energy JSC / Gia Lai People's Committee",
-    "사업비(달러 기준 추정액)": "약 USD 98.75백만",
-    "사업비 환산 환율 / 기준": "The Investor 2026-06-24 기준 VND 2.6tn 이상 / USD 98.75m 명시",
-    "현재 단계": "planning",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20260624-005543",
-    "비고": "Gia Lai성의 Thang Hung 풍력 1단계 42MW 및 2단계 38MW 개발 승인 건. 2026년 12월 착공, 2028년 3월 상업운전 예정으로 후속 EPC·기자재·계통연계 동향 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
