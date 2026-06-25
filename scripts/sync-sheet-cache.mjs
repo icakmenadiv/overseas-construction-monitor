@@ -12,6 +12,11 @@ const MODE = parseMode();
 
 const ARTICLE_ID_COLUMN = "기사 고유값";
 const PROJECT_ID_COLUMN = "프로젝트 고유값";
+const IMPORTANCE_LABEL_COLUMN = "중요도";
+const IMPORTANCE_SCORE_COLUMN = "중요도 수치값";
+const AI_ADJUSTMENT_COLUMN = "최종 AI 가점";
+const IMPORTANCE_DISPLAY_COLUMN = "중요도 표시";
+const FINAL_IMPORTANCE_SCORE_COLUMN = "최종 중요도 수치값";
 const MIN_ARTICLE_ROWS = 100;
 const MIN_PROJECT_ROWS = 20;
 
@@ -28,7 +33,7 @@ async function main() {
     fetchSheetRows(PROJECT_GID, PROJECT_RANGE),
   ]);
 
-  const sheetArticles = normalizeRows(articles, ARTICLE_ID_COLUMN);
+  const sheetArticles = normalizeRows(articles, ARTICLE_ID_COLUMN).map(decorateArticleImportanceScore);
   const sheetProjects = normalizeRows(projects, PROJECT_ID_COLUMN);
   assertHealthySheetRead(sheetArticles, previousArticles, ARTICLE_ID_COLUMN, "articles", MIN_ARTICLE_ROWS);
   assertHealthySheetRead(sheetProjects, previousProjects, PROJECT_ID_COLUMN, "projects", MIN_PROJECT_ROWS);
@@ -130,6 +135,34 @@ function normalizeRows(rows, idColumn) {
       seen.add(id);
       return true;
     });
+}
+
+function decorateArticleImportanceScore(row) {
+  const label = cleanImportanceLabel(row[IMPORTANCE_LABEL_COLUMN]);
+  const baseScore = parseNumber(row[IMPORTANCE_SCORE_COLUMN]);
+  const aiAdjustment = parseNumber(row[AI_ADJUSTMENT_COLUMN]);
+  const finalScore = baseScore + aiAdjustment;
+  if (!label || !Number.isFinite(finalScore) || finalScore === 0) return row;
+
+  return {
+    ...row,
+    [IMPORTANCE_DISPLAY_COLUMN]: label,
+    [FINAL_IMPORTANCE_SCORE_COLUMN]: formatNumber(finalScore),
+    [IMPORTANCE_LABEL_COLUMN]: `${label} (${formatNumber(finalScore)})`,
+  };
+}
+
+function cleanImportanceLabel(value) {
+  return cleanValue(value).replace(/\s*\([^)]*\)\s*$/, "").trim();
+}
+
+function parseNumber(value) {
+  const match = cleanValue(value).replace(/,/g, "").match(/-?\d+(?:\.\d+)?/);
+  return match ? Number(match[0]) : 0;
+}
+
+function formatNumber(value) {
+  return Number.isInteger(value) ? String(value) : value.toFixed(1).replace(/\.0$/, "");
 }
 
 function mergeRows(previousRows, sheetRows, idColumn, mode) {
