@@ -99,8 +99,9 @@ async function fetchSheetRows(gid, range) {
   url.searchParams.set("headers", "1");
   url.searchParams.set("range", range);
   url.searchParams.set("tqx", "out:json");
+  url.searchParams.set("cacheBust", `${Date.now()}-${gid}`);
 
-  const response = await fetch(url);
+  const response = await fetch(url, { cache: "no-store" });
   if (!response.ok) throw new Error(`Google Sheets request failed: ${response.status} ${response.statusText}`);
 
   const text = await response.text();
