@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T00:24:46.106Z",
+  "updatedAt": "2026-06-25T10:30:47.092Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -7,11 +7,17 @@
         "article_detail_open": 1,
         "source_link_click": 1
       },
+      "ART-20260609-001226": {
+        "source_link_click": 1
+      },
       "ART-20260610-001548": {
         "source_link_click": 1
       },
       "ART-20260611-002726": {
         "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260612-001731": {
         "source_link_click": 1
       },
       "ART-20260616-003597": {
@@ -31,6 +37,9 @@
       },
       "ART-20260618-004240": {
         "article_detail_open": 1
+      },
+      "ART-20260618-004249": {
+        "source_link_click": 1
       },
       "ART-20260618-004639": {
         "article_detail_open": 1
@@ -54,22 +63,35 @@
       "ART-20260619-004646": {
         "article_detail_open": 1
       },
+      "ART-20260619-004675": {
+        "article_detail_open": 1
+      },
       "ART-20260619-004743": {
         "article_detail_open": 1
       },
       "ART-20260619-004759": {
-        "article_detail_open": 1,
+        "article_detail_open": 2,
         "source_link_click": 2
       },
       "ART-20260619-004789": {
         "article_detail_open": 1
       },
-      "ART-20260619-004855": {
+      "ART-20260619-004843": {
         "article_detail_open": 1,
         "source_link_click": 1
       },
-      "ART-20260619-004932": {
+      "ART-20260619-004855": {
+        "article_detail_open": 1,
+        "source_link_click": 2
+      },
+      "ART-20260619-004882": {
         "article_detail_open": 1
+      },
+      "ART-20260619-004883": {
+        "article_detail_open": 1
+      },
+      "ART-20260619-004932": {
+        "article_detail_open": 2
       },
       "ART-20260620-004738": {
         "article_detail_open": 1
@@ -77,26 +99,45 @@
       "ART-20260620-004958": {
         "article_detail_open": 1
       },
+      "ART-20260621-004953": {
+        "article_detail_open": 1
+      },
       "ART-20260621-004960": {
         "article_detail_open": 1
       },
       "ART-20260622-005239": {
-        "article_detail_open": 1
+        "article_detail_open": 2
       },
       "ART-20260623-005218": {
+        "article_detail_open": 2
+      },
+      "ART-20260623-005219": {
         "article_detail_open": 1
       },
       "ART-20260623-005237": {
+        "article_detail_open": 2
+      },
+      "ART-20260623-005238": {
         "article_detail_open": 1
       },
       "ART-20260624-005376": {
+        "article_detail_open": 3,
+        "source_link_click": 1
+      },
+      "ART-20260624-005377": {
+        "article_detail_open": 1
+      },
+      "ART-20260624-005378": {
+        "article_detail_open": 1
+      },
+      "ART-20260624-005380": {
         "article_detail_open": 1,
         "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 6
+        "market_page_visit": 8
       }
     },
     "project": {
@@ -113,6 +154,12 @@
         "project_detail_open": 1
       },
       "GBR-ROAD-LOWER-THAMES-CROSSING": {
+        "project_detail_open": 1
+      },
+      "IRN-ENERGY-HORMOZ-SIRIK-NPP": {
+        "project_detail_open": 1
+      },
+      "OMN-ENERGY-ACME-DUQM-H2-AMMONIA-PH2PH3": {
         "project_detail_open": 1
       },
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
@@ -140,6 +187,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260609-001226",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-25T01:23:49.834Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260610-001548",
       "eventType": "source_link_click",
       "count": 1,
@@ -158,6 +212,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-06-24T07:24:44.512Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260612-001731",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-25T02:09:41.284Z"
     },
     {
       "targetType": "article",
@@ -200,6 +261,13 @@
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:20:13.017Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260618-004249",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-25T01:25:46.580Z"
     },
     {
       "targetType": "article",
@@ -259,6 +327,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260619-004675",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T05:06:38.402Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260619-004743",
       "eventType": "article_detail_open",
       "count": 1,
@@ -268,8 +343,8 @@
       "targetType": "article",
       "targetId": "ART-20260619-004759",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-24T07:21:47.550Z"
+      "count": 2,
+      "updatedAt": "2026-06-25T05:06:21.706Z"
     },
     {
       "targetType": "article",
@@ -287,6 +362,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260619-004843",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T02:26:42.482Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004843",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-25T02:25:10.470Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260619-004855",
       "eventType": "article_detail_open",
       "count": 1,
@@ -296,15 +385,29 @@
       "targetType": "article",
       "targetId": "ART-20260619-004855",
       "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-06-25T02:24:11.207Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004882",
+      "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-06-24T08:53:27.328Z"
+      "updatedAt": "2026-06-25T05:22:28.810Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260619-004883",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T05:06:53.521Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260619-004932",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-24T07:00:44.580Z"
+      "count": 2,
+      "updatedAt": "2026-06-25T05:06:34.080Z"
     },
     {
       "targetType": "article",
@@ -322,6 +425,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260621-004953",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T02:11:35.634Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260621-004960",
       "eventType": "article_detail_open",
       "count": 1,
@@ -331,29 +441,43 @@
       "targetType": "article",
       "targetId": "ART-20260622-005239",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-24T05:20:23.429Z"
+      "count": 2,
+      "updatedAt": "2026-06-25T05:16:05.049Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260623-005218",
       "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-06-25T05:16:02.525Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260623-005219",
+      "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-06-24T07:08:25.814Z"
+      "updatedAt": "2026-06-25T02:11:27.582Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260623-005237",
       "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-06-25T00:53:47.919Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260623-005238",
+      "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-06-24T07:21:57.314Z"
+      "updatedAt": "2026-06-25T02:11:25.942Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260624-005376",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-25T00:04:11.650Z"
+      "count": 3,
+      "updatedAt": "2026-06-25T05:15:37.011Z"
     },
     {
       "targetType": "article",
@@ -363,11 +487,39 @@
       "updatedAt": "2026-06-25T00:04:12.815Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260624-005377",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T05:15:56.483Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-005378",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T05:15:58.893Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-005380",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T02:11:18.433Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-005380",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-25T02:11:17.236Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 6,
-      "updatedAt": "2026-06-24T04:54:30.837Z"
+      "count": 8,
+      "updatedAt": "2026-06-25T09:15:03.103Z"
     },
     {
       "targetType": "project",
@@ -403,6 +555,20 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T07:06:55.349Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "IRN-ENERGY-HORMOZ-SIRIK-NPP",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T02:13:10.989Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "OMN-ENERGY-ACME-DUQM-H2-AMMONIA-PH2PH3",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-25T05:06:22.391Z"
     },
     {
       "targetType": "project",
