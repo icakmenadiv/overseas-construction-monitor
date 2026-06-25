@@ -6,7 +6,7 @@ on:
       mode:
         description: "quick keeps cached rows missing from the sheet; reconcile removes them."
         required: false
-        default: "quick"
+        default: "reconcile"
         type: choice
         options:
           - quick
@@ -36,10 +36,7 @@ jobs:
 
       - name: Build static data cache
         run: |
-          MODE="${{ github.event.inputs.mode || 'quick' }}"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "10 18 * * *" ]; then
-            MODE="reconcile"
-          fi
+          MODE="${{ github.event.inputs.mode || 'reconcile' }}"
           node scripts/sync-sheet-cache.mjs --mode="$MODE"
 
       - name: Commit cache updates
