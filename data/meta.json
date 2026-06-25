@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T10:20:08.398Z",
+  "updatedAt": "2026-06-25T17:33:59.641Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -23,22 +23,91 @@
     "mode": "reconcile"
   },
   "counts": {
-    "articles": 4409,
-    "projects": 1763
+    "articles": 4438,
+    "projects": 1783
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
-      "removed": [
-        "ART-20260620-005337",
-        "ART-20260622-005127"
-      ]
+      "added": [
+        "ART-20260622-005953",
+        "ART-20260622-005957",
+        "ART-20260622-005963",
+        "ART-20260622-005971",
+        "ART-20260622-005977",
+        "ART-20260622-005978",
+        "ART-20260623-005952",
+        "ART-20260623-005954",
+        "ART-20260623-005961",
+        "ART-20260624-005955",
+        "ART-20260624-005956",
+        "ART-20260624-005958",
+        "ART-20260624-005959",
+        "ART-20260624-005960",
+        "ART-20260624-005962",
+        "ART-20260624-005964",
+        "ART-20260624-005968",
+        "ART-20260624-005969",
+        "ART-20260624-005970",
+        "ART-20260624-005976",
+        "ART-20260624-005979",
+        "ART-20260625-005965",
+        "ART-20260625-005966",
+        "ART-20260625-005967",
+        "ART-20260625-005972",
+        "ART-20260625-005973",
+        "ART-20260625-005974",
+        "ART-20260625-005975",
+        "ART-20260625-005980"
+      ],
+      "updated": [
+        "ART-20260624-005376",
+        "ART-20260624-005377",
+        "ART-20260624-005378",
+        "ART-20260624-005380",
+        "ART-20260623-005218",
+        "ART-20260623-005219",
+        "ART-20260623-005237",
+        "ART-20260623-005238",
+        "ART-20260622-005239",
+        "ART-20260621-004953",
+        "ART-20260619-004882",
+        "ART-20260619-004883",
+        "ART-20260619-004932",
+        "ART-20260619-004759",
+        "ART-20260619-004843",
+        "ART-20260619-004855",
+        "ART-20260619-004675",
+        "ART-20260618-004249",
+        "ART-20260612-001731",
+        "ART-20260609-001226"
+      ],
+      "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "BOL-ROAD-OKINAWA-LOS-TRONCOS",
+        "COL-SOC-INC-CANCER-AMBULATORY-CPRED",
+        "DOM-ENERGY-BATONCILLO-SOLAR-BESS",
+        "DOM-ENERGY-ESPERANZA-SOLAR-BESS",
+        "DOM-ENERGY-ESPERANZA-WIND-BESS",
+        "DOM-ENERGY-MELLA-SOLAR-BESS",
+        "DOM-ENERGY-PARQUE-TAINO-SOLAR-BESS",
+        "ECU-ENERGY-CUMBAYA-HPP-GENERATOR-REPLACEMENT",
+        "ECU-SOC-ULEAM-PACIFIC-INNOVATION-CONVENTION-CENTER",
+        "NIC-SOC-CENTRO-ONCOLOGICO-NACIONAL-PH2",
+        "PER-RAIL-HUANCAYO-HUANCAVELICA",
+        "PRY-ENERGY-CARMELO-PERALTA-SUBSTATION",
+        "PRY-ROAD-AVENIDA-ARTIGAS-REVITALIZATION",
+        "PRY-ROAD-PY12-CHACO-PAVING",
+        "PRY-ROAD-PY15-BIOCEANIC-CORRIDOR-LOTE1",
+        "PRY-SOC-HOSPITAL-GENERAL-CURUGUATY",
+        "SLV-ROAD-UNI10E-UNI35E-RURAL",
+        "SLV-TRANSPORT-SAN-SALVADOR-METROCABLE",
+        "URY-ENERGY-MONTEVIDEO-D-UNDERGROUND-CABLES",
+        "URY-URBAN-LOS-EUCALIPTUS-HOUSING"
+      ],
       "updated": [
-        "IDN-WATER-JAVA-GIANT-SEA-WALL"
+        "SLV-ROAD-PIVMU-PHASE2"
       ],
       "removed": []
     }
