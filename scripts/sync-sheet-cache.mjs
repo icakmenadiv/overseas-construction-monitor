@@ -9,6 +9,10 @@ const RESULT_RANGE = "A1:Z50000";
 const PROJECT_RANGE = "A1:M20000";
 const DATA_DIR = "data";
 const MODE = parseMode();
+const SOURCE_SHEETS = Object.freeze([
+  { label: "결과", gid: RESULT_GID, range: RESULT_RANGE, output: "articles.json" },
+  { label: "프로젝트", gid: PROJECT_GID, range: PROJECT_RANGE, output: "projects.json" },
+]);
 
 const ARTICLE_ID_COLUMN = "기사 고유값";
 const PROJECT_ID_COLUMN = "프로젝트 고유값";
@@ -51,6 +55,7 @@ async function main() {
       projectGid: PROJECT_GID,
       resultRange: RESULT_RANGE,
       projectRange: PROJECT_RANGE,
+      sourceTabs: SOURCE_SHEETS.map(({ label, gid, range, output }) => ({ label, gid, range, output })),
       mode: MODE,
     },
     counts: {
@@ -87,6 +92,8 @@ function parseMode() {
 }
 
 async function fetchSheetRows(gid, range) {
+  assertSupportedSourceSheet(gid, range);
+
   const url = new URL(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq`);
   url.searchParams.set("gid", gid);
   url.searchParams.set("headers", "1");
@@ -108,6 +115,14 @@ async function fetchSheetRows(gid, range) {
     });
     return item;
   });
+}
+
+function assertSupportedSourceSheet(gid, range) {
+  const supported = SOURCE_SHEETS.some((sheet) => sheet.gid === gid && sheet.range === range);
+  if (!supported) {
+    const allowed = SOURCE_SHEETS.map((sheet) => `${sheet.label}(gid=${sheet.gid}, range=${sheet.range})`).join(", ");
+    throw new Error(`Unsupported source sheet request: gid=${gid}, range=${range}. Allowed source tabs: ${allowed}.`);
+  }
 }
 
 function parseGvizResponse(text) {
