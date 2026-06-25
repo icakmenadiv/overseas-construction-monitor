@@ -11,6 +11,12 @@ on:
         options:
           - quick
           - reconcile
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/sync-sheet-cache.mjs
+      - .github/workflows/sync-sheet-cache.yml
   schedule:
     - cron: "*/5 * * * *"
     - cron: "10 18 * * *"
