@@ -17,6 +17,7 @@ on:
     paths:
       - scripts/sync-sheet-cache.mjs
       - .github/workflows/sync-sheet-cache.yml
+      - market-date-sort-fix.js
   schedule:
     - cron: "*/5 * * * *"
     - cron: "10 18 * * *"
