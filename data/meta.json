@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:02:32.519Z",
+  "updatedAt": "2026-06-26T02:28:10.822Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -20,21 +20,69 @@
         "output": "projects.json"
       }
     ],
-    "mode": "reconcile"
+    "mode": "quick"
   },
   "counts": {
-    "articles": 4592,
-    "projects": 1852
+    "articles": 4611,
+    "projects": 1856
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260622-006939",
+        "ART-20260622-006941",
+        "ART-20260622-006951",
+        "ART-20260623-006943",
+        "ART-20260623-006952",
+        "ART-20260624-006940",
+        "ART-20260624-006944",
+        "ART-20260624-006946",
+        "ART-20260624-006947",
+        "ART-20260625-006938",
+        "ART-20260625-006942",
+        "ART-20260625-006945",
+        "ART-20260625-006948",
+        "ART-20260625-006949",
+        "ART-20260625-006950",
+        "ART-20260625-006953",
+        "ART-20260625-006954",
+        "ART-20260625-006955",
+        "ART-20260625-006956"
+      ],
+      "updated": [
+        "ART-20260618-004981",
+        "ART-20260618-004719",
+        "ART-20260618-004542",
+        "ART-20260618-004132",
+        "ART-20260617-003912",
+        "ART-20260617-003955",
+        "ART-20260616-003598",
+        "ART-20260616-003721",
+        "ART-20260616-003722",
+        "ART-20260616-003723",
+        "ART-20260616-003724",
+        "ART-20260616-003725",
+        "ART-20260615-003616",
+        "ART-20260615-003650",
+        "ART-20260410-003604",
+        "ART-20260615-003263",
+        "ART-20260619-005372",
+        "ART-20260622-005110",
+        "ART-20260622-005132"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "GHA-OILGAS-SENTUO-REFINERY-PH2",
+        "KEN-SOC-BOMAS-INTERNATIONAL-CONVENTION-COMPLEX",
+        "VNM-URBAN-DRAGON-EHOME-SOCIAL-HOUSING",
+        "ZAF-IND-STEENKAMPSKRAAL-REE-PROCESSING-PH1"
+      ],
+      "updated": [
+        "RWA-ENERGY-RUZIZI-III-HPP",
+        "RWA-TRANSPORT-KIGALI-RUMI"
+      ],
       "removed": []
     }
   },

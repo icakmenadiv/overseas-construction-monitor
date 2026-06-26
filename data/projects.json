@@ -5280,21 +5280,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "RWA-TRANSPORT-KIGALI-RUMI",
-    "프로젝트명": "Rwanda Urban Mobility Improvement Project",
-    "지역": "아프리카",
-    "국가": "르완다",
-    "섹터": "교통",
-    "발주처": "City of Kigali / MININFRA / IDA-EIB-EU-Government of Rwanda",
-    "사업비(달러 기준 추정액)": "239.8백만 달러",
-    "사업비 환산 환율 / 기준": "원문: 전체 프로젝트 239.8m USD, IDA 100m USD contribution",
-    "현재 단계": "financing",
-    "최근 업데이트일": "2026. 6. 11",
-    "대표 기사 고유값": "ART-20260611-001614",
-    "비고": "Nyabugogo Multimodal Transit Hub, 전용버스차로, 교차로·보행·자전거 인프라, 전기버스·충전·차고지 및 도시교통센터 포함.",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "RWA-WATER-KIGALI-WETLANDS-PARK",
     "프로젝트명": "Kigali Wetlands Park Management and Financing Partnership",
     "지역": "아프리카",
@@ -15510,6 +15495,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "GHA-OILGAS-SENTUO-REFINERY-PH2",
+    "프로젝트명": "Sentuo Oil Refinery Phase 2 Project",
+    "지역": "아프리카",
+    "국가": "가나",
+    "섹터": "석유가스·화학",
+    "발주처": "Sentuo Group / Sentuo Oil Refinery",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "GNA 2026-06-24 기준 기존 시설 약 USD 2bn 투자 언급, Phase 2 별도 사업비 미공개. Tema Industrial Area, 현재 40,000 barrels per stream day 처리능력.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006940",
+    "비고": "Tema Industrial Area의 Sentuo Oil Refinery 2단계 프로젝트. 2026-06-25 대통령 착공식 예정이 확인됐으며, 기존 시설은 2024년 초 약 20억 달러 투자로 가동되고 2026-06-08 Jubilee 원유 100만 배럴 국내 처리 첫 선적을 수령했다. 후속 증설 범위, EPC·기자재·저장·유틸리티·수처리·정비 패키지, 시운전·상업운전 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "GHA-PORT-KETA-DEVELOPMENT",
     "프로젝트명": "Keta Port Development Project",
     "지역": "아프리카",
@@ -18463,6 +18463,21 @@
     "대표 기사 고유값": "ART-20260616-003735",
     "비고": "31 roads, about 65km, three lots; mandatory site visit 2026-07-07 and bid submission in early August.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "KEN-SOC-BOMAS-INTERNATIONAL-CONVENTION-COMPLEX",
+    "프로젝트명": "Bomas International Convention Complex Redevelopment Project",
+    "지역": "아프리카",
+    "국가": "케냐",
+    "섹터": "사회인프라",
+    "발주처": "Government of Kenya / Bomas of Kenya / relevant implementing agencies",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "The Star/Eastleigh Voice 2026-06-25 기준 본 기사 내 후속 호텔·몰·아레나 사업비 미공개. 기존 컨벤션센터 공사와 후속 복합개발 계획 포함.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006939",
+    "비고": "Nairobi Bomas of Kenya 부지의 국제컨벤션센터 재개발 및 후속 복합개발 프로젝트. 2026-06-25 대통령 현장점검 기준 본 컨벤션센터 공사는 마무리 단계로 보도됐고, 후속으로 단지 내 호텔, 추가 호텔 3곳, 대형 쇼핑몰, 현대식 아레나 개발계획이 제시됐다. 후속 사업비, 시행구조, 입찰·계약 방식, 전력·유틸리티 보강 패키지 공개 여부를 같은 프로젝트 후보로 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "KEN-SOC-JOOTRH-EXPANSION",
@@ -24250,8 +24265,8 @@
     "사업비 환산 환율 / 기준": "World Bank ESRS/PID 2025-08 기준 총사업비 USD 925m",
     "현재 단계": "financing",
     "최근 업데이트일": "",
-    "대표 기사 고유값": "ART-20250809-003140",
-    "비고": "Ruzizi River 르완다·DRC 접경 206MW 지역 수력발전 PPP. 건설 시공사 선정과 금융종결 후 본공사 전환 예정이며, 르완다 수전분과 접속도로·송전 연계 포함.",
+    "대표 기사 고유값": "ART-20260623-006943",
+    "비고": "Ruzizi River 르완다·DRC 접경 206MW 지역 수력발전 PPP. 건설 시공사 선정과 금융종결 후 본공사 전환 예정이며, 르완다 수전분과 접속도로·송전 연계 포함. 2026년 6월 르완다 측 1,232가구 보상 대상 명단과 6월 8일 기준일이 공개되어 토지취득·RAP 실행이 진행 중임.",
     "대표 기사 정보 분류": ""
   },
   {
@@ -24282,6 +24297,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260601-003143",
     "비고": "Ngororero-Nyakinama-Musanze-Cyanika 72km 도로 중 Lot 1 Shyira-Nyakinama-Musanze-Cyanika 51.2km 재활·개량 공사. 2024년 감리 EOI 후 2026년 본공사 입찰과 마감 연장 확인.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "RWA-TRANSPORT-KIGALI-RUMI",
+    "프로젝트명": "Rwanda Urban Mobility Improvement Project",
+    "지역": "아프리카",
+    "국가": "르완다",
+    "섹터": "교통",
+    "발주처": "City of Kigali / MININFRA / IDA-EIB-EU-Government of Rwanda",
+    "사업비(달러 기준 추정액)": "239.8백만 달러",
+    "사업비 환산 환율 / 기준": "원문: 전체 프로젝트 239.8m USD, IDA 100m USD contribution",
+    "현재 단계": "financing",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006944",
+    "비고": "Nyabugogo Multimodal Transit Hub, 전용버스차로, 교차로·보행·자전거 인프라, 전기버스·충전·차고지 및 도시교통센터 포함. 2026년 6월 24일 하원이 IDA 금융협정 비준 법안을 승인해 재원 집행 절차가 진전됨.",
     "대표 기사 정보 분류": ""
   },
   {
@@ -27510,6 +27540,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "VNM-URBAN-DRAGON-EHOME-SOCIAL-HOUSING",
+    "프로젝트명": "Dragon E-Home Social Housing Project",
+    "지역": "아시아",
+    "국가": "베트남",
+    "섹터": "도시개발·주택",
+    "발주처": "호찌민시 / Dragon E-Home project developer",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Vietnam News 2026-06-25 기준 764세대 사회주택, 사업비 미공개",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260625-006954",
+    "비고": "호찌민시 764세대 사회주택 착공 기사 기준 신규 생성. 시행사·시공사·사업비와 후속 유사 사회주택 패키지 발주 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "VNM-URBAN-HANOI-RINGROAD1-PARKING-GREEN",
     "프로젝트명": "Hanoi Ring Road 1 Hoang Cau - Lang Ha Parking and Green Space Project",
     "지역": "아시아",
@@ -27627,6 +27672,21 @@
     "최근 업데이트일": "",
     "대표 기사 고유값": "ART-20260621-004929",
     "비고": "요하네스버그 The Glen Shopping Centre 태양광 2단계. 총 설비용량 4,304kWp, 연간 5GWh 이상 발전, 센터 전력수요 40% 이상 공급 목표. Hyprop 포트폴리오 내 추가 태양광 4건 및 BESS 타당성 검토 후속 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ZAF-IND-STEENKAMPSKRAAL-REE-PROCESSING-PH1",
+    "프로젝트명": "Steenkampskraal Phase 1 Metallurgical Processing Plant",
+    "지역": "아프리카",
+    "국가": "남아프리카공화국",
+    "섹터": "산업·물류",
+    "발주처": "Steenkampskraal Monazite Mine / Mintek / Industrial Development Corporation",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Engineering News 2026-06-24 기준 1단계 야금처리 플랜트 자금 확보와 공사 진행·2026년 8월 시운전 예정만 확인, 사업비 미공개",
+    "현재 단계": "construction",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "ART-20260624-006946",
+    "비고": "Western Cape Steenkampskraal Monazite Mine의 1단계 희토류 야금처리 플랜트. IDC 자금 지원으로 공사 진행 중이며, 2026년 8월 시운전과 2026년 말 전 상업생산·첫 선적 목표가 제시됐다. 후속 분리시설 구축, 전략투자자 참여, 공정 플랜트·전력·수처리·안전관리 패키지와 상업생산 개시 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
