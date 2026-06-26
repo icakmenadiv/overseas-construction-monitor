@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "quick keeps cached rows missing from the sheet; reconcile removes them."
+        description: "quick keeps cached rows missing from the sheet; reconcile removes them when safe."
         required: false
-        default: "reconcile"
+        default: "quick"
         type: choice
         options:
           - quick
@@ -43,7 +43,16 @@ jobs:
 
       - name: Build static data cache
         run: |
-          MODE="${{ github.event.inputs.mode || 'reconcile' }}"
+          MODE="quick"
+          EVENT_NAME="${{ github.event_name }}"
+          SCHEDULE="${{ github.event.schedule }}"
+          INPUT_MODE="${{ github.event.inputs.mode }}"
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] && [ -n "$INPUT_MODE" ]; then
+            MODE="$INPUT_MODE"
+          elif [ "$SCHEDULE" = "10 18 * * *" ]; then
+            MODE="reconcile"
+          fi
+          echo "Sync mode: $MODE"
           node scripts/sync-sheet-cache.mjs --mode="$MODE"
 
       - name: Commit cache updates
