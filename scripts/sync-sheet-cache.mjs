@@ -32,13 +32,13 @@ async function main() {
     readJson(path.join(DATA_DIR, "projects.json"), []),
   ]);
 
-  const [articles, projects] = await Promise.all([
+  const [articlesResult, projectsResult] = await Promise.all([
     fetchSheetRows(RESULT_GID, RESULT_RANGE),
     fetchSheetRows(PROJECT_GID, PROJECT_RANGE),
   ]);
 
-  const sheetArticles = normalizeRows(articles, ARTICLE_ID_COLUMN).map(decorateArticleImportanceScore);
-  const sheetProjects = normalizeRows(projects, PROJECT_ID_COLUMN);
+  const sheetArticles = normalizeRows(articlesResult.rows, ARTICLE_ID_COLUMN).map(decorateArticleImportanceScore);
+  const sheetProjects = normalizeRows(projectsResult.rows, PROJECT_ID_COLUMN);
   assertHealthySheetRead(sheetArticles, previousArticles, ARTICLE_ID_COLUMN, "articles", MIN_ARTICLE_ROWS);
   assertHealthySheetRead(sheetProjects, previousProjects, PROJECT_ID_COLUMN, "projects", MIN_PROJECT_ROWS);
 
@@ -61,6 +61,10 @@ async function main() {
       resultRange: RESULT_RANGE,
       projectRange: PROJECT_RANGE,
       sourceTabs: SOURCE_SHEETS.map(({ label, gid, range, output }) => ({ label, gid, range, output })),
+      readMethods: {
+        articles: articlesResult.method,
+        projects: projectsResult.method,
+      },
       mode,
       requestedMode: REQUESTED_MODE,
     },
@@ -88,6 +92,7 @@ async function main() {
   console.log(
     `Synced ${cleanArticles.length} articles and ${cleanProjects.length} projects in ${mode} mode. ` +
       `Requested ${REQUESTED_MODE}. ` +
+      `Read methods: articles=${articlesResult.method}, projects=${projectsResult.method}. ` +
       `Articles +${articleDiff.added.length}/~${articleDiff.updated.length}/-${articleDiff.removed.length}, ` +
       `Projects +${projectDiff.added.length}/~${projectDiff.updated.length}/-${projectDiff.removed.length}.`,
   );
@@ -101,6 +106,32 @@ function parseMode() {
 async function fetchSheetRows(gid, range) {
   assertSupportedSourceSheet(gid, range);
 
+  try {
+    const rows = await fetchSheetRowsAsCsv(gid, range);
+    if (rows.length) return { rows, method: "csv-export" };
+    throw new Error("CSV export returned no rows.");
+  } catch (error) {
+    console.warn(`CSV export failed for gid=${gid}; falling back to GViz.`, error);
+    const rows = await fetchSheetRowsAsGviz(gid, range);
+    return { rows, method: "gviz-fallback" };
+  }
+}
+
+async function fetchSheetRowsAsCsv(gid, range) {
+  const url = new URL(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/export`);
+  url.searchParams.set("format", "csv");
+  url.searchParams.set("gid", gid);
+  url.searchParams.set("range", range);
+  url.searchParams.set("cacheBust", `${Date.now()}-${gid}`);
+
+  const response = await fetch(url, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Google Sheets CSV request failed: ${response.status} ${response.statusText}`);
+
+  const text = await response.text();
+  return parseCsvRows(text);
+}
+
+async function fetchSheetRowsAsGviz(gid, range) {
   const url = new URL(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq`);
   url.searchParams.set("gid", gid);
   url.searchParams.set("headers", "1");
@@ -109,7 +140,7 @@ async function fetchSheetRows(gid, range) {
   url.searchParams.set("cacheBust", `${Date.now()}-${gid}`);
 
   const response = await fetch(url, { cache: "no-store" });
-  if (!response.ok) throw new Error(`Google Sheets request failed: ${response.status} ${response.statusText}`);
+  if (!response.ok) throw new Error(`Google Sheets GViz request failed: ${response.status} ${response.statusText}`);
 
   const text = await response.text();
   const data = parseGvizResponse(text);
@@ -123,6 +154,66 @@ async function fetchSheetRows(gid, range) {
     });
     return item;
   });
+}
+
+function parseCsvRows(text) {
+  const matrix = parseCsv(text);
+  if (!matrix.length) return [];
+  const headers = matrix[0].map(cleanValue);
+  return matrix.slice(1).map((values) => {
+    const row = {};
+    headers.forEach((header, index) => {
+      if (!header) return;
+      row[header] = cleanValue(values[index]);
+    });
+    return row;
+  });
+}
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let cell = "";
+  let inQuotes = false;
+
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index];
+    const next = text[index + 1];
+
+    if (char === '"') {
+      if (inQuotes && next === '"') {
+        cell += '"';
+        index += 1;
+      } else {
+        inQuotes = !inQuotes;
+      }
+      continue;
+    }
+
+    if (char === "," && !inQuotes) {
+      row.push(cell);
+      cell = "";
+      continue;
+    }
+
+    if ((char === "\n" || char === "\r") && !inQuotes) {
+      if (char === "\r" && next === "\n") index += 1;
+      row.push(cell);
+      rows.push(row);
+      row = [];
+      cell = "";
+      continue;
+    }
+
+    cell += char;
+  }
+
+  if (cell || row.length) {
+    row.push(cell);
+    rows.push(row);
+  }
+
+  return rows.filter((csvRow) => csvRow.some((value) => cleanValue(value)));
 }
 
 function assertSupportedSourceSheet(gid, range) {
@@ -253,7 +344,7 @@ function compareDatesDesc(a, b) {
 }
 
 function parseDateMillis(value) {
-  const text = cleanValue(value);
+  const text = cleanValue(value).replace(/^'+/, "").trim();
   if (!text) return 0;
   const match = text.match(/(\d{4})[.\/-]\s*(\d{1,2})[.\/-]\s*(\d{1,2})/);
   if (match) return Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
