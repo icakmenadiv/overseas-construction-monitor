@@ -110,7 +110,7 @@
               <span
                 class="sort-help"
                 tabindex="0"
-                aria-label="관심도순은 스프레드시트 관심도 집계 열의 수치를 기준으로 정렬합니다. 중요도순은 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
+                aria-label="관심도순은 하트 클릭수에 조회수의 5배 가중치를 부여하고, 동점이면 중요도순과 최신일자순으로 정렬합니다. 중요도순은 국가·섹터별 최근 진출 실적 및 우리 기업 관심도 등을 종합해 AI가 판단합니다."
               >?</span>
             </div>
             <select id="sortSelect">
@@ -219,6 +219,7 @@
     </script>
     <script src="./app.js?v=20260623-restore-2"></script>
     <script src="./market-date-sort-fix.js?v=20260625-1"></script>
+    <script src="./interest-sort.js?v=20260626-1"></script>
     <script src="./monitor-core-ui.js?v=20260624-7"></script>
     <script src="./interest.js?v=20260623-clean-1"></script>
     <script src="./view-tracking.js?v=20260624-3"></script>
