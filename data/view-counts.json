@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T19:27:06.077Z",
+  "updatedAt": "2026-06-26T11:26:55.880Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -96,7 +96,24 @@
       "ART-20260620-004738": {
         "article_detail_open": 1
       },
+      "ART-20260620-004739": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
       "ART-20260620-004958": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260620-005140": {
+        "article_detail_open": 1
+      },
+      "ART-20260620-005241": {
+        "article_detail_open": 1
+      },
+      "ART-20260621-004804": {
+        "article_detail_open": 1
+      },
+      "ART-20260621-004891": {
         "article_detail_open": 1
       },
       "ART-20260621-004953": {
@@ -105,11 +122,31 @@
       "ART-20260621-004960": {
         "article_detail_open": 1
       },
+      "ART-20260621-004966": {
+        "source_link_click": 2
+      },
+      "ART-20260622-004875": {
+        "article_detail_open": 1
+      },
+      "ART-20260622-004962": {
+        "article_detail_open": 1
+      },
+      "ART-20260622-005032": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260622-005050": {
+        "article_detail_open": 1
+      },
+      "ART-20260622-005132": {
+        "article_detail_open": 1
+      },
       "ART-20260622-005239": {
-        "article_detail_open": 2
+        "article_detail_open": 4,
+        "source_link_click": 1
       },
       "ART-20260623-005218": {
-        "article_detail_open": 2
+        "article_detail_open": 3
       },
       "ART-20260623-005219": {
         "article_detail_open": 1
@@ -120,12 +157,19 @@
       "ART-20260623-005238": {
         "article_detail_open": 1
       },
+      "ART-20260623-005240": {
+        "article_detail_open": 1
+      },
+      "ART-20260623-005416": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
       "ART-20260624-005376": {
-        "article_detail_open": 3,
+        "article_detail_open": 5,
         "source_link_click": 1
       },
       "ART-20260624-005377": {
-        "article_detail_open": 1
+        "article_detail_open": 3
       },
       "ART-20260624-005378": {
         "article_detail_open": 1
@@ -133,11 +177,62 @@
       "ART-20260624-005380": {
         "article_detail_open": 1,
         "source_link_click": 1
+      },
+      "ART-20260624-005540": {
+        "source_link_click": 1
+      },
+      "ART-20260624-005543": {
+        "article_detail_open": 1
+      },
+      "ART-20260624-005908": {
+        "source_link_click": 1
+      },
+      "ART-20260624-005981": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260625-005521": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-005949": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-005950": {
+        "article_detail_open": 2
+      },
+      "ART-20260625-005951": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-005965": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-006101": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260625-006130": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-006202": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-006219": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-006913": {
+        "article_detail_open": 2
+      },
+      "ART-20260625-006931": {
+        "article_detail_open": 1
+      },
+      "ART-20260626-006138": {
+        "article_detail_open": 1,
+        "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 8
+        "market_page_visit": 14
       }
     },
     "project": {
@@ -147,11 +242,14 @@
       "BGR-ENERGY-KOZLODUY-UNITS-7-8": {
         "project_detail_open": 1
       },
+      "DZA-OILGAS-TSGP-ALGERIAN-SECTION": {
+        "project_detail_open": 1
+      },
       "ECU-ROAD-PUENTE-VICTORIA-SHUSHUFINDI": {
         "project_detail_open": 1
       },
       "GBR-ENERGY-SIZEWELL-C": {
-        "project_detail_open": 1
+        "project_detail_open": 2
       },
       "GBR-ROAD-LOWER-THAMES-CROSSING": {
         "project_detail_open": 1
@@ -159,10 +257,19 @@
       "IRN-ENERGY-HORMOZ-SIRIK-NPP": {
         "project_detail_open": 1
       },
+      "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION": {
+        "project_detail_open": 1
+      },
       "OMN-ENERGY-ACME-DUQM-H2-AMMONIA-PH2PH3": {
         "project_detail_open": 1
       },
+      "OMN-IND-TROT-LIGHT-INDUSTRIES-COMPLEX": {
+        "project_detail_open": 1
+      },
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
+        "project_detail_open": 1
+      },
+      "THA-WATER-RAYONG-EEC-DRAINAGE": {
         "project_detail_open": 1
       },
       "UAE-URBAN-EMAAR-AED200BN-MASTERPLAN": {
@@ -418,10 +525,59 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260620-004739",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T00:05:57.825Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260620-004739",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T00:24:21.103Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260620-004958",
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T06:40:44.691Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260620-004958",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T00:26:16.617Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260620-005140",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:29:40.866Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260620-005241",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T01:26:14.913Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260621-004804",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T02:21:47.596Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260621-004891",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T01:26:22.497Z"
     },
     {
       "targetType": "article",
@@ -439,17 +595,73 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260621-004966",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-06-26T01:12:15.203Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260622-004875",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T01:26:13.814Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260622-004962",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T01:38:59.536Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260622-005032",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:29:32.497Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260622-005032",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:29:27.822Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260622-005050",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:29:42.013Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260622-005132",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:26:15.138Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260622-005239",
       "eventType": "article_detail_open",
-      "count": 2,
-      "updatedAt": "2026-06-25T05:16:05.049Z"
+      "count": 4,
+      "updatedAt": "2026-06-26T04:28:44.505Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260622-005239",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T00:24:37.266Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260623-005218",
       "eventType": "article_detail_open",
-      "count": 2,
-      "updatedAt": "2026-06-25T05:16:02.525Z"
+      "count": 3,
+      "updatedAt": "2026-06-26T01:26:12.466Z"
     },
     {
       "targetType": "article",
@@ -474,10 +686,31 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260623-005240",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T01:26:16.426Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260623-005416",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T05:41:56.419Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260623-005416",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T05:41:56.418Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260624-005376",
       "eventType": "article_detail_open",
-      "count": 3,
-      "updatedAt": "2026-06-25T05:15:37.011Z"
+      "count": 5,
+      "updatedAt": "2026-06-26T02:33:21.406Z"
     },
     {
       "targetType": "article",
@@ -490,8 +723,8 @@
       "targetType": "article",
       "targetId": "ART-20260624-005377",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-25T05:15:56.483Z"
+      "count": 3,
+      "updatedAt": "2026-06-26T01:39:05.182Z"
     },
     {
       "targetType": "article",
@@ -515,11 +748,144 @@
       "updatedAt": "2026-06-25T02:11:17.236Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260624-005540",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:15:31.897Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-005543",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:26:08.530Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-005908",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:15:49.646Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-005981",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T02:39:06.380Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-005981",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T02:39:01.099Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-005521",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T07:44:49.206Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-005949",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T07:57:45.793Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-005950",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-06-26T07:57:52.131Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-005951",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:14:09.050Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-005965",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:15:38.025Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-006101",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T07:45:42.633Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-006101",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T07:45:39.668Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-006130",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T07:45:52.378Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-006202",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T07:45:47.987Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-006219",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T08:05:18.844Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-006913",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-06-26T08:05:16.233Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-006931",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T07:45:37.720Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-006138",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T07:44:46.847Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-006138",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-26T09:59:23.529Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 8,
-      "updatedAt": "2026-06-25T09:15:03.103Z"
+      "count": 14,
+      "updatedAt": "2026-06-26T01:50:36.170Z"
     },
     {
       "targetType": "project",
@@ -537,6 +903,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "DZA-OILGAS-TSGP-ALGERIAN-SECTION",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T00:33:30.221Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "ECU-ROAD-PUENTE-VICTORIA-SHUSHUFINDI",
       "eventType": "project_detail_open",
       "count": 1,
@@ -546,8 +919,8 @@
       "targetType": "project",
       "targetId": "GBR-ENERGY-SIZEWELL-C",
       "eventType": "project_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-24T05:20:37.519Z"
+      "count": 2,
+      "updatedAt": "2026-06-26T01:54:08.302Z"
     },
     {
       "targetType": "project",
@@ -565,6 +938,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:30:25.915Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "OMN-ENERGY-ACME-DUQM-H2-AMMONIA-PH2PH3",
       "eventType": "project_detail_open",
       "count": 1,
@@ -572,10 +952,24 @@
     },
     {
       "targetType": "project",
+      "targetId": "OMN-IND-TROT-LIGHT-INDUSTRIES-COMPLEX",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T01:38:43.854Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "SAU-OILGAS-RASTANURA-GART22-PIPELINE",
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:20:31.226Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "THA-WATER-RAYONG-EEC-DRAINAGE",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-26T04:29:51.790Z"
     },
     {
       "targetType": "project",
