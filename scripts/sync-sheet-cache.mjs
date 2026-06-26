@@ -8,7 +8,7 @@ const PROJECT_GID = "20260612";
 const RESULT_RANGE = "A1:Z50000";
 const PROJECT_RANGE = "A1:M20000";
 const DATA_DIR = "data";
-const MODE = parseMode();
+const REQUESTED_MODE = parseMode();
 const SOURCE_SHEETS = Object.freeze([
   { label: "결과", gid: RESULT_GID, range: RESULT_RANGE, output: "articles.json" },
   { label: "프로젝트", gid: PROJECT_GID, range: PROJECT_RANGE, output: "projects.json" },
@@ -42,8 +42,13 @@ async function main() {
   assertHealthySheetRead(sheetArticles, previousArticles, ARTICLE_ID_COLUMN, "articles", MIN_ARTICLE_ROWS);
   assertHealthySheetRead(sheetProjects, previousProjects, PROJECT_ID_COLUMN, "projects", MIN_PROJECT_ROWS);
 
-  const cleanArticles = mergeRows(previousArticles, sheetArticles, ARTICLE_ID_COLUMN, MODE).sort(compareArticleRows);
-  const cleanProjects = mergeRows(previousProjects, sheetProjects, PROJECT_ID_COLUMN, MODE).sort(compareProjectRows);
+  const mode = resolveSafeMode(REQUESTED_MODE, [
+    { label: "articles", previousRows: previousArticles, sheetRows: sheetArticles, columns: ["기사수집일", "원문게재일"] },
+    { label: "projects", previousRows: previousProjects, sheetRows: sheetProjects, columns: ["최근 업데이트일"] },
+  ]);
+
+  const cleanArticles = mergeRows(previousArticles, sheetArticles, ARTICLE_ID_COLUMN, mode).sort(compareArticleRows);
+  const cleanProjects = mergeRows(previousProjects, sheetProjects, PROJECT_ID_COLUMN, mode).sort(compareProjectRows);
 
   const articleDiff = diffRows(previousArticles, cleanArticles, ARTICLE_ID_COLUMN);
   const projectDiff = diffRows(previousProjects, cleanProjects, PROJECT_ID_COLUMN);
@@ -56,7 +61,8 @@ async function main() {
       resultRange: RESULT_RANGE,
       projectRange: PROJECT_RANGE,
       sourceTabs: SOURCE_SHEETS.map(({ label, gid, range, output }) => ({ label, gid, range, output })),
-      mode: MODE,
+      mode,
+      requestedMode: REQUESTED_MODE,
     },
     counts: {
       articles: cleanArticles.length,
@@ -80,7 +86,8 @@ async function main() {
   ]);
 
   console.log(
-    `Synced ${cleanArticles.length} articles and ${cleanProjects.length} projects in ${MODE} mode. ` +
+    `Synced ${cleanArticles.length} articles and ${cleanProjects.length} projects in ${mode} mode. ` +
+      `Requested ${REQUESTED_MODE}. ` +
       `Articles +${articleDiff.added.length}/~${articleDiff.updated.length}/-${articleDiff.removed.length}, ` +
       `Projects +${projectDiff.added.length}/~${projectDiff.updated.length}/-${projectDiff.removed.length}.`,
   );
@@ -179,6 +186,34 @@ function parseNumber(value) {
 
 function formatNumber(value) {
   return Number.isInteger(value) ? String(value) : value.toFixed(1).replace(/\.0$/, "");
+}
+
+function resolveSafeMode(requestedMode, checks) {
+  if (requestedMode !== "reconcile") return "quick";
+
+  const regressions = findDateRegressions(checks);
+  if (!regressions.length) return "reconcile";
+
+  console.warn(
+    `Requested reconcile, but sheet latest dates moved backward. Falling back to quick merge. ` +
+      regressions
+        .map(({ label, column, previousLatest, sheetLatest }) => `${label}.${column}: previous=${previousLatest}, sheet=${sheetLatest}`)
+        .join("; "),
+  );
+  return "quick";
+}
+
+function findDateRegressions(checks) {
+  return checks.flatMap(({ label, previousRows, sheetRows, columns }) =>
+    columns.flatMap((column) => {
+      const previousLatest = maxTextDate(previousRows, column);
+      const sheetLatest = maxTextDate(sheetRows, column);
+      const previousMillis = parseDateMillis(previousLatest);
+      const sheetMillis = parseDateMillis(sheetLatest);
+      if (!previousMillis || !sheetMillis || sheetMillis >= previousMillis) return [];
+      return [{ label, column, previousLatest, sheetLatest }];
+    }),
+  );
 }
 
 function mergeRows(previousRows, sheetRows, idColumn, mode) {
