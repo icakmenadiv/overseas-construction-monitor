@@ -99,7 +99,7 @@
           </div>
           <div class="field">
             <label for="sortSelect">정렬</label>
-            <select id="sortSelect">
+            <select id="sortSelect" title="관심도순은 프로젝트 관련기사 전체 기준으로 하트수×5+조회수를 합산하고, 동점이면 하트수·조회수·중요도·최근 업데이트일 순으로 정렬합니다.">
               <option value="cost:desc">사업비 규모순</option>
               <option value="interest:desc">관심도순</option>
               <option value="latest:desc">최근 업데이트순</option>
@@ -175,6 +175,7 @@
     </footer>
 
     <script src="./projects.js?v=20260623-restore-2"></script>
+    <script src="./project-interest-sort.js?v=20260626-1"></script>
     <script src="./monitor-core-ui.js?v=20260624-7"></script>
     <script src="./view-tracking.js?v=20260624-3"></script>
   </body>
