@@ -15,6 +15,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRQ-TRANSPORT-BAGHDAD-METRO",
+    "프로젝트명": "Baghdad Metro Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "교통",
+    "발주처": "Baghdad Municipality / National Investment Commission / Iraq Development Fund",
+    "사업비(달러 기준 추정액)": "18,000백만 달러 추정",
+    "사업비 환산 환율 / 기준": "2024-11-08 Iraq Business News/INA 보도 기준 추정",
+    "현재 단계": "on-hold",
+    "최근 업데이트일": "2026. 6. 27",
+    "대표 기사 고유값": "ART-20260627-007670",
+    "비고": "바그다드 7개 노선 도시철도 DBOMFT/PPP 사업. 2026-06-27 IDF가 착수 전 검토해야 할 34개 사항을 제시해 기술·재무·운영 구조 보완이 필요한 상태로 확인. 후속 검토사항 세부, 재입찰/패키지 재구성, 금융구조 확정 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MMR-TRANSPORT-PATHEIN-LIGHTHOUSE-RENOVATION",
     "프로젝트명": "Pathein Lighthouse Renovation Project",
     "지역": "아시아",
@@ -510,6 +525,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KGZ-WATER-KARABALTA-FUKUOKA-LANDFILL",
+    "프로젝트명": "Kara-Balta Fukuoka Method Eco-Friendly Landfill Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Natural Resources, Ecology and Technical Supervision / Kara-Balta city / ADB·Japan support candidates",
+    "사업비(달러 기준 추정액)": "약 USD 4백만",
+    "사업비 환산 환율 / 기준": "AKIpress 2026-06-26 기준 USD 4m, 일본 Fukuoka 방식 파일럿 매립장.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 6. 26",
+    "대표 기사 고유값": "ART-20260626-007659",
+    "비고": "추이주 카라발타 신규 친환경 위생매립장 사업. 일본 후쿠오카 방식 적용, ADB·일본 측 기술·보조금 지원 가능성 검토, 주변 자이일 지역 폐기물 관리 개선 목적. 후속 재원 확정, 설계·시공 입찰, 운영관리 구조 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "LBY-URBAN-MITIGA-SEA-TOWERS",
     "프로젝트명": "Mitiga Sea Towers Project",
     "지역": "중동",
@@ -897,6 +927,21 @@
     "최근 업데이트일": "2026. 6. 26",
     "대표 기사 고유값": "ART-20260626-007619",
     "비고": "Chonburi Sriracha의 Saha Group 소유 약 112ha 부지에서 신규 산업·오피스·교육·주거환경을 포함한 장기 도시개발 구상을 공동 검토하는 협정. 협정 유효기간은 3년이며, 주변 고속도로 서비스구역·신규 출입구 개발과 EEC 입지 이점을 활용하는 구상이다. 후속 마스터플랜, 인허가, 투자자 모집, 단지 인프라·건축 패키지 및 시공사 선정 여부를 확인한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TKM-SOC-ARKADAG-SCHOOL-KINDERGARTEN",
+    "프로젝트명": "Arkadag School Modernization and 320-seat Kindergarten Project",
+    "지역": "중앙아시아",
+    "국가": "투르크메니스탄",
+    "섹터": "사회인프라",
+    "발주처": "Gurbanguly Berdimuhamedov Charitable Foundation / Gap İnşaat Yatırım ve Dış Ticaret A.Ş.",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Business Turkmenistan 및 Turkmenistan.gov.tm 2026-06-26 기준 사업비 미공개",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 6. 26",
+    "대표 기사 고유값": "ART-20260626-007653",
+    "비고": "Arkadag시 학교 현대화·개보수, 체육·스포츠 복합시설 및 320석 유치원 건설 계약. 외국 시공사 Gap İnşaat 참여가 확인되나 사업비와 공기는 미공개이며, 사회인프라 소규모 성격이 강해 후속 착공·준공은 동일 프로젝트 여부와 시장정보 가치를 보수적으로 판단한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1545,6 +1590,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "HUN-WATER-TAPIOHAJTA-WATER-RETENTION",
+    "프로젝트명": "Tápió-Hajta Water Retention and Habitat Rehabilitation Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "수자원·환경",
+    "발주처": "Duna-Ipoly Nemzeti Park Igazgatóság",
+    "사업비(달러 기준 추정액)": "약 USD 1.0백만 추정",
+    "사업비 환산 환율 / 기준": "원문 순사업비 HUF 348.94m, 1 USD≈340 HUF 간이 환산. Pest 및 Jász-Nagykun-Szolnok 카운티의 물 보충 관로, 태양광 구동 펌프장, 습지·서식지 복원 포함.",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007649",
+    "비고": "Tápió-Hajta 수계 물 보전·습지복원 사업. AQUA-GENERAL 낙찰 확인, 후속 계약 체결·착공·준공 일정 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-ENERGY-DIENG-GEOTHERMAL-UNIT2",
     "프로젝트명": "Dieng Geothermal Power Plant Unit 2 Project",
     "지역": "아시아",
@@ -1827,6 +1887,21 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-006238",
     "비고": "나린주 Ak-Tala 지역 Zhany-Talap 마을 Kurtka강 소수력발전소. 2026년 말 준공·가동 목표로 공사가 진행 중이며, 후속 터빈·발전기 공급, 계통연계, 준공·운영 전환 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KGZ-PETCHEM-UREA-NITROGEN-FERTILIZER-PLANT",
+    "프로젝트명": "Urea and Nitrogen Fertilizer Plant Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "석유가스·화학",
+    "발주처": "Kyrgyz Cabinet / Sinopec, CIECC Planning and Design Research, Beijing Huafu Engineering, Shaanxi Construction New Energy 등 중국 기업",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Kabar 2026-06-25 기준 사업비·입지 미공개. 요소·질소비료 공장 건설 제안 단계.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007658",
+    "비고": "키르기스스탄 내 요소·질소비료 생산 공장 후보사업. 신장 방문 중 Sinopec 및 중국 엔지니어링·건설 관련 기업들과 협의됐으며, 식량안보·농업용 비료 공급·산업역량 확대 목적이 제시됨. 입지, 투자구조, 원료·유틸리티, 발주 방식, EPC 전환 여부가 후속 확인 대상.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2220,6 +2295,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "QAT-ROAD-DOHA-AIR-BASE-INFRA",
+    "프로젝트명": "Doha Air Base Roads and Infrastructure Works Project",
+    "지역": "중동",
+    "국가": "카타르",
+    "섹터": "교통",
+    "발주처": "Public Works Authority (Ashghal)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Zawya Projects 2026-06-25 기준 사업비 미공개. 약 45ha, 15km 도로망, Eastern/Southern Access 2개 패키지.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007669",
+    "비고": "Doha Municipality Zone 48의 Doha Air Base 주변 도로·인프라 공사. Ras Abu Aboud Expressway IC-03·IC-04 개량, F-Ring Road 축 개선, 공군기지 북·남측 접근도로 및 보안 접근시설 포함. 2026-06-30 입찰마감, 2026년 3분기 낙찰, 2028년 4분기 완공 목표. 후속 낙찰자·계약금액·패키지 분리 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "QAT-ROAD-NORTH-SEMAISMA-P07B",
     "프로젝트명": "Roads and Infrastructure Work in North Semaisma - Package P07B",
     "지역": "중동",
@@ -2232,6 +2322,21 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-007192",
     "비고": "PWA/GTC/14/2026. North Semaisma DN120 개발축의 07B 도로·상하수도 인프라 패키지. P07A와 별도 패키지이며 2026년 3분기 EPC 낙찰 전망.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "QAT-WATER-SHEEHANIYA-TRUNK-SEWER-DNSTW-P02",
+    "프로젝트명": "Sheehaniya Strategic Trunk Sewer and DN STW Terminal Pumping Station P02 Project",
+    "지역": "중동",
+    "국가": "카타르",
+    "섹터": "수자원·환경",
+    "발주처": "Public Works Authority (Ashghal) / National Industrial Contracting Company (NICC)",
+    "사업비(달러 기준 추정액)": "약 USD 104백만",
+    "사업비 환산 환율 / 기준": "SaudiGulf Projects 2026-06-25 기준 QAR 378.79m, 약 USD 104m. 39km 하수 간선 및 1,200L/s 펌프장.",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007668",
+    "비고": "Al Sheehaniya Municipality 하수처리 연계 전략 간선 및 DN STW 하수 종말펌프장 P02 잔여공사. NICC 수주, 약 39km 대구경 하수관·159개 맨홀·지선 연결·1,200L/s 펌프장·전기제어·악취저감·부대시설 포함. 후속 착공, 공정률, 기자재·전문공종, 추가 Sheehaniya 개발 연계 패키지 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3015,6 +3120,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRQ-AIR-MOSUL-INTERNATIONAL-AIRPORT",
+    "프로젝트명": "Mosul International Airport Operating Licence Completion Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "교통",
+    "발주처": "Nineveh Governorate / Iraqi Civil Aviation Authority (ICAA)",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Shafaq News 2026-06-24 기준 운영면허 잔여절차 사업비 미공개. 활주로 3,000m, 연간 여객 630,000명 및 화물 30,000톤 규모 언급.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 6. 24",
+    "대표 기사 고유값": "ART-20260624-007678",
+    "비고": "Mosul International Airport 운영면허 취득을 위한 3개월 잔여절차 합의. 전문 컨설턴트, 접근·출발절차, 운영자 선정, ICAA 면허 발급 후 상업 운항 전환 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IRQ-AIR-NAJAF-INTERNATIONAL-AIRPORT",
+    "프로젝트명": "Najaf International Airport Operating Certification Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "교통",
+    "발주처": "Iraqi Civil Aviation Authority (ICAA) / Najaf Governorate / Najaf International Airport",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "IraqiNews 2026-06-24 기준 운영 인증 관련 사업비 미공개. ICAO 기준 구조·전자·안전 보완 완료 후 운영 인증 확보.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 6. 24",
+    "대표 기사 고유값": "ART-20260624-007673",
+    "비고": "Najaf International Airport 운영 인증 확보 건. 공항 확장·항행·보안·터미널 운영 장비 후속 투자 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IRQ-SOC-AMERICAN-HOSPITAL",
     "프로젝트명": "American Hospital in Iraq Project",
     "지역": "중동",
@@ -3540,6 +3675,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-ROAD-RIYADH-MAIN-RING-AXES-PKG4",
+    "프로젝트명": "Riyadh Main and Ring Road Axes Development Program Fourth Package",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "교통",
+    "발주처": "Royal Commission for Riyadh City (RCRC)",
+    "사업비(달러 기준 추정액)": "약 USD 2,613백만",
+    "사업비 환산 환율 / 기준": "RCRC 2026-06-24 기준 SAR 9.8bn, 1 USD≈3.75 SAR 간이 환산",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 6. 24",
+    "대표 기사 고유값": "ART-20260624-007661",
+    "비고": "리야드 주요·순환도로 축 개발 프로그램 4차 그룹. 총 40km 4개 도로축, 14개 교차로, 33개 교량, 5개 터널, 6개 보행교를 포함하며 하루 95만 대 이상 수용 목표. 후속 공구별 입찰·계약·착공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SAU-ROAD-RIYADH-MAIN-RING-ROAD-PKG4",
     "프로젝트명": "Riyadh Main and Ring Road Axes Development Program Fourth Package",
     "지역": "중동",
@@ -3552,6 +3702,21 @@
     "최근 업데이트일": "2026. 6. 24",
     "대표 기사 고유값": "ART-20260624-006900",
     "비고": "Riyadh Main and Ring Road Axes Development Program 4차 패키지. Sheikh Jaber Al-Sabah, Prince Turki bin Abdulaziz Al Awwal, Prince Mishal bin Abdulaziz, Najmuddin Al-Ayoubi 등 4개 도로축 40km, 14개 교차로, 33개 교량, 5개 터널, 6개 보행교 포함. 후속 개별 도로축 계약·입찰·착공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SAU-SOC-PMFU-SPECIALITY-HOSPITAL",
+    "프로젝트명": "Prince Mohammed Bin Fahd University Speciality Hospital Project",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "사회인프라",
+    "발주처": "Prince Mohammed Bin Fahd University / Zhejiang Construction International",
+    "사업비(달러 기준 추정액)": "약 USD 265백만",
+    "사업비 환산 환율 / 기준": "MEED 2026-06-24 기준 SAR 994m, 약 USD 265m",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026. 6. 24",
+    "대표 기사 고유값": "ART-20260624-007664",
+    "비고": "Al-Khobar PMFU 전문병원 건설 프로젝트. 10층 병원 본동, 5층 보조건물 2개, 지하층 포함. Zhejiang Construction International 수주, 후속 착공·MEP·의료시설 패키지·준공 일정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -4347,21 +4512,6 @@
     "최근 업데이트일": "2026. 6. 23",
     "대표 기사 고유값": "ART-20260623-005331",
     "비고": "Lucknow Metro East-West Corridor Phase 1B의 Thakurganj-Vasantkunj 고가교·5개 역사·차량기지 연결 램프 패키지. 기존 IND-METRO-LUCKNOW-VASANTKUNJ-DEPOT는 차량기지 패키지라 공사 범위가 달라 별도 프로젝트로 관리. 후속 착공, 공정률, 시운전·개통 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "IND-METRO-LUCKNOW-EASTWEST-PH1B-VIADUCT",
-    "프로젝트명": "Lucknow Metro East-West Corridor Phase 1B Elevated Viaduct and Stations Package",
-    "지역": "아시아",
-    "국가": "인도",
-    "섹터": "교통",
-    "발주처": "Uttar Pradesh Metro Rail Corporation",
-    "사업비(달러 기준 추정액)": "약 USD 53m",
-    "사업비 환산 환율 / 기준": "INR 4.53bn including GST, 1 USD=85.5 INR 임시환산",
-    "현재 단계": "awarded",
-    "최근 업데이트일": "2026-06-23",
-    "대표 기사 고유값": "ART-20260623-007069",
-    "비고": "Thakurganj-Vasantkunj 4.6km 고가 viaduct, 5개 역사, 740m depot ramp 설계·시공. 기존 Vasant Kunj depot 프로젝트와 별도 패키지.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -5220,6 +5370,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-OILGAS-RAS-TANURA-GART-PIPELINE",
+    "프로젝트명": "Ras Tanura GART Gas Pipeline Replacement Project",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "석유가스·화학",
+    "발주처": "Saudi Aramco",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "MEED 2026-06 기준 약 18km 24인치 파이프라인, 사업비 미공개",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 6. 23",
+    "대표 기사 고유값": "ART-20260623-007663",
+    "비고": "Juaymah export terminal-Ras Tanura terminal 사이 GART-22 및 GART-24 대체 가스관 프로젝트. 신규 24인치 약 18km 파이프라인 설치로 정유소 연료가스 공급 안정성 확보 목적. 후속 입찰마감, 낙찰자, EPC 범위 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SAU-URBAN-DIRIYAH-SQUARE-PKG3-MEP",
     "프로젝트명": "Diriyah Square Package 3 Finishing and MEP Works",
     "지역": "중동",
@@ -5235,6 +5400,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-URBAN-RIYADH-REB-PH1-INFRA",
+    "프로젝트명": "Riyadh Real Estate Balance Program Phase One Infrastructure Development Contracts",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "도시개발·주택",
+    "발주처": "Royal Commission for Riyadh City (RCRC) / Ladun Investment-Al Ayuni JV",
+    "사업비(달러 기준 추정액)": "약 USD 637백만",
+    "사업비 환산 환율 / 기준": "SaudiGulf Projects 2026-06-23 기준 SAR 2.39bn, 1 USD≈3.75 SAR 간이 환산",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 6. 23",
+    "대표 기사 고유값": "ART-20260623-007662",
+    "비고": "Riyadh Real Estate Balance Program 1단계 Al-Qirawan·Al-Narjis·Namar 주거용지 기반시설 개발계약. 도로, 상하수도, 전력, 통신, 공공공간, 상세설계와 5년 계약 범위 포함. 후속 하위 패키지·착공·공정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SAU-URBAN-RIYADH-REB-PHASE1-INFRA",
     "프로젝트명": "Riyadh Real Estate Balance Program Phase One Infrastructure Project",
     "지역": "중동",
@@ -5247,6 +5427,21 @@
     "최근 업데이트일": "2026. 6. 23",
     "대표 기사 고유값": "ART-20260623-005254",
     "비고": "Riyadh Real Estate Balance Program 1단계 내 Al-Qirawan, Al-Narjis, Namar 부지 인프라 개발계약. 도로, 물, 하수, 전력, 통신, 공공공간·공원, 유틸리티 연결, 2년 O&M을 포함하며 주거용지 공급 확대 목적. 후속 착공, 공정, 추가 부지 패키지 발주 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SAU-WATER-JEDDAH-STORMWATER-NETWORKS-OM",
+    "프로젝트명": "Jeddah Stormwater and Surface Water Networks Operation and Cleaning Contracts",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "수자원·환경",
+    "발주처": "Jeddah Municipality / Alkhorayef Water and Power Technologies",
+    "사업비(달러 기준 추정액)": "약 USD 54.68백만",
+    "사업비 환산 환율 / 기준": "SaudiGulf Projects/Zawya 2026-06 기준 SAR 202.1m, 1 USD≈3.75 SAR 간이 환산",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 6. 23",
+    "대표 기사 고유값": "ART-20260623-007665",
+    "비고": "제다 우수·표면수 배수망 운영·청소 2개 계약. South·Al-Malisa 등 제다 권역 배수망 O&M, 60개월 수행. 후속 홍수방지 배수망 보강, 펌프·관망 개선, 스마트 유지관리 패키지 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -23310,21 +23505,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "UAE-OILGAS-WASET-OFFSHORE-GAS",
-    "프로젝트명": "Waset Offshore Gas Development Project",
-    "지역": "중동",
-    "국가": "UAE",
-    "섹터": "석유가스·화학",
-    "발주처": "ADNOC / ADNOC Offshore / Eni / PTTEP",
-    "사업비(달러 기준 추정액)": "미공개(Offshore Block 2 180mcf/d 가스개발 EPC, 1억 달러 초과 대형사업으로 판단)",
-    "사업비 환산 환율 / 기준": "MEED 2026-06-10 기준 사업비 미공개. 해상 플랫폼·80km+ subsea pipeline·Arzanah Island 처리시설 포함.",
-    "현재 단계": "bid-evaluation",
-    "최근 업데이트일": "2026. 6. 10",
-    "대표 기사 고유값": "ART-20260610-000801",
-    "비고": "Waset 해상가스전 개발 EPC. 기존 결과 탭 ART-20260610-000801은 비프로젝트 투자동향으로 등록되어 있었으나, 프로젝트명·발주처·EPC 범위·입찰 단계가 명확해 프로젝트 정보로 보정하고 신규 프로젝트 행을 생성. 후속 낙찰자, EPC 계약 체결, Arzanah Island 처리시설 범위, 해저 파이프라인·케이블 패키지 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "UAE-URBAN-THE-YARDS",
     "프로젝트명": "Dubai City of Arabia The Yards 마스터플랜",
     "지역": "중동",
@@ -29685,21 +29865,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "UAE-OILGAS-HABSHAN7-GAS-TRAIN",
-    "프로젝트명": "Habshan 7 Gas Train Project",
-    "지역": "중동",
-    "국가": "UAE",
-    "섹터": "석유가스·화학",
-    "발주처": "ADNOC Gas",
-    "사업비(달러 기준 추정액)": "약 USD 3,500~4,000백만",
-    "사업비 환산 환율 / 기준": "MEED 2026-01-06, ADNOC Gas CFO 언급 추정 EPC value USD 3.5bn-4bn",
-    "현재 단계": "bid-evaluation",
-    "최근 업데이트일": "2026. 1. 6",
-    "대표 기사 고유값": "ART-20260106-007188",
-    "비고": "Habshan 복합단지 7번째 가스처리 트레인 EPC. 고압 파이프라인, 분리·안정화, acid gas removal, NGL 회수, 압축, 저장·계량, 유틸리티, 수처리, 전력, Ruwais 연계 NGL 파이프라인 포함. FID·EPC 낙찰자·ICV 요건 후속 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "UZB-ROAD-TASHKENT-ANDIJAN-TOLL",
     "프로젝트명": "Tashkent-Andijan Toll Road PPP Project",
     "지역": "중앙아시아",
@@ -29743,21 +29908,6 @@
     "대표 기사 고유값": "ART-20260105-004066",
     "비고": "관련 기사: ART-20250321-004065, ART-20260105-004066. Croix de Gasperich-Berchem 첫 2x3차로 및 카풀·버스 우선차로 운영 이후 Livange-Bettembourg 등 잔여구간 공사가 계속되는 장기 고속도로 확장사업. 2030~2032년 완전 확장·동적차로 운영 후속 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "IRQ-TRANSPORT-BAGHDAD-METRO",
-    "프로젝트명": "Baghdad Metro Project",
-    "지역": "중동",
-    "국가": "이라크",
-    "섹터": "교통",
-    "발주처": "Baghdad Municipality / National Investment Commission / Iraq Development Fund",
-    "사업비(달러 기준 추정액)": "18,000백만 달러 추정",
-    "사업비 환산 환율 / 기준": "2024-11-08 Iraq Business News/INA 보도 기준 추정",
-    "현재 단계": "on-hold",
-    "최근 업데이트일": "2026. 1. 4",
-    "대표 기사 고유값": "ART-20260104-001612",
-    "비고": "바그다드 7개 노선 도시철도 DBOMFT/PPP 사업. 기존 국제 컨소시엄 선정 후 설계 완료가 보도됐으나, 2026-01 기존 제안 미충족 판단으로 신규 투자 패키지 재검토 중.",
-    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "ISR-ROAD-HIGHWAY6-NORTH-SECTIONS8-9",
@@ -29967,21 +30117,6 @@
     "최근 업데이트일": "2025-12-17",
     "대표 기사 고유값": "ART-20260409-003881",
     "비고": "태즈메이니아-빅토리아 750MW Stage 1 HVDC 해저·지중 송전망. 2024년 FID 일정 조정, 2025년 FID, 2025년 12월 TasVic Greenlink 최종 주요공사 계약을 같은 프로젝트 이력으로 연결.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "BGD-RAIL-BOGURA-SIRAJGANJ-DG",
-    "프로젝트명": "Bogura-Sirajganj Dual-Gauge Railway Line Project",
-    "지역": "아시아",
-    "국가": "방글라데시",
-    "섹터": "교통",
-    "발주처": "Bangladesh Railway / Economic Relations Division",
-    "사업비(달러 기준 추정액)": "약 USD 853백만",
-    "사업비 환산 환율 / 기준": "TBS 2025-12-17 기준 Tk10,391 crore / 약 USD 852.99m",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2025. 12. 17",
-    "대표 기사 고유값": "ART-20251217-007203",
-    "비고": "85.67km dual-gauge 본선, 37.49km loop line, 8개 신설역, 212개 교량. 설계·타당성 완료, AIIB 등 대체 재원 협의와 본공사 tender 전환 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
