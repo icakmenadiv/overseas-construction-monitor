@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T12:16:30.105Z",
+  "updatedAt": "2026-06-27T16:19:32.735Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,46 +28,29 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 4905,
-    "projects": 2060
+    "articles": 4910,
+    "projects": 2066
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260514-007195",
-        "ART-20260514-007196",
-        "ART-20260514-007197",
-        "ART-20260514-007198",
-        "ART-20260514-007199",
-        "ART-20260514-007200",
-        "ART-20260514-007201",
-        "ART-20260514-007202",
-        "ART-20260413-007080",
-        "ART-20260410-007081",
-        "ART-20260305-007082",
-        "ART-20260115-007083",
-        "ART-20251114-007194",
-        "ART-20250602-007193"
+        "ART-20260626-007207",
+        "ART-20260626-007208",
+        "ART-20260609-007205",
+        "ART-20251217-007203",
+        "ART-20240220-007204"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "OMN-ENERGY-ALJAZIR-WIND-IPP",
-        "OMN-ENERGY-ALKAMIL-II-SOLAR-IPP",
-        "OMN-ENERGY-DHOFAR-SOLAR-IPP",
-        "OMN-ENERGY-DUQM-III-WIND-IPP",
-        "OMN-ENERGY-SHALEEM-WIND-IPP",
-        "OMN-ENERGY-SOLAR-IPP-2029",
-        "OMN-WATER-DHOFAR-2030-IWP",
-        "OMN-WATER-NORTH-BATINAH-IWP",
-        "SGP-SOC-TTSH-MEDICAL-TOWER",
-        "SGP-SOC-SGH-PHASE2-REDEVELOPMENT",
-        "SGP-SOC-NUH-KENTRIDGE-REDEVELOPMENT",
-        "SGP-SOC-SUSS-ROCHOR-CITY-CAMPUS",
-        "OMN-WATER-ALANSAB-ALAMERAT-STP-PPP",
-        "OMN-WATER-CLIMATE-FLOOD-DAMS"
+        "HKG-URBAN-YUENLONGSOUTH-P2-C6",
+        "HKG-WATER-SANTIN-P1S1-WEST-C2",
+        "BGD-WATER-NARAYANGANJ-GREEN-URBAN",
+        "HUN-TRANSPORT-BUD-AIRPORT-TERMINAL-3",
+        "BGD-RAIL-BOGURA-SIRAJGANJ-DG",
+        "BGD-LOG-DHIRASRAM-ICD"
       ],
       "updated": [],
       "removed": []
