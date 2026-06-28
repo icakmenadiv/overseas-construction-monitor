@@ -1,5 +1,35 @@
 [
   {
+    "프로젝트 고유값": "DZA-PORT-ANNABA-PHOSPHATE-EXPANSION",
+    "프로젝트명": "Annaba Phosphate Port Expansion Project",
+    "지역": "중동",
+    "국가": "알제리",
+    "섹터": "교통",
+    "발주처": "Ministry of Public Works and Basic Infrastructure / Port of Annaba authorities",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "APS 2026-06-15 기사 내 총사업비 미공개",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 27",
+    "대표 기사 고유값": "ART-20260627-007048",
+    "비고": "Annaba 인산염 항만 프로젝트의 광산 부두 뒤편 매립 플랫폼 조성사업. 2026-06-15 El Tarf 해역 준설·해사 펌핑 착수 이후 2026-06-27 APS가 동부 광산철도와 함께 시행 속도 가속을 보도. 후속 준설·매립 공정, 부두·야드·철도 연계, 항만 운영 전환 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DZA-RAIL-EAST-MINING-LINE",
+    "프로젝트명": "East Mining Railway Line Annaba-Tebessa-Bled El Hadba Project",
+    "지역": "중동",
+    "국가": "알제리",
+    "섹터": "교통",
+    "발주처": "Ministry of Public Works and Basic Infrastructure / ANESRIF",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "APS 2026-06-27 기준 사업비 미공개. Annaba-Tebessa-Bled El Hadba 인산염 광산·항만 연계 철도축 진행 가속 기사.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 27",
+    "대표 기사 고유값": "ART-20260627-007048",
+    "비고": "Annaba-Tebessa-Bled El Hadba 동부 광산철도 프로젝트. 통합 인산염 비료 프로젝트와 Annaba phosphate port expansion의 광산-항만 물류축에 해당하나 시설·섹터·추적 필요성이 달라 별도 교통 프로젝트로 생성. 후속 공정률, 구간별 착공·준공, 신호·궤도·전력·항만 연계 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IND-ROAD-IMPHAL-ELEVATED-CORRIDOR",
     "프로젝트명": "Imphal Elevated Corridor Project",
     "지역": "아시아",
@@ -30,6 +60,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "LBY-URBAN-FIRST-MALL-TRIPOLI",
+    "프로젝트명": "First Mall Tripoli Commercial Complex Project",
+    "지역": "중동",
+    "국가": "리비아",
+    "섹터": "도시개발·주택",
+    "발주처": "Al-Sahl Holding Group",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Libya Herald 2026-06-27 기준 사업비 미공개. 6ha 부지, roofed area 136,000㎡ 이상, 220개 이상 retail outlets 및 업무·은행·의료·행사·회의시설 포함.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 6. 27",
+    "대표 기사 고유값": "ART-20260627-007685",
+    "비고": "Tripoli First Mall 대형 상업복합시설. 15년 이상 중단·재개를 거친 뒤 2026-06-26 공식 개장했으며, Tripoli 현대 상업 인프라와 민간 복합개발 회복 신호로 추적. 후속 확장, 유사 중단 프로젝트 재개, 시설 운영·FM·전력·냉방·보안 설비 수요 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MMR-TRANSPORT-PATHEIN-LIGHTHOUSE-RENOVATION",
     "프로젝트명": "Pathein Lighthouse Renovation Project",
     "지역": "아시아",
@@ -57,6 +102,21 @@
     "최근 업데이트일": "2026. 6. 27",
     "대표 기사 고유값": "ART-20260627-007635",
     "비고": "Cyberjaya 소재 SEDA 본부를 말레이시아 첫 Zero Energy Office Building으로 전환하는 기존 건물 retrofit 사업. NEDO가 주도하고 Pacific Consultants, AGC, Mitsubishi Electric, Azbil 등 일본 기업이 고효율 건물시스템, BEMS, BIPV 등 기술을 적용. 착공·완공 일정, 예산, 조달방식, 성능검증 결과와 공공건물 ZEB 확산 프로그램 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ROAD-LAGOS-CALABAR-COASTAL",
+    "프로젝트명": "Lagos-Calabar Coastal Highway Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "Federal Ministry of Works / Hitech Construction Africa",
+    "사업비(달러 기준 추정액)": "약 USD 7,100백만+ 추정",
+    "사업비 환산 환율 / 기준": "Section I Phase 1 원문 NGN 1.067tn 및 2026-05 Akwa Ibom Section V NGN 1.86tn 등 구간별 승인 누적. 총사업비는 구간별 변동 가능",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-06-27",
+    "대표 기사 고유값": "ART-20260627-007695",
+    "비고": "Lagos~Calabar 750km급 해안 고속도로. EPC+F 방식, Hitech 참여. 2026-06-27 기준 Ogun주 28km 구간은 2026년 내 완공 전망이며, Ogun Deep Sea Port 예정지와 Olokola LNG 재개 구상 등 해안 산업·물류 회랑 연계 효과가 확인됨. 후속 항만 접근도로, 에너지·가스, 물류시설 패키지 공개 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -975,6 +1035,51 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TZA-IND-FAZENDA-AGRO-PROCESSING-FACILITIES",
+    "프로젝트명": "Fazenda Agro-Production and Processing Facilities Project",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "산업·물류",
+    "발주처": "Fazenda Company / TISEZA",
+    "사업비(달러 기준 추정액)": "약 USD 5.2백만",
+    "사업비 환산 환율 / 기준": "Daily News 2026-06-26 기준 USD 5.2m",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 6. 26",
+    "대표 기사 고유값": "ART-20260626-007699",
+    "비고": "Songea Special Economic Zone 내 브라질 Fazenda의 농업생산·가공시설 투자 프로젝트. 3,012에이커 부지, 1,200개 일자리 예상. HWTZ 철강공장과는 투자자·시설·규모가 달라 별도 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TZA-IND-HWTZ-STEEL-PLANT",
+    "프로젝트명": "HWTZ Songea Steel Manufacturing Plant Project",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "산업·물류",
+    "발주처": "HWTZ Company / TISEZA",
+    "사업비(달러 기준 추정액)": "약 USD 1,000백만",
+    "사업비 환산 환율 / 기준": "Daily News 2026-06-26 기준 USD 1bn",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 6. 26",
+    "대표 기사 고유값": "ART-20260626-007699",
+    "비고": "Songea Special Economic Zone 내 중국 HWTZ 대규모 철강 제조공장 프로젝트. 1,020에이커 부지, 5,000개 일자리 예상. 산업단지 기반시설, 전력·용수·폐수처리, 물류연계 후속 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TZA-ROAD-KAGERA-FIVE-BRIDGES",
+    "프로젝트명": "Kagera Five Permanent Bridges Project",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "교통",
+    "발주처": "TANROADS Kagera Regional Office / Government of Tanzania",
+    "사업비(달러 기준 추정액)": "약 USD 17.6백만",
+    "사업비 환산 환율 / 기준": "Daily News 2026-06-26 기준 TZS 45.7bn, 1 USD≈TZS 2,600 간이 환산",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 6. 26",
+    "대표 기사 고유값": "ART-20260626-007700",
+    "비고": "Kagera 지역 Kanoni, Kyanyabasa, Kamishango, Kyetema, Karebe 등 영구교량 5개 완공 프로젝트. 2024년 엘니뇨 강우 피해 복구 성격이며 지방 연결성·물류 이동 개선 목적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TZA-TRANSPORT-DAR-BRT-PHASE3-DEPOT",
     "프로젝트명": "Dar es Salaam BRT Phase III Gongo la Mboto Depot Expansion Project",
     "지역": "아프리카",
@@ -1182,6 +1287,21 @@
     "최근 업데이트일": "2026. 6. 26",
     "대표 기사 고유값": "ART-20260520-006980",
     "비고": "Cat Lai·Phu Huu 항만 배후 6km, 12차로 화물도로. Cat Lai Bridge와 별도.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "VNM-ROAD-CHAUDOC-CANTHO-SOCTRANG-PH1",
+    "프로젝트명": "Chau Doc - Can Tho - Soc Trang Expressway Phase 1 Project",
+    "지역": "아시아",
+    "국가": "베트남",
+    "섹터": "교통",
+    "발주처": "An Giang Province Project Management Board / relevant provincial authorities",
+    "사업비(달러 기준 추정액)": "약 USD 1,753백만 추정",
+    "사업비 환산 환율 / 기준": "Báo Xây dựng 2026-06-26 기준 총투자 VND 44.691tn, 1 USD≈25,500 VND 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 26",
+    "대표 기사 고유값": "ART-20260626-007709",
+    "비고": "Mekong Delta Chau Doc-Can Tho-Soc Trang 1단계 약 188km 고속도로. An Giang 구간 성분사업은 57km 이상, VND 13.526tn, 4개 시공 패키지 약 78% 진행으로 확인. 후속 준공·개통, ITS·요금징수·휴게소·운영관리·연계도로 패키지 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1866,12 +1986,12 @@
     "국가": "케냐",
     "섹터": "사회인프라",
     "발주처": "Government of Kenya / Bomas of Kenya / relevant implementing agencies",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "The Star/Eastleigh Voice 2026-06-25 기준 본 기사 내 후속 호텔·몰·아레나 사업비 미공개. 기존 컨벤션센터 공사와 후속 복합개발 계획 포함.",
+    "사업비(달러 기준 추정액)": "약 232백만 달러 추정",
+    "사업비 환산 환율 / 기준": "Citizen Digital 2026-06-25 기준 KES 30bn, 1 USD≈129.35 KES 간이 환산",
     "현재 단계": "construction",
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-006939",
-    "비고": "Nairobi Bomas of Kenya 부지의 국제컨벤션센터 재개발 및 후속 복합개발 프로젝트. 2026-06-25 대통령 현장점검 기준 본 컨벤션센터 공사는 마무리 단계로 보도됐고, 후속으로 단지 내 호텔, 추가 호텔 3곳, 대형 쇼핑몰, 현대식 아레나 개발계획이 제시됐다. 후속 사업비, 시행구조, 입찰·계약 방식, 전력·유틸리티 보강 패키지 공개 여부를 같은 프로젝트 후보로 추적한다.",
+    "비고": "Nairobi Bomas of Kenya 부지의 국제컨벤션센터 재개발 및 후속 복합개발 프로젝트. 2026-06-25 대통령 현장점검 기준 300억 실링 규모 본 컨벤션센터·복합시설 공사가 진행 중이며, 11,000석 컨벤션센터, 스포츠·레크리에이션 복합시설, 문화시설, 호텔, 동물고아원 기능이 포함된다. 후속으로 단지 내 호텔 2곳, 대형 쇼핑몰, 현대식 아레나 개발계획이 제시됐다. 후속 사업비 세부, 시행구조, 입찰·계약 방식, 전력·유틸리티 보강 패키지 공개 여부를 같은 프로젝트 후보로 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1947,6 +2067,36 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-006907",
     "비고": "KOC 운영구역 산업용 리프트 펌프 시스템과 remote header manifold 시설을 지원하기 위한 신규 area substation 및 관련 전력공급 인프라 3개 계약. MECC가 합산 최저가 입찰자로 확인됐으며, 후속 정식 낙찰·계약 체결·공구별 범위·착공 여부 확인 필요. 기존 KOC 원유수출 인프라, BS-140/BS-150 booster station, KNPC 배관 사업과는 시설 범위가 달라 별도 프로젝트로 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "LBY-WATER-ZLITEN-MSALLATA-MMR-TANKS",
+    "프로젝트명": "Zliten and Msallata Man-Made River Water Tank Completion Projects",
+    "지역": "중동",
+    "국가": "리비아",
+    "섹터": "수자원·환경",
+    "발주처": "Housing and Utilities Projects Implementation Authority",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "LANA 2026-06-25 기준 사업비 미공개. Zliten 50,000㎥ pressure-break tank, Msallata Abu Jadal Wadna 400㎥ ground tank 및 100㎥ elevated tank 포함.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007684",
+    "비고": "Zliten·Msallata 대수로 물탱크 완공·계속공사 프로젝트. Zliten 5만㎥ 압력완화 물탱크와 Msallata 400㎥ 지상탱크·100㎥ 고가탱크, 운영실, 경비실, 물망, 우물 굴착을 포함한다. 후속 준공, 잔여 관망·펌프·제어설비 패키지, 대수로망 저장시설 확장 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MAR-IND-SAFRAN-TIFLET-EXTENSION",
+    "프로젝트명": "Safran Tiflet Industrial Site Extension Project",
+    "지역": "중동",
+    "국가": "모로코",
+    "섹터": "산업·물류",
+    "발주처": "Safran Aerosystems Maroc / Safran Group",
+    "사업비(달러 기준 추정액)": "약 USD 15백만",
+    "사업비 환산 환율 / 기준": "MCINET 2026-06-25 기준 MAD 137m, 1 USD≈9.16 MAD 간이 환산",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007686",
+    "비고": "티플레트 Aïn Johra 산업단지 Safran Aerosystems Maroc 시설 5,000㎡ 증설 준공. 2028년까지 140개 숙련 일자리 및 고부가가치 항공장비 생산활동 통합 계획.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2097,6 +2247,21 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-007102",
     "비고": "Dhofar Governorate Al Najd 지역의 5㎢ 규모 자급형 농업도시 마스터플랜 사업. Foster + Partners와 Dar Al Handasah가 상세 설계안을 공개했으며 농장 클러스터, 13,000명 규모 도심, 공공교통·교육·의료·문화·상업시설, 농산가공·수출, 농업태양광·양어수경재배·수자원/에너지 관리 전략을 포함함. 후속 조달, 투자구조, 유틸리티·도로·물류·저장·가공시설 패키지 분리 여부를 추적할 필요가 있음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "OMN-SOC-GENOME-BIOBANK-CENTRE",
+    "프로젝트명": "Oman Genome Centre and Bio Bank Project",
+    "지역": "중동",
+    "국가": "오만",
+    "섹터": "사회인프라",
+    "발주처": "Oman Ministry of Health",
+    "사업비(달러 기준 추정액)": "약 USD 11.8백만",
+    "사업비 환산 환율 / 기준": "Zawya Projects 2026-06-25 기준 OMR 4.56m, 1 OMR≈USD 2.60 간이 환산.",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007682",
+    "비고": "Muscat Al Seeb의 국가 유전체센터 및 바이오뱅크 전문 의료연구시설 건설 프로젝트. 2025-12-18 입찰 발행, 2026-02-11 입찰 제출, 2026-06 계약 낙찰 확인. 후속 낙찰자 확정, 특수 MEP·클린룸·저온저장·장비조달 분리 여부와 준공 일정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2520,6 +2685,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TZA-AIR-KIGOMA-AIRPORT-EXPANSION",
+    "프로젝트명": "Kigoma Airport Rehabilitation and Expansion Project",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "교통",
+    "발주처": "Tanzania National Roads Agency (TANROADS) / Ministry of Works",
+    "사업비(달러 기준 추정액)": "약 USD 19.8백만",
+    "사업비 환산 환율 / 기준": "Daily News 2026-06-25 기준 TZS 51.4bn, 1 USD≈TZS 2,600 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007698",
+    "비고": "Kigoma 공항 재활·확장 프로젝트. CRCEG가 수행 중이며 60% 진행, 2026년 7월 완공 목표. 계류장, 활주로, 내부도로, 주차장, 여객터미널, 관제탑, 항공등화 전기설비, 기상청 시설 포함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UAE-IND-KERNO-DSO-IT-HARDWARE-FACILITY",
     "프로젝트명": "KERNO Enterprises Dubai Silicon Oasis IT Hardware Manufacturing Facility",
     "지역": "중동",
@@ -2712,6 +2892,21 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-006232",
     "비고": "Andijan 지역 1980년대 주 상수관로 전면 재건 프로젝트. 노후 관로가 가구·마할라·공공기관에 식수를 공급하는 핵심 유틸리티망으로 확인됐고, 고위급 실무점검에서 공사기한·책임자 지정·의사결정 가속 필요성이 제시됨. 후속 사업비, 관로 연장, 발주기관, 설계·시공 공고, 수질·누수저감·SCADA 패키지 공개 여부를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "VNM-ENERGY-QUYNHLAP-LNG-POWER",
+    "프로젝트명": "Quynh Lap LNG-to-Power Plant Project",
+    "지역": "아시아",
+    "국가": "베트남",
+    "섹터": "에너지",
+    "발주처": "Nghe An Province People's Committee / PV Power-Nghe An Sugar-SK Innovation consortium",
+    "사업비(달러 기준 추정액)": "약 USD 2,250백만",
+    "사업비 환산 환율 / 기준": "The Investor 2026-06-25 기준 VND 59.37tn, 약 USD 2.25bn, 1,500MW",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 6. 25",
+    "대표 기사 고유값": "ART-20260625-007705",
+    "비고": "Nghe An Tan Mai ward 소재 1,500MW LNG-to-power 프로젝트. PV Power, Nghe An Sugar, 한국 SK Innovation 컨소시엄이 투자자로 선정됐고, 프로젝트 회사 설립·프로젝트 계약·1/500 상세계획·타당성조사 완료가 남아 있음. LNG 저장 25만㎥, 재기화, 15만톤급 LNG 전용항만 포함. 후속 계약 체결, FS 승인, EPC·항만·송전 패키지 분리 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3255,6 +3450,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KEN-WATER-NAIROBI-RIVERS-REGENERATION",
+    "프로젝트명": "Nairobi Rivers Regeneration Programme",
+    "지역": "아프리카",
+    "국가": "케냐",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Defence / Nairobi Rivers Commission / State Department for Housing and Urban Development",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "The Star 2026-06-24 기사 기준 총사업비 미공개",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 24",
+    "대표 기사 고유값": "ART-20260624-007701",
+    "비고": "Nairobi River Basin 27.2km 대상 하천재생·하수·홍수방지·도시재생 프로그램. 2026-06-24 기준 72km 하수간선 55%, Kariobangi WWTP 25%, 홍수조절·우수관리 45%, Dandora 매립지 재활 55%, 교통·보행·자전거 인프라 28%, 사회주택·시장 개발 35% 진행. China Energy Engineering Corporation이 설계·계획에 참여한 첫 단계 catalytic project로 보도됐으며, 후속 세부 패키지·총사업비·시공사·운영구조 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KHM-ENERGY-UTILITY-SCALE-BESS-TAKEO",
     "프로젝트명": "Cambodia Utility-Scale Battery Energy Storage Project",
     "지역": "아시아",
@@ -3282,6 +3492,21 @@
     "최근 업데이트일": "2026. 6. 24",
     "대표 기사 고유값": "ART-20260624-006124",
     "비고": "Malayagam 공동체 대상 인도 지원 4,700호 주택사업. 재해위험 2,026가구와 플랜테이션 부문 거주 노동자를 포함해 수혜자를 배정하며, 패키지별 시공·공정 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MAR-IND-SAFRAN-NOUACEUR-EXTENSION",
+    "프로젝트명": "Safran Nouaceur Industrial Site Extension Project",
+    "지역": "중동",
+    "국가": "모로코",
+    "섹터": "산업·물류",
+    "발주처": "Safran Electronics & Defense / Safran Group",
+    "사업비(달러 기준 추정액)": "약 USD 38백만",
+    "사업비 환산 환율 / 기준": "MCINET 2026-06-24 기준 MAD 350m, 1 USD≈9.16 MAD 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 24",
+    "대표 기사 고유값": "ART-20260624-007685",
+    "비고": "누아쇠르 Safran Electronics & Defense 산업시설 17,000㎡ 증설, 15개 신규 생산라인 및 500개 일자리 계획. 후속 전문 MEP·자동화·친환경 설비·산업단지 배후 인프라 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3417,6 +3642,21 @@
     "최근 업데이트일": "2026. 6. 24",
     "대표 기사 고유값": "ART-20260624-005432",
     "비고": "Rolleston SH1 접근성·안전 개선 RoRS 프로젝트. 1단계 roundabout·subway가 개통됐고, 2단계는 SH1 및 철도 횡단 교량, SH1 신호교차로 제거, 남행 2차로 연장, 서비스레인, Hoskyns Rd 철도건널목 안전개선 등을 포함. 교량 2027년 말 개통, 잔여공사 2028년 말 완료 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "OMN-OILGAS-BLOCK80-MUSANDAM-OFFSHORE",
+    "프로젝트명": "Block 80 Offshore Oil and Gas Concession Project",
+    "지역": "중동",
+    "국가": "오만",
+    "섹터": "석유가스·화학",
+    "발주처": "Oman Ministry of Energy and Minerals / OQEP Musandam Offshore / Turkish Petroleum Overseas Company",
+    "사업비(달러 기준 추정액)": "약 USD 90백만",
+    "사업비 환산 환율 / 기준": "SaudiGulf Projects 2026-06-24 기준 초기 8년 탐사기간 최소 투자약정 USD 90m. Block 80 약 5,737㎢, 3D seismic 500㎢, 탐사정 2공 및 평가정 1공 포함.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 6. 24",
+    "대표 기사 고유값": "ART-20260624-007681",
+    "비고": "Musandam Governorate Block 80 해상 E&P 양허 프로젝트. OQEP 50% 운영자, Turkish Petroleum Overseas Company 50% 참여. Bukha·West Bukha 생산 유가스전 포함, 후속 탐사정·평가정·해상 개발계획·생산설비 패키지 전환 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3972,6 +4212,21 @@
     "최근 업데이트일": "2026. 6. 24",
     "대표 기사 고유값": "ART-20260624-007094",
     "비고": "FEED + Detailed Engineering Contract with rollover to EPC 체결. 향후 EPC 전환, 금융종결, 부지·원료·재생에너지 연계, 환경인허가와 기자재·하도급 패키지 공개 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "VNM-IND-NINHTHUAN-DYEING-SPINNING-PH2",
+    "프로젝트명": "Ninh Thuan Dyeing and Spinning Plant Phase 2 Expansion Project",
+    "지역": "아시아",
+    "국가": "베트남",
+    "섹터": "산업·물류",
+    "발주처": "Ninh Thuan Dyeing Textile LLC / Südwolle Group",
+    "사업비(달러 기준 추정액)": "약 USD 44.66백만",
+    "사업비 환산 환율 / 기준": "The Investor 2026-06-24 기준 총투자 VND 1.18tn, 약 USD 44.66m; 2단계 추가투자 약 USD 24.97m",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 6. 24",
+    "대표 기사 고유값": "ART-20260624-007706",
+    "비고": "Khanh Hoa성 Du Long 산업단지의 독일 Südwolle 계열 염색·방적공장 2단계 증설. 추가 방적공장 건설과 해외산 기계 설치를 포함하며 2027년 6월 완료 목표. 후속 착공, 시공·MEP 발주, 장비 반입, 준공 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -4797,6 +5052,21 @@
     "최근 업데이트일": "2026. 6. 23",
     "대표 기사 고유값": "ART-20260623-005281",
     "비고": "탕헤르 동쪽 약 50km Jbel Sendouq의 기존 120MW Khalladi 풍력발전단지 40MW 확장 계획. ACWA Maroc가 산업 고객 대상 탈탄소 전력 공급 확대를 목표로 검토 중이며, 확장 후 총 설비용량은 160MW가 될 예정. 후속 인허가, PPA·산업고객 계약, 금융조달, EPC/터빈 조달 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MAR-IND-LEONI-KENITRA-CABLE-PLANT",
+    "프로젝트명": "LEONI Cable Solutions Kenitra Production Unit Project",
+    "지역": "중동",
+    "국가": "모로코",
+    "섹터": "산업·물류",
+    "발주처": "LEONI Cable Solutions / LEONI Group",
+    "사업비(달러 기준 추정액)": "약 USD 69백만",
+    "사업비 환산 환율 / 기준": "MCINET 2026-06-23 기준 MAD 630m 및 EUR 60m, 1 USD≈9.16 MAD 간이 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 23",
+    "대표 기사 고유값": "ART-20260623-007684",
+    "비고": "케니트라 Atlantic Free Zone 자동차용 첨단 케이블 생산공장. LEONI Cable Solutions의 아프리카 첫 생산시설이며 자동화·품질관리 연구소·태양광 설비 포함. 기존 MAR-IND-LEONI-BOUSKOURA-PLANT와 위치·제품·사업 주체가 달라 별도 프로젝트로 관리.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -14370,21 +14640,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "DZA-PORT-ANNABA-PHOSPHATE-EXPANSION",
-    "프로젝트명": "Annaba Phosphate Port Expansion Project",
-    "지역": "중동",
-    "국가": "알제리",
-    "섹터": "교통",
-    "발주처": "Ministry of Public Works and Basic Infrastructure / Port of Annaba authorities",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "APS 2026-06-15 기사 내 총사업비 미공개",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-15",
-    "대표 기사 고유값": "ART-20260615-003261",
-    "비고": "Annaba 인산염 항만 프로젝트의 광산 부두 뒤편 매립 플랫폼 조성을 위해 El Tarf 해역 준설·해사 펌핑 작업 착수. 인산염 수출 물류 인프라와 연계.",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "DZA-RAIL-LAGHOUAT-GHARDAIA-ELMENEA",
     "프로젝트명": "Laghouat-Ghardaia-El Menea Railway Line Construction Project",
     "지역": "중동",
@@ -15162,21 +15417,6 @@
     "최근 업데이트일": "2026-06-15",
     "대표 기사 고유값": "ART-20260615-003619",
     "비고": "나이지리아-니제르 연결 374km Kano-Maradi 철도 프로젝트. RMB가 나이지리아 재무부 대상 18억 달러 금융조달을 주선했고 Mota Engil Africa가 EPC+F 계약자로 언급됨. 2026-05 대통령실 기준 공사 진행 중인 사업으로, 후속 금융종결·공정률·개통 일정 확인 필요.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "NGA-ROAD-LAGOS-CALABAR-COASTAL",
-    "프로젝트명": "Lagos-Calabar Coastal Highway Project",
-    "지역": "아프리카",
-    "국가": "나이지리아",
-    "섹터": "교통",
-    "발주처": "Federal Ministry of Works / Hitech Construction Africa",
-    "사업비(달러 기준 추정액)": "약 USD 7,100백만+ 추정",
-    "사업비 환산 환율 / 기준": "Section I Phase 1 원문 NGN 1.067tn 및 2026-05 Akwa Ibom Section V NGN 1.86tn 등 구간별 승인 누적. 총사업비는 구간별 변동 가능",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-15",
-    "대표 기사 고유값": "ART-20260615-003293",
-    "비고": "Lagos~Calabar 750km급 해안 고속도로. EPC+F 방식, Hitech 참여, Section I 완공·커미셔닝 대기 및 Dangote Refinery-Lekki Deep Sea Port 축 플라이오버 70% 공정 확인. 2026년 12월 완료 목표 후속 확인 필요.",
     "대표 기사 정보 분류": ""
   },
   {
@@ -29743,6 +29983,21 @@
     "대표 기사 고유값": "ART-20260112-002012",
     "비고": "Opatovec-Staré Město-Mohelnice 35.4km 고속도로 PPP. Dětřichov·Maletín 터널 포함, 3개 컨소시엄 최종입찰 요청 단계.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "HUN-RAIL-SOUTHERN-CIRCLE-PH3",
+    "프로젝트명": "Budapest Southern Circle Railway Phase 3 / Ferencváros Station Reconstruction Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "교통",
+    "발주처": "Építési és Közlekedési Minisztérium (ÉKM) / Ministry of Construction and Transport",
+    "사업비(달러 기준 추정액)": "개별 사업비 미공개(전체 Southern Circle Railway capacity scheme 약 EUR 878m 보도; 3단계는 13km 선로·Ferencváros 역·교량·전력·신호 포함 대형 패키지로 1억 달러 초과 추정)",
+    "사업비 환산 환율 / 기준": "Trackopedia 2024년 전체 Southern Circle scheme EUR 878m 보도 및 IRJ 2026-01-12 3단계 범위 기준",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 1. 12",
+    "대표 기사 고유값": "ART-20260112-007702",
+    "비고": "Kelenföld-Ferencváros Southern Ring capacity expansion 3단계. 13km 선로 재부설, Ferencváros 역 재건, 93개 분기기, Népliget 신규 정거장, 도로교 2개 교체, Ferencváros yard 접근 충돌 회피용 고가 구조물 포함. Budapest Airport Rail Link, Nyugati-Rákosrendező, Kőbánya-Kecskemét, Nagykáta-Újszász와 노선·발주범위가 달라 별도 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "NLD-RAIL-NEDERSAKSENLIJN",
