@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T21:46:29.382Z",
+  "updatedAt": "2026-06-29T14:52:09.571Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -182,13 +182,17 @@
         "source_link_click": 1
       },
       "ART-20260624-005543": {
-        "article_detail_open": 1
+        "article_detail_open": 1,
+        "source_link_click": 1
       },
       "ART-20260624-005908": {
         "source_link_click": 1
       },
       "ART-20260624-005981": {
         "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260624-007762": {
         "source_link_click": 1
       },
       "ART-20260625-005521": {
@@ -225,14 +229,23 @@
       "ART-20260625-006931": {
         "article_detail_open": 1
       },
+      "ART-20260625-007065": {
+        "source_link_click": 1
+      },
       "ART-20260626-006138": {
         "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260626-007738": {
+        "source_link_click": 1
+      },
+      "ART-20260628-007767": {
         "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 14
+        "market_page_visit": 15
       }
     },
     "project": {
@@ -264,6 +277,9 @@
         "project_detail_open": 1
       },
       "OMN-IND-TROT-LIGHT-INDUSTRIES-COMPLEX": {
+        "project_detail_open": 1
+      },
+      "PAK-ROAD-N5-RANIPUR-ROHRI-SECTION2": {
         "project_detail_open": 1
       },
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
@@ -763,6 +779,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260624-005543",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-29T04:19:17.064Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260624-005908",
       "eventType": "source_link_click",
       "count": 1,
@@ -781,6 +804,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-06-26T02:39:01.099Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-007762",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-29T00:48:16.911Z"
     },
     {
       "targetType": "article",
@@ -868,6 +898,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260625-007065",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-29T00:28:33.022Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260626-006138",
       "eventType": "article_detail_open",
       "count": 1,
@@ -881,11 +918,25 @@
       "updatedAt": "2026-06-26T09:59:23.529Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260626-007738",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-28T23:22:54.607Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260628-007767",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-29T00:56:40.710Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 14,
-      "updatedAt": "2026-06-26T01:50:36.170Z"
+      "count": 15,
+      "updatedAt": "2026-06-29T01:26:37.590Z"
     },
     {
       "targetType": "project",
@@ -956,6 +1007,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-26T01:38:43.854Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "PAK-ROAD-N5-RANIPUR-ROHRI-SECTION2",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-29T00:46:57.314Z"
     },
     {
       "targetType": "project",
