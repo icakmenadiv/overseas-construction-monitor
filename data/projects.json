@@ -105,6 +105,96 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ISR-URBAN-E1-RESIDENTIAL-EMPLOYMENT-ZONE",
+    "프로젝트명": "E1 Residential and Employment Zone Development Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "도시개발·주택",
+    "발주처": "Israel Land Authority / Ma'ale Adumim development authorities",
+    "사업비(달러 기준 추정액)": "약 USD 890백만 추정",
+    "사업비 환산 환율 / 기준": "Peace Now 2026-06-30 업데이트 기준 NIS 3bn infrastructure development allocation, 1 USD≈NIS 3.37 간이 환산",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 6. 30",
+    "대표 기사 고유값": "ART-20260630-009177",
+    "비고": "E1 주거 3,401가구 및 1,355두남 고용·상업지구 입찰 일정 갱신. 정치·법적 리스크가 크므로 tender document와 실제 입찰 개시를 후속 확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ISR-URBAN-HAIFA-KIRYATELIEZER-COMPLEX13",
+    "프로젝트명": "Haifa Kiryat Eliezer Complex 13 Urban Renewal Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "도시개발·주택",
+    "발주처": "Aura / Haifa Municipality / Haifa District Planning Committee",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Magdilim 2026-06-30 기준 사업비 미공개. 42두남, 950가구, 상업·고용·공공시설 포함.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 6. 30",
+    "대표 기사 고유값": "ART-20260630-009178",
+    "비고": "Haifa Kiryat Eliezer 13구역 950가구 도시재생 예치 심의 예정. 후속 예치·승인·건축허가·시공사 선정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JOR-OILGAS-AQABA-LPG-STORAGE-EXP",
+    "프로젝트명": "Aqaba LPG Storage Facility Expansion Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "석유가스·화학",
+    "발주처": "Al-Etihad Storage and Liquefied Petroleum Gas Filling Company / Aqaba authorities",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Petra 2026-06-30 기준 사업비 미공개. 환경영향평가·인허가 검토 단계.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 6. 30",
+    "대표 기사 고유값": "ART-20260630-009173",
+    "비고": "아카바 LPG 저장·충전시설 확장 사업으로 저장탱크, 안전설비, 배관·계측제어, 토목 부대공정 가능성 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JOR-SOC-MADABA-PPP-HOSPITAL",
+    "프로젝트명": "Madaba Government Hospital PPP Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "사회인프라",
+    "발주처": "Government of Jordan / Ministry of Health / Ministry of Investment",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Petra 2026-06-30 기준 연면적 54,000㎡ 이상, 260병상(향후 360병상 확장 가능). 사업비 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 30",
+    "대표 기사 고유값": "ART-20260630-009174",
+    "비고": "요르단 최초 정부병원 PPP. 1단계 완료, 2단계 착수 준비 기사 기준으로 공사 단계 프로젝트로 등록.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JOR-WATER-ALBAQAA-WELL",
+    "프로젝트명": "Al-Baqa'a New Water Well Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "수자원·환경",
+    "발주처": "Miyahuna",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Petra 2026-06-30 기준 단일 신규 우물 사업. 사업비와 취수량 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 30",
+    "대표 기사 고유값": "ART-20260630-009175",
+    "비고": "Al-Baqa'a 지역 급수 보강용 신규 관정. 단일 우물 규모라 중요도는 낮지만 물 부족 대응 인프라 동향으로 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JOR-WATER-MAAN-KARAK-NRW-UPGRADE",
+    "프로젝트명": "Ma'an and Karak Water Network Rehabilitation and NRW Reduction Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "수자원·환경",
+    "발주처": "Aqaba Water Company / Dar Al Omran Infrastructure and Environment / Barium Al-Mutanabbi Engineering Consultancy",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Petra 2026-06-30 기준 설계·감리·측량 계약 총액 약 JOD 1m. 본공사 사업비 미공개.",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026. 6. 30",
+    "대표 기사 고유값": "ART-20260630-009172",
+    "비고": "Ma'an 상수도망 재활, Karak 수계 업그레이드, 지형측량 계약 3건을 포함한 물 손실 저감·상수도 개선 선행 사업으로 등록.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "JPN-RAIL-SAITAMA-SR-LINE7-EXTENSION",
     "프로젝트명": "Saitama Rapid Railway Line / Subway Line 7 Extension Project",
     "지역": "아시아",
@@ -165,18 +255,18 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "NPL-POWER-MARKICHOK-BHARATPUR-220KV",
-    "프로젝트명": "Markichok-Bharatpur 220kV Transmission Line Project",
-    "지역": "아시아",
-    "국가": "네팔",
+    "프로젝트 고유값": "MOZ-ENERGY-AFUNGI-LNG-SOLAR-PLANT",
+    "프로젝트명": "Afungi Mozambique LNG 7.1MW Solar Photovoltaic Plant Project",
+    "지역": "아프리카",
+    "국가": "모잠비크",
     "섹터": "에너지",
-    "발주처": "Nepal Electricity Authority / Marsyangdi Corridor private hydropower promoters",
+    "발주처": "TotalEnergies / Mozambique LNG consortium",
     "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "MyRepublica 2026-06-30 기준 민간 사업자 공사계약 투자 약 NPR 49.69m 언급, 전체 송전선 사업비는 별도 미공개",
-    "현재 단계": "operation",
+    "사업비 환산 환율 / 기준": "Club of Mozambique/Lusa 2026-06-30 기준 7.1MW, 약 13,224개 모듈, 6.5ha. 사업비 미공개.",
+    "현재 단계": "tender",
     "최근 업데이트일": "2026. 6. 30",
-    "대표 기사 고유값": "ART-20260630-009086",
-    "비고": "Marsyangdi Corridor의 Markichok-Bharatpur 220kV 28km 이중회선 송전선. NEA가 중국 Pingao Group 장기 지연 후 2024-11-20 민간 수력발전 사업자들에게 책임을 넘겼고, Viva Construction and Engineering Concern 및 Bhugol Infrastructure Company가 민간 투자 기반으로 완공했다. 시험운전 완료, 정규 운영 전환, 다른 송전 병목 사업의 민간 참여 모델 확산 여부를 후속 확인한다.",
+    "대표 기사 고유값": "ART-20260630-009185",
+    "비고": "Cabo Delgado Afungi Area 1 Mozambique LNG 현장 내 7.1MW 태양광발전소 EPC/O&M EOI. 약 13,224개 모듈 설치, 선정업체가 설치와 운영을 담당. Mozambique LNG 부대 전력·탈탄소 인프라 후속 패키지 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -735,6 +825,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "LBY-OILGAS-SABRATHA-COMPRESSORS",
+    "프로젝트명": "Sabratha Offshore Gas Platform Compressor Upgrade Project",
+    "지역": "중동",
+    "국가": "리비아",
+    "섹터": "석유가스·화학",
+    "발주처": "National Oil Corporation / Mellitah Oil and Gas Company",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "NOC 2026-06-29 기준 사업비 미공개. 연간 약 28bcf 천연가스 및 약 360,000배럴 콘덴세이트 증산 효과.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 6. 29",
+    "대표 기사 고유값": "ART-20260629-009173",
+    "비고": "Sabratha 해상 가스 플랫폼 신규 압축기 연결·시운전 완료 프로젝트. 저류층 압력 유지, 생산수명 연장, 가스 추출 효율 개선 목적이며, 30시간 미만 정지기간 안에 연결 완료. 기존 Mellitah Structures A&E와는 시설·범위가 달라 별도 관리하고, 후속 해상 가스설비 증산·개보수 패키지를 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "LBY-OILGAS-SIRTE-FUEL-DEPOT",
+    "프로젝트명": "Sirte Fuel Depot Project",
+    "지역": "중동",
+    "국가": "리비아",
+    "섹터": "석유가스·화학",
+    "발주처": "National Development Agency (NDA) / DEHA TECH",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Libya Herald 2026-06-29 기준 사업비 미공개. 휘발유·디젤 저장시설 12개월, 전체 프로젝트 14개월 완료 예정.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 6. 29",
+    "대표 기사 고유값": "ART-20260629-009172",
+    "비고": "Sirte 소재 현대식 휘발유·디젤 저장시설 및 수령·저장·펌핑·분배 통합 시스템 구축 프로젝트. 튀르키예 DEHA TECH가 시공사로 확인되며, 중부·남부 연료 공급난 완화와 전략 비축 역량 확대가 목적이다. 후속 계약금액, 탱크 용량, 착공·공정률, 소방·전력·계측 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MEX-IND-ECOCABLE-GOMEZPALACIO-FACILITY",
     "프로젝트명": "EcoCable Gómez Palacio Cable Manufacturing Facility Project",
     "지역": "중남미",
@@ -780,6 +900,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MOZ-DIGITAL-EMERGENCY-COMMUNICATION-SYSTEM",
+    "프로젝트명": "Emergency Communication Centre and Integrated Emergency Communication System Project",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Government of Mozambique / INCM / INGD / CENOE / World Bank",
+    "사업비(달러 기준 추정액)": "약 USD 10백만",
+    "사업비 환산 환율 / 기준": "Club of Mozambique 2026-06-29 기준 World Bank funding approximately US$10m.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 6. 29",
+    "대표 기사 고유값": "ART-20260629-009186",
+    "비고": "재난 대응용 비상통신센터 및 통합 비상통신시스템. 위성전화, VSAT, BGAN, VHF/UHF, 디지털 중계기, 관제·관리 시스템과 중앙 서버를 Maputo, Caia, Nacala 거점에 배치. PADIM 후속 디지털·재난복원력 조달 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MYS-ENERGY-KVTP-275KV-TRANSMISSION",
     "프로젝트명": "Klang Valley Technology Park 275kV Transmission Line and Substation Project",
     "지역": "아시아",
@@ -807,6 +942,36 @@
     "최근 업데이트일": "2026. 6. 29",
     "대표 기사 고유값": "ART-20260629-008733",
     "비고": "Perlis Inland Port, Perlis Sanglang Port, Perlis Power Hub로 구성된 Perlis Maritime Corridor 통합 물류·항만·전력허브 개발. Berjaya Property가 Manjaran 29% 지분 참여를 추진하며, 후속 개발권 구조, 항만·내륙항·전력허브별 EPC·인허가·재원 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-OILGAS-NLNG-TRAIN7-EXPANSION",
+    "프로젝트명": "Nigeria LNG Train 7 Expansion Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "석유가스·화학",
+    "발주처": "Nigeria LNG (NLNG) / Baker Hughes",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "World Oil 2026-06-29 기준 13년 서비스 계약금액 미공개. Train 7은 Bonny Island LNG 생산능력을 22mtpa에서 30mtpa로 확대 목표.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 29",
+    "대표 기사 고유값": "ART-20260629-009185",
+    "비고": "Bonny Island LNG Train 7 확장사업. Baker Hughes 2021년 터보기계 장비계약 후 2026년 13년 lifecycle services 계약을 확보했으며, 완공 후 생산능력 30mtpa 목표와 장기 O&M·디지털 진단 범위를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ROAD-SOKOTO-BADAGRY-SUPERHIGHWAY",
+    "프로젝트명": "Sokoto-Badagry Superhighway Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "Federal Ministry of Works / Hitech Construction Nigeria",
+    "사업비(달러 기준 추정액)": "약 USD 1,200백만+ (Section Two 금융시설 기준)",
+    "사업비 환산 환율 / 기준": "The Nation 2026-06-29 기준 Section Two 금융시설 USD 1.2bn 승인. 전체 회랑 총사업비는 구간별 변동 가능.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 6. 29",
+    "대표 기사 고유값": "ART-20260629-009184",
+    "비고": "Sokoto~Kebbi~Niger~Kwara~Oyo~Ogun~Lagos Badagry 1,068km TTS Greenfield corridor. 2024년 설계 공개, Section I Phase 1A 착공, 2026년 Oyo Section IV 계약 합의 확인. 2026-06-29 FEC가 Section Two에 대한 USD 1.2bn 금융시설을 승인해 금융 단계 후속 업데이트로 연결.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1347,6 +1512,21 @@
     "최근 업데이트일": "2026. 6. 28",
     "대표 기사 고유값": "ART-20260628-007836",
     "비고": "Crusoe의 이스라엘 AI 데이터센터 확장 프로젝트. Afula, Haifa Matam, Idan HaNegev/Negev 거점을 포함하며 Mega D.C.가 Haifa·Negev 시설을 건설·운영하는 구조로 보도됨. 후속 전력계통 접속, 인허가, EPC·MEP·냉각·비상전원·운영설비 조달, 시설별 착공·인도 일정을 확인한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ISR-URBAN-SHLOMI-BENGURION-RENEWAL",
+    "프로젝트명": "Shlomi Ben Gurion Urban Renewal Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "도시개발·주택",
+    "발주처": "Shlomi Local Council / Government Authority for Urban Renewal / Northern District Planning Committee",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Magdilim 2026-06-28 기준 사업비 미공개. 54두남, 기존 174가구 철거 후 825가구 조성 계획.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 6. 28",
+    "대표 기사 고유값": "ART-20260628-009181",
+    "비고": "Shlomi 첫 도시재생 사업. 반대의견 심의, 사업성 보완, 승인·건축허가·착공 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2865,6 +3045,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MOZ-OILGAS-CORAL-NORTE-FLNG",
+    "프로젝트명": "Coral Norte FLNG Project",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "석유가스·화학",
+    "발주처": "Mozambique Rovuma Venture / Eni, CNPC, ENH, XRG, KOGAS",
+    "사업비(달러 기준 추정액)": "약 USD 7,200백만",
+    "사업비 환산 환율 / 기준": "INP 2025-04-08 개발계획 승인 보도 기준 투자 추정액 USD 7.2bn",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 6. 26",
+    "대표 기사 고유값": "ART-20260626-009184",
+    "비고": "Rovuma Basin Area 4 해상 Coral North/Norte FLNG. 2025년 개발계획 승인, 2025년 FID, 2026년 Technip Energies·JGC·Samsung Heavy Industries EPCIC 계약과 2026년 MODEC SOFEC 내부 터릿 계류시스템 공급계약을 같은 프로젝트 이력으로 연결. KOGAS·Samsung Heavy Industries 참여와 2028년 첫 LNG 목표를 후속 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MYS-IND-BUKITRAJA-9STOREY-FACTORY",
     "프로젝트명": "Bukit Raja Nine-storey Stratified Factory Industrial Development Project",
     "지역": "아시아",
@@ -3240,21 +3435,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "QAT-ENERGY-POWER-TRANSMISSION-EXP-2026",
-    "프로젝트명": "KAHRAMAA 2026 Power Transmission System Expansion Project",
-    "지역": "중동",
-    "국가": "카타르",
-    "섹터": "에너지",
-    "발주처": "Qatar General Electricity & Water Corporation (KAHRAMAA)",
-    "사업비(달러 기준 추정액)": "미공개(400/132/66kV 변전소 및 400kV 케이블 포함 대형 EPC 패키지)",
-    "사업비 환산 환율 / 기준": "SaudiGulf Projects/ME Construction News 2026-04 기준",
-    "현재 단계": "tender",
-    "최근 업데이트일": "2026. 6. 26",
-    "대표 기사 고유값": "ART-20260419-006971",
-    "비고": "2026년 국가 송전망 확장 패키지. Dukhan Solar 서부 전력망 확장 계약과는 별도 범위로 관리.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "QAT-URBAN-SIMAISMA-INFRA-PKG",
     "프로젝트명": "Simaisma Development Project Infrastructure Works Package",
     "지역": "중동",
@@ -3297,21 +3477,6 @@
     "최근 업데이트일": "2026. 6. 26",
     "대표 기사 고유값": "ART-20260626-008742",
     "비고": "모스크바 루블료보-아르한겔스카야 지하철 노선 1단계 및 전체 27km+·12개 역 확장사업. 2026-06-26 기준 3개 신설역 토공·철근콘크리트 진행, 후속 역사 마감·전기기계·신호·통신·개통 일정 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "RWA-WATER-KIGALI-CENTRAL-SEWERAGE",
-    "프로젝트명": "Kigali Centralized Sewage System Project",
-    "지역": "아프리카",
-    "국가": "르완다",
-    "섹터": "수자원·환경",
-    "발주처": "WASAC Group / MININFRA / MINECOFIN",
-    "사업비(달러 기준 추정액)": "약 110백만 달러",
-    "사업비 환산 환율 / 기준": "KT Press 2026-06-26 기준 €96m / 1 EUR≈1.15 USD 간이 환산",
-    "현재 단계": "on-hold",
-    "최근 업데이트일": "2026. 6. 26",
-    "대표 기사 고유값": "ART-20260626-007158",
-    "비고": "Kigali 첫 중앙 하수도·하수처리 시스템으로 Giti cy’Inyoni 대형 하수처리장과 92km 관로망을 포함한다. 기존 설계가 Kigali 도로의 약 80% 굴착을 요구하는 문제로 2026년 6월 재설계·검토 단계에 들어갔고, 기존 컨설턴트 계약은 2026년 5월 해지됨. 후속 재설계, 조달 재개, 공사 패키지 재입찰 여부를 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3810,21 +3975,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "VNM-ROAD-CHAUDOC-CANTHO-SOCTRANG-PH1",
-    "프로젝트명": "Chau Doc - Can Tho - Soc Trang Expressway Phase 1 Project",
-    "지역": "아시아",
-    "국가": "베트남",
-    "섹터": "교통",
-    "발주처": "An Giang Province Project Management Board / relevant provincial authorities",
-    "사업비(달러 기준 추정액)": "약 USD 1,753백만 추정",
-    "사업비 환산 환율 / 기준": "Báo Xây dựng 2026-06-26 기준 총투자 VND 44.691tn, 1 USD≈25,500 VND 간이 환산",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 26",
-    "대표 기사 고유값": "ART-20260626-007709",
-    "비고": "Mekong Delta Chau Doc-Can Tho-Soc Trang 1단계 약 188km 고속도로. An Giang 구간 성분사업은 57km 이상, VND 13.526tn, 4개 시공 패키지 약 78% 진행으로 확인. 후속 준공·개통, ITS·요금징수·휴게소·운영관리·연계도로 패키지 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "VNM-ROAD-HOTRAM-LONGTHANH-EXP",
     "프로젝트명": "Ho Tram-Long Thanh Airport Expressway Project",
     "지역": "아시아",
@@ -3942,21 +4092,6 @@
     "최근 업데이트일": "2026. 6. 26",
     "대표 기사 고유값": "ART-20260626-007163",
     "비고": "Cape Town Golden Acre Precinct 복합재개발. 주요 통근 허브를 18시간 운영 복합용도 환경으로 전환하고 24층 오피스 타워를 414호 affordable rental 주거시설로 바꾸는 사업. 후속 사업비, 시공사, 공정률, 상업·교통시설 범위 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "ARG-PORT-USHUAIA-CCTV-MONITORING",
-    "프로젝트명": "Ushuaia Port CCTV Monitoring System Modernization Project",
-    "지역": "중남미",
-    "국가": "아르헨티나",
-    "섹터": "교통",
-    "발주처": "Agencia Nacional de Puertos y Navegación (ANPYN)",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "Argentina.gob.ar 2026-06-25 기준 사업비 미공개. CCTV·PTZ·VMS·무선링크·네트워크 장비 turnkey 범위.",
-    "현재 단계": "bid-evaluation",
-    "최근 업데이트일": "2026. 6. 25",
-    "대표 기사 고유값": "ART-20260625-007034",
-    "비고": "우수아이아항 CCTV 보안 모니터링 시스템 전면 현대화 프로젝트. ANPYN Plan Integral de Obras 안의 항만 디지털·보안 패키지로, 기존 ARG-PORT-USHUAIA-DEFENSES와는 방충재/접안시설이 아닌 CCTV·영상관리·네트워크 범위라 별도 프로젝트로 유지한다. 후속 낙찰자, 계약금액, 장비 사양, 전력·급수망 및 선석 보수 패키지 분리 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -4602,21 +4737,6 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-006132",
     "비고": "시오가마시 기존 청소공장 15년 연명 대규모 개보수. 2026년도 4분기 1차 공사 발주 예정, 크레인·레일·주행반·굴뚝 상부·컨베이어 등 포함, 공기 2028년도까지 검토.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "KEN-SOC-BOMAS-INTERNATIONAL-CONVENTION-COMPLEX",
-    "프로젝트명": "Bomas International Convention Complex Redevelopment Project",
-    "지역": "아프리카",
-    "국가": "케냐",
-    "섹터": "사회인프라",
-    "발주처": "Government of Kenya / Bomas of Kenya / relevant implementing agencies",
-    "사업비(달러 기준 추정액)": "약 232백만 달러 추정",
-    "사업비 환산 환율 / 기준": "Citizen Digital 2026-06-25 기준 KES 30bn, 1 USD≈129.35 KES 간이 환산",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 25",
-    "대표 기사 고유값": "ART-20260625-006939",
-    "비고": "Nairobi Bomas of Kenya 부지의 국제컨벤션센터 재개발 및 후속 복합개발 프로젝트. 2026-06-25 대통령 현장점검 기준 300억 실링 규모 본 컨벤션센터·복합시설 공사가 진행 중이며, 11,000석 컨벤션센터, 스포츠·레크리에이션 복합시설, 문화시설, 호텔, 동물고아원 기능이 포함된다. 후속으로 단지 내 호텔 2곳, 대형 쇼핑몰, 현대식 아레나 개발계획이 제시됐다. 후속 사업비 세부, 시행구조, 입찰·계약 방식, 전력·유틸리티 보강 패키지 공개 여부를 같은 프로젝트 후보로 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -6495,21 +6615,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "MOZ-OILGAS-CORAL-NORTE-FLNG",
-    "프로젝트명": "Coral Norte FLNG Project",
-    "지역": "아프리카",
-    "국가": "모잠비크",
-    "섹터": "석유가스·화학",
-    "발주처": "Mozambique Rovuma Venture / Eni, CNPC, ENH, XRG, KOGAS",
-    "사업비(달러 기준 추정액)": "약 USD 7,200백만",
-    "사업비 환산 환율 / 기준": "INP 2025-04-08 개발계획 승인 보도 기준 투자 추정액 USD 7.2bn",
-    "현재 단계": "contracted",
-    "최근 업데이트일": "2026-06-24",
-    "대표 기사 고유값": "ART-20260608-000280",
-    "비고": "Rovuma Basin Area 4 해상 Coral North/Norte FLNG. 2025년 개발계획 승인, 2025년 FID, 2026년 Technip Energies·JGC·Samsung Heavy Industries EPCIC 계약을 같은 프로젝트 이력으로 연결. 2026-06-24 MODEC의 SOFEC 내부 터릿 계류시스템 공급계약을 후속 핵심 시스템 패키지로 확인.",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "MYS-ENERGY-BUKITSELAMBAU-LSSPV",
     "프로젝트명": "Bukit Selambau 99.99MWac Large-Scale Solar PV Plant",
     "지역": "아시아",
@@ -6522,21 +6627,6 @@
     "최근 업데이트일": "2026. 6. 24",
     "대표 기사 고유값": "ART-20260624-006156",
     "비고": "Kedah Bukit Selambau 99.99MWac LSSPV 발전소의 M&E 및 TNB interconnection facility 하도급 계약. 후속 총사업비, 주계약자·EPC 구조, 계통연계 승인, 공정률·시운전·상업운전 여부 확인 필요. Kampar WDSB LSSPV 및 Northern Solar 조정계약과는 위치·계약주체가 달라 별도 프로젝트로 유지.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "MYS-WATER-SERIAN-SUPPLY-PH2",
-    "프로젝트명": "Serian Water Supply Phase 2 Project",
-    "지역": "아시아",
-    "국가": "말련",
-    "섹터": "수자원·환경",
-    "발주처": "Sarawak Government / Ministry of Utility and Telecommunication Sarawak",
-    "사업비(달러 기준 추정액)": "약 USD 61백만 추정",
-    "사업비 환산 환율 / 기준": "Malay Mail 2026-06-24 기준 RM260m, 1 USD≈RM4.25 간이 환산",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 24",
-    "대표 기사 고유값": "ART-20260624-005481",
-    "비고": "Sarawak Water Supply Master Plan 및 Sarawak Water Grid System 하의 Serian Division 상수도 2단계 사업. Slabi Water Treatment Plant에서 Serian, Balai Ringin, Samarahan 일부 지역으로 연결되는 trunk pipeline과 관련 인프라를 포함한다. 후속 공정률, 준공, 추가 정수장·관로 패키지 확인 시 같은 프로젝트 후보로 비교한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -6612,21 +6702,6 @@
     "최근 업데이트일": "2026. 6. 24",
     "대표 기사 고유값": "ART-20260624-007681",
     "비고": "Musandam Governorate Block 80 해상 E&P 양허 프로젝트. OQEP 50% 운영자, Turkish Petroleum Overseas Company 50% 참여. Bukha·West Bukha 생산 유가스전 포함, 후속 탐사정·평가정·해상 개발계획·생산설비 패키지 전환 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "OMN-OILGAS-SOHARPET-PTA-PET",
-    "프로젝트명": "Sohar Petrochemicals PTA-PET Complex Project",
-    "지역": "중동",
-    "국가": "오만",
-    "섹터": "석유가스·화학",
-    "발주처": "Sohar Petrochemicals / MAK Germany GmbH / OQ Group / Sohar Port and Freezone",
-    "사업비(달러 기준 추정액)": "약 USD 550백만",
-    "사업비 환산 환율 / 기준": "Oman Observer 2026-06-24 기준 $550m. Sohar Port 11.9ha 및 Sohar Freezone 53.6ha dual-location PTA/PET complex.",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 24",
-    "대표 기사 고유값": "ART-20260624-005914",
-    "비고": "Sohar Port and Freezone 내 PTA/PET 석유화학 복합단지. MAK Germany가 Rotterdam PTA/PET 자산을 오만으로 이전하고 OQ paraxylene feedstock, Sohar Port 원료 수입·저장·파이프라인 인프라와 연계한다. 후속 EPC 세부, 장비 이전, 시운전·상업생산 전환 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -7215,21 +7290,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "ARG-ENERGY-FUNES-PEREZ-33KV-FEEDERS",
-    "프로젝트명": "Funes-Pérez 33kV Underground Feeders Project",
-    "지역": "중남미",
-    "국가": "아르헨티나",
-    "섹터": "에너지",
-    "발주처": "Empresa Provincial de la Energía de Santa Fe (EPE)",
-    "사업비(달러 기준 추정액)": "USD 환산 미공개",
-    "사업비 환산 환율 / 기준": "Santa Fe 공식 2026-06-23 기준 ARS 659,049,406.46, 공기 9개월",
-    "현재 단계": "bid-evaluation",
-    "최근 업데이트일": "2026. 6. 23",
-    "대표 기사 고유값": "ART-20260623-005388",
-    "비고": "Funes Parque Industrial Metropolitano 변전소와 기존 Funes-Pérez 중압선 연계를 위한 2개 33kV 지중 급전선 신설사업. 4개 제안 접수 후 평가 단계이며, 산업·주거 수요 증가 지역의 공급능력과 회로 독립성을 높이는 전력망 보강 패키지로 관리.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "ARG-PORT-RAWSON-DREDGING",
     "프로젝트명": "Rawson Port Dredging Project",
     "지역": "중남미",
@@ -7242,21 +7302,6 @@
     "최근 업데이트일": "2026. 6. 23",
     "대표 기사 고유값": "ART-20260623-007032",
     "비고": "Puerto Rawson의 Río Chubut 하구·항만구역 준설공사. 2026-06-23 기준 약 30일 내 licitación 소집을 목표로 세부사항 조율 중이며, 어기와 부두 사용 상황에 맞춘 단계적 시공이 검토됨. 후속 공식 입찰공고, 사업비, 준설량, 낙찰자, 부두 확장공사와의 계약 경계 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "ARG-ROAD-SANTAFE-SANTOTOME-CARRETERO-BRIDGE",
-    "프로젝트명": "Santa Fe-Santo Tomé New Carretero Bridge Project",
-    "지역": "중남미",
-    "국가": "아르헨티나",
-    "섹터": "교통",
-    "발주처": "Gobierno de Santa Fe / Dirección Provincial de Vialidad",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "Santa Fe 공식 2026-06-23 기준 사업비 미공개, 총연장 1,324m",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 23",
-    "대표 기사 고유값": "ART-20260623-005387",
-    "비고": "Santa Fe와 Santo Tomé를 연결하는 Río Salado 신 Carretero 교량. 1,324m 장대교 및 양측 접근도로·도시부 유틸리티·배수 공사를 포함하며 2026-06-23 기준 전체 45%, 하부구조 95% 공정률 확인. 후속 경간 설치, 접근도로 완료, 개통·준공 여부 추적 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -8070,21 +8115,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "NPL-POWER-MEWA-DHUNGESANGHU-132KV",
-    "프로젝트명": "Mewa-Dhungesanghu 132kV Transmission Line Project",
-    "지역": "아시아",
-    "국가": "네팔",
-    "섹터": "에너지",
-    "발주처": "Rastriya Prasaran Grid Company Limited (RPGCL)",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "2026-06-23 Nepal Energy Forum 기사 내 사업비 미공개. 약 85MW 전력 송출 병목 보도.",
-    "현재 단계": "on-hold",
-    "최근 업데이트일": "2026. 6. 23",
-    "대표 기사 고유값": "ART-20260623-005455",
-    "비고": "Mewa 유역 발전 전력 송출을 위한 132kV 송전선. Upper Mewa Khola 'A' 등 발전 프로젝트의 계통연계에 필요한 인프라로, 2026-06-23 기사 기준 지연으로 약 85MW 전력 송출 차질 우려가 제기됨. 후속 입찰·계약·공정 재개·완공 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "NZL-ENERGY-WAIINU-HYBRID-PARK",
     "프로젝트명": "Waiinu Energy Park",
     "지역": "태평양",
@@ -8247,21 +8277,6 @@
     "최근 업데이트일": "2026. 6. 23",
     "대표 기사 고유값": "ART-20260623-005417",
     "비고": "산마르틴 소리토르 보건센터 신축. 자유부지 인수 완료, 공사 착수 전 단계.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "PHL-RAIL-LRT1-CAVITE-EXTENSION",
-    "프로젝트명": "LRT-1 Cavite Extension Project",
-    "지역": "아시아",
-    "국가": "필리핀",
-    "섹터": "교통",
-    "발주처": "Department of Transportation (DOTr) / Light Rail Manila Corporation (LRMC)",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "2026-06-23 BusinessMirror 기사 기준 구체 사업비 미공개",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 23",
-    "대표 기사 고유값": "ART-20260623-005473",
-    "비고": "Metro Manila와 Cavite를 연결하는 LRT-1 남부 연장사업. 2026-06-23 보도 기준 정부가 잔여 건설·현장 조정·지연 이슈 해소를 지시했으며, 후속 구간 완공·개통 및 추가 계약 변경 여부를 같은 프로젝트 고유값으로 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -11097,21 +11112,6 @@
     "최근 업데이트일": "2026. 6. 19",
     "대표 기사 고유값": "ART-20260619-005373",
     "비고": "Elizabeth Drive 공항·Aerotropolis 접근도로 업그레이드. 기존 투자동향 행을 프로젝트 정보로 보강하고 같은 원문 재중복은 제외. 후속 본 RFT, Mamre Road 연계, 교량·교차로 패키지 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "AUS-ROAD-FIFTEENTH-AVENUE-UPGRADE",
-    "프로젝트명": "Fifteenth Avenue Upgrade / Liverpool to Airport Transit Corridor",
-    "지역": "태평양",
-    "국가": "호주",
-    "섹터": "교통",
-    "발주처": "Transport for NSW / NSW Government / Australian Government",
-    "사업비(달러 기준 추정액)": "약 USD 910백만 추정",
-    "사업비 환산 환율 / 기준": "원문 AUD 1.4bn, 1 AUD≈0.65 USD 간이 환산",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 6. 19",
-    "대표 기사 고유값": "ART-20260619-004675",
-    "비고": "Fifteenth Avenue 공항 접근도로 업그레이드. 기존 투자동향 행을 프로젝트 정보로 보강하고 같은 원문 재중복은 제외. 후속 ROI/RFT, 패키지 분할, 설계시공 발주 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -29655,21 +29655,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "SGP-WASTE-IWMF-PHASE2",
-    "프로젝트명": "Integrated Waste Management Facility Phase 2 Project",
-    "지역": "아시아",
-    "국가": "싱가포르",
-    "섹터": "수자원·환경",
-    "발주처": "National Environment Agency",
-    "사업비(달러 기준 추정액)": "미공개(2,900tpd WtE·폐기물처리 시설, 1억 달러 초과 대형사업으로 판단)",
-    "사업비 환산 환율 / 기준": "사업비 미공개, IWMF Phase 2 처리용량 2,900tpd 및 국가급 Tuas Nexus 시설 기준",
-    "현재 단계": "awarded",
-    "최근 업데이트일": "2026. 5. 20",
-    "대표 기사 고유값": "ART-20260520-007029",
-    "비고": "AECOM-Binnies-Ramboll JV 다분야 컨설팅 수주. 계획·설계·조달지원·시공감독·시험시운전 포함, 후속 EPC/다중계약 발주 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "SAU-WATER-RIYADH-NORTH-ISTP",
     "프로젝트명": "Riyadh North Independent Sewage Treatment Plant Project",
     "지역": "중동",
@@ -29952,21 +29937,6 @@
     "최근 업데이트일": "2026-05-13",
     "대표 기사 고유값": "ART-20260513-003162",
     "비고": "Akwanga-Jos-Bauchi-Gombe 420km 이중화와 Gombe-Biu 약 125km 구간을 포함하는 북중부·북동부 Legacy Road 회랑. 기존 NGA-ROAD-CALABAR-EBONYI-BENUE-TRANS-SAHARAN과 노선·구간이 달라 별도 프로젝트로 관리.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "NGA-ROAD-SOKOTO-BADAGRY-SUPERHIGHWAY",
-    "프로젝트명": "Sokoto-Badagry Superhighway Project",
-    "지역": "아프리카",
-    "국가": "나이지리아",
-    "섹터": "교통",
-    "발주처": "Federal Ministry of Works / Hitech Construction Nigeria",
-    "사업비(달러 기준 추정액)": "미공개",
-    "사업비 환산 환율 / 기준": "공식 기사에 전체 사업비 미공개. 2026-05 보도에서 별도 Section IV 약 180km 계약 합의 확인",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-05-13",
-    "대표 기사 고유값": "ART-20260513-003160",
-    "비고": "Sokoto~Kebbi~Niger~Kwara~Oyo~Ogun~Lagos Badagry 1,068km TTS Greenfield corridor. 2024년 설계 공개, Section I Phase 1A 착공, 2026년 Oyo Section IV 계약 합의 확인.",
     "대표 기사 정보 분류": ""
   },
   {
