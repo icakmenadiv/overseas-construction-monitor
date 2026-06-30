@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T22:19:19.835Z",
+  "updatedAt": "2026-06-30T08:46:19.151Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,93 +24,77 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 5374,
-    "projects": 2316
+    "articles": 5418,
+    "projects": 2319
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260630-008768",
-        "ART-20260629-008753",
-        "ART-20260629-008761",
-        "ART-20260629-008765",
-        "ART-20260629-008766",
-        "ART-20260629-008901",
-        "ART-20260629-008907",
-        "ART-20260629-008908",
-        "ART-20260629-008911",
-        "ART-20260628-008763",
-        "ART-20260628-008903",
-        "ART-20260628-008905",
-        "ART-20260628-008910",
-        "ART-20260627-008902",
-        "ART-20260627-008906",
-        "ART-20260627-008909",
-        "ART-20260626-008762",
-        "ART-20260626-008765",
-        "ART-20260626-008766",
-        "ART-20260626-008767",
-        "ART-20260626-008768",
-        "ART-20260626-008904",
-        "ART-20260626-008914",
-        "ART-20260625-008764",
-        "ART-20260625-008912",
-        "ART-20260625-008913",
-        "ART-20260625-008915"
+        "ART-20260629-009001",
+        "ART-20260629-009006",
+        "ART-20260629-009007",
+        "ART-20260629-009008",
+        "ART-20260629-009010",
+        "ART-20260629-009012",
+        "ART-20260629-009013",
+        "ART-20260629-009018",
+        "ART-20260629-009019",
+        "ART-20260629-009020",
+        "ART-20260628-009005",
+        "ART-20260627-009003",
+        "ART-20260627-009011",
+        "ART-20260626-005343",
+        "ART-20260626-007807",
+        "ART-20260626-007808",
+        "ART-20260626-007809",
+        "ART-20260626-009002",
+        "ART-20260626-009004",
+        "ART-20260626-009009",
+        "ART-20260626-009014",
+        "ART-20260626-009015",
+        "ART-20260625-005344",
+        "ART-20260625-009013",
+        "ART-20260624-009032",
+        "ART-20260623-008918",
+        "ART-20260601-008917",
+        "ART-20260408-009034",
+        "ART-20260324-009016",
+        "ART-20260324-009017",
+        "ART-20251104-009031",
+        "ART-20251028-009027",
+        "ART-20250930-009029",
+        "ART-20250930-009030",
+        "ART-20250908-009028",
+        "ART-20250701-009033",
+        "ART-20250307-009035",
+        "ART-20250228-009036",
+        "ART-20241125-009021",
+        "ART-20241125-009022",
+        "ART-20241125-009023",
+        "ART-20241125-009024",
+        "ART-20241125-009025",
+        "ART-20241125-009026"
       ],
-      "updated": [
-        "ART-20260629-008749",
-        "ART-20260629-008750",
-        "ART-20260629-008751",
-        "ART-20260629-008752"
-      ],
-      "removed": [
-        "ART-20260625-007844",
-        "ART-20250625-007724",
-        "ART-20260621-006905",
-        "ART-20260624-005425",
-        "ART-20260624-005427",
-        "ART-20260623-005426",
-        "ART-20260623-005428",
-        "ART-20260622-005429"
-      ]
+      "updated": [],
+      "removed": []
     },
     "projects": {
       "added": [
-        "SGP-TRANSPORT-WOODLANDS-GATEWAY-MMTH",
-        "BHR-WATER-AALI-SEWER-BLOCK730-740",
-        "OMN-ENERGY-DUQM-BESS",
-        "OMN-ENERGY-IBRI-BESS",
-        "OMN-ENERGY-WADI-DAYQAH-PHES",
-        "SAU-TRANSPORT-QIDDIYA-NW-TRANSPORT-HUB",
-        "SAU-URBAN-DIRIYAH-SQUARE-UCC-MEP-FITOUT",
-        "TUR-ENERGY-KARAMAN-DRES-BESS",
-        "TUR-IND-KAISHAN-IZBAS-COMPRESSOR-FACTORY",
-        "TUR-URBANRAIL-ANKARA-KORU-YASAMKENT-BAGLICA",
-        "KGZ-ROAD-BISHKEK-EASTERN-BYPASS",
-        "PRT-RAIL-SINES-MIXED-TRAFFIC-LINE",
-        "SAU-URBAN-MAKKAH-KING-SALMAN-GATE"
+        "JOR-SOC-AMRA-AMUSEMENT-PARK",
+        "JOR-SOC-AMRA-ECO-PARK",
+        "MOZ-DIGITAL-EMERGENCY-COMM-SYSTEM"
       ],
       "updated": [
-        "KGZ-ENERGY-KAMBARATA1-HPP",
-        "TUR-ROAD-KINALI-MALKARA-MOTORWAY-FINANCE",
-        "DZA-RAIL-HASSI-MESSAOUD-TAMANRASSET"
+        "VNM-AIR-LONGTHANH-INTERNATIONAL-PH1",
+        "NPL-ROAD-KALAMATI-BASUNDHARA-RINGROAD",
+        "GHA-OILGAS-SENTUO-REFINERY-PH2",
+        "ISR-RAIL-EASTERN-RAILWAY"
       ],
-      "removed": [
-        "ARM-ENERGY-IRAN-ARMENIA-400KV-TL",
-        "TZA-AIR-KIGOMA-AIRPORT-UPGRADE",
-        "LAO-AIR-LUANGPRABANG-AIRPORT-PPP",
-        "URY-ENERGY-MONTEVIDEO-D-UNDERGROUND-CABLES",
-        "URY-URBAN-LOS-EUCALIPTUS-HOUSING",
-        "ECU-ENERGY-CUMBAYA-HPP-GENERATOR-REPLACEMENT",
-        "PER-AIR-CHINCHERO-INTERNATIONAL-AIRPORT",
-        "IRN-OILGAS-AHVAZ-KHAMI-STUDIES",
-        "IRQ-RAIL-IREM-UMMQASR-MOSUL"
-      ]
+      "removed": []
     }
   },
   "latest": {
