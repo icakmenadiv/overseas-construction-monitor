@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T22:20:17.559Z",
+  "updatedAt": "2026-06-30T11:31:45.518Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -178,6 +178,9 @@
         "article_detail_open": 1,
         "source_link_click": 1
       },
+      "ART-20260624-005468": {
+        "source_link_click": 1
+      },
       "ART-20260624-005540": {
         "source_link_click": 1
       },
@@ -190,6 +193,9 @@
       },
       "ART-20260624-005981": {
         "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260624-006124": {
         "source_link_click": 1
       },
       "ART-20260624-007762": {
@@ -229,23 +235,151 @@
       "ART-20260625-006931": {
         "article_detail_open": 1
       },
-      "ART-20260625-007065": {
+      "ART-20260625-007037": {
+        "article_detail_open": 1,
         "source_link_click": 1
+      },
+      "ART-20260625-007065": {
+        "source_link_click": 2
+      },
+      "ART-20260625-007228": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-007230": {
+        "article_detail_open": 2
+      },
+      "ART-20260625-007735": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-007737": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260625-007749": {
+        "source_link_click": 1
+      },
+      "ART-20260625-007750": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-007894": {
+        "article_detail_open": 1
+      },
+      "ART-20260625-007901": {
+        "article_detail_open": 1
       },
       "ART-20260626-006138": {
         "article_detail_open": 1,
         "source_link_click": 1
       },
-      "ART-20260626-007738": {
+      "ART-20260626-006213": {
+        "article_detail_open": 1
+      },
+      "ART-20260626-007038": {
         "source_link_click": 1
       },
+      "ART-20260626-007052": {
+        "source_link_click": 1
+      },
+      "ART-20260626-007067": {
+        "source_link_click": 1
+      },
+      "ART-20260626-007219": {
+        "article_detail_open": 1
+      },
+      "ART-20260626-007220": {
+        "article_detail_open": 1
+      },
+      "ART-20260626-007231": {
+        "article_detail_open": 1
+      },
+      "ART-20260626-007710": {
+        "source_link_click": 1
+      },
+      "ART-20260626-007738": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260626-007748": {
+        "article_detail_open": 1
+      },
+      "ART-20260626-007774": {
+        "source_link_click": 1
+      },
+      "ART-20260626-007856": {
+        "source_link_click": 1
+      },
+      "ART-20260626-007858": {
+        "source_link_click": 1
+      },
+      "ART-20260626-007892": {
+        "article_detail_open": 1
+      },
+      "ART-20260627-007736": {
+        "article_detail_open": 1
+      },
+      "ART-20260627-007740": {
+        "article_detail_open": 1
+      },
+      "ART-20260627-007890": {
+        "article_detail_open": 1
+      },
+      "ART-20260627-007891": {
+        "article_detail_open": 1
+      },
+      "ART-20260628-007744": {
+        "article_detail_open": 1
+      },
       "ART-20260628-007767": {
+        "source_link_click": 1
+      },
+      "ART-20260628-007777": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260628-007878": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007876": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260629-007879": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007881": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007882": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007885": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007886": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007896": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007900": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007903": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-007920": {
+        "source_link_click": 1
+      },
+      "ART-20260629-008722": {
+        "source_link_click": 1
+      },
+      "ART-20260630-008735": {
         "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 15
+        "market_page_visit": 17
       }
     },
     "project": {
@@ -273,10 +407,16 @@
       "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION": {
         "project_detail_open": 1
       },
+      "MYS-TRANSPORT-SHAH-ALAM-LRT3": {
+        "project_detail_open": 1
+      },
       "OMN-ENERGY-ACME-DUQM-H2-AMMONIA-PH2PH3": {
         "project_detail_open": 1
       },
       "OMN-IND-TROT-LIGHT-INDUSTRIES-COMPLEX": {
+        "project_detail_open": 1
+      },
+      "PAK-RAIL-ML3-ROHRI-TAFTAN": {
         "project_detail_open": 1
       },
       "PAK-ROAD-N5-RANIPUR-ROHRI-SECTION2": {
@@ -765,6 +905,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260624-005468",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-29T23:20:31.043Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260624-005540",
       "eventType": "source_link_click",
       "count": 1,
@@ -804,6 +951,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-06-26T02:39:01.099Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260624-006124",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-29T23:25:02.293Z"
     },
     {
       "targetType": "article",
@@ -898,10 +1052,87 @@
     },
     {
       "targetType": "article",
-      "targetId": "ART-20260625-007065",
+      "targetId": "ART-20260625-007037",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:38:06.759Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007037",
       "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-06-29T00:28:33.022Z"
+      "updatedAt": "2026-06-30T04:38:13.998Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007065",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-06-29T23:19:50.445Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007228",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T08:02:04.906Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007230",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-06-30T08:19:51.918Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007735",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:23:55.520Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007737",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:24:31.465Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007737",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:24:36.142Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007749",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:28:04.903Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007750",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:34:14.190Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007894",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:23:20.218Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-007901",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:24:07.974Z"
     },
     {
       "targetType": "article",
@@ -919,10 +1150,143 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260626-006213",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:20:27.036Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007038",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:27:13.907Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007052",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-29T23:25:47.686Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007067",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T09:13:33.791Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007219",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:21:33.532Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007220",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:20:14.916Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007231",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:22:47.217Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007710",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T09:10:30.217Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007738",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:22:27.404Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260626-007738",
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-06-28T23:22:54.607Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007748",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T04:21:56.913Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007774",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T08:58:58.909Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007856",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T09:07:47.955Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007858",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T09:10:56.077Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-007892",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T02:33:34.974Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260627-007736",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T02:33:10.405Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260627-007740",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T02:33:11.349Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260627-007890",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T02:32:20.323Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260627-007891",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T02:32:28.039Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260628-007744",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T02:32:15.040Z"
     },
     {
       "targetType": "article",
@@ -932,11 +1296,123 @@
       "updatedAt": "2026-06-29T00:56:40.710Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260628-007777",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T08:31:07.157Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260628-007777",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T08:30:33.405Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260628-007878",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:52:55.992Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007876",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:46:39.260Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007876",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:44:05.814Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007879",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:50:08.363Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007881",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:50:29.618Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007882",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:50:50.950Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007885",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:51:27.967Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007886",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:51:31.309Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007896",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:51:46.174Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007900",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:51:56.899Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007903",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T01:52:19.927Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007920",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-29T23:32:42.034Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-008722",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T08:28:27.450Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-008735",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T08:27:57.800Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 15,
-      "updatedAt": "2026-06-29T01:26:37.590Z"
+      "count": 17,
+      "updatedAt": "2026-06-30T06:21:31.566Z"
     },
     {
       "targetType": "project",
@@ -996,6 +1472,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "MYS-TRANSPORT-SHAH-ALAM-LRT3",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T08:33:40.079Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "OMN-ENERGY-ACME-DUQM-H2-AMMONIA-PH2PH3",
       "eventType": "project_detail_open",
       "count": 1,
@@ -1007,6 +1490,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-26T01:38:43.854Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "PAK-RAIL-ML3-ROHRI-TAFTAN",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-29T23:32:03.222Z"
     },
     {
       "targetType": "project",
