@@ -1,5 +1,20 @@
 [
   {
+    "프로젝트 고유값": "ARG-ROAD-AUTOPISTA-DELLEPIANE",
+    "프로젝트명": "Buenos Aires Autopista Dellepiane Transformation Project",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "교통",
+    "발주처": "Gobierno de la Ciudad de Buenos Aires / AUSA",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Buenos Aires Ciudad 2026-07-01 기준 전체 사업비 미공개. 기사에서는 아르헨티나에서 진행 중인 최대 공공 인프라 사업으로 설명.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260701-010200",
+    "비고": "Buenos Aires Villa Lugano 일대 Autopista Dellepiane 전환·현대화 사업. 2026-07-01 기준 General Paz 방향 북측 colectora 개통, Belgrano Sur 철도 상부 2개 교량과 Piedrabuena 보행교, Río Negro 교량 등 4개 교량 시공 완료. 남측 colectora는 2026년 8월 완료 예정이며 후속 접근로, 버스전용·녹지·안전시설·운영관리 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BGD-WATER-TEESTA-MASTER-PLAN",
     "프로젝트명": "Comprehensive Management and Restoration of the Teesta River Project",
     "지역": "아시아",
@@ -285,6 +300,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PAN-ROAD-CENTENARIO-ARRAIJAN-LACHORRERA-APP",
+    "프로젝트명": "Autopista Centenario and Arraiján-La Chorrera PPP Rehabilitation Project",
+    "지역": "중남미",
+    "국가": "파나마",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas (MOP) / Ente Rector APP",
+    "사업비(달러 기준 추정액)": "약 USD 606.5백만",
+    "사업비 환산 환율 / 기준": "Presidencia 2026-06-30 기준 B/.606.5m. TVN/Gaceta 보도 기준 약 USD 501.66m 및 기존 Ente Rector B/.382.16m 수치와 차이가 있어 최종 pliego·계약문서 재확인 필요.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 6. 30",
+    "대표 기사 고유값": "ART-20260630-010202",
+    "비고": "RAPP-P5-009-2025. Vía Centenario와 Autopista Arraiján-La Chorrera 확장·재활·운영·유지관리 PPP. 2026년 6월 30일 Ente Rector APP가 Informe Técnico Definitivo, pliego, contrato APP 및 부속문서를 승인하고 MOP의 입찰 착수를 허용해 tender 단계로 갱신. 기존 PAN-ROAD-PANAMERICANA-OESTE-APP와 구간·사업범위가 달라 별도 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "RUS-ENERGY-AMUR-OKTYABRSKY-SOLAR-610MW",
     "프로젝트명": "Oktyabrsky District Solar Power Plants Project",
     "지역": "유럽",
@@ -390,6 +420,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "URY-WATER-CASUPA-DAM",
+    "프로젝트명": "Casupá Dam and Reservoir Project",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "수자원·환경",
+    "발주처": "Obras Sanitarias del Estado (OSE)",
+    "사업비(달러 기준 추정액)": "약 USD 130백만",
+    "사업비 환산 환율 / 기준": "CAF 차관 1.3억 달러 및 보조금, Ámbito 2026-06-22 토지보상 USD 3.5m 진행 근거",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 6. 30",
+    "대표 기사 고유값": "ART-20260630-010104",
+    "비고": "몬테비데오 광역권 상수원 확보를 위한 118백만㎥급 댐·저수지. 2025년 금융확보와 CAF 차관계약, 2026년 입찰준비 이력 확인. 2026-06-25 기준 OSE 이사회가 입찰문안을 승인했고 CCCC-YREC-Impacto, Consorcio Casupá, Rovella CVC, Consorcio Constructor de Presas Uruguay 등 4개 컨소시엄이 사전적격 후보로 확인됨. 2026-06-30 OSE 공식 발표 기준 국제공개입찰 조건서가 공개되고 사전적격 기업 대상 제안 접수가 시작됐으며, 제안 마감은 2026-08-18이다. 환경사전승인·Tribunal de Cuentas 절차 후 2026년 말 낙찰, 2027년 초 착공, 2029년 완공 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "USA-RAIL-LIRR-EAST-END-BRIDGES",
     "프로젝트명": "LIRR East End Bridges Replacement Project",
     "지역": "북미",
@@ -402,6 +447,21 @@
     "최근 업데이트일": "2026. 6. 30",
     "대표 기사 고유값": "ART-20260630-009077",
     "비고": "Long Island Rail Road 동부 Montauk Branch 계열 노후 교량 3곳(North Main Street Bridge, Accabonac Road Bridge, North Highway Bridge) 교체 프로젝트. 2026년 7월 착공, 2028년 완료 목표이며 교량 교체, 배수 개선, 보안 펜스, 접근성·운영 개선을 포함한다. 후속 시공사명·교량별 공정·운행 차단 계획·준공 여부를 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ARG-PORT-VILLA-CONSTITUCION-TERMINAL-I",
+    "프로젝트명": "Puerto Villa Constitución Terminal I Concession Project",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "교통",
+    "발주처": "Ente Administrador Puerto Villa Constitución / Gobierno de Santa Fe",
+    "사업비(달러 기준 추정액)": "미공개",
+    "사업비 환산 환율 / 기준": "Santa Fe 공식 2026-06-29 기준 사업비 미공개. 33,015.91㎡ 항만 터미널 부지, 시설 적정화 공기 약 6개월.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 6. 29",
+    "대표 기사 고유값": "ART-20260629-010201",
+    "비고": "Puerto Villa Constitución Terminal I 사용양허 프로젝트. 모래·골재 운영용 33,015.91㎡ 부지를 민간 concession으로 재활성화하려는 계획이며, 2026-07-04까지 pliego en construcción 의견 접수, 2026-07-06 최종 pliego 공개, 2026-08-03 제안 접수 예정. 시설 상태, 접근성, 수심 개선과 요구 투자액을 후속 확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -535,7 +595,7 @@
     "사업비 환산 환율 / 기준": "gov.br/Transportes 2026-06-29 기준 투자 의제 약 R$15bn, 1 USD≈5.1 BRL 간이 환산",
     "현재 단계": "pre-procurement",
     "최근 업데이트일": "2026. 6. 29",
-    "대표 기사 고유값": "ART-20260629-009062",
+    "대표 기사 고유값": "ART-20260629-009067",
     "비고": "BR-116/376/PR 및 BR-101/SC Litoral Sul concession 개선·현대화 프로그램. Morro dos Cavalos, Eixão, 벌금의 투자전환, R$4bn 용량확대, 최대 R$10bn concession 현대화가 검토되며 후속 ANTT 계약변경·TCU 사전통제·환경허가 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -5697,21 +5757,6 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-007016",
     "비고": "Florida 주 Ruta 6 km 145~169 구간 재활공사. 암거, 플랫폼 확장, 포틀랜드 시멘트 기반 기존 구조 재활용, 아스팔트 포장 포함. 후속 공정률·준공·추가 구간 발주 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "URY-WATER-CASUPA-DAM",
-    "프로젝트명": "Casupá Dam and Reservoir Project",
-    "지역": "중남미",
-    "국가": "우루과이",
-    "섹터": "수자원·환경",
-    "발주처": "Obras Sanitarias del Estado (OSE)",
-    "사업비(달러 기준 추정액)": "약 USD 130백만",
-    "사업비 환산 환율 / 기준": "CAF 차관 1.3억 달러 및 보조금, Ámbito 2026-06-22 토지보상 USD 3.5m 진행 근거",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 6. 25",
-    "대표 기사 고유값": "ART-20260625-007218",
-    "비고": "몬테비데오 광역권 상수원 확보를 위한 118백만㎥급 댐·저수지. 2025년 금융확보와 CAF 차관계약, 2026년 입찰준비 이력 확인. 2026-06-25 기준 OSE 이사회가 입찰문안을 승인했고 CCCC-YREC-Impacto, Consorcio Casupá, Rovella CVC, Consorcio Constructor de Presas Uruguay 등 4개 컨소시엄이 사전적격 후보로 확인됨. 환경승인·Tribunal de Cuentas 절차 후 2026년 말 낙찰, 2027년 초 착공, 2029년 완공 목표.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -29157,21 +29202,6 @@
     "최근 업데이트일": "2026. 5. 31",
     "대표 기사 고유값": "ART-20260531-007726",
     "비고": "Baghdad Financial and Economic City 내 12.8백만㎡ 통합도시. 투자허가 2026/515(2026-05-24 발급), 43,000가구·250,000명 수용, 2.3백만㎡ 비주거 연면적 계획. 후속 마스터플랜 승인, 초기 인프라·건축 공구, EPC/시공 파트너, 금융·착공 일정 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "PAN-ROAD-CENTENARIO-ARRAIJAN-LACHORRERA-APP",
-    "프로젝트명": "Autopista Centenario and Arraiján-La Chorrera PPP Rehabilitation Project",
-    "지역": "중남미",
-    "국가": "파나마",
-    "섹터": "교통",
-    "발주처": "Ministerio de Obras Públicas (MOP) / Ente Rector APP",
-    "사업비(달러 기준 추정액)": "약 USD 382.2백만",
-    "사업비 환산 환율 / 기준": "Ente Rector APP 기준 B/.382,156,751, PAB 1 = USD 1",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 5. 30",
-    "대표 기사 고유값": "ART-20260530-007604",
-    "비고": "RAPP-P5-009-2025. Vía Centenario와 Autopista Arraiján-La Chorrera 확장·재활·운영·유지관리 PPP. Fase 2 factibilidad·licitación authorization 상태이며 2026년 6월 공고, 2026년 말 낙찰, 2026년 말~2027년 초 착공 전망. 기존 PAN-ROAD-PANAMERICANA-OESTE-APP와 구간·사업범위가 달라 별도 관리.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

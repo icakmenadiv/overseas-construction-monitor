@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T10:56:26.585Z",
+  "updatedAt": "2026-07-01T18:19:58.536Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,55 +28,69 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 5582,
-    "projects": 2350
+    "articles": 5610,
+    "projects": 2352
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260630-009189",
-        "ART-20260630-009190",
-        "ART-20260630-009191",
-        "ART-20260630-009192",
-        "ART-20260630-009193",
-        "ART-20260630-009194",
-        "ART-20260630-009200",
-        "ART-20260630-009201",
-        "ART-20260630-010085",
-        "ART-20260629-009202",
-        "ART-20260629-009203",
-        "ART-20260629-010086",
-        "ART-20260629-010087",
-        "ART-20260629-010088",
-        "ART-20260629-010089",
-        "ART-20260629-010095",
-        "ART-20260628-009195",
-        "ART-20260628-010084",
-        "ART-20260627-009201",
-        "ART-20260627-010088",
-        "ART-20260626-010090",
-        "ART-20260622-010097",
-        "ART-20260521-010091",
-        "ART-20260511-010094",
-        "ART-20260428-010093",
-        "ART-20260427-010092",
-        "ART-20260330-010096"
+        "ART-20260701-010100",
+        "ART-20260701-010105",
+        "ART-20260701-010106",
+        "ART-20260701-010200",
+        "ART-20260701-010207",
+        "ART-20260630-010102",
+        "ART-20260630-010104",
+        "ART-20260630-010106",
+        "ART-20260630-010108",
+        "ART-20260630-010109",
+        "ART-20260630-010110",
+        "ART-20260630-010112",
+        "ART-20260630-010202",
+        "ART-20260630-010203",
+        "ART-20260629-010201",
+        "ART-20260629-010205",
+        "ART-20260628-010103",
+        "ART-20260627-010101",
+        "ART-20260627-010107",
+        "ART-20260627-010206",
+        "ART-20260626-010105",
+        "ART-20260626-010204",
+        "ART-20260327-010099",
+        "ART-20260701-010086",
+        "ART-20260630-009063",
+        "ART-20260629-009061",
+        "ART-20260629-009067",
+        "ART-20260324-010098"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20260629-009046",
+        "ART-20260629-009062",
+        "ART-20260629-007876",
+        "ART-20260629-007900",
+        "ART-20260629-007905",
+        "ART-20260626-007622",
+        "ART-20260625-006122",
+        "ART-20260625-006125"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "ZAF-WATER-GREATER-ORANGE-FARM-PH3D",
-        "ZAF-WATER-INCHANGA-SEWER-RISING-MAIN-PKG2"
+        "ARG-ROAD-AUTOPISTA-DELLEPIANE",
+        "ARG-PORT-VILLA-CONSTITUCION-TERMINAL-I"
       ],
-      "updated": [],
+      "updated": [
+        "PAN-ROAD-CENTENARIO-ARRAIJAN-LACHORRERA-APP",
+        "URY-WATER-CASUPA-DAM",
+        "BRA-ROAD-ARTERIS-LITORAL-SUL-IMPROVEMENTS"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 1",
-    "articlePublishedDate": "2026. 6. 30",
-    "projectUpdatedDate": "2026. 6. 30"
+    "articleCollectedDate": "2026. 7. 2",
+    "articlePublishedDate": "2026. 7. 1",
+    "projectUpdatedDate": "2026. 7. 1"
   }
 }
