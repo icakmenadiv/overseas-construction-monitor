@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T22:53:48.269Z",
+  "updatedAt": "2026-07-01T10:56:26.585Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,86 +24,54 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 5555,
-    "projects": 2348
+    "articles": 5582,
+    "projects": 2350
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260630-009171",
-        "ART-20260630-009172",
-        "ART-20260630-009173",
-        "ART-20260630-009174",
-        "ART-20260630-009175",
-        "ART-20260630-009176",
-        "ART-20260630-009182",
-        "ART-20260630-009185",
-        "ART-20260630-009187",
-        "ART-20260630-009188",
-        "ART-20260629-009178",
-        "ART-20260629-009179",
-        "ART-20260629-009180",
-        "ART-20260629-009183",
-        "ART-20260629-009186",
-        "ART-20260628-009181",
-        "ART-20260626-009177",
-        "ART-20260626-009184"
+        "ART-20260630-009189",
+        "ART-20260630-009190",
+        "ART-20260630-009191",
+        "ART-20260630-009192",
+        "ART-20260630-009193",
+        "ART-20260630-009194",
+        "ART-20260630-009200",
+        "ART-20260630-009201",
+        "ART-20260630-010085",
+        "ART-20260629-009202",
+        "ART-20260629-009203",
+        "ART-20260629-010086",
+        "ART-20260629-010087",
+        "ART-20260629-010088",
+        "ART-20260629-010089",
+        "ART-20260629-010095",
+        "ART-20260628-009195",
+        "ART-20260628-010084",
+        "ART-20260627-009201",
+        "ART-20260627-010088",
+        "ART-20260626-010090",
+        "ART-20260622-010097",
+        "ART-20260521-010091",
+        "ART-20260511-010094",
+        "ART-20260428-010093",
+        "ART-20260427-010092",
+        "ART-20260330-010096"
       ],
       "updated": [],
-      "removed": [
-        "ART-20260609-009045",
-        "ART-20260627-006216",
-        "ART-20260626-007158",
-        "ART-20260625-007167",
-        "ART-20260624-006940",
-        "ART-20260624-005921",
-        "ART-20260623-005511",
-        "ART-20260622-005211",
-        "ART-20260619-004689",
-        "ART-20260326-003844",
-        "ART-20240422-004040",
-        "ART-20260601-002923"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "ISR-URBAN-E1-RESIDENTIAL-EMPLOYMENT-ZONE",
-        "ISR-URBAN-HAIFA-KIRYATELIEZER-COMPLEX13",
-        "JOR-OILGAS-AQABA-LPG-STORAGE-EXP",
-        "JOR-SOC-MADABA-PPP-HOSPITAL",
-        "JOR-WATER-ALBAQAA-WELL",
-        "JOR-WATER-MAAN-KARAK-NRW-UPGRADE",
-        "MOZ-ENERGY-AFUNGI-LNG-SOLAR-PLANT",
-        "LBY-OILGAS-SABRATHA-COMPRESSORS",
-        "LBY-OILGAS-SIRTE-FUEL-DEPOT",
-        "MOZ-DIGITAL-EMERGENCY-COMMUNICATION-SYSTEM",
-        "NGA-OILGAS-NLNG-TRAIN7-EXPANSION",
-        "ISR-URBAN-SHLOMI-BENGURION-RENEWAL"
+        "ZAF-WATER-GREATER-ORANGE-FARM-PH3D",
+        "ZAF-WATER-INCHANGA-SEWER-RISING-MAIN-PKG2"
       ],
-      "updated": [
-        "NGA-ROAD-SOKOTO-BADAGRY-SUPERHIGHWAY",
-        "MOZ-OILGAS-CORAL-NORTE-FLNG"
-      ],
-      "removed": [
-        "NPL-POWER-MARKICHOK-BHARATPUR-220KV",
-        "QAT-ENERGY-POWER-TRANSMISSION-EXP-2026",
-        "RWA-WATER-KIGALI-CENTRAL-SEWERAGE",
-        "VNM-ROAD-CHAUDOC-CANTHO-SOCTRANG-PH1",
-        "ARG-PORT-USHUAIA-CCTV-MONITORING",
-        "KEN-SOC-BOMAS-INTERNATIONAL-CONVENTION-COMPLEX",
-        "MYS-WATER-SERIAN-SUPPLY-PH2",
-        "OMN-OILGAS-SOHARPET-PTA-PET",
-        "ARG-ENERGY-FUNES-PEREZ-33KV-FEEDERS",
-        "ARG-ROAD-SANTAFE-SANTOTOME-CARRETERO-BRIDGE",
-        "NPL-POWER-MEWA-DHUNGESANGHU-132KV",
-        "PHL-RAIL-LRT1-CAVITE-EXTENSION",
-        "AUS-ROAD-FIFTEENTH-AVENUE-UPGRADE",
-        "SGP-WASTE-IWMF-PHASE2"
-      ]
+      "updated": [],
+      "removed": []
     }
   },
   "latest": {
