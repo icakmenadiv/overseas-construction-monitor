@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T18:25:20.188Z",
+  "updatedAt": "2026-07-01T11:46:13.127Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -220,6 +220,12 @@
         "article_detail_open": 1,
         "source_link_click": 1
       },
+      "ART-20260625-006122": {
+        "source_link_click": 1
+      },
+      "ART-20260625-006125": {
+        "source_link_click": 1
+      },
       "ART-20260625-006130": {
         "article_detail_open": 1
       },
@@ -292,6 +298,9 @@
       "ART-20260626-007231": {
         "article_detail_open": 1
       },
+      "ART-20260626-007622": {
+        "source_link_click": 1
+      },
       "ART-20260626-007710": {
         "source_link_click": 1
       },
@@ -340,8 +349,8 @@
         "article_detail_open": 1
       },
       "ART-20260629-007876": {
-        "article_detail_open": 1,
-        "source_link_click": 1
+        "article_detail_open": 2,
+        "source_link_click": 2
       },
       "ART-20260629-007879": {
         "article_detail_open": 1
@@ -362,7 +371,8 @@
         "article_detail_open": 1
       },
       "ART-20260629-007900": {
-        "article_detail_open": 1
+        "article_detail_open": 2,
+        "source_link_click": 1
       },
       "ART-20260629-007903": {
         "article_detail_open": 1
@@ -373,13 +383,19 @@
       "ART-20260629-008722": {
         "source_link_click": 1
       },
+      "ART-20260629-009046": {
+        "article_detail_open": 1
+      },
+      "ART-20260629-009062": {
+        "article_detail_open": 1
+      },
       "ART-20260630-008735": {
         "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 17
+        "market_page_visit": 20
       }
     },
     "project": {
@@ -407,7 +423,13 @@
       "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION": {
         "project_detail_open": 1
       },
+      "LTU-PORT-KLAIPEDA-SOUTHPORT": {
+        "project_detail_open": 1
+      },
       "MYS-TRANSPORT-SHAH-ALAM-LRT3": {
+        "project_detail_open": 1
+      },
+      "NPL-AIR-TARIGAUN-AIRPORT-UPGRADE": {
         "project_detail_open": 1
       },
       "OMN-ENERGY-ACME-DUQM-H2-AMMONIA-PH2PH3": {
@@ -416,7 +438,16 @@
       "OMN-IND-TROT-LIGHT-INDUSTRIES-COMPLEX": {
         "project_detail_open": 1
       },
+      "OMN-WATER-ALANSAB-ALAMERAT-STP-PPP": {
+        "project_detail_open": 1
+      },
+      "OMN-WATER-NORTH-BATINAH-IWP": {
+        "project_detail_open": 1
+      },
       "PAK-RAIL-ML3-ROHRI-TAFTAN": {
+        "project_detail_open": 1
+      },
+      "PAK-ROAD-KHARIAN-RAWALPINDI-M13": {
         "project_detail_open": 1
       },
       "PAK-ROAD-N5-RANIPUR-ROHRI-SECTION2": {
@@ -1017,6 +1048,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260625-006122",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-06-30T23:46:23.867Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260625-006125",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-01T01:12:00.036Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260625-006130",
       "eventType": "article_detail_open",
       "count": 1,
@@ -1199,6 +1244,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260626-007622",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-01T00:10:32.939Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260626-007710",
       "eventType": "source_link_click",
       "count": 1,
@@ -1320,15 +1372,15 @@
       "targetType": "article",
       "targetId": "ART-20260629-007876",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-30T01:46:39.260Z"
+      "count": 2,
+      "updatedAt": "2026-07-01T02:28:59.316Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260629-007876",
       "eventType": "source_link_click",
-      "count": 1,
-      "updatedAt": "2026-06-30T01:44:05.814Z"
+      "count": 2,
+      "updatedAt": "2026-07-01T02:29:05.626Z"
     },
     {
       "targetType": "article",
@@ -1376,8 +1428,15 @@
       "targetType": "article",
       "targetId": "ART-20260629-007900",
       "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-01T02:29:19.501Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-007900",
+      "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-06-30T01:51:56.899Z"
+      "updatedAt": "2026-07-01T02:29:21.335Z"
     },
     {
       "targetType": "article",
@@ -1402,6 +1461,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260629-009046",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-01T02:26:10.464Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-009062",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-01T02:25:29.204Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260630-008735",
       "eventType": "source_link_click",
       "count": 1,
@@ -1411,8 +1484,8 @@
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 17,
-      "updatedAt": "2026-06-30T06:21:31.566Z"
+      "count": 20,
+      "updatedAt": "2026-07-01T02:13:52.435Z"
     },
     {
       "targetType": "project",
@@ -1472,10 +1545,24 @@
     },
     {
       "targetType": "project",
+      "targetId": "LTU-PORT-KLAIPEDA-SOUTHPORT",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-01T00:36:13.642Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "MYS-TRANSPORT-SHAH-ALAM-LRT3",
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-30T08:33:40.079Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "NPL-AIR-TARIGAUN-AIRPORT-UPGRADE",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-06-30T23:47:10.629Z"
     },
     {
       "targetType": "project",
@@ -1493,10 +1580,31 @@
     },
     {
       "targetType": "project",
+      "targetId": "OMN-WATER-ALANSAB-ALAMERAT-STP-PPP",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-01T00:36:04.534Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "OMN-WATER-NORTH-BATINAH-IWP",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-01T00:35:57.488Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "PAK-RAIL-ML3-ROHRI-TAFTAN",
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-29T23:32:03.222Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "PAK-ROAD-KHARIAN-RAWALPINDI-M13",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-01T01:11:52.769Z"
     },
     {
       "targetType": "project",
