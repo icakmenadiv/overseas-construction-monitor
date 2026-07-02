@@ -558,7 +558,7 @@
     "중요도 수치값": "56",
     "최종 AI 가점": "",
     "조회수": "",
-    "원문클릭": "",
+    "원문클릭": "2",
     "중요도 표시": "중",
     "최종 중요도 수치값": "56"
   },
@@ -747,7 +747,7 @@
     "중요도 수치값": "54",
     "최종 AI 가점": "",
     "조회수": "",
-    "원문클릭": "",
+    "원문클릭": "1",
     "중요도 표시": "중",
     "최종 중요도 수치값": "54"
   },
@@ -2123,6 +2123,33 @@
     "최종 중요도 수치값": "39"
   },
   {
+    "원문게재일": "2026. 7. 1",
+    "기사수집일": "2026. 7. 2",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "석유가스·화학",
+    "주제": "유전개발",
+    "정보 분류": "프로젝트 정보",
+    "프로젝트 고유값": "IRQ-OILGAS-WESTQURNA2-FIELD-EVAL",
+    "프로젝트명": "West Qurna 2 Oilfield Evaluation and Partnership Project",
+    "기사 고유값": "ART-20260701-010569",
+    "관련 단계": "study",
+    "제목(한글)": "Basra Oil Company·Chevron, West Qurna 2 유전 평가용 NDA 체결",
+    "제목(원문)": "Iraq signs non-disclosure deal with Chevron to assess West Qurna 2 oilfield",
+    "내용": "Basra Oil Company는 2026년 7월 1일 Chevron과 West Qurna 2 유전 평가를 위한 비밀유지계약(NDA)을 체결했다. 이 계약은 기술·재무 데이터 공유를 통해 Chevron이 Basra주 West Qurna 2 유전을 평가하고 향후 파트너십 협상으로 이어질 수 있도록 하는 절차다. West Qurna 2는 Lukoil 철수 이후 국영 관리 상태이며, 약 140억 배럴의 회수가능 매장량과 제재·감산 전 하루 약 46만 배럴 생산규모가 보도됐다. 아직 최종 개발계약, CAPEX, EPC 패키지, 설비 증설 범위는 공개되지 않았으므로 현재 단계는 study로 본다.",
+    "분석": "기존 결과 탭에는 2026년 6월 17일 Chevron의 West Qurna 2·Nasiriyah 협상 진전 기사가 Nasiriyah 유전 프로젝트 중심으로 반영되어 있었지만, West Qurna 2 자체 프로젝트 기준행은 없었다. 이번 NDA는 West Qurna 2에 대한 기술·재무 데이터 평가 착수라는 별도 신규 사실이므로 Nasiriyah, Balad, Dhi Qar 탐사블록과 분리해 신규 프로젝트로 관리한다. 후속 확인사항은 Chevron의 평가 결과, 운영권·지분 구조, 개발계약, 생산시설·처리설비·집송관·시추·전력·수처리 패키지, 미국·이라크 승인 조건이다. 대형 유전 운영·개발 전환 성격상 1억 달러 이하 소형 사업으로 보기 어렵다.",
+    "중요도": "상 (52)",
+    "담당자 활용시 체크": "",
+    "출처언어": "영어",
+    "출처링크": "https://www.thenationalnews.com/business/energy/2026/07/01/iraq-signs-non-disclosure-deal-with-chevron-to-assess-west-qurna-2-oilfield/",
+    "중요도 수치값": "52",
+    "최종 AI 가점": "",
+    "조회수": "",
+    "원문클릭": "",
+    "중요도 표시": "상",
+    "최종 중요도 수치값": "52"
+  },
+  {
     "원문게재일": "2026. 6. 30",
     "기사수집일": "2026. 7. 2",
     "지역": "아시아",
@@ -2198,7 +2225,7 @@
     "출처링크": "https://www.ende.bo/nacional-internacional/vigentes",
     "중요도 수치값": "38",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "하",
     "최종 중요도 수치값": "38"
@@ -2225,8 +2252,8 @@
     "출처링크": "https://www.gub.uy/presidencia/comunicacion/noticias/ose-represa-casupa-licitacion-internacional-ferreri",
     "중요도 수치값": "72",
     "최종 AI 가점": "",
-    "조회수": "",
-    "원문클릭": "",
+    "조회수": "3",
+    "원문클릭": "2",
     "중요도 표시": "상",
     "최종 중요도 수치값": "72"
   },
@@ -2252,7 +2279,7 @@
     "출처링크": "https://www.mit.gob.ec/gobierno-del-presidente-daniel-noboa-inaugura-zonas-inclusivas-en-parques-a-nivel-nacional-con-una-inversion-de-usd-2-7-millones/",
     "중요도 수치값": "30",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "2",
     "원문클릭": "",
     "중요도 표시": "하",
     "최종 중요도 수치값": "30"
@@ -2279,7 +2306,7 @@
     "출처링크": "https://www.el19digital.com/articulos/ver/178899-agua-en-dulce-nombre-de-jesus-somotillo",
     "중요도 수치값": "30",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "하",
     "최종 중요도 수치값": "30"
@@ -2306,7 +2333,7 @@
     "출처링크": "https://www.elsalvador.com/dinero-y-negocios/entorno-economico/sector-construccion-el-salvador-opamss/1280980/2026/",
     "중요도 수치값": "30",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "하",
     "최종 중요도 수치값": "30"
@@ -2360,7 +2387,7 @@
     "출처링크": "https://www.timeline.cl/habra-cortes-de-transito-hasta-2028-comienzan-millonarias-obras-en-la-ruta-1-al-norte-de-tocopilla/",
     "중요도 수치값": "38",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "하",
     "최종 중요도 수치값": "38"
@@ -2387,8 +2414,8 @@
     "출처링크": "https://www.presidencia.gob.pa/publicacion/autorizan-licitacion-de-proyecto-app-para-modernizar-la-autopista-centenario-inversion-de-b-606-5-millones-que-generara-mas-de-12-mil-empleos",
     "중요도 수치값": "",
     "최종 AI 가점": "",
-    "조회수": "",
-    "원문클릭": ""
+    "조회수": "2",
+    "원문클릭": "1"
   },
   {
     "원문게재일": "2026-06-30",
@@ -2412,8 +2439,8 @@
     "출처링크": "https://www.bnamericas.com/en/features/trains-and-highways-dominate-mexicos-bidding-agenda-in-2026",
     "중요도 수치값": "45",
     "최종 AI 가점": "",
-    "조회수": "",
-    "원문클릭": "",
+    "조회수": "2",
+    "원문클릭": "1",
     "중요도 표시": "중",
     "최종 중요도 수치값": "45"
   },
@@ -5025,7 +5052,7 @@
     "출처링크": "https://www.gob.pe/institucion/anin/noticias/1413334-anin-inicia-obras-preliminares-para-modernizar-el-canal-miguel-checa-en-piura",
     "중요도 수치값": "38",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "중",
     "최종 중요도 수치값": "38"
@@ -7212,7 +7239,7 @@
     "출처링크": "https://www.mineducacion.gov.co/portal/salaprensa/Comunicados/429372%3AGobierno-Petro-deja-asegurada-la-mayor-transformacion-en-infraestructura-educativa-de-Colombia-con-inversiones-por-13-1-billones",
     "중요도 수치값": "42",
     "최종 AI 가점": "",
-    "조회수": "1",
+    "조회수": "2",
     "원문클릭": "",
     "중요도 표시": "중",
     "최종 중요도 수치값": "42"
@@ -7455,8 +7482,8 @@
     "출처링크": "https://www.proyectosmexico.gob.mx/proyectos/0975-puentes-y-viaductos-del-programa-nacional-de-infraestructura-carretera/",
     "중요도 수치값": "44",
     "최종 AI 가점": "",
-    "조회수": "1",
-    "원문클릭": "",
+    "조회수": "2",
+    "원문클릭": "1",
     "중요도 표시": "중",
     "최종 중요도 수치값": "44"
   },
@@ -7911,7 +7938,7 @@
     "중요도 수치값": "",
     "최종 AI 가점": "",
     "조회수": "",
-    "원문클릭": ""
+    "원문클릭": "1"
   },
   {
     "원문게재일": "2026. 6. 29",
@@ -9582,8 +9609,8 @@
     "출처링크": "https://www.oopp.gob.bo/nota_prensa/ministro-zamora-en-sacaba-hoy-se-licita-la-construccion-del-distribuidor-de-pacata/",
     "중요도 수치값": "54",
     "최종 AI 가점": "",
-    "조회수": "2",
-    "원문클릭": "2",
+    "조회수": "3",
+    "원문클릭": "3",
     "중요도 표시": "중",
     "최종 중요도 수치값": "54"
   },
@@ -10473,7 +10500,7 @@
     "출처링크": "https://www.petromindo.com/news/article/aslan-secures-pln-power-for-jakarta-ai-data-center",
     "중요도 수치값": "50",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "중",
     "최종 중요도 수치값": "50"
@@ -12714,7 +12741,7 @@
     "출처링크": "https://www.wise-pds.jp/news/2026/news2026062602.htm",
     "중요도 수치값": "68",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "상",
     "최종 중요도 수치값": "68"
@@ -12769,7 +12796,7 @@
     "중요도 수치값": "58",
     "최종 AI 가점": "",
     "조회수": "",
-    "원문클릭": "",
+    "원문클릭": "1",
     "중요도 표시": "중",
     "최종 중요도 수치값": "58"
   },
@@ -14821,7 +14848,7 @@
     "중요도 수치값": "46",
     "최종 AI 가점": "",
     "조회수": "",
-    "원문클릭": "",
+    "원문클릭": "1",
     "중요도 표시": "하",
     "최종 중요도 수치값": "46"
   },
@@ -14956,7 +14983,7 @@
     "중요도 수치값": "47",
     "최종 AI 가점": "",
     "조회수": "",
-    "원문클릭": "1",
+    "원문클릭": "3",
     "중요도 표시": "중",
     "최종 중요도 수치값": "47"
   },
@@ -19570,7 +19597,7 @@
     "출처링크": "https://timesofindia.indiatimes.com/city/mumbai/mmrda-kickstarts-land-acquisition-for-mumbai-vadhavan-connectivity-project/articleshow/132037187.cms",
     "중요도 수치값": "93",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "상",
     "최종 중요도 수치값": "93"
@@ -24509,7 +24536,7 @@
     "출처링크": "https://timesofindia.indiatimes.com/city/kolkata/lt-plans-rs-4500-crore-investment-data-centre-in-bengal/articleshow/132017565.cms",
     "중요도 수치값": "69",
     "최종 AI 가점": "",
-    "조회수": "",
+    "조회수": "1",
     "원문클릭": "",
     "중요도 표시": "중",
     "최종 중요도 수치값": "69"
