@@ -154,22 +154,36 @@
   }
 
   function parseCostValueSafe(value) {
-    if (typeof window.parseCostValue === "function") return window.parseCostValue(value);
     if (isUnknownCostSafe(value)) return 0;
-    const text = String(value || "").toLowerCase().replace(/,/g, "");
-    const firstNumber = Number((text.match(/[0-9]+(?:\.[0-9]+)?/) || [0])[0]);
-    if (!firstNumber) return 0;
-    if (text.includes("billion") || text.includes("bn")) return firstNumber * 1_000_000_000;
-    if (text.includes("million") || text.includes("mn") || text.includes("백만")) return firstNumber * 1_000_000;
-    if (text.includes("억") && text.includes("달러")) return firstNumber * 100_000_000;
-    if (text.includes("만") && text.includes("달러")) return firstNumber * 10_000;
-    return firstNumber;
+    const text = clean(value)
+      .toLowerCase()
+      .replace(/,/g, "")
+      .replace(/\([^)]*\)/g, " ");
+    const candidates = [];
+    collectCostCandidates(text, /([0-9]+(?:\.[0-9]+)?)\s*(?:billion|bn)\b/g, 1_000_000_000, candidates);
+    collectCostCandidates(text, /([0-9]+(?:\.[0-9]+)?)\s*(?:million|mn|m)\b/g, 1_000_000, candidates);
+    collectCostCandidates(text, /([0-9]+(?:\.[0-9]+)?)\s*백만\s*(?:달러|불|usd)?/g, 1_000_000, candidates);
+    collectCostCandidates(text, /([0-9]+(?:\.[0-9]+)?)\s*억\s*(?:달러|불|usd)?/g, 100_000_000, candidates);
+    collectCostCandidates(text, /([0-9]+(?:\.[0-9]+)?)\s*만\s*(?:달러|불|usd)/g, 10_000, candidates);
+    if (candidates.length) return Math.max(...candidates);
+
+    const literalDollarMatch =
+      text.match(/(?:usd|us\$|달러|불)\s*([0-9]+(?:\.[0-9]+)?)/) ||
+      text.match(/([0-9]+(?:\.[0-9]+)?)\s*(?:usd|us\$|달러|불)/);
+    return literalDollarMatch ? Number(literalDollarMatch[1]) : 0;
+  }
+
+  function collectCostCandidates(text, regex, multiplier, candidates) {
+    let match;
+    while ((match = regex.exec(text)) !== null) {
+      const amount = Number(match[1]);
+      if (Number.isFinite(amount) && amount > 0) candidates.push(amount * multiplier);
+    }
   }
 
   function isUnknownCostSafe(value) {
-    if (typeof window.isUnknownCost === "function") return window.isUnknownCost(value);
     const text = clean(value).toLowerCase();
-    return !text || /미확인|unknown|n\/a|-/.test(text);
+    return !text || /사업비\s*미확인|미공개|환산\s*미공개|unknown|n\/a|tbd|not\s+disclosed/.test(text);
   }
 
   function parseSheetDateSafe(value) {
