@@ -16,6 +16,26 @@
     });
   }
 
+  try {
+    const originalFetchRowsWithSheetFallback = fetchRowsWithSheetFallback;
+    fetchRowsWithSheetFallback = async function fetchRowsWithAiCostFallback(path, gid, range, bustCache = false) {
+      const rows = await originalFetchRowsWithSheetFallback(path, gid, range, bustCache);
+      if (path === CONFIG.PROJECT_DATA_URL && !rowsIncludeAiColumns(rows)) {
+        console.warn("Project cache does not include AI cost columns; reading source sheet range A:U.");
+        return fetchSheetRows(gid, AI_PROJECT_RANGE);
+      }
+      return rows;
+    };
+  } catch (error) {
+    console.warn("AI cost data fallback could not be installed.", error);
+  }
+
+  function rowsIncludeAiColumns(payload) {
+    const rows = Array.isArray(payload) ? payload : payload?.rows || payload?.projects || [];
+    if (!rows.length) return false;
+    return rows.some((row) => AI_PROJECT_COLUMNS.some((column) => Object.prototype.hasOwnProperty.call(row, column)));
+  }
+
   function normalizeProjectWithAiCost(row, representativeMeta = new Map()) {
     const officialCostText = clean(row["사업비(달러 기준 추정액)"] || "");
     const officialCostValue = parseCostValueForAi(officialCostText);
