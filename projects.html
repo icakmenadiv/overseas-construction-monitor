@@ -77,8 +77,8 @@
               <span>1천만불 이하 제외</span>
             </label>
             <label class="cost-toggle">
-              <input id="includeUnknownCost" type="checkbox" checked />
-              <span>사업비 미포함 제외</span>
+              <input id="includeAiEstimate" type="checkbox" checked />
+              <span>AI 추정 사업비 포함</span>
             </label>
           </div>
           <div class="field field-wide">
@@ -113,7 +113,7 @@
           <div class="action-buttons">
             <button type="button" id="resetButton">필터 초기화</button>
           </div>
-          <span id="activeFilterText">1천만불 이하 제외 · 사업비 미포함 제외</span>
+          <span id="activeFilterText">1천만불 이하 제외 · AI 추정 사업비 포함</span>
         </div>
       </section>
 
@@ -176,6 +176,7 @@
 
     <script src="./projects.js?v=20260623-restore-2"></script>
     <script src="./project-interest-sort.js?v=20260702-cost-1"></script>
+    <script src="./project-ai-cost.js?v=20260702-ai-cost-1"></script>
     <script src="./monitor-core-ui.js?v=20260624-7"></script>
     <script src="./view-tracking.js?v=20260624-3"></script>
   </body>
