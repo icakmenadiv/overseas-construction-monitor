@@ -6,7 +6,7 @@ const CONFIG = {
   RESULT_GID: "748239675",
   PROJECT_GID: "20260612",
   RESULT_RANGE: "A1:S50000",
-  PROJECT_RANGE: "A1:M20000",
+  PROJECT_RANGE: "A1:U20000",
 };
 
 const RESULT_COLUMNS = [
@@ -36,6 +36,7 @@ const RESULT_COLUMNS = [
 ];
 
 const INTEREST_COUNT_COLUMNS = ["관심도", "관심도 집계", "관심수", "하트수", "관심도 수치"];
+const AI_PROJECT_COLUMNS = ["사업비 확인상태", "AI추정사업비", "AI 추정 신뢰도", "AI 추정근거", "AI 규모 노출등급"];
 
 const PROJECT_COLUMNS = [
   "프로젝트 고유값",
@@ -51,6 +52,7 @@ const PROJECT_COLUMNS = [
   "대표 기사 고유값",
   "비고",
   "대표 기사 정보 분류",
+  ...AI_PROJECT_COLUMNS,
 ];
 
 const els = {
@@ -133,13 +135,17 @@ async function fetchRowsWithSheetFallback(path, gid, range) {
   try {
     const payload = await fetchJson(path);
     const rows = Array.isArray(payload) ? payload : payload?.rows || payload?.articles || payload?.projects || [];
-    if (rows.length) return rows;
-    throw new Error(`Static cache is empty: ${path}`);
+    if (rows.length && (path !== CONFIG.PROJECT_DATA_URL || rowsIncludeAiColumns(rows))) return rows;
+    throw new Error(`Static cache is empty or incomplete: ${path}`);
   } catch (error) {
     console.warn("Static cache unavailable; reading source sheet once.", error);
     if (els.syncStatus) els.syncStatus.textContent = "캐시 비어 있음 - 시트 원본 확인 중...";
-    return fetchSheetRows(gid, range);
+    return fetchSheetRows(gid, path === CONFIG.PROJECT_DATA_URL ? CONFIG.PROJECT_RANGE : range);
   }
+}
+
+function rowsIncludeAiColumns(rows) {
+  return rows.some((row) => AI_PROJECT_COLUMNS.some((column) => Object.prototype.hasOwnProperty.call(row, column)));
 }
 
 async function fetchSheetRows(gid, range) {
@@ -338,30 +344,49 @@ function normalizeComparableTitle(value) {
 function renderProject(project, articleItems) {
   const latestDate = parseSheetDate(project["최근 업데이트일"]);
   const costText = project["사업비(달러 기준 추정액)"] || "사업비 미확인";
+  const officialCostKnown = isKnownCostText(costText);
+  const aiCostText = project["AI추정사업비"] || "";
+  const hasAiEstimate = !officialCostKnown && isKnownCostText(aiCostText);
+  const metaCards = [
+    metaCard("지역", project["지역"] || "-"),
+    metaCard("국가", project["국가"] || "-"),
+    metaCard("섹터", project["섹터"] || "-"),
+    metaCard("발주처", project["발주처"] || "-"),
+    metaCard("사업비(USD)", formatCost(costText)),
+  ];
+
+  if (hasAiEstimate) {
+    metaCards.push(metaCard("AI 추정사업비", `${formatCost(aiCostText)} (AI 추정)`));
+    if (project["AI 추정 신뢰도"]) metaCards.push(metaCard("AI 추정 신뢰도", project["AI 추정 신뢰도"]));
+    if (project["AI 추정근거"]) metaCards.push(metaCard("AI 추정근거", project["AI 추정근거"]));
+  }
+
+  metaCards.push(
+    metaCard("환산 기준", project["사업비 환산 환율 / 기준"] || "-"),
+    metaCard("현재 단계", project["현재 단계"] || "-"),
+    metaCard("최근 업데이트일", formatDate(latestDate) || project["최근 업데이트일"] || "-"),
+    metaCard("관련 기사", `${numberFormat(articleItems.length)}건`),
+  );
+
   els.loadingState.hidden = true;
   els.errorState.hidden = true;
   els.emptyState.hidden = true;
   els.projectContent.hidden = false;
   els.projectTitle.textContent = project["프로젝트명"] || "프로젝트명 미입력";
   els.projectSubtitle.textContent = `${project["국가"] || "국가 미확인"} · ${project["섹터"] || "섹터 미확인"} · 관련 기사 ${numberFormat(articleItems.length)}건`;
-  els.projectMetaGrid.innerHTML = [
-    metaCard("지역", project["지역"] || "-"),
-    metaCard("국가", project["국가"] || "-"),
-    metaCard("섹터", project["섹터"] || "-"),
-    metaCard("발주처", project["발주처"] || "-"),
-    metaCard("사업비(USD)", formatCost(costText)),
-    metaCard("환산 기준", project["사업비 환산 환율 / 기준"] || "-"),
-    metaCard("현재 단계", project["현재 단계"] || "-"),
-    metaCard("최근 업데이트일", formatDate(latestDate) || project["최근 업데이트일"] || "-"),
-    metaCard("관련 기사", `${numberFormat(articleItems.length)}건`),
-  ].join("");
+  els.projectMetaGrid.innerHTML = metaCards.join("");
   els.projectArticles.innerHTML = articleItems.length ? articleItems.map(renderArticleCard).join("") : `<div class="state-box">연결된 관련 기사가 없습니다.</div>`;
+}
+
+function isKnownCostText(value) {
+  const text = String(value || "").trim().toLowerCase();
+  return Boolean(text) && !/사업비\s*미확인|미공개|환산\s*미공개|ai\s*추정\s*불가|unknown|n\/a|tbd|not\s+disclosed/.test(text);
 }
 
 function formatCost(value) {
   const text = String(value || "").trim();
-  if (!text || text === "사업비 미확인" || text === "미공개") return "사업비 미확인";
-  return text.replace(/^약\s*/, "");
+  if (!isKnownCostText(text)) return "사업비 미확인";
+  return text.replace(/^약\s*/, "").replace(/\s*\(ai\)\s*$/i, "");
 }
 
 function renderArticleCard({ mapping, article }) {
