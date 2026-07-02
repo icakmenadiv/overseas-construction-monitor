@@ -7,7 +7,6 @@
     "AI 추정근거",
     "AI 규모 노출등급",
   ];
-  const HEART_WEIGHT = 5;
 
   if (typeof CONFIG === "object") CONFIG.PROJECT_RANGE = AI_PROJECT_RANGE;
   if (Array.isArray(PROJECT_COLUMNS)) {
@@ -29,6 +28,8 @@
   } catch (error) {
     console.warn("AI cost data fallback could not be installed.", error);
   }
+
+  const originalSortProjects = typeof sortProjects === "function" ? sortProjects : null;
 
   function rowsIncludeAiColumns(payload) {
     const rows = Array.isArray(payload) ? payload : payload?.rows || payload?.projects || [];
@@ -100,7 +101,6 @@
     const sectors = getCheckedValues(els.sectorFilter);
     const stages = getCheckedValues(els.stageFilter);
     const excludeSmallCost = Boolean(els.includeSmallCost?.checked);
-    const includeAiEstimate = Boolean(document.getElementById("includeAiEstimate")?.checked ?? true);
 
     let projects = state.projects.filter((project) => {
       const keywordOk =
@@ -128,9 +128,8 @@
       const countryOk = !countries.length || countries.includes(project.country);
       const sectorOk = !sectors.length || sectors.includes(project.sector);
       const stageOk = !stages.length || stages.includes(project.stage);
-      const costOk = project.officialCostKnown || (includeAiEstimate && project.hasAiEstimate);
-      const smallCostOk = !excludeSmallCost || !isSmallCost(project);
-      return keywordOk && regionOk && countryOk && sectorOk && stageOk && costOk && smallCostOk;
+      const smallCostOk = !excludeSmallCost || !isSmallCostWithAiToggle(project);
+      return keywordOk && regionOk && countryOk && sectorOk && stageOk && smallCostOk;
     });
 
     projects = sortProjects(projects, els.sortSelect?.value || "cost:desc");
@@ -141,11 +140,18 @@
     updateActiveFilterTextWithAiCost();
   }
 
+  function sortProjectsWithAiCost(projects, sortValue) {
+    const [key, direction] = String(sortValue || "cost:desc").split(":");
+    const multiplier = direction === "desc" ? -1 : 1;
+    if (key !== "cost" && originalSortProjects) return originalSortProjects(projects, sortValue);
+    return [...projects].sort((a, b) => (getActiveCostValue(a) - getActiveCostValue(b)) * multiplier || clean(a.name).localeCompare(clean(b.name), "ko"));
+  }
+
   function renderFeaturedProjectsWithAiCost() {
     if (!els.featuredProjects) return;
     const featured = [...state.filteredProjects]
-      .filter((project) => project.costKnown)
-      .sort((a, b) => b.costValue - a.costValue)
+      .filter((project) => getActiveCostValue(project) > 0)
+      .sort((a, b) => getActiveCostValue(b) - getActiveCostValue(a))
       .slice(0, 3);
     els.featuredProjects.hidden = featured.length === 0;
     if (!featured.length) {
@@ -158,7 +164,7 @@
           <span>대표 프로젝트</span>
           <h2>사업비 규모 기준 상위 3건</h2>
         </div>
-        <p>현재 필터 결과에서 공식 사업비와 AI 추정사업비를 함께 기준으로 표시합니다.</p>
+        <p>현재 필터 결과에서 공식 사업비와 선택 시 AI 추정사업비를 함께 기준으로 표시합니다.</p>
       </div>
       <div class="featured-project-card-grid">${featured.map(renderFeaturedProjectCard).join("")}</div>`;
   }
@@ -171,17 +177,33 @@
     pushSelectedFilter(filters, "섹터", getCheckedValues(els.sectorFilter));
     pushSelectedFilter(filters, "단계", getCheckedValues(els.stageFilter));
     filters.push(els.includeSmallCost?.checked ? "1천만불 이하 제외" : "1천만불 이하 포함");
-    filters.push(document.getElementById("includeAiEstimate")?.checked ? "AI 추정 사업비 포함" : "공식 사업비만");
+    filters.push(isAiEstimateIncluded() ? "AI 추정 사업비 포함" : "공식 사업비만 표시");
     els.activeFilterText.textContent = filters.join(" · ");
   }
 
   function formatCostWithAiCost(project) {
-    if (!project.costKnown) return "사업비 미확인";
+    const activeValue = getActiveCostValue(project);
+    if (!activeValue) return "사업비 미확인";
     const amount =
-      project.costValue >= CONFIG.HUNDRED_MILLION_USD
-        ? `${formatCompactAmount(project.costValue / CONFIG.HUNDRED_MILLION_USD)}억불`
-        : `${formatCompactAmount(project.costValue / CONFIG.MILLION_USD)}백만불`;
-    return project.hasAiEstimate ? `${amount} (AI 추정)` : amount;
+      activeValue >= CONFIG.HUNDRED_MILLION_USD
+        ? `${formatCompactAmount(activeValue / CONFIG.HUNDRED_MILLION_USD)}억불`
+        : `${formatCompactAmount(activeValue / CONFIG.MILLION_USD)}백만불`;
+    return project.hasAiEstimate && !project.officialCostKnown && isAiEstimateIncluded() ? `${amount} (AI 추정)` : amount;
+  }
+
+  function getActiveCostValue(project) {
+    if (project.officialCostKnown) return project.officialCostValue || project.costValue || 0;
+    if (isAiEstimateIncluded() && project.hasAiEstimate) return project.aiCostValue || project.costValue || 0;
+    return 0;
+  }
+
+  function isSmallCostWithAiToggle(project) {
+    const activeValue = getActiveCostValue(project);
+    return activeValue > 0 && activeValue <= CONFIG.SMALL_COST_THRESHOLD_USD;
+  }
+
+  function isAiEstimateIncluded() {
+    return Boolean(document.getElementById("includeAiEstimate")?.checked ?? true);
   }
 
   function parseCostValueForAi(value) {
@@ -254,12 +276,14 @@
   window.applyProjectFilters = applyFiltersWithAiCost;
   window.renderFeaturedProjects = renderFeaturedProjectsWithAiCost;
   window.formatCost = formatCostWithAiCost;
+  window.sortProjects = sortProjectsWithAiCost;
 
   try {
     normalizeProject = normalizeProjectWithAiCost;
     applyFilters = applyFiltersWithAiCost;
     renderFeaturedProjects = renderFeaturedProjectsWithAiCost;
     formatCost = formatCostWithAiCost;
+    sortProjects = sortProjectsWithAiCost;
   } catch (error) {
     console.warn("AI cost override could not rebind every project function.", error);
   }
