@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T19:14:58.331Z",
+  "updatedAt": "2026-07-02T10:20:38.980Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -289,6 +289,9 @@
       "ART-20260626-007067": {
         "source_link_click": 1
       },
+      "ART-20260626-007071": {
+        "article_detail_open": 1
+      },
       "ART-20260626-007219": {
         "article_detail_open": 1
       },
@@ -323,6 +326,15 @@
       "ART-20260626-007892": {
         "article_detail_open": 1
       },
+      "ART-20260626-008714": {
+        "article_detail_open": 1
+      },
+      "ART-20260626-008737": {
+        "source_link_click": 1
+      },
+      "ART-20260627-007723": {
+        "article_detail_open": 1
+      },
       "ART-20260627-007736": {
         "article_detail_open": 1
       },
@@ -338,8 +350,11 @@
       "ART-20260628-007744": {
         "article_detail_open": 1
       },
-      "ART-20260628-007767": {
+      "ART-20260628-007762": {
         "source_link_click": 1
+      },
+      "ART-20260628-007767": {
+        "source_link_click": 3
       },
       "ART-20260628-007777": {
         "article_detail_open": 1,
@@ -349,8 +364,8 @@
         "article_detail_open": 1
       },
       "ART-20260629-007876": {
-        "article_detail_open": 2,
-        "source_link_click": 2
+        "article_detail_open": 3,
+        "source_link_click": 3
       },
       "ART-20260629-007879": {
         "article_detail_open": 1
@@ -383,26 +398,75 @@
       "ART-20260629-008722": {
         "source_link_click": 1
       },
-      "ART-20260629-009046": {
+      "ART-20260629-008741": {
         "article_detail_open": 1
+      },
+      "ART-20260629-009046": {
+        "article_detail_open": 2
       },
       "ART-20260629-009062": {
-        "article_detail_open": 1
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260629-009116": {
+        "source_link_click": 1
       },
       "ART-20260630-008735": {
+        "source_link_click": 1
+      },
+      "ART-20260630-010102": {
+        "article_detail_open": 1
+      },
+      "ART-20260630-010104": {
+        "article_detail_open": 3,
+        "source_link_click": 2
+      },
+      "ART-20260630-010106": {
+        "article_detail_open": 2
+      },
+      "ART-20260630-010108": {
+        "article_detail_open": 1
+      },
+      "ART-20260630-010109": {
+        "article_detail_open": 1
+      },
+      "ART-20260630-010112": {
+        "article_detail_open": 1
+      },
+      "ART-20260630-010202": {
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260630-010203": {
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260701-010086": {
+        "article_detail_open": 1
+      },
+      "ART-20260701-010221": {
+        "source_link_click": 2
+      },
+      "ART-20260701-010308": {
         "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 20
+        "market_page_visit": 21
       }
     },
     "project": {
+      "AUS-ENERGY-HUMELINK-500KV": {
+        "project_detail_open": 1
+      },
       "AUS-ENERGY-MOORABOOL-BESS-VBB2": {
         "project_detail_open": 1
       },
       "BGR-ENERGY-KOZLODUY-UNITS-7-8": {
+        "project_detail_open": 1
+      },
+      "CHL-IND-MEJILLONES-LOGISTICS-PLATFORM": {
         "project_detail_open": 1
       },
       "DZA-OILGAS-TSGP-ALGERIAN-SECTION": {
@@ -411,10 +475,25 @@
       "ECU-ROAD-PUENTE-VICTORIA-SHUSHUFINDI": {
         "project_detail_open": 1
       },
+      "EGY-TRANSPORT-INTERNATIONAL-COASTAL-ROAD": {
+        "project_detail_open": 1
+      },
+      "EGY-URBAN-VIE-COLLECTIVE-NEWCAIRO": {
+        "project_detail_open": 1
+      },
       "GBR-ENERGY-SIZEWELL-C": {
-        "project_detail_open": 2
+        "project_detail_open": 3
       },
       "GBR-ROAD-LOWER-THAMES-CROSSING": {
+        "project_detail_open": 1
+      },
+      "HUN-RAIL-SOUTHERN-CIRCLE-PH3": {
+        "project_detail_open": 1
+      },
+      "IDN-WATER-JAVA-GIANT-SEA-WALL": {
+        "project_detail_open": 2
+      },
+      "IND-RAIL-MUMBAI-PUNE-HYDERABAD-HSR": {
         "project_detail_open": 1
       },
       "IRN-ENERGY-HORMOZ-SIRIK-NPP": {
@@ -439,9 +518,15 @@
         "project_detail_open": 1
       },
       "OMN-WATER-ALANSAB-ALAMERAT-STP-PPP": {
+        "project_detail_open": 2
+      },
+      "OMN-WATER-DHOFAR-2030-IWP": {
         "project_detail_open": 1
       },
       "OMN-WATER-NORTH-BATINAH-IWP": {
+        "project_detail_open": 2
+      },
+      "PAK-ENERGY-KOEN-SWAT-HYDROPOWER": {
         "project_detail_open": 1
       },
       "PAK-RAIL-ML3-ROHRI-TAFTAN": {
@@ -456,10 +541,25 @@
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
         "project_detail_open": 1
       },
+      "SAU-WATER-RIYADH-NORTH-ISTP": {
+        "project_detail_open": 1
+      },
       "THA-WATER-RAYONG-EEC-DRAINAGE": {
         "project_detail_open": 1
       },
       "UAE-URBAN-EMAAR-AED200BN-MASTERPLAN": {
+        "project_detail_open": 1
+      },
+      "UAE-WATER-DUBAI-DSST": {
+        "project_detail_open": 1
+      },
+      "UKR-ROAD-N02-KREMENETS-POCHAIV-BRIDGE": {
+        "project_detail_open": 1
+      },
+      "UZB-RAIL-TASHKENT-SAMARKAND-HSR": {
+        "project_detail_open": 1
+      },
+      "VNM-RAIL-HANOI-METRO-LINES-1-2-8-10-14": {
         "project_detail_open": 1
       }
     }
@@ -1223,6 +1323,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260626-007071",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T08:07:44.003Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260626-007219",
       "eventType": "article_detail_open",
       "count": 1,
@@ -1307,6 +1414,27 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260626-008714",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T08:07:35.487Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260626-008737",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-02T08:17:30.063Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260627-007723",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T02:20:59.645Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260627-007736",
       "eventType": "article_detail_open",
       "count": 1,
@@ -1342,10 +1470,17 @@
     },
     {
       "targetType": "article",
-      "targetId": "ART-20260628-007767",
+      "targetId": "ART-20260628-007762",
       "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-06-29T00:56:40.710Z"
+      "updatedAt": "2026-07-01T23:49:05.654Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260628-007767",
+      "eventType": "source_link_click",
+      "count": 3,
+      "updatedAt": "2026-07-02T00:09:02.271Z"
     },
     {
       "targetType": "article",
@@ -1372,15 +1507,15 @@
       "targetType": "article",
       "targetId": "ART-20260629-007876",
       "eventType": "article_detail_open",
-      "count": 2,
-      "updatedAt": "2026-07-01T02:28:59.316Z"
+      "count": 3,
+      "updatedAt": "2026-07-02T05:02:41.367Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260629-007876",
       "eventType": "source_link_click",
-      "count": 2,
-      "updatedAt": "2026-07-01T02:29:05.626Z"
+      "count": 3,
+      "updatedAt": "2026-07-02T05:03:22.588Z"
     },
     {
       "targetType": "article",
@@ -1461,17 +1596,38 @@
     },
     {
       "targetType": "article",
-      "targetId": "ART-20260629-009046",
+      "targetId": "ART-20260629-008741",
       "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-07-01T02:26:10.464Z"
+      "updatedAt": "2026-07-02T08:51:00.007Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-009046",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-02T05:01:54.131Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260629-009062",
       "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-02T05:02:06.479Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-009062",
+      "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-07-01T02:25:29.204Z"
+      "updatedAt": "2026-07-02T05:02:21.441Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260629-009116",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-02T08:51:08.187Z"
     },
     {
       "targetType": "article",
@@ -1481,11 +1637,116 @@
       "updatedAt": "2026-06-30T08:27:57.800Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260630-010102",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T04:28:00.849Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010104",
+      "eventType": "article_detail_open",
+      "count": 3,
+      "updatedAt": "2026-07-02T05:01:37.575Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010104",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-02T04:47:56.307Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010106",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-02T04:47:46.895Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010108",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T04:28:04.086Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010109",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T04:28:53.800Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010112",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T04:29:32.626Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010202",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-02T05:04:40.631Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010202",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-02T05:04:42.445Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010203",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-02T05:03:53.971Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010203",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-02T05:03:55.916Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260701-010086",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T04:27:26.371Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260701-010221",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-02T06:21:09.619Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260701-010308",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-02T00:26:39.036Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 20,
-      "updatedAt": "2026-07-01T02:13:52.435Z"
+      "count": 21,
+      "updatedAt": "2026-07-02T00:55:13.305Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "AUS-ENERGY-HUMELINK-500KV",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T00:15:28.689Z"
     },
     {
       "targetType": "project",
@@ -1503,6 +1764,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "CHL-IND-MEJILLONES-LOGISTICS-PLATFORM",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T05:00:56.194Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "DZA-OILGAS-TSGP-ALGERIAN-SECTION",
       "eventType": "project_detail_open",
       "count": 1,
@@ -1517,10 +1785,24 @@
     },
     {
       "targetType": "project",
+      "targetId": "EGY-TRANSPORT-INTERNATIONAL-COASTAL-ROAD",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T08:02:14.756Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "EGY-URBAN-VIE-COLLECTIVE-NEWCAIRO",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T01:02:11.976Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "GBR-ENERGY-SIZEWELL-C",
       "eventType": "project_detail_open",
-      "count": 2,
-      "updatedAt": "2026-06-26T01:54:08.302Z"
+      "count": 3,
+      "updatedAt": "2026-07-02T01:01:00.375Z"
     },
     {
       "targetType": "project",
@@ -1528,6 +1810,27 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T07:06:55.349Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "HUN-RAIL-SOUTHERN-CIRCLE-PH3",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-01T23:56:48.331Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "IDN-WATER-JAVA-GIANT-SEA-WALL",
+      "eventType": "project_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-02T02:17:04.616Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "IND-RAIL-MUMBAI-PUNE-HYDERABAD-HSR",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T05:24:09.439Z"
     },
     {
       "targetType": "project",
@@ -1582,15 +1885,29 @@
       "targetType": "project",
       "targetId": "OMN-WATER-ALANSAB-ALAMERAT-STP-PPP",
       "eventType": "project_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-02T00:13:23.786Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "OMN-WATER-DHOFAR-2030-IWP",
+      "eventType": "project_detail_open",
       "count": 1,
-      "updatedAt": "2026-07-01T00:36:04.534Z"
+      "updatedAt": "2026-07-02T00:15:16.675Z"
     },
     {
       "targetType": "project",
       "targetId": "OMN-WATER-NORTH-BATINAH-IWP",
       "eventType": "project_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-02T00:09:55.377Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "PAK-ENERGY-KOEN-SWAT-HYDROPOWER",
+      "eventType": "project_detail_open",
       "count": 1,
-      "updatedAt": "2026-07-01T00:35:57.488Z"
+      "updatedAt": "2026-07-02T06:16:48.307Z"
     },
     {
       "targetType": "project",
@@ -1622,6 +1939,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "SAU-WATER-RIYADH-NORTH-ISTP",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T00:11:52.909Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "THA-WATER-RAYONG-EEC-DRAINAGE",
       "eventType": "project_detail_open",
       "count": 1,
@@ -1633,6 +1957,34 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T06:56:08.314Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "UAE-WATER-DUBAI-DSST",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T05:28:49.648Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "UKR-ROAD-N02-KREMENETS-POCHAIV-BRIDGE",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T08:13:19.887Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "UZB-RAIL-TASHKENT-SAMARKAND-HSR",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T04:58:53.356Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "VNM-RAIL-HANOI-METRO-LINES-1-2-8-10-14",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T02:40:00.151Z"
     }
   ]
 }
