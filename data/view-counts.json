@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T18:19:13.294Z",
+  "updatedAt": "2026-07-03T10:17:33.261Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -411,6 +411,9 @@
       "ART-20260629-009116": {
         "source_link_click": 1
       },
+      "ART-20260629-010658": {
+        "article_detail_open": 1
+      },
       "ART-20260630-008735": {
         "source_link_click": 1
       },
@@ -434,11 +437,24 @@
         "article_detail_open": 1
       },
       "ART-20260630-010202": {
-        "article_detail_open": 2,
+        "article_detail_open": 3,
         "source_link_click": 1
       },
       "ART-20260630-010203": {
         "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260630-010224": {
+        "source_link_click": 1
+      },
+      "ART-20260630-010320": {
+        "source_link_click": 1
+      },
+      "ART-20260630-010582": {
+        "article_detail_open": 1
+      },
+      "ART-20260630-010593": {
+        "article_detail_open": 1,
         "source_link_click": 1
       },
       "ART-20260701-010086": {
@@ -449,11 +465,35 @@
       },
       "ART-20260701-010308": {
         "source_link_click": 1
+      },
+      "ART-20260701-010594": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260701-010619": {
+        "source_link_click": 1
+      },
+      "ART-20260702-010584": {
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260702-010596": {
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260702-010626": {
+        "source_link_click": 1
+      },
+      "ART-20260702-010628": {
+        "source_link_click": 1
+      },
+      "ART-20260702-010657": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 21
+        "market_page_visit": 23
       }
     },
     "project": {
@@ -538,6 +578,9 @@
       "PAK-ROAD-N5-RANIPUR-ROHRI-SECTION2": {
         "project_detail_open": 1
       },
+      "PAN-WATER-RIO-INDIO-RESERVOIR": {
+        "project_detail_open": 1
+      },
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
         "project_detail_open": 1
       },
@@ -557,6 +600,9 @@
         "project_detail_open": 1
       },
       "UZB-RAIL-TASHKENT-SAMARKAND-HSR": {
+        "project_detail_open": 1
+      },
+      "VNM-IND-KARCHER-DANANG-FACTORY-PH2": {
         "project_detail_open": 1
       },
       "VNM-RAIL-HANOI-METRO-LINES-1-2-8-10-14": {
@@ -1631,6 +1677,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260629-010658",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-03T00:34:03.968Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260630-008735",
       "eventType": "source_link_click",
       "count": 1,
@@ -1689,8 +1742,8 @@
       "targetType": "article",
       "targetId": "ART-20260630-010202",
       "eventType": "article_detail_open",
-      "count": 2,
-      "updatedAt": "2026-07-02T05:04:40.631Z"
+      "count": 3,
+      "updatedAt": "2026-07-02T23:54:29.619Z"
     },
     {
       "targetType": "article",
@@ -1715,6 +1768,41 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260630-010224",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-03T02:07:06.961Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010320",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-03T04:27:27.922Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010582",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T23:51:58.870Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010593",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T23:56:22.032Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260630-010593",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-02T23:56:39.577Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260701-010086",
       "eventType": "article_detail_open",
       "count": 1,
@@ -1735,11 +1823,81 @@
       "updatedAt": "2026-07-02T00:26:39.036Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260701-010594",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-02T23:59:02.700Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260701-010594",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-02T23:59:04.254Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260701-010619",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-03T06:40:26.906Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010584",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-03T00:07:06.276Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010584",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-03T00:07:08.724Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010596",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-03T00:01:34.669Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010596",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-03T00:01:36.291Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010626",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-03T02:15:05.807Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010628",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-03T02:00:14.691Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010657",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-03T00:33:45.828Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 21,
-      "updatedAt": "2026-07-02T00:55:13.305Z"
+      "count": 23,
+      "updatedAt": "2026-07-03T04:28:05.719Z"
     },
     {
       "targetType": "project",
@@ -1932,6 +2090,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "PAN-WATER-RIO-INDIO-RESERVOIR",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-03T00:00:14.018Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "SAU-OILGAS-RASTANURA-GART22-PIPELINE",
       "eventType": "project_detail_open",
       "count": 1,
@@ -1978,6 +2143,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-07-02T04:58:53.356Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "VNM-IND-KARCHER-DANANG-FACTORY-PH2",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-03T00:02:36.447Z"
     },
     {
       "targetType": "project",
