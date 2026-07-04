@@ -45,6 +45,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KGZ-WATER-OSH-WATER-SUPPLY-RESERVOIRS",
+    "프로젝트명": "Osh Water Pipeline, Reservoirs and Wells Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "수자원·환경",
+    "발주처": "Osh City Mayor's Office / municipal water services",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011291",
+    "비고": "Osh시 안정적 식수 공급을 위한 신규 상수관 2.4km, 저수조 5곳, 신규 관정 10곳 건설 계획. 단기 상수관 운영개시와 장기 저수조·관정 확충이 함께 언급됨. 후속 예산, 설계, 입찰, 저수조 용량, 관정 굴착 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-ROAD-BENI-JOMSOM-KORALA",
     "프로젝트명": "Beni-Jomsom-Korala Road Project",
     "지역": "아시아",
@@ -57,6 +72,36 @@
     "최근 업데이트일": "2026. 7. 4",
     "대표 기사 고유값": "ART-20260704-011216",
     "비고": "Beni-Jomsom-Korala 북남 교통축 도로개량 프로젝트. 2026-07-04 기준 장관 현장점검, Jomsom-Kagbeni 개량 및 Kagbeni-Chhusang 포장 진행, Korala 구간 5개 도로교량 입찰 가속 지시, Chhusang-Ghami 50km 개량·포장 예산 배정 확인. 후속 교량 입찰공고, 낙찰자, 계약금액, Korala 접경 연결 구간 공정률, 산사태·홍수 대응 구조물 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "POL-ENERGY-CPK-AIRPORT-POWER-SUPPLY",
+    "프로젝트명": "CPK Airport Target Power Supply Infrastructure Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "에너지",
+    "발주처": "Centralny Port Komunikacyjny / Port Polska",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-04 원문에서는 RPZ 4개소, GPO-C, 비상발전기, 110kV 케이블, 중전압망 등 범위만 확인됨.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011252",
+    "비고": "CPK 신공항 목표 전력공급 인프라 패키지. 110/15kV RPZ 4개소, GPO-C, 비상 발전기 시설, 110kV 케이블, 중전압망, 향후 ESS·태양광 연계를 포함할 수 있는 전력 인프라. 2026-08-05 참가신청 마감, 최대 5개 업체 경쟁대화 예정. 후속 숏리스트·낙찰·PSE/PGE 접속공사 연계 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SAU-HOUSING-ALMANAR-RETAL-163HOMES",
+    "프로젝트명": "Retal-ROSHN AlManar Community 163 Homes Development",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "도시개발·주택",
+    "발주처": "Retal Urban Development / ROSHN Group",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "기사 내 SAR 123.83mn은 조건부 토지매입·개발계약 금액으로 확인되나, 전체 공사비 또는 총사업비로 확정하기 어려워 사업비열은 미확인 유지.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011283",
+    "비고": "Makkah Al-Mukarramah AlManar Community 내 163가구 주거개발. Retal Urban Development가 ROSHN Group과 조건부 토지매입·개발계약 2건 체결, 개발기간 36개월. 후속 시공계약, 설계·인허가, 착공, ROSHN 커뮤니티 인프라 패키지 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -75,6 +120,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TJK-IND-KRISTALL-GREEN-GLASS",
+    "프로젝트명": "Kristall Green Glass Modern Glass Manufacturing Complex Project",
+    "지역": "중앙아시아",
+    "국가": "타지키스탄",
+    "섹터": "산업·물류",
+    "발주처": "Government of Tajikistan / LLC Kristall Green Glass / State Committee on Investment and State Property Management",
+    "사업비(달러 기준 추정액)": "USD 120mn",
+    "사업비 환산 환율 / 기준": "원문 USD 120mn / Khovar 2026-07-04 공식 투자협정 발표 기준",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011261",
+    "비고": "타지키스탄 최초 현대식 유리 제조기업. 두샨베에 석영유리 농축·가공, 판유리, 유리용기 생산시설을 건설·가동하는 투자협정 체결. 공식 투자액 USD 120mn, 신규 일자리 450개 이상. 후속 EPC 계약, 착공, 장비조달, 전력·용수·환경 인허가와 가동 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TWN-WATER-LEYE-RAW-WATER-RESERVOIR",
     "프로젝트명": "Leye System 20,000-ton Raw Water Reservoir Project",
     "지역": "아시아",
@@ -87,6 +147,21 @@
     "최근 업데이트일": "2026. 7. 4",
     "대표 기사 고유값": "ART-20260704-011224",
     "비고": "자이현 아리산 관광회랑 급수 안정화와 산림 화재 대비 예비수원 기능을 위한 원수 저수지 공사. 벚꽃철·춘절 관광 성수기와 갈수기 물 부족 대응 목적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UZB-BRT-SERGELI-YANGI-SERGELI",
+    "프로젝트명": "Sergeli Yangi Sergeli Street BRT Corridor Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Tashkent city / Sergeli district authorities / relevant transport agencies",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011279",
+    "비고": "Tashkent Sergeli district Yangi Sergeli Street 5.5km BRT dedicated corridor. 2027년 착공 계획, Shota Rustaveli Street BRT 회랑 연계, 23km 주요도로 안전개선, 스마트 신호등 455기, 버스정류장 150개 현대화, 주차공간 1만 면 조성 및 Tashkent Ring Road 신규 고가차도 가속 지시와 함께 발표됨. 후속 설계·시공 패키지와 고가차도 분리 발주 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -480,6 +555,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KGZ-IND-ATBASHY-SEED-AGROCENTER",
+    "프로젝트명": "At-Bashy Seed Storage Agricultural Center Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "산업·물류",
+    "발주처": "Ministry of Water Resources, Agriculture and Processing Industry / Kyrgyz Agroholding / Naryn regional authorities",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011290",
+    "비고": "Naryn주 At-Bashy 지역의 키르기스스탄 첫 종자 저장 agrocenter. 종자 감자 저장·선별·물류 서비스를 제공하는 현대식 농업 물류시설로 착공행사가 진행됨. 후속 저장능력, 냉장·건조·처리 설비, 시공사, 준공 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KGZ-WATER-BISHKEK-GREENBELT-WELLS",
     "프로젝트명": "Bishkek Green Belt Water Wells and Irrigation Project",
     "지역": "중앙아시아",
@@ -675,6 +765,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "POL-AIR-CPK-TERMINAL",
+    "프로젝트명": "CPK Airport Passenger Terminal Construction Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "Centralny Port Komunikacyjny / Port Polska",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011253",
+    "비고": "CPK 신공항 1단계 여객터미널 약 45만㎡, 34mppa 처리능력. Budimex 기초공사 계약·작업구역 인계 이후 2026-07-03 본 터미널 시공 5개 컨소시엄에 가격·품질 제안 요청 발송. 프로젝트 현재 단계는 기초공사 준비 기준 construction으로 유지하되, 터미널 본공사 계약은 2026년 말~2027년 초 목표. 후속 최종제안, 우선협상/낙찰, 본공사 계약 및 MEP·수하물·탑승교 세부 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "POL-RAIL-CPK-WARSAW-LODZ-HSR",
+    "프로젝트명": "CPK Warsaw-Lodz High-Speed Rail Line No.85 Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "Centralny Port Komunikacyjny / Port Polska",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011254",
+    "비고": "바르샤바-CPK 공항-우치 및 장래 브로츠와프·포즈난을 연결하는 Y형 고속철도 핵심 사업. 2026-07-03 공항분기-볼리모프분기 14.3km 공구에 8개 업체·컨소시엄, 총 19개 기업이 참가신청을 제출했고 최대 5개 후보가 대화 단계로 초청될 예정. 프로젝트 전체는 우치 터널 공사 준비 기준 construction으로 유지하되, 본선 공구별 숏리스트·가격제안·낙찰·계약 체결을 후속 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "POL-RAIL-LINE97-ZYWIEC-SUCHA-BESKIDZKA",
     "프로젝트명": "Line 97 Żywiec-Sucha Beskidzka Modernization Project",
     "지역": "유럽",
@@ -840,6 +960,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TKM-ENERGY-YOLOTEN-HOSPITAL-SOLAR-BESS",
+    "프로젝트명": "Yoloten District Hospital Solar PV and Battery Energy Storage Systems",
+    "지역": "중앙아시아",
+    "국가": "투르크메니스탄",
+    "섹터": "에너지",
+    "발주처": "UNDP / Ministry of Health and Medical Industry of Turkmenistan / Yoloten District Hospital",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 원문은 총 30kW 태양광 2기와 최대 12시간 백업용 BESS만 확인.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011281",
+    "비고": "Mary주 Yoloten District Hospital 태양광·배터리 전력 안정화 사업. 총 30kW PV, 정전 시 최대 12시간 백업전력, 신생아 중환자실·산부인과·검사실·혈액투석실·수술실 등 핵심 의료부서 지원. 후속으로 보건시설 분산형 태양광·ESS 확산 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TKM-OILGAS-AKPATLAWUK-WELL01-TESTING",
     "프로젝트명": "Akpatlawuk Exploration Well No.01 Completion and Testing Project",
     "지역": "중앙아시아",
@@ -927,6 +1062,21 @@
     "최근 업데이트일": "2026. 7. 3",
     "대표 기사 고유값": "ART-20260703-011129",
     "비고": "연 400만 톤급 onshore LNG liquefaction/export facility 후보. 2026-07-03 MEED 기준 FEED-to-EPC 경쟁 제안서 접수 단계로 진전. 후속 확인: 숏리스트, EPC 전환 방식, 낙찰자, 액화·저장·수출 설비 범위, 기존 ADNOC 가스 인프라와의 연계.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UAE-RAIL-ETIHAD-AJMAN-SECTION",
+    "프로젝트명": "Etihad Rail Ajman Passenger Rail Section Project",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "교통",
+    "발주처": "Etihad Rail",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 기사상 Ajman Hamriyah 방면 설계·시공 입찰, 토목·궤도·여객역·관련 인프라 범위만 확인됨.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011292",
+    "비고": "기존 Etihad Rail 여객망에서 Ajman Hamriyah 방향으로 분기하는 여객철도 구간. 설계·시공 계약 범위는 토목·궤도 공사, 여객역, 관련 인프라를 포함하며 제안서 제출기한은 2026-07-27. 기존 UAE-RAIL-ETIHAD-PASSENGER-NETWORK operation 행과 연결되는 확장 구간이지만 독립 D&B 입찰이 확인되어 별도 프로젝트로 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1380,6 +1530,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KGZ-URBAN-ALATOO-RESORT",
+    "프로젝트명": "Ala-Too Resort Mountain Cluster Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "도시개발·주택",
+    "발주처": "Tourism Development Support Fund / Kyrgyz Government / private land-lot investors",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011288",
+    "비고": "이식쿨주 Ak-Suu 지역 Jyrgalan, Ak-Bulak, Boz-Uchuk 3개 구역으로 조성되는 대형 산악 관광 클러스터. 2026-07-02 Kabar 기준 대통령이 B-1 1,727m와 B-2 2,296m 케이블카 기술가동을 개시했고, 추가 케이블카 정거장, 상수도·수처리, 도로, 전력, 슬로프 공사가 이어지고 있다. 1단계 개장은 2026년 12월 목표이며 후속 케이블카, 수처리, 접근도로, 호텔·상업시설 패키지와 투자자 선정 공고 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KHM-ROAD-RID4CAM-BATCH3-LOTS19-20",
     "프로젝트명": "RID4CAM Batch 3 Road Rehabilitation Contracts Lots 19-20",
     "지역": "아시아",
@@ -1665,6 +1830,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "POL-IND-CPK-CARGO3-INFRA",
+    "프로젝트명": "CPK Airport Cargo 3 Infrastructure Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "산업·물류",
+    "발주처": "Centralny Port Komunikacyjny / Port Polska",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "설계문서 계약금액 PLN 7mn net 확인. 공식 총공사비 또는 CAPEX는 미공개이므로 사업비열은 미확인 유지.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011256",
+    "비고": "CPK 신공항 Cargo 3 항공화물 인프라. Industria Project와 설계문서 계약 체결, 지상조업 대리인 시설, 창고·환적·물류 기능, 화물 안전·검사 서비스 시설 및 부대 인프라 포함. Cargo 1·2와 함께 2031년 말 사용승인 목표. 후속 시공입찰, 물류 자동화·보안검색·운영시스템 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "POL-RAIL-CPK-LINEY-SRK-TRACTION",
+    "프로젝트명": "CPK Line Y KSRK and Traction Power Systems Packages",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "Centralny Port Komunikacyjny / Port Polska",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-02 원문에서는 KSRK·TMS/CTC·통신·비전철전력 및 2x25kV AC 전철망 패키지 범위만 확인됨.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011255",
+    "비고": "Line Y 고속철 시스템 패키지. 바르샤바-비에루투프 KSRK·통신·TMS/CTC 및 바르샤바-우치 2x25kV AC 전철망 설계·시공을 포함. 2026년 8월 말 참가신청 마감. 본선 토목공사와 분리된 시스템 패키지로 후속 숏리스트, 낙찰, 통합시험·시운전 범위 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "POL-ROAD-MIERZYN-BYPASS-DK10",
     "프로젝트명": "DK10 Mierzyn Bypass Project",
     "지역": "유럽",
@@ -1740,6 +1935,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "QAT-ROAD-HIGHWAY-DESIGN-CALLOFF-3",
+    "프로젝트명": "Call-Off Design Consultancy Services for Roads and Infrastructure (Highway Projects) in Qatar (3)",
+    "지역": "중동",
+    "국가": "카타르",
+    "섹터": "교통",
+    "발주처": "Public Works Authority Ashghal",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 원문은 입찰보증금 QAR 1.625mn 및 문서수수료 QAR 7,750만 확인되며 총 용역비 또는 사업비는 미확인.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011294",
+    "비고": "Ashghal Engineering Services Department가 발주한 고속도로·도로 인프라 콜오프 설계 컨설팅 용역. PWA/STC/25/2026, Project ID PA 2026 D 007 S, 2026-08-09 입찰 마감. 후속 설계·감리 참여사, 현지 등록요건, 관련 도로 공사 패키지 발주 전환 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "QAT-SOC-MOFA-COMPLEX-ALDAAYEN",
     "프로젝트명": "New Ministry of Foreign Affairs (MoFA) Complex in Al Daayen",
     "지역": "중동",
@@ -1782,6 +1992,21 @@
     "최근 업데이트일": "2026. 7. 2",
     "대표 기사 고유값": "ART-20260702-010661",
     "비고": "A8 Autostrada Unirii Târgu Neamț(Moțca)-Iași-Ungheni 중 DN24-Iași-Vamă(Pod peste Prut) 15.5km 구간. 46개월 설계·시공, 교량·통로 14개, 터널 2개, 나들목 2개 포함. SAFE 금융 기반 계약 체결 후 2026-07-02 루마니아·몰도바 양자 문서 및 CNIR-몰도바 도로청 계약 서명으로 국경연계 추진 프레임워크가 재확인됐다. 감리 낙찰, Prut 교량 우선 공정, 몰도바 측 연결도로 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "RUS-WATER-ROSTOV-STORMWATER-BASIN1-PH2",
+    "프로젝트명": "Rostov-on-Don Stormwater Basin No. 1 Reconstruction Phase 2",
+    "지역": "유럽",
+    "국가": "러시아",
+    "섹터": "수자원·환경",
+    "발주처": "Rostov-on-Don municipal authorities",
+    "사업비(달러 기준 추정액)": "USD 152mn",
+    "사업비 환산 환율 / 기준": "원문 RUB 11.9bn / Bank of Russia 2026-07-02 1 USD = RUB 78.2652 기준 환산",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011269",
+    "비고": "Leventsovsky district stormwater basin No. 1 2단계 재건. 우수관거 3.3km 신설, 2.9km 재건, LOS-2 처리시설 포함, 2028년 12월 완료 목표.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1950,6 +2175,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UAE-WATER-DUBAI-TRANSMISSION-PKG3",
+    "프로젝트명": "Dubai Water Transmission Pipeline Network Project Package 3",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "수자원·환경",
+    "발주처": "Dubai Electricity and Water Authority (DEWA)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 기사상 컨설팅 입찰 금액만 확인되며, 총 공사비·송수관 길이·관경·펌프장 범위는 미확인.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011293",
+    "비고": "Dubai Water Transmission Pipeline Network 관련 설계·시공감리 및 송수관 부대공사 설계 용역. 2025-12-24 입찰 발급, 2026-02-03 제안서 제출, 2026년 8월 계약 수여 전망. Meinhardt Singapore, NJS, Avenir, CDM Smith, Dorsch, Khatib & Alami, Dar 등 참여. 기존 DEWA-EtihadWE SWRO IWP와는 발주일·입찰 범위가 달라 별도 송수관망 패키지로 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "URY-PORT-CANAL-MARTIN-GARCIA-DREDGING",
     "프로젝트명": "Canal Martín García Dredging, Maintenance and Widening Project",
     "지역": "중남미",
@@ -2097,6 +2337,21 @@
     "최근 업데이트일": "2026. 7. 1",
     "대표 기사 고유값": "ART-20260701-010343",
     "비고": "예레반 Ajapnyak 지하철역 건설사업. 2026-07-01 기준 Ajapnyak 메트로역, 예레반 메트로 현대화, 전기버스 프로그램이 포함된 6.5억 달러 인프라 패키지가 승인됐고, 예레반시는 국제 파트너 제안을 받아 입찰 절차를 빠르게 시작할 파트너를 선정하겠다고 밝혔다. Ajapnyak 단독 사업비는 미공개이므로 후속 재원 배분, 국제 파트너 선정, 설계·시공·시스템 패키지 분리 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ARM-WATER-KAPS-RESERVOIR",
+    "프로젝트명": "Kaps Reservoir and Gravity Irrigation System Project",
+    "지역": "유럽",
+    "국가": "아르메니아",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Territorial Administration and Infrastructure / Territorial Development Fund / Water Committee",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260705-011260",
+    "비고": "Shirak주 Akhurian강 저수지·중력식 관개 시스템. 기존 계약 해지 후 신규 설계와 사업 전환·확대가 논의 중이며, 2026-07-01 공공투자위원회가 완공 추진안을 승인했다. Akhuryan강 취수 시스템, 관개 터널 입·출구 보강, 조기경보시스템 설치 등 기완료 작업이 보고됐고, 후속 신규 설계 확정·재원·입찰공고·시공사 선정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2412,21 +2667,6 @@
     "최근 업데이트일": "2026-07-01",
     "대표 기사 고유값": "ART-20260701-010575",
     "비고": "Cotopaxi주 Latacunga Tanicuchí 지역 230/138kV 송전시스템. 230kV 4km, 138kV 10km 송전선 및 Tanicuchí 230/138kV 2x75MVA 변전소로 구성되며, Cotopaxi와 중북부 지역 전력공급 안정화 및 Cotopaxi 화산 리스크 대응 전력공급점을 확보하는 프로젝트다. 2026-07-01 공식 인도·운영 개시. 후속 전력망 보강 및 Ecuador-Peru 전력연계 발주와 함께 모니터링한다.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "ECU-ENERGY-TANICUCHI-TRANSMISSION-SYSTEM",
-    "프로젝트명": "Tanicuchi Transmission System Project",
-    "지역": "중남미",
-    "국가": "에콰도르",
-    "섹터": "에너지",
-    "발주처": "Corporación Eléctrica del Ecuador (CELEC EP) / Gobierno de Ecuador",
-    "사업비(달러 기준 추정액)": "USD 39.24mn",
-    "사업비 환산 환율 / 기준": "공식 발표 사업비 USD 39.24mn, BID·JICA·CELEC EP·재정자금, 2026-07-01",
-    "현재 단계": "completion",
-    "최근 업데이트일": "2026. 7. 1",
-    "대표 기사 고유값": "ART-20260701-010768",
-    "비고": "Cotopaxi주 Latacunga Tanicuchi 230/138kV 송전 시스템. 150MVA 변전소, 230kV 4km 이중회선, 138kV 10km Santa Rosa-Tanicuchi 연결선 포함. 2026-07-01 공식 인도·준공. 후속 계통 운영, 추가 송변전 투자, 에콰도르-페루 전력연계 관련 보강사업 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3312,6 +3552,21 @@
     "최근 업데이트일": "2026. 7. 1",
     "대표 기사 고유값": "ART-20260701-010366",
     "비고": "Makkah 지역 500MW/2,000MWh Ashyrah BESS ISP. SPPC 2차 BESS 그룹, BOO 방식, SPV 100% 지분 보유 및 SSA 체결 구조. 2026-07-01 기준 27개 개발사·기술사가 사전자격을 통과했으며 KEPCO와 한국서부발전이 포함됨. 후속 RFP, 컨소시엄 구성, SSA 조건, 낙찰자 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SAU-ENERGY-GROUP2-BESS-ISP",
+    "프로젝트명": "Saudi Arabia Group 2 BESS ISP Projects",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "에너지",
+    "발주처": "Saudi Power Procurement Company / Ministry of Energy",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 기사상 총 3,000MW/12,000MWh, 6개 500MW/2,000MWh ISP 사업과 BOO·Storage Services Agreement 구조만 확인됨.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260701-011282",
+    "비고": "SPPC Group 2 Battery Energy Storage System(BESS) 사업. Samha, Al-Leeth, Al-Henakiyah, Khulis, Sadawi, Ashyrah 6개 ISP 프로젝트, 총 3,000MW/12,000MWh. Masdar, ACWA Power, EDF, Marubeni, PowerChina, Tesla, TotalEnergies Renewables, KEPCO, Korea Western Power 등 27개 사전자격 업체 확인. 후속 RFP, 컨소시엄, 낙찰, EPC·배터리·계통연계 패키지 추적 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -4557,21 +4812,6 @@
     "최근 업데이트일": "2026. 6. 30",
     "대표 기사 고유값": "ART-20260630-010552",
     "비고": "Tatu City SEZ 내 88,000㎡ 규모 Jabali Towers 복합개발. CRBC가 주계약자로 선정되어 공사 개시가 발표됐고, 주거타워 2개동, 호텔, 오피스, 상업시설을 포함한다. 후속 CRBC 하도급, MEP·fit-out·스마트빌딩 패키지, Tatu City 후속 개발과 기반시설 증설 수요 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "KGZ-URBAN-ALATOO-RESORT",
-    "프로젝트명": "Ala-Too Resort Mountain Cluster Project",
-    "지역": "중앙아시아",
-    "국가": "키르기스스탄",
-    "섹터": "도시개발·주택",
-    "발주처": "Tourism Development Support Fund / Kyrgyz Government / private land-lot investors",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 30",
-    "대표 기사 고유값": "ART-20260630-009149",
-    "비고": "이식쿨주 Ak-Suu 지역 Jyrgalan, Ak-Bulak, Boz-Uchuk 3개 구역으로 조성되는 대형 산악 관광 클러스터. 투자자 필지별 건설, 상하수도 시설, 4km 이상 케이블카 2기 운영 준비, 추가 케이블카 4기 착수, 초기 슬로프 설계가 진행 중이며 1단계 개장은 2026년 12월 목표. 후속 케이블카·수처리·접근도로·호텔·상업시설 패키지와 투자자 선정 공고 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -8850,21 +9090,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "POL-AIR-CPK-TERMINAL",
-    "프로젝트명": "CPK Airport Passenger Terminal Construction Project",
-    "지역": "유럽",
-    "국가": "폴란드",
-    "섹터": "교통",
-    "발주처": "Centralny Port Komunikacyjny / Port Polska",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-26",
-    "대표 기사 고유값": "ART-20260626-008745",
-    "비고": "CPK 신공항 1단계 여객터미널 약 45만㎡, 34mppa 처리능력. 설계 접수·승인, 참가신청, 경쟁적 대화, Budimex 기초공사 계약 이후 2026-06-25 작업구역 인계가 확인됨. 2026년 9월부터 파일·기둥 8,000개 이상과 총연장 140km 이상 지반보강 요소 시공 예정. 본공사 착수 전 건축허가, 터미널 구조물 패키지, MEP·수하물·탑승교 후속 조달 확인 필요. 중복 프로젝트 ID POL-AIR-CPK-PASSENGER-TERMINAL과 동일 사업 후보로 추적 필요.",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "POL-ENERGY-ROKITNICA-TREBACZEW-400KV-LINE",
     "프로젝트명": "Rokitnica-Trębaczew 400kV Transmission Line Section I Project",
     "지역": "유럽",
@@ -8893,21 +9118,6 @@
     "대표 기사 고유값": "ART-20260626-007639",
     "비고": "CPK 신공항 동측 철도노드 위치결정 발급. 5·85·88호선 연결, 신공항 철도역과 기존·신설 철도망 및 관련 도로 인프라를 포함하며, 즉시 집행력 부여로 건축허가 신청 단계로 전환. 후속 건축허가, 본공사 입찰, 시공자 선정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "POL-RAIL-CPK-WARSAW-LODZ-HSR",
-    "프로젝트명": "CPK Warsaw-Lodz High-Speed Rail Line No.85 Project",
-    "지역": "유럽",
-    "국가": "폴란드",
-    "섹터": "교통",
-    "발주처": "Centralny Port Komunikacyjny / Port Polska",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-26",
-    "대표 기사 고유값": "ART-20260626-008746",
-    "비고": "바르샤바-CPK 공항-우치 85호선 고속철. 위치결정 신청, Kotowice-공항분기 첫 공사입찰, 공항분기-Bolimow 14.3km 후속 입찰과 우치 4.6km 장거리 터널 시공 준비를 같은 프로젝트로 연결. 2026-06-26 우치 터널 TBM 조립용 갠트리 하중시험 완료 확인. 본선·공항역·터널별 패키지 후속 입찰·시스템 발주 확인 필요.",
-    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "POL-ROAD-A2-GRODZISK-KONOTOPA-EXPANSION",
@@ -25995,21 +26205,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "ARM-WATER-KAPS-RESERVOIR",
-    "프로젝트명": "Kaps Reservoir and Gravity Irrigation System Project",
-    "지역": "유럽",
-    "국가": "아르메니아",
-    "섹터": "수자원·환경",
-    "발주처": "Ministry of Territorial Administration and Infrastructure / Territorial Development Fund / Water Committee",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 6. 12",
-    "대표 기사 고유값": "ART-20260612-001486",
-    "비고": "Shirak주 Akhurian강 저수지·중력식 관개 시스템. 기존 계약 해지 후 신규 설계가 진행 중이며, 새 설계는 기존안 대비 약 2.5배 용량 확대를 목표로 함. 재입찰·시공사 선정 후속 확인 필요",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "AUS-HOUSING-BELLAMBI-ESTATE-RENEWAL",
     "프로젝트명": "Bellambi Estate Renewal Project",
     "지역": "태평양",
@@ -39073,6 +39268,21 @@
     "대표 기사 고유값": "ART-20251116-003180",
     "비고": "200MW 수력발전소. 2025년 채무·하자 이슈로 지연 확인 후 2025년 11월 보완계약 및 기술·재무 실행계획 제출 조건으로 재개 합의.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "IRQ-URBAN-KADHIMIYA-WATERFRONT",
+    "프로젝트명": "Kadhimiya Waterfront Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "도시개발·주택",
+    "발주처": "National Investment Commission / Baghdad Municipality / Al-Kadhimiya Holy Shrine",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 350두남 복합 워터프런트 개발 규모 확인, USD 환산 불가.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2025. 11. 13",
+    "대표 기사 고유값": "ART-20251113-011282",
+    "비고": "약 350두남 규모의 Baghdad Kadhimiya waterfront mixed-use investment opportunity. 의료, 호텔, 문화·레저, 스포츠, 방문객 시설, 상업구역, 다층 주차장과 오픈스페이스 포함. 후속 투자자 선정, 마스터플랜 확정, 초기 인프라·건축 공구 발주 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "NZL-ROAD-MILL-ROAD-STAGE1",
