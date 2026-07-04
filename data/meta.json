@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T12:50:04.041Z",
+  "updatedAt": "2026-07-04T16:34:21.719Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,21 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6152,
-    "projects": 2683
+    "articles": 6153,
+    "projects": 2684
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260616-011178"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "CHN-ENERGY-MENTOUGOU-YINGTAOQUAN-PHES"
+      ],
       "updated": [],
       "removed": []
     }
