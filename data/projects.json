@@ -45,6 +45,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "LBY-SOC-TRIPOLIGATE-MINISTERIAL-COMPLEX",
+    "프로젝트명": "Tripoli Gate Ministerial Complex Project",
+    "지역": "중동",
+    "국가": "리비아",
+    "섹터": "사회인프라",
+    "발주처": "Organisation for the Development of Administrative Centres (ODAC) / Government of National Unity",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 5",
+    "대표 기사 고유값": "ART-20260705-011472",
+    "비고": "트리폴리 Airport Road Tripoli Gate 내 11개 신규 장관복합건물 및 지원 주차시설 프로젝트. 2026-07-02 보도 기준 11개 건물 인계, 일부 부처·정부기관 이전, 최종 배치안 승인, ODAC의 건축적 마감 및 내부 outfitting 긴급 착수 지시가 확인됨. 2026-07-05 후속 보도에서는 LIDCO가 Zone 6 다층 주차장 2단계 공사를 가속 중이며, 2단계 3,500대와 전체 통합 주차체계 8,500대 규모, 1차 콘크리트 기초 완료가 확인됨. 향후 운영개시·잔여 마감·MEP·내부설비·주차시설 완료 후속은 이 프로젝트로 비교한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-WATER-SIKTA-IRRIGATION",
     "프로젝트명": "Sikta Irrigation Project",
     "지역": "아시아",
@@ -1935,6 +1950,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "BHR-ROAD-ZALLAQ-JUNCTION-UTURN",
+    "프로젝트명": "Zallaq Junction Two-Lane U-Turn and Road Connection Upgrade",
+    "지역": "중동",
+    "국가": "바레인",
+    "섹터": "교통",
+    "발주처": "Ministry of Works",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 기사상 Shaikh Khalifa bin Salman Highway-Zallaq Highway 교차부 1.3km 2차로 U-turn, Zallaq Highway 우회전 연결부 확장 및 관련 인프라 개선만 확인됨.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011471",
+    "비고": "Shaikh Khalifa bin Salman Highway와 Zallaq Highway 교차부의 2차로 U-turn 및 연결도로 개선 프로젝트. 2026-07-02 기준 개통 완료. 향후 Zallaq Highway·남부주 도로개선 후속 패키지와 같은 권역으로 보도될 경우 동일 프로젝트인지, 별도 공구인지 비교 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BHR-WATER-HIDD-IWP",
     "프로젝트명": "Hidd Independent Water Production Plant",
     "지역": "중동",
@@ -2097,6 +2127,21 @@
     "최근 업데이트일": "2026. 7. 2",
     "대표 기사 고유값": "ART-20260702-010772",
     "비고": "Peravia주 Baní acueducto múltiple 배급망 확장. 펌프장, 전동 원심펌프, 압송관, 저장시설, 배급망, 약 500개 도시 급수 연결 포함. 수혜 2,876명 이상. 규모는 작으나 공식 착공·예산 확인 자료로 관리한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DZA-WATER-ELMACTAA-DESAL-REHAB",
+    "프로젝트명": "El Mactaâ Seawater Desalination Station Rehabilitation and Modernization Project",
+    "지역": "중동",
+    "국가": "알제리",
+    "섹터": "수자원·환경",
+    "발주처": "El Mactaâ Seawater Desalination Station / Algerian water sector authorities",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 기사상 최근 재활사업 후 생산능력 460,000㎥/일 도달만 확인됨.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011467",
+    "비고": "Oran 인근 El Mactaâ 해수담수화장 재활·현대화 후 운영능력 개선 프로젝트. 2026-07-02 기준 생산능력 하루 460,000㎥ 도달, Oran 등 서부 여러 주의 식수 공급 안정화 목적. 후속 재활 패키지, 막·펌프·전력설비 교체, O&M 계약, 공식 사업비·시공사 공개 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2352,21 +2397,6 @@
     "최근 업데이트일": "2026. 7. 2",
     "대표 기사 고유값": "ART-20260702-010707",
     "비고": "쿠웨이트 전국 LED 가로등 교체사업 2단계. 공공조명 에너지효율 개선과 스마트 제어 가능성을 포함하는 전기·조명 인프라 현대화 사업으로 추적. 후속 개찰, 낙찰자, 계약금액, 교체수량, 지역별 패키지 분할 및 유지관리 범위 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "LBY-SOC-TRIPOLIGATE-MINISTERIAL-COMPLEX",
-    "프로젝트명": "Tripoli Gate Ministerial Complex Project",
-    "지역": "중동",
-    "국가": "리비아",
-    "섹터": "사회인프라",
-    "발주처": "Organisation for the Development of Administrative Centres (ODAC) / Government of National Unity",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 2",
-    "대표 기사 고유값": "ART-20260702-010720",
-    "비고": "트리폴리 Airport Road Tripoli Gate 내 11개 신규 장관복합건물 프로젝트. 2026-07-02 보도 기준 11개 건물 인계, 일부 부처·정부기관 이전, 최종 배치안 승인, ODAC의 건축적 마감 및 내부 outfitting 긴급 착수 지시가 확인됨. 기존 2026-06-04 준비 점검 보도는 프로젝트 고유값 없이 투자동향으로 유지하고, 향후 운영개시·잔여 마감·MEP·내부설비 후속은 이 프로젝트로 비교한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
