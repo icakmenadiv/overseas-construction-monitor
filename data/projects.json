@@ -1,5 +1,20 @@
 [
   {
+    "프로젝트 고유값": "NPL-WATER-SIKTA-IRRIGATION",
+    "프로젝트명": "Sikta Irrigation Project",
+    "지역": "아시아",
+    "국가": "네팔",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Energy, Water Resources and Irrigation / Sikta Irrigation Project authorities",
+    "사업비(달러 기준 추정액)": "USD 346mn",
+    "사업비 환산 환율 / 기준": "NPR 52.89bn / 2026-07-05 Nepal Rastra Bank USD sell 152.64 NPR/USD 기준 환산(약 USD 346.5mn)",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 5",
+    "대표 기사 고유값": "ART-20260705-011391",
+    "비고": "국가자부심 관개사업으로 Rapti Sonari, Janaki, Baijanath, Duduwa, Narainapur, Kajura, Kohalpur, Nepalgunj 일대 42,766ha 관개 목표. 2026-07-05 기준 물리 공정 50.50%, 재정 공정 45.3%, 누적 지출 약 NPR 24bn, 관개 확장 약 25,000ha. 후속 잔여공사 패키지·예산·법행정 장애 해소 여부 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BOL-ROAD-RIOABAJO-QUILLACOLLO",
     "프로젝트명": "Río Abajo-Quillacollo Road Project",
     "지역": "중남미",
@@ -12,6 +27,36 @@
     "최근 업데이트일": "2026. 7. 4",
     "대표 기사 고유값": "ART-20260704-010765",
     "비고": "La Paz-Cochabamba 연결 Río Abajo-Quillacollo 도로사업. 2026-07-04 하원에서 국가 우선사업 법안이 승인됐고, 정부 부처가 국제금융·협력·PPP를 포함한 실행 조치를 추진할 수 있도록 하는 단계. 후속 상원/공포, 타당성, 금융조달, 발주 구조화 및 본공사 입찰 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHL-PORT-PUERTO-MAULE",
+    "프로젝트명": "Puerto del Maule Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "교통",
+    "발주처": "Project promoters / Universidad de Chile technical participants / future port authority to be confirmed",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 기사상 터미널 기능과 지역 연계 절차만 확인됨.",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011368",
+    "비고": "Constitución 옛 항만 해변 인근 후보지의 컨테이너·벌크 터미널 구상. 2026-07-04 지역 세미나와 설계 보완, 더 외해 방향 배치 검토, Codelco El Teniente 물류 관심 단서가 확인됨. 후속으로 공식 개발주체, 항만계획 편입, 환경평가, 터미널·접근도로·철도 연계 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-ROAD-HATILLO-DERRAMADERO-AGUALUIS",
+    "프로젝트명": "Hatillo Palma-Derramadero-Agua de Luis Road Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas y Comunicaciones (MOPC) / Presidencia",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011354",
+    "비고": "Montecristi주 Hatillo Palma-Derramadero-Agua de Luis 및 Arroyo Caña 도로 준공. 32,000명 이상 수혜, Carretera Duarte 및 인근 지자체 연결성 개선, 농축산 생산·Línea Noroeste 개발 지원.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -132,6 +177,36 @@
     "최근 업데이트일": "2026. 7. 4",
     "대표 기사 고유값": "ART-20260704-011313",
     "비고": "New South Tripoli 발전소 1,320MW급 4개 발전기 프로젝트. 2026-07-04 기준 약 98% 완료, 첫 호기 국가 전력망 연결 임박. 터키 Calik이 수행하고 독일 Siemens가 설비·기술을 공급. 후속 시운전, 계통연계, O&M, 예비부품·정비 및 전력망 안정화 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "LKA-SOC-SABARAGAMUWA-MEDICAL-FACULTY",
+    "프로젝트명": "Sabaragamuwa University Medical Faculty Complex",
+    "지역": "아시아",
+    "국가": "스리랑카",
+    "섹터": "사회인프라",
+    "발주처": "Ministry of Education, Higher Education and Vocational Education / Sabaragamuwa University / Saudi Fund for Development",
+    "사업비(달러 기준 추정액)": "USD 53.4mn",
+    "사업비 환산 환율 / 기준": "공식 비용 단서 LKR 2,876mn 및 약 LKR 15bn; 2026-07-03 USD/LKR spot 334.72 적용",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011390",
+    "비고": "20에이커 규모 의학부 복합단지. 500명 기숙사, 1,060석 강당, 행정동, 전임상센터, 도서관 등 포함. Ratnapura Teaching Hospital 인근 9층 교수단위 건물 병행 건설 중.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "LKA-URBAN-KIRULAPONE-RESIDENCIES",
+    "프로젝트명": "The Residencies Kirulapone Housing Complex",
+    "지역": "아시아",
+    "국가": "스리랑카",
+    "섹터": "도시개발·주택",
+    "발주처": "Ministry of Transport, Highways and Urban Development / Urban Development Authority / AIIB financing",
+    "사업비(달러 기준 추정액)": "USD 17.3mn",
+    "사업비 환산 환율 / 기준": "공식 사업비 LKR 5,784mn; 2026-07-03 USD/LKR spot 334.72 적용",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 4",
+    "대표 기사 고유값": "ART-20260704-011389",
+    "비고": "Colombo Urban Regeneration Programme 아래 AIIB 재원으로 시행된 624세대 공공주택. 기사상 2단계 접근도로·수로개선·저류지·상가동 등 후속 도시 인프라 계획 확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -315,6 +390,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "ARG-RAIL-MENDOZA-TREN-CERCANIAS-ESTE",
+    "프로젝트명": "Mendoza Tren de Cercanías del Este Project",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "교통",
+    "발주처": "Gobierno de Mendoza / national rail authorities / future contractors and operator",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "최근 기사상 2,190억 페소 이상 투자 추정이 보도됐으나 공식 USD 사업비와 환산 기준은 확인되지 않음.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011372",
+    "비고": "Mendoza 동부 Junín, San Martín, Maipú, Luján de Cuyo 연결 통근철도 프로젝트. 19개 역과 기존 철도망 활용, 선로·역·건널목·신호·차량 조달 및 운영구조 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARG-ROAD-CATAMARCA-CHUQUISACA-ANTOFAGASTA",
     "프로젝트명": "Camino Chuquisaca-Antofagasta de la Sierra Road Project",
     "지역": "중남미",
@@ -327,6 +417,21 @@
     "최근 업데이트일": "2026. 7. 3",
     "대표 기사 고유값": "ART-20260703-011189",
     "비고": "Catamarca 서부의 Chuquisaca-Antofagasta de la Sierra 도로 2단계. 전체 100km 이상 노선 중 신규 단계 80km, 현재 El Peñón-RP34 연결 방향 27km 산악구간 작업 진행. 광산·리튬 권역과 Fiambalá, Belén, Antofagasta de la Sierra 연결성 개선 목적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ARG-ROAD-RFC-ETAPA-IIB",
+    "프로젝트명": "Red Federal de Concesiones Etapa II-B Road Concession Project",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "교통",
+    "발주처": "Ministerio de Economía / Vialidad Nacional / Corredores Viales S.A. / future concessionaires",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "Resolución 884/2026은 사전자격 통과와 4개 구간 입찰 진행을 다루며 공식 투자·개량공사 의무액은 미공개.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011373",
+    "비고": "Red Federal de Concesiones Etapa II-B의 Mediterráneo, Puntano, Portuario Sur, Portuario Norte 도로 양허 프로젝트. 2026-07-03 사전자격 평가 승인. 후속 경제제안 개봉, 낙찰자, 양허기간, 유지관리·개량투자 의무와 민간금융 구조 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -417,6 +522,66 @@
     "최근 업데이트일": "2026. 7. 3",
     "대표 기사 고유값": "ART-20260703-011192",
     "비고": "Sergipe주 BR-101/SE Norte km 60.6~68.2 7.6km 중복 차로 개통. Maruim-Rosário do Catete 구간, 일평균 2만 대 이상 통행, 철도 하부 통과 고가교 포함. 후속 확인: 잔여 BR-101/SE Norte 중복화, 접속시설·유지관리·ITS 패키지.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-SOC-CALGARY-CENTENNIAL-PLANETARIUM",
+    "프로젝트명": "Contemporary Calgary Centennial Planetarium Transformation Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "사회인프라",
+    "발주처": "Housing, Infrastructure and Communities Canada / Contemporary Calgary",
+    "사업비(달러 기준 추정액)": "USD 113.8mn",
+    "사업비 환산 환율 / 기준": "공식 3단계 총예산 CAD 160mn 및 연방지원 최대 CAD 40mn 확인. 2026-07-03 전후 참고환율 1 CAD = USD 0.7114 적용.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011386",
+    "비고": "Calgary Centennial Planetarium/Contemporary Calgary 3단계 전환사업. 신규 출입 파빌리온, 교육·갤러리 윙, 이벤트 공간, LED Dome, 공공예술공원, 지열·고성능 건축시스템 포함. 후속 공사 패키지·조달 방식·시공사 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-WATER-THREERIVERS-WATER-WASTEWATER",
+    "프로젝트명": "Three Rivers Water and Wastewater Infrastructure Upgrade Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "수자원·환경",
+    "발주처": "Housing, Infrastructure and Communities Canada / Government of Prince Edward Island / Town of Three Rivers",
+    "사업비(달러 기준 추정액)": "USD 4.2mn",
+    "사업비 환산 환율 / 기준": "공식 총사업비 CAD 5.94335mn(연방 CAD 2.971675mn + PEI CAD 1.980919mn + Town of Three Rivers CAD 0.990756mn). 2026-07-03 전후 참고환율 1 CAD = USD 0.7114 적용.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011385",
+    "비고": "Three Rivers 상하수도 기반시설 개선. 폐수 유량·성상 조사, 처리장 개선 설계, 주요 리프트스테이션, 생활용수 부스터스테이션, 해안 홍수 회복력 조치 포함. 후속 세부 설계·입찰 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHL-ENERGY-CENTRAL-BOMBEO-TARAPACA",
+    "프로젝트명": "Central de Bombeo Tarapaca Pumped Storage Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "에너지",
+    "발주처": "Project sponsor to be confirmed / grid connection with SEN",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 400MW 양수발전 용량과 SEN 접속 승인 추진만 확인됨.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011369",
+    "비고": "Tarapacá주 Iquique 지역 계획 400MW급 양수발전 프로젝트. 2026-07-03 BNamericas 기준 SEN 접속 승인 추진. 계통 혼잡 완화·재생에너지 유연성 확보 목적이며, 후속으로 계통접속 승인, 환경평가, 토목·수로·전기기계 EPC, 금융조달 및 착공 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHL-ENERGY-NUBLE-PUNILLA-QUINCHAMALI-SUBSTATIONS",
+    "프로젝트명": "Nuble Punilla and Quinchamali Substations Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "에너지",
+    "발주처": "Coordinador Electrico Nacional / future awardee among Transemel, Transelec or other bidders",
+    "사업비(달러 기준 추정액)": "USD 28mn",
+    "사업비 환산 환율 / 기준": "Coordinador Eléctrico Nacional 2026 technical tender material lists VIRef 28MMUSD for urgent new works Nueva S/E Punilla and Nueva S/E Quinchamalí.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011370",
+    "비고": "Ñuble 지역 Nueva S/E Punilla 및 Nueva S/E Quinchamalí 긴급 신규 송전설비. 2026-03 국제입찰 공고 이후 2026-07-03 BNamericas 기준 Transemel·Transelec 입찰 참여 확인. 후속 최종 낙찰자, 계약금액, 변전소 기자재·토목·전기공사 범위 및 계통 투입 일정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -900,6 +1065,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PAN-ROAD-AUTOPISTA-CENTENARIO-APP",
+    "프로젝트명": "Rehabilitación, Mejora y Mantenimiento por Estándares de Desempeño de la Autopista Centenario",
+    "지역": "중남미",
+    "국가": "파나마",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas (MOP) / Ente Rector del Régimen APP",
+    "사업비(달러 기준 추정액)": "USD 606.5mn",
+    "사업비 환산 환율 / 기준": "MOP·Presidencia 2026-06-30/2026-07-03 기준 공식 투자액 B/.606.5mn. Balboa는 USD와 1:1 연동되어 USD 606.5mn으로 기록.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011376",
+    "비고": "Autopista Centenario 및 Arraiján-La Chorrera 축을 대상으로 하는 APP 방식 도로 재활·개선·성능기반 유지관리 프로젝트. 2026-07-03 MOP 기준 공개입찰 3단계 진입. 후속으로 입찰 일정, concessionaire 후보, 계약금액, 공사·운영·유지관리 구간 범위, 금융구조 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PER-TRANSIT-TRUJILLO-NORTH-SOUTH-CORRIDOR",
     "프로젝트명": "Trujillo North-South Trunk Corridor Urban Passenger Transport Project",
     "지역": "중남미",
@@ -942,6 +1122,36 @@
     "최근 업데이트일": "2026. 7. 3",
     "대표 기사 고유값": "ART-20260703-010831",
     "비고": "수입·수출·국제무역 관련 인허가 서류를 단일 온라인 포털에서 제출·처리하는 국가 무역 디지털 플랫폼 PPP. 2025-12-19 계약 수여, 2026-06-22 NTA·BIR 첫 live operations, 12년 계약 및 투자비 PHP 393.8mn. PPP Code 전체 승인 절차를 완료한 첫 국가기관 프로젝트로, 후속 72개 정부기관 연계, 모듈 확대, 통관·물류 디지털 인프라 PPP 확대 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PNG-BRIDGE-VAILALA-RIVER",
+    "프로젝트명": "Vailala River Bridge Project",
+    "지역": "태평양",
+    "국가": "파푸아뉴기니",
+    "섹터": "교통",
+    "발주처": "Papua New Guinea Government / Kikori District / East and West Ihu LLG",
+    "사업비(달러 기준 추정액)": "USD 29mn",
+    "사업비 환산 환율 / 기준": "The PNG Sun 2026-07-03 기준 공식 사업비 K126mn. Trading Economics 2026-07-03 USD/PGK 4.3974 적용, K126mn / 4.3974 = 약 USD 28.7mn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011380",
+    "비고": "Gulf Province Kikori District Vailala River Bridge 사업. K316mn Ihu 인프라 프로그램 내 K126mn 교량으로, Ihu-Muro Road 및 Keuru Bridge-Vailala River Road 토질안정화 공사와 함께 교통 연결성 개선 목적. 후속 교량 연장·접속도로·시공사·공정률 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PNG-ROAD-IHU-MURO",
+    "프로젝트명": "Ihu-Muro Road Project",
+    "지역": "태평양",
+    "국가": "파푸아뉴기니",
+    "섹터": "교통",
+    "발주처": "Papua New Guinea Government / Kikori District / East and West Ihu LLG",
+    "사업비(달러 기준 추정액)": "USD 40mn",
+    "사업비 환산 환율 / 기준": "The PNG Sun 2026-07-03 기준 공식 사업비 K176mn. Trading Economics 2026-07-03 USD/PGK 4.3974 적용, K176mn / 4.3974 = 약 USD 40.0mn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011379",
+    "비고": "Gulf Province Kikori District Ihu-Muro 도로 연결사업. K316mn Ihu 인프라 프로그램 중 가장 큰 K176mn 도로 사업으로, East/West Ihu 지역 연결성과 시장 접근성 개선 목적. 후속 발주처·시공사·도로 연장·공정률·완공 일정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1062,6 +1272,51 @@
     "최근 업데이트일": "2026. 7. 3",
     "대표 기사 고유값": "ART-20260703-011182",
     "비고": "Presidente Franco-Foz de Iguazú 제2국제교량 접근도로 프로젝트 산하 Río Monday 교량 공사 보완감리 LPI(ID 479955). 2026-07-03 공고, 2026-08-06 제안서 제출·개찰, 감리용역 추정금액 G. 6.620bn. Corredor Metropolitano del Este와 연계되지만 교량 시설·감리 패키지로 별도 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PRY-ROAD-PY22-CONCEPCION-VALLEMI-SANLAZARO",
+    "프로젝트명": "PY22 Concepcion-Vallemi-San Lazaro Rehabilitation and Maintenance Project",
+    "지역": "중남미",
+    "국가": "파라과이",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
+    "사업비(달러 기준 추정액)": "USD 134mn",
+    "사업비 환산 환율 / 기준": "Vouga Abogados 2026-07-03 기준 공식 추정액 G.819.864bn, 기사 내 약 USD 134mn 환산값을 사용.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011362",
+    "비고": "PY22 Concepción-Vallemí-San Lázaro 181.3km 도로 재활·성과기반 유지관리 국제입찰. 3개 lot, CAF·OFID 차관 재원, 설계 4개월·공사 20개월·유지관리 60개월 구조. lot별 낙찰자와 예산확대 승인 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PRY-ROAD-PY22-CRUCEPRIMAVERA-CONCEPCION-ACCESSES",
+    "프로젝트명": "PY22 Cruce Primavera-Concepcion and Paracel Access Roads Rehabilitation Project",
+    "지역": "중남미",
+    "국가": "파라과이",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
+    "사업비(달러 기준 추정액)": "USD 44mn",
+    "사업비 환산 환율 / 기준": "Vouga Abogados 2026-07-03 기준 공식 추정액 G.269.224bn, 기사 내 약 USD 44mn 환산값을 사용.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011361",
+    "비고": "PY22 Cruce Primavera-San Ramón-Concepción 및 Paracel·Santa Rosa 접근도로 총 36.33km 재활·성과기반 유지관리 국제입찰. CAF·OFID 차관 재원, 설계 4개월·공사 20개월·유지관리 60개월 구조. 후속 입찰 결과·낙찰자·계약금액 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PRY-URBAN-BANADO-TACUMBU-HOUSING",
+    "프로젝트명": "Nuevo Barrio Bañado Tacumbu Social Housing Project",
+    "지역": "중남미",
+    "국가": "파라과이",
+    "섹터": "도시개발·주택",
+    "발주처": "MOPC / BID loan 4700/OC-PR / project financing partners",
+    "사업비(달러 기준 추정액)": "USD 58mn",
+    "사업비 환산 환율 / 기준": "Vouga Abogados 2026-07-03 기준 MOPC LPI 485278 공식 추정액 G.355.160bn, 기사 내 약 USD 58mn 환산값을 사용. 사회주택 건설 9개 lot 기준.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 3",
+    "대표 기사 고유값": "ART-20260703-011363",
+    "비고": "Bañado Tacumbú 지역 사회주택·기반시설 복합 프로젝트. 2026-06-22 ABC Color 기준 공공·공동체 기반시설은 약 50% 진행 중이며 TYCIV II 컨소시엄이 내부도로, 하수·우수배수, 상수도, 전력 등 지원 인프라를 시공 중이다. 1,500호 지속가능 사회주택 국제입찰(ID 485278)은 기준가 G.355.160bn(약 USD 58mn)으로 2026-07-06 제안 접수·개찰 예정이며, 9개 lot로 구성된다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1335,6 +1590,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ARG-OILGAS-VMOS",
+    "프로젝트명": "Vaca Muerta Oil Sur Pipeline and Punta Colorada Export Terminal Project",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "석유가스·화학",
+    "발주처": "VMOS S.A. / YPF, PAE, Vista, Pampa Energía, Chevron, Shell, Pluspetrol and partners",
+    "사업비(달러 기준 추정액)": "USD 3bn",
+    "사업비 환산 환율 / 기준": "VMOS/YPF 계열 공개자료 및 업계 보도 기준 총투자 약 USD 3bn. 2026-07-02 기사에는 현장 고용·저장탱크 공정 중심으로 보도.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011371",
+    "비고": "Vaca Muerta 원유를 Río Negro Punta Colorada 수출터미널로 연결하는 대형 송유관·저장·수출 인프라. 2026-07-02 기준 1,500명 이상 고용과 대형 저장탱크 공정 진행 확인. 후속으로 기계적 준공, 시험충전, 첫 선적, 운영개시, EPC·O&M 참여기업 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARG-RAIL-MITRE-MARTINEZ-SUBSTATION",
     "프로젝트명": "Mitre Line Martínez Electrical Substation Renewal Project",
     "지역": "중남미",
@@ -1377,6 +1647,21 @@
     "최근 업데이트일": "2026. 7. 2",
     "대표 기사 고유값": "ART-20260702-010609",
     "비고": "Tweed Heads-Byron Bay 사이 M1 Pacific Motorway corridor 업그레이드 계획. 모델링, 개념설계, 경제성 분석, 교차로·버스우선·화물 이동 개선 검토 진행.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AUS-SOC-JOHNHUNTER-HIP-ASB",
+    "프로젝트명": "John Hunter Health and Innovation Precinct Acute Services Building",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "사회인프라",
+    "발주처": "NSW Health Infrastructure / Hunter New England Local Health District / Multiplex Constructions",
+    "사업비(달러 기준 추정액)": "USD 614mn",
+    "사업비 환산 환율 / 기준": "공식 총투자비 AUD 890mn. RBA 2026-07-02 기준 1 AUD = USD 0.6894 적용해 약 USD 614mn으로 환산.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011381",
+    "비고": "John Hunter Health and Innovation Precinct 내 7층 acute services building. 신규 응급부, 22개 수술실, 9개 interventional suite, maternity·NICU·ICU 기능, rooftop helipad, 900대 이상 주차공간 포함. 공사 완료 후 운영 커미셔닝 중이며 올해 말 개원 목표. 후속 기존 병원 refurbishment 및 운영개시 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1482,6 +1767,21 @@
     "최근 업데이트일": "2026. 7. 2",
     "대표 기사 고유값": "ART-20260702-010611",
     "비고": "Calgary Housing 최대 규모 공공·혼합소득 주택개발. 1단계 250세대, 전체 2단계 완료 시 1,000명 이상 수용. 1단계는 2028년 1분기 준공 목표이며 2단계는 planning 단계. 후속 시공사·MEP·친환경 설비·2단계 발주와 보조금 구조 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-WATER-SOURIS-MUNICIPAL-SERVICING",
+    "프로젝트명": "Souris Municipal Water, Wastewater and Stormwater Servicing Expansion Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "수자원·환경",
+    "발주처": "Housing, Infrastructure and Communities Canada / Government of Prince Edward Island / Town of Souris",
+    "사업비(달러 기준 추정액)": "USD 6.5mn",
+    "사업비 환산 환율 / 기준": "공식 총사업비 CAD 9.13948mn(연방 CAD 4.56974mn + PEI CAD 3.046189mn + Town of Souris CAD 1.523551mn). 2026-07-03 전후 참고환율 1 CAD = USD 0.7114 적용.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011384",
+    "비고": "Souris 주택공급 지원을 위한 수도·하수·우수 기반시설 확장 및 신규 오수 리프트스테이션, 자연형 우수저류지, 도로 재건. 완료 시 90필지 주거지 기반시설 제공 예정.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2445,6 +2745,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "URY-ENERGY-NUEVOCOMIENZO-UTILITY-CONNECTION",
+    "프로젝트명": "Nuevo Comienzo Safe Electricity and Potable Water Connection Project",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "에너지",
+    "발주처": "UTE / Obras Sanitarias del Estado (OSE)",
+    "사업비(달러 기준 추정액)": "USD 1.86mn",
+    "사업비 환산 환율 / 기준": "Presidencia Uruguay 2026-07-02 기준 공식 투자액 UTE UYU 47mn + OSE UYU 28mn = UYU 75mn. 2026-07-02 USD/UYU 약 40.22 적용해 USD 1.86mn으로 환산.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 2",
+    "대표 기사 고유값": "ART-20260702-011351",
+    "비고": "Nuevo Comienzo 지역 400가구 이상 대상 전력·상수도 서비스 정규화 사업. 중·저압 배전망, 2개 변전소, 11,000m 이상 상수관로, 500개 가정용 연결·계량기 설치 포함. 후속 유사 기본서비스 정규화 패키지 확대 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "URY-PORT-CANAL-MARTIN-GARCIA-DREDGING",
     "프로젝트명": "Canal Martín García Dredging, Maintenance and Widening Project",
     "지역": "중남미",
@@ -2640,6 +2955,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AUS-ENERGY-DUGALD-RIVER-WIND-BESS",
+    "프로젝트명": "Dugald River Wind Farm and Battery Energy Storage Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "에너지",
+    "발주처": "QIC / North West Energy Fund / MMG Dugald River Mine / Queensland Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 발표상 최대 24기 풍력터빈, 최대 144MW 및 BESS 포함 2단계 개발 구조만 확인됨.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260701-011382",
+    "비고": "CopperString corridor 내 MMG Dugald River Mine 전력공급을 위한 풍력+BESS 개발 후보. North West Energy Fund와 QIC의 MOU·추가 개발작업 단계이며 1단계 FID 지원을 목표로 함. 후속 BESS 용량, 사업비, EPC/터빈·배터리 공급자, 계통연계, CopperString 전력망 연계 및 광산 오프테이크 구조 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AUS-ENERGY-HUNTER-VALLEY-HYDROGEN-HUB",
     "프로젝트명": "Hunter Valley Hydrogen Hub",
     "지역": "태평양",
@@ -2682,6 +3012,21 @@
     "최근 업데이트일": "2026. 7. 1",
     "대표 기사 고유값": "ART-20260701-010607",
     "비고": "North-South Corridor 최종 10.5km T2D 구간. TBM Mary가 4.5km Southern Tunnel 굴착을 시작했고, 3개 TBM으로 남·북 터널 병행 건설 예정. 2031년 완공 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AUS-WATER-BOWRAL-STP-UPGRADE",
+    "프로젝트명": "Bowral Sewage Treatment Plant Upgrade Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "수자원·환경",
+    "발주처": "Wingecarribee Shire Council / NSW Government",
+    "사업비(달러 기준 추정액)": "USD 38.6mn",
+    "사업비 환산 환율 / 기준": "공식 사업비 AUD 56mn. RBA 2026-07-01 기준 1 AUD = USD 0.6895 적용해 약 USD 38.6mn으로 환산.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260701-011380",
+    "비고": "Bowral 하수처리장 증설·고도처리 업그레이드. 처리용량 50% 확대, 최대 7,000명 추가 수요 대응, 신규 bioreactor·inlet works·odour control·emergency storm pond·UV disinfection 포함. 후속 Southern Highlands Moss Vale·Mittagong 등 하수처리장 업그레이드 프로그램 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2787,6 +3132,21 @@
     "최근 업데이트일": "2026. 7. 1",
     "대표 기사 고유값": "ART-20260701-010595",
     "비고": "Novo PAC 포함, BR-020/GO 12km 중복·개량 및 4개 접근로·비아덕트·측도 건설",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-PIER-WHITEROCK-PHASE2",
+    "프로젝트명": "White Rock Pier Phase 2 Reconstruction Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "교통",
+    "발주처": "Housing, Infrastructure and Communities Canada / City of White Rock",
+    "사업비(달러 기준 추정액)": "USD 21.3mn",
+    "사업비 환산 환율 / 기준": "공식 총사업비 CAD 30.0mn(연방 CAD 25.935mn + White Rock시 CAD 4.065mn). 2026-07-03 전후 참고환율 1 CAD = USD 0.7114 적용.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260701-011383",
+    "비고": "Semiahmoo Bay White Rock Pier 2단계 재건. 노후 목재 구조 교체, 내진·구조·접근성 기준 개선, 접근 램프, 비상차량 접근공간, 유틸리티 관로 포함. 후속 설계·조달·시공사·착공 일정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3885,6 +4245,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SLV-TRANSPORT-SAN-SALVADOR-METROCABLE",
+    "프로젝트명": "San Salvador Metrocable Project",
+    "지역": "중남미",
+    "국가": "엘살바도르",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas y de Transporte (MOPT)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260630-009056",
+    "비고": "Zacamil-Mejicanos-Universidad de El Salvador-Centro de Gobierno-calle Rubén Darío/Parque Cuscatlán 축을 연결하는 San Salvador 도시 케이블카 프로젝트. 2026-06-24 현지 보도 기준 일부 현장 진척 지연과 주민 이슈가 확인됐고, 2026-06-30 첫 타워 설치 착수, 투자액 1억 달러 이상, 2027년 완공 목표가 확인됐다. 2026-07-01 La Prensa Gráfica는 다른 타워·정거장 예정지 공사가 계속되고 있으며 총 23개 타워, 3.55km, 153개 객실 계획을 재확인했다. 관련 기사: ART-20260624-005976, ART-20260630-009056, ART-20260701-011367. 후속 공정률, 전기기계·운영시스템, 안전인증, 시운전·운영개시 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "THA-IND-AUTOALLIANCE-RAYONG-MHEV-UPGRADE",
     "프로젝트명": "AutoAlliance Rayong Plant MHEV Production Line Upgrade Project",
     "지역": "아시아",
@@ -4095,6 +4470,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "URY-TRANSPORT-BUSSTOP-MANAGEMENT-SYSTEM",
+    "프로젝트명": "Public Transport Stop Management System on National Routes",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "교통",
+    "발주처": "MTOP / ANII / EnginLabs / Universidad de Montevideo",
+    "사업비(달러 기준 추정액)": "USD 0.106mn",
+    "사업비 환산 환율 / 기준": "MTOP 2026-07-01 기준 ANII 공식 지원금 UYU 4.26mn. 2026-07-01 USD/UYU 약 40.135 적용해 USD 0.106mn으로 환산.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260701-011352",
+    "비고": "전국 도로망 3,000개 이상 대중교통 정류장을 AI·지리정보 기반으로 탐지·관리하는 시스템 개발사업. 정류장 위치·안전상태·쉘터·표지·조명·노선·빈도·민원 모듈 포함. 물리 정비 패키지로 확장되는지 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "USA-DIGITAL-PROJECT-KILBY-AI-DC-POWER",
     "프로젝트명": "Project Kilby AI Data Center and Dedicated Power Infrastructure Project",
     "지역": "북미",
@@ -4107,6 +4497,21 @@
     "최근 업데이트일": "2026. 7. 1",
     "대표 기사 고유값": "ART-20260701-010215",
     "비고": "West Texas AI·cloud 데이터센터 전력공급을 위한 Project Kilby. Chevron 자회사 Energy Forge One이 건설·운영하고 Microsoft가 장기 전력구매자로 참여하며, National Grid Ventures가 Joulent 35% 지분에 최대 USD 1.75bn 투자. 2026년 말 FID, 2028년 운영개시 목표. 후속 FID, EPC·터빈 공급계약, 인허가, 착공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-RAIL-HUDSON-TUNNEL",
+    "프로젝트명": "Hudson Tunnel Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "교통",
+    "발주처": "Gateway Development Commission / U.S. Department of Transportation / Amtrak / NJ Transit",
+    "사업비(달러 기준 추정액)": "USD 16bn",
+    "사업비 환산 환율 / 기준": "Construction Dive 2026-07-01 기사 기준 Hudson Tunnel Project 규모 USD 16bn",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 1",
+    "대표 기사 고유값": "ART-20260701-011387",
+    "비고": "뉴욕-뉴저지 Hudson River 철도 터널 신설·재활 관련 Gateway Program 핵심 사업. 2026-07-01 연방법원이 USDOT의 연방자금 차단을 영구 금지해 DBE 프로그램 관련 자금동결 리스크가 완화됨. 기존 Package 3 New Jersey Surface Alignment는 독립 패키지로 별도 추적 중이며, 본 행은 전체 Hudson Tunnel Project의 금융·공사 지속 리스크와 후속 패키지 모니터링용으로 관리한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -5730,21 +6135,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "SLV-TRANSPORT-SAN-SALVADOR-METROCABLE",
-    "프로젝트명": "San Salvador Metrocable Project",
-    "지역": "중남미",
-    "국가": "엘살바도르",
-    "섹터": "교통",
-    "발주처": "Ministerio de Obras Públicas y de Transporte (MOPT)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 30",
-    "대표 기사 고유값": "ART-20260630-009056",
-    "비고": "Zacamil-Mejicanos-Universidad de El Salvador-Centro de Gobierno-calle Rubén Darío/Parque Cuscatlán 축을 연결하는 San Salvador 도시 케이블카 프로젝트. 2026-06-24 현지 보도 기준 일부 현장 진척 지연과 주민 이슈가 확인됐고, 2026-06-30 첫 타워 설치 착수, 투자액 1억 달러 이상, 2027년 완공 목표가 확인됐다. 관련 기사: ART-20260624-005976, ART-20260630-009056. 후속 공정률, 전기기계·운영시스템, 안전인증, 시운전·운영개시 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "TJK-ENERGY-ROGUN-HPP-PHASE1",
     "프로젝트명": "Rogun Hydropower Plant Project Phase 1",
     "지역": "중앙아시아",
@@ -6758,10 +7148,10 @@
     "발주처": "Secretaría de Infraestructura, Comunicaciones y Transportes / Dirección General de Carreteras",
     "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
-    "현재 단계": "bid-evaluation",
+    "현재 단계": "contracted",
     "최근 업데이트일": "2026-06-29",
     "대표 기사 고유값": "ART-20260629-009062",
-    "비고": "Colima주 Manzanillo Elías Zamora Verduzco Avenue-Paseo de las Gaviotas Avenue 교차부 Barrio 5 차량 고가도로. 2026-06-22 제안서 접수, 2026-06-29 판정, 2026-06-30 계약 개시 예정, 365일 공기. 낙찰자·계약금액 후속 확인 필요.",
+    "비고": "Colima주 Manzanillo Elías Zamora Verduzco Avenue-Paseo de las Gaviotas Avenue 교차부 Barrio 5 차량 고가도로. 2026-06-22 제안서 접수, 2026-06-29 판정, 2026-06-30 계약 개시, 365일 공기. 낙찰자는 Grupo Constructor Transportieren, S.A. de C.V. 및 Operadora y Administración Técnica, S.A. de C.V.로 확인되며 계약금액 후속 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -15852,21 +16242,6 @@
     "최근 업데이트일": "2026. 6. 22",
     "대표 기사 고유값": "ART-20260622-005963",
     "비고": "Alto Paraguay Carmelo Peralta 변전소 및 220kV 연계 송전 인프라 두 번째 입찰. 2026-08-14 제안 접수 예정이며 leasing operativo 구조, 과거 입찰 취소·가격 논란 이력, DNCP·예산 리스크 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "PRY-URBAN-BANADO-TACUMBU-HOUSING",
-    "프로젝트명": "Nuevo Barrio Bañado Tacumbu Social Housing Project",
-    "지역": "중남미",
-    "국가": "파라과이",
-    "섹터": "도시개발·주택",
-    "발주처": "MOPC / project financing partners",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-22",
-    "대표 기사 고유값": "ART-20260622-005207",
-    "비고": "Bañado Tacumbú 지역 사회주택·기반시설 복합 프로젝트. 2026-06-22 ABC Color 기준 공공·공동체 기반시설은 약 50% 진행 중이며 TYCIV II 컨소시엄이 내부도로, 하수·우수배수, 상수도, 전력 등 지원 인프라를 시공 중이다. 1,500호 지속가능 사회주택 국제입찰(ID 485278)은 기준가 G.355.160bn(약 USD 59m)으로 2026-07-06 제안 접수·개찰 예정이며, 소형 정수처리시설 변경안은 승인 절차 중이다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -36268,6 +36643,21 @@
     "대표 기사 고유값": "ART-20260504-003530",
     "비고": "관련 기사: ART-20250603-003529, ART-20260504-003530. 양곤-만달레이 주간선 철도 개량사업. 2025년 Bago-Nyaunglebin 등 패키지 입찰, 2026년 Toungoo-Nay Pyi Taw 및 Nay Pyi Taw-Mandalay 구간 개량 효과로 약 10시간 운행이 확인됨. 잔여 구간·신호·차량·유지보수 패키지 후속 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "PAN-DIGITAL-TIGO-FOURTH-DATA-CENTER",
+    "프로젝트명": "Tigo Panama Fourth Data Center Project",
+    "지역": "중남미",
+    "국가": "파나마",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Tigo Panamá / Millicom",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "데이터센터 단독 공식 사업비 미공개. 기사상 Tigo Panamá가 네트워크·광섬유·기술현대화와 신규 데이터센터를 포함해 연간 약 USD 100mn 투자를 지속한다고 언급.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 5. 4",
+    "대표 기사 고유값": "ART-20260504-011353",
+    "비고": "Tigo Panamá가 파나마 내 기존 3개 데이터센터에 더해 네 번째 데이터센터 건설을 계획. 부지, MW 용량, 건축면적, EPC/MEP·전력접속·냉각 패키지와 착공 일정은 미공개. 후속으로 Millicom/Tigo 공식자료, 인허가, 전력·통신망 연계, 시공사·장비 공급자 선정 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "UAE-TRANSPORT-DUBAI-METRO-BLUE-LINE",

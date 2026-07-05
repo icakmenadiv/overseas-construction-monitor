@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T15:00:11.933Z",
+  "updatedAt": "2026-07-05T18:45:58.325Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,28 +28,100 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6328,
-    "projects": 2767
+    "articles": 6370,
+    "projects": 2793
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260629-011350"
+        "ART-20260705-011391",
+        "ART-20260704-011354",
+        "ART-20260704-011364",
+        "ART-20260704-011368",
+        "ART-20260704-011389",
+        "ART-20260704-011390",
+        "ART-20260704-011392",
+        "ART-20260703-011351",
+        "ART-20260703-011355",
+        "ART-20260703-011360",
+        "ART-20260703-011361",
+        "ART-20260703-011362",
+        "ART-20260703-011363",
+        "ART-20260703-011365",
+        "ART-20260703-011366",
+        "ART-20260703-011369",
+        "ART-20260703-011370",
+        "ART-20260703-011372",
+        "ART-20260703-011373",
+        "ART-20260703-011375",
+        "ART-20260703-011376",
+        "ART-20260703-011377",
+        "ART-20260703-011379",
+        "ART-20260703-011380",
+        "ART-20260703-011381",
+        "ART-20260703-011382",
+        "ART-20260703-011385",
+        "ART-20260703-011386",
+        "ART-20260702-011351",
+        "ART-20260702-011371",
+        "ART-20260702-011374",
+        "ART-20260702-011381",
+        "ART-20260702-011384",
+        "ART-20260702-011388",
+        "ART-20260701-011352",
+        "ART-20260701-011367",
+        "ART-20260701-011378",
+        "ART-20260701-011380",
+        "ART-20260701-011382",
+        "ART-20260701-011383",
+        "ART-20260701-011387",
+        "ART-20260504-011353"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20260629-009062"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "CHN-RAIL-HEFEI-SUQIAN-SIXIAN-SUQIAN"
+        "NPL-WATER-SIKTA-IRRIGATION",
+        "CHL-PORT-PUERTO-MAULE",
+        "DOM-ROAD-HATILLO-DERRAMADERO-AGUALUIS",
+        "LKA-SOC-SABARAGAMUWA-MEDICAL-FACULTY",
+        "LKA-URBAN-KIRULAPONE-RESIDENCIES",
+        "ARG-RAIL-MENDOZA-TREN-CERCANIAS-ESTE",
+        "ARG-ROAD-RFC-ETAPA-IIB",
+        "CAN-SOC-CALGARY-CENTENNIAL-PLANETARIUM",
+        "CAN-WATER-THREERIVERS-WATER-WASTEWATER",
+        "CHL-ENERGY-CENTRAL-BOMBEO-TARAPACA",
+        "CHL-ENERGY-NUBLE-PUNILLA-QUINCHAMALI-SUBSTATIONS",
+        "PAN-ROAD-AUTOPISTA-CENTENARIO-APP",
+        "PNG-BRIDGE-VAILALA-RIVER",
+        "PNG-ROAD-IHU-MURO",
+        "PRY-ROAD-PY22-CONCEPCION-VALLEMI-SANLAZARO",
+        "PRY-ROAD-PY22-CRUCEPRIMAVERA-CONCEPCION-ACCESSES",
+        "ARG-OILGAS-VMOS",
+        "AUS-SOC-JOHNHUNTER-HIP-ASB",
+        "CAN-WATER-SOURIS-MUNICIPAL-SERVICING",
+        "URY-ENERGY-NUEVOCOMIENZO-UTILITY-CONNECTION",
+        "AUS-ENERGY-DUGALD-RIVER-WIND-BESS",
+        "AUS-WATER-BOWRAL-STP-UPGRADE",
+        "CAN-PIER-WHITEROCK-PHASE2",
+        "URY-TRANSPORT-BUSSTOP-MANAGEMENT-SYSTEM",
+        "USA-RAIL-HUDSON-TUNNEL",
+        "PAN-DIGITAL-TIGO-FOURTH-DATA-CENTER"
       ],
-      "updated": [],
+      "updated": [
+        "PRY-URBAN-BANADO-TACUMBU-HOUSING",
+        "SLV-TRANSPORT-SAN-SALVADOR-METROCABLE",
+        "MEX-ROAD-BARRIO5-OVERPASS"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 5",
+    "articleCollectedDate": "2026. 7. 6",
     "articlePublishedDate": "2026. 7. 5",
-    "projectUpdatedDate": "2026. 7. 4"
+    "projectUpdatedDate": "2026. 7. 5"
   }
 }
