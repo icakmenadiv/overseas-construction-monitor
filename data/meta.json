@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T09:46:13.590Z",
+  "updatedAt": "2026-07-05T15:00:11.933Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,28 +28,20 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6327,
-    "projects": 2766
+    "articles": 6328,
+    "projects": 2767
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260703-011345",
-        "ART-20260430-011348",
-        "ART-20260429-011349",
-        "ART-20260331-011347",
-        "ART-20251016-011346"
+        "ART-20260629-011350"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "SGP-PORT-TUAS-PHASE3",
-        "IRQ-PETCHEM-BASRA-BLUE-AMMONIA",
-        "USA-RAIL-CAHSR-TRACK-SYSTEMS",
-        "SGP-ROAD-HOLLAND-PLAIN-NETWORK",
-        "SGP-ROAD-TUAS-SOUTH-ROAD-NETWORK"
+        "CHN-RAIL-HEFEI-SUQIAN-SIXIAN-SUQIAN"
       ],
       "updated": [],
       "removed": []
