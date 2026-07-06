@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T21:40:33.153Z",
+  "updatedAt": "2026-07-06T14:08:40.620Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -473,6 +473,10 @@
       "ART-20260701-010619": {
         "source_link_click": 1
       },
+      "ART-20260702-010583": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
       "ART-20260702-010584": {
         "article_detail_open": 2,
         "source_link_click": 1
@@ -488,6 +492,60 @@
         "source_link_click": 1
       },
       "ART-20260702-010657": {
+        "article_detail_open": 1
+      },
+      "ART-20260702-010780": {
+        "article_detail_open": 1
+      },
+      "ART-20260702-010786": {
+        "article_detail_open": 1
+      },
+      "ART-20260702-011217": {
+        "source_link_click": 1
+      },
+      "ART-20260702-011226": {
+        "source_link_click": 1
+      },
+      "ART-20260703-010808": {
+        "source_link_click": 1
+      },
+      "ART-20260703-010809": {
+        "source_link_click": 1
+      },
+      "ART-20260703-010812": {
+        "source_link_click": 1
+      },
+      "ART-20260703-011182": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260703-011186": {
+        "article_detail_open": 1
+      },
+      "ART-20260703-011225": {
+        "source_link_click": 1
+      },
+      "ART-20260703-011360": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260703-011361": {
+        "article_detail_open": 1
+      },
+      "ART-20260703-011363": {
+        "article_detail_open": 1
+      },
+      "ART-20260703-011365": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260704-011234": {
+        "source_link_click": 1
+      },
+      "ART-20260704-011354": {
+        "article_detail_open": 1
+      },
+      "ART-20260704-011364": {
         "article_detail_open": 1
       }
     },
@@ -507,6 +565,9 @@
         "project_detail_open": 1
       },
       "CHL-IND-MEJILLONES-LOGISTICS-PLATFORM": {
+        "project_detail_open": 1
+      },
+      "DOM-RAIL-SANTIAGO-MONORAIL": {
         "project_detail_open": 1
       },
       "DZA-OILGAS-TSGP-ALGERIAN-SECTION": {
@@ -1845,6 +1906,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260702-010583",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:58:47.568Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010583",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:58:52.415Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260702-010584",
       "eventType": "article_detail_open",
       "count": 2,
@@ -1893,6 +1968,146 @@
       "updatedAt": "2026-07-03T00:33:45.828Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260702-010780",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:58:11.844Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-010786",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:58:18.055Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-011217",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-05T23:55:03.396Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-011226",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-05T23:48:06.801Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-010808",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-06T00:36:26.508Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-010809",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-06T00:38:57.572Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-010812",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-05T23:52:20.501Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011182",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:53:30.729Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011182",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:54:25.020Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011186",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:53:09.098Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011225",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-06T00:07:56.651Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011360",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:43:04.772Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011360",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:44:44.199Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011361",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:43:45.690Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011363",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:53:41.298Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011365",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:44:08.201Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011365",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:45:12.806Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260704-011234",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-05T23:42:55.779Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260704-011354",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:40:17.175Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260704-011364",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T01:42:29.290Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
@@ -1926,6 +2141,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-07-02T05:00:56.194Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "DOM-RAIL-SANTIAGO-MONORAIL",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-06T00:09:10.236Z"
     },
     {
       "targetType": "project",
