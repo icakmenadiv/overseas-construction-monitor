@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T22:15:22.123Z",
+  "updatedAt": "2026-07-06T12:31:34.222Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,33 +28,75 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6453,
-    "projects": 2819
+    "articles": 6483,
+    "projects": 2835
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260705-011465",
-        "ART-20260705-011469",
-        "ART-20260705-011472",
-        "ART-20260705-011473",
-        "ART-20260702-011467",
-        "ART-20260702-011468",
-        "ART-20260702-011469",
-        "ART-20260702-011471",
-        "ART-20260701-011470",
-        "ART-20260630-011466"
+        "ART-20260705-011474",
+        "ART-20260705-011475",
+        "ART-20260705-011477",
+        "ART-20260705-011478",
+        "ART-20260705-011481",
+        "ART-20260705-011482",
+        "ART-20260705-011483",
+        "ART-20260705-011484",
+        "ART-20260705-011486",
+        "ART-20260705-011491",
+        "ART-20260704-011476",
+        "ART-20260704-011485",
+        "ART-20260704-011488",
+        "ART-20260703-011479",
+        "ART-20260703-011483",
+        "ART-20260703-011484",
+        "ART-20260703-011487",
+        "ART-20260703-011488",
+        "ART-20260703-011490",
+        "ART-20260703-011493",
+        "ART-20260702-011480",
+        "ART-20260702-011489",
+        "ART-20260702-011492",
+        "ART-20260701-011487",
+        "ART-20260223-011499",
+        "ART-20260204-011494",
+        "ART-20260204-011495",
+        "ART-20260204-011496",
+        "ART-20260204-011497",
+        "ART-20260204-011498"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20260705-011465",
+        "ART-20260703-011168",
+        "ART-20260701-010537"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "BHR-ROAD-ZALLAQ-JUNCTION-UTURN",
-        "DZA-WATER-ELMACTAA-DESAL-REHAB"
+        "ISR-URBAN-ASHDOD-BNEIBRIT-ZISLING-RENEWAL",
+        "NGA-ROAD-BORNO-BAMA-BANKI-DIKWA-GAMBORU",
+        "TZA-AIR-AAKIA-T2-COMMERCIAL-CENTRE",
+        "TZA-OILGAS-MANGAPWANI-OIL-OFFLOADING",
+        "VNM-PORT-LACHHUYEN-PSA-BERTHS",
+        "ETH-IND-CREW-MECHANIZATION-SERVICE-CENTERS",
+        "TUN-URBANRAIL-SFAX-LIGHT-METRO",
+        "TUN-SOC-KERKENNAH-AMBULANCE-BOAT-QUAY",
+        "VNM-DIGITAL-YENBINH-TECH-PARK",
+        "GHA-WATER-GARID-FLOOD-RESILIENCE",
+        "QAT-ROAD-ALNASRIYA-WESTIZHGHAWA-ENABLING",
+        "IRQ-ENERGY-DHIQAR-CCGT",
+        "IRQ-ENERGY-HAWIJA-POWER",
+        "IRQ-ENERGY-MANSOURIYA-II-POWER",
+        "IRQ-ENERGY-MUSAYIB-GAS-EXPANSION",
+        "IRQ-ENERGY-SAMAWAH-CCGT"
       ],
       "updated": [
-        "LBY-SOC-TRIPOLIGATE-MINISTERIAL-COMPLEX"
+        "ETH-URBAN-HAWASSA-LAKE-SHORE",
+        "JOR-WATER-NATIONAL-CARRIER",
+        "VNM-ROAD-NHATRANG-DALAT-EXPRESSWAY",
+        "SAU-SOC-QIDDIYA-HORSE-RACING-VENUE",
+        "SLV-TRANSPORT-SAN-SALVADOR-METROCABLE"
       ],
       "removed": []
     }
