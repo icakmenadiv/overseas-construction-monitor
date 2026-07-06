@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T22:45:52.284Z",
+  "updatedAt": "2026-07-06T22:52:32.925Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 6563,
@@ -33,79 +33,14 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260707-011577",
-        "ART-20260706-011566",
-        "ART-20260706-011567",
-        "ART-20260706-011568",
-        "ART-20260706-011569",
-        "ART-20260706-011571",
-        "ART-20260706-011575",
-        "ART-20260706-011576",
-        "ART-20260706-011578",
-        "ART-20260706-011900",
-        "ART-20260706-011901",
-        "ART-20260706-011902",
-        "ART-20260706-011904",
-        "ART-20260706-011905",
-        "ART-20260706-011906",
-        "ART-20260706-011908",
-        "ART-20260706-011909",
-        "ART-20260706-011910",
-        "ART-20260705-011568",
-        "ART-20260705-011579",
-        "ART-20260704-011570",
-        "ART-20260703-011572",
-        "ART-20260703-011574",
-        "ART-20260703-011903",
-        "ART-20260702-011565",
-        "ART-20260702-011567",
-        "ART-20260702-011573",
-        "ART-20260701-011904",
-        "ART-20260701-011907"
-      ],
-      "updated": [
-        "ART-20260705-011553"
-      ],
-      "removed": [
-        "ART-20260703-011508",
-        "ART-20260703-011521",
-        "ART-20260705-011457",
-        "ART-20260701-011367",
-        "ART-20260701-011323",
-        "ART-20260701-011164",
-        "ART-20260701-010593",
-        "ART-20260701-010747",
-        "ART-20260630-010202",
-        "ART-20260630-010304",
-        "ART-20260626-008760",
-        "ART-20260626-007219",
-        "ART-20260625-006234",
-        "ART-20260618-004693",
-        "ART-20260618-004189"
-      ]
+      "added": [],
+      "updated": [],
+      "removed": []
     },
     "projects": {
-      "added": [
-        "IND-ENERGY-KAIGA-UNITS56",
-        "MYS-PORT-MELAKA-INLAND-PORT",
-        "PHL-PORT-CASIGURAN-INTERNATIONAL-NEW-PORT",
-        "ROU-DIGITAL-BIOMEDLAKE-HPC",
-        "THA-URBAN-CENTRAL-CENTRAL-SIAM",
-        "IND-RAIL-BONDAMUNDA-FLYOVER",
-        "IND-RAIL-MALDA-EI-UPGRADE",
-        "IDN-BRIDGE-MUNA-BUTON"
-      ],
-      "updated": [
-        "BGD-ROAD-KHULNA-SHIPYARD-WIDENING",
-        "ROU-ROAD-A8-TARGUNEAMT-IASI-UNGHENI-LOT4",
-        "TWN-BRIDGE-DADU-HEMEI",
-        "THA-RAIL-THREE-AIRPORT-HSR",
-        "SLV-SOC-NATIONAL-STADIUM"
-      ],
-      "removed": [
-        "PAN-ROAD-AUTOPISTA-CENTENARIO-APP"
-      ]
+      "added": [],
+      "updated": [],
+      "removed": []
     }
   },
   "latest": {
