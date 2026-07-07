@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T18:24:57.144Z",
+  "updatedAt": "2026-07-07T22:34:03.135Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 6563,
@@ -34,27 +34,7 @@
   "diff": {
     "articles": {
       "added": [],
-      "updated": [
-        "ART-20260706-011557",
-        "ART-20260706-011904",
-        "ART-20260705-011526",
-        "ART-20260705-011562",
-        "ART-20260704-011364",
-        "ART-20260703-011361",
-        "ART-20260703-011373",
-        "ART-20260703-011375",
-        "ART-20260703-011376",
-        "ART-20260701-011427",
-        "ART-20260704-011196",
-        "ART-20260703-011181",
-        "ART-20260702-011198",
-        "ART-20260702-011217",
-        "ART-20260703-010812",
-        "ART-20260703-010820",
-        "ART-20260702-010628",
-        "ART-20260628-010705",
-        "ART-20260627-007048"
-      ],
+      "updated": [],
       "removed": []
     },
     "projects": {
