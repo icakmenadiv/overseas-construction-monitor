@@ -1,8 +1,11 @@
 {
-  "updatedAt": "2026-07-07T19:19:00.362Z",
+  "updatedAt": "2026-07-08T09:31:27.510Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
+      "ART-20260106-001456": {
+        "source_link_click": 1
+      },
       "ART-20260605-000212": {
         "article_detail_open": 1,
         "source_link_click": 1
@@ -515,7 +518,7 @@
         "source_link_click": 1
       },
       "ART-20260702-011217": {
-        "source_link_click": 2
+        "source_link_click": 3
       },
       "ART-20260702-011226": {
         "source_link_click": 1
@@ -546,6 +549,9 @@
       "ART-20260703-011225": {
         "source_link_click": 1
       },
+      "ART-20260703-011242": {
+        "source_link_click": 1
+      },
       "ART-20260703-011360": {
         "article_detail_open": 1,
         "source_link_click": 1
@@ -572,6 +578,9 @@
         "article_detail_open": 2,
         "source_link_click": 2
       },
+      "ART-20260703-011527": {
+        "article_detail_open": 1
+      },
       "ART-20260704-011196": {
         "article_detail_open": 1
       },
@@ -585,11 +594,29 @@
         "article_detail_open": 2,
         "source_link_click": 1
       },
-      "ART-20260705-011526": {
+      "ART-20260704-011389": {
+        "source_link_click": 1
+      },
+      "ART-20260704-011528": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260705-011503": {
         "article_detail_open": 1
+      },
+      "ART-20260705-011526": {
+        "article_detail_open": 3
       },
       "ART-20260705-011562": {
         "source_link_click": 1
+      },
+      "ART-20260706-011502": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260706-011514": {
+        "article_detail_open": 2,
+        "source_link_click": 2
       },
       "ART-20260706-011557": {
         "article_detail_open": 1,
@@ -602,7 +629,7 @@
     },
     "page": {
       "market-home": {
-        "market_page_visit": 25
+        "market_page_visit": 26
       }
     },
     "project": {
@@ -652,6 +679,9 @@
         "project_detail_open": 1
       },
       "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION": {
+        "project_detail_open": 1
+      },
+      "LKA-URBAN-KIRULAPONE-RESIDENCIES": {
         "project_detail_open": 1
       },
       "LTU-PORT-KLAIPEDA-SOUTHPORT": {
@@ -717,6 +747,9 @@
       "UZB-RAIL-TASHKENT-SAMARKAND-HSR": {
         "project_detail_open": 1
       },
+      "UZB-ROAD-TASHKENT-ANDIJAN-TOLL": {
+        "project_detail_open": 1
+      },
       "VNM-IND-KARCHER-DANANG-FACTORY-PH2": {
         "project_detail_open": 1
       },
@@ -726,6 +759,13 @@
     }
   },
   "rows": [
+    {
+      "targetType": "article",
+      "targetId": "ART-20260106-001456",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-08T04:44:07.108Z"
+    },
     {
       "targetType": "article",
       "targetId": "ART-20260605-000212",
@@ -2081,8 +2121,8 @@
       "targetType": "article",
       "targetId": "ART-20260702-011217",
       "eventType": "source_link_click",
-      "count": 2,
-      "updatedAt": "2026-07-07T04:18:18.591Z"
+      "count": 3,
+      "updatedAt": "2026-07-08T01:09:55.960Z"
     },
     {
       "targetType": "article",
@@ -2160,6 +2200,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-06T00:07:56.651Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011242",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-08T02:04:23.487Z"
     },
     {
       "targetType": "article",
@@ -2247,6 +2294,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260703-011527",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-08T04:05:01.374Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260704-011196",
       "eventType": "article_detail_open",
       "count": 1,
@@ -2282,10 +2336,38 @@
     },
     {
       "targetType": "article",
-      "targetId": "ART-20260705-011526",
+      "targetId": "ART-20260704-011389",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-08T01:06:51.089Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260704-011528",
       "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-07-07T01:51:48.816Z"
+      "updatedAt": "2026-07-08T04:11:54.807Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260704-011528",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-08T04:11:59.098Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260705-011503",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-08T04:11:34.447Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260705-011526",
+      "eventType": "article_detail_open",
+      "count": 3,
+      "updatedAt": "2026-07-08T04:04:33.541Z"
     },
     {
       "targetType": "article",
@@ -2293,6 +2375,34 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-07T07:17:36.542Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260706-011502",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-08T02:13:01.476Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260706-011502",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-08T02:13:11.010Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260706-011514",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-08T04:57:06.564Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260706-011514",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-08T04:57:07.397Z"
     },
     {
       "targetType": "article",
@@ -2326,8 +2436,8 @@
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 25,
-      "updatedAt": "2026-07-07T02:33:17.822Z"
+      "count": 26,
+      "updatedAt": "2026-07-08T08:23:55.554Z"
     },
     {
       "targetType": "project",
@@ -2440,6 +2550,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-26T04:30:25.915Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "LKA-URBAN-KIRULAPONE-RESIDENCIES",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-08T01:06:37.262Z"
     },
     {
       "targetType": "project",
@@ -2587,6 +2704,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-07-02T04:58:53.356Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "UZB-ROAD-TASHKENT-ANDIJAN-TOLL",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-08T04:43:56.089Z"
     },
     {
       "targetType": "project",
