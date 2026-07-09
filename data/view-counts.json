@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T21:54:21.266Z",
+  "updatedAt": "2026-07-09T11:33:27.422Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -14,6 +14,9 @@
         "source_link_click": 1
       },
       "ART-20260610-001548": {
+        "source_link_click": 1
+      },
+      "ART-20260611-001990": {
         "source_link_click": 1
       },
       "ART-20260611-002726": {
@@ -505,7 +508,8 @@
         "source_link_click": 2
       },
       "ART-20260702-010657": {
-        "article_detail_open": 1
+        "article_detail_open": 1,
+        "source_link_click": 1
       },
       "ART-20260702-010780": {
         "article_detail_open": 1
@@ -522,6 +526,13 @@
       },
       "ART-20260702-011226": {
         "source_link_click": 1
+      },
+      "ART-20260702-011243": {
+        "source_link_click": 1
+      },
+      "ART-20260702-011418": {
+        "article_detail_open": 1,
+        "source_link_click": 2
       },
       "ART-20260703-010808": {
         "source_link_click": 1
@@ -550,6 +561,15 @@
         "source_link_click": 1
       },
       "ART-20260703-011242": {
+        "source_link_click": 4
+      },
+      "ART-20260703-011244": {
+        "source_link_click": 1
+      },
+      "ART-20260703-011245": {
+        "source_link_click": 2
+      },
+      "ART-20260703-011345": {
         "source_link_click": 1
       },
       "ART-20260703-011360": {
@@ -578,6 +598,9 @@
         "article_detail_open": 2,
         "source_link_click": 2
       },
+      "ART-20260703-011418": {
+        "source_link_click": 1
+      },
       "ART-20260703-011527": {
         "article_detail_open": 1
       },
@@ -586,6 +609,9 @@
       },
       "ART-20260704-011234": {
         "source_link_click": 1
+      },
+      "ART-20260704-011240": {
+        "source_link_click": 2
       },
       "ART-20260704-011354": {
         "article_detail_open": 1
@@ -599,6 +625,9 @@
       },
       "ART-20260704-011528": {
         "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260705-011481": {
         "source_link_click": 1
       },
       "ART-20260705-011503": {
@@ -618,6 +647,9 @@
         "article_detail_open": 2,
         "source_link_click": 2
       },
+      "ART-20260706-011555": {
+        "source_link_click": 1
+      },
       "ART-20260706-011557": {
         "article_detail_open": 1,
         "source_link_click": 2
@@ -625,11 +657,14 @@
       "ART-20260706-011904": {
         "article_detail_open": 1,
         "source_link_click": 2
+      },
+      "ART-20260706-011905": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 26
+        "market_page_visit": 27
       }
     },
     "project": {
@@ -669,6 +704,9 @@
       "HUN-RAIL-SOUTHERN-CIRCLE-PH3": {
         "project_detail_open": 1
       },
+      "IDN-DIGITAL-AGCC-AI-DATA-CENTER": {
+        "project_detail_open": 1
+      },
       "IDN-WATER-JAVA-GIANT-SEA-WALL": {
         "project_detail_open": 2
       },
@@ -691,6 +729,9 @@
         "project_detail_open": 1
       },
       "NPL-AIR-TARIGAUN-AIRPORT-UPGRADE": {
+        "project_detail_open": 1
+      },
+      "NPL-HYDRO-JAGDULLA-106MW": {
         "project_detail_open": 1
       },
       "OMN-ENERGY-ACME-DUQM-H2-AMMONIA-PH2PH3": {
@@ -793,6 +834,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-06-24T07:25:30.861Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260611-001990",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-09T05:02:32.165Z"
     },
     {
       "targetType": "article",
@@ -2091,6 +2139,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260702-010657",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-09T02:05:35.439Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260702-010780",
       "eventType": "article_detail_open",
       "count": 1,
@@ -2130,6 +2185,27 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-05T23:48:06.801Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-011243",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-09T02:11:51.542Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-011418",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-09T02:14:02.127Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260702-011418",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-09T04:27:43.937Z"
     },
     {
       "targetType": "article",
@@ -2205,8 +2281,29 @@
       "targetType": "article",
       "targetId": "ART-20260703-011242",
       "eventType": "source_link_click",
+      "count": 4,
+      "updatedAt": "2026-07-09T07:11:00.275Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011244",
+      "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-07-08T02:04:23.487Z"
+      "updatedAt": "2026-07-09T02:16:34.829Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011245",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-09T05:12:43.174Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260703-011345",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-09T01:38:55.570Z"
     },
     {
       "targetType": "article",
@@ -2294,6 +2391,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260703-011418",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-09T01:52:13.893Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260703-011527",
       "eventType": "article_detail_open",
       "count": 1,
@@ -2312,6 +2416,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-05T23:42:55.779Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260704-011240",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-09T05:30:29.661Z"
     },
     {
       "targetType": "article",
@@ -2354,6 +2465,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-08T04:11:59.098Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260705-011481",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-09T00:09:15.016Z"
     },
     {
       "targetType": "article",
@@ -2406,6 +2524,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260706-011555",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-09T00:02:30.546Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260706-011557",
       "eventType": "article_detail_open",
       "count": 1,
@@ -2433,11 +2558,18 @@
       "updatedAt": "2026-07-07T07:16:04.712Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260706-011905",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-08T23:58:02.966Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 26,
-      "updatedAt": "2026-07-08T08:23:55.554Z"
+      "count": 27,
+      "updatedAt": "2026-07-09T04:29:23.223Z"
     },
     {
       "targetType": "project",
@@ -2525,6 +2657,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "IDN-DIGITAL-AGCC-AI-DATA-CENTER",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-09T04:53:56.110Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "IDN-WATER-JAVA-GIANT-SEA-WALL",
       "eventType": "project_detail_open",
       "count": 2,
@@ -2578,6 +2717,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-30T23:47:10.629Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "NPL-HYDRO-JAGDULLA-106MW",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-09T04:28:51.604Z"
     },
     {
       "targetType": "project",
