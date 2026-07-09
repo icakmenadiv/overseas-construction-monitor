@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T17:32:05.720Z",
+  "updatedAt": "2026-07-09T22:45:48.370Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,38 +28,93 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6563,
-    "projects": 2877
+    "articles": 6606,
+    "projects": 2893
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260706-011555",
-        "ART-20260706-011905",
-        "ART-20260705-011481",
-        "ART-20260703-011418",
-        "ART-20260702-011418",
-        "ART-20260704-011240",
-        "ART-20260703-011242",
-        "ART-20260703-011244",
-        "ART-20260703-011245",
-        "ART-20260703-011345",
-        "ART-20260702-011243",
-        "ART-20260702-010657",
-        "ART-20260611-001990"
+      "added": [
+        "ART-20260709-011911",
+        "ART-20260709-012505",
+        "ART-20260709-012508",
+        "ART-20260709-012512",
+        "ART-20260709-012517",
+        "ART-20260709-012518",
+        "ART-20260709-012519",
+        "ART-20260709-012520",
+        "ART-20260709-012525",
+        "ART-20260709-012526",
+        "ART-20260709-012529",
+        "ART-20260709-012530",
+        "ART-20260709-012532",
+        "ART-20260709-012535",
+        "ART-20260709-012537",
+        "ART-20260709-012538",
+        "ART-20260708-011912",
+        "ART-20260708-011914",
+        "ART-20260708-012504",
+        "ART-20260708-012511",
+        "ART-20260708-012513",
+        "ART-20260708-012515",
+        "ART-20260708-012521",
+        "ART-20260708-012522",
+        "ART-20260708-012533",
+        "ART-20260707-012502",
+        "ART-20260707-012503",
+        "ART-20260707-012509",
+        "ART-20260707-012510",
+        "ART-20260707-012514",
+        "ART-20260707-012516",
+        "ART-20260707-012527",
+        "ART-20260707-012528",
+        "ART-20260707-012531",
+        "ART-20260707-012536",
+        "ART-20260706-011915",
+        "ART-20260706-012501",
+        "ART-20260706-012507",
+        "ART-20260706-012523",
+        "ART-20260706-012524",
+        "ART-20260706-012534",
+        "ART-20260705-011913",
+        "ART-20260705-012506"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ISR-RAIL-JERUSALEM-GREEN-LINE",
+        "LBY-PORT-SIRTE-FREE-ZONE-QUAYS",
+        "NGA-ROAD-EKITI-ADO-IYIN-ARAMOKO",
+        "TUN-WATER-ZAGHOUAN-BENHAMMOUDA-OUED",
+        "JOR-ROAD-AIRPORT-ROAD-UPGRADE",
+        "LBY-OILGAS-GHADAMES-AREA47-EPSA",
+        "MAR-RAIL-CASABLANCA-RER-STATIONS",
+        "MAR-PORT-CASABLANCA-SHIPYARD",
+        "SDN-PORT-PORTSUDAN-CHEC-UPGRADE",
+        "TUN-IND-AKSA-COMPOSITES-BORJCEDRIA",
+        "LBY-PETCHEM-LIFECO-UREA1-BOILER-SG1011B",
+        "OMN-PORT-MAHOUT-FISHING-PORT",
+        "OMN-ROAD-JABAL-ABYAD",
+        "OMN-ROAD-SOHAR-STBF-SQ-LINK",
+        "OMN-ROAD-SULTAN-TAIMUR-PKG3",
+        "TUR-ROAD-CAMLIBEL-TUNNEL"
+      ],
+      "updated": [
+        "DZA-RAIL-EAST-MINING-LINE",
+        "TUN-URBAN-SIDI-BOUSAID-HILL-PROTECTION",
+        "DZA-PORT-ANNABA-PHOSPHATE-EXPANSION",
+        "LBY-AIR-TRIPOLI-AIRPORT-INVESTOR-PLATFORM",
+        "MAR-URBAN-CASABLANCA-ROYAL-AVENUE",
+        "MAR-ENERGY-ELMENZEL-STEP",
+        "NGA-ROAD-LAGOS-CALABAR-COASTAL"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 7",
-    "articlePublishedDate": "2026. 7. 7",
-    "projectUpdatedDate": "2026. 7. 6"
+    "articleCollectedDate": "2026. 7. 10",
+    "articlePublishedDate": "2026. 7. 9",
+    "projectUpdatedDate": "2026. 7. 9"
   }
 }
