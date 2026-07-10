@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T22:51:56.089Z",
+  "updatedAt": "2026-07-10T10:35:29.759Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,35 +24,78 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6609,
-    "projects": 2895
+    "articles": 6638,
+    "projects": 2909
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260709-012539",
-        "ART-20260708-012541",
-        "ART-20260706-012540"
+        "ART-20260710-012560",
+        "ART-20260709-012542",
+        "ART-20260709-012543",
+        "ART-20260709-012544",
+        "ART-20260709-012545",
+        "ART-20260709-012546",
+        "ART-20260709-012547",
+        "ART-20260709-012548",
+        "ART-20260709-012549",
+        "ART-20260709-012551",
+        "ART-20260709-012554",
+        "ART-20260709-012555",
+        "ART-20260709-012556",
+        "ART-20260709-012562",
+        "ART-20260709-012563",
+        "ART-20260708-012552",
+        "ART-20260708-012553",
+        "ART-20260708-012558",
+        "ART-20260708-012564",
+        "ART-20260708-012565",
+        "ART-20260708-012566",
+        "ART-20260708-012567",
+        "ART-20260708-012569",
+        "ART-20260708-012570",
+        "ART-20260707-012557",
+        "ART-20260707-012561",
+        "ART-20260707-012568",
+        "ART-20260706-012550",
+        "ART-20260706-012559"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "MOZ-SOC-PEMBA-MARINE-SAFETY-CENTER",
-        "MOZ-ROAD-PEMBA-ANE-CHUIBA"
+        "GHA-AIR-WA-AIRPORT",
+        "GNQ-DIGITAL-GETESA-HUAWEI-NETWORK-OPTIMIZATION",
+        "KEN-PORT-MOMBASA-ROAD-INFRA",
+        "VNM-ROAD-MYAN-CAOLANH-EXPRESSWAY",
+        "GHA-ROAD-AFRAM-RIVER-BRIDGE",
+        "GHA-ROAD-ATIMPOKU-FRANKADUA",
+        "RWA-ROAD-KINIGI-KORA-UPGRADE",
+        "VNM-IND-VFT-TANLAN3-GREEN-STEEL",
+        "VNM-IND-WISTRON-KIMBANG-FACTORY-EXPANSION",
+        "VNM-ROAD-PHAPVAN-CAUGIE-EXPANSION",
+        "VNM-IND-LGINNOTEK-HAIPHONG-SUBSTRATE-PLANT",
+        "VNM-ROAD-DAUGIAY-TANPHU-EXPRESSWAY",
+        "RWA-WATER-NBFA-WESTERN",
+        "IRQ-ENERGY-ALFAW-2000MW-TPP"
       ],
-      "updated": [],
+      "updated": [
+        "KEN-RAIL-NAIVASHA-KISUMU-MALABA-SGR",
+        "VNM-ROAD-CAMLO-LASON-EXP-EXPANSION",
+        "KEN-SOC-RAILA-ODINGA-STADIUM",
+        "ZAF-AUTO-CHERY-ROSSLYN-PLANT"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026. 7. 10",
-    "articlePublishedDate": "2026. 7. 9",
+    "articlePublishedDate": "2026. 7. 10",
     "projectUpdatedDate": "2026. 7. 9"
   }
 }
