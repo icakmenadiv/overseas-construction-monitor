@@ -1725,6 +1725,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "QAT-URBAN-LUSAIL-INFRASTRUCTURE-PROGRAM",
+    "프로젝트명": "Lusail City Infrastructure Program",
+    "지역": "중동",
+    "국가": "카타르",
+    "섹터": "도시개발·주택",
+    "발주처": "Lusail Real Estate Development Company (LREDC) / Parsons Corporation",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 계약금액 및 프로그램 총사업비 미공개. Parsons 2026-07-07 보도에서 3년 PMCMCS 계약, 38㎢·19개 지구 범위만 확인.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 7",
+    "대표 기사 고유값": "ART-20260707-012736",
+    "비고": "도하 북부 Lusail City의 38㎢·19개 지구 도시 인프라 프로그램. Parsons가 LREDC로부터 3년 PMCMCS 계약을 수주해 설계·시공 감독, 인터페이스 관리, 프로젝트 관리, 품질보증, 이해관계자 조정을 지원. 기존 Lusail District Cooling Network와는 범위가 다른 도시개발·인프라 프로그램으로 별도 관리하며, 후속 세부 인프라 패키지와 계약금액 공개 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ROU-ENERGY-SOMESENI-110KV-SUBSTATION",
     "프로젝트명": "Someseni 110/20/10 kV Transformer Substation Project",
     "지역": "유럽",
@@ -2097,6 +2112,21 @@
     "최근 업데이트일": "2026. 7. 6",
     "대표 기사 고유값": "ART-20260706-011571",
     "비고": "Karnataka Uttara Kannada 지구 Kaiga 원전 5·6호기 2x700MWe PHWR 증설 프로젝트. 2026-07-06 보도 기준 원자로 기초부 약 7,250㎥ 연속 콘크리트 타설 완료. 후속 원자로 건물 상부 구조, 주요 기자재 설치, 시스템·시운전 일정과 하도급 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IRN-ENERGY-DEYLAM-LEILTIN-SOLAR",
+    "프로젝트명": "Deylam Leiltin 12MW Solar Power Plant Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "에너지",
+    "발주처": "Deylam County authorities / Iran Ministry of Energy-related public entities",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "원문: 총투자 약 6,600bn IRR, 1MW당 약 550bn IRR, 정부 재원. 운영 시점 USD 환산 기준을 확정하지 못해 사업비 열은 미확인으로 보수 처리.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 6",
+    "대표 기사 고유값": "ART-20260706-012734",
+    "비고": "부셰르주 데일람군 레일틴 12MW 태양광발전소. 6MW씩 2단계로 조성되며 2026-07-06 IRNA 기준 공정률 약 75%, 첫 6MW 단계는 잔여 장비 확보 후 정부주간 가동 목표. 15ha 부지, 정부투자 총 6,600bn IRR. 후속 1단계 계통 투입, 2단계 완료, Baneh Ahmad 별도 프로젝트 분리 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2877,21 +2907,6 @@
     "최근 업데이트일": "2026. 7. 4",
     "대표 기사 고유값": "ART-20260704-011354",
     "비고": "Montecristi주 Hatillo Palma-Derramadero-Agua de Luis 및 Arroyo Caña 도로 준공. 32,000명 이상 수혜, Carretera Duarte 및 인근 지자체 연결성 개선, 농축산 생산·Línea Noroeste 개발 지원.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "DOM-ROAD-HATILLOPALMA-DERRAMADERO-AGUA-LUIS",
-    "프로젝트명": "Hatillo Palma-Derramadero-Agua de Luis Road Project",
-    "지역": "중남미",
-    "국가": "도미니카공화국",
-    "섹터": "교통",
-    "발주처": "MOPC",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 기사상 Hatillo Palma-Derramadero-Agua de Luis 및 Arroyo Caña 도로 개통, 32,000명 이상 수혜, Duarte 고속도로·지역 연결성 개선만 확인됨.",
-    "현재 단계": "completion",
-    "최근 업데이트일": "2026. 7. 4",
-    "대표 기사 고유값": "ART-20260704-011519",
-    "비고": "Montecristi Hatillo Palma-Derramadero-Agua de Luis 및 Arroyo Caña 도로 개통 프로젝트. 북서부 지역 연결성과 농축산 물류 지원 목적. 후속 세부 연장·계약금액·추가 도로공구 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
