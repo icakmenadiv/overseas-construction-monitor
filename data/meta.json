@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T10:35:29.759Z",
+  "updatedAt": "2026-07-10T17:22:31.853Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,73 +28,54 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6638,
-    "projects": 2909
+    "articles": 6653,
+    "projects": 2918
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260710-012560",
-        "ART-20260709-012542",
-        "ART-20260709-012543",
-        "ART-20260709-012544",
-        "ART-20260709-012545",
-        "ART-20260709-012546",
-        "ART-20260709-012547",
-        "ART-20260709-012548",
-        "ART-20260709-012549",
-        "ART-20260709-012551",
-        "ART-20260709-012554",
-        "ART-20260709-012555",
-        "ART-20260709-012556",
-        "ART-20260709-012562",
-        "ART-20260709-012563",
-        "ART-20260708-012552",
-        "ART-20260708-012553",
-        "ART-20260708-012558",
-        "ART-20260708-012564",
-        "ART-20260708-012565",
-        "ART-20260708-012566",
-        "ART-20260708-012567",
-        "ART-20260708-012569",
-        "ART-20260708-012570",
-        "ART-20260707-012557",
-        "ART-20260707-012561",
-        "ART-20260707-012568",
-        "ART-20260706-012550",
-        "ART-20260706-012559"
+        "ART-20260710-012582",
+        "ART-20260709-012572",
+        "ART-20260709-012576",
+        "ART-20260709-012578",
+        "ART-20260708-012573",
+        "ART-20260708-012575",
+        "ART-20260708-012581",
+        "ART-20260707-012577",
+        "ART-20260707-012579",
+        "ART-20260707-012580",
+        "ART-20260706-012574",
+        "ART-20260706-012583",
+        "ART-20260706-012584",
+        "ART-20260706-012585",
+        "ART-20260707-012571"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20260704-011570"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "GHA-AIR-WA-AIRPORT",
-        "GNQ-DIGITAL-GETESA-HUAWEI-NETWORK-OPTIMIZATION",
-        "KEN-PORT-MOMBASA-ROAD-INFRA",
-        "VNM-ROAD-MYAN-CAOLANH-EXPRESSWAY",
-        "GHA-ROAD-AFRAM-RIVER-BRIDGE",
-        "GHA-ROAD-ATIMPOKU-FRANKADUA",
-        "RWA-ROAD-KINIGI-KORA-UPGRADE",
-        "VNM-IND-VFT-TANLAN3-GREEN-STEEL",
-        "VNM-IND-WISTRON-KIMBANG-FACTORY-EXPANSION",
-        "VNM-ROAD-PHAPVAN-CAUGIE-EXPANSION",
-        "VNM-IND-LGINNOTEK-HAIPHONG-SUBSTRATE-PLANT",
-        "VNM-ROAD-DAUGIAY-TANPHU-EXPRESSWAY",
-        "RWA-WATER-NBFA-WESTERN",
-        "IRQ-ENERGY-ALFAW-2000MW-TPP"
+        "BOL-ROAD-CHARANA-ROAD",
+        "COL-ROAD-ESTANQUILLO-POPAYAN",
+        "COL-ROAD-AUTOPISTAS-CARIBE",
+        "URY-ROAD-RUTA7-FLORIDA-LAVALLEJA-REHAB",
+        "BOL-AIR-VIRUVIRU-HUB",
+        "IRQ-PETCHEM-BASRA-KEPPT-UREA",
+        "COL-ENERGY-ELBARRANQUERO-GEOTHERMAL",
+        "ECU-HOUSING-PINAS-CASA100",
+        "ECU-ROAD-ELGUABO-ELGARRIDO-E25"
       ],
       "updated": [
-        "KEN-RAIL-NAIVASHA-KISUMU-MALABA-SGR",
-        "VNM-ROAD-CAMLO-LASON-EXP-EXPANSION",
-        "KEN-SOC-RAILA-ODINGA-STADIUM",
-        "ZAF-AUTO-CHERY-ROSSLYN-PLANT"
+        "BOL-ROAD-RIOABAJO-QUILLACOLLO",
+        "ECU-ROAD-PUENTE-VICTORIA-SHUSHUFINDI"
       ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 10",
+    "articleCollectedDate": "2026. 7. 11",
     "articlePublishedDate": "2026. 7. 10",
     "projectUpdatedDate": "2026. 7. 9"
   }
