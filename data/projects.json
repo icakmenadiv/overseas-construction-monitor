@@ -1,5 +1,35 @@
 [
   {
+    "프로젝트 고유값": "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
+    "프로젝트명": "Mumbai-Ahmedabad High-Speed Rail Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "National High Speed Rail Corporation Limited (NHSRCL)",
+    "사업비(달러 기준 추정액)": "USD 11.53bn",
+    "사업비 환산 환율 / 기준": "INR 1.1 lakh crore / USD-INR 95.37 기준 환산(2026-07-10~12 시장 환율 참고). LARRA 보상 증액에 따른 잠재 추가 부담 INR 40,000 crore는 미확정 리스크로 별도 추적.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 12",
+    "대표 기사 고유값": "ART-20260712-012819",
+    "비고": "508km Mumbai-Ahmedabad 고속철도 사업. 2026-07-12 Gujarat High Court 절차에서 토지보상 증액으로 약 Rs 40,000 crore 추가 부담 가능성이 제기됨. 기존 BKC-Shil Phata 터널 공정 진척과 함께 비용·보상·공기 리스크를 후속 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SGP-RAIL-CIRCLE-LINE-STAGE6",
+    "프로젝트명": "Singapore Circle Line Stage 6 Project",
+    "지역": "아시아",
+    "국가": "싱가포르",
+    "섹터": "교통",
+    "발주처": "Land Transport Authority / Ministry of Transport / SMRT",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-04 기사에서는 노선 길이 39km, 전체 33개 역, Stage 6 신규 3개 역과 2026-07-12 여객서비스 개시 일정만 확인됨.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 12",
+    "대표 기사 고유값": "ART-20260712-012836",
+    "비고": "Circle Line Stage 6는 Keppel, Cantonment, Prince Edward Road 3개 역으로 HarbourFront와 Marina Bay 사이를 연결해 Circle Line 순환 노선을 완성하는 MRT 확장사업이다. 2026-07-04 공개 preview 및 개통식 후 2026-07-12 여객서비스를 개시했고, Kim Chuan Depot 확장도 같은 날 운영 전환됐다. 후속 운영 안정화, 유지관리·전력·신호 보완, Greater Southern Waterfront 연계 교통수요를 추적한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ECU-ROAD-LOSRIOS-E25-REST-AREA",
     "프로젝트명": "Los Rios E25 Transport Rest Area Project",
     "지역": "중남미",
@@ -15,6 +45,51 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IDN-AIR-BALI-WISNU-AIRFIELD-EXPANSION",
+    "프로젝트명": "Lt. Col. Wisnu Airfield Expansion Project",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "교통",
+    "발주처": "Ministry of Transportation / Bali Provincial Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 ANTARA 기사 기준 민간투자 유치 검토, 토지·환경 우려 해소, 주정부 토지확보 프레임워크 준비만 확인됨.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012834",
+    "비고": "Bali Buleleng의 Lt. Col. Wisnu Airfield 확장 프로젝트. 보류된 North Bali International Airport 계획의 대안으로 북부 발리 항공허브 기능을 검토하며, private jet, charter, cargo 중심 수요가 언급됨. 후속 투자자 초청, 활주로·터미널·화물시설 범위, PPP/민간투자 구조, 인허가와 토지확보 진행 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IDN-OILGAS-SOUTH-ANDAMAN-GAS-PROCESSING",
+    "프로젝트명": "South Andaman Gas Field Development / Arun SEZ Onshore Processing Option",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "석유가스·화학",
+    "발주처": "Ministry of Energy and Mineral Resources / Aceh Provincial Government / South Andaman Block operator",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 ANTARA 기사 기준 Arun SEZ 육상처리 옵션, PoD 지연 요청, 해저관로 비용 검토만 확인됨.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012833",
+    "비고": "South Andaman 해상 가스의 Arun SEZ Onshore Receiving Facility 처리 옵션 검토 프로젝트. Aceh 주정부가 부유식 해상 생산시설 대신 육상처리안을 제안했고, 정부가 경제성과 PoD 영향을 평가 중. 후속 PoD 승인, 처리시설 방식 확정, 해저관로·ORF·가스처리 패키지 및 사업자·EPC 구조 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-RAIL-KANKHAPUR-BAGESHWAR-LINE",
+    "프로젝트명": "Kankhapur-Bageshwar Rail Line Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "Indian Railways / Uttarakhand Government",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012818",
+    "비고": "Uttarakhand Kumaon 내륙 Bageshwar 직접 철도 연결을 목표로 하는 중앙정부 승인 철도노선. 관광·농산물 물류·지역 접근성 개선 목적이며 세부 DPR·사업비·입찰일정은 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MMR-DIGITAL-YADANABON-CYBER-CITY",
     "프로젝트명": "Yadanabon Cyber City Project",
     "지역": "아시아",
@@ -27,6 +102,21 @@
     "최근 업데이트일": "2026. 7. 11",
     "대표 기사 고유값": "ART-20260711-012810",
     "비고": "Mandalay Region PyinOoLwin District, Mandalay-Lashio highway 21마일 지점 인근 Yadanabon Cyber City 민간투자 EOI 프로젝트. 국내외 기업 대상 제안서 양식 판매는 2026-08-10까지, 제출 마감은 2026-08-25 16:00. 후속 투자자 선정, 개발구역별 도로·전력·통신·데이터센터·상하수도 기반시설 패키지, 사업비 및 계약구조 공개 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PHL-IND-AURION-SOLAR-MFG",
+    "프로젝트명": "Philippine Aurion Solar Technologies Solar Manufacturing Facility",
+    "지역": "아시아",
+    "국가": "필리핀",
+    "섹터": "산업·물류",
+    "발주처": "Philippine Economic Zone Authority (PEZA) / Philippine Aurion Solar Technologies Inc.",
+    "사업비(달러 기준 추정액)": "USD 54.30mn",
+    "사업비 환산 환율 / 기준": "원문: PHP 3.34bn 이상. Wise/Xe 2026-07-11 전후 1 USD=약 PHP 61.506 기준, 3,340mn/61.506=약 USD 54.30mn.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012821",
+    "비고": "First Philippine Industrial Park 소재 태양광 제조시설. solar wafers, solar cells, PV modules, inverters, mounting systems, BESS 생산. PEZA 등록협약 체결 기사 기준 시설 완공·운영 시작, 400명 이상 채용·훈련, 장기 508명 직접고용 예상. 후속 증설·수출·장비/클린룸/유틸리티 패키지 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -600,6 +690,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IND-AIR-NAGPUR-AIRPORT-MODERNIZATION",
+    "프로젝트명": "Dr Babasaheb Ambedkar International Airport Nagpur Modernization Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "GMR Airports / Dr Babasaheb Ambedkar International Airport, Nagpur",
+    "사업비(달러 기준 추정액)": "USD 31.5mn",
+    "사업비 환산 환율 / 기준": "INR 300 crore initial investment / USD-INR 95.37 기준 환산(2026-07-10~12 시장 환율 참고). 장기 전체 투자액은 기사상 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012816",
+    "비고": "GMR의 Nagpur Airport 30년 concession 기반 현대화 사업. 초기 300 crore 루피로 즉시 업그레이드 착수, 연간 여객처리능력 3백만 명에서 3천만 명으로 확대하고 장기적으로 5천만 명 및 15만 톤/년 화물 허브 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ISR-RAIL-JERUSALEM-GREEN-LINE",
     "프로젝트명": "Jerusalem Light Rail Green Line",
     "지역": "중동",
@@ -702,6 +807,21 @@
     "최근 업데이트일": "2026. 7. 9",
     "대표 기사 고유값": "ART-20260709-012670",
     "비고": "2026년 7월 공식 개통. Sarawak coastal road 및 주정부 교량 프로그램 후속 사업 모니터링 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MYS-ROAD-NPE2-EXTENSION",
+    "프로젝트명": "New Pantai Expressway Extension Project (NPE 2)",
+    "지역": "아시아",
+    "국가": "말련",
+    "섹터": "교통",
+    "발주처": "IJM Corp / NPE concession operator",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012828",
+    "비고": "Pantai Dalam Toll Plaza-Jalan Istana interchange를 연결하는 NPE 2 고속도로 확장사업. 본선 6.4km, 램프 포함 총 15.9km, 2026-06-25 공식 착공·공정률 6%, 2029년 10월 완공 목표. 2026-07-09에는 최대 RM1.42bn IMTN 프로그램 아래 초기 RM54mn sustainability-linked sukuk 발행이 확인되어 금융조달 후속 기사로 연결했다. 후속 공정률, 비용 변경, 추가 금융조달, 준공·운영 전환 기사를 같은 프로젝트로 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1047,6 +1167,21 @@
     "최근 업데이트일": "2026. 7. 9",
     "대표 기사 고유값": "ART-20260709-012651",
     "비고": "Taoyuan-City, Guishan-Huilong corridor MRT Brown Line. 전체 11.38km, 7개 역(지하 5, 고가 2). 2026-07-09 BR02·BR04·BR06·BR08 선행공사 착공, 공기 270일. 본체 기전시스템 공사는 2026년 7월 개찰·월말 낙찰 목표, 지하·고가 토목표 후속 추진 예정. 후속 기전 낙찰, 토목 패키지 발주, 관로 이설, 본공사 착공을 같은 프로젝트 고유값으로 추적. 대표 기사: ART-20260709-012651.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TWN-SOC-MOEA-NEW-OFFICE",
+    "프로젝트명": "Ministry of Economic Affairs New Office Building Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "사회인프라",
+    "발주처": "Ministry of Economic Affairs",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012813",
+    "비고": "타이베이 화광특구 특3기지 경제부 신축 통합청사. 1.9ha 부지, 3개 동, 총연면적 110,000㎡ 이상, 지하 3층·최고 23층, 경제부 본부·산업발전署·상업발전署·에너지署 등 통합 입주 예정. 2026-07-09 착공, 2031년 11월 입주 완료 목표.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1407,6 +1542,66 @@
     "최근 업데이트일": "2026. 7. 8",
     "대표 기사 고유값": "ART-20260708-012552",
     "비고": "Big Push 프로그램 내 Atimpoku-Frankadua 17.5km 도로사업. 2026-07-08 기준 USSUYA Ghana Limited 시공, 공정률 32.3%, 9km clearing·benching·widening, 6km sub-base, 6.5km drainage infrastructure 완료, 2027-12-01 준공 목표. 후속 공정률, 배수 보강, 지급, 준공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IDN-WTE-DENPASAR-PSEL-BENOA",
+    "프로젝트명": "Denpasar Raya PSEL Benoa Waste-to-Energy Facility",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "수자원·환경",
+    "발주처": "Danantara Indonesia / PT Danantara Investment Management / PT Daya Energi Bersih Nusantara (Denera) / Denpasar City / Bali Provincial Government",
+    "사업비(달러 기준 추정액)": "USD 187.5mn",
+    "사업비 환산 환율 / 기준": "원문: ANTARA 2026-07-08 기사에서 투자액 Rp3tn 및 약 USD 187.5mn 제시. 공식 기사 환산값을 사용.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012835",
+    "비고": "Bali/Greater Denpasar PSEL waste-to-energy facility. Pedungan Village, Denpasar 소재, Denpasar·Badung 폐기물 약 1,500톤/일 처리, 2028년 초 운영 목표. Danantara 산하 DIM·Denera가 기술선정·개발을 주도하며 Rp3tn 투자, 전력 100,000가구 공급 및 CO2 640,000톤/년 감축 효과 제시. 기존 Benoa/Pelindo 부지 협약 행과 같은 Denpasar Raya PSEL 사업으로 관리하며 후속 EPC·기술공급·전력판매·상업운전 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-RAIL-EAST-WEST-DEDICATED-FREIGHT-CORRIDOR",
+    "프로젝트명": "East-West Dedicated Freight Corridor Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "Dedicated Freight Corridor Corporation of India Limited (DFCCIL)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012815",
+    "비고": "Surat-Dankuni 약 2,316km East-West Dedicated Freight Corridor. DFCCIL 주관 stakeholder conference에서 Hybrid Annuity Model, 금융구조, 건설전략, 민간투자자 참여와 시행 로드맵 논의.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-ROAD-NH66-KAZHAKKOOTTAM-KADAMPATTUKONAM-SAFETY",
+    "프로젝트명": "NH 66 Kazhakkoottam-Kadampattukonam Safety Upgrade Works",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "National Highways Authority of India (NHAI)",
+    "사업비(달러 기준 추정액)": "USD 100.6mn",
+    "사업비 환산 환율 / 기준": "INR 959.25 crore / USD-INR 95.37 기준 환산(2026-07-10~12 시장 환율 참고)",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012814",
+    "비고": "Kerala NH 66 Kazhakkoottam-Kadampattukonam 구간 12개 viaduct, cut-and-cover tunnel, pedestrian underpass 등 안전 보강 EPC 추가공사. 기존 6차로 확장사업의 안전조치 보강 패키지로 확인됨.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-WATER-MUMBAI-FLOOD-CONTROL-370-HOTSPOTS",
+    "프로젝트명": "Mumbai Integrated Flood Control Plan for 370 Hotspots",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "수자원·환경",
+    "발주처": "Maharashtra Government / BMC",
+    "사업비(달러 기준 추정액)": "USD 1.36bn",
+    "사업비 환산 환율 / 기준": "INR 13,000 crore / USD-INR 95.37 기준 환산(2026-07-10~12 시장 환율 참고)",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012817",
+    "비고": "Mumbai 370개 만성 침수 hot-spot 대상 통합 홍수방지 계획. 중앙정부 승인 대기 단계이며 30분 내 배수 목표를 제시한 대형 도시 방재·배수 인프라 투자.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2277,6 +2472,21 @@
     "최근 업데이트일": "2026. 7. 7",
     "대표 기사 고유값": "ART-20260707-012527",
     "비고": "튀르키예 Akkök 그룹 계열 Aksa Composites의 Borj Cedria 산업구역 복합소재 제조거점. 2026-07-07 기준 활동 개시 예정이며, 튀니지 항공우주·복합소재 공급망 고도화와 외국기업 제조투자 신호로 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TWN-DIGITAL-AI-COMPUTE-BOO",
+    "프로젝트명": "Taiwan AI Compute Center BOO Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Ministry of Digital Affairs / private applicants including Asia Bay Supercomputing",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 7. 7",
+    "대표 기사 고유값": "ART-20260707-012814",
+    "비고": "대만 첫 AI算力센터 BOO 디지털 공공건설 촉진사업. 2026년 5월 신청 마감 후 3개 사업자가 접수했고, 6월 초 자격심사 완료, 6월 말 타당성 심사, 2026-07-07 공고 기준 7월 17일 가오슝 임해산업단지 서비스센터에서 공청회 개최 예정. 연내 계약 목표. 후속으로 선정 사업자, BOO 계약, 데이터센터 건축·MEP·전력·냉각 패키지 공개 여부를 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3615,21 +3825,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "SGP-RAIL-CIRCLE-LINE-STAGE6",
-    "프로젝트명": "Singapore Circle Line Stage 6 Project",
-    "지역": "아시아",
-    "국가": "싱가포르",
-    "섹터": "교통",
-    "발주처": "Land Transport Authority / Ministry of Transport / SMRT",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-04 기사에서는 노선 길이 39km, 전체 33개 역, Stage 6 신규 3개 역과 2026-07-12 여객서비스 개시 일정만 확인됨.",
-    "현재 단계": "completion",
-    "최근 업데이트일": "2026. 7. 4",
-    "대표 기사 고유값": "ART-20260704-011246",
-    "비고": "Circle Line Stage 6는 Keppel, Cantonment, Prince Edward Road 3개 역으로 HarbourFront와 Marina Bay 사이를 연결해 Circle Line 순환 노선을 완성하는 MRT 확장사업이다. 2026-07-04 공개 preview 및 개통식이 진행됐고 2026-07-12 여객서비스 개시 예정. 후속 운영 안정화, 유지관리·전력·신호 보완, Greater Southern Waterfront 연계 개발과 교통수요 변화를 추적한다.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "TJK-IND-KRISTALL-GREEN-GLASS",
     "프로젝트명": "Kristall Green Glass Modern Glass Manufacturing Complex Project",
     "지역": "중앙아시아",
@@ -4257,21 +4452,6 @@
     "최근 업데이트일": "2026. 7. 3",
     "대표 기사 고유값": "ART-20260703-011572",
     "비고": "Odisha Rourkela-Bondamunda 구간 Bondamunda 'A' Cabin-Bondamunda Link 'B' Cabin 간 4.59km 철도 플라이오버. 화물·여객 운행 분리와 Bondamunda Yard 혼잡 완화를 목표로 하며, 완공 시 추가 8MTPA 화물 처리능력 지원. 후속 DPR·입찰·시공사·착공 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
-    "프로젝트명": "Mumbai-Ahmedabad High-Speed Rail Project",
-    "지역": "아시아",
-    "국가": "인도",
-    "섹터": "교통",
-    "발주처": "National High Speed Rail Corporation Limited (NHSRCL)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 3",
-    "대표 기사 고유값": "ART-20260703-010829",
-    "비고": "508km Mumbai-Ahmedabad 고속철도 사업. 2026-07-03 BKC-Shil Phata 21km 지하·해저 터널 패키지에서 Vikhroli-BKC 구간 첫 TBM 굴착 착수 확인. 기존 MT-07 터널 관통과 다른 지하 패키지 공정 진척이며, 후속 TBM 투입, 해저구간 굴착, 주요 구조물 완공, 시운전·개통 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -15255,21 +15435,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "MYS-ROAD-NPE2-EXTENSION",
-    "프로젝트명": "New Pantai Expressway Extension Project (NPE 2)",
-    "지역": "아시아",
-    "국가": "말련",
-    "섹터": "교통",
-    "발주처": "IJM Corp / NPE concession operator",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 25",
-    "대표 기사 고유값": "ART-20260625-007075",
-    "비고": "Pantai Dalam Toll Plaza-Jalan Istana interchange를 연결하는 NPE 2 고속도로 확장사업. 본선 6.4km, 램프 포함 총 15.9km, 2026-06-25 공식 착공·공정률 6%, 2029년 10월 완공 목표. 후속 공정률, 비용 변경, 교통관리, 준공·운영 전환 기사를 같은 프로젝트로 추적한다.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "NGA-ENERGY-EREDO-SOLAR-MINIGRID",
     "프로젝트명": "Eredo 505kWp Interconnected Solar Mini-Grid Project",
     "지역": "아프리카",
@@ -23847,21 +24012,6 @@
     "최근 업데이트일": "2026. 6. 18",
     "대표 기사 고유값": "ART-20260618-004765",
     "비고": "İzmir Kuzey Ege Çandarlı Limanı 지역 부유식 해상풍력 터빈 플랫폼 생산시설. 지역개발 프로그램 인센티브 대상 선정, 승인 이후 투자 단계 진입 예정.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "TWN-DIGITAL-AI-COMPUTE-BOO",
-    "프로젝트명": "Taiwan AI Compute Center BOO Project",
-    "지역": "아시아",
-    "국가": "대만",
-    "섹터": "디지털·데이터센터",
-    "발주처": "Ministry of Digital Affairs / private applicants including Asia Bay Supercomputing",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "bid-evaluation",
-    "최근 업데이트일": "2026. 6. 18",
-    "대표 기사 고유값": "ART-20260618-004649",
-    "비고": "대만 첫 AI算力센터 BOO 디지털 공공건설 촉진사업. 2026년 5월 중 신청 마감 후 3개 사업자가 접수했고, 6월 초 자격심사 완료, 6월 말 타당성 심사, 7월 공청회, 연내 계약 목표. 기존 결과 탭 ART-20260618-004649를 프로젝트 정보로 정규화하고 같은 원문 중복 기사는 생성하지 않음.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -35172,21 +35322,6 @@
     "최근 업데이트일": "2026. 6. 10",
     "대표 기사 고유값": "ART-20260610-003008",
     "비고": "Kabupaten Bekasi 5개 마을 대상 Kali Bekasi 홍수방지 정상화 사업. 토지취득 식별·측량 절차가 2026년 6월 중 진행 예정.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "IDN-WTE-DENPASAR-PSEL-BENOA",
-    "프로젝트명": "Denpasar Raya PSEL Benoa Waste-to-Energy Facility",
-    "지역": "아시아",
-    "국가": "인니",
-    "섹터": "에너지",
-    "발주처": "Denpasar City / PT Pelabuhan Indonesia Regional 3 / Bali Provincial Government",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 6. 10",
-    "대표 기사 고유값": "ART-20260610-001212",
-    "비고": "Benoa항 Pelindo HPL 부지 약 60,502㎡를 활용하는 PSEL 시설. 2026-07 건설 착수, 2027-09 운영 가능성 언급.",
     "대표 기사 정보 분류": ""
   },
   {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T19:21:39.923Z",
+  "updatedAt": "2026-07-11T20:12:31.045Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,72 +28,70 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6894,
-    "projects": 3021
+    "articles": 6921,
+    "projects": 3030
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260711-012787",
-        "ART-20260711-012808",
-        "ART-20260711-012809",
-        "ART-20260711-012810",
-        "ART-20260710-012789",
-        "ART-20260710-012795",
-        "ART-20260710-012811",
-        "ART-20260709-012788",
-        "ART-20260709-012802",
-        "ART-20260709-012803",
-        "ART-20260709-012807",
-        "ART-20260709-012812",
-        "ART-20260708-012790",
-        "ART-20260708-012796",
-        "ART-20260708-012800",
-        "ART-20260708-012804",
-        "ART-20260708-012805",
-        "ART-20260708-012806",
-        "ART-20260707-012786",
-        "ART-20260707-012801",
-        "ART-20260707-012802",
-        "ART-20260710-012797",
-        "ART-20260709-012793",
-        "ART-20260709-012794",
-        "ART-20260707-012795",
-        "ART-20260707-012796"
+        "ART-20260712-012819",
+        "ART-20260712-012836",
+        "ART-20260711-012818",
+        "ART-20260711-012821",
+        "ART-20260711-012830",
+        "ART-20260711-012833",
+        "ART-20260711-012834",
+        "ART-20260710-012826",
+        "ART-20260710-012831",
+        "ART-20260709-012813",
+        "ART-20260709-012814",
+        "ART-20260709-012816",
+        "ART-20260709-012827",
+        "ART-20260709-012828",
+        "ART-20260709-012832",
+        "ART-20260708-012814",
+        "ART-20260708-012815",
+        "ART-20260708-012817",
+        "ART-20260708-012820",
+        "ART-20260708-012822",
+        "ART-20260708-012823",
+        "ART-20260708-012824",
+        "ART-20260708-012825",
+        "ART-20260708-012835",
+        "ART-20260707-012814",
+        "ART-20260707-012829",
+        "ART-20260707-012837"
       ],
       "updated": [
-        "ART-20260709-012608"
+        "ART-20260610-001212"
       ],
       "removed": []
     },
     "projects": {
       "added": [
-        "MMR-DIGITAL-YADANABON-CYBER-CITY",
-        "CAN-ENERGY-MERSEY-RIVER-WIND",
-        "HKG-IND-ACIB-TSINGYI",
-        "PNG-ROAD-SISIMAKAM-PNYANG",
-        "USA-SOC-VATECH-MITCHELL-HALL",
-        "CAN-DIGITAL-META-STURGEON-DATA-CENTER",
-        "LKA-WATER-KANDY-UWWMP-PERADENIYA"
+        "IDN-AIR-BALI-WISNU-AIRFIELD-EXPANSION",
+        "IDN-OILGAS-SOUTH-ANDAMAN-GAS-PROCESSING",
+        "IND-RAIL-KANKHAPUR-BAGESHWAR-LINE",
+        "PHL-IND-AURION-SOLAR-MFG",
+        "IND-AIR-NAGPUR-AIRPORT-MODERNIZATION",
+        "TWN-SOC-MOEA-NEW-OFFICE",
+        "IND-RAIL-EAST-WEST-DEDICATED-FREIGHT-CORRIDOR",
+        "IND-ROAD-NH66-KAZHAKKOOTTAM-KADAMPATTUKONAM-SAFETY",
+        "IND-WATER-MUMBAI-FLOOD-CONTROL-370-HOTSPOTS"
       ],
       "updated": [
-        "CAN-BRIDGE-GORDIE-HOWE",
-        "AUS-ENERGY-GOOMBI-RENEWABLE-HUB",
-        "AUS-WATER-TOOWOOMBA-WARWICK-PIPELINE",
-        "CAN-SOC-VAUDREUIL-SOULANGES-HOSPITAL",
-        "CAN-RAIL-GRIMSBY-GO-STATION",
-        "CAN-ROAD-ALEXANDRA-BRIDGE-REPLACEMENT",
-        "LKA-TRANSPORT-ANGAMUWA-SPILL-CAUSEWAY",
-        "AUS-IND-GREENSTEEL-MAYFIELD-ELECTRIC-MILL",
-        "CAN-OILGAS-NORTHERN-SHIELD-ENERGY-CORRIDOR",
-        "CAN-ROAD-FRASER-RIVER-TUNNEL"
+        "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
+        "SGP-RAIL-CIRCLE-LINE-STAGE6",
+        "MYS-ROAD-NPE2-EXTENSION",
+        "IDN-WTE-DENPASAR-PSEL-BENOA",
+        "TWN-DIGITAL-AI-COMPUTE-BOO"
       ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026. 7. 12",
-    "articlePublishedDate": "2026. 7. 11",
-    "projectUpdatedDate": "2026. 7. 11"
+    "articlePublishedDate": "2026. 7. 12",
+    "projectUpdatedDate": "2026. 7. 12"
   }
 }
