@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T08:08:17.583Z",
+  "updatedAt": "2026-07-11T09:45:44.814Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,25 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6823,
-    "projects": 2993
+    "articles": 6826,
+    "projects": 2996
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260711-012745",
+        "ART-20260711-012744",
+        "ART-20260711-012743"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "UAE-WATER-HASSYAN-SWRO-PH2-PS31-PS32",
+        "UAE-WATER-HASSYAN-SWRO-PH2-NETWORK-PKG2",
+        "UAE-WATER-HASSYAN-SWRO-PH2-NETWORK-PKG1"
+      ],
       "updated": [],
       "removed": []
     }

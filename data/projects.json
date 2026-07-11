@@ -40815,6 +40815,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UAE-WATER-HASSYAN-SWRO-PH2-PS31-PS32",
+    "프로젝트명": "Hassyan SWRO Phase 2 PS31-PS32 Pumping Stations Project",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "수자원·환경",
+    "발주처": "Dubai Electricity and Water Authority (DEWA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 패키지별 사업비 미공개. 60MIGD SMBZ Road PS32 및 36MIGD Hassyan PS31 용량과 토목·전기기계·SCADA 공사 범위는 확인되나 계약금액은 미공개.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 3. 18",
+    "대표 기사 고유값": "ART-20260711-012745",
+    "비고": "Tender No. 2132600023. SMBZ Road Pumping Station 60MIGD(PS32) 및 Hassyan Pumping Station 36MIGD(PS31) 토목·전기기계·SCADA 공사. 입찰 마감 2026. 7. 22. 후속 낙찰자·계약금액·착공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AUS-AIR-PERTH-NEW-RUNWAY",
     "프로젝트명": "Perth Airport New Runway Project",
     "지역": "태평양",
@@ -42225,6 +42240,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UAE-WATER-HASSYAN-SWRO-PH2-NETWORK-PKG2",
+    "프로젝트명": "Hassyan SWRO Phase 2 Network Water Transmission Pipelines Project 2",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "수자원·환경",
+    "발주처": "Dubai Electricity and Water Authority (DEWA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 패키지별 사업비 미공개. DEWA Hassyan SWRO 공식 페이지 기준 전체 담수화 사업은 180MIGD, IWP 방식, 총투자 AED 3.377bn이나 본 패키지 공식 사업비로 입력하지 않음.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 1. 22",
+    "대표 기사 고유값": "ART-20260711-012744",
+    "비고": "Tender No. 2132600012. Hassyan SWRO Phase 2 Network Project 2 GRE/GRP 송수관 공급·설치·시험·시운전 및 관련 공사. 입찰 마감 2026. 7. 21. 후속 낙찰자, 계약금액, 관로 연장·관경 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KOS-ENERGY-MCA-BESS-170MW-340MWH",
     "프로젝트명": "MCA Kosovo Battery Energy Storage Systems 170MW/340MWh Project",
     "지역": "유럽",
@@ -42838,6 +42868,21 @@
     "대표 기사 고유값": "ART-20251212-002746",
     "비고": "Junefield Ancón Industrial Park 컨소시엄 낙찰 및 실행 착수 발표. Chancay·Callao·Jorge Chávez 연계 드라이포트형 산업·물류 허브.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "UAE-WATER-HASSYAN-SWRO-PH2-NETWORK-PKG1",
+    "프로젝트명": "Hassyan SWRO Phase 2 Network Water Transmission Pipelines Project 1",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "수자원·환경",
+    "발주처": "Dubai Electricity and Water Authority (DEWA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 패키지별 사업비 미공개. DEWA Hassyan SWRO 공식 페이지 기준 전체 담수화 사업은 180MIGD, IWP 방식, 총투자 AED 3.377bn이나 본 패키지 공식 사업비로 입력하지 않음.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2025. 12. 11",
+    "대표 기사 고유값": "ART-20260711-012743",
+    "비고": "Tender No. 2132500112. Hassyan SWRO Phase 2 Network Project 1 GRE/GRP 송수관 공급·설치·시험·시운전 및 관련 공사. 입찰 마감 2026. 7. 15. 후속 낙찰자, 계약금액, 관로 연장·관경 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "ZAF-PORT-DCT-PIER2-PPP",
