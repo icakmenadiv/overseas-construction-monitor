@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T20:33:40.848Z",
+  "updatedAt": "2026-07-11T21:05:20.103Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,61 +24,42 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6928,
-    "projects": 3035
+    "articles": 6938,
+    "projects": 3043
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260711-012850",
-        "ART-20260711-012851",
-        "ART-20260711-012852",
-        "ART-20260711-012853",
-        "ART-20260710-012838",
-        "ART-20260710-012841",
-        "ART-20260710-012842",
-        "ART-20260710-012845",
-        "ART-20260710-012846",
-        "ART-20260710-012847",
-        "ART-20260710-012855",
-        "ART-20260709-012839",
-        "ART-20260709-012848",
-        "ART-20260709-012854",
-        "ART-20260708-012849",
-        "ART-20260707-012838",
-        "ART-20260707-012840"
+        "ART-20260711-012859",
+        "ART-20260710-012857",
+        "ART-20260710-012862",
+        "ART-20260709-012856",
+        "ART-20260709-012860",
+        "ART-20260709-012864",
+        "ART-20260709-012865",
+        "ART-20260708-012858",
+        "ART-20260707-012861",
+        "ART-20260707-012863"
       ],
       "updated": [],
-      "removed": [
-        "ART-20260710-012789",
-        "ART-20260707-012802",
-        "ART-20260707-012837",
-        "ART-20260710-012611",
-        "ART-20260709-012607",
-        "ART-20260707-012609",
-        "ART-20260707-012610",
-        "ART-20260703-011379",
-        "ART-20260620-004731",
-        "ART-20260618-004723"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "AZE-ENERGY-HOCHAZ-HPPS",
-        "AZE-URBAN-SHUSHA-GARABAGH-ST-PPP",
-        "AZE-URBAN-SHUSHA-KICHIK-GALADERESI-RESTORATION",
-        "AZE-WATER-HAKARICHAY-RESERVOIR",
-        "ROU-IND-SPACEPLUS-POPESTI-LEORDENI"
+        "KAZ-ENERGY-ALMATY-CHP3-GAS-CONVERSION",
+        "HUN-URBAN-MISKOLC-SZINVA-GREEN-CORRIDOR",
+        "KAZ-ROAD-ALMATY-EASTGATE-BAKAD-MAGISTRAL",
+        "HUN-WATER-KOPPANYMONOSTOR-WTP",
+        "KAZ-RAIL-ALMATY1-STATION-RECONSTRUCTION",
+        "HUN-URBAN-DEBRECEN-SOUTH-CITY-CENTRE",
+        "KAZ-DIGITAL-FREEDOM-AI-SUPERCLUSTER",
+        "KAZ-RAIL-ASTANA1-STATION-RECONSTRUCTION"
       ],
-      "updated": [
-        "POL-RAIL-CPK-WARSAW-LODZ-HSR",
-        "PNG-ROAD-IHU-MURO",
-        "CAN-OILGAS-NORTHERN-SHIELD-ENERGY-CORRIDOR"
-      ],
+      "updated": [],
       "removed": []
     }
   },

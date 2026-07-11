@@ -150,6 +150,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KAZ-ENERGY-ALMATY-CHP3-GAS-CONVERSION",
+    "프로젝트명": "Almaty CHP-3 Gas Conversion Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "에너지",
+    "발주처": "Kazakhstan Ministry of Energy / Almaty CHP-3 project owner and contractor",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 Kazinform 기사 기준 CHP-3 공정률 약 26%, 핵심 장비 공급 지연과 인력 부족만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012859",
+    "비고": "알마티 CHP-3 천연가스 전환 공사. 2026-07-11 기준 공정률 약 26%와 일정 지연이 확인되어 장비 공급, 인력 투입, 시운전·준공 일정 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MMR-DIGITAL-YADANABON-CYBER-CITY",
     "프로젝트명": "Yadanabon Cyber City Project",
     "지역": "아시아",
@@ -225,6 +240,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HUN-URBAN-MISKOLC-SZINVA-GREEN-CORRIDOR",
+    "프로젝트명": "Miskolc Szinva Green Corridor Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "도시개발·주택",
+    "발주처": "Miskolc Municipality",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-10 Magyar Építők/TED 기사 기준 9ha 대상, 1,230m 신규 자전거도로, 1,990m 자전거 표시, 10,000㎡ 녹지, 4,400㎡ 커뮤니티 공간, 4개 교차로 개선 범위만 확인됨.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012857",
+    "비고": "Miskolc Szinva천변 Győri kapu-도심 연결 녹색회랑·자전거·보행·공공공간 개선 프로젝트. 후속 설계자 선정, 공사 입찰, EU/지방재원 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-ROAD-PROSIWANGI-TOLL-PHASE1",
     "프로젝트명": "Probolinggo-Situbondo-Banyuwangi (Prosiwangi) Toll Road Phase 1",
     "지역": "아시아",
@@ -237,6 +267,21 @@
     "최근 업데이트일": "2026. 7. 10",
     "대표 기사 고유값": "ART-20260710-012670",
     "비고": "East Java Prosiwangi toll road Phase 1, Paiton-Besuki 49.68km. Section 1 Gending-Kraksaan 12.88km and Section 2 Kraksaan-Paiton 11.20km completed with operational feasibility certificates; Section 3 Paiton-Besuki 25.60km main carriageway completed and under administrative completion/feasibility testing before opening. 2026.7.10 부통령 현장 점검 및 Jasa Marga 완공 가속 의지 확인. 후속 운영개시, 잔여 Banyuwangi 연결, ITS·O&M·휴게시설 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-ROAD-ALMATY-EASTGATE-BAKAD-MAGISTRAL",
+    "프로젝트명": "Almaty Eastern Gates-BAKAD Road Network and Six-Lane Magistral Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "교통",
+    "발주처": "Almaty City Akimat",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-10 Zakon.kz/알마티시 기준 총 17.5km 도로망, 핵심 4.6km 폭 50m 6차로 간선도로, 약 200개 토지필지 수용 대상 확인.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012862",
+    "비고": "알마티 Eastern Gates 폴리센터와 BAKAD 연결성 강화를 위한 17.5km 도로망 및 4.6km 6차로 간선도로 계획. 후속 설계·예산·토지수용·입찰·착공 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -765,6 +810,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HUN-WATER-KOPPANYMONOSTOR-WTP",
+    "프로젝트명": "Koppánymonostor Regional Water Treatment System Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "수자원·환경",
+    "발주처": "Colas Alterra Zrt. / Betonútépítő Zrt. consortium / Green Technológia Kft.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-09 Magyar Építők 기사 기준 Ács-Komárom Vízmű 공급권역과 Bábolna를 포함하는 신규 물처리 시스템, 16개 우물 원수, 철·망간 제거, 소독·염소처리, 자동제어·원격감시 범위만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012856",
+    "비고": "Ács, Komárom, Bábolna 식수 공급 안정화를 위한 Koppánymonostor 물처리 시스템 구축 프로젝트. 후속 준공·운영, 관로·저장·펌프장 추가 패키지, 수처리 설비 공급 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IND-AIR-NAGPUR-AIRPORT-MODERNIZATION",
     "프로젝트명": "Dr Babasaheb Ambedkar International Airport Nagpur Modernization Project",
     "지역": "아시아",
@@ -792,6 +852,21 @@
     "최근 업데이트일": "2026. 7. 9",
     "대표 기사 고유값": "ART-20260709-012535",
     "비고": "예루살렘 두 번째 경전철 노선. Mount Scopus-Gilo 약 20km, 일일 40만 명 수송 목표. 2026-07-09 보도 기준 Bar-Ilan 구간 시위·파손으로 누적 NIS 600mn 피해와 약 2년 지연이 발생했으며, 전체 완전 운영 목표는 2027년으로 제시됨. 후속으로 구간별 개통, 공정 지연, 보안비용, 계약변경, 잔여 구간 운영개시 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-RAIL-ALMATY1-STATION-RECONSTRUCTION",
+    "프로젝트명": "Almaty-1 Railway Station Reconstruction Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "교통",
+    "발주처": "Kazakhstan Ministry of Transport / KTZ",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-09 Rail-news.kz/교통부 기준 공정률 40%, 500명 이상 투입, 플랫폼·설비·외장·승강기·에스컬레이터 등 현대화 범위 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012860",
+    "비고": "알마티-1 철도역 재건축·현대화 프로젝트. 40% 공정률, 24시간 2교대, 주요 구조·설비·승객편의시설 개선 진행. 후속 준공·운영 전환 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1620,6 +1695,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HUN-URBAN-DEBRECEN-SOUTH-CITY-CENTRE",
+    "프로젝트명": "Debrecen South City Centre Masterplan Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "도시개발·주택",
+    "발주처": "Debrecen Municipality",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-08 Magyar Építők/TED 기사 기준 Debrecen 남부 약 88ha 옛 major 부지, 최소 8,500명 거주 및 4,000개 일자리 수용 가능 도시중심 마스터플랜 설계공모 확인.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012858",
+    "비고": "Debrecen 남부 Epreskert·Tégláskert 권역의 88ha 도시중심 마스터플랜 프로젝트. 후속 마스터플랜 선정, 기반시설·주거·상업·공공공간·교통 패키지 분리 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-WTE-DENPASAR-PSEL-BENOA",
     "프로젝트명": "Denpasar Raya PSEL Benoa Waste-to-Energy Facility",
     "지역": "아시아",
@@ -2235,6 +2325,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KAZ-DIGITAL-FREEDOM-AI-SUPERCLUSTER",
+    "프로젝트명": "Freedom AI Super Cluster Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Freedom Holding Corp. / Government of Kazakhstan / Citi",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-07-07 Zakon.kz 기준 공식 CAPEX 미공개. GPU 기반 데이터센터·AI 연산 클러스터, 1단계 2027년 1분기, 총 3단계 2027~2028년 추진 계획 확인.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 7",
+    "대표 기사 고유값": "ART-20260707-012863",
+    "비고": "Freedom Holding Corp., 카자흐스탄 정부, Citi가 추진하는 GPU 기반 AI 슈퍼클러스터·데이터센터 프로젝트. 부지·전력·냉각·장비 조달·EPC 구조와 NVIDIA 등 외국 기술 파트너 역할 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KAZ-OILGAS-KASHAGAN-GPP-1BCM",
     "프로젝트명": "Kashagan 1 bcm Gas Processing Plant Project",
     "지역": "중앙아시아",
@@ -2247,6 +2352,21 @@
     "최근 업데이트일": "2026. 7. 7",
     "대표 기사 고유값": "ART-20260707-012694",
     "비고": "",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-RAIL-ASTANA1-STATION-RECONSTRUCTION",
+    "프로젝트명": "Astana-1 Railway Station Reconstruction Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "교통",
+    "발주처": "Kazakhstan Ministry of Transport / KTZ",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-07 Azattyq Ruhy/교통부 기준 공정률 41%, 대상면적 8,409㎡, 골조·지붕 완료 및 설비·승강장·콘코스 진행 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 7",
+    "대표 기사 고유값": "ART-20260707-012861",
+    "비고": "아스타나-1 철도역 재건축·현대화 프로젝트. 41% 공정률, 8,409㎡ 규모, 신축부와 설비·승강장·콘코스 공사 진행. 후속 10월 말 공사 완료 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
