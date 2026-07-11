@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T21:40:20.499Z",
+  "updatedAt": "2026-07-11T06:03:01.645Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,38 +24,32 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6817,
-    "projects": 2992
+    "articles": 6823,
+    "projects": 2993
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260709-012732",
-        "ART-20260709-012733",
-        "ART-20260707-012731",
-        "ART-20260707-012736",
-        "ART-20260706-012734",
-        "ART-20260705-012735"
+        "ART-20260709-012737",
+        "ART-20260709-012739",
+        "ART-20260708-012742",
+        "ART-20260707-012738",
+        "ART-20260707-012741",
+        "ART-20260706-012740"
       ],
       "updated": [],
-      "removed": [
-        "ART-20260704-011519",
-        "ART-20260703-010795"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "QAT-URBAN-LUSAIL-INFRASTRUCTURE-PROGRAM",
-        "IRN-ENERGY-DEYLAM-LEILTIN-SOLAR"
+        "EGY-URBAN-RAS-ELHEKMA-DEVELOPMENT"
       ],
       "updated": [],
-      "removed": [
-        "DOM-ROAD-HATILLOPALMA-DERRAMADERO-AGUA-LUIS"
-      ]
+      "removed": []
     }
   },
   "latest": {
