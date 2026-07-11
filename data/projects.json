@@ -1,5 +1,20 @@
 [
   {
+    "프로젝트 고유값": "ECU-ROAD-LOSRIOS-E25-REST-AREA",
+    "프로젝트명": "Los Rios E25 Transport Rest Area Project",
+    "지역": "중남미",
+    "국가": "에콰도르",
+    "섹터": "교통",
+    "발주처": "Ministerio de Infraestructura y Transporte (MIT)",
+    "사업비(달러 기준 추정액)": "USD 1.7mn",
+    "사업비 환산 환율 / 기준": "원문: 해당 휴게시설 투자액 USD 1.7mn. 8개 휴게시설 프로그램 총액은 USD 22mn 초과로 별도 맥락 정보.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012753",
+    "비고": "Los Rios주 E25 Buena Fe-Jujan 구간, Quevedo Anillo Vial 진입 전 San Carlos 부문 운송인 휴게시설. 에콰도르 첫 휴게시설로 공사 진행 확인. 후속 나머지 7개 휴게시설, 운영 모델, 준공 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARM-TRANSPORT-TRIPP-CORRIDOR",
     "프로젝트명": "TRIPP Corridor Project",
     "지역": "유럽",
@@ -177,6 +192,21 @@
     "최근 업데이트일": "2026. 7. 10",
     "대표 기사 고유값": "ART-20260710-012607",
     "비고": "Elk-Antelope 가스전 기반 Port Moresby 저탄소 LNG 플랜트 및 상류·하류 인프라. 2026-07-10 개발포럼 대표성 확대와 Director's Proposal 협의 절차가 확인됨. EPC 후보 선정 및 환경허가 변경 이력이 있어 현재 단계는 bid-evaluation 유지. 후속 FID·EPC 계약·이익공유 협상 결과 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PRY-ROAD-OLEARY-SANCRISTOBAL-PAVING",
+    "프로젝트명": "Juan E. O'Leary - San Cristobal Road Paving Project",
+    "지역": "중남미",
+    "국가": "파라과이",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Publicas y Comunicaciones (MOPC)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012755",
+    "비고": "Alto Parana Ruta D065 Juan E. O'Leary-San Cristobal 62.29km 포장사업. 3개 공구로 추진되며 2026-07-10 Agencia IP/MOPC 기준 공정률 30% 초과, Lote 1 14 de Julio, Lote 2 Wheel.Co S.A., Lote 3 Consorcio TYCIV III 수행 확인. 후속 lot별 공정률, 준공·개통, 교량·배수·안전시설 보완공사 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -735,6 +765,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PRY-ROAD-LAS-RESIDENTAS-CORRIDOR",
+    "프로젝트명": "Corredor Vial Las Residentas Project",
+    "지역": "중남미",
+    "국가": "파라과이",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012759",
+    "비고": "General Elizardo Aquino/Tape Tuja 확장 및 Parque Ñu Guasu 인근 회차 고가도로를 포함하는 Luque Corredor Vial Las Residentas 공사. 2026-07-09 기준 Avenida General Elizardo Aquino 구간 신규 작업전선 및 7월 11~12일 반폭 통행 유지 공사가 확인됨. 후속 고가구조물, 도로확장, 교통전환, 준공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ROU-ENERGY-RETELE-HV-WORKS-2026",
     "프로젝트명": "Retele Electrice Romania High-Voltage Installation Works Lots 2026",
     "지역": "유럽",
@@ -1065,6 +1110,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "COL-ENERGY-PUERTA-DE-ORO-SOLAR",
+    "프로젝트명": "Puerta de Oro Solar Park Project",
+    "지역": "중남미",
+    "국가": "콜롬비아",
+    "섹터": "에너지",
+    "발주처": "Patria Investments / Parque Solar Puerta de Oro SAS",
+    "사업비(달러 기준 추정액)": "USD 280mn",
+    "사업비 환산 환율 / 기준": "원문: pv magazine Latinoamérica 2026-07-08 기사에서 Cundinamarca 주정부 선행 정보를 인용해 투자액 USD 280mn 제시. 별도 환산 없음.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012747",
+    "비고": "Cundinamarca Guaduas-Chaguaní 소재 360MWp 태양광발전소. 511,000개 이상 모듈, 연 700GWh 이상 발전, 230kV 송전선 23km 및 Magdalena강 횡단 110m 이상 송전탑 포함. Patria Investments가 개발했으며 2026-07-08 상업운전 개시. 후속 O&M, 계통연계, 추가 IPP 포트폴리오, 송전선 운영 이슈 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "COL-ROAD-AUTOPISTAS-CARIBE",
     "프로젝트명": "Autopistas del Caribe Cartagena-Barranquilla Freight Corridor Project",
     "지역": "중남미",
@@ -1092,6 +1152,21 @@
     "최근 업데이트일": "2026. 7. 8",
     "대표 기사 고유값": "ART-20260708-011912",
     "비고": "Annaba 인산염 항만 프로젝트의 광산 부두 뒤편 매립 플랫폼 조성사업. 2026-06-15 El Tarf 해역 준설·해사 펌핑 착수 이후 2026-06-27 APS가 동부 광산철도와 함께 시행 속도 가속을 보도. 2026-07-08 APS가 7~8월 현장 장비·인력 보강을 통한 공정 가속과 기한 내 납품 방침을 추가 보도. 후속 준설·매립 공정, 부두·야드·철도 연계, 항만 운영 전환 확인 필요. 관련 기사: ART-20260627-007048, ART-20260708-011912.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ECU-ENERGY-PUERTOINCA-SANIDELFONSO-TRANS",
+    "프로젝트명": "Puerto Inca Transmission System and San Idelfonso Substation Expansion Project",
+    "지역": "중남미",
+    "국가": "에콰도르",
+    "섹터": "에너지",
+    "발주처": "CELEC EP Transelectric",
+    "사업비(달러 기준 추정액)": "USD 47mn",
+    "사업비 환산 환율 / 기준": "원문: 입찰 예산 USD 47mn. 별도 환산 없음.",
+    "현재 단계": "on-hold",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012752",
+    "비고": "Puerto Inca 송전시스템 건설 및 El Guabo San Idelfonso 변전소 확장공사. 입찰번호 LICO-CELECEP-2025-07152, 예산 USD 47mn, 공기 720일. 2026-07-08 기준 CELEC가 입찰을 무산·파일 보관 처리했으며 후속 재입찰 가능성 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1320,6 +1395,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PRY-ROAD-D009-ARROYOS-TOBATI",
+    "프로젝트명": "Ruta D009 Arroyos y Esteros-Tobati Rehabilitation and Paving Project",
+    "지역": "중남미",
+    "국가": "파라과이",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-08 MOPC 보도 기준 Arroyos y Esteros-Tobatí 연결 Ruta D009 재활·포장 공사 진행과 55,000명 수혜 전망만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012757",
+    "비고": "Cordillera주 Ruta D009 Arroyos y Esteros-Tobatí 도로 재활·포장 프로젝트. 공식 사업비·연장·계약자는 후속 보강 필요. 후속 공정률, 배수·포장 물량, 준공·개통 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ROU-ROAD-A8-TARGUNEAMT-IASI-UNGHENI-LOT4",
     "프로젝트명": "A8 Târgu Neamț-Iași-Ungheni Lot 4 DN24-Pod peste Prut Project",
     "지역": "유럽",
@@ -1377,6 +1467,21 @@
     "최근 업데이트일": "2026. 7. 8",
     "대표 기사 고유값": "ART-20260708-012700",
     "비고": "Ashgabat Archabil Avenue 일대 상수도 관로, 관개 인프라 및 일부 도로 개보수 입찰 재공고 건. 기존 Ashgabat Water Flow Control Facility와는 범위가 달라 별도 프로젝트로 유지하고, 후속 낙찰자, 관로 길이, 공사비, 착공·완공 여부를 확인한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "URY-ENERGY-BAYGORRIA-HYDRO-MODERNIZATION",
+    "프로젝트명": "Rincón de Baygorria Hydroelectric Plant Modernization Project",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "에너지",
+    "발주처": "Administración Nacional de Usinas y Trasmisiones Eléctricas (UTE)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-08 Presidencia/UTE 보도 기준 2025년 시작된 현대화, 신규 터빈·발전기·제어·전기장비 교체와 2026년 11월 시험가동 예정 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012749",
+    "비고": "1960년 가동된 Rincón de Baygorria 수력발전소 현대화 사업. 설치용량 108MW, 유효용량 87MW, 연평균 400GWh 규모이며, 2025년부터 터빈·발전기·제어시스템·전기설비 종합 교체가 진행 중. 신규 200톤 이상 터빈 설치 후 2026년 11월 시험가동 예정. 후속 잔여 설비 패키지, 시운전, O&M 계약 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -5742,21 +5847,6 @@
     "최근 업데이트일": "2026. 7. 2",
     "대표 기사 고유값": "ART-20260702-010578",
     "비고": "Puente de la Integracion Paraguay-Brasil과 Alto Parana 도로망을 연결하는 Corredor Metropolitano del Este 농촌구간. 2026-07-02 MOPC 기준 농촌 lotes 평균 공정률 93.6%. 후속 준공·개통, 국경물류시설·접속도로·유지관리 패키지 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "PRY-ROAD-OLEARY-SANCRISTOBAL-PAVING",
-    "프로젝트명": "Juan E. O'Leary - San Cristobal Road Paving Project",
-    "지역": "중남미",
-    "국가": "파라과이",
-    "섹터": "교통",
-    "발주처": "Ministerio de Obras Publicas y Comunicaciones (MOPC)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 2",
-    "대표 기사 고유값": "ART-20260702-010580",
-    "비고": "Alto Parana Ruta D065 Juan E. O'Leary-San Cristobal 약 62.29km 포장사업. 3개 공구로 추진되며 2026-07-02 MOPC 보도 기준 지역 연결성·생산물류 개선 효과를 재확인. 후속 lot별 공정률, 준공·개통, 교량·배수·안전시설 보완공사 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -26067,21 +26157,6 @@
     "최근 업데이트일": "2026-06-16",
     "대표 기사 고유값": "ART-20260616-003766",
     "비고": "Itapúa Cruce Kimex-Carlos Antonio López 구간 도로 포장공사. 2026-06-16 MOPC 기준 전체 공정률 약 55.5%, 후속 포장 완료·개통·준공 여부 확인 필요.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "PRY-ROAD-LAS-RESIDENTAS-CORRIDOR",
-    "프로젝트명": "Corredor Vial Las Residentas Project",
-    "지역": "중남미",
-    "국가": "파라과이",
-    "섹터": "교통",
-    "발주처": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-16",
-    "대표 기사 고유값": "ART-20260616-003768",
-    "비고": "General Elizardo Aquino/Tape Tuja 확장 및 Parque Ñu Guasu 인근 회차 고가도로 공사.",
     "대표 기사 정보 분류": ""
   },
   {

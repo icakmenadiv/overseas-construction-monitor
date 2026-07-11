@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T16:07:35.463Z",
+  "updatedAt": "2026-07-11T17:11:26.585Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,45 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6827,
-    "projects": 2997
+    "articles": 6838,
+    "projects": 3002
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260711-012753",
+        "ART-20260710-012748",
+        "ART-20260710-012755",
+        "ART-20260709-012756",
+        "ART-20260709-012758",
+        "ART-20260709-012759",
+        "ART-20260708-012747",
+        "ART-20260708-012749",
+        "ART-20260708-012752",
+        "ART-20260708-012757",
+        "ART-20260707-012754"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ECU-ROAD-LOSRIOS-E25-REST-AREA",
+        "COL-ENERGY-PUERTA-DE-ORO-SOLAR",
+        "ECU-ENERGY-PUERTOINCA-SANIDELFONSO-TRANS",
+        "PRY-ROAD-D009-ARROYOS-TOBATI",
+        "URY-ENERGY-BAYGORRIA-HYDRO-MODERNIZATION"
+      ],
+      "updated": [
+        "PRY-ROAD-OLEARY-SANCRISTOBAL-PAVING",
+        "PRY-ROAD-LAS-RESIDENTAS-CORRIDOR"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 11",
-    "articlePublishedDate": "2026. 7. 10",
-    "projectUpdatedDate": "2026. 7. 10"
+    "articleCollectedDate": "2026. 7. 12",
+    "articlePublishedDate": "2026. 7. 11",
+    "projectUpdatedDate": "2026. 7. 11"
   }
 }
