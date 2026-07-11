@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T09:45:44.814Z",
+  "updatedAt": "2026-07-11T10:46:00.663Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,20 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260711-012745",
-        "ART-20260711-012744",
-        "ART-20260711-012743"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "UAE-WATER-HASSYAN-SWRO-PH2-PS31-PS32",
-        "UAE-WATER-HASSYAN-SWRO-PH2-NETWORK-PKG2",
-        "UAE-WATER-HASSYAN-SWRO-PH2-NETWORK-PKG1"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
