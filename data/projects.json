@@ -15,6 +15,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MMR-DIGITAL-YADANABON-CYBER-CITY",
+    "프로젝트명": "Yadanabon Cyber City Project",
+    "지역": "아시아",
+    "국가": "미얀마",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Yadanabon Cyber City Project Supervisory Committee / Ministry of Construction / Department of Urban and Housing Development",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 GNLM 보도 기준 전체 2,200에이커 중 약 1,400에이커 투자 EOI 접수, 제안서 구매·제출 일정만 확인됨.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012810",
+    "비고": "Mandalay Region PyinOoLwin District, Mandalay-Lashio highway 21마일 지점 인근 Yadanabon Cyber City 민간투자 EOI 프로젝트. 국내외 기업 대상 제안서 양식 판매는 2026-08-10까지, 제출 마감은 2026-08-25 16:00. 후속 투자자 선정, 개발구역별 도로·전력·통신·데이터센터·상하수도 기반시설 패키지, 사업비 및 계약구조 공개 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARM-TRANSPORT-TRIPP-CORRIDOR",
     "프로젝트명": "TRIPP Corridor Project",
     "지역": "유럽",
@@ -28,6 +43,21 @@
     "대표 기사 고유값": "ART-20260710-012678",
     "비고": "남부 아르메니아 통과 철도·도로·에너지·디지털 회랑. 2026-06-23 주미대사관 공개 기본협정 기준 TDC/SPV 구조, 미국 74%·아르메니아 26% 합작, 49년 토지사용·개발권, 조달·PPP·회사법상 예외 및 금융지원 의향이 확인됨. 2026-07-10 AECOM이 철도와 기타 인프라 시설 설계를 위한 TRIPP 사업구역 3차 현장조사를 수행. 후속 TDC 설립, 공구·시설별 범위, RFQ/RFP, 금융조건, 본공사 착수 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-BRIDGE-GORDIE-HOWE",
+    "프로젝트명": "Gordie Howe International Bridge Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "교통",
+    "발주처": "Windsor-Detroit Bridge Authority",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012795",
+    "비고": "개통 전 미해결 사안으로 캐나다·미국 합의하에 개통 지연 발표.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "HKG-WATER-SAMPO-SHUE-WCP-P1S1A",
@@ -310,7 +340,7 @@
     "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-09 기사 기준 Western Downs 800MW 풍력 및 배터리 연계 개발신청 제출 확인.",
     "현재 단계": "planning",
     "최근 업데이트일": "2026. 7. 9",
-    "대표 기사 고유값": "ART-20260709-012608",
+    "대표 기사 고유값": "ART-20260709-012794",
     "비고": "Chinchilla-Miles 사이 Western Downs 권역 최대 800MW 풍력발전 및 배터리 저장 연계 구상. Queensland 신규 재생에너지 계획제도 하 첫 NEM 연계 풍력 개발신청 사례로, 후속 인허가·EPC·터빈 공급·송전연계·배터리 범위 확정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -325,7 +355,7 @@
     "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 2026-07-09 정부 발표 기준 공사계약 수여와 2026년 말 착수 예정만 확인, ENR 보도상 약 USD 165mn 언급은 보조 참고로만 사용.",
     "현재 단계": "awarded",
     "최근 업데이트일": "2026. 7. 9",
-    "대표 기사 고유값": "ART-20260709-012607",
+    "대표 기사 고유값": "ART-20260709-012793",
     "비고": "Toowoomba-Greenmount 1단계와 장래 Greenmount-Warwick 2단계로 추진되는 수자원 안보 파이프라인. 공사계약은 CPB Contractors-NACAP JV에 수여됐고 2026년 말 착수 예정. 후속 환경승인, 세부 공사패키지, Stage 2 정부결정 및 착공 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -390,17 +420,32 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CAN-ENERGY-MERSEY-RIVER-WIND",
+    "프로젝트명": "Mersey River Wind Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "에너지",
+    "발주처": "Renewall Energy / Province of Nova Scotia",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "원문은 CIB CAD 206mn 대출만 확인, 총사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012803",
+    "비고": "공공주택 전력공급 PPA와 연계된 33기 풍력발전단지",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CAN-SOC-VAUDREUIL-SOULANGES-HOSPITAL",
     "프로젝트명": "Vaudreuil-Soulanges Hospital Project",
     "지역": "북미",
     "국가": "캐나다",
     "섹터": "사회인프라",
-    "발주처": "Government of Canada / Gouvernement du Québec / Santé Québec",
+    "발주처": "Gouvernement du Québec / Santé Québec",
     "사업비(달러 기준 추정액)": "USD 1.89bn",
-    "사업비 환산 환율 / 기준": "공식 총사업비 CAD 2.595bn. 2026-07-11 기준 약 1 CAD = USD 0.73 적용, 2.595bn x 0.73 = 약 USD 1.89bn.",
+    "사업비 환산 환율 / 기준": "원문 CAD 2.595bn; 2026-07-11 기준 약 1 USD=1.37 CAD 적용",
     "현재 단계": "construction",
     "최근 업데이트일": "2026. 7. 9",
-    "대표 기사 고유값": "ART-20260709-012614",
+    "대표 기사 고유값": "ART-20260709-012798",
     "비고": "Quebec Vaudreuil-Soulanges 권역 404병상 종합·전문병원. 응급실, 수술실, 외래, 영상의학, 현대식 진료 병동 포함. Build Communities Strong Fund 211mn CAD 연방기여 확인. 후속 시공·MEP·의료장비·개원일정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -492,6 +537,21 @@
     "최근 업데이트일": "2026. 7. 9",
     "대표 기사 고유값": "ART-20260709-012545",
     "비고": "GETESA와 Huawei의 국가 통신망 최적화 6개월 프로그램. 기존 인프라 최적화, 네트워크 용량 확대, 데이터 전송속도 개선, 통신 안정성 강화, 서비스 품질 제고를 포함한다. 기존 GETESA 2026~2030 전략의 후속 계약 단계로 관리하며, 후속 장비공급·기지국·전송망·O&M 범위와 사업비 공개 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HKG-IND-ACIB-TSINGYI",
+    "프로젝트명": "Advanced Construction Industry Building in Tsing Yi",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "산업·물류",
+    "발주처": "Development Bureau / Hong Kong Smart Construction Industry Park Limited / China State Construction International Holdings Limited",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-09 HKSAR Government/DEVB 보도 기준 약 3ha 부지, 30년 계약기간, 공사 2026년 하반기 착수·2028년 말 commissioning 예정만 확인됨.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012812",
+    "비고": "Tsing Yi 소재 홍콩 첫 advanced construction industry park. 철근 prefabrication, MiMEP 모듈 생산, 첨단 제조시설, R&D·훈련 기능을 통합하며, HKSCIP/China State Construction International 계열이 개발계약을 체결. 계약 만료 시 건물·생산시설·장비는 정부에 이전. 후속 공식 사업비, 착공, 생산설비·E&M·MiMEP 패키지, commissioning 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -780,6 +840,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PNG-ROAD-SISIMAKAM-PNYANG",
+    "프로젝트명": "Sisimakam-P'nyang Road Project",
+    "지역": "태평양",
+    "국가": "파푸아뉴기니",
+    "섹터": "교통",
+    "발주처": "Ok Tedi Mining Ltd / ExxonMobil PNG / Government of Papua New Guinea",
+    "사업비(달러 기준 추정액)": "USD 34.11mn",
+    "사업비 환산 환율 / 기준": "원문: 총사업비 K150mn. Xe 2026-07-11 1 USD=4.39741 PGK 기준, 150mn/4.39741=약 USD 34.11mn.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012788",
+    "비고": "Western Province Sisimakam-P'nyang 32km 도로. P'nyang LNG 개발 예정지 접근도로로 11km 선행공사, 23km 연장, 전 구간 포장 3단계 추진 예정. Ok Tedi K30mn 세액공제 투자, ExxonMobil PNG-정부 Infrastructure Tax Credit Scheme 기반 주재원. 후속 착공·시공사·구간별 공정과 P'nyang LNG FID 연계 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PRT-RAIL-ETCS-STM-PT",
     "프로젝트명": "ETCS/STM PT Development and Certification Project",
     "지역": "유럽",
@@ -1005,6 +1080,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "USA-SOC-VATECH-MITCHELL-HALL",
+    "프로젝트명": "Mitchell Hall at Virginia Tech",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "사회인프라",
+    "발주처": "Virginia Tech / Skanska",
+    "사업비(달러 기준 추정액)": "USD 292mn",
+    "사업비 환산 환율 / 기준": "원문: Construction Dive 2026-07-09 기사에서 Virginia Tech 시설 담당자 발언 기준 총 공사비 USD 292mn 제시. 별도 환산 없음.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012802",
+    "비고": "Blacksburg 캠퍼스 5층·285,500sq ft 공학 교육·연구시설. Skanska 시공, 2026-07-09 상량 완료, 2028년 겨울 완공 목표. 후속 실험실 fit-out, 기전·특수설비, 완공·개관 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "VNM-ROAD-CAMLO-LASON-EXP-EXPANSION",
     "프로젝트명": "Cam Lo - La Son Expressway Expansion Project",
     "지역": "아시아",
@@ -1155,17 +1245,32 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CAN-DIGITAL-META-STURGEON-DATA-CENTER",
+    "프로젝트명": "Meta Sturgeon County Data Center Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Meta Platforms / Sturgeon County",
+    "사업비(달러 기준 추정액)": "USD 9.49bn",
+    "사업비 환산 환율 / 기준": "원문 CAD 13bn 이상; 2026-07-11 기준 약 1 USD=1.37 CAD 적용",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012796",
+    "비고": "캐나다 첫 Meta 데이터센터, 1GW AI 최적화 시설",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CAN-RAIL-GRIMSBY-GO-STATION",
     "프로젝트명": "Grimsby GO Station Project",
     "지역": "북미",
     "국가": "캐나다",
     "섹터": "교통",
-    "발주처": "Metrolinx / Ontario Ministry of Transportation",
+    "발주처": "Metrolinx",
     "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "Grimsby GO Station 단독 공식 사업비 미공개. 기사 내 CAD 14bn 이상은 GO Transit 네트워크 전체 투자액으로 단독 사업비가 아니므로 제외.",
+    "사업비 환산 환율 / 기준": "",
     "현재 단계": "construction",
     "최근 업데이트일": "2026. 7. 8",
-    "대표 기사 고유값": "ART-20260708-012616",
+    "대표 기사 고유값": "ART-20260708-012800",
     "비고": "Niagara Region GO 서비스 확대를 위한 신규 Grimsby GO Station. 플랫폼 1개, 주차 220면, 버스 루프, 승하차 구역 포함. 표준화 설계 적용 첫 역으로 후속 유사역 발주 확대 가능성 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -1175,12 +1280,12 @@
     "지역": "북미",
     "국가": "캐나다",
     "섹터": "교통",
-    "발주처": "Government of Canada / Capital Crossing Constructors / National Capital Commission",
+    "발주처": "Public Services and Procurement Canada / Capital Crossing Constructors",
     "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-08 기사에서는 lead designer 선정과 설계·개발 범위만 확인됨.",
-    "현재 단계": "planning",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
     "최근 업데이트일": "2026. 7. 8",
-    "대표 기사 고유값": "ART-20260708-012615",
+    "대표 기사 고유값": "ART-20260708-012799",
     "비고": "Ottawa-Gatineau Alexandra Bridge 대체사업. Capital Crossing Constructors(Webuild Civil Works, Samsung C&T Ontario 1, Green Infrastructure Partners)가 AECOM을 lead designer로 선정. 2028년 공사 착수 예상. 한국 기업 Samsung C&T Ontario 1 컨소시엄 참여 확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -1425,6 +1530,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "LKA-TRANSPORT-ANGAMUWA-SPILL-CAUSEWAY",
+    "프로젝트명": "Angamuwa Spill Causeway Bridge Project",
+    "지역": "아시아",
+    "국가": "스리랑카",
+    "섹터": "교통",
+    "발주처": "Government of Sri Lanka / Ministry of Transport, Highways, Ports and Civil Aviation",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012805",
+    "비고": "Thambuththegama-Rajanganaya 도로 Angamuwa Spill 구간 교량 신설. 2026-07-08 내각 결정에서 기존 road-cum-aqueduct 구조물의 보수 또는 재건 판단을 위한 CECB 구조 점검 컨설팅 계약 수여 승인이 확인됨. 후속 본공사 설계·입찰·착공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "LKA-URBAN-PORTCITY-CLOTHESPIN-HOTEL",
     "프로젝트명": "Clothespin Colombo Port City Hotel and Art Gallery Project",
     "지역": "아시아",
@@ -1437,6 +1557,21 @@
     "최근 업데이트일": "2026. 7. 8",
     "대표 기사 고유값": "ART-20260708-012625",
     "비고": "Colombo Port City Hotel Use Land Plot 2-01-11, 24,324㎡ 부지의 호텔·대형 미술관 개발 구상. 2025년 7월 세제혜택 고시 이후 6개월 내 계약 서명이 필요했으나 2026-01-14까지 미서명으로 만료. 기존 개발은 진행하지 않으며, 신규 임대·개발 협의는 계속되나 동일 부지가 아닐 가능성.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "LKA-WATER-KANDY-UWWMP-PERADENIYA",
+    "프로젝트명": "Kandy Urban Waste Water Management Project - University of Peradeniya Scope Expansion",
+    "지역": "아시아",
+    "국가": "스리랑카",
+    "섹터": "수자원·환경",
+    "발주처": "Government of Sri Lanka / Ministry of Housing, Construction and Water Supply / JICA",
+    "사업비(달러 기준 추정액)": "USD 5.96mn",
+    "사업비 환산 환율 / 기준": "원문 공식 추정비용 LKR 2,000mn. EconomyNext 2026-07-08 전후 USD/LKR spot 약 335.7 적용, 2,000mn/335.7=약 USD 5.96mn.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012806",
+    "비고": "JICA 차관으로 시행 중인 Kandy Urban Waste Water Management Project의 University of Peradeniya 구역 편입 범위 확대. 추정비용 LKR 2bn, JICA LKR 800mn 및 국내재원 LKR 1,200mn, 사업기간 2027-12-31까지 연장. 후속 세부 패키지·공사범위·시공사 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1735,7 +1870,7 @@
     "사업비 환산 환율 / 기준": "원문 투자규모 AUD 500mn. 2026-07-11 기준 약 0.66 USD/AUD 적용, 500mn x 0.66 = 약 USD 330mn.",
     "현재 단계": "planning",
     "최근 업데이트일": "2026. 7. 7",
-    "대표 기사 고유값": "ART-20260707-012609",
+    "대표 기사 고유값": "ART-20260707-012795",
     "비고": "Newcastle Mayfield North 옛 BHP 제철소 부지 70,000㎡에 조성되는 전면 전기식 제철소 1단계. 연 600,000톤 완제품 철강 생산능력, Danieli 전기유도 설비, 2026년 말 개보수·현대화 착수, 2028년 1월 운영 목표. 후속 Stage 2, 인허가, 부지공사, 전기·MEP·건축 패키지 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -1760,12 +1895,12 @@
     "지역": "북미",
     "국가": "캐나다",
     "섹터": "석유가스·화학",
-    "발주처": "Governments of Ontario and Alberta / Infrastructure Ontario advisory team",
+    "발주처": "Ontario Ministry of Energy and Mines / Government of Alberta",
     "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026년 말 타당성조사 완료 후 비용 추정 예정.",
+    "사업비 환산 환율 / 기준": "",
     "현재 단계": "study",
     "최근 업데이트일": "2026. 7. 7",
-    "대표 기사 고유값": "ART-20260707-012618",
+    "대표 기사 고유값": "ART-20260707-012802",
     "비고": "Hardisty, Alberta-Sarnia, Ontario 3,300km 원유 송유관·에너지 회랑 후보. 500,000bpd 운송, 최대 800,000bpd 확장 가능성 제시. Ontario·Alberta·Saskatchewan 협력 MOU 후속으로 비용·상업모델·전력망 업그레이드·Indigenous partnership 검토 중.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -1778,9 +1913,9 @@
     "발주처": "British Columbia Ministry of Transportation and Transit / Government of Canada",
     "사업비(달러 기준 추정액)": "USD 6.21bn",
     "사업비 환산 환율 / 기준": "공식 총사업비 CAD 8.5bn. 2026-07-11 기준 약 1 CAD = USD 0.73 적용, 8.5bn x 0.73 = 약 USD 6.21bn.",
-    "현재 단계": "pre-procurement",
+    "현재 단계": "tender",
     "최근 업데이트일": "2026. 7. 7",
-    "대표 기사 고유값": "ART-20260707-012617",
+    "대표 기사 고유값": "ART-20260707-012801",
     "비고": "George Massey Tunnel 대체 8차로 immersed-tube tunnel. 2026-07-07 기준 연방정부 최대 CAD 3bn 기여와 총사업비 CAD 8.5bn 갱신 확인. 첫 2개 패키지 RFQ는 2026-06-16 게시, RFP는 2026년 8월 초 발행 예정, 본공사 2027년·완공 2031년 목표. 기존 초기공사는 계속 진행 중.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -25920,21 +26055,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "LKA-TRANSPORT-ANGAMUWA-SPILL-CAUSEWAY",
-    "프로젝트명": "Angamuwa Spill Causeway Bridge Project",
-    "지역": "아시아",
-    "국가": "스리랑카",
-    "섹터": "교통",
-    "발주처": "Government of Sri Lanka / Ministry of Transport, Highways, Ports and Civil Aviation",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "planning",
-    "최근 업데이트일": "2026-06-16",
-    "대표 기사 고유값": "ART-20260616-003715",
-    "비고": "Thambuththegama-Rajanganaya 도로 Angamuwa Spill 구간 교량 신설. 홍수 시 통행 안정성 개선 목적, 후속 설계·입찰·착공 확인 필요.",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "LKA-TRANSPORT-BIA-TERMINAL1-UPGRADE",
     "프로젝트명": "Bandaranaike International Airport Terminal 1 Upgrade Project",
     "지역": "아시아",
@@ -32352,21 +32472,6 @@
     "최근 업데이트일": "2026. 6. 11",
     "대표 기사 고유값": "ART-20260611-003095",
     "비고": "Recife Jardim São Paulo·Ribeira 침수 저감 배수공사. Rio Tejipió 유역 Mauricéia·Sanbra 수로 canalização, 저류지, 수로변 도시정비 포함.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "CAN-BRIDGE-GORDIE-HOWE",
-    "프로젝트명": "Gordie Howe International Bridge Project",
-    "지역": "북미",
-    "국가": "캐나다",
-    "섹터": "교통",
-    "발주처": "Windsor-Detroit Bridge Authority",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "on-hold",
-    "최근 업데이트일": "2026. 6. 11",
-    "대표 기사 고유값": "ART-20260611-001296",
-    "비고": "개통 전 미해결 사안으로 캐나다·미국 합의하에 개통 지연 발표.",
     "대표 기사 정보 분류": ""
   },
   {
