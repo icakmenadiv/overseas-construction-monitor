@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T17:11:26.585Z",
+  "updatedAt": "2026-07-11T18:05:34.769Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,38 +28,63 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6838,
-    "projects": 3002
+    "articles": 6868,
+    "projects": 3014
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260711-012753",
-        "ART-20260710-012748",
-        "ART-20260710-012755",
-        "ART-20260709-012756",
-        "ART-20260709-012758",
-        "ART-20260709-012759",
-        "ART-20260708-012747",
-        "ART-20260708-012749",
-        "ART-20260708-012752",
-        "ART-20260708-012757",
-        "ART-20260707-012754"
+        "ART-20260711-012785",
+        "ART-20260710-012762",
+        "ART-20260710-012763",
+        "ART-20260710-012770",
+        "ART-20260710-012777",
+        "ART-20260710-012780",
+        "ART-20260710-012781",
+        "ART-20260709-012761",
+        "ART-20260709-012769",
+        "ART-20260709-012772",
+        "ART-20260709-012774",
+        "ART-20260709-012775",
+        "ART-20260709-012782",
+        "ART-20260709-012783",
+        "ART-20260709-012784",
+        "ART-20260708-012760",
+        "ART-20260708-012767",
+        "ART-20260708-012773",
+        "ART-20260708-012774",
+        "ART-20260708-012775",
+        "ART-20260708-012776",
+        "ART-20260708-012777",
+        "ART-20260707-012764",
+        "ART-20260707-012766",
+        "ART-20260707-012768",
+        "ART-20260707-012776",
+        "ART-20260707-012779",
+        "ART-20260706-012765",
+        "ART-20260706-012771",
+        "ART-20260706-012778"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "ECU-ROAD-LOSRIOS-E25-REST-AREA",
-        "COL-ENERGY-PUERTA-DE-ORO-SOLAR",
-        "ECU-ENERGY-PUERTOINCA-SANIDELFONSO-TRANS",
-        "PRY-ROAD-D009-ARROYOS-TOBATI",
-        "URY-ENERGY-BAYGORRIA-HYDRO-MODERNIZATION"
+        "PER-SOC-SMV-NEW-HQ",
+        "NIC-WATER-PALACAGUINA-SYSTEM-REHAB",
+        "ARG-ENERGY-ALMASADI-BESS",
+        "ARG-OILGAS-SANTAFE-GASODUCTOS-ERP-ETAPA2",
+        "ARG-WATER-VEDIA-WWTP-EXPANSION",
+        "ARG-WATER-VILLA-ARGUELLO-SEWER",
+        "NIC-WATER-NUEVAGUINEA-LAESPERANZA",
+        "PER-RAIL-LIMA-METRO-L3-L4-APP",
+        "PER-BRIDGE-SANTA-ROSA-CALLAO",
+        "SLV-ENERGY-TAMANIQUE-SUBSTATION-115KV",
+        "CHL-URBAN-MAPOCHO-FLUVIAL-PROMENADE",
+        "MEX-ROAD-MARAVATIO-BYPASS"
       ],
       "updated": [
-        "PRY-ROAD-OLEARY-SANCRISTOBAL-PAVING",
-        "PRY-ROAD-LAS-RESIDENTAS-CORRIDOR"
+        "SLV-TRANSPORT-SAN-SALVADOR-METROCABLE"
       ],
       "removed": []
     }
