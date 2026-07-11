@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T06:03:01.645Z",
+  "updatedAt": "2026-07-11T08:08:17.583Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,21 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260709-012737",
-        "ART-20260709-012739",
-        "ART-20260708-012742",
-        "ART-20260707-012738",
-        "ART-20260707-012741",
-        "ART-20260706-012740"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "EGY-URBAN-RAS-ELHEKMA-DEVELOPMENT"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
