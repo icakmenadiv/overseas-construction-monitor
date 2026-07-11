@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T12:35:29.586Z",
+  "updatedAt": "2026-07-11T14:06:00.505Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,21 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6826,
-    "projects": 2996
+    "articles": 6827,
+    "projects": 2997
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260709-012746"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "BGD-OILGAS-MOHESHKHALI-FSRU-G2G"
+      ],
       "updated": [],
       "removed": []
     }
