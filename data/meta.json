@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T20:12:31.045Z",
+  "updatedAt": "2026-07-11T20:33:40.848Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,67 +24,60 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 6921,
-    "projects": 3030
+    "articles": 6928,
+    "projects": 3035
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260712-012819",
-        "ART-20260712-012836",
-        "ART-20260711-012818",
-        "ART-20260711-012821",
-        "ART-20260711-012830",
-        "ART-20260711-012833",
-        "ART-20260711-012834",
-        "ART-20260710-012826",
-        "ART-20260710-012831",
-        "ART-20260709-012813",
-        "ART-20260709-012814",
-        "ART-20260709-012816",
-        "ART-20260709-012827",
-        "ART-20260709-012828",
-        "ART-20260709-012832",
-        "ART-20260708-012814",
-        "ART-20260708-012815",
-        "ART-20260708-012817",
-        "ART-20260708-012820",
-        "ART-20260708-012822",
-        "ART-20260708-012823",
-        "ART-20260708-012824",
-        "ART-20260708-012825",
-        "ART-20260708-012835",
-        "ART-20260707-012814",
-        "ART-20260707-012829",
-        "ART-20260707-012837"
+        "ART-20260711-012850",
+        "ART-20260711-012851",
+        "ART-20260711-012852",
+        "ART-20260711-012853",
+        "ART-20260710-012838",
+        "ART-20260710-012841",
+        "ART-20260710-012842",
+        "ART-20260710-012845",
+        "ART-20260710-012846",
+        "ART-20260710-012847",
+        "ART-20260710-012855",
+        "ART-20260709-012839",
+        "ART-20260709-012848",
+        "ART-20260709-012854",
+        "ART-20260708-012849",
+        "ART-20260707-012838",
+        "ART-20260707-012840"
       ],
-      "updated": [
-        "ART-20260610-001212"
-      ],
-      "removed": []
+      "updated": [],
+      "removed": [
+        "ART-20260710-012789",
+        "ART-20260707-012802",
+        "ART-20260707-012837",
+        "ART-20260710-012611",
+        "ART-20260709-012607",
+        "ART-20260707-012609",
+        "ART-20260707-012610",
+        "ART-20260703-011379",
+        "ART-20260620-004731",
+        "ART-20260618-004723"
+      ]
     },
     "projects": {
       "added": [
-        "IDN-AIR-BALI-WISNU-AIRFIELD-EXPANSION",
-        "IDN-OILGAS-SOUTH-ANDAMAN-GAS-PROCESSING",
-        "IND-RAIL-KANKHAPUR-BAGESHWAR-LINE",
-        "PHL-IND-AURION-SOLAR-MFG",
-        "IND-AIR-NAGPUR-AIRPORT-MODERNIZATION",
-        "TWN-SOC-MOEA-NEW-OFFICE",
-        "IND-RAIL-EAST-WEST-DEDICATED-FREIGHT-CORRIDOR",
-        "IND-ROAD-NH66-KAZHAKKOOTTAM-KADAMPATTUKONAM-SAFETY",
-        "IND-WATER-MUMBAI-FLOOD-CONTROL-370-HOTSPOTS"
+        "AZE-ENERGY-HOCHAZ-HPPS",
+        "AZE-URBAN-SHUSHA-GARABAGH-ST-PPP",
+        "AZE-URBAN-SHUSHA-KICHIK-GALADERESI-RESTORATION",
+        "AZE-WATER-HAKARICHAY-RESERVOIR",
+        "ROU-IND-SPACEPLUS-POPESTI-LEORDENI"
       ],
       "updated": [
-        "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
-        "SGP-RAIL-CIRCLE-LINE-STAGE6",
-        "MYS-ROAD-NPE2-EXTENSION",
-        "IDN-WTE-DENPASAR-PSEL-BENOA",
-        "TWN-DIGITAL-AI-COMPUTE-BOO"
+        "POL-RAIL-CPK-WARSAW-LODZ-HSR",
+        "PNG-ROAD-IHU-MURO",
+        "CAN-OILGAS-NORTHERN-SHIELD-ENERGY-CORRIDOR"
       ],
       "removed": []
     }

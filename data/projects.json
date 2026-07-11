@@ -30,6 +30,66 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AZE-ENERGY-HOCHAZ-HPPS",
+    "프로젝트명": "Hochaz River Aghbulag-1, Aghbulag-2 and Sheylanli Hydroelectric Power Stations",
+    "지역": "유럽",
+    "국가": "아제르바이잔",
+    "섹터": "에너지",
+    "발주처": "AzerEnerji OJSC",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 APA 보도 기준 Aghbulag-1 14.7MW, Aghbulag-2 14.25MW, Sheylanli 4MW 등 총 32.95MW 준공·가동만 확인됨.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012851",
+    "비고": "Lachin Hochaz River 3개 소수력발전소 준공·운영. Garabagh·East Zangazur green energy zone 정책의 일부이며, 추가 10.7MW HPP 3개가 연내 준공 예정이라 후속 프로젝트군 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AZE-URBAN-SHUSHA-GARABAGH-ST-PPP",
+    "프로젝트명": "Garabagh Street Public-Private Partnership Mixed-Use Development Project",
+    "지역": "유럽",
+    "국가": "아제르바이잔",
+    "섹터": "도시개발·주택",
+    "발주처": "Local investors / Shusha reconstruction authorities",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 Report 보도 기준 Garabagh Street에 호텔, apartment hotel, office building, catering facility 등 다목적 건물 10개동이 현지 투자자에 의해 건설됐다는 사실만 확인됨.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012853",
+    "비고": "Shusha Garabagh Street 내 PPP 방식 복합개발 프로젝트. 10개 다목적 건물 기반 호텔·업무·상업·식음 기능을 포함하며, 해방지역 민간투자 도시재건 모델과 후속 PPP 복합개발 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AZE-URBAN-SHUSHA-KICHIK-GALADERESI-RESTORATION",
+    "프로젝트명": "Kichik Galaderesi Village Restoration and Infrastructure Project",
+    "지역": "유럽",
+    "국가": "아제르바이잔",
+    "섹터": "도시개발·주택",
+    "발주처": "Special Representative of the President in Shusha district / relevant reconstruction authorities",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 APA 보도 기준 66개 단독주택 중 47개 복구 가능, 26개 입주 준비 완료, 21개 내년 완공 예정, 가스·상수도·전력·내부도로·공공공간 복구 완료만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012852",
+    "비고": "Shusha district Kichik Galaderesi village 주거·상수도·가스·전력·도로·공공공간 복구 프로젝트. 잔여 주택, 사회시설, 통신·공공서비스 및 추가 정착지 복구 패키지 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AZE-WATER-HAKARICHAY-RESERVOIR",
+    "프로젝트명": "Hakarichay Reservoir Project",
+    "지역": "유럽",
+    "국가": "아제르바이잔",
+    "섹터": "수자원·환경",
+    "발주처": "State Water Resources Agency of Azerbaijan",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 APA/AZERTAC 계열 보도 기준 총저수용량 100mn㎥, 유효저수용량 90mn㎥, 172km 주관로, 초당 8㎥ 방류능력, 700,000명 대상 초당 2.5㎥ 식수공급 및 10.81MW HPP 3개 계획만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012850",
+    "비고": "Lachin Hakarichay River 기반 광역 상수도·수자원관리·소수력 복합 프로젝트. 후속 설계·시공 패키지, 관로·수처리·HPP·계통연계, 사업비 공개 및 운영개시 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ECU-ROAD-LOSRIOS-E25-REST-AREA",
     "프로젝트명": "Los Rios E25 Transport Rest Area Project",
     "지역": "중남미",
@@ -327,6 +387,21 @@
     "최근 업데이트일": "2026. 7. 10",
     "대표 기사 고유값": "ART-20260710-012607",
     "비고": "Elk-Antelope 가스전 기반 Port Moresby 저탄소 LNG 플랜트 및 상류·하류 인프라. 2026-07-10 개발포럼 대표성 확대와 Director's Proposal 협의 절차가 확인됨. EPC 후보 선정 및 환경허가 변경 이력이 있어 현재 단계는 bid-evaluation 유지. 후속 FID·EPC 계약·이익공유 협상 결과 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "POL-RAIL-CPK-WARSAW-LODZ-HSR",
+    "프로젝트명": "CPK Warsaw-Lodz High-Speed Rail Line No.85 Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "Centralny Port Komunikacyjny / Port Polska",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012845",
+    "비고": "바르샤바-CPK 공항-우치 및 장래 브로츠와프·포즈난을 연결하는 Y형 고속철도 핵심 사업. 2026-07-10 기준 Kotowice-공항분기 13km 첫 KDP 공구 경쟁대화 본단계에 6개 후보가 통과했으며, 설계·시공 범위에는 37km 신규 선로, 55개 교량·고가·암거·동물통로, 약 40km 기술·접근·공공도로가 포함됨. 계약 체결은 2027년 4분기 계획. 프로젝트 전체는 우치 터널 등 선행공사 기준 construction으로 유지하되 본선 공구별 tender·award·contract 후속 추적 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1845,6 +1920,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PNG-ROAD-IHU-MURO",
+    "프로젝트명": "Ihu-Muro Road Project",
+    "지역": "태평양",
+    "국가": "파푸아뉴기니",
+    "섹터": "교통",
+    "발주처": "Papua New Guinea Government / Kikori District / East and West Ihu LLG",
+    "사업비(달러 기준 추정액)": "USD 40mn",
+    "사업비 환산 환율 / 기준": "The PNG Sun 2026-07-03 기준 공식 사업비 K176mn. Trading Economics 2026-07-03 USD/PGK 4.3974 적용, K176mn / 4.3974 = 약 USD 40.0mn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012790",
+    "비고": "Gulf Province Kikori District East·West Ihu LLG 인프라 패키지의 대표 도로사업. PMNEC 공식 보도 기준 K176mn Ihu-Muro Road, K126mn Vailala River Bridge, K10mn Keuru Bridge-Vailala River 도로 토양안정화 등 6개 사업이 함께 출범. 본 행은 가장 큰 단일 교통 프로젝트인 Ihu-Muro Road로 관리하며, Vailala River Bridge가 독립 발주·공정으로 확인되면 별도 프로젝트 분리 검토.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "POL-ROAD-CPK-ALEKSANDROW-NORTH-BYPASS-CONN",
     "프로젝트명": "CPK Aleksandrów-DK50 to Northern Airport Bypass National Road Connection",
     "지역": "유럽",
@@ -2095,7 +2185,7 @@
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "study",
     "최근 업데이트일": "2026. 7. 7",
-    "대표 기사 고유값": "ART-20260707-012802",
+    "대표 기사 고유값": "ART-20260707-012618",
     "비고": "Hardisty, Alberta-Sarnia, Ontario 3,300km 원유 송유관·에너지 회랑 후보. 500,000bpd 운송, 최대 800,000bpd 확장 가능성 제시. Ontario·Alberta·Saskatchewan 협력 MOU 후속으로 비용·상업모델·전력망 업그레이드·Indigenous partnership 검토 중.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -2367,6 +2457,21 @@
     "최근 업데이트일": "2026. 7. 7",
     "대표 기사 고유값": "ART-20260707-012684",
     "비고": "Cluj-Napoca Someșeni district / Cluj International Airport 인근 110/20/10kV 변전소, 56.3MVA, 110kV 지중선 약 12km, 중압 지중망 약 30km, 자동화·보호·통신시스템 포함. 2026년 7월 기준 공정률 70% 초과, 2026-12-31 투입 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ROU-IND-SPACEPLUS-POPESTI-LEORDENI",
+    "프로젝트명": "SPACEPLUS Popești-Leordeni Logistics Park Project",
+    "지역": "유럽",
+    "국가": "루마니아",
+    "섹터": "산업·물류",
+    "발주처": "SPEEDWELL / GSE Group",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-07 Business Forum 기사 기준 12,200㎡ 규모, 2027년 3월 조기입주·2027년 5월 완전 운영 목표만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 7",
+    "대표 기사 고유값": "ART-20260707-012838",
+    "비고": "부쿠레슈티 인근 DN4와 A0 고속도로 사이에 조성되는 중소기업용 Class A 산업·물류 공간. 2개 동, 약 12,200㎡ 규모이며 SPEEDWELL이 개발하고 GSE Group이 일반시공을 담당. 후속 임차율, 공정, 추가 SPACEPLUS 확장 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -4845,21 +4950,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "PNG-ROAD-IHU-MURO",
-    "프로젝트명": "Ihu-Muro Road Project",
-    "지역": "태평양",
-    "국가": "파푸아뉴기니",
-    "섹터": "교통",
-    "발주처": "Papua New Guinea Government / Kikori District / East and West Ihu LLG",
-    "사업비(달러 기준 추정액)": "USD 40mn",
-    "사업비 환산 환율 / 기준": "The PNG Sun 2026-07-03 기준 공식 사업비 K176mn. Trading Economics 2026-07-03 USD/PGK 4.3974 적용, K176mn / 4.3974 = 약 USD 40.0mn.",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 3",
-    "대표 기사 고유값": "ART-20260703-011379",
-    "비고": "Gulf Province Kikori District Ihu-Muro 도로 연결사업. K316mn Ihu 인프라 프로그램 중 가장 큰 K176mn 도로 사업으로, East/West Ihu 지역 연결성과 시장 접근성 개선 목적. 후속 발주처·시공사·도로 연장·공정률·완공 일정 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "POL-AIR-CPK-TERMINAL",
     "프로젝트명": "CPK Airport Passenger Terminal Construction Project",
     "지역": "유럽",
@@ -4872,21 +4962,6 @@
     "최근 업데이트일": "2026. 7. 3",
     "대표 기사 고유값": "ART-20260703-011253",
     "비고": "CPK 신공항 1단계 여객터미널 약 45만㎡, 34mppa 처리능력. Budimex 기초공사 계약·작업구역 인계 이후 2026-07-03 본 터미널 시공 5개 컨소시엄에 가격·품질 제안 요청 발송. 프로젝트 현재 단계는 기초공사 준비 기준 construction으로 유지하되, 터미널 본공사 계약은 2026년 말~2027년 초 목표. 후속 최종제안, 우선협상/낙찰, 본공사 계약 및 MEP·수하물·탑승교 세부 패키지 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "POL-RAIL-CPK-WARSAW-LODZ-HSR",
-    "프로젝트명": "CPK Warsaw-Lodz High-Speed Rail Line No.85 Project",
-    "지역": "유럽",
-    "국가": "폴란드",
-    "섹터": "교통",
-    "발주처": "Centralny Port Komunikacyjny / Port Polska",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 3",
-    "대표 기사 고유값": "ART-20260703-011254",
-    "비고": "바르샤바-CPK 공항-우치 및 장래 브로츠와프·포즈난을 연결하는 Y형 고속철도 핵심 사업. 2026-07-03 공항분기-볼리모프분기 14.3km 공구에 8개 업체·컨소시엄, 총 19개 기업이 참가신청을 제출했고 최대 5개 후보가 대화 단계로 초청될 예정. 프로젝트 전체는 우치 터널 공사 준비 기준 construction으로 유지하되, 본선 공구별 숏리스트·가격제안·낙찰·계약 체결을 후속 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
