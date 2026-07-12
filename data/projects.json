@@ -270,6 +270,51 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "JPN-AIR-NARITA-RUNWAY-C-B-EXPANSION",
+    "프로젝트명": "Narita Airport C Runway and B Runway Extension Project",
+    "지역": "아시아",
+    "국가": "일본",
+    "섹터": "교통",
+    "발주처": "MLIT / Narita International Airport Corporation / Chiba Prefecture / airport-area municipalities",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-10 기사 기준 C활주로 용지확보율 90.4%, 토지수용 활용 합의, B활주로 연장부 2029년도 내 공용 목표 확인.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012867",
+    "비고": "나리타공항 기능강화의 C활주로 신설 및 B활주로 연장 프로젝트. 용지확보·지역대책·추가공사·공용일정과 에어포트시티 연계 인프라 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JPN-URBAN-NAKANO-SUNPLAZA-REDEVELOPMENT",
+    "프로젝트명": "Nakano Sunplaza / Nakano Station North Exit Area Redevelopment Project",
+    "지역": "아시아",
+    "국가": "일본",
+    "섹터": "도시개발·주택",
+    "발주처": "Nakano City",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-10 기사 기준 주거 1,100호 상한, 다목적홀 3,000명 규모 축소, 공구분할·단계제안 허용 방침 확인.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012869",
+    "비고": "나카노역 신북구 역전 에리어 및 나카노サンプ라자 재개발 사업계획 개정 프로젝트. 2026년도 계획 개정, 2027년도 민간사업자 모집, 공구분할·단계개발 구조 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JPN-WATER-KANZAKI-WTP-REDEVELOPMENT",
+    "프로젝트명": "Kanzaki Water Treatment Plant Redevelopment DB Project",
+    "지역": "아시아",
+    "국가": "일본",
+    "섹터": "수자원·환경",
+    "발주처": "Amagasaki City",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 개산공사비 JPY 11.9bn~15.6bn(세전) 확인. 프로젝트 탭 사업비 열은 단일 USD 값만 허용하므로 공식 범위는 본 기준 열에만 기록하고 사업비 열은 미확인 유지.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012868",
+    "비고": "아마가사키시 간자키 정수장 노후시설 재정비 DB 사업. 2027년도 1분기 공고, 2027년도 말 계약, 2028년도 설계, 2029년도 착공, 2032년도 완공 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KAZ-ROAD-ALMATY-EASTGATE-BAKAD-MAGISTRAL",
     "프로젝트명": "Almaty Eastern Gates-BAKAD Road Network and Six-Lane Magistral Project",
     "지역": "중앙아시아",
@@ -1797,6 +1842,21 @@
     "최근 업데이트일": "2026. 7. 8",
     "대표 기사 고유값": "ART-20260708-012515",
     "비고": "Airport Road Al-Zaytoonah University~Madaba Bridge 구간 6개월 재포장·보수. 중앙권역 주요 도로 유지보수 계약의 일부.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JPN-ENERGY-FAWT-IKI-OFFSHORE-DEMO",
+    "프로젝트명": "FAWT Iki Offshore Floating Wind Demonstration Project",
+    "지역": "아시아",
+    "국가": "일본",
+    "섹터": "에너지",
+    "발주처": "FAWT Consortium / J-POWER, TEPCO Holdings, Chubu Electric Power, Kawasaki Kisen, Sumitomo Heavy Industries, Albatross Technology",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-08 J-POWER 보도 기준 로터 직경 9.3m, 부유체 직경 1.7m, 최대출력 20kW 소형 실험기와 1년 실증만 확인됨.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012866",
+    "비고": "나가사키현 이키시 실증해역의 FAWT 부유식 풍력 소형 실증 프로젝트. 향후 MW급 실증기와 상업화 로드맵, 해상 설치·계류·O&M·기자재 패키지 후속 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

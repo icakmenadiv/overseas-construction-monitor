@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T18:10:52.295Z",
+  "updatedAt": "2026-07-12T19:19:07.860Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,27 +24,39 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 6938,
-    "projects": 3043
+    "articles": 6944,
+    "projects": 3047
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260710-012867",
+        "ART-20260710-012868",
+        "ART-20260710-012869",
+        "ART-20260710-012870",
+        "ART-20260710-012871",
+        "ART-20260708-012866"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "JPN-AIR-NARITA-RUNWAY-C-B-EXPANSION",
+        "JPN-URBAN-NAKANO-SUNPLAZA-REDEVELOPMENT",
+        "JPN-WATER-KANZAKI-WTP-REDEVELOPMENT",
+        "JPN-ENERGY-FAWT-IKI-OFFSHORE-DEMO"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 12",
+    "articleCollectedDate": "2026. 7. 13",
     "articlePublishedDate": "2026. 7. 12",
     "projectUpdatedDate": "2026. 7. 12"
   }
