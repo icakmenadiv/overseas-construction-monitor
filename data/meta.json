@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T21:09:37.028Z",
+  "updatedAt": "2026-07-12T22:04:54.832Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,40 +28,63 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6984,
-    "projects": 3061
+    "articles": 7010,
+    "projects": 3076
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260712-012894",
-        "ART-20260711-012895",
-        "ART-20260710-012895",
-        "ART-20260710-012898",
-        "ART-20260710-012902",
-        "ART-20260710-012903",
-        "ART-20260709-012896",
-        "ART-20260709-012897",
-        "ART-20260709-012900",
-        "ART-20260709-012901",
-        "ART-20260709-012905",
-        "ART-20260708-012894",
-        "ART-20260708-012896",
-        "ART-20260708-012899",
-        "ART-20260708-012904"
+        "ART-20260712-012922",
+        "ART-20260712-012925",
+        "ART-20260712-012928",
+        "ART-20260712-012929",
+        "ART-20260712-012930",
+        "ART-20260711-012906",
+        "ART-20260711-012907",
+        "ART-20260711-012932",
+        "ART-20260710-012913",
+        "ART-20260710-012921",
+        "ART-20260710-012931",
+        "ART-20260710-012933",
+        "ART-20260710-012934",
+        "ART-20260709-012906",
+        "ART-20260709-012908",
+        "ART-20260709-012911",
+        "ART-20260709-012912",
+        "ART-20260709-012926",
+        "ART-20260709-012927",
+        "ART-20260709-012934",
+        "ART-20260708-012910",
+        "ART-20260708-012920",
+        "ART-20260708-012923",
+        "ART-20260708-012924",
+        "ART-20260708-012933",
+        "ART-20260708-012935"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "UKR-ROAD-DNIESTER-MAYAKY-TEMP-BRIDGE-ACCESS",
-        "UKR-ENERGY-ODESA-HEROES80B-COGEN-DISTRIBUTION",
-        "UKR-ENERGY-SECOND-POWER-TRANSMISSION-STATCOM",
-        "UZB-TRANSPORT-GISHTKUPRIK-CUSTOMS-POST"
+        "KWT-ENERGY-SOUTHSABAH-SSAH3Z-400KV-CABLE",
+        "SAU-AIR-KSIA-THIRD-RUNWAY",
+        "SAU-SOC-EXPO2030-PLACE-PLANET-PAVILION",
+        "IRQ-DIGITAL-T964-BAGHDAD-DATA-CENTER",
+        "TUR-OILGAS-STAR-KEROSENE-MEROX",
+        "TUR-OILGAS-TRNC-SUBSEA-GAS-PIPELINE",
+        "TUR-SOC-KABEV2-AYDIN-PUBLIC-BLDG-EE",
+        "KWT-ENERGY-SOUTHSAAD-132KV-SUBSTATIONS-PH3",
+        "KWT-ENERGY-SOUTHSAAD-132KV-SUBSTATIONS-PH4",
+        "PRT-WATER-ALGARVE-DESALINATION",
+        "SAU-URBAN-RIYADH-QUALITY-VALLEY-PPP",
+        "UAE-URBAN-DUBAI-O1NE-DISTRICT-MOTOR-CITY",
+        "UAE-URBAN-DUBAI-ONE-B-TOWER",
+        "TUR-ENERGY-LODOS-KARABURUN-HYBRID-RES-GES",
+        "USA-ROAD-I81-IRONTO-SEGMENT-M"
       ],
       "updated": [
-        "KGZ-TRANSPORT-CKU-RAILWAY"
+        "DZA-RAIL-EAST-MINING-LINE",
+        "UAE-TRANSPORT-DUBAI-METRO-BLUE-LINE"
       ],
       "removed": []
     }
