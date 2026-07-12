@@ -60,6 +60,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UKR-ROAD-DNIESTER-MAYAKY-TEMP-BRIDGE-ACCESS",
+    "프로젝트명": "Dniester River Mayaky Temporary Bridge Access Roads Project",
+    "지역": "유럽",
+    "국가": "우크라이나",
+    "섹터": "교통",
+    "발주처": "Infrastructure Restoration and Development Service in Odesa Region",
+    "사업비(달러 기준 추정액)": "USD 3.03mn",
+    "사업비 환산 환율 / 기준": "원문: UAH 126.4mn. 2026-07-12 전후 시장환율 약 1 USD = UAH 41.7 적용, 126.4mn/41.7=약 USD 3.03mn.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 12",
+    "대표 기사 고유값": "ART-20260712-012894",
+    "비고": "Odesa 주 Mayaky 인근 Dniester River 임시교량 접근도로 포장공사. 2027-01-31 완료 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AZE-ENERGY-HOCHAZ-HPPS",
     "프로젝트명": "Hochaz River Aghbulag-1, Aghbulag-2 and Sheylanli Hydroelectric Power Stations",
     "지역": "유럽",
@@ -225,6 +240,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UKR-ENERGY-ODESA-HEROES80B-COGEN-DISTRIBUTION",
+    "프로젝트명": "Odesa Heroes of Defense 80-B Cogeneration Power Distribution System Project",
+    "지역": "유럽",
+    "국가": "우크라이나",
+    "섹터": "에너지",
+    "발주처": "Odesa City Heating Utility",
+    "사업비(달러 기준 추정액)": "USD 0.51mn",
+    "사업비 환산 환율 / 기준": "원문: UAH 21.3mn 이상. 2026-07-11 전후 시장환율 약 1 USD = UAH 41.7 적용, 21.3mn/41.7=약 USD 0.51mn.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012895",
+    "비고": "Odesa Heroes of the Defense of Odessa Street 80-B 부지 코젠 기반 전력배전 시스템. 2026-12-31 완료 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARM-TRANSPORT-TRIPP-CORRIDOR",
     "프로젝트명": "TRIPP Corridor Project",
     "지역": "유럽",
@@ -387,6 +417,21 @@
     "최근 업데이트일": "2026. 7. 10",
     "대표 기사 고유값": "ART-20260710-012712",
     "비고": "Issyk-Kul 지역 Karakol-Enilchek 고속도로 공사. 원격 지역 접근성, 관광·경제 잠재력 확대와 연결되는 교통 인프라로 2026-07-10 현장 점검과 공정 관리 지시 확인. 후속 공정률, 계약자, 사업비, 완공 일정 공개 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KGZ-TRANSPORT-CKU-RAILWAY",
+    "프로젝트명": "China-Kyrgyzstan-Uzbekistan Railway Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "교통",
+    "발주처": "China-Kyrgyzstan-Uzbekistan Railway Company LLC / Kyrgyz Ministry of Transport and Communications",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012898",
+    "비고": "키르기스스탄 구간 약 304~305km, 교량 50개·터널 29개·터널/교량 약 120km. 2026-07-10 UzDaily 후속 보도에서 주요 국제·투자협정, 총시공사 선정, 금융 정리가 완료됐고 터널·교량 등 본선 인프라 공사가 본격 단계에 들어간 것으로 확인. 우즈베키스탄 물류·환승축 영향이 큰 중앙아시아 국제철도 회랑으로 후속 공정률, 공구별 시공·장비, 금융 집행, 우즈베키스탄 측 접속 인프라를 함께 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1515,6 +1560,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UKR-ENERGY-SECOND-POWER-TRANSMISSION-STATCOM",
+    "프로젝트명": "Second Power Transmission Project STATCOM and Physical Protection Component",
+    "지역": "유럽",
+    "국가": "우크라이나",
+    "섹터": "에너지",
+    "발주처": "Government of Ukraine / grid resilience investment project partners",
+    "사업비(달러 기준 추정액)": "USD 21.1mn",
+    "사업비 환산 환율 / 기준": "원문: 2026년 STATCOM·물리적 보호시설 배정액 UAH 880mn 이상. 2026-07-09 전후 약 1 USD = UAH 41.7 적용, 약 USD 21.1mn. 기사에는 Second Power Transmission Project 전체 grant funding USD 240mn도 별도 언급.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012896",
+    "비고": "Second Power Transmission Project 내 STATCOM 설치 및 에너지 시설 물리적 보호 구성요소. 전력망 안정화·재생에너지 수용·ENTSO-E 연계 지원.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UKR-ROAD-M09-LVIV-RAVA-RUSKA",
     "프로젝트명": "M-09 Ternopil-Lviv-Rava-Ruska Road Capital Repair and Reconstruction Project",
     "지역": "유럽",
@@ -1542,6 +1602,21 @@
     "최근 업데이트일": "2026. 7. 9",
     "대표 기사 고유값": "ART-20260709-012802",
     "비고": "Blacksburg 캠퍼스 5층·285,500sq ft 공학 교육·연구시설. Skanska 시공, 2026-07-09 상량 완료, 2028년 겨울 완공 목표. 후속 실험실 fit-out, 기전·특수설비, 완공·개관 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UZB-TRANSPORT-GISHTKUPRIK-CUSTOMS-POST",
+    "프로젝트명": "Gishtkuprik Customs Post Modernization Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Customs Committee of Uzbekistan / Kazakhstan State Revenue Committee cooperation context",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-09 UzDaily 보도 기준 Gishtkuprik 세관초소 전면 재건, Zhibek Zholy와 동시 가을 개통 목표, ICT·자동화 통제·스캐닝 설비·위험분석 시스템 범위만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012897",
+    "비고": "우즈베키스탄-카자흐스탄 국경 Gishtkuprik 세관초소 현대화 프로젝트. 전면 재건 및 자동화·스캐닝·위험분석 등 지능형 통관 인프라 구축이 확인됐고, Zhibek Zholy 측과 가을 동시 개통 목표. 후속 공식 사업비, 시공·시스템 공급사, 개통 및 처리능력 개선 수치 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -15702,21 +15777,6 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-007658",
     "비고": "키르기스스탄 내 요소·질소비료 생산 공장 후보사업. 신장 방문 중 Sinopec 및 중국 엔지니어링·건설 관련 기업들과 협의됐으며, 식량안보·농업용 비료 공급·산업역량 확대 목적이 제시됨. 입지, 투자구조, 원료·유틸리티, 발주 방식, EPC 전환 여부가 후속 확인 대상.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "KGZ-TRANSPORT-CKU-RAILWAY",
-    "프로젝트명": "China-Kyrgyzstan-Uzbekistan Railway Project",
-    "지역": "중앙아시아",
-    "국가": "키르기스스탄",
-    "섹터": "교통",
-    "발주처": "China-Kyrgyzstan-Uzbekistan Railway Company LLC / Kyrgyz Ministry of Transport and Communications",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 25",
-    "대표 기사 고유값": "ART-20260625-006236",
-    "비고": "키르기스스탄 구간 약 304~305km, 교량 50개·터널 29개·터널/교량 약 120km. 2026-06-17 기준 터널 굴진·토공·교량 공사 진행 및 350만㎥ 이상 토공 완료 확인. 2026-06-25 의회 1독회에서 키르기스 측 지분 납입을 위한 중국 수출입은행 3억450만 달러 우대차관 협정 비준안이 승인됐으나, 물리적 현재 단계는 construction으로 유지.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

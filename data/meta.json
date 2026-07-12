@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T20:21:50.438Z",
+  "updatedAt": "2026-07-12T21:09:37.028Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,55 +28,41 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6969,
-    "projects": 3057
+    "articles": 6984,
+    "projects": 3061
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260713-012877",
-        "ART-20260712-012873",
-        "ART-20260712-012876",
-        "ART-20260710-012887",
-        "ART-20260710-012888",
-        "ART-20260710-012891",
-        "ART-20260710-012893",
-        "ART-20260709-012670",
-        "ART-20260709-012672",
-        "ART-20260709-012872",
-        "ART-20260709-012874",
-        "ART-20260709-012875",
-        "ART-20260709-012878",
-        "ART-20260709-012880",
-        "ART-20260709-012883",
-        "ART-20260709-012889",
-        "ART-20260709-012890",
-        "ART-20260709-012892",
-        "ART-20260708-012879",
-        "ART-20260708-012881",
-        "ART-20260708-012882",
-        "ART-20260708-012884",
-        "ART-20260708-012885",
-        "ART-20260708-012886",
-        "ART-20260707-012671"
+        "ART-20260712-012894",
+        "ART-20260711-012895",
+        "ART-20260710-012895",
+        "ART-20260710-012898",
+        "ART-20260710-012902",
+        "ART-20260710-012903",
+        "ART-20260709-012896",
+        "ART-20260709-012897",
+        "ART-20260709-012900",
+        "ART-20260709-012901",
+        "ART-20260709-012905",
+        "ART-20260708-012894",
+        "ART-20260708-012896",
+        "ART-20260708-012899",
+        "ART-20260708-012904"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BGD-IND-NSEZ-SUBZONES-6-11-12-INFRA",
-        "IND-WATER-GHATKOPAR-STP",
-        "ROU-ENERGY-BESS-SIBIU-42MW",
-        "ROU-ROAD-A8-TARGUFRUMOS-LETCANI-LOT2",
-        "BGD-LNG-MAHESHKHALI-G2G-FSRU",
-        "IND-METRO-DELHI-MAGENTA-INDERLOK-INDRAPRASTHA",
-        "PHL-AIR-NAIA-PAIRCARGO-CARGO-TERMINAL",
-        "RUS-AIR-OMSK-FEDOROVKA-AIRFIELD",
-        "MYS-DIGITAL-COMPASS-KOTA-SERI-LANGAT-210MW-DC",
-        "MYS-PORT-CAREY-ISLAND-THIRD-TERMINAL"
+        "UKR-ROAD-DNIESTER-MAYAKY-TEMP-BRIDGE-ACCESS",
+        "UKR-ENERGY-ODESA-HEROES80B-COGEN-DISTRIBUTION",
+        "UKR-ENERGY-SECOND-POWER-TRANSMISSION-STATCOM",
+        "UZB-TRANSPORT-GISHTKUPRIK-CUSTOMS-POST"
       ],
-      "updated": [],
+      "updated": [
+        "KGZ-TRANSPORT-CKU-RAILWAY"
+      ],
       "removed": []
     }
   },
