@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T19:29:12.390Z",
+  "updatedAt": "2026-07-12T20:21:50.438Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,61 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 6944,
-    "projects": 3047
+    "articles": 6969,
+    "projects": 3057
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260713-012877",
+        "ART-20260712-012873",
+        "ART-20260712-012876",
+        "ART-20260710-012887",
+        "ART-20260710-012888",
+        "ART-20260710-012891",
+        "ART-20260710-012893",
+        "ART-20260709-012670",
+        "ART-20260709-012672",
+        "ART-20260709-012872",
+        "ART-20260709-012874",
+        "ART-20260709-012875",
+        "ART-20260709-012878",
+        "ART-20260709-012880",
+        "ART-20260709-012883",
+        "ART-20260709-012889",
+        "ART-20260709-012890",
+        "ART-20260709-012892",
+        "ART-20260708-012879",
+        "ART-20260708-012881",
+        "ART-20260708-012882",
+        "ART-20260708-012884",
+        "ART-20260708-012885",
+        "ART-20260708-012886",
+        "ART-20260707-012671"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "BGD-IND-NSEZ-SUBZONES-6-11-12-INFRA",
+        "IND-WATER-GHATKOPAR-STP",
+        "ROU-ENERGY-BESS-SIBIU-42MW",
+        "ROU-ROAD-A8-TARGUFRUMOS-LETCANI-LOT2",
+        "BGD-LNG-MAHESHKHALI-G2G-FSRU",
+        "IND-METRO-DELHI-MAGENTA-INDERLOK-INDRAPRASTHA",
+        "PHL-AIR-NAIA-PAIRCARGO-CARGO-TERMINAL",
+        "RUS-AIR-OMSK-FEDOROVKA-AIRFIELD",
+        "MYS-DIGITAL-COMPASS-KOTA-SERI-LANGAT-210MW-DC",
+        "MYS-PORT-CAREY-ISLAND-THIRD-TERMINAL"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026. 7. 13",
-    "articlePublishedDate": "2026. 7. 12",
+    "articlePublishedDate": "2026. 7. 13",
     "projectUpdatedDate": "2026. 7. 12"
   }
 }
