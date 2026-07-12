@@ -30,6 +30,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ETH-AIR-DEBREMARKOS-NIGUS-TEKLE-HAIMANOT",
+    "프로젝트명": "Nigus Tekle Haimanot Airport Modernization Project",
+    "지역": "아프리카",
+    "국가": "에티오피아",
+    "섹터": "교통",
+    "발주처": "Ethiopian Airports / Government of Ethiopia",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-12 ENA 보도 기준 Debre Markos 공항 현대화, 2,400m 활주로, 30m 폭, Q400 및 Boeing 737급 운항 가능, 하루 최대 3회 운항 가능성만 확인됨.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 12",
+    "대표 기사 고유값": "ART-20260712-012963",
+    "비고": "Debre Markos 소재 Nigus Tekle Haimanot Airport 현대화 및 운영개시 프로젝트. 북서부 에티오피아의 교역·투자·관광 접근성 개선 목적이며, 후속으로 공식 사업비, 시공사, 터미널·항행시설·화물시설 범위, 운항 증편 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
     "프로젝트명": "Mumbai-Ahmedabad High-Speed Rail Project",
     "지역": "아시아",
@@ -57,6 +72,51 @@
     "최근 업데이트일": "2026. 7. 12",
     "대표 기사 고유값": "ART-20260712-012876",
     "비고": "Mumbai Ghatkopar 337MLD STP under Mumbai Sewage Disposal Project. SBR treatment, 170MLD tertiary treatment, adjoining pumping station upgrade at 85% civil/electrical progress; March 2027 completion target.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ISR-URBAN-HAIFA-GATEWAY-KIRYATELIEZER",
+    "프로젝트명": "Haifa Gateway Project in Kiryat Eliezer",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "도시개발·주택",
+    "발주처": "Haifa planning authorities / project developer to be confirmed",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-12 Globes 보도 기준 Kiryat Eliezer Gateway Project와 65층 건물 포함 사실만 확인됨.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 12",
+    "대표 기사 고유값": "ART-20260712-012948",
+    "비고": "Haifa Kiryat Eliezer의 Gateway Project. Dolphin Junction·하이파 남부 관문 비즈니스센터 인근 65층 초고층 건물을 포함하는 도시재생·복합개발 계획으로, 기존 ISR-URBAN-HAIFA-KIRYATELIEZER-COMPLEX13과는 사업명·입지 설명·핵심 시설이 달라 별도 프로젝트로 관리. 후속 계획 예치·승인, 시행사, 세대수·면적, 건축허가 및 시공사 선정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JOR-ROAD-SOUTHERN-REGION-MAINTENANCE",
+    "프로젝트명": "Southern Region Roads and Water Structures Maintenance Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "교통",
+    "발주처": "요르단 공공사업주택부",
+    "사업비(달러 기준 추정액)": "USD 5.6mn",
+    "사업비 환산 환율 / 기준": "원문: 약 JD 4mn, Petra 2026.7.12. 원문 병기 환산액 약 USD 5.6mn을 공식 달러 기준 추정액으로 기록.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 12",
+    "대표 기사 고유값": "ART-20260712-012937",
+    "비고": "관련 기사: ART-20260611-001175, ART-20260712-012937. 남부 주요 도로 아스팔트·안전시설·수리시설 및 우수배수 보강. 2026-07-12 Petra 기준 Karak-Ghor Al-Kharaza 3.5km 구간 착수, Karak-Qatraneh·Royal Pavement·Badia highway 및 Kathraba-Ghor 4km 도로 포함, 공기 300일.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JOR-SOC-ENERGY-MINISTRY-GREEN-BUILDING",
+    "프로젝트명": "Energy Ministry Green Building Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "사회인프라",
+    "발주처": "요르단 에너지광물자원부 / IFC / Ampere",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 12",
+    "대표 기사 고유값": "ART-20260712-012938",
+    "비고": "에너지부 공공건물의 에너지효율 개선·녹색건축 인증 프로젝트. 2026-07-12 기준 IFC·Ampere와 진행상황, 에너지 감사, EDGE 인증 충족을 위한 보완 조치 논의. 후속 공사 패키지·계약금액·인증 획득 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -165,6 +225,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "BWA-IND-JWANENG-TRUCK-STAGING-FACILITY",
+    "프로젝트명": "Jwaneng Truck Staging Facility",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "산업·물류",
+    "발주처": "Botswana Oil Limited / Debswana / Jwaneng District leadership",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인. 2026-07-11 Botswana Oil 공식 SNS 및 현지 보도 기준 착공과 25-bay급 물류·휴게시설 성격만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012958",
+    "비고": "Jwaneng Mine 및 Trans-Kalahari Corridor 물류 지원용 트럭 스테이징 시설. 보안 주차, 운전자 휴게공간, 위생시설, 교통관리 시스템 등으로 구성되는 것으로 보도. 후속 공식 사업비, 시공사, 공사기간, 준공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BWA-IND-VETERINARY-CORDON-FENCE-350KM",
+    "프로젝트명": "350km Veterinary Cordon Fence Project",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "산업·물류",
+    "발주처": "Government of Botswana / veterinary authorities",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 DailyNews/BOPA 보도 기준 350km veterinary cordon fence, 2026-06-27 launch 이후 construction on track 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012959",
+    "비고": "Ramotswa에서 시작되는 350km 규모 수의 방역 울타리 공사. 축산 질병 관리와 생산·시장 접근성 개선 목적의 농축산 공급망 기반 인프라로 관리. 후속 발주기관 세부자료, 공구별 시공사, 사업비, 공정률, 준공 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ECU-ROAD-LOSRIOS-E25-REST-AREA",
     "프로젝트명": "Los Rios E25 Transport Rest Area Project",
     "지역": "중남미",
@@ -240,6 +330,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "LBY-IND-SEBHA-FLOUR-PASTA-FEED-COMPLEX",
+    "프로젝트명": "Sebha Flour, Pasta and Feed Complex Rehabilitation Project",
+    "지역": "중동",
+    "국가": "리비아",
+    "섹터": "산업·물류",
+    "발주처": "National Development Agency (NDA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 Libya Herald/NDA 보도 기준 저장사일로, 제분·사료공장, 전기·기계, 생산라인·장비, 발전기·우물펌프, 외부시설 재활 범위만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012941",
+    "비고": "Sebha 소재 식품가공·사료 생산 복합시설 재활·개발 프로젝트. 저장사일로, 제분·사료공장, 전기·기계설비, 생산라인, 발전기·우물펌프, 외부시설 개선이 진행 중이며 남부 식량안보와 산업 인프라 회복 목적. 후속 공정률, 운영 재개, 장비·전력·수처리·외부시설 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MAR-RAIL-CASABLANCA-RER-STATIONS",
+    "프로젝트명": "Casablanca RER Station Construction Lots 1 and 2",
+    "지역": "중동",
+    "국가": "모로코",
+    "섹터": "교통",
+    "발주처": "Office National des Chemins de Fer (ONCF)",
+    "사업비(달러 기준 추정액)": "USD 52.2mn",
+    "사업비 환산 환율 / 기준": "원문: 480,000,000 MAD. 2026-07-08 전후 USD/MAD 약 9.2 적용, 480mn/9.2=약 USD 52.2mn.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012937",
+    "비고": "카사블랑카 RER 역 신설 공사 2개 lot. 2026-07-08 공고 목록에서는 Lot 1 예산 MAD 480mn 및 2026-08-18 마감이 확인됨. 2026-07-11 보도에서는 Lot 1 Mohammedia Facultés, Zenata Industrielle, Sidi Bernoussi, Ain Sebaa 4개 역과 Lot 2 Hay Mohammadi, Mers Sultan, Casablanca Oasis, Sidi Maarouf, Nouaceur New City 5개 역 등 총 9개 역, 약 92km·18개 역 규모 RER 계획이 확인됨. 보도상 총액 MAD 400mn과 기존 공고 예산 차이는 공식 공고문으로 재검증 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MMR-DIGITAL-YADANABON-CYBER-CITY",
     "프로젝트명": "Yadanabon Cyber City Project",
     "지역": "아시아",
@@ -297,6 +417,36 @@
     "최근 업데이트일": "2026. 7. 11",
     "대표 기사 고유값": "ART-20260711-012906",
     "비고": "Expo 2030 Riyadh 내 Place and Planet Pavilion Lead Design Consultant 계약. 후속 본공사·MEP·전시시설 패키지, 공식 사업비 공개 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUN-ROAD-RL531-MEDJERDA-BRIDGE",
+    "프로젝트명": "RL531 Borj El Toumi Medjerda Bridge Project",
+    "지역": "중동",
+    "국가": "튀니지",
+    "섹터": "교통",
+    "발주처": "Ministry of Equipment and Housing",
+    "사업비(달러 기준 추정액)": "USD 5.68mn",
+    "사업비 환산 환율 / 기준": "TND 16.842mn / WMC-TAP 2026-07-11 article; converted at 1 USD = 2.967 TND using WMC 2026-07-10 buy/sell midpoint reference",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012952",
+    "비고": "Manouba주 El Battane, Borj El Toumi RL531 지방도로 Oued Medjerda 교량. 167m 프리스트레스트 콘크리트 교량, RL531 900m 정비, 조명·표지 설치, 기존 El Halfaoui 교량 철거 포함. 2026-07-11 기준 공정률 45% 및 공기 몇 주 연장.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TZA-URBAN-DAR-MBEZI-WHI-STAFF-HOUSING",
+    "프로젝트명": "WHI Mbezi Beach Staff Housing Project",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "도시개발·주택",
+    "발주처": "Watumishi Housing Investment (WHI)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-11 보도 기준 Dar es Salaam Mbezi Beach Jangwani 지역 250호 이상 공공직원 주택 계획만 확인.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 11",
+    "대표 기사 고유값": "ART-20260711-012968",
+    "비고": "Dar es Salaam Mbezi Beach Jangwani 지역 공공직원 주거단지 계획. 250호 이상 주택을 현 회계연도에 추진 예정. 후속 설계·인허가, 공식 사업비, 시공사 선정, 착공 일정 확인 필요. UDSM Hillpark Complex는 별도 상업복합 프로젝트로 분리 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -402,6 +552,21 @@
     "최근 업데이트일": "2026. 7. 10",
     "대표 기사 고유값": "ART-20260710-012921",
     "비고": "바그다드 소재 이라크 첫 상업용 Tier III 데이터센터. T964가 개발하고 Schneider Electric이 전력·냉각 인프라를 공급. 후속으로 공식 사업비, 건축·MEP·전력공급 범위, 운영개시 및 확장 단계 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ISR-WATER-RISHONLEZION-SEA-MUNITIONS-CLEARANCE",
+    "프로젝트명": "Rishon LeZion Underwater Munitions Clearance Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "수자원·환경",
+    "발주처": "Israel Ministry of Defense National Mine Action Authority / Rishon LeZion Municipality / National Institute of Oceanography",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. AP 2026-07-10 보도 기준 전체 사업은 수년과 수천만 달러가 소요될 전망이나 정확한 공식 금액은 확인되지 않음.",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012947",
+    "비고": "Rishon LeZion 해안 약 2km 해저 불발탄 정화·해안 복원 준비 프로젝트. 현재 모의 탄약 이동·위치추적 연구 단계이며 2027년 말 정화 착수 목표. 후속 정화공사 입찰, 전문 탐지·잠수·처리 계약, 해안 공공공간·자연보호구역 전환 계획 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -585,6 +750,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MOZ-OILGAS-MOZAMBIQUE-LNG-SECURITY-SYSTEM",
+    "프로젝트명": "Mozambique LNG Security Infrastructure System Project",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "석유가스·화학",
+    "발주처": "TotalEnergies / Area 1 consortium",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 패키지 사업비 미공개. 기사상 모 프로젝트 Mozambique LNG는 약 USD 20bn으로 언급되나, 보안 인프라 패키지 금액으로 사용하지 않음.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012961",
+    "비고": "Palma Mozambique LNG 산업단지 보안 인프라 EOI 패키지. 120대 감시카메라, 28개 미니변전소, 30km 48-fiber 광섬유, 11kV 전기 링, 조명·출입통제·전자보안 관리시스템, 트렌칭·기초·엔지니어링·건설·시운전을 포함. 후속 쇼트리스트, 낙찰사, 계약금액, 전력·광통신·보안설비 하도급 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MOZ-ROAD-EN6-BEIRA-MACHIPANDA-REHAB",
+    "프로젝트명": "EN6 Beira-Machipanda Emergency Rehabilitation Project",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "교통",
+    "발주처": "REVIMO / Mozambique road authorities",
+    "사업비(달러 기준 추정액)": "USD 9.39mn",
+    "사업비 환산 환율 / 기준": "원문: MZN 600mn. 2026-07-13 기준 약 63.9 MZN/USD 적용, 600mn/63.9=약 USD 9.39mn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012960",
+    "비고": "EN6 Beira-Machipanda 회랑 긴급복구 2단계. 약 300km 회랑 중 노후가 심한 구간의 구조적 포장 보수, 배수공, 기상피해 지점 복구, Metuchira강 옛 교량 마무리 공사를 포함하며 5개월 내 완료 목표. 후속으로 대규모 개량사업, 추가 패키지, 시공사, 준공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-HYDRO-SETI-KHOLA-22MW",
     "프로젝트명": "Seti Khola Hydropower Project",
     "지역": "아시아",
@@ -747,6 +942,51 @@
     "최근 업데이트일": "2026. 7. 10",
     "대표 기사 고유값": "ART-20260710-012697",
     "비고": "Ahal, Balkan, Dashoguz, Lebap, Mary 5개 주에 각각 10개 보건센터를 건설하는 전국 보건시설 확충 프로젝트. 후속 lot별 낙찰자, 계약금액, 착공·준공, 표준 설계 및 의료설비 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUN-ENERGY-CHEBIKA-KAIROUAN-SOLAR",
+    "프로젝트명": "Kairouan Chebika Solar PV Plant Project",
+    "지역": "중동",
+    "국가": "튀니지",
+    "섹터": "에너지",
+    "발주처": "Green Field Renewables Holding / Kairouan regional authorities / STEG grid connection",
+    "사업비(달러 기준 추정액)": "USD 94.37mn",
+    "사업비 환산 환율 / 기준": "TND 280mn / 2026-07-10 WMC article; converted at 1 USD = 2.967 TND using WMC 2026-07-10 buy/sell midpoint reference",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012949",
+    "비고": "Kairouan Chebika 100MW급 태양광발전소. 2026-07-10 기준 공정률 34%, 200ha, 2026년 11~12월 기술시험 및 2026년 말~2027년 초 전력 주입 목표. 후속 시험운전·상업운전·계통연계·O&M 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUN-ROAD-TUNIS-SOUTH-ENTRANCE-EXTENSION",
+    "프로젝트명": "Tunis South Entrance Extension Project",
+    "지역": "중동",
+    "국가": "튀니지",
+    "섹터": "교통",
+    "발주처": "Ministry of Equipment and Housing / Direction Générale des Ponts et Chaussées",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. WMC 2026-07-10 보도 기준 5개 lot, 전체 공정률 80%, 2027년 6월 완공 목표만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012951",
+    "비고": "Grand Tunis 남부 진입로 확장사업. Jebel Jelloud 및 El Mourouj 자동차시장 교차로 등 혼잡 구간 포함, 5개 lot 중 4개는 2026년 말 인도 예정, 전체 완공 목표는 2027년 6월.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUN-URBANRAIL-TGM-MODERNIZATION",
+    "프로젝트명": "Tunis-Goulette-Marsa (TGM) Line Rolling Stock Modernization Project",
+    "지역": "중동",
+    "국가": "튀니지",
+    "섹터": "교통",
+    "발주처": "Transtu / CRRC Nanjing Puzhen Co. Ltd / EBRD / EIB",
+    "사업비(달러 기준 추정액)": "USD 85.4mn",
+    "사업비 환산 환율 / 기준": "EUR 75mn / WMC 2026-07-10 article; converted using WMC 2026-07-10 TND midpoints EUR 3.377 and USD 2.967, implied 1 EUR = 1.138 USD",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 10",
+    "대표 기사 고유값": "ART-20260710-012950",
+    "비고": "Tunis-Goulette-Marsa(TGM) 교외철도 현대화 최종 단계. CRRC Nanjing Puzhen 18편성 전동차 공급, 5년 유지보수, 예비품·정비장비·pit lathe 공급 포함. 첫 열차 2028년 초 도착 예정.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1230,6 +1470,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MAR-TRANSPORT-KENITRA-MARRAKECH-HSR",
+    "프로젝트명": "Kénitra-Marrakech High-Speed Rail Line",
+    "지역": "중동",
+    "국가": "모로코",
+    "섹터": "교통",
+    "발주처": "Office National des Chemins de Fer (ONCF)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012936",
+    "비고": "Kénitra-Rabat-Casablanca-Marrakech 430km 고속철. 2030년 월드컵 수요 대응, 공항·Benslimane 경기장 접근성 포함. 2026-06-12 SOGEA Maroc의 Casa Sud역 Lot 2 공사계약(약 944.7m MAD), 2026-06-15 Urbagec/Separator의 Mohammed V 공항 LGV역 Lot 4 계약(약 395m MAD) 후속 기사 연결. 2026-07-09 AfDB가 PADIF 지원을 위해 2.05억 유로 금융 승인을 발표해 Kénitra-Marrakech 회랑과 Casablanca 철도 허브 용량·운영성능 개선을 지원.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MEX-ROAD-GULF-CORRIDOR-CMRO",
     "프로젝트명": "Gulf of Mexico Corridor C-MRO PPP Project",
     "지역": "중남미",
@@ -1707,6 +1962,21 @@
     "최근 업데이트일": "2026. 7. 9",
     "대표 기사 고유값": "ART-20260709-012813",
     "비고": "타이베이 화광특구 특3기지 경제부 신축 통합청사. 1.9ha 부지, 3개 동, 총연면적 110,000㎡ 이상, 지하 3층·최고 23층, 경제부 본부·산업발전署·상업발전署·에너지署 등 통합 입주 예정. 2026-07-09 착공, 2031년 11월 입주 완료 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TZA-WATER-LOWER-MSIMBAZI-REDEV",
+    "프로젝트명": "Lower Msimbazi Basin Redevelopment Project",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "수자원·환경",
+    "발주처": "Government of Tanzania / World Bank / Sasaki",
+    "사업비(달러 기준 추정액)": "USD 200mn",
+    "사업비 환산 환율 / 기준": "Sasaki 2026-07-09 보도 기준 World Bank 2억 달러 credit으로 재원 조달 확인.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 9",
+    "대표 기사 고유값": "ART-20260709-012965",
+    "비고": "Dar es Salaam Lower Msimbazi Basin의 홍수관리, 생태복원, 녹지·공공공간, 도시개발 승인 경로를 통합하는 재개발·치수 프로젝트. Sasaki가 lead planner/designer로 선정됐고 계획·설계 작업은 2027년 완료 목표. 후속 세부설계 승인, 토목·배수·공원·이주·도로 연계 패키지 발주 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2235,6 +2505,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "JOR-WATER-NATIONAL-CARRIER",
+    "프로젝트명": "National Water Carrier Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "수자원·환경",
+    "발주처": "요르단 수자원관개부 / National Carrier Project Company",
+    "사업비(달러 기준 추정액)": "USD 5.8bn",
+    "사업비 환산 환율 / 기준": "Jordan Times 2026.7.5 보도 기준 기술책임자가 제시한 약 USD 5.8bn 비용·금융구조. 2026.7.8 Petra 보도 기준 Housing Bank가 EBRD 프로그램 아래 USD 100mn 블루본드를 발행해 지속가능 수자원 프로젝트, 특히 National Water Carrier Project 금융에 투입 예정.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-012936",
+    "비고": "관련 기사: ART-20260611-001173, ART-20260618-004200, ART-20260705-011474, ART-20260708-012936. Aqaba-Amman 대형 담수화·송수 PPP. 연 3억㎥ 담수화, 438~450km 송수시스템, 태양광 발전소 포함. 2026-07-08 Petra 기준 Housing Bank 최초 블루본드 발행으로 프로젝트 금융조달 경로가 추가 확인되어 financing 단계 유지. 후속 금융종결·EPC/시공 착수·계약 이행 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "JPN-ENERGY-FAWT-IKI-OFFSHORE-DEMO",
     "프로젝트명": "FAWT Iki Offshore Floating Wind Demonstration Project",
     "지역": "아시아",
@@ -2382,21 +2667,6 @@
     "최근 업데이트일": "2026. 7. 8",
     "대표 기사 고유값": "ART-20260708-012806",
     "비고": "JICA 차관으로 시행 중인 Kandy Urban Waste Water Management Project의 University of Peradeniya 구역 편입 범위 확대. 추정비용 LKR 2bn, JICA LKR 800mn 및 국내재원 LKR 1,200mn, 사업기간 2027-12-31까지 연장. 후속 세부 패키지·공사범위·시공사 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "MAR-RAIL-CASABLANCA-RER-STATIONS",
-    "프로젝트명": "Casablanca RER Station Construction Lots 1 and 2",
-    "지역": "중동",
-    "국가": "모로코",
-    "섹터": "교통",
-    "발주처": "Office National des Chemins de Fer (ONCF)",
-    "사업비(달러 기준 추정액)": "USD 52.2mn",
-    "사업비 환산 환율 / 기준": "원문: 480,000,000 MAD. 2026-07-08 전후 USD/MAD 약 9.2 적용, 480mn/9.2=약 USD 52.2mn.",
-    "현재 단계": "tender",
-    "최근 업데이트일": "2026. 7. 8",
-    "대표 기사 고유값": "ART-20260708-012513",
-    "비고": "카사블랑카 RER 역 신설 공사 2개 lot. Lot 1은 Mohammedia Facultés, Zenata Industrielle, Sidi Bernoussi, Ain Sebaa 역, Lot 2는 Hay Mohammadi 등 Casablanca권 RER 역 공사를 포함하는 것으로 공고 목록에서 확인됨. 후속 공식 공고문, 낙찰자, 착공일 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -4047,21 +4317,6 @@
     "최근 업데이트일": "2026. 7. 5",
     "대표 기사 고유값": "ART-20260705-011477",
     "비고": "Ashdod 로바 Vav의 Bnei Brit-Zisling 도시재생 계획. 17두남 부지의 기존 192가구 및 상업·공공시설 일부를 철거하고 32~33층 타워 4개동과 9층 복합동으로 총 832가구를 공급하는 계획이며, 12학급 학교가 가능한 공공용지와 도시 연결축·보행성 개선을 포함한다. 2026-07-05 기준 조건부 예치 승인, 현재 planning 단계. 후속 최종승인, 시행자·시공사, 기반시설·공공시설 패키지, 건축허가와 착공 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "JOR-WATER-NATIONAL-CARRIER",
-    "프로젝트명": "National Water Carrier Project",
-    "지역": "중동",
-    "국가": "요르단",
-    "섹터": "수자원·환경",
-    "발주처": "요르단 수자원관개부 / National Carrier Project Company",
-    "사업비(달러 기준 추정액)": "USD 5.8bn",
-    "사업비 환산 환율 / 기준": "Jordan Times 2026.7.5 보도 기준 기술책임자가 제시한 약 USD 5.8bn 비용·금융구조. 이전 Petra 2026.4.21 보도는 자본비 USD 4.3bn, 금융 포함 총비용 USD 5.8bn으로 설명해 후속 금융종결 문서 확인 필요.",
-    "현재 단계": "financing",
-    "최근 업데이트일": "2026. 7. 5",
-    "대표 기사 고유값": "ART-20260705-011474",
-    "비고": "관련 기사: ART-20260611-001173, ART-20260618-004200, ART-20260705-011474. Aqaba-Amman 대형 담수화·송수 PPP. 연 3억㎥ 담수화, 438~450km 송수시스템, 태양광 발전소 포함. 2026-07-05 Jordan Times 기준 최종 금융종결 전 협정 준비가 막바지이며 2026년 4분기 착공, 2030년 4분기 물 공급 개시 목표와 29개 국제금융기관·재무부·국내은행·사회보장투자기금 금융구조가 확인되어 financing 단계 유지. 후속 금융종결·EPC/시공 착수·계약 이행 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -28770,21 +29025,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "MAR-TRANSPORT-KENITRA-MARRAKECH-HSR",
-    "프로젝트명": "Kénitra-Marrakech High-Speed Rail Line",
-    "지역": "중동",
-    "국가": "모로코",
-    "섹터": "교통",
-    "발주처": "Office National des Chemins de Fer (ONCF)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-15",
-    "대표 기사 고유값": "ART-20260612-001936",
-    "비고": "Kénitra-Rabat-Casablanca-Marrakech 430km 고속철. 2030년 월드컵 수요 대응, 공항·Benslimane 경기장 접근성 포함. 2026-06-12 SOGEA Maroc의 Casa Sud역 Lot 2 공사계약(약 944.7m MAD), 2026-06-15 Urbagec/Separator의 Mohammed V 공항 LGV역 Lot 4 계약(약 395m MAD) 후속 기사 연결.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "MMR-OILGAS-MIN-YE-THU",
     "프로젝트명": "Min Ye Thu Oil and Gas Project",
     "지역": "아시아",
@@ -33927,21 +34167,6 @@
     "최근 업데이트일": "2026. 6. 11",
     "대표 기사 고유값": "ART-20260611-001176",
     "비고": "계획·설계 완료 후 신규 첨단 물류시설 조성 실행 착수 단계.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "JOR-ROAD-SOUTHERN-REGION-MAINTENANCE",
-    "프로젝트명": "Southern Region Roads and Water Structures Maintenance Project",
-    "지역": "중동",
-    "국가": "요르단",
-    "섹터": "교통",
-    "발주처": "요르단 공공사업주택부",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 11",
-    "대표 기사 고유값": "ART-20260611-001175",
-    "비고": "남부 주요 도로 아스팔트·안전시설·수리시설 및 우수배수 보강. 공기 300일.",
     "대표 기사 정보 분류": ""
   },
   {
