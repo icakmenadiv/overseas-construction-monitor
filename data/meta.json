@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T00:01:43.621Z",
+  "updatedAt": "2026-07-13T03:46:21.668Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,57 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260713-012987",
-        "ART-20260712-012988",
-        "ART-20260711-012990",
-        "ART-20260711-012991",
-        "ART-20260711-012992",
-        "ART-20260710-012973",
-        "ART-20260710-012974",
-        "ART-20260710-012975",
-        "ART-20260710-012976",
-        "ART-20260710-012977",
-        "ART-20260710-012981",
-        "ART-20260710-012983",
-        "ART-20260710-012986",
-        "ART-20260710-012989",
-        "ART-20260710-012993",
-        "ART-20260710-012994",
-        "ART-20260709-012969",
-        "ART-20260709-012970",
-        "ART-20260709-012971",
-        "ART-20260709-012972",
-        "ART-20260709-012984",
-        "ART-20260709-012995",
-        "ART-20260708-012980",
-        "ART-20260708-012982",
-        "ART-20260708-012985"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "VNM-IND-PHUMY3-ECO-INDUSTRIAL-PARK",
-        "GHA-URBAN-ADENTAN-24HOUR-MARKET-LORRY-STATION",
-        "GHA-URBAN-BURMA-CAMP-REDEVELOPMENT",
-        "GHA-WATER-AMRAHIA-DAM-REDEVELOPMENT",
-        "VNM-IND-SUNTORY-PEPSICO-TAYNINH-PLANT",
-        "VNM-ROAD-DONGNAI-DT769-DT773-DT770B",
-        "ZAF-AIR-CAPE-WINELANDS-AIRPORT",
-        "ZAF-ENERGY-BELLE-RIVE-SOLAR-BESS",
-        "ZAF-ENERGY-CORONA-SOLAR",
-        "ZAF-ENERGY-SCULPTOR-SOLAR",
-        "ZAF-ENERGY-SPRINGHAAS-SOLAR-I",
-        "ZAF-ENERGY-SPRINGHAAS-SOLAR-VI",
-        "ZAF-ROAD-K101-OLD-JOHANNESBURG"
-      ],
-      "updated": [
-        "RWA-WATER-MUVUMBA-MULTIPURPOSE-DAM",
-        "GHA-ROAD-ACCRA-KUMASI-EXPRESSWAY",
-        "KEN-ROAD-NAIROBI-NAKURU-MAU-SUMMIT-PPP"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
