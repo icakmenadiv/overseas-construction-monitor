@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T19:47:13.795Z",
+  "updatedAt": "2026-07-14T03:31:16.245Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -679,6 +679,13 @@
       "ART-20260708-012674": {
         "source_link_click": 1
       },
+      "ART-20260708-012752": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260708-012767": {
+        "article_detail_open": 1
+      },
       "ART-20260708-012879": {
         "source_link_click": 1
       },
@@ -687,6 +694,10 @@
         "source_link_click": 1
       },
       "ART-20260709-012562": {
+        "source_link_click": 1
+      },
+      "ART-20260709-012592": {
+        "article_detail_open": 1,
         "source_link_click": 1
       },
       "ART-20260709-012670": {
@@ -728,7 +739,7 @@
     },
     "page": {
       "market-home": {
-        "market_page_visit": 27
+        "market_page_visit": 28
       }
     },
     "project": {
@@ -2672,6 +2683,27 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260708-012752",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-14T00:07:40.280Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260708-012752",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-14T00:08:38.050Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260708-012767",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-14T00:08:00.968Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260708-012879",
       "eventType": "source_link_click",
       "count": 1,
@@ -2697,6 +2729,20 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-13T07:04:16.178Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260709-012592",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-14T00:07:22.032Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260709-012592",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-14T00:08:33.482Z"
     },
     {
       "targetType": "article",
@@ -2814,8 +2860,8 @@
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 27,
-      "updatedAt": "2026-07-09T04:29:23.223Z"
+      "count": 28,
+      "updatedAt": "2026-07-14T00:11:25.588Z"
     },
     {
       "targetType": "project",
