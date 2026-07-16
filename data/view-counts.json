@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T08:32:34.265Z",
+  "updatedAt": "2026-07-16T14:20:25.813Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -730,6 +730,12 @@
         "article_detail_open": 1,
         "source_link_click": 1
       },
+      "ART-20260710-012665": {
+        "source_link_click": 1
+      },
+      "ART-20260710-012670": {
+        "article_detail_open": 1
+      },
       "ART-20260710-012748": {
         "article_detail_open": 1,
         "source_link_click": 1
@@ -737,10 +743,17 @@
       "ART-20260710-012770": {
         "article_detail_open": 1
       },
+      "ART-20260710-012795": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
       "ART-20260710-012989": {
         "source_link_click": 1
       },
       "ART-20260712-012819": {
+        "source_link_click": 1
+      },
+      "ART-20260712-012836": {
         "source_link_click": 1
       },
       "ART-20260712-012876": {
@@ -2864,6 +2877,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260710-012665",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-16T08:59:57.929Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260710-012670",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-16T08:52:22.714Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260710-012748",
       "eventType": "article_detail_open",
       "count": 1,
@@ -2885,6 +2912,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260710-012795",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-16T08:38:51.589Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260710-012795",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-16T08:39:04.438Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260710-012989",
       "eventType": "source_link_click",
       "count": 1,
@@ -2896,6 +2937,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-13T06:30:36.905Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260712-012836",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-16T08:58:15.075Z"
     },
     {
       "targetType": "article",
