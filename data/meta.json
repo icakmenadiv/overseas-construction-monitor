@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T20:37:35.661Z",
+  "updatedAt": "2026-07-17T21:28:25.466Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,73 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260717-013150",
-        "ART-20260717-013151",
-        "ART-20260717-013152",
-        "ART-20260717-013153",
-        "ART-20260717-013156",
-        "ART-20260717-013161",
-        "ART-20260717-013162",
-        "ART-20260717-013166",
-        "ART-20260716-013148",
-        "ART-20260716-013149",
-        "ART-20260716-013152",
-        "ART-20260716-013153",
-        "ART-20260716-013154",
-        "ART-20260716-013158",
-        "ART-20260716-013159",
-        "ART-20260716-013161",
-        "ART-20260716-013167",
-        "ART-20260716-013169",
-        "ART-20260715-013154",
-        "ART-20260715-013155",
-        "ART-20260715-013156",
-        "ART-20260715-013157",
-        "ART-20260715-013158",
-        "ART-20260715-013160",
-        "ART-20260715-013162",
-        "ART-20260715-013163",
-        "ART-20260715-013164",
-        "ART-20260715-013165",
-        "ART-20260715-013166",
-        "ART-20260714-013147",
-        "ART-20260714-013159",
-        "ART-20260714-013168",
-        "ART-20260713-013146",
-        "ART-20260713-013157",
-        "ART-20260712-013160"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "CHN-OILGAS-DUSHANZI-KORLA-GREEN-ETHYLENE",
-        "RUS-AIR-MAGNITOGORSK-DOMESTIC-TERMINAL",
-        "SGP-IND-JALAN-BUROH-INDUSTRIAL-SITE",
-        "UKR-ROAD-YAMPIL-KOSEUTS-BRIDGE",
-        "CHN-OILGAS-JINTANG-NEW-MATERIALS",
-        "CHN-ROAD-QINGDAO-JIAOZHOU-BAY-SECOND-SUBSEA-TUNNEL",
-        "IDN-DIGITAL-NONGSA-CHANGI-CABLE",
-        "IDN-ENERGY-BATAM-PLTGU34",
-        "POL-ROAD-S17-LOPIENNIK-KRASNYSTAW",
-        "ARM-ENERGY-NEW-MODULAR-NPP",
-        "POL-BRIDGE-NOWASOL-ODRA-DW315",
-        "POL-ENERGY-BALTYK23-OFFSHORE-WIND",
-        "ROU-RAIL-CONSTANTA-PORT-STAGE3",
-        "RUS-BRIDGE-PERM-KAMA-NEW",
-        "RUS-ENERGY-KOLA-NPP2",
-        "AZE-URBAN-BASH-GARVAND-RESTORATION",
-        "CHN-ENERGY-KUBUQI-15GW-RE-BASE"
-      ],
-      "updated": [
-        "ARM-TRANSPORT-TRIPP-CORRIDOR",
-        "AZE-WATER-KARABAKH-IRRIGATION-CANAL",
-        "IDN-OILGAS-MASELA-ABADI-LNG",
-        "ROU-ROAD-A0-NORTH-DN1A-DN1",
-        "POL-RAIL-CPK-WARSAW-LODZ-HSR"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
