@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T14:19:11.026Z",
+  "updatedAt": "2026-07-17T15:47:11.765Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,20 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260522-013000",
-        "ART-20260422-012999",
-        "ART-20260122-013001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "USA-ENERGY-CONED-300MW-BULK-STORAGE",
-        "USA-ENERGY-DTE-480MW-BESS-RFP",
-        "USA-ENERGY-MISO-EASL-TRANSMISSION"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
