@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T00:11:46.253Z",
+  "updatedAt": "2026-07-17T06:01:37.472Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,32 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7065,
-    "projects": 3104
+    "articles": 7068,
+    "projects": 3107
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260716-012997",
+        "ART-20260715-012998",
+        "ART-20260710-012996"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "SAU-URBAN-MAKKAH-AJYAD-TOWER",
+        "SAU-ENERGY-SPPC-ROUND3-CCGT-IPP",
+        "SAU-RAIL-QIDDIYA-QEXPRESS-HSR"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 13",
-    "articlePublishedDate": "2026. 7. 13",
-    "projectUpdatedDate": "2026. 7. 12"
+    "articleCollectedDate": "2026. 7. 17",
+    "articlePublishedDate": "2026. 7. 16",
+    "projectUpdatedDate": "2026. 7. 16"
   }
 }
