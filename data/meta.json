@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T06:01:37.472Z",
+  "updatedAt": "2026-07-17T08:22:58.139Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,20 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260716-012997",
-        "ART-20260715-012998",
-        "ART-20260710-012996"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "SAU-URBAN-MAKKAH-AJYAD-TOWER",
-        "SAU-ENERGY-SPPC-ROUND3-CCGT-IPP",
-        "SAU-RAIL-QIDDIYA-QEXPRESS-HSR"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
