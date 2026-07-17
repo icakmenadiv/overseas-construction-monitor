@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T16:50:18.676Z",
+  "updatedAt": "2026-07-17T17:51:25.898Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,30 +28,102 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7076,
-    "projects": 3110
+    "articles": 7122,
+    "projects": 3130
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260717-013006",
-        "ART-20260716-013003",
-        "ART-20260716-013004",
-        "ART-20260716-013005",
-        "ART-20260714-013002"
+        "ART-20260717-013005",
+        "ART-20260717-013007",
+        "ART-20260717-013043",
+        "ART-20260716-013011",
+        "ART-20260716-013013",
+        "ART-20260716-013014",
+        "ART-20260716-013015",
+        "ART-20260716-013018",
+        "ART-20260716-013020",
+        "ART-20260716-013023",
+        "ART-20260716-013024",
+        "ART-20260716-013025",
+        "ART-20260716-013032",
+        "ART-20260716-013036",
+        "ART-20260716-013038",
+        "ART-20260716-013040",
+        "ART-20260716-013044",
+        "ART-20260716-013045",
+        "ART-20260716-013049",
+        "ART-20260715-013002",
+        "ART-20260715-013004",
+        "ART-20260715-013006",
+        "ART-20260715-013008",
+        "ART-20260715-013009",
+        "ART-20260715-013010",
+        "ART-20260715-013012",
+        "ART-20260715-013019",
+        "ART-20260715-013026",
+        "ART-20260715-013027",
+        "ART-20260715-013035",
+        "ART-20260715-013037",
+        "ART-20260715-013041",
+        "ART-20260715-013047",
+        "ART-20260714-013003",
+        "ART-20260714-013017",
+        "ART-20260714-013028",
+        "ART-20260714-013029",
+        "ART-20260714-013030",
+        "ART-20260714-013031",
+        "ART-20260714-013039",
+        "ART-20260714-013042",
+        "ART-20260714-013046",
+        "ART-20260714-013048",
+        "ART-20260713-013016",
+        "ART-20260713-013033",
+        "ART-20260713-013034"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CHL-WATER-SANTA-CORINA-COLLECTOR",
+        "DOM-BRIDGE-GUAYAJAYUCO-ARTIBONITO",
+        "ECU-OILGAS-BLOCK65-PINDO-EXTENSION",
+        "ECU-OILGAS-INTRACAMPOSIII-TETETE-LUMBAQUI",
+        "PAN-ROAD-CHAME-SANCARLOS-STREETS",
+        "PER-SOC-HOSPITAL-OXAPAMPA-GUZMAN",
+        "PRY-ROAD-PY04-NEEMBUCU-PAVING",
+        "ARG-OILGAS-CAN200-OFFSHORE-EXPLORATION",
+        "BOL-ROAD-LAPAZORURO-SENKATA-APACHETA",
+        "CHL-WATER-CANAL-SANTA-MARTA-IMPROVEMENT",
+        "ECU-TRANSPORT-QUITO-METRO-ISET-MAINT",
+        "PAN-ROAD-CORREDOR-PLAYAS-EXPANSION",
+        "URY-ROAD-RUTA14-ROCHA-REHAB",
+        "URY-WATER-SANTA-CATALINA-SANITATION",
+        "ARG-AIR-BENJAMIN-MATIENZO-REMODEL",
+        "PAN-ROAD-JOSE-AGUSTIN-ARANGO-PH1",
+        "PRY-WATER-SAN-LORENZO-STREAM-CANALIZATION",
+        "PRY-WATER-SANTA-RITA-PTAR",
+        "CHL-PORT-CALETA-ANAHUAC-UPGRADE",
+        "CHL-URBAN-PUERTO-VARAS-COSTANERA-PARK"
+      ],
+      "updated": [
+        "NIC-HOSP-ORIENTAL-LESBIA-CARRASQUILLA",
+        "PRY-ROAD-BIOCEANIC-BRIDGE",
+        "PRY-WATER-PILAR-COASTAL-DEFENSE-PHASEB",
+        "NIC-ROAD-TELICA-MALPAISILLO-SANISIDRO",
+        "PER-ROAD-LONGITUDINAL-SIERRA-T2",
+        "PRY-ROAD-LAS-RESIDENTAS-CORRIDOR",
+        "BOL-ENERGY-VIACHA-PV",
+        "PAN-ROAD-CUARTO-PUENTE-CANAL",
+        "SLV-TRANSPORT-SAN-SALVADOR-METROCABLE"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026. 7. 18",
     "articlePublishedDate": "2026. 7. 17",
-    "projectUpdatedDate": "2026. 7. 16"
+    "projectUpdatedDate": "2026-07-16"
   }
 }
