@@ -40395,6 +40395,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "USA-ENERGY-CONED-300MW-BULK-STORAGE",
+    "프로젝트명": "Con Edison 2026 Bulk Energy Storage Procurement",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "에너지",
+    "발주처": "Consolidated Edison Company of New York / Orange & Rockland",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-05-22 RFP 기준 Con Edison 최소 300MW 송전연계 ESS scheduling and dispatch rights 조달, 4시간 이상 지속 요건, 2030년 말 COD 목표.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 5. 22",
+    "대표 기사 고유값": "ART-20260522-013000",
+    "비고": "2026 Bulk Energy Storage RFP. 2026-07-17 제안서 제출 마감, 2026년 4분기 계약 체결 목표. 후속 선정 프로젝트, NYISO/CRIS 요건, ESSA 계약, 배터리·PCS·EMS 공급망 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AUT-RAIL-SEMMERING-BASE-TUNNEL",
     "프로젝트명": "Semmering Base Tunnel Project",
     "지역": "유럽",
@@ -41622,6 +41637,21 @@
     "최근 업데이트일": "2026. 4. 22",
     "대표 기사 고유값": "ART-20260422-001458",
     "비고": "2026-02-21 대통령 승인·입찰 준비(ART-20260221-004089) 후 2026-04-22 Ashgabat-Dashoguz 546km 노선 4개 도로 구간 및 신규·기존 교량 패키지 국제 공개입찰(ART-20260422-001458)로 연결. 2026-06-08 마감 공고 확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-ENERGY-DTE-480MW-BESS-RFP",
+    "프로젝트명": "DTE 480MW Standalone Energy Storage RFP",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "에너지",
+    "발주처": "DTE Energy",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-04-22 DTE 공식 RFP 기준 최대 480MW 독립형 ESS, 미시간 소재, MISO 또는 배전급 송전망 연계, 2029년 1분기 COD 목표.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 4. 22",
+    "대표 기사 고유값": "ART-20260422-012999",
+    "비고": "DTE의 2026년 독립형 ESS 개발자 조달. 2026-07-08 입찰 마감, 2027년 1분기 계약 체결 목표. 후속 선정 개발자, 프로젝트별 위치·용량, EPC·배터리 공급, MPSC 승인 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -43917,6 +43947,21 @@
     "최근 업데이트일": "2026. 1. 22",
     "대표 기사 고유값": "ART-20260711-012744",
     "비고": "Tender No. 2132600012. Hassyan SWRO Phase 2 Network Project 2 GRE/GRP 송수관 공급·설치·시험·시운전 및 관련 공사. 입찰 마감 2026. 7. 21. 후속 낙찰자, 계약금액, 관로 연장·관경 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-ENERGY-MISO-EASL-TRANSMISSION",
+    "프로젝트명": "MISO EASL Competitive Transmission Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "에너지",
+    "발주처": "Midcontinent Independent System Operator (MISO)",
+    "사업비(달러 기준 추정액)": "USD 1.226bn",
+    "사업비 환산 환율 / 기준": "MISO LRTP Tranche 2.1 RFP Release Schedule, date posted 2025-12-11: Project Estimated Cost USD 1,226.3mn in 2024 dollars.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 1. 22",
+    "대표 기사 고유값": "ART-20260122-013001",
+    "비고": "East Adair-Minnesota/Iowa State Line-Arbor Hill-York Avenue 경쟁송전 프로젝트. 345kV 송전선 2개, 765kV 송전선 1개, 765kV 변전소 1개 포함. 2026-05-26 제안서 제출 마감, 2026-11-09 선정 개발자 발표 예정.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
