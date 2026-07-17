@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T15:47:11.765Z",
+  "updatedAt": "2026-07-17T16:50:18.676Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,12 +28,18 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7071,
+    "articles": 7076,
     "projects": 3110
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260717-013006",
+        "ART-20260716-013003",
+        "ART-20260716-013004",
+        "ART-20260716-013005",
+        "ART-20260714-013002"
+      ],
       "updated": [],
       "removed": []
     },
@@ -44,8 +50,8 @@
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 17",
-    "articlePublishedDate": "2026. 7. 16",
+    "articleCollectedDate": "2026. 7. 18",
+    "articlePublishedDate": "2026. 7. 17",
     "projectUpdatedDate": "2026. 7. 16"
   }
 }
