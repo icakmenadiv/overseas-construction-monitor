@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T21:22:57.709Z",
+  "updatedAt": "2026-07-18T22:10:41.510Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,48 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260718-013300",
-        "ART-20260717-013286",
-        "ART-20260717-013287",
-        "ART-20260717-013290",
-        "ART-20260717-013293",
-        "ART-20260717-013306",
-        "ART-20260717-013307",
-        "ART-20260716-013285",
-        "ART-20260716-013291",
-        "ART-20260716-013292",
-        "ART-20260716-013293",
-        "ART-20260716-013294",
-        "ART-20260716-013303",
-        "ART-20260716-013305",
-        "ART-20260715-013283",
-        "ART-20260715-013284",
-        "ART-20260715-013288",
-        "ART-20260715-013289",
-        "ART-20260715-013301",
-        "ART-20260715-013302",
-        "ART-20260715-013304",
-        "ART-20260714-013295"
-      ],
-      "updated": [
-        "ART-20260716-013161"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "HUN-ROAD-FLORIAN-SQUARE-FLYOVER-RECON",
-        "HUN-SOC-GYULA-ONCOLOGY-CENTRE-MOD",
-        "POL-AIR-CPK-RFFS-STATIONS",
-        "KAZ-ROAD-ALMATY-QASKELEN-EXPANSION",
-        "RUS-SOC-DEFRIZ-SPORT-HOTEL"
-      ],
-      "updated": [
-        "AZE-TRANSPORT-ASTARA-TERMINAL",
-        "HUN-ROAD-M1-M0-CONCO-EXPANSION",
-        "RUS-RAIL-MOSCOW-SPB-HSR"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
