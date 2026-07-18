@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T17:33:31.621Z",
+  "updatedAt": "2026-07-18T18:31:31.279Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,73 +28,69 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7268,
-    "projects": 3203
+    "articles": 7294,
+    "projects": 3214
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260718-013173",
-        "ART-20260717-013176",
-        "ART-20260717-013177",
-        "ART-20260717-013182",
-        "ART-20260717-013183",
-        "ART-20260717-013184",
-        "ART-20260717-013185",
-        "ART-20260717-013186",
-        "ART-20260717-013187",
-        "ART-20260717-013189",
-        "ART-20260717-013191",
-        "ART-20260716-013172",
-        "ART-20260716-013174",
-        "ART-20260716-013184",
-        "ART-20260716-013188",
-        "ART-20260715-013175",
-        "ART-20260715-013178",
-        "ART-20260715-013179",
-        "ART-20260715-013181",
-        "ART-20260715-013185",
-        "ART-20260715-013187",
-        "ART-20260715-013190",
-        "ART-20260714-013180",
-        "ART-20260714-013183"
+        "ART-20260719-013214",
+        "ART-20260717-013193",
+        "ART-20260717-013202",
+        "ART-20260717-013206",
+        "ART-20260717-013209",
+        "ART-20260716-013192",
+        "ART-20260716-013197",
+        "ART-20260716-013199",
+        "ART-20260716-013201",
+        "ART-20260716-013205",
+        "ART-20260716-013213",
+        "ART-20260716-013215",
+        "ART-20260715-013195",
+        "ART-20260715-013196",
+        "ART-20260715-013203",
+        "ART-20260715-013204",
+        "ART-20260715-013207",
+        "ART-20260715-013210",
+        "ART-20260715-013211",
+        "ART-20260715-013212",
+        "ART-20260714-013194",
+        "ART-20260714-013198",
+        "ART-20260714-013200",
+        "ART-20260714-013208",
+        "ART-20260714-013216",
+        "ART-20260714-013217"
       ],
-      "updated": [
-        "ART-20260717-013007",
-        "ART-20260716-013011",
-        "ART-20260715-013008",
-        "ART-20260715-013009",
-        "ART-20260715-013010"
-      ],
+      "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BOL-ROAD-LAANGOSTURA-SAMAIPATA-STAB",
-        "COL-ENERGY-SOLAR-PALMIRA-III",
-        "DOM-WATER-JICOME-AQUEDUCT",
-        "ECU-SOC-MUNA-NATIONAL-MUSEUM",
-        "NIC-WATER-ELBARRO-SANNICOLAS",
-        "PER-DIGITAL-PROYECTOS-SELVA-INTERNET",
-        "PER-WATER-CAJAMARCA-PTAR",
-        "PRY-ENERGY-ANACUA-YACYRETA",
-        "ECU-IND-CURIPAMBA-ELDOMO-MINE",
-        "NIC-WATER-PINUELAR-LARREYNAGA",
-        "DOM-TRANSPORT-PUERTOPLATA-CABLECAR-REHAB",
-        "ECU-HOUSING-TERRAZAS-CHAMIZAL"
+        "AUS-ROAD-BANDON-ROAD-CORRIDOR",
+        "NZL-RAIL-COOK-STRAIT-FERRY-REPLACEMENT",
+        "AUS-ROAD-RICHMOND-RAILWAY-TERRACE-INTERSECTION",
+        "BRA-WATER-RONDONIA-SANITATION-CONCESSION",
+        "BRA-RAIL-TRANSNORDESTINA-SUAPE-BRANCH",
+        "MEX-URBANRAIL-CDMX-METRO-LINE3-MOD",
+        "NZL-ROAD-SH58-SAFETY-IMPROVEMENTS",
+        "WSM-TRANSPORT-AURORA-V-FERRY-REPAIR",
+        "AUS-IND-WAGERUP-GALLIUM-PLANT",
+        "BRA-ENERGY-BIPOLO-NORDESTE2-HVDC",
+        "PAN-ROAD-JOSE-AGUSTIN-ARANGO-P1"
       ],
       "updated": [
-        "NIC-HOSP-BLUEFIELDS-AFRO-ORIGINARIOS",
-        "COL-OILGAS-REGASIFICADORA-PACIFICO",
-        "DOM-ENERGY-PUERTO-PLATA-69KV-RECONDUCTORING",
-        "PER-ROAD-LONGITUDINAL-SIERRA-T2"
+        "ARG-TRANSPORT-VNT-CONCESSION",
+        "ARG-ENERGY-AMBA-I-TRANSMISSION",
+        "MEX-RAIL-MEXICO-PACHUCA-AIFA",
+        "PAN-ROAD-CENTENARIO-ARRAIJAN-LACHORRERA-APP",
+        "MEX-WATER-ROSARITO-DESALINATION"
       ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026. 7. 19",
-    "articlePublishedDate": "2026. 7. 18",
-    "projectUpdatedDate": "2026. 7. 17"
+    "articlePublishedDate": "2026. 7. 19",
+    "projectUpdatedDate": "2026. 7. 19"
   }
 }
