@@ -15,6 +15,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
+    "프로젝트명": "Mumbai-Ahmedabad High-Speed Rail Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "National High Speed Rail Corporation Limited (NHSRCL)",
+    "사업비(달러 기준 추정액)": "USD 11.53bn",
+    "사업비 환산 환율 / 기준": "INR 1.1 lakh crore / USD-INR 95.37 기준 환산(2026-07-10~12 시장 환율 참고). LARRA 보상 증액에 따른 잠재 추가 부담 INR 40,000 crore는 미확정 리스크로 별도 추적.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 18",
+    "대표 기사 고유값": "ART-20260718-013257",
+    "비고": "508km Mumbai-Ahmedabad 고속철도 사업. 2026-07-18 기준 Thane Creek 7km 해저터널을 포함한 10km drive에 두 번째 TBM이 투입되어 Sawli(Ghansoli)-Vikhroli 방향 굴착을 시작했다. 기존 토지보상 비용 리스크와 함께 BKC-Shil Phata 지하·해저터널 공정, TBM별 drive, NATM 완료구간, 시스템·궤도·역사 후속 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-WATER-GAJUWAKA-SEWERAGE-REVIVAL",
+    "프로젝트명": "Gajuwaka Sewerage Works Revival Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "수자원·환경",
+    "발주처": "Greater Visakhapatnam Municipal Corporation (GVMC)",
+    "사업비(달러 기준 추정액)": "USD 15.6mn",
+    "사업비 환산 환율 / 기준": "원문: 이번 재개 tender INR 1.5bn. 2026-07-17 전후 USD/INR 96.4 기준, 1.5bn/96.4=약 USD 15.6mn. 원 2019년 hybrid sewerage project 전체 INR 9.4bn과 Malkapuram 잔여 추정 INR 2.5bn은 별도 참고.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 18",
+    "대표 기사 고유값": "ART-20260718-013258",
+    "비고": "Visakhapatnam Gajuwaka 하수도 잔여공사 재개 프로젝트. 추가 103km 하수관, 16,800개 이상 가구 연결, 약 250km 네트워크 시험·시운전 및 Narava STP 연계 처리·산업용 재이용수 확대 포함. 후속 낙찰자, 계약, 착공, Malkapuram 후속 단계 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-ROAD-NAGDHUNGA-NAUBISE-TUNNEL",
     "프로젝트명": "Nagdhunga-Naubise Tunnel Highway Project",
     "지역": "아시아",
@@ -42,6 +72,21 @@
     "최근 업데이트일": "2026-07-18",
     "대표 기사 고유값": "ART-20260718-013241",
     "비고": "Karachi Red Line BRT 공사 진행 및 University Road 혼합교통 차로 조기 개방 추진. 패키지별 공정·차로 개방·준공 일정 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "THA-TRANSPORT-LAND-BRIDGE-SEC",
+    "프로젝트명": "Southern Land Bridge Chumphon-Ranong Project",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "교통",
+    "발주처": "Office of Transport and Traffic Policy and Planning / Ministry of Transport",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "on-hold",
+    "최근 업데이트일": "2026. 7. 18",
+    "대표 기사 고유값": "ART-20260718-013262",
+    "비고": "관련 기사: ART-20250825-003498, ART-20260515-003499, ART-20260618-004639, ART-20260626-007774, ART-20260701-010305, ART-20260718-013262. Chumphon·Ranong 심해항, 표준궤 철도, 고속도로, SRTO, 항만 배후 상업·복합개발을 묶는 Southern Economic Corridor 대형 PPP. 2026-07-01 정부가 SEC 법안 제출을 중단하고 시민단체와 공동위원회를 구성하기로 하면서 on-hold 단계로 유지. 2026-07-18 총리는 full Land Bridge 즉시 시행보다 누락된 철도·도로·항만 연결 및 남부 양안 항만 개선을 우선하는 단계적 보완 방향을 시사. 후속 확인사항은 공동위원회 권고, SEC 법안 재상정 여부, EHIA 재실시, 민간입찰 재개, 항만·철도·도로 패키지 분리 방식이다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -315,6 +360,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IND-ROAD-MYSURU-KUSHALNAGAR-NH275",
+    "프로젝트명": "Mysuru-Kushalnagar NH-275 Greenfield Highway Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "National Highways Authority / Karnataka highway project authorities",
+    "사업비(달러 기준 추정액)": "USD 259.5mn",
+    "사업비 환산 환율 / 기준": "원문: INR 25.02bn. 2026-07-17 전후 USD/INR 96.4 기준, 25.02bn/96.4=약 USD 259.5mn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013259",
+    "비고": "Mysuru-Kushalnagar NH-275 92.3km 4차로 access-controlled greenfield highway. 4개 패키지 토지확보율 96~98%, 전체 공정 18.3%, 2027년 12월 준공 목표. 후속 패키지별 공정, 토지취득 완료, 개통 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-WATER-VARANASI-RAMNAGAR-SEWERAGE",
+    "프로젝트명": "Varanasi Ramnagar Zone Extended Area Sewerage Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "수자원·환경",
+    "발주처": "UP Jal Nigam (Urban), Varanasi / EMS Ltd",
+    "사업비(달러 기준 추정액)": "USD 11.0mn",
+    "사업비 환산 환율 / 기준": "원문: estimated order value INR 1,058.2mn excluding GST. 2026-07-17 전후 USD/INR 96.4 기준, 1.0582bn/96.4=약 USD 11.0mn.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013261",
+    "비고": "Varanasi Nagar Nigam Ramnagar Zone extended area 하수도 turnkey 프로젝트. 10MLD STP, co-treatment plant, SPS, rising main, sewer network, house connections 및 site development 포함. EMS가 L1 bidder이며 LOA 후 24개월 실행 예정. 후속 LOA, 계약금액 확정, 착공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IRQ-OILGAS-KIRKUK-FIELDS-REDEV",
     "프로젝트명": "Kirkuk Fields Redevelopment Project",
     "지역": "중동",
@@ -537,6 +612,21 @@
     "최근 업데이트일": "2026. 7. 17",
     "대표 기사 고유값": "ART-20260717-013152",
     "비고": "Jalan Buroh Business 2 산업용지 개발 프로젝트. 부지면적 31,151.5㎡, 총용적률 2.5, 33년 임대, 프로젝트 완료기간 84개월. JTC가 Soilbuild Group Holdings Ltd에 산업용지 입찰을 낙찰했으며 후속 건축계획, 설계·시공 발주, 착공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TWN-IND-PUYU-KNOWLEDGE-ECONOMY-PARK",
+    "프로젝트명": "Taiwan Knowledge Economy Flagship Park (Puyu) Development Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "산업·물류",
+    "발주처": "Hsinchu County Government / National Chiao Tung University origin / Ministry of Economic Affairs hearing process",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-17 Taipei Times 보도 기준 Jhubei Township 447ha 축소 범위, 약 400ha 농지수용 논란 및 2026년 8월 행정청문 예정만 확인됨.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013255",
+    "비고": "신규 프로젝트. 장기 계류된 지식경제·산업단지형 개발사업으로 토지수용·행정청문 리스크 중심 모니터링 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -945,6 +1035,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IND-RAIL-CHENNAI-BENGALURU-HSR",
+    "프로젝트명": "Chennai-Bengaluru High-Speed Rail Corridor",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "National High Speed Rail Corporation Limited (NHSRCL)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미확정. 2026-07-16 TOI 보도는 INR 180bn 수준 예상액과 306.2km, 8개 역, 약 28km 지하구간, 3개 터널, land acquisition 41개 마을 진행 및 pre-construction tender만 확인.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013256",
+    "비고": "Chennai-Bengaluru 306.2km 고속철도 회랑. NHSRCL이 pre-construction activity 및 updated alignment 검토 tender를 착수했으며 Parandur는 future station으로 표시됨. 후속 revised DPR, 토지취득, 본공사 토목·시스템 패키지, 역 위치 확정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "JPN-ENERGY-SODEGAURA-NEW123-REPOWER",
     "프로젝트명": "Sodegaura Thermal Power Station New Units 1-3 Repowering Project",
     "지역": "아시아",
@@ -1153,6 +1258,21 @@
     "대표 기사 고유값": "ART-20260716-013121",
     "비고": "Chiayi County 지역 농산물 콜드체인 물류센터. 1단계는 정부가 1.95ha 부지에 4,550㎡ 센터를 건설한 뒤 민간 파트너 운영으로 전환하고, 2단계는 가공·마케팅·식음·농업폐기물 재활용 허브를 민간이 개발하는 PPP 구조. 후속 운영사, 2단계 민간개발, 저온창고·가공·폐기물 재활용 패키지 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "TWN-IND-ORDER-SHALUN-LOGISTICS-CENTER",
+    "프로젝트명": "Taiwan Order Shalun Smart International Logistics Center Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "산업·물류",
+    "발주처": "Order Furniture / Taoyuan City Government Economic Development Bureau",
+    "사업비(달러 기준 추정액)": "USD 112mn",
+    "사업비 환산 환율 / 기준": "원문: TWD 3.3bn. 2026-07-19 운영 환산 기준 1 USD = TWD 29.4 적용, 약 USD 112mn.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013254",
+    "비고": "신규 프로젝트. Taoyuan International Airport 배후 Shalun Industrial Park 스마트 물류·제조 통합 시설로 완공·개소 확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "ARG-OILGAS-CAN200-OFFSHORE-EXPLORATION",
@@ -1632,6 +1752,21 @@
     "최근 업데이트일": "2026. 7. 15",
     "대표 기사 고유값": "ART-20260715-012998",
     "비고": "SPPC 3차 가스복합 IPP 조달 묶음. 개별 발전소명·위치 공개 전까지 그룹 프로젝트로 관리하고, 후속 RFQ 결과·RFP·PPA·우선협상자·EPC/가스터빈 공급 계약 확인 시 개별 프로젝트 분리 검토 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TWN-WATER-TAOYUAN-SOUTH-RESOURCE-RECYCLING-CENTER",
+    "프로젝트명": "Taoyuan South Resource Recycling Center BOO/ROO Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "수자원·환경",
+    "발주처": "Taoyuan City Government Environmental Management Office",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-15 Taoyuan City Government 공고 기준 BOO/ROO 공청회, 민간 토지 제공·투자·건설·운영 방식 및 자원순환시설 목적만 확인됨.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 15",
+    "대표 기사 고유값": "ART-20260715-013253",
+    "비고": "신규 프로젝트. 민간참여법 절차상 공청회 개최 예정이며 향후 RFQ/RFP 또는 민간제안 구체화 여부 추적 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2292,21 +2427,6 @@
     "최근 업데이트일": "2026. 7. 12",
     "대표 기사 고유값": "ART-20260712-012963",
     "비고": "Debre Markos 소재 Nigus Tekle Haimanot Airport 현대화 및 운영개시 프로젝트. 북서부 에티오피아의 교역·투자·관광 접근성 개선 목적이며, 후속으로 공식 사업비, 시공사, 터미널·항행시설·화물시설 범위, 운항 증편 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
-    "프로젝트명": "Mumbai-Ahmedabad High-Speed Rail Project",
-    "지역": "아시아",
-    "국가": "인도",
-    "섹터": "교통",
-    "발주처": "National High Speed Rail Corporation Limited (NHSRCL)",
-    "사업비(달러 기준 추정액)": "USD 11.53bn",
-    "사업비 환산 환율 / 기준": "INR 1.1 lakh crore / USD-INR 95.37 기준 환산(2026-07-10~12 시장 환율 참고). LARRA 보상 증액에 따른 잠재 추가 부담 INR 40,000 crore는 미확정 리스크로 별도 추적.",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 12",
-    "대표 기사 고유값": "ART-20260712-012819",
-    "비고": "508km Mumbai-Ahmedabad 고속철도 사업. 2026-07-12 Gujarat High Court 절차에서 토지보상 증액으로 약 Rs 40,000 crore 추가 부담 가능성이 제기됨. 기존 BKC-Shil Phata 터널 공정 진척과 함께 비용·보상·공기 리스크를 후속 추적 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -11682,21 +11802,6 @@
     "최근 업데이트일": "2026. 7. 1",
     "대표 기사 고유값": "ART-20260701-010824",
     "비고": "Rayong Province Eastern Seaboard Industrial Estate 내 AutoAlliance 기존 공장 MHEV 생산라인 업그레이드. BOI 투자승인 기준 약 USD 210mn, 섀시 용접·차체 조립·도장·최종조립 자동화·로봇 설비 도입, 2027년 생산개시 목표. 후속 시공·설비 계약, 생산라인 설치, BOI 공식 세부자료 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "THA-TRANSPORT-LAND-BRIDGE-SEC",
-    "프로젝트명": "Southern Land Bridge Chumphon-Ranong Project",
-    "지역": "아시아",
-    "국가": "태국",
-    "섹터": "교통",
-    "발주처": "Office of Transport and Traffic Policy and Planning / Ministry of Transport",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "on-hold",
-    "최근 업데이트일": "2026. 7. 1",
-    "대표 기사 고유값": "ART-20260701-010305",
-    "비고": "관련 기사: ART-20250825-003498, ART-20260515-003499, ART-20260618-004639, ART-20260626-007774, ART-20260701-010305. Chumphon·Ranong 심해항, 표준궤 철도, 고속도로, SRTO, 항만 배후 상업·복합개발을 묶는 Southern Economic Corridor 대형 PPP. 2026-07-01 정부가 SEC 법안 제출을 중단하고 시민단체와 공동위원회를 구성하기로 하면서 on-hold 단계로 유지. 2026-07-08 내각 상정 보류·추가 공론화 보도는 같은 보류 이슈의 반복 보도로 중복 정리. 후속 확인사항은 공동위원회 권고, SEC 법안 재상정 여부, EHIA 재실시, 민간입찰 재개, 항만·철도·도로 패키지 분리 방식이다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

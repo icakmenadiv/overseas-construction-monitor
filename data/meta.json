@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T19:18:20.860Z",
+  "updatedAt": "2026-07-18T19:43:43.045Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,79 +24,47 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7323,
-    "projects": 3225
+    "articles": 7335,
+    "projects": 3232
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260718-013236",
-        "ART-20260718-013237",
-        "ART-20260718-013241",
-        "ART-20260718-013243",
-        "ART-20260718-013244",
-        "ART-20260718-013245",
-        "ART-20260718-013246",
-        "ART-20260718-013249",
-        "ART-20260718-013250",
-        "ART-20260717-013222",
-        "ART-20260717-013224",
-        "ART-20260717-013228",
-        "ART-20260717-013232",
-        "ART-20260717-013233",
-        "ART-20260717-013234",
-        "ART-20260717-013235",
-        "ART-20260717-013247",
-        "ART-20260717-013248",
-        "ART-20260717-013249",
-        "ART-20260716-013223",
-        "ART-20260716-013225",
-        "ART-20260716-013226",
-        "ART-20260716-013227",
-        "ART-20260716-013238",
-        "ART-20260716-013240",
-        "ART-20260715-013218",
-        "ART-20260715-013239",
-        "ART-20260715-013242",
-        "ART-20260715-013250",
-        "ART-20260715-013251",
-        "ART-20260714-013219",
-        "ART-20260714-013248"
+        "ART-20260718-013257",
+        "ART-20260718-013258",
+        "ART-20260718-013262",
+        "ART-20260718-013263",
+        "ART-20260717-013255",
+        "ART-20260717-013259",
+        "ART-20260717-013261",
+        "ART-20260716-013252",
+        "ART-20260716-013254",
+        "ART-20260716-013256",
+        "ART-20260715-013253",
+        "ART-20260715-013260"
       ],
       "updated": [],
-      "removed": [
-        "ART-20260714-013031",
-        "ART-20260709-012746",
-        "ART-20260708-012656"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "PAK-BRT-KARACHI-RED-LINE",
-        "CAN-SOC-CHICOUTIMI-HOSPITAL-MOD",
-        "CAN-URBAN-ONTARIO-PLACE-PUBLIC-REALM",
-        "CAN-WATER-WINNIPEG-NEWPCC-BIOSOLIDS",
-        "HKG-TRANSPORT-HUANGGANG-PORT-HK-PORT-AREA",
-        "CAN-RAIL-LACMEGANTIC-BYPASS",
-        "CAN-URBANRAIL-QUEBEC-TRAMCITE",
-        "CAN-WATER-SURREY-HOUSING-GROWTH",
-        "PAK-AIR-JINNAH-RUNWAY-07L25R-RECON",
-        "USA-DIGITAL-META-RICHLAND-HYPERION",
-        "KHM-PORT-SIHANOUKVILLE-NCT-PH2",
-        "USA-ENERGY-STEEL-RIVER-SOLAR-BESS"
+        "IND-WATER-GAJUWAKA-SEWERAGE-REVIVAL",
+        "IND-ROAD-MYSURU-KUSHALNAGAR-NH275",
+        "IND-WATER-VARANASI-RAMNAGAR-SEWERAGE",
+        "TWN-IND-PUYU-KNOWLEDGE-ECONOMY-PARK",
+        "IND-RAIL-CHENNAI-BENGALURU-HSR",
+        "TWN-IND-ORDER-SHALUN-LOGISTICS-CENTER",
+        "TWN-WATER-TAOYUAN-SOUTH-RESOURCE-RECYCLING-CENTER"
       ],
       "updated": [
-        "NPL-ROAD-NAGDHUNGA-NAUBISE-TUNNEL",
-        "HKG-TRANSPORT-SGMTS-EAST-KOWLOON",
-        "PAK-SOC-ISLAMABAD-MODEL-PRISON-H16"
+        "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
+        "THA-TRANSPORT-LAND-BRIDGE-SEC"
       ],
-      "removed": [
-        "BGD-OILGAS-MOHESHKHALI-FSRU-G2G"
-      ]
+      "removed": []
     }
   },
   "latest": {
