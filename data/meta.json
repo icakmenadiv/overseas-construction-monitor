@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T18:31:31.279Z",
+  "updatedAt": "2026-07-18T19:18:20.860Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,68 +24,79 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 7294,
-    "projects": 3214
+    "articles": 7323,
+    "projects": 3225
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260719-013214",
-        "ART-20260717-013193",
-        "ART-20260717-013202",
-        "ART-20260717-013206",
-        "ART-20260717-013209",
-        "ART-20260716-013192",
-        "ART-20260716-013197",
-        "ART-20260716-013199",
-        "ART-20260716-013201",
-        "ART-20260716-013205",
-        "ART-20260716-013213",
-        "ART-20260716-013215",
-        "ART-20260715-013195",
-        "ART-20260715-013196",
-        "ART-20260715-013203",
-        "ART-20260715-013204",
-        "ART-20260715-013207",
-        "ART-20260715-013210",
-        "ART-20260715-013211",
-        "ART-20260715-013212",
-        "ART-20260714-013194",
-        "ART-20260714-013198",
-        "ART-20260714-013200",
-        "ART-20260714-013208",
-        "ART-20260714-013216",
-        "ART-20260714-013217"
+        "ART-20260718-013236",
+        "ART-20260718-013237",
+        "ART-20260718-013241",
+        "ART-20260718-013243",
+        "ART-20260718-013244",
+        "ART-20260718-013245",
+        "ART-20260718-013246",
+        "ART-20260718-013249",
+        "ART-20260718-013250",
+        "ART-20260717-013222",
+        "ART-20260717-013224",
+        "ART-20260717-013228",
+        "ART-20260717-013232",
+        "ART-20260717-013233",
+        "ART-20260717-013234",
+        "ART-20260717-013235",
+        "ART-20260717-013247",
+        "ART-20260717-013248",
+        "ART-20260717-013249",
+        "ART-20260716-013223",
+        "ART-20260716-013225",
+        "ART-20260716-013226",
+        "ART-20260716-013227",
+        "ART-20260716-013238",
+        "ART-20260716-013240",
+        "ART-20260715-013218",
+        "ART-20260715-013239",
+        "ART-20260715-013242",
+        "ART-20260715-013250",
+        "ART-20260715-013251",
+        "ART-20260714-013219",
+        "ART-20260714-013248"
       ],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20260714-013031",
+        "ART-20260709-012746",
+        "ART-20260708-012656"
+      ]
     },
     "projects": {
       "added": [
-        "AUS-ROAD-BANDON-ROAD-CORRIDOR",
-        "NZL-RAIL-COOK-STRAIT-FERRY-REPLACEMENT",
-        "AUS-ROAD-RICHMOND-RAILWAY-TERRACE-INTERSECTION",
-        "BRA-WATER-RONDONIA-SANITATION-CONCESSION",
-        "BRA-RAIL-TRANSNORDESTINA-SUAPE-BRANCH",
-        "MEX-URBANRAIL-CDMX-METRO-LINE3-MOD",
-        "NZL-ROAD-SH58-SAFETY-IMPROVEMENTS",
-        "WSM-TRANSPORT-AURORA-V-FERRY-REPAIR",
-        "AUS-IND-WAGERUP-GALLIUM-PLANT",
-        "BRA-ENERGY-BIPOLO-NORDESTE2-HVDC",
-        "PAN-ROAD-JOSE-AGUSTIN-ARANGO-P1"
+        "PAK-BRT-KARACHI-RED-LINE",
+        "CAN-SOC-CHICOUTIMI-HOSPITAL-MOD",
+        "CAN-URBAN-ONTARIO-PLACE-PUBLIC-REALM",
+        "CAN-WATER-WINNIPEG-NEWPCC-BIOSOLIDS",
+        "HKG-TRANSPORT-HUANGGANG-PORT-HK-PORT-AREA",
+        "CAN-RAIL-LACMEGANTIC-BYPASS",
+        "CAN-URBANRAIL-QUEBEC-TRAMCITE",
+        "CAN-WATER-SURREY-HOUSING-GROWTH",
+        "PAK-AIR-JINNAH-RUNWAY-07L25R-RECON",
+        "USA-DIGITAL-META-RICHLAND-HYPERION",
+        "KHM-PORT-SIHANOUKVILLE-NCT-PH2",
+        "USA-ENERGY-STEEL-RIVER-SOLAR-BESS"
       ],
       "updated": [
-        "ARG-TRANSPORT-VNT-CONCESSION",
-        "ARG-ENERGY-AMBA-I-TRANSMISSION",
-        "MEX-RAIL-MEXICO-PACHUCA-AIFA",
-        "PAN-ROAD-CENTENARIO-ARRAIJAN-LACHORRERA-APP",
-        "MEX-WATER-ROSARITO-DESALINATION"
+        "NPL-ROAD-NAGDHUNGA-NAUBISE-TUNNEL",
+        "HKG-TRANSPORT-SGMTS-EAST-KOWLOON",
+        "PAK-SOC-ISLAMABAD-MODEL-PRISON-H16"
       ],
-      "removed": []
+      "removed": [
+        "BGD-OILGAS-MOHESHKHALI-FSRU-G2G"
+      ]
     }
   },
   "latest": {

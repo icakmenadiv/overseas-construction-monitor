@@ -15,6 +15,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NPL-ROAD-NAGDHUNGA-NAUBISE-TUNNEL",
+    "프로젝트명": "Nagdhunga-Naubise Tunnel Highway Project",
+    "지역": "아시아",
+    "국가": "네팔",
+    "섹터": "교통",
+    "발주처": "Department of Roads / Government of Nepal",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 18",
+    "대표 기사 고유값": "ART-20260718-013236",
+    "비고": "Nagdhunga-Naubise 2,688m 터널도로. 2026-07-18 기준 공사 완료 후 7월 27일 공식 개통 및 시범운영 예정, Yusin-ART JV 운영, 2~3개월 뒤 상업운영 전환 계획 확인. 후속 실제 개통, 상업운영 전환, 통행료·유지관리 성과와 안전운영 기준 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PAK-BRT-KARACHI-RED-LINE",
+    "프로젝트명": "Karachi Red Line Bus Rapid Transit Project",
+    "지역": "아시아",
+    "국가": "파키스탄",
+    "섹터": "교통",
+    "발주처": "Government of Sindh / TransKarachi",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-07-18",
+    "대표 기사 고유값": "ART-20260718-013241",
+    "비고": "Karachi Red Line BRT 공사 진행 및 University Road 혼합교통 차로 조기 개방 추진. 패키지별 공정·차로 개방·준공 일정 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARG-TRANSPORT-VNT-CONCESSION",
     "프로젝트명": "Vía Navegable Troncal Concession Project",
     "지역": "중남미",
@@ -75,6 +105,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "CAN-SOC-CHICOUTIMI-HOSPITAL-MOD",
+    "프로젝트명": "Chicoutimi Hospital Expansion and Modernization Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "사회인프라",
+    "발주처": "Société québécoise des infrastructures (SQI) / Government of Quebec / Government of Canada",
+    "사업비(달러 기준 추정액)": "USD 614mn",
+    "사업비 환산 환율 / 기준": "원문: 사업비 CAD 840mn 이상. 2026-07-19 운영 환산 기준 1 CAD = USD 0.731 적용, 약 USD 614mn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013228",
+    "비고": "Chicoutimi Hospital 신규 임상동 건설 및 수술실·외래수술부·지원공간 대규모 개보수. SQI 사업관리, BCSF CAD 36.1mn 지원 확인. 후속 주요 시공사, MEP·장비 패키지, 공정률 및 준공 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CAN-SOC-FANCSY-FAMILY-HOSPITAL",
     "프로젝트명": "New Fancsy Family Hospital in Windsor Project",
     "지역": "북미",
@@ -87,6 +132,36 @@
     "최근 업데이트일": "2026. 7. 17",
     "대표 기사 고유값": "ART-20260717-013077",
     "비고": "Windsor-Essex 신규 Fancsy Family Hospital. Phase 1 enabling works 착공, Phase 2 RFQ 이후 RFP 예정, Phase 3 입원타워 포함. 후속 RFP, 시공팀 선정, 진단·치료 블록 계약, 장비·MEP 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-URBAN-ONTARIO-PLACE-PUBLIC-REALM",
+    "프로젝트명": "Ontario Place Public Realm Redevelopment Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "도시개발·주택",
+    "발주처": "Infrastructure Ontario / Ministry of Tourism, Gaming and Culture / EllisDon Civil Ltd.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. IO 2026-07-17 보도 기준 final project cost는 하도급·주요 공급가격 확정 후 확인 예정.",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013222",
+    "비고": "Ontario Place Redevelopment의 공공공간·수변 접근성 패키지. EllisDon Civil CM 계약 수여, 공사 수주 내 착수 및 2030년 여름 완료 목표. 기존 주차시설 프로젝트와 발주 패키지가 달라 별도 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-WATER-WINNIPEG-NEWPCC-BIOSOLIDS",
+    "프로젝트명": "Winnipeg North End Water Pollution Control Centre Biosolids Facilities Upgrade Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "수자원·환경",
+    "발주처": "City of Winnipeg / Red River Biosolids Partners / Aecon / MWH Constructors / Oscar Renda Contracting / Stantec",
+    "사업비(달러 기준 추정액)": "USD 596mn",
+    "사업비 환산 환율 / 기준": "원문: 계약금액 CAD 815mn. 2026-07-19 운영 환산 기준 1 CAD = USD 0.731 적용, 약 USD 596mn.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013224",
+    "비고": "Winnipeg NEWPCC Biosolids Facilities progressive design-build. Red River Biosolids Partners가 CAD 815mn 계약 수주, Stantec 설계, 운영개시 2030년 4분기 및 최종 준공 2031년 2분기 목표. 후속 상세설계·장비·토목·전기기계 패키지 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -177,6 +252,36 @@
     "최근 업데이트일": "2026. 7. 17",
     "대표 기사 고유값": "ART-20260717-013125",
     "비고": "Aberdeen Tunnel Wong Chuk Hang portal의 신규 Bus-Bus Interchange. HKeToll 시행 후 기존 요금소 철거 부지를 활용해 버스베이, 보행교 연결, 접근로, 지붕형 대기공간, 좌석, 선풍기, 노선정보·실시간 도착정보 패널을 조성했다. 2024년 8월 착공, 2026년 7월 26일 개통 예정. 후속 운영, 교통효율, 추가 환승시설 개선 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HKG-TRANSPORT-HUANGGANG-PORT-HK-PORT-AREA",
+    "프로젝트명": "Huanggang Port Hong Kong Port Area Redevelopment and Colocation Project",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "교통",
+    "발주처": "HKSAR Government / Shenzhen Municipal People's Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 재개발 사업비 미공개. 2026-07-17 HKSAR Government 발표 기준 홍콩항구역 관할권·공동검사·통합통관 운영 법적 근거, 2026-07-31 관할권 적용 개시, 설계 처리량 일 20만명 및 Northern Link Spur Line 이후 약 30만명 확대 가능성만 확인.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013249",
+    "비고": "재개발 Huanggang Port의 Hong Kong Port Area 및 관련 확장구역 관할권과 공동검사·통합통관 운영을 위한 법적 기반 확정. 2026-07-31 관할권 적용 개시 예정이며, 정식 개통 전 공동 시스템 테스트·시범운영 준비가 진행될 예정이다. 후속 공식 개통일, 통관·교통시설 운영, Northern Link Spur Line 연계 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HKG-TRANSPORT-SGMTS-EAST-KOWLOON",
+    "프로젝트명": "Smart and Green Mass Transit System in East Kowloon",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "교통",
+    "발주처": "Transport and Logistics Bureau / Government of the HKSAR / future franchisee",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013248",
+    "비고": "관련 기사: ART-20260612-001661, ART-20260717-013248. 2026-07-17 공개입찰 착수로 단계가 tender로 갱신됐다. 약 7km, 9개 역, 고가·터널 구간으로 구성되며 BOT 방식으로 franchisee가 financing, design, construction, operation, maintenance를 수행한다. 입찰 마감은 2027-03-12, 공사 착수 목표는 2027년, 완공·개통 목표는 2033년 또는 이전이다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -585,6 +690,51 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CAN-RAIL-LACMEGANTIC-BYPASS",
+    "프로젝트명": "Lac-Mégantic Rail Bypass Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "교통",
+    "발주처": "Canadian Transportation Agency / Transport Canada / Canadian Pacific Railway Company / Central Maine and Quebec Railways Canada",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 2026-07-16 CTA 승인 보도는 12.5km 신규 철도와 부속 인프라만 확인.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013225",
+    "비고": "Lac-Mégantic 도심 철도교통을 우회시키는 약 12.5km 신규 철도 및 부속 인프라. CTA가 section 98 승인 완료, 상세 결정 사유는 2026년 8월 예정. 후속 조건 문서, 환경·지역사회 대응, 본공사 발주·착공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-URBANRAIL-QUEBEC-TRAMCITE",
+    "프로젝트명": "Québec City TramCité Tramway Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "교통",
+    "발주처": "CDPQ Infra / Government of Québec / City of Québec / AtkinsRéalis / Siemens Mobility / Connexion Capitale",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 보도에서 시스템 패키지 계약금액 및 총사업비 미공개. ConstructConnect의 프로젝트 가치 표기는 공식 Project Cost로 저장하지 않음.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013226",
+    "비고": "Québec City 19km TramCité 도시철도 네트워크의 시스템 구성요소 공동개발 계약. 철도시스템 통합, 신호, 통신, 전철화, 시험·커미셔닝 감독, 장기 유지관리 준비 포함. 후속 최종 가격, 본계약, 차량·토목·시스템 통합 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CAN-WATER-SURREY-HOUSING-GROWTH",
+    "프로젝트명": "Surrey Water and Wastewater Infrastructure for Housing Growth Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "수자원·환경",
+    "발주처": "Government of Canada / City of Surrey",
+    "사업비(달러 기준 추정액)": "USD 47.5mn",
+    "사업비 환산 환율 / 기준": "원문: 연방 최대 CAD 26mn + Surrey시 CAD 39mn = CAD 65mn. 2026-07-19 운영 환산 기준 1 CAD = USD 0.731 적용, 약 USD 47.5mn.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013223",
+    "비고": "North Surrey City Centre Quibble Creek Sanitary Sewer Pump Station 업그레이드 및 Grandview Heights 펌프장·하수도 업그레이드. Darts Hill, Redwood Heights, North Grandview, Grandview 5 서비스 확장. 후속 개별 설계·시공 입찰, 착공, 주택공급 연계 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CHL-WATER-SANTA-CORINA-COLLECTOR",
     "프로젝트명": "Colector Santa Corina Repair and Improvement Project",
     "지역": "중남미",
@@ -838,6 +988,21 @@
     "대표 기사 고유값": "ART-20260716-013018",
     "비고": "Sabana Grande, Managua 510병상 Hospital Oriental Lesbia Carrasquilla. 2026-06-10 건설·장비 입찰 착수 후 2026-07-16 부지 인도·첫 삽 행사로 construction 단계 전환. 공기 36개월, 50주년 혁명 기념 시점 개원 목표. 공식 사업비는 미확인.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "PAK-AIR-JINNAH-RUNWAY-07L25R-RECON",
+    "프로젝트명": "Jinnah International Airport Runway 07L/25R Reconstruction Project",
+    "지역": "아시아",
+    "국가": "파키스탄",
+    "섹터": "교통",
+    "발주처": "Pakistan Airports Authority / Pakistan Civil Aviation Authority",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-07-16",
+    "대표 기사 고유값": "ART-20260716-013240",
+    "비고": "Karachi Jinnah International Airport Runway 07L/25R 재건 완료 및 상업운영 인증. 공항 운영 중 18개월 내 완료, 지연·클레임·비용초과 없음으로 발표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "PAN-ROAD-CENTENARIO-ARRAIJAN-LACHORRERA-APP",
@@ -1320,6 +1485,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PAK-SOC-ISLAMABAD-MODEL-PRISON-H16",
+    "프로젝트명": "Islamabad Model Prison Project in H-16",
+    "지역": "아시아",
+    "국가": "파키스탄",
+    "섹터": "사회인프라",
+    "발주처": "Islamabad Capital Territory Administration",
+    "사업비(달러 기준 추정액)": "USD 26.60mn",
+    "사업비 환산 환율 / 기준": "PKR 7,399.12mn / USD, 2026-07-17 전후 SBP/NBP 참조 및 기존 운영 환산 기준 PKR 278.121/USD",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-07-15",
+    "대표 기사 고유값": "ART-20260715-013242",
+    "비고": "H-16 Islamabad Model Prison 건설사업. 총사업비 PKR 7.399bn, FY2026-27 PSDP PKR 1bn 배정, 2026-06-30 기준 집행 PKR 4.739bn·잔여 부담 PKR 2.660bn.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "PER-ROAD-LONGITUDINAL-SIERRA-T2",
     "프로젝트명": "Longitudinal de la Sierra Highway Section 2 Concession",
     "지역": "중남미",
@@ -1483,6 +1663,21 @@
     "대표 기사 고유값": "ART-20260715-013010",
     "비고": "Montevideo Santa Catalina barrio 하수도망 확장. 7,500m 오수관, 700개 연결·cámaras número uno, 200m 우수관, 2026년 9월 착공·2027년 말 완료 예정. 기존 펌프장 전단 침사지, 펌프 교체, 수문·센서 설치 후속 확인 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "USA-DIGITAL-META-RICHLAND-HYPERION",
+    "프로젝트명": "Meta Richland Parish Hyperion AI Data Center Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Meta / Turner Construction / Mortenson / DPR Construction / Entergy Louisiana",
+    "사업비(달러 기준 추정액)": "USD 50bn",
+    "사업비 환산 환율 / 기준": "Construction Dive 2026-07-15 및 Louisiana Economic Development 2026-07-13 공식 발표 기준 Meta가 Richland Parish 데이터센터 프로젝트에 500억 달러 이상 투자. 원문은 5GW IT capacity, 약 1,000만ft², 7,500명 피크 건설고용, 전력·수자원·지역 인프라 비용 부담 구조를 제시.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 15",
+    "대표 기사 고유값": "ART-20260715-013218",
+    "비고": "Louisiana Richland Parish Hyperion AI data center expansion. Turner, Mortenson, DPR 참여, 5GW IT capacity, 약 1,000만ft². Entergy Louisiana 전력 인프라에는 신규 가스발전 7기, 약 240마일 500kV 송전선, 3개 BESS 등이 포함. 후속 하위 패키지, 전력망·발전·BESS·수자원 인프라, Source Louisiana 하도급 포털 조건 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "WSM-TRANSPORT-AURORA-V-FERRY-REPAIR",
@@ -1665,6 +1860,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KHM-PORT-SIHANOUKVILLE-NCT-PH2",
+    "프로젝트명": "Sihanoukville Port New Container Terminal Development Project Phase II",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "교통",
+    "발주처": "Sihanoukville Autonomous Port / Government of Cambodia / Government of Japan",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 2026-07-14 Cambodianess 보도 기준 JPY 17.776bn(약 USD 119mn) 일본 차관은 Phase II 금융 규모로만 확인됨.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 14",
+    "대표 기사 고유값": "ART-20260714-013248",
+    "비고": "Sihanoukville Autonomous Port 신규 컨테이너터미널 개발 2단계. 일본 ODA 차관으로 금융 문서 서명, 컨테이너 처리능력·물류 효율 개선 및 수심 제약 없는 국제선박 접안 목표. 후속 JICA·PAS 조달, 터미널 토목·준설·장비 패키지, Phase III 범위 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "LKA-ENERGY-ROOFTOP-SOLAR-VNM",
     "프로젝트명": "Grid-Based Rooftop Solar Power and Virtual Net Meter Reading Project",
     "지역": "아시아",
@@ -1842,6 +2052,21 @@
     "최근 업데이트일": "2026. 7. 14",
     "대표 기사 고유값": "ART-20260714-013028",
     "비고": "Alto Paraná Santa Rita 하수처리장 및 하수도 사업. 중간도시 위생 프로그램 일부로 33km 하수관로, 3개 펌프장, PTAR 건설을 포함하며 완공 시 약 29,000명 수혜 전망. 후속 공정률, 처리용량, 시공사, 사업비 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-ENERGY-STEEL-RIVER-SOLAR-BESS",
+    "프로젝트명": "Steel River Energy Center Solar and Battery Storage Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "에너지",
+    "발주처": "Cypress Creek Energy / Google / Moss / Entergy Arkansas",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. Cypress Creek 2026-07-14 공식 보도 기준 전체 3단계 2.5GWdc 태양광 및 2.9GWh BESS, 2029년 완전 운영 목표, 1·2단계 1.6GWdc 태양광 및 1.9GWh BESS, Moss EPC 선정만 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 14",
+    "대표 기사 고유값": "ART-20260714-013219",
+    "비고": "Arkansas Mississippi County Steel River Energy Center. Google이 1·2단계 전력을 PPA로 확보했고, 프로젝트는 미국산 철강, First Solar 모듈, LG Energy Solution Vertech BESS를 활용. 후속 3단계 개발, 계통연계, EPC 하위 패키지, BESS 공급·설치, 전체 상업운전 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3267,21 +3492,6 @@
     "최근 업데이트일": "2026. 7. 9",
     "대표 기사 고유값": "ART-20260709-012872",
     "비고": "마헤쉬칼리 G2G 방식 첫 FSRU 터미널 구축 프로젝트. 해외 국영기업 제안 재요청 단계이며, 후속 G2G 파트너 선정, 터미널·LNG 공급계약, 계류·해저배관·육상연계 설비 범위와 사업비 공개 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "BGD-OILGAS-MOHESHKHALI-FSRU-G2G",
-    "프로젝트명": "Moheshkhali/Kutubjom Floating Storage and Regasification Unit (FSRU) Project",
-    "지역": "아시아",
-    "국가": "방글라데시",
-    "섹터": "석유가스·화학",
-    "발주처": "Government of Bangladesh / Petrobangla",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 관련 보도 기준 Moheshkhali/Kutubjom 600mmcfd급 신규 FSRU 후보로 확인되며 G2G 또는 PPP/민간투자 방식 검토 중.",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 7. 9",
-    "대표 기사 고유값": "ART-20260709-012746",
-    "비고": "G2G 방식 해외 제안 요청 단계. 기존 Matarbari 육상 LNG 터미널과 별도인 해상 FSRU 후보로 관리. 후속 확인사항: G2G 상대국/기업, 최종 용량, 접안·계류·연계 배관 범위, 사업비 및 승인 일정.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -11022,21 +11232,6 @@
     "최근 업데이트일": "2026. 7. 1",
     "대표 기사 고유값": "ART-20260701-010624",
     "비고": "FY2026/27 예산에 반영된 네팔 첫 Sovereign AI Compute Center 계획. Syuchatar 후보지, 청정 수력전력 활용, 수천 개 AI processing units 구상은 확인됐으나 정확한 부지, 투자액, 전력·냉각·수자원 규모, 조달방식, 사전조사 여부는 미공개. 후속 타당성조사, 예산 확정, 입찰·장비조달·전력연계·데이터보안 기준 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "NPL-ROAD-NAGDHUNGA-NAUBISE-TUNNEL",
-    "프로젝트명": "Nagdhunga-Naubise Tunnel Highway Project",
-    "지역": "아시아",
-    "국가": "네팔",
-    "섹터": "교통",
-    "발주처": "Department of Roads / Government of Nepal",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 1",
-    "대표 기사 고유값": "ART-20260701-010623",
-    "비고": "Nagdhunga-Naubise 2,688m 터널도로. 내부 공사 완료 후 운영·유지보수 차량 성능시험과 안전·환기·전력·소방·통신·CCTV·교통관리 시스템 최종시험이 진행 중이며 2026년 7월 중순 개통 준비 단계가 확인됐다. JICA 차관·일본 정부 지원, Hazama Ando Corporation 주요 시공. 후속 실제 개통, 운영기준, 안전·유지관리 체계, 통행 제한 조건을 추적한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -33720,21 +33915,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "HKG-TRANSPORT-SGMTS-EAST-KOWLOON",
-    "프로젝트명": "Smart and Green Mass Transit System in East Kowloon",
-    "지역": "아시아",
-    "국가": "홍콩",
-    "섹터": "교통",
-    "발주처": "Transport and Logistics Bureau / Government of the HKSAR / future franchisee",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 6. 12",
-    "대표 기사 고유값": "ART-20260612-001661",
-    "비고": "East Kowloon SGMTS 재정지원 구조 승인. 2026년 7월 입찰, 2027년 계약 수여, 2033년 또는 이전 개통 목표.",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "HKG-WATER-TSIMBEITSUI-LFS-PAKNAI-CPP",
     "프로젝트명": "Tsim Bei Tsui, Lau Fau Shan and Pak Nai Coastal Protection Park",
     "지역": "아시아",
@@ -34437,21 +34617,6 @@
     "최근 업데이트일": "2026. 6. 12",
     "대표 기사 고유값": "ART-20260612-001718",
     "비고": "Auckland Mission Bay 은퇴주거단지 Fast-track 승인. 256 independent living units, 94 care suites, 공용시설과 보행 접근로 포함.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "PAK-SOC-ISLAMABAD-MODEL-PRISON-H16",
-    "프로젝트명": "Islamabad Model Prison Project in H-16",
-    "지역": "아시아",
-    "국가": "파키스탄",
-    "섹터": "사회인프라",
-    "발주처": "Islamabad Capital Territory Administration",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 12",
-    "대표 기사 고유값": "ART-20260612-001680",
-    "비고": "H-16 Islamabad Model Prison 건설사업. 총사업비 PKR 7.399bn, FY2026-27 PSDP PKR 1bn 배정, 2026-06-30 기준 집행 PKR 4.739bn·잔여 부담 PKR 2.660bn.",
     "대표 기사 정보 분류": ""
   },
   {
