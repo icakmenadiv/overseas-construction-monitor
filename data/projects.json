@@ -120,6 +120,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRQ-PETCHEM-ALFAW-ENERGY-CITY",
+    "프로젝트명": "Al-Faw Energy City Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "석유가스·화학",
+    "발주처": "Prime Minister's Office / Iraq government / prospective US and international energy investors",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-17 Shafaq/Channel8 보도 기준 Al-Faw Peninsula waterfront, 정유·원유처리, 가스 집하·처리·생산, 대형 발전시설, 전략 송유관 및 Development Road 연계 범위만 확인됨.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013170",
+    "비고": "Al-Faw Peninsula waterfront의 에너지·산업 허브 개발계획. 정유·원유처리, 가스 집하·처리·생산, 대형 발전, 전략 송유관 및 Development Road corridor와 직접 연결되는 하위 패키지로 전개될 가능성이 있다. 기존 Basra Al-Faw Blue Ammonia, Al Faw-Umm Qasr Access Road, Grand Faw Port Remaining Piers, Development Road와는 사업 범위가 달라 별도 관리한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "JPN-ENERGY-AKITA-YURIHONJO-WIND",
     "프로젝트명": "Akita and Yurihonjo Onshore Wind Project",
     "지역": "아시아",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T03:24:48.503Z",
+  "updatedAt": "2026-07-18T05:39:59.102Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,21 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7242,
-    "projects": 3189
+    "articles": 7243,
+    "projects": 3190
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260717-013170"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "IRQ-PETCHEM-ALFAW-ENERGY-CITY"
+      ],
       "updated": [],
       "removed": []
     }
