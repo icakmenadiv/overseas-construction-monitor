@@ -30,6 +30,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "BOL-ROAD-LAANGOSTURA-SAMAIPATA-STAB",
+    "프로젝트명": "La Angostura-Samaipata Road Stabilization Project",
+    "지역": "중남미",
+    "국가": "볼리비아",
+    "섹터": "교통",
+    "발주처": "MOPSV / ABC / SEARPI Santa Cruz",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-17 MOPSV 보도 기준 La Angostura-Samaipata 도로구간 안정화·위험저감 사업 구조화, 기술·수문조사 및 재원 확보 추진 단계만 확인.",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013177",
+    "비고": "Santa Cruz La Angostura-Samaipata 도로의 사면·플랫폼 안정화 및 위험저감 프로젝트. SEARPI가 기술·수문조사와 현장정보 수집을 맡아 사업구조와 재원확보를 추진하고, ABC가 Red Vial Fundamental 통행성·안전 확보를 위해 보전·모니터링을 병행한다. 후속 설계, 사업비, 시공·감리 입찰 여부 확인 필요.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "CAN-SOC-FANCSY-FAMILY-HOSPITAL",
     "프로젝트명": "New Fancsy Family Hospital in Windsor Project",
     "지역": "북미",
@@ -57,6 +72,51 @@
     "최근 업데이트일": "2026. 7. 17",
     "대표 기사 고유값": "ART-20260717-013150",
     "비고": "CNPC Dushanzi Petrochemical의 Korla 녹색·저탄소 에틸렌 프로젝트. 연 1.2mn t 에틸렌 증설로 복합단지 연간 에틸렌 능력이 3mn t 이상으로 확대됐고, 태양광 직접전력, 전기구동 압축기, 초저농도 CO2 포집·재활용을 포함한다. 후속 다운스트림 제품, CCUS 확장, 추가 화학 플랜트 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "COL-ENERGY-SOLAR-PALMIRA-III",
+    "프로젝트명": "Solar Palmira III Project",
+    "지역": "중남미",
+    "국가": "콜롬비아",
+    "섹터": "에너지",
+    "발주처": "Celsia Colombia S.A. E.S.P. / POWERCHINA",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. POWERCHINA 2026-07-17 보도 기준 9.9MWac, 12.56MWdc 태양광, EPC 시공 및 2년 O&M 완료만 확인.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013176",
+    "비고": "콜롬비아 Solar Palmira III 태양광 프로젝트. POWERCHINA가 EPC 시공과 2년 O&M을 완료하고 2026년 6월 30일 발주처 Celsia Colombia S.A. E.S.P.로부터 최종 인수증을 수령. 후속으로 POWERCHINA 콜롬비아 태양광 EPC·O&M 추가 수주, Celsia 계열 후속 태양광 포트폴리오, 계통연계·운영 실적 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-WATER-JICOME-AQUEDUCT",
+    "프로젝트명": "Jicomé Aqueduct Construction Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "수자원·환경",
+    "발주처": "Instituto Nacional de Aguas Potables y Alcantarillados (INAPA)",
+    "사업비(달러 기준 추정액)": "USD 2.82mn",
+    "사업비 환산 환율 / 기준": "원문: RD$164,920,988.85. 2026-07-19 운영 환산 기준 1 USD=58.45 DOP 적용, 약 USD 2.82mn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013185",
+    "비고": "Valverde주 Jicomé 상수도 건설사업. Jicomé, Jicomé Abajo, Jicomé Arriba, Los Rincones, Jaiquí Picao 약 5,066명 대상 식수 공급 개선. 취수구·침사지, 도수관, 급속여과 정수장, 주관·조절탱크, 송수관, 배수망, 865개 급수연결 포함. 후속 시공 공정, 준공, 운영개시 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ECU-SOC-MUNA-NATIONAL-MUSEUM",
+    "프로젝트명": "New National Museum of Ecuador (MuNa) Project",
+    "지역": "중남미",
+    "국가": "에콰도르",
+    "섹터": "사회인프라",
+    "발주처": "Empresa Publica de Vivienda y Desarrollo Urbano EP / Ministerio de Educacion, Deporte y Cultura / Ministerio de Infraestructura y Transporte",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-14 MIT 보도와 2026-07-17 El Telégrafo 보도 기준 설계 선정 절차, 최종 후보, 평가방식만 확인.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013182",
+    "비고": "Quito 신 국립박물관 MuNa 설계·건설 프로젝트. 2026-07-17 기준 10개 팀 중 3개 최종안(B720 Arquitectura & LERA, SANAA + A0-CPA-JHS, Mario Cucinella Architects 계열)이 시민투표 단계에 진입. 기술평가 85%, 시민참여 15% 구조. 후속 최종 설계 선정, 실시설계, 공식 사업비, 본공사 조달 전환 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -165,6 +225,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NIC-HOSP-BLUEFIELDS-AFRO-ORIGINARIOS",
+    "프로젝트명": "Hospital Pueblo Presidente Afro y Originarios in Bluefields Project",
+    "지역": "중남미",
+    "국가": "니카라과",
+    "섹터": "사회인프라",
+    "발주처": "Ministerio de Salud (MINSA)",
+    "사업비(달러 기준 추정액)": "USD 105.5mn",
+    "사업비 환산 환율 / 기준": "2026-05-27 El 19 Digital/Canal4 발표 기준 공식 사업비 USD 105.5mn. 2026-07-17 TN8 착공 보도는 18,415㎡·8개 동·300병상 범위를 재확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013184",
+    "비고": "Bluefields/Costa Caribe Sur La Pavas 인근의 300병상·18,415㎡ 병원 건설사업. 2026-05-27 계획 발표, 2026-06-05 입찰 개시 이후 2026-07-17 부지 인도 및 착공 전환 확인. 후속 시공사·감리사, 의료장비 조달, 공정률, 준공 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NIC-WATER-ELBARRO-SANNICOLAS",
+    "프로젝트명": "El Barro Water Supply System Project",
+    "지역": "중남미",
+    "국가": "니카라과",
+    "섹터": "수자원·환경",
+    "발주처": "ENACAL / Alcaldía de San Nicolás",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-17 Radio Nicaragua 기준 우물·전력화·장비, 저장탱크, 토목공사, 7.2km 관로, 50개 연결, 300명 수혜 범위만 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013187",
+    "비고": "San Nicolás시 El Barro 커뮤니티 상수도 시스템. 2026-07-17 기준 공정률 85%, 연말 완공 목표. 후속 공식 사업비, 시공·공급업체, 준공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-HYDRO-ARUNIII-900MW",
     "프로젝트명": "Arun-III Hydropower Project",
     "지역": "아시아",
@@ -210,6 +300,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PER-DIGITAL-PROYECTOS-SELVA-INTERNET",
+    "프로젝트명": "Proyectos Selva Fixed Internet Connectivity Projects in Loreto and Madre de Dios",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "디지털·데이터센터",
+    "발주처": "PROINVERSIÓN / Ministerio de Transportes y Comunicaciones (MTC)",
+    "사업비(달러 기준 추정액)": "USD 382.2mn",
+    "사업비 환산 환율 / 기준": "원문: S/1,297mn. BCRP 2026-07-16 평균 S/3.3935 per USD 기준 환산, 약 USD 382.2mn.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013191",
+    "비고": "Loreto·Madre de Dios Amazonía 지역 인터넷 고정망 3개 프로젝트. 775개 centros poblados, 182,600명 이상, 학교·보건시설·comisarías 및 Centros de Acceso Digital 포함. PROINVERSIÓN이 formulación·estructuración·transacción과 연구·컨설팅을 담당하며 2027년 상반기 낙찰 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-WATER-CAJAMARCA-PTAR",
+    "프로젝트명": "Cajamarca Wastewater Treatment Plant PPP Project",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "수자원·환경",
+    "발주처": "PROINVERSIÓN / MVCS / Municipalidad Provincial de Cajamarca / FCC Aqualia S.A.",
+    "사업비(달러 기준 추정액)": "USD 123mn",
+    "사업비 환산 환율 / 기준": "PROINVERSIÓN 2026-07-17 공식 보도 기준 사업비 USD 123mn 이상. 설계·금융·건설·운영·유지관리 포함.",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013189",
+    "비고": "Cajamarca PTAR PPP. 평균 0.6㎥/s 하수처리장 및 주요 하수 수집 시스템 설계·금융·건설·O&M. FCC Aqualia 낙찰, 36만5천 명 이상 수혜. 후속 양허계약 체결, 금융종결, 착공, 운영개시 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PNG-OILGAS-PAPUA-LNG",
     "프로젝트명": "Papua LNG Project",
     "지역": "태평양",
@@ -222,6 +342,21 @@
     "최근 업데이트일": "2026. 7. 17",
     "대표 기사 고유값": "ART-20260717-013065",
     "비고": "Elk-Antelope 가스전 기반 Port Moresby 저탄소 LNG 플랜트 및 상류·하류 인프라. 2026-07-17 기사 기준 개발포럼 이후 개발협약은 한 달 안에 서명될 것으로 예상되며, 협약은 Petroleum Development Licence 및 2026년 말 이전 FID 추진의 핵심 선행조건이다. 공식 규모 USD 14.5bn이 확인되어 사업비를 보정했다. EPC 후보 선정 이력에 따라 현재 단계는 bid-evaluation 유지. 후속 개발협약 서명, PDL 발급, FID, EPC 본계약 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PRY-ENERGY-ANACUA-YACYRETA",
+    "프로젝트명": "Aña Cuá Yacyretá Hydropower Expansion Project",
+    "지역": "중남미",
+    "국가": "파라과이",
+    "섹터": "에너지",
+    "발주처": "Entidad Binacional Yacyretá (EBY) / Paraguay-Argentina binational hydropower authority",
+    "사업비(달러 기준 추정액)": "USD 450mn",
+    "사업비 환산 환율 / 기준": "Agencia IP 2026-07-17 공식 보도 기준 투자규모가 USD 450mn 이상으로 확인되어 보수 하한값 USD 450mn을 기록. La Nación/Revista PLUS 등은 약 USD 600mn으로 보도하나 공식 기준과 혼동 방지를 위해 IP 하한값을 사용.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013183",
+    "비고": "Misiones Ayolas의 Yacyretá Aña Cuá 발전설비화 수력발전 확장 프로젝트. 90MW급 Kaplan 터빈 3기, 총 270MW 추가 설치로 Yacyretá 발전능력을 약 10% 확대하며, 2026-07-17 공식 보도 기준 전체 공정률 76%, 콘크리트 공정 50%, 약 800명 투입, 첫 발전기 2028년·전체 상업운전 2029년 말 목표. 후속 터빈 설치, 전기기계·변압기, 송전연계, 시운전·O&M 단계 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -405,6 +540,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "COL-OILGAS-REGASIFICADORA-PACIFICO",
+    "프로젝트명": "Regasificadora del Pacífico LNG Regasification Project",
+    "지역": "중남미",
+    "국가": "콜롬비아",
+    "섹터": "석유가스·화학",
+    "발주처": "Regasificadora del Pacífico / Sociedad Portuaria Regional de Buenaventura / Ecopetrol",
+    "사업비(달러 기준 추정액)": "USD 150mn",
+    "사업비 환산 환율 / 기준": "원문: 투자 추정 USD 150~172mn. 사업비 열은 단일 USD 값 원칙에 맞춰 공식 추정 범위의 하한 USD 150mn을 보수적으로 기록.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013172",
+    "비고": "2026-07-16 MinEnergía 공식 보도 기준 Buga 재기화 설비 공정률 80%+, 2026년 말 운영 예정. 초기 60MMcfd, 180MMcfd 확장 가능, Buenaventura FSU Tura 145,000㎥ 저장능력 확인. 후속 시운전·상업운전, Ecopetrol·Alcanos 공급계약, 추가 용량 계약 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "DOM-BRIDGE-GUAYAJAYUCO-ARTIBONITO",
     "프로젝트명": "Guayajayuco Artibonito River Bridge Project",
     "지역": "중남미",
@@ -417,6 +567,21 @@
     "최근 업데이트일": "2026. 7. 16",
     "대표 기사 고유값": "ART-20260716-013015",
     "비고": "Elías Piña Guayajayuco 지역의 Artibonito 강 교량 건설사업. 국경 지역 연결성과 재난 시 접근성 개선 목적. Guayajayuco-국제도로 연결 badén 보수 및 Tirolí 시장 등 Frontera Fuerte 연계 인프라 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-ENERGY-PUERTO-PLATA-69KV-RECONDUCTORING",
+    "프로젝트명": "Puerto Plata I-Puerto Plata II 69kV Transmission Line Reconductoring Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "에너지",
+    "발주처": "Empresa de Transmisión Eléctrica Dominicana (ETED)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-16 Presidencia/ETED 보도 기준 구조물·지지물 95%, 재도체화 35% 공정만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013184",
+    "비고": "Puerto Plata I 변전소-Puerto Plata II 변전소 간 69kV 송전선 재도체화 프로젝트. 기존 도체를 고용량 도체로 교체해 송전용량·신뢰도 개선 및 기술손실 저감을 추진하며, 2026-07-16 기준 구조물·지지물 95%, 재도체화 35% 공정. 후속 최종 도체화 완료, 운영 안정화, 공식 사업비·시공사 공개 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -780,6 +945,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ECU-IND-CURIPAMBA-ELDOMO-MINE",
+    "프로젝트명": "Curipamba El Domo Copper-Gold Mine and Processing Plant Project",
+    "지역": "중남미",
+    "국가": "에콰도르",
+    "섹터": "산업·물류",
+    "발주처": "Silvercorp Metals Inc. / Curimining S.A. / TGJA / CRCC19 / Yantai Jinpeng Mining Machinery",
+    "사업비(달러 기준 추정액)": "USD 284mn",
+    "사업비 환산 환율 / 기준": "Silvercorp 2026-02-04 공식 프로젝트 업데이트 기준 construction budget USD 284mn. 2026-07-15 최신 보도는 장비 선적·처리플랜트 계약·토공 진척을 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 15",
+    "대표 기사 고유값": "ART-20260715-013181",
+    "비고": "에콰도르 중부 Curipamba El Domo 구리·금 광산 및 처리플랜트 프로젝트. 2026-07-15 기준 처리플랜트 기초, 비접촉 수로, TSF 초기댐, 토공 604,600㎥, open-pit pre-stripping, 처리플랜트·수처리 장비 선적, TGJA 처리플랜트 건설계약 체결 확인. 2027년 7월 커미셔닝 목표. 후속 처리플랜트 설치, 수처리, TSF, 전력선, 접근도로, 외국기업·기자재 참여 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ECU-TRANSPORT-QUITO-METRO-ISET-MAINT",
     "프로젝트명": "Quito Metro ISET Infrastructure Maintenance Contract",
     "지역": "중남미",
@@ -930,6 +1110,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NIC-WATER-PINUELAR-LARREYNAGA",
+    "프로젝트명": "El Piñuelar Water Supply System Project",
+    "지역": "중남미",
+    "국가": "니카라과",
+    "섹터": "수자원·환경",
+    "발주처": "ENACAL / Alcaldía Municipal de Larreynaga",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-15 Radio Nicaragua 기준 우물·전력화·장비, 저장탱크, 23km 관로, 470개 연결, 2,600명 수혜 범위만 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 15",
+    "대표 기사 고유값": "ART-20260715-013185",
+    "비고": "Larreynaga시 El Piñuelar 커뮤니티 상수도 시스템. 2026-07-15 기준 공정률 70%, 연말 완공 목표. 후속 공식 사업비, 시공·공급업체, 준공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NZL-SOC-NEW-DUNEDIN-HOSPITAL",
     "프로젝트명": "New Dunedin Hospital Project",
     "지역": "태평양",
@@ -955,7 +1150,7 @@
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "construction",
     "최근 업데이트일": "2026. 7. 15",
-    "대표 기사 고유값": "ART-20260715-013035",
+    "대표 기사 고유값": "ART-20260715-013190",
     "비고": "875km 이상 도로 재활·운영·유지보수 concession. 2026-07-15 Acta de Encargo de Obras 체결로 Chiple-Cutervo 및 Cutervo-Cochabamba 잔여 33.814km 재활·개선공사 재개 가능 단계 확인. 후속 착공·공정률·준공 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -1197,6 +1392,36 @@
     "최근 업데이트일": "2026. 7. 14",
     "대표 기사 고유값": "ART-20260714-013147",
     "비고": "내몽골 Ordos Dalat Banner의 15GW급 사막·고비·황무지 풍광화저 일체화 에너지기지. 상하이·화동 지역 송전을 목표로 하며 1단계에는 660MW급 초초임계 석탄화력 4기가 포함된다. 후속 발전단지 EPC, ESS, 특고압 송전, 계통연계, 주요 장비 발주 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-TRANSPORT-PUERTOPLATA-CABLECAR-REHAB",
+    "프로젝트명": "Puerto Plata Cable Car Comprehensive Rehabilitation Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "교통",
+    "발주처": "Ministerio de la Presidencia (MINPRE) / URBE / MITUR / IDAC",
+    "사업비(달러 기준 추정액)": "USD 20mn",
+    "사업비 환산 환율 / 기준": "원문: 투자액 US$20mn 이상. 2026-07-14 MINPRE/URBE 보도 기준 공식 사업비로 보수적으로 USD 20mn 기록.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 7. 14",
+    "대표 기사 고유값": "ART-20260714-013183",
+    "비고": "Puerto Plata 관광 케이블카 종합 재활 프로젝트. 설계, 제작, 공급, 건설, 설치, 시운전 및 역 리모델링을 포함하며, 2026-07-14 국제공개입찰에서 Doppelmayr 주도 컨소시엄과 Bartholet 등 2개 제안 접수. 후속 낙찰자, 계약금액, 착공 및 18개월 이행 일정 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ECU-HOUSING-TERRAZAS-CHAMIZAL",
+    "프로젝트명": "Terrazas del Chamizal Social Housing Project",
+    "지역": "중남미",
+    "국가": "에콰도르",
+    "섹터": "도시개발·주택",
+    "발주처": "Ministerio de Infraestructura y Transporte (MIT) / Gobierno Nacional / Casa Miti-Miti / Credicasa",
+    "사업비(달러 기준 추정액)": "USD 2.337mn",
+    "사업비 환산 환율 / 기준": "MIT 2026-07-14 공식 발표 기준 투자액 USD 2.337mn. 기사 표기 USD 2’337.000 millones는 문맥상 2.337mn으로 해석.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 14",
+    "대표 기사 고유값": "ART-20260714-013180",
+    "비고": "Pichincha Conocoto Valle de los Chillos의 135가구 사회주택 프로젝트. 95가구 Credicasa, 20가구 Miti-Miti 예약, 16가구 인도 준비. 소규모 주거사업이므로 준공·입주 또는 정책 패키지 확대가 확인될 때만 제한 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -6987,21 +7212,6 @@
     "최근 업데이트일": "2026. 7. 3",
     "대표 기사 고유값": "ART-20260703-011500",
     "비고": "Pequeña Central Hidroeléctrica San Bartolomé 전력을 SIN에 연결하기 위한 230kV, 32.5km 송전선 건설·운영 프로젝트. ANLA가 2026-07-03 환경허가를 승인했으며, 후속 시공계약, 착공, 변전소 연계공사, 기자재 공급·환경관리 패키지 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "DOM-ENERGY-PUERTO-PLATA-69KV-RECONDUCTORING",
-    "프로젝트명": "Puerto Plata I-Puerto Plata II 69kV Transmission Line Reconductoring Project",
-    "지역": "중남미",
-    "국가": "도미니카공화국",
-    "섹터": "에너지",
-    "발주처": "Empresa de Transmisión Eléctrica Dominicana (ETED)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 3",
-    "대표 기사 고유값": "ART-20260703-010771",
-    "비고": "Puerto Plata I 변전소-Puerto Plata II 변전소 간 69kV 송전선 재도체화. 기존 도체를 고용량 도체로 교체해 송전용량·신뢰도 개선 및 기술손실 저감을 추진. 2026-07-04부터 네 차례 토요일 공사 예정. 후속 시공사·계약금액·구간 연장·보호제어 범위 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -17442,21 +17652,6 @@
     "최근 업데이트일": "2026. 6. 25",
     "대표 기사 고유값": "ART-20260625-005982",
     "비고": "CAF 5,000만 달러 초기 금융 집행과 향후 추가 지원 의향 확인. 방파제·준설·터미널 양허에 앞선 habilitating works 및 EPSA 금융전략 후속을 계속 추적한다.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "COL-OILGAS-REGASIFICADORA-PACIFICO",
-    "프로젝트명": "Regasificadora del Pacífico LNG Regasification Project",
-    "지역": "중남미",
-    "국가": "콜롬비아",
-    "섹터": "석유가스·화학",
-    "발주처": "Regasificadora del Pacífico / Sociedad Portuaria Regional de Buenaventura / Ecopetrol",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 25",
-    "대표 기사 고유값": "ART-20260625-007012",
-    "비고": "Buenaventura에 30개 초중량 장비가 반입되어 Buga 재기화 구조물 설치로 이어지는 LNG 수입·재기화 공급 프로젝트. 후속 시운전, Ecopetrol·Alcanos 공급계약, 상업운전 개시와 추가 130MMcfd 재기화 솔루션 계약 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -40737,21 +40932,6 @@
     "최근 업데이트일": "2026. 6. 5",
     "대표 기사 고유값": "ART-20260605-000304",
     "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "NIC-HOSP-BLUEFIELDS-AFRO-ORIGINARIOS",
-    "프로젝트명": "Hospital Pueblo Presidente Afro y Originarios in Bluefields Project",
-    "지역": "중남미",
-    "국가": "니카라과",
-    "섹터": "사회인프라",
-    "발주처": "Ministerio de Salud (MINSA)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "tender",
-    "최근 업데이트일": "2026. 6. 5",
-    "대표 기사 고유값": "ART-20260605-000719",
-    "비고": "Bluefields/Costa Caribe Sur 약 10 manzanas 부지, 300병상·18,415㎡ 병원 건설 및 장비 조달. 2026-05-27 계획 발표 후 2026-06-05 입찰 개시.",
     "대표 기사 정보 분류": ""
   },
   {
