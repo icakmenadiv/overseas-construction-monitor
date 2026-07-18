@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T09:02:01.000Z",
+  "updatedAt": "2026-07-18T10:22:37.971Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,21 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7243,
-    "projects": 3190
+    "articles": 7244,
+    "projects": 3191
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260717-013171"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "IRQ-OILGAS-KIRKUK-FIELDS-REDEV"
+      ],
       "updated": [],
       "removed": []
     }
