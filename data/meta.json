@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T20:28:34.349Z",
+  "updatedAt": "2026-07-18T21:22:57.709Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,54 +28,52 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7358,
-    "projects": 3241
+    "articles": 7380,
+    "projects": 3246
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260718-013279",
-        "ART-20260717-013264",
-        "ART-20260717-013265",
-        "ART-20260717-013266",
-        "ART-20260717-013274",
-        "ART-20260717-013280",
-        "ART-20260717-013281",
-        "ART-20260717-013282",
-        "ART-20260716-013267",
-        "ART-20260716-013270",
-        "ART-20260716-013272",
-        "ART-20260716-013273",
-        "ART-20260716-013275",
-        "ART-20260716-013276",
-        "ART-20260716-013277",
-        "ART-20260715-013269",
-        "ART-20260714-013268",
-        "ART-20260714-013271",
-        "ART-20260714-013278",
-        "ART-20260719-013285",
-        "ART-20260719-013283",
-        "ART-20260719-013286",
-        "ART-20260719-013284"
+        "ART-20260718-013300",
+        "ART-20260717-013286",
+        "ART-20260717-013287",
+        "ART-20260717-013290",
+        "ART-20260717-013293",
+        "ART-20260717-013306",
+        "ART-20260717-013307",
+        "ART-20260716-013285",
+        "ART-20260716-013291",
+        "ART-20260716-013292",
+        "ART-20260716-013293",
+        "ART-20260716-013294",
+        "ART-20260716-013303",
+        "ART-20260716-013305",
+        "ART-20260715-013283",
+        "ART-20260715-013284",
+        "ART-20260715-013288",
+        "ART-20260715-013289",
+        "ART-20260715-013301",
+        "ART-20260715-013302",
+        "ART-20260715-013304",
+        "ART-20260714-013295"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20260716-013161"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "IDN-WTE-PALEMBANG-KERAMASAN",
-        "PHL-OILGAS-MALAMPAYA-PHASE4",
-        "SGP-ENERGY-PSA-TUAS-H2-REFUELING",
-        "SGP-IND-PSA-SUPPLY-CHAIN-HUB-TUAS-SMART-GATE",
-        "SGP-PORT-TUAS-IGV-BATTERY-SYSTEM",
-        "CHN-RAIL-YUEDONG-INTERCITY-LIANTANG-DEPOT",
-        "IDN-ROAD-PALEMBANG-BETUNG-TOLL",
-        "IDN-WTE-YOGYAKARTA-PSEL",
-        "CHN-ENERGY-YANGJIANG-SANSHAN-OFFSHORE-WIND-HVDC"
+        "HUN-ROAD-FLORIAN-SQUARE-FLYOVER-RECON",
+        "HUN-SOC-GYULA-ONCOLOGY-CENTRE-MOD",
+        "POL-AIR-CPK-RFFS-STATIONS",
+        "KAZ-ROAD-ALMATY-QASKELEN-EXPANSION",
+        "RUS-SOC-DEFRIZ-SPORT-HOTEL"
       ],
       "updated": [
-        "ROU-ROAD-A0-NORTH-DN1A-DN1",
-        "ROU-RAIL-CONSTANTA-PORT-STAGE3"
+        "AZE-TRANSPORT-ASTARA-TERMINAL",
+        "HUN-ROAD-M1-M0-CONCO-EXPANSION",
+        "RUS-RAIL-MOSCOW-SPB-HSR"
       ],
       "removed": []
     }
