@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T19:43:43.045Z",
+  "updatedAt": "2026-07-18T20:28:34.349Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,41 +28,54 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7335,
-    "projects": 3232
+    "articles": 7358,
+    "projects": 3241
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260718-013257",
-        "ART-20260718-013258",
-        "ART-20260718-013262",
-        "ART-20260718-013263",
-        "ART-20260717-013255",
-        "ART-20260717-013259",
-        "ART-20260717-013261",
-        "ART-20260716-013252",
-        "ART-20260716-013254",
-        "ART-20260716-013256",
-        "ART-20260715-013253",
-        "ART-20260715-013260"
+        "ART-20260718-013279",
+        "ART-20260717-013264",
+        "ART-20260717-013265",
+        "ART-20260717-013266",
+        "ART-20260717-013274",
+        "ART-20260717-013280",
+        "ART-20260717-013281",
+        "ART-20260717-013282",
+        "ART-20260716-013267",
+        "ART-20260716-013270",
+        "ART-20260716-013272",
+        "ART-20260716-013273",
+        "ART-20260716-013275",
+        "ART-20260716-013276",
+        "ART-20260716-013277",
+        "ART-20260715-013269",
+        "ART-20260714-013268",
+        "ART-20260714-013271",
+        "ART-20260714-013278",
+        "ART-20260719-013285",
+        "ART-20260719-013283",
+        "ART-20260719-013286",
+        "ART-20260719-013284"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "IND-WATER-GAJUWAKA-SEWERAGE-REVIVAL",
-        "IND-ROAD-MYSURU-KUSHALNAGAR-NH275",
-        "IND-WATER-VARANASI-RAMNAGAR-SEWERAGE",
-        "TWN-IND-PUYU-KNOWLEDGE-ECONOMY-PARK",
-        "IND-RAIL-CHENNAI-BENGALURU-HSR",
-        "TWN-IND-ORDER-SHALUN-LOGISTICS-CENTER",
-        "TWN-WATER-TAOYUAN-SOUTH-RESOURCE-RECYCLING-CENTER"
+        "IDN-WTE-PALEMBANG-KERAMASAN",
+        "PHL-OILGAS-MALAMPAYA-PHASE4",
+        "SGP-ENERGY-PSA-TUAS-H2-REFUELING",
+        "SGP-IND-PSA-SUPPLY-CHAIN-HUB-TUAS-SMART-GATE",
+        "SGP-PORT-TUAS-IGV-BATTERY-SYSTEM",
+        "CHN-RAIL-YUEDONG-INTERCITY-LIANTANG-DEPOT",
+        "IDN-ROAD-PALEMBANG-BETUNG-TOLL",
+        "IDN-WTE-YOGYAKARTA-PSEL",
+        "CHN-ENERGY-YANGJIANG-SANSHAN-OFFSHORE-WIND-HVDC"
       ],
       "updated": [
-        "IND-RAIL-MUMBAI-AHMEDABAD-HSR",
-        "THA-TRANSPORT-LAND-BRIDGE-SEC"
+        "ROU-ROAD-A0-NORTH-DN1A-DN1",
+        "ROU-RAIL-CONSTANTA-PORT-STAGE3"
       ],
       "removed": []
     }

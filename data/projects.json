@@ -345,6 +345,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IDN-WTE-PALEMBANG-KERAMASAN",
+    "프로젝트명": "Keramasan Palembang Waste-to-Energy Plant",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "수자원·환경",
+    "발주처": "Palembang City Government / Keramasan WtE project stakeholders",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013274",
+    "비고": "일 1,000톤 폐기물 처리, 17.7MW 발전, 2026년 6월 30일 기준 공정률 89.16%, 2026년 10월 완공 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IND-PORT-KAKINADA-GATEWAY",
     "프로젝트명": "Kakinada Gateway Port Project",
     "지역": "아시아",
@@ -555,6 +570,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PHL-OILGAS-MALAMPAYA-PHASE4",
+    "프로젝트명": "Malampaya Phase 4 Project",
+    "지역": "아시아",
+    "국가": "필리핀",
+    "섹터": "석유가스·화학",
+    "발주처": "Department of Energy / Prime Energy / Malampaya JV",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 CAPEX·계약금액 미공개. 2026-07-17 BusinessMirror 보도 기준 Malampaya East-1·Camago-3 신규 가스정, 해저 파이프라인 설치, offshore/onshore facility upgrade 및 2026년 4분기 first gas 목표만 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013264",
+    "비고": "Malampaya Deep Water Gas-to-Power Project의 Phase 4 신규 가스정 통합·해저 파이프라인·설비 개량 프로젝트. 2026-07-15 가스공급 재개와 유지보수 완료, Palawan offshore subsea pipelaying 진행, 2026년 4분기 first gas 목표 확인. 후속 pipeline completion, well tie-in, first gas, 추가 EPC·서비스·O&M 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PNG-OILGAS-PAPUA-LNG",
     "프로젝트명": "Papua LNG Project",
     "지역": "태평양",
@@ -600,6 +630,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SGP-ENERGY-PSA-TUAS-H2-REFUELING",
+    "프로젝트명": "PSA Tuas Terminals Hydrogen Refueling Station with Electrolyser Integration Works",
+    "지역": "아시아",
+    "국가": "싱가포르",
+    "섹터": "에너지",
+    "발주처": "PSA Singapore",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013280",
+    "비고": "PSA 2026-07-17 tender notice. 후속 확인: 낙찰자, 전해조 용량, 수소충전 대상 장비, Tuas Terminal 탈탄소화 계획.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SGP-IND-JALAN-BUROH-INDUSTRIAL-SITE",
     "프로젝트명": "Jalan Buroh Industrial Site Development Project",
     "지역": "아시아",
@@ -612,6 +657,36 @@
     "최근 업데이트일": "2026. 7. 17",
     "대표 기사 고유값": "ART-20260717-013152",
     "비고": "Jalan Buroh Business 2 산업용지 개발 프로젝트. 부지면적 31,151.5㎡, 총용적률 2.5, 33년 임대, 프로젝트 완료기간 84개월. JTC가 Soilbuild Group Holdings Ltd에 산업용지 입찰을 낙찰했으며 후속 건축계획, 설계·시공 발주, 착공 여부 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SGP-IND-PSA-SUPPLY-CHAIN-HUB-TUAS-SMART-GATE",
+    "프로젝트명": "PSA Supply Chain Hub @ Tuas Smart Gate Solution Project",
+    "지역": "아시아",
+    "국가": "싱가포르",
+    "섹터": "산업·물류",
+    "발주처": "PSA Singapore",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013282",
+    "비고": "PSA 2026-07-17 tender notice. 후속 확인: 낙찰자, 스마트게이트 시스템 범위, 항만·물류 운영시스템 연계.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SGP-PORT-TUAS-IGV-BATTERY-SYSTEM",
+    "프로젝트명": "PSA Tuas Terminals Intelligent Guided Vehicle Lithium Battery System Project",
+    "지역": "아시아",
+    "국가": "싱가포르",
+    "섹터": "교통",
+    "발주처": "PSA Singapore",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026. 7. 17",
+    "대표 기사 고유값": "ART-20260717-013281",
+    "비고": "PSA 2026-07-17 tender notice. 후속 확인: 배터리 용량, 적용 IGV 대수, 낙찰자, 충전·운영 인프라 연계.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -855,6 +930,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CHN-RAIL-YUEDONG-INTERCITY-LIANTANG-DEPOT",
+    "프로젝트명": "Yue Dong Intercity Railway Lian Tang Rolling Stock Depot Project",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "교통",
+    "발주처": "Guangdong Railway Investment Group / Yue Dong Intercity Company / China Railway Urban Construction Group",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-16 中国新闻网 보도 기준 총건축면적 49,405.76m2, 25개 건축물, 16개 정식 유치선 및 장래 4개 유치선, 최대 40편성 수용 규모만 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013270",
+    "비고": "웨둥성제철도 롄탕 차량기지·검수시설 패키지. 생활구역·설비구역 말뚝공사 완료 후 건축·전기기계·검수설비·궤도 및 본선 시운전 연계를 추적할 필요가 있음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CHN-ROAD-QINGDAO-JIAOZHOU-BAY-SECOND-SUBSEA-TUNNEL",
     "프로젝트명": "Qingdao Jiaozhou Bay Second Subsea Tunnel Project",
     "지역": "아시아",
@@ -1002,6 +1092,36 @@
     "최근 업데이트일": "2026. 7. 16",
     "대표 기사 고유값": "ART-20260716-013152",
     "비고": "Maluku Kepulauan Tanimbar의 Abadi Masela LNG 프로젝트. 2026-07-16 물리적 건설 공식 착수로 construction 단계 갱신. 총투자 USD 20.9bn, 국내 산업용 가스 150 MMSCFD 공급, 건설 피크 12,000명 이상 고용 전망. 후속 EPC·해상생산·FPSO·수출관로·육상 LNG 플랜트·CCS·국내가스 구매계약 세부 패키지 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IDN-ROAD-PALEMBANG-BETUNG-TOLL",
+    "프로젝트명": "Palembang-Betung Toll Road and Musi V Bridge Project",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "교통",
+    "발주처": "PT Hutama Karya / Ministry of Public Works / Trans-Sumatra Toll Road stakeholders",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013275",
+    "비고": "무시 V 교량 약 1.7km, 팔렘방-베퉁 유료도로 관련 구간 공정률 1구간 92%, 2구간 93%, 3구간 73%, 3구간 토지 확보율 98%, 연말 기능 개통 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IDN-WTE-YOGYAKARTA-PSEL",
+    "프로젝트명": "Yogyakarta-Sleman-Bantul Waste-to-Energy PSEL Plant",
+    "지역": "아시아",
+    "국가": "인니",
+    "섹터": "수자원·환경",
+    "발주처": "PT Pertamina / PT PLN / Yogyakarta-Sleman-Bantul local governments",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 16",
+    "대표 기사 고유값": "ART-20260716-013276",
+    "비고": "30MW 폐기물발전, 일 1,000톤 이상 폐기물 처리, Pertamina 개발·PLN 전력구매 구조, 국제 기술 파트너 참여 가능성 언급.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1225,7 +1345,7 @@
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "construction",
     "최근 업데이트일": "2026. 7. 16",
-    "대표 기사 고유값": "ART-20260716-013158",
+    "대표 기사 고유값": "ART-20260719-013285",
     "비고": "A0 North DN1A-DN1 약 9.5km 및 Terminal Țigănești 연결도로 약 2km. 2026-07-16 기사 기준 DN1A-DN1 구간 공정이 68%에 접근했고, 17.5km lot에 노동자 780명·장비 340대가 동원됐다. km 12+100~20+000 구간에는 기층·바인더 아스팔트가 포설됐고 토공은 99% 완료. 전기·배수·안전시설·노면표시 및 교량·고가 상부구조 잔여공정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
@@ -1362,6 +1482,21 @@
     "최근 업데이트일": "2026-07-15",
     "대표 기사 고유값": "ART-20260715-013035",
     "비고": "Gran Santiago 우수배수망 Canal Santa Marta 1단계 개선. Maipú Camino a Melipilla 취약 466m 구간 관로화, 배수능력 14㎥/s에서 18㎥/s로 증대, 공정률 94%. 후속 표면복구·조경·안전시설 완료 및 준공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHN-ENERGY-YANGJIANG-SANSHAN-OFFSHORE-WIND-HVDC",
+    "프로젝트명": "Yangjiang Sanshan Island Offshore Wind Flexible DC Transmission Project",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "에너지",
+    "발주처": "China Southern Power Grid / Guangdong Power Grid",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 2026-07-15 CCTV/科技日报 보도 기준 ±500kV, 200만kW 해상 환류장 발운 및 현장 운송 단계만 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 15",
+    "대표 기사 고유값": "ART-20260715-013269",
+    "비고": "양장 싼산다오 해상풍력 유연직류 송전 프로젝트. 전국 최초 해륙 일체형 유연직류 송전공정으로, 해상 환류장 발운 이후 해상 설치, 해저케이블·육상 직류 구간, 계통연계 시험 및 상업운전 일정 후속 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1705,7 +1840,7 @@
     "사업비 환산 환율 / 기준": "원문: RON 523.81mn(VAT 제외). 2026-07-18 운영 환산 기준 1 RON=0.218 USD 적용, 약 USD 114.2mn.",
     "현재 단계": "contracted",
     "최근 업데이트일": "2026. 7. 15",
-    "대표 기사 고유값": "ART-20260715-013156",
+    "대표 기사 고유값": "ART-20260719-013283",
     "비고": "콘스탄차항 철도 인프라 현대화 3단계. 설계·시공 계약 체결 단계이며, 항만 철도 속도 향상, 25kV 전철화, ERTMS/ETCS Level 2, GSM-R, 역·교량·배수·승강장 등 포함. 같은 날짜 감리·컨설팅 보도는 동일 사업 보강 기사로 별도 프로젝트 행 미생성.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
