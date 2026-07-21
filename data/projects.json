@@ -120,6 +120,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NPL-POWER-MCA-ETP-297KM",
+    "프로젝트명": "MCA-Nepal Electricity Transmission Project 297km Line and Substations",
+    "지역": "아시아",
+    "국가": "네팔",
+    "섹터": "에너지",
+    "발주처": "MCA-Nepal / MCC Nepal Compact / Nepal Electricity Authority",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 21",
+    "대표 기사 고유값": "ART-20260721-013374",
+    "비고": "관련 기사: ART-20241127-003520, ART-20250814-003521, ART-20260610-001262, ART-20260721-013374. 2024년 297km 송전선 재입찰, 2025년 180km 구간 계약, 2026년 변전소·297km 송전선 착공, 2026년 New Butwal-인도 국경 18km 구간 철탑 46기 설치와 6km 가선 완료 이력 연결. 후속 잔여 철탑, conductor stringing, 시운전·상업운전 및 Butwal-Gorakhpur 연계 일정 추적 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "USA-DIGITAL-HEDGEHOG-NAVARRO-DC-CAMPUS",
     "프로젝트명": "Hedgehog USA Navarro County Powered-Land Data Center Campus",
     "지역": "북미",
@@ -39597,21 +39612,6 @@
     "최근 업데이트일": "2026. 6. 10",
     "대표 기사 고유값": "ART-20260610-001033",
     "비고": "San Isidro, Matagalpa 61.42MW 태양광, CCCC Internacional 참여, ENACAL 펌핑 전력 지원.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "NPL-POWER-MCA-ETP-297KM",
-    "프로젝트명": "MCA-Nepal Electricity Transmission Project 297km Line and Substations",
-    "지역": "아시아",
-    "국가": "네팔",
-    "섹터": "에너지",
-    "발주처": "MCA-Nepal / MCC Nepal Compact / Nepal Electricity Authority",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-10",
-    "대표 기사 고유값": "ART-20260610-001262",
-    "비고": "관련 기사: ART-20241127-003520, ART-20250814-003521, ART-20260610-001262. 2024년 297km 송전선 재입찰, 2025년 180km 구간 계약, 2026년 변전소·297km 송전선 착공 이력 연결. 후속 구간별 공정률·변전소 시운전·완공 추적 필요.",
     "대표 기사 정보 분류": ""
   },
   {
