@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T06:15:44.192Z",
+  "updatedAt": "2026-07-21T08:46:47.865Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,16 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260720-013308"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "IRQ-OILGAS-KHOR-ALZUBAIR-FSRU"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
