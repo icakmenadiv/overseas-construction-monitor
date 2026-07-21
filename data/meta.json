@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T14:23:43.945Z",
+  "updatedAt": "2026-07-21T15:58:13.855Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,18 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260708-013310",
-        "ART-20260708-013311"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "USA-BRIDGE-NORRIS-REPLACEMENT",
-        "USA-ROAD-I64-NORTH-GAYTON-INTERCHANGE"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
