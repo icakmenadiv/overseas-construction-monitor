@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T03:40:03.427Z",
+  "updatedAt": "2026-07-21T06:15:44.192Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,28 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7375,
-    "projects": 3245
+    "articles": 7376,
+    "projects": 3246
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260720-013308"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "IRQ-OILGAS-KHOR-ALZUBAIR-FSRU"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 19",
-    "articlePublishedDate": "2026. 7. 19",
-    "projectUpdatedDate": "2026. 7. 19"
+    "articleCollectedDate": "2026. 7. 21",
+    "articlePublishedDate": "2026. 7. 20",
+    "projectUpdatedDate": "2026. 7. 20"
   }
 }
