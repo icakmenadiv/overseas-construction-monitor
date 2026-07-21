@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T19:45:33.653Z",
+  "updatedAt": "2026-07-21T20:05:41.204Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 7440,
@@ -33,20 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260721-013374",
-        "ART-20260721-013375",
-        "ART-20260721-013376",
-        "ART-20260720-013377"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [],
-      "updated": [
-        "NPL-POWER-MCA-ETP-297KM"
-      ],
+      "updated": [],
       "removed": []
     }
   },
