@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T08:46:47.865Z",
+  "updatedAt": "2026-07-21T10:51:37.473Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,25 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7376,
-    "projects": 3246
+    "articles": 7377,
+    "projects": 3247
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260720-013309"
+      ],
+      "updated": [
+        "ART-20260718-013279",
+        "ART-20260716-013153",
+        "ART-20260715-013116"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "SGP-URBAN-BAYSHORE-DRIVE-MIXED-USE"
+      ],
       "updated": [],
       "removed": []
     }
