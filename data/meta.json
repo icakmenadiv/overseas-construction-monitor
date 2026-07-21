@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T15:58:13.855Z",
+  "updatedAt": "2026-07-21T17:18:50.964Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,46 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7379,
-    "projects": 3249
+    "articles": 7392,
+    "projects": 3256
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260721-013314",
+        "ART-20260720-013312",
+        "ART-20260720-013313",
+        "ART-20260720-013316",
+        "ART-20260720-013319",
+        "ART-20260720-013321",
+        "ART-20260719-013320",
+        "ART-20260718-013322",
+        "ART-20260718-013323",
+        "ART-20260717-013315",
+        "ART-20260717-013317",
+        "ART-20260717-013318",
+        "ART-20260717-013324"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "BOL-ENERGY-PERIII-GROUP4-RURAL-ELECTRIFICATION",
+        "COL-ENERGY-CIP-OFFSHORE-WIND-425MW",
+        "COL-RAIL-BOGOTA-METRO-L1",
+        "DOM-ROAD-PLAZA-BANDERA-TUNNEL",
+        "DOM-HOUSING-NUEVA-ESPERANZA-BOCACHICA",
+        "DOM-WASTE-LOSALCARRIZOS-TRANSFER-STATION",
+        "BOL-ENERGY-IDTRIII-VILLAIMPERIAL-RURRENABAQUE-ELECTRIFICATION"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 21",
-    "articlePublishedDate": "2026. 7. 20",
+    "articleCollectedDate": "2026. 7. 22",
+    "articlePublishedDate": "2026. 7. 21",
     "projectUpdatedDate": "2026. 7. 20"
   }
 }
