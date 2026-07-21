@@ -5655,6 +5655,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "USA-BRIDGE-NORRIS-REPLACEMENT",
+    "프로젝트명": "Robert O. Norris Bridge Replacement Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "교통",
+    "발주처": "Virginia Department of Transportation / Commonwealth Transportation Board",
+    "사업비(달러 기준 추정액)": "USD 400mn",
+    "사업비 환산 환율 / 기준": "VDOT revised environmental assessment cites Virginia State Comptroller FY2024 appropriation of USD 400mn to the Statewide Special Structures Fund for Norris Bridge replacement.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-013311",
+    "비고": "VDOT Fredericksburg District 후보 Design-Build 프로젝트. 예비엔지니어링, NEPA, 선행 용지취득 및 유틸리티 검토 진행 중. Candidate list 기준 Two Phase Best Value Procurement, RFQ 일정 TBD. 후속 확인: RFQ 발행, 설계 공청회, 최종 공사비, 숏리스트 및 계약 일정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-ROAD-I64-NORTH-GAYTON-INTERCHANGE",
+    "프로젝트명": "I-64 and North Gayton Road Interchange Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "교통",
+    "발주처": "Virginia Department of Transportation / Henrico County / FHWA",
+    "사업비(달러 기준 추정액)": "USD 120mn",
+    "사업비 환산 환율 / 기준": "VDOT candidate design-build projects page last updated 2026-07-08; listed project cost USD 120mn.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 8",
+    "대표 기사 고유값": "ART-20260708-013310",
+    "비고": "VDOT Richmond District 후보 Design-Build 프로젝트. I-64 North Gayton Road 신규 diverging diamond interchange 및 Short Pump 교통개선 연계. RFQ 예정 Summer/Fall 2027. 후속 확인: 재원 확정, RFQ 발행, 숏리스트, RFP 및 설계시공 계약.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "USA-ROAD-I81-IRONTO-SEGMENT-M",
     "프로젝트명": "I-81 Ironto Widening Segment M Design-Build Project",
     "지역": "북미",
