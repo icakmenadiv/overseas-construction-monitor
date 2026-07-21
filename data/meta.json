@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:51:37.473Z",
+  "updatedAt": "2026-07-21T12:15:00.732Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,20 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260720-013309"
-      ],
-      "updated": [
-        "ART-20260718-013279",
-        "ART-20260716-013153",
-        "ART-20260715-013116"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "SGP-URBAN-BAYSHORE-DRIVE-MIXED-USE"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
