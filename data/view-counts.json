@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T19:50:02.631Z",
+  "updatedAt": "2026-07-22T03:43:32.798Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -880,6 +880,10 @@
       },
       "ART-20260718-013279": {
         "source_link_click": 1
+      },
+      "ART-20260720-013309": {
+        "article_detail_open": 1,
+        "source_link_click": 2
       }
     },
     "page": {
@@ -3385,6 +3389,20 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-21T05:41:30.212Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260720-013309",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-22T01:18:53.603Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260720-013309",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-22T01:18:50.766Z"
     },
     {
       "targetType": "page",
