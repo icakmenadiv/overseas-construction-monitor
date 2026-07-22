@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T03:43:32.798Z",
+  "updatedAt": "2026-07-22T08:43:18.149Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -853,6 +853,13 @@
       "ART-20260717-013138": {
         "source_link_click": 1
       },
+      "ART-20260717-013152": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260717-013153": {
+        "source_link_click": 1
+      },
       "ART-20260717-013176": {
         "article_detail_open": 1,
         "source_link_click": 1
@@ -888,7 +895,7 @@
     },
     "page": {
       "market-home": {
-        "market_page_visit": 30
+        "market_page_visit": 31
       }
     },
     "project": {
@@ -3322,6 +3329,27 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260717-013152",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-22T06:43:56.917Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260717-013152",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-22T06:43:57.303Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260717-013153",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-22T07:10:13.758Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260717-013176",
       "eventType": "article_detail_open",
       "count": 1,
@@ -3408,8 +3436,8 @@
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 30,
-      "updatedAt": "2026-07-20T06:06:19.490Z"
+      "count": 31,
+      "updatedAt": "2026-07-22T06:13:07.280Z"
     },
     {
       "targetType": "project",
