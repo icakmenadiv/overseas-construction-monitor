@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T19:44:25.616Z",
+  "updatedAt": "2026-07-24T03:41:33.550Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -711,6 +711,9 @@
         "article_detail_open": 1,
         "source_link_click": 1
       },
+      "ART-20260709-012630": {
+        "source_link_click": 1
+      },
       "ART-20260709-012670": {
         "article_detail_open": 1,
         "source_link_click": 3
@@ -774,6 +777,9 @@
       },
       "ART-20260713-013016": {
         "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260713-013101": {
         "source_link_click": 1
       },
       "ART-20260714-013002": {
@@ -842,13 +848,15 @@
         "article_detail_open": 1
       },
       "ART-20260716-013199": {
-        "article_detail_open": 1
+        "article_detail_open": 2,
+        "source_link_click": 1
       },
       "ART-20260716-013256": {
         "source_link_click": 1
       },
       "ART-20260717-013007": {
-        "article_detail_open": 1
+        "article_detail_open": 2,
+        "source_link_click": 1
       },
       "ART-20260717-013065": {
         "source_link_click": 2
@@ -893,16 +901,20 @@
         "source_link_click": 1
       },
       "ART-20260718-013279": {
-        "source_link_click": 1
+        "article_detail_open": 1,
+        "source_link_click": 2
       },
       "ART-20260720-013309": {
         "article_detail_open": 1,
         "source_link_click": 2
+      },
+      "ART-20260721-013373": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 31
+        "market_page_visit": 32
       }
     },
     "project": {
@@ -986,6 +998,9 @@
       },
       "OMN-WATER-NORTH-BATINAH-IWP": {
         "project_detail_open": 2
+      },
+      "PAK-ENERGY-GRID-STABILITY-ENHANCEMENT": {
+        "project_detail_open": 1
       },
       "PAK-ENERGY-KOEN-SWAT-HYDROPOWER": {
         "project_detail_open": 1
@@ -2944,6 +2959,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260709-012630",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-23T23:32:33.071Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260709-012670",
       "eventType": "article_detail_open",
       "count": 1,
@@ -3133,6 +3155,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260713-013101",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-23T23:34:11.706Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260714-013002",
       "eventType": "article_detail_open",
       "count": 1,
@@ -3310,8 +3339,15 @@
       "targetType": "article",
       "targetId": "ART-20260716-013199",
       "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-24T02:28:04.548Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260716-013199",
+      "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-07-20T02:17:16.058Z"
+      "updatedAt": "2026-07-24T02:28:28.004Z"
     },
     {
       "targetType": "article",
@@ -3324,8 +3360,15 @@
       "targetType": "article",
       "targetId": "ART-20260717-013007",
       "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-24T02:35:52.126Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260717-013007",
+      "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-07-20T02:19:32.194Z"
+      "updatedAt": "2026-07-24T02:36:06.159Z"
     },
     {
       "targetType": "article",
@@ -3442,9 +3485,16 @@
     {
       "targetType": "article",
       "targetId": "ART-20260718-013279",
-      "eventType": "source_link_click",
+      "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-07-21T05:41:30.212Z"
+      "updatedAt": "2026-07-24T02:26:14.942Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260718-013279",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-24T02:26:15.655Z"
     },
     {
       "targetType": "article",
@@ -3461,11 +3511,18 @@
       "updatedAt": "2026-07-22T01:18:50.766Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260721-013373",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-23T23:30:58.368Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 31,
-      "updatedAt": "2026-07-22T06:13:07.280Z"
+      "count": 32,
+      "updatedAt": "2026-07-24T02:26:09.147Z"
     },
     {
       "targetType": "project",
@@ -3655,6 +3712,13 @@
       "eventType": "project_detail_open",
       "count": 2,
       "updatedAt": "2026-07-02T00:09:55.377Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "PAK-ENERGY-GRID-STABILITY-ENHANCEMENT",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-23T23:32:21.781Z"
     },
     {
       "targetType": "project",
