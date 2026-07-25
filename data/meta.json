@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T19:30:49.688Z",
+  "updatedAt": "2026-07-25T20:27:35.634Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,30 +28,103 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7443,
-    "projects": 3283
+    "articles": 7491,
+    "projects": 3309
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260724-013378",
-        "ART-20260723-013379",
-        "ART-20260723-013380"
+        "ART-20260725-013381",
+        "ART-20260724-013382",
+        "ART-20260724-013386",
+        "ART-20260724-013400",
+        "ART-20260724-013407",
+        "ART-20260724-013410",
+        "ART-20260724-013412",
+        "ART-20260723-013384",
+        "ART-20260723-013392",
+        "ART-20260723-013393",
+        "ART-20260723-013394",
+        "ART-20260723-013404",
+        "ART-20260723-013405",
+        "ART-20260723-013406",
+        "ART-20260723-013408",
+        "ART-20260723-013409",
+        "ART-20260723-013411",
+        "ART-20260723-013413",
+        "ART-20260723-013414",
+        "ART-20260723-013422",
+        "ART-20260722-013383",
+        "ART-20260722-013387",
+        "ART-20260722-013390",
+        "ART-20260722-013391",
+        "ART-20260722-013396",
+        "ART-20260722-013397",
+        "ART-20260722-013400",
+        "ART-20260722-013401",
+        "ART-20260722-013402",
+        "ART-20260722-013415",
+        "ART-20260722-013417",
+        "ART-20260722-013419",
+        "ART-20260722-013420",
+        "ART-20260722-013421",
+        "ART-20260721-013385",
+        "ART-20260721-013388",
+        "ART-20260721-013389",
+        "ART-20260721-013395",
+        "ART-20260721-013398",
+        "ART-20260721-013399",
+        "ART-20260721-013403",
+        "ART-20260721-013406",
+        "ART-20260721-013407",
+        "ART-20260721-013408",
+        "ART-20260721-013409",
+        "ART-20260721-013410",
+        "ART-20260721-013416",
+        "ART-20260721-013418"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "IND-DIGITAL-ODISHA-SOVEREIGN-AI-DC",
+        "IDN-OILGAS-MAKASSAR-NORTH-HUB",
+        "IND-RAIL-BALLARI-GUNTAKAL-3RD4THLINE",
+        "ROU-ENERGY-CET2-HOLBOCA-PV",
+        "IND-URBANRAIL-GREATER-NOIDA-WEST-EXT",
+        "MYS-DIGITAL-KLANGVALLEY-275KV-CLS-DC",
+        "ROU-ENERGY-FANTANELE-VEST-BESS",
+        "ROU-PORT-CANOPUS-GRAIN-TERMINAL-EXP",
+        "RUS-ROAD-ADLER-BORDER-CHECKPOINT-RECON",
+        "IDN-AIR-KERTAJATI-MRO-HUB",
+        "IDN-ENERGY-GREEN-HYDROGEN-CORRIDOR",
+        "IND-WATER-MANORI-DESAL-TUNNEL",
+        "MYS-DIGITAL-KOTASAS-SMART-TOWNSHIP-CONNECTIVITY",
+        "MYS-RAIL-ECRL",
+        "PHL-ROAD-NOVELEX",
+        "PHL-URBAN-MAKABAGONG-SANJUAN-HOUSING",
+        "POL-PORT-GDYNIA-INTERMODAL-TERMINAL",
+        "POL-ROAD-NOWYSACZ-DUNAJEC-BRIDGE",
+        "IDN-PORT-BENOA-BALI-MARINA",
+        "IND-AIR-BIRPUR-CODE2B-UPGRADE",
+        "MYS-URBAN-KLCC-PERSIARAN-MIXED-DEV",
+        "PHL-IND-TOKAI-LIMA-WAREHOUSE",
+        "POL-ENERGY-CLIP-SWARZEDZ-BESS",
+        "POL-IND-ROPCZYCE-CONTAINER-TERMINAL",
+        "ROU-PORT-CSCT-ELECTRIFICATION",
+        "ROU-RAIL-FILIASI-IGIROASA-REHAB"
+      ],
       "updated": [
-        "THA-TRANSPORT-LAND-BRIDGE-SEC"
+        "BGD-IND-CEIZ-SUPPORT-INFRA",
+        "ROU-ENERGY-GURA-IALOMITEI-BESS"
       ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026. 7. 26",
-    "articlePublishedDate": "2026. 7. 24",
-    "projectUpdatedDate": "2026. 7. 24"
+    "articlePublishedDate": "2026. 7. 25",
+    "projectUpdatedDate": "2026. 7. 25"
   }
 }
