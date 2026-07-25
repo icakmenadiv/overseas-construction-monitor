@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T19:22:23.436Z",
+  "updatedAt": "2026-07-25T19:30:49.688Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,28 +24,34 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7440,
+    "articles": 7443,
     "projects": 3283
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260724-013378",
+        "ART-20260723-013379",
+        "ART-20260723-013380"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [],
-      "updated": [],
+      "updated": [
+        "THA-TRANSPORT-LAND-BRIDGE-SEC"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 22",
-    "articlePublishedDate": "2026. 7. 21",
-    "projectUpdatedDate": "2026. 7. 21"
+    "articleCollectedDate": "2026. 7. 26",
+    "articlePublishedDate": "2026. 7. 24",
+    "projectUpdatedDate": "2026. 7. 24"
   }
 }
