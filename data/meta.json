@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T04:21:40.915Z",
+  "updatedAt": "2026-07-28T06:46:09.060Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,35 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7534,
-    "projects": 3330
+    "articles": 7539,
+    "projects": 3335
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260717-013471",
+        "ART-20260717-013472",
+        "ART-20260717-013473",
+        "ART-20260717-013474",
+        "ART-20260717-013475"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "IRQ-ENERGY-DIWANIYAH-POWER-EXP",
+        "IRQ-ENERGY-KARBALA-POWER-EXP",
+        "IRQ-ENERGY-MANSOURIYA-I-POWER",
+        "IRQ-ENERGY-MULLAABDULLAH-POWER-EXP",
+        "IRQ-ENERGY-SAUDI-HVDC-INTERCONNECTION"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 26",
+    "articleCollectedDate": "2026. 7. 28",
     "articlePublishedDate": "2026. 7. 25",
     "projectUpdatedDate": "2026. 7. 25"
   }
