@@ -30,6 +30,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AUS-BRIDGE-SHEAHAN-NORTHBOUND-REPLACEMENT",
+    "프로젝트명": "Northbound Sheahan Bridge Replacement Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "교통",
+    "발주처": "Transport for NSW / Australian Government / NSW Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "원문에서 AUD 20mn 계획·조사 재원은 확인되나 전체 교량 교체 사업비는 미공개.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 28",
+    "대표 기사 고유값": "ART-20260728-013527",
+    "비고": "Hume Highway Gundagai northbound Sheahan Bridge 교체사업. 기존 위치 신설 교량안이 우선대안으로 선정됐고, Transport for NSW가 개념설계·환경평가를 진행해 2027년 중반 지역사회 의견수렴 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "FJI-BRIDGE-CRITICAL-BRIDGES-ADB-WB",
     "프로젝트명": "Fiji Critical Bridges Resilience Programme - Four Priority Bridge Contracts",
     "지역": "태평양",
@@ -102,6 +117,36 @@
     "최근 업데이트일": "2026. 7. 27",
     "대표 기사 고유값": "ART-20260727-013504",
     "비고": "Mendoza Doble Vía del Este - RP66 3단계 6km 신설 구간. Cartellone와 계약 체결, 공기 20개월. 후속 착공, 공정률, RN7 인터체인지 별도 입찰 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AUS-AIR-WSI-CARGO-PRECINCT",
+    "프로젝트명": "Western Sydney International Airport Cargo Precinct Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "교통",
+    "발주처": "Western Sydney International Airport / Australian Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 보도에서 cargo precinct 독립 총사업비 또는 계약금액은 미공개. Western Sydney 광역 투자액 약 AUD 18bn은 단일 프로젝트 사업비로 사용하지 않음.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026. 7. 27",
+    "대표 기사 고유값": "ART-20260727-013526",
+    "비고": "Western Sydney International Airport 화물 프리싱트. 1단계는 광동체 화물기 8대 또는 협동체 화물기 16대 동시 처리, 장기 연간 최대 180만 톤 항공화물 처리 목표. 2026-07-27 첫 화물 운항 개시, 2026-10-25 여객 개항 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AUS-SOC-MACQUARIE-POINT-STADIUM",
+    "프로젝트명": "Macquarie Point Multipurpose Stadium Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "사회인프라",
+    "발주처": "Tasmanian Government / Macquarie Point Development Corporation / Australian Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 보도에서 연방 기여금 AUD 240mn은 확인되나 스타디움 전체 총사업비 또는 본공사 계약금액은 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 27",
+    "대표 기사 고유값": "ART-20260727-013529",
+    "비고": "Hobart Macquarie Point 다목적 스타디움 및 도시재생 핵심시설. Hazell Bros가 2027년 중반까지 벌크 토공, 100,000m3 굴착, 부지 준비·고고학 조사를 수행. 본공사 시공사는 2026년 말 선정 예정.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -225,6 +270,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AUS-ROAD-KWINANA-FREEWAY-UPGRADE",
+    "프로젝트명": "Kwinana Freeway Upgrade Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "교통",
+    "발주처": "Australian Government / Western Australian Government / Main Roads WA",
+    "사업비(달러 기준 추정액)": "USD 490mn",
+    "사업비 환산 환율 / 기준": "원문: AUD 700mn. Wise 2026-07-26 AUD/USD 0.7000 기준 약 USD 490mn으로 환산.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026. 7. 26",
+    "대표 기사 고유값": "ART-20260726-013524",
+    "비고": "Perth 남부 Kwinana Freeway Roe Hwy~Safety Bay Rd 업그레이드. Russell Rd~Mortimer Rd 11km 양방향 3차로 확장, 추가 차로, 램프 신호, 방호시설 개선 포함. CPB Contractors·McConnell Dowell·Arup·Jacobs 컨소시엄 우선협상대상자 선정. 후속 계약수여, 상세설계, 승인 및 2027년 착공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BOL-ROAD-ZAPANA-SANTAROSA-TARACO",
     "프로젝트명": "Cruce Zapana-Santa Rosa de Taraco Road Project",
     "지역": "중남미",
@@ -330,6 +390,51 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AUS-IND-OSBORNE-SUBMARINE-YARD",
+    "프로젝트명": "Nuclear-Powered Submarine Construction Yard at Osborne",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "산업·물류",
+    "발주처": "Australian Naval Infrastructure (ANI) / Australian Government / South Australian Government",
+    "사업비(달러 기준 추정액)": "USD 5.93bn",
+    "사업비 환산 환율 / 기준": "원문: 호주 정부 건조시설 기여액 AUD 8.5bn(추가 투자 AUD 4.6bn 포함). Wise 2026-07-24 AUD/USD 0.6981 기준 약 USD 5.93bn으로 환산.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 24",
+    "대표 기사 고유값": "ART-20260724-013523",
+    "비고": "Osborne 핵잠수함 건조시설. AUKUS 핵잠수함 생산 기반 조성을 위한 국가급 산업 인프라로 Skills and Training Academy, Production Demonstration Facilities, 설계·PM 활동 포함. ANI 계약 패키지, BAE Systems·ASC 참여 범위, 2028년 훈련시설 운영개시 및 후속 공사계약 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AUS-ROAD-NEWELL-MOREE-PAVEMENT-UPGRADE",
+    "프로젝트명": "Newell Highway North of Moree Pavement Upgrade Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "교통",
+    "발주처": "Australian Government / NSW Government",
+    "사업비(달러 기준 추정액)": "USD 126.4mn",
+    "사업비 환산 환율 / 기준": "원문: AUD 181mn. Wise 2026-07-24 AUD/USD 0.6981 기준 약 USD 126.4mn으로 환산.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 24",
+    "대표 기사 고유값": "ART-20260724-013528",
+    "비고": "Newell Highway Moree 북쪽 14.9km 포장·안전개량. 중차량용 포장, 차로·갓길·중앙분리 간격 확장, 교차로·배수·홍수회복력 개선 포함. 초기공사 2027년 중반, 건설계약 2028년 수여 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AUS-ROAD-NORTH-EAST-LINK",
+    "프로젝트명": "North East Link Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "교통",
+    "발주처": "Australian Government / Victorian Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 보도에서 터널 길이와 공정은 확인되나 총사업비 또는 계약금액은 해당 기사에 명시되지 않음.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 24",
+    "대표 기사 고유값": "ART-20260724-013525",
+    "비고": "Melbourne North East Link 6.5km 쌍굴 도로터널 및 연계 고속도로 업그레이드. 2026-07-24 기준 터널 굴착 완료, 피트아웃·램프·관제센터 등 후속 공정 진행. 2028년 개통 목표. 후속 피트아웃 완료, Eastern Freeway·M80 연계 공정 및 개통 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BGD-IND-CEIZ-SUPPORT-INFRA",
     "프로젝트명": "Supporting Infrastructure Project for Chinese Economic and Industrial Zone",
     "지역": "아시아",
@@ -387,21 +492,6 @@
     "최근 업데이트일": "2026. 7. 24",
     "대표 기사 고유값": "ART-20260724-013488",
     "비고": "Coca-Dayuma(E45A) 도로의 Indillama, Cóndor, Salado Bajo, Salado Alto 4개 차량교량 건설. 2026-07-24 기준 공정률은 각각 90%, 99.95%, 98.54%, 93.50%. 후속 준공·개통 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "GUM-WATER-AAFB-P104-WELL-SYSTEM",
-    "프로젝트명": "P-104 AAFB Water Well System Project",
-    "지역": "태평양",
-    "국가": "괌",
-    "섹터": "수자원·환경",
-    "발주처": "U.S. Department of the Navy / NAVFAC Pacific / Andersen Air Force Base",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-24 KUAM 보도 및 NAVFAC 2026-07-23 공식 발표 기준 P-104 PA Memo #1 의견수렴과 상수도 공급정·수직 터빈 펌프·전기동 건설 범위만 확인됨.",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 7. 24",
-    "대표 기사 고유값": "ART-20260724-013523",
-    "비고": "Andersen Air Force Base 내 상수도 공급정, 수직 터빈 펌프, 전기동을 포함하는 P-104 물 공급정 시스템 건설사업. 2026-07-24 KUAM 보도 기준 미 해군이 45일 의견수렴을 개시했고, NAVFAC 공식 발표 기준 의견 제출 기한은 2026-09-06. 후속으로 PA 검토 완료, 설계·입찰공고, 시공계약, 착공 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

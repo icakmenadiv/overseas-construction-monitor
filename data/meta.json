@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T18:24:00.484Z",
+  "updatedAt": "2026-07-28T19:46:55.335Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,99 +24,43 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 7594,
-    "projects": 3363
+    "articles": 7601,
+    "projects": 3369
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260728-013495",
-        "ART-20260728-013502",
-        "ART-20260728-013505",
-        "ART-20260728-013506",
-        "ART-20260728-013507",
-        "ART-20260728-013513",
-        "ART-20260728-013514",
-        "ART-20260728-013516",
-        "ART-20260728-013520",
-        "ART-20260727-013488",
-        "ART-20260727-013493",
-        "ART-20260727-013494",
-        "ART-20260727-013503",
-        "ART-20260727-013504",
-        "ART-20260727-013508",
-        "ART-20260727-013509",
-        "ART-20260727-013511",
-        "ART-20260727-013517",
-        "ART-20260727-013521",
-        "ART-20260726-013492",
-        "ART-20260725-013491",
-        "ART-20260724-013488",
-        "ART-20260724-013489",
-        "ART-20260724-013490",
-        "ART-20260724-013496",
-        "ART-20260724-013497",
-        "ART-20260724-013498",
-        "ART-20260724-013499",
-        "ART-20260724-013500",
-        "ART-20260724-013501",
-        "ART-20260724-013502",
-        "ART-20260724-013503",
-        "ART-20260724-013505",
-        "ART-20260724-013506",
-        "ART-20260724-013507",
-        "ART-20260724-013510",
-        "ART-20260724-013512",
-        "ART-20260724-013515",
-        "ART-20260724-013516",
-        "ART-20260724-013518",
-        "ART-20260724-013519",
-        "ART-20260724-013522",
+        "ART-20260728-013527",
+        "ART-20260728-013530",
+        "ART-20260727-013526",
+        "ART-20260727-013529",
+        "ART-20260726-013524",
+        "ART-20260724-013525",
+        "ART-20260724-013528"
+      ],
+      "updated": [
         "ART-20260724-013523"
       ],
-      "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "ARG-ENERGY-LOS-NIHUILES-HYDRO-CONCESSION",
-        "ARG-ROAD-RAWSON-TRELEW-AUTOVIA",
-        "FJI-BRIDGE-CRITICAL-BRIDGES-ADB-WB",
-        "MEX-ROAD-KUKULCAN-INTERCHANGE",
-        "ARG-ROAD-DOBLEVIA-ESTE-RP66-STAGE3",
-        "BRA-ENERGY-JAGUARA-HYDRO-EXPANSION",
-        "BRA-WATERWAY-PARAGUAY-CONCESSION",
-        "CHL-ROAD-PUENTE-LOSALDES-REPLACEMENT",
-        "FJI-SOC-VIRIA-EVAC-CENTRE",
-        "PAN-ROAD-RUTA-CAFE-BOQUETE",
-        "SLV-WATER-SANDIEGO-DESALINATION",
-        "DOM-ROAD-ANILLO-VERDE-SANCRISTOBAL",
-        "ARG-WATER-RIO-ARECO-CHANNEL-UPGRADE",
-        "ECU-ROAD-COCA-DAYUMA-BRIDGES",
-        "GUM-WATER-AAFB-P104-WELL-SYSTEM",
-        "NZL-RAIL-GLENINNES-STATION-PEDBRIDGE",
-        "NZL-TRANSIT-EASTERN-BUSWAY",
-        "PAN-BRIDGE-RIO-NEGRO-CHANGUINOLA",
-        "PAN-ROAD-ALTOBOQUETE-CALDERA-LOSVALLES",
-        "PER-ROAD-AREQUIPA-LA-JOYA-COMP3",
-        "PER-ROAD-EVITAMIENTO-CHICLAYO-NORTE",
-        "PER-TRANSPORT-PIURA-SIT",
-        "PER-WATER-PTAR-PUERTO-MALDONADO"
+        "AUS-BRIDGE-SHEAHAN-NORTHBOUND-REPLACEMENT",
+        "AUS-AIR-WSI-CARGO-PRECINCT",
+        "AUS-SOC-MACQUARIE-POINT-STADIUM",
+        "AUS-ROAD-KWINANA-FREEWAY-UPGRADE",
+        "AUS-IND-OSBORNE-SUBMARINE-YARD",
+        "AUS-ROAD-NEWELL-MOREE-PAVEMENT-UPGRADE",
+        "AUS-ROAD-NORTH-EAST-LINK"
       ],
-      "updated": [
-        "NZL-ROAD-TAKITIMU-NORTH-LINK-STAGE1",
-        "PRY-WATER-VILLA-HAYES-SUPPLY",
-        "DOM-ROAD-AUTOPISTA-AMBAR",
-        "BRA-ROAD-BR116SPPR-REGIS-OPT",
-        "PAN-OILGAS-ENERGY-CORRIDOR-PIPELINE",
-        "PRY-HOSP-GENERAL-CHACO",
-        "PRY-ROAD-BIOCEANIC-BRIDGE"
-      ],
-      "removed": []
+      "updated": [],
+      "removed": [
+        "GUM-WATER-AAFB-P104-WELL-SYSTEM"
+      ]
     }
   },
   "latest": {
