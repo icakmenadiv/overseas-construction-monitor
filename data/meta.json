@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T09:27:29.923Z",
+  "updatedAt": "2026-07-28T11:34:38.607Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,27 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260728-013477",
-        "ART-20260725-013476"
-      ],
-      "updated": [
-        "ART-20260724-013400",
-        "ART-20260724-013443",
-        "ART-20260720-013336",
-        "ART-20260720-013342",
-        "ART-20260717-013317",
-        "ART-20260717-013318",
-        "ART-20260717-013338",
-        "ART-20260717-013189"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "IRQ-OILGAS-AKKAS-GAS-FIELD",
-        "IRQ-OILGAS-QAYYARA-INTEGRATED"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
