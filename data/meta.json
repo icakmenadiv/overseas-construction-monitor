@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T15:35:19.716Z",
+  "updatedAt": "2026-07-28T17:06:33.701Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,38 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7541,
-    "projects": 3337
+    "articles": 7551,
+    "projects": 3340
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260728-013478",
+        "ART-20260728-013480",
+        "ART-20260728-013482",
+        "ART-20260727-013479",
+        "ART-20260727-013486",
+        "ART-20260726-013484",
+        "ART-20260724-013481",
+        "ART-20260724-013483",
+        "ART-20260724-013485",
+        "ART-20260723-013487"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "URY-ROAD-RUTA12-TALA-SANRAMON-REHAB",
+        "BOL-ROAD-ZAPANA-SANTAROSA-TARACO",
+        "BOL-ROAD-SANTABARBARA-CARANAVI"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 28",
+    "articleCollectedDate": "2026. 7. 29",
     "articlePublishedDate": "2026. 7. 28",
     "projectUpdatedDate": "2026. 7. 28"
   }

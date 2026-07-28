@@ -15,6 +15,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "URY-ROAD-RUTA12-TALA-SANRAMON-REHAB",
+    "프로젝트명": "Ruta 12 Tala-San Ramón Rehabilitation Project",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "교통",
+    "발주처": "Ministerio de Transporte y Obras Públicas (MTOP)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. Presidencia Uruguay 2026-07-28 기준 Ruta 12 Tala-San Ramón 재활공사 진행 및 Ruta 9 km 67.5 LED 76기 설치 착수만 확인됨.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 7. 28",
+    "대표 기사 고유값": "ART-20260728-013478",
+    "비고": "Canelones 주 Ruta 12 Tala-San Ramón 구간 재활 프로젝트. Presidencia 2026-07-28 보도 기준 공사 진행 중이며, 같은 보도에서 Ruta 9 km 67.5 회차부 LED 76기 설치 착수도 확인됨. Ruta 9 조명은 소규모 보조 안전시설로 별도 프로젝트를 만들지 않고, 후속 Ruta 12 준공·공정률·추가 구간 발주 여부를 같은 프로젝트 후보로 비교한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BOL-ROAD-ZAPANA-SANTAROSA-TARACO",
+    "프로젝트명": "Cruce Zapana-Santa Rosa de Taraco Road Project",
+    "지역": "중남미",
+    "국가": "볼리비아",
+    "섹터": "교통",
+    "발주처": "Gobernacion de La Paz / Taraco municipal stakeholders",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. Vision 360 2026-07-26 보도 기준 입찰 2026년 8월 예정, 착공 2026년 10월 목표, 공기 약 300일만 확인.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 7. 26",
+    "대표 기사 고유값": "ART-20260726-013484",
+    "비고": "Cruce Zapana-Santa Rosa de Taraco / Tambillo-Santa Rosa de Taraco Tramo 5 도로. Titicaca 호수 및 Desaguadero 도로 연결성 강화 목적. Santa Rosa에서 Coacollo까지 확장 가능성 언급. 후속 공식 입찰공고, 사업비, 연장, 계약·착공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IND-DIGITAL-ODISHA-SOVEREIGN-AI-DC",
     "프로젝트명": "Odisha Sovereign AI Park HCLTech AI Data Centre Project",
     "지역": "아시아",
@@ -72,6 +102,21 @@
     "최근 업데이트일": "2026. 7. 24",
     "대표 기사 고유값": "ART-20260724-013384",
     "비고": "Chattogram Anwara 783에이커 CEIZ 지원 인프라. 제티 연결도로, 내부도로망, 저수지, 가스 송전시설, CETP, 다목적 제티, 폐기물 집하시설, 경계벽, 변전소 포함. 2026-07-27 공식 기공식·서브리스 계약 예정, 시행기간 2027.1~2031.12, 중국 Exim Bank PBC 재원 제안.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BOL-ROAD-SANTABARBARA-CARANAVI",
+    "프로젝트명": "Santa Barbara-Caranavi Road Rehabilitation and Reconstruction Project",
+    "지역": "중남미",
+    "국가": "볼리비아",
+    "섹터": "교통",
+    "발주처": "Administradora Boliviana de Carreteras (ABC) / CAF",
+    "사업비(달러 기준 추정액)": "USD 95mn",
+    "사업비 환산 환율 / 기준": "EL DEBER 2026-07-24 보도 기준 CAF approved USD 95mn loan for complementary works on Santa Barbara-Caranavi Tramo I.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026. 7. 24",
+    "대표 기사 고유값": "ART-20260724-013483",
+    "비고": "Ruta 3 Santa Barbara-Caranavi 60km 중 Santa Barbara-Chojna 38.2km 보완공사. 강성·연성 포장, 고가교 5개, 반교 8개, 배수암거 96개, 배수·표지·사면 안정화 포함. 후속 차관계약, ABC/SICOES 입찰, 시공사·감리 선정, 착공 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
