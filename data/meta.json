@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T06:46:09.060Z",
+  "updatedAt": "2026-07-28T09:27:29.923Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,28 +28,31 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7539,
-    "projects": 3335
+    "articles": 7541,
+    "projects": 3337
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260717-013471",
-        "ART-20260717-013472",
-        "ART-20260717-013473",
-        "ART-20260717-013474",
-        "ART-20260717-013475"
+        "ART-20260728-013477",
+        "ART-20260725-013476"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20260724-013400",
+        "ART-20260724-013443",
+        "ART-20260720-013336",
+        "ART-20260720-013342",
+        "ART-20260717-013317",
+        "ART-20260717-013318",
+        "ART-20260717-013338",
+        "ART-20260717-013189"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "IRQ-ENERGY-DIWANIYAH-POWER-EXP",
-        "IRQ-ENERGY-KARBALA-POWER-EXP",
-        "IRQ-ENERGY-MANSOURIYA-I-POWER",
-        "IRQ-ENERGY-MULLAABDULLAH-POWER-EXP",
-        "IRQ-ENERGY-SAUDI-HVDC-INTERCONNECTION"
+        "IRQ-OILGAS-AKKAS-GAS-FIELD",
+        "IRQ-OILGAS-QAYYARA-INTEGRATED"
       ],
       "updated": [],
       "removed": []
@@ -57,7 +60,7 @@
   },
   "latest": {
     "articleCollectedDate": "2026. 7. 28",
-    "articlePublishedDate": "2026. 7. 25",
-    "projectUpdatedDate": "2026. 7. 25"
+    "articlePublishedDate": "2026. 7. 28",
+    "projectUpdatedDate": "2026. 7. 28"
   }
 }
