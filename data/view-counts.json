@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T19:53:23.451Z",
+  "updatedAt": "2026-07-28T03:32:32.466Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -886,13 +886,23 @@
         "article_detail_open": 1
       },
       "ART-20260717-013189": {
-        "article_detail_open": 1
+        "article_detail_open": 2,
+        "source_link_click": 1
       },
       "ART-20260717-013206": {
         "article_detail_open": 1
       },
       "ART-20260717-013233": {
         "source_link_click": 1
+      },
+      "ART-20260717-013317": {
+        "article_detail_open": 1
+      },
+      "ART-20260717-013318": {
+        "article_detail_open": 1
+      },
+      "ART-20260717-013338": {
+        "article_detail_open": 1
       },
       "ART-20260718-013173": {
         "article_detail_open": 1
@@ -907,6 +917,12 @@
       "ART-20260720-013309": {
         "article_detail_open": 1,
         "source_link_click": 2
+      },
+      "ART-20260720-013336": {
+        "article_detail_open": 1
+      },
+      "ART-20260720-013342": {
+        "article_detail_open": 1
       },
       "ART-20260721-013373": {
         "article_detail_open": 1
@@ -927,6 +943,9 @@
         "source_link_click": 1
       },
       "ART-20260724-013378": {
+        "source_link_click": 1
+      },
+      "ART-20260724-013443": {
         "source_link_click": 1
       }
     },
@@ -3469,8 +3488,15 @@
       "targetType": "article",
       "targetId": "ART-20260717-013189",
       "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-07-28T01:45:53.766Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260717-013189",
+      "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-07-20T02:21:22.084Z"
+      "updatedAt": "2026-07-28T01:47:50.082Z"
     },
     {
       "targetType": "article",
@@ -3485,6 +3511,27 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-20T00:29:31.350Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260717-013317",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-28T01:46:41.547Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260717-013318",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-28T01:46:33.660Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260717-013338",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-28T01:46:16.579Z"
     },
     {
       "targetType": "article",
@@ -3527,6 +3574,20 @@
       "eventType": "source_link_click",
       "count": 2,
       "updatedAt": "2026-07-22T01:18:50.766Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260720-013336",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-28T01:47:07.482Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260720-013342",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-28T01:46:58.540Z"
     },
     {
       "targetType": "article",
@@ -3576,6 +3637,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-07-26T23:36:32.329Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260724-013443",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-28T00:30:40.007Z"
     },
     {
       "targetType": "page",
