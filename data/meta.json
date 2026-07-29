@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T13:16:59.355Z",
+  "updatedAt": "2026-07-29T15:21:29.578Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,21 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7605,
-    "projects": 3373
+    "articles": 7606,
+    "projects": 3374
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260727-013534"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "USA-ENERGY-WEST-ALTON-ENERGY-CENTER"
+      ],
       "updated": [],
       "removed": []
     }

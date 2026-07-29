@@ -285,6 +285,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "USA-ENERGY-WEST-ALTON-ENERGY-CENTER",
+    "프로젝트명": "West Alton Energy Center",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "에너지",
+    "발주처": "Ameren Missouri / Missouri Public Service Commission approval interface",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2,100MW combined-cycle natural gas facility, 2031년 운영 목표, MoPSC 승인 대기.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 7. 27",
+    "대표 기사 고유값": "ART-20260727-013534",
+    "비고": "Missouri West Alton 기존 Sioux Energy Center 인근 2,100MW 복합화력 발전소. Ameren Missouri가 MoPSC에 신청서를 제출했고 규제승인 시 2031년 운영 개시 예상. 데이터센터 등 대형 수요 비용분담·계통접속 조건과 프로젝트 금융 방식이 핵심 쟁점. 후속 CCN/규제승인, EPC·터빈 공급, 가스연계·송전접속, 착공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AUS-ROAD-KWINANA-FREEWAY-UPGRADE",
     "프로젝트명": "Kwinana Freeway Upgrade Project",
     "지역": "태평양",
