@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T18:47:33.714Z",
+  "updatedAt": "2026-07-29T19:38:42.842Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 7638,
@@ -33,29 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260729-013561",
-        "ART-20260729-013562",
-        "ART-20260729-013563",
-        "ART-20260728-013557",
-        "ART-20260728-013558",
-        "ART-20260728-013559",
-        "ART-20260728-013560",
-        "ART-20260727-013559",
-        "ART-20260727-013564",
-        "ART-20260725-013557"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "FJI-DIGITAL-GOOGLE-NATADOLA-CABLE-LANDING",
-        "NZL-ROAD-BELFAST-PEGASUS-WOODEND-BYPASS",
-        "MEX-OILGAS-ECA-LNG-PHASE1",
-        "MEX-ROAD-SALINACRUZ-ZIHUATANEJO",
-        "BRA-METRO-DF-LINE1-CEILANDIA-EXT"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
