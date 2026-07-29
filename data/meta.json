@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T11:33:25.058Z",
+  "updatedAt": "2026-07-29T13:16:59.355Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,20 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260629-013532",
-        "ART-20260629-013533",
-        "ART-20260520-013531"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "SGP-URBAN-HDB-PROJECT-CM-CN",
-        "SGP-URBAN-HDB-PROJECT-DU",
-        "SGP-WATER-IWMF-PHASE2"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
