@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T16:42:00.976Z",
+  "updatedAt": "2026-07-29T17:54:05.007Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,66 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7606,
-    "projects": 3374
+    "articles": 7628,
+    "projects": 3386
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260729-013546",
+        "ART-20260729-013550",
+        "ART-20260729-013551",
+        "ART-20260728-013535",
+        "ART-20260728-013536",
+        "ART-20260728-013537",
+        "ART-20260728-013539",
+        "ART-20260728-013540",
+        "ART-20260728-013542",
+        "ART-20260728-013545",
+        "ART-20260728-013547",
+        "ART-20260728-013549",
+        "ART-20260728-013556",
+        "ART-20260727-013538",
+        "ART-20260727-013544",
+        "ART-20260727-013548",
+        "ART-20260727-013554",
+        "ART-20260727-013555",
+        "ART-20260726-013549",
+        "ART-20260725-013543",
+        "ART-20260725-013553",
+        "ART-20260624-013541"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ARG-RAIL-SARMIENTO-ONCE-MORENO-TRACK-RENEWAL",
+        "ARG-ROAD-LARIOJA-MALLA304-CREMA",
+        "PRY-WATER-SANIGNACIO-GUAZU-SANITATION",
+        "BOL-ENERGY-IDTRIII-MONTECRISTO-TIQUIN-MINIGRID",
+        "BOL-ENERGY-IDTRIII-PISOFIRME-HYBRID-MINIGRID",
+        "DOM-URBAN-PLAYA-ELFARO-SPM",
+        "ECU-HOUSING-PORTO-ALEGRE-CONOCOTO",
+        "PAN-ROAD-LAESTRELLA-CHIRIQUI",
+        "PRY-ROAD-CAACUPE-PIRIBEBUY-PAVING",
+        "NIC-HOSP-ACOYAPA-BENDITO",
+        "PRY-SOC-HOSPITAL-NACIONAL-ITAUGUA-MODERNIZATION",
+        "DOM-HOSP-HACIENDA-ESTRELLA-REMODEL"
+      ],
+      "updated": [
+        "COL-WATER-CANAL-DIQUE-RESTORATION",
+        "ARG-ROAD-RFC-ETAPA-IIB",
+        "BOL-ROAD-PACATA-INTERCHANGE",
+        "PRY-ENERGY-ASUNCION-HV-UNDERGROUNDING",
+        "CHL-PORT-SANANTONIO-PUERTO-EXTERIOR"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 29",
-    "articlePublishedDate": "2026. 7. 28",
-    "projectUpdatedDate": "2026. 7. 28"
+    "articleCollectedDate": "2026. 7. 30",
+    "articlePublishedDate": "2026. 7. 29",
+    "projectUpdatedDate": "2026. 7. 29"
   }
 }
