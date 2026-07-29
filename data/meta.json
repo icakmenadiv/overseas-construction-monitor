@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T03:34:53.417Z",
+  "updatedAt": "2026-07-29T06:16:45.561Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,21 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7601,
-    "projects": 3369
+    "articles": 7602,
+    "projects": 3370
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260727-013478"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "IRQ-RAIL-KERMANSHAH-KHOSRAVI-KHANAQIN-BAGHDAD"
+      ],
       "updated": [],
       "removed": []
     }
