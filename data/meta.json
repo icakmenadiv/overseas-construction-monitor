@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T09:11:16.361Z",
+  "updatedAt": "2026-07-29T11:33:25.058Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,32 +28,25 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7602,
-    "projects": 3370
+    "articles": 7605,
+    "projects": 3373
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260728-013502",
-        "ART-20260728-013505",
-        "ART-20260727-013479",
-        "ART-20260726-013492",
-        "ART-20260724-013496",
-        "ART-20260724-013497",
-        "ART-20260724-013499",
-        "ART-20260724-013501",
-        "ART-20260724-013502",
-        "ART-20260724-013506",
-        "ART-20260724-013507",
-        "ART-20260724-013515",
-        "ART-20260724-013516",
-        "ART-20260724-013523"
+      "added": [
+        "ART-20260629-013532",
+        "ART-20260629-013533",
+        "ART-20260520-013531"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "SGP-URBAN-HDB-PROJECT-CM-CN",
+        "SGP-URBAN-HDB-PROJECT-DU",
+        "SGP-WATER-IWMF-PHASE2"
+      ],
       "updated": [],
       "removed": []
     }
