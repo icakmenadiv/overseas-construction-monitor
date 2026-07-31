@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T19:49:54.452Z",
+  "updatedAt": "2026-07-31T03:48:11.920Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -946,7 +946,8 @@
         "source_link_click": 1
       },
       "ART-20260724-013400": {
-        "source_link_click": 1
+        "article_detail_open": 1,
+        "source_link_click": 2
       },
       "ART-20260724-013443": {
         "source_link_click": 1
@@ -999,7 +1000,11 @@
         "source_link_click": 1
       },
       "ART-20260728-013505": {
-        "article_detail_open": 2
+        "article_detail_open": 4
+      },
+      "ART-20260728-013514": {
+        "article_detail_open": 1,
+        "source_link_click": 1
       },
       "ART-20260728-013557": {
         "article_detail_open": 1,
@@ -1007,11 +1012,14 @@
       },
       "ART-20260728-013558": {
         "article_detail_open": 1
+      },
+      "ART-20260729-013550": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 32
+        "market_page_visit": 33
       }
     },
     "project": {
@@ -3701,9 +3709,16 @@
     {
       "targetType": "article",
       "targetId": "ART-20260724-013400",
-      "eventType": "source_link_click",
+      "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-07-28T07:13:51.746Z"
+      "updatedAt": "2026-07-31T00:53:33.856Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260724-013400",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-07-31T00:53:25.512Z"
     },
     {
       "targetType": "article",
@@ -3849,8 +3864,22 @@
       "targetType": "article",
       "targetId": "ART-20260728-013505",
       "eventType": "article_detail_open",
-      "count": 2,
-      "updatedAt": "2026-07-30T00:10:47.395Z"
+      "count": 4,
+      "updatedAt": "2026-07-31T01:21:24.936Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260728-013514",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-31T00:53:02.054Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260728-013514",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-07-31T00:53:14.229Z"
     },
     {
       "targetType": "article",
@@ -3874,11 +3903,18 @@
       "updatedAt": "2026-07-30T00:08:46.263Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260729-013550",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-07-31T00:51:33.907Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 32,
-      "updatedAt": "2026-07-24T02:26:09.147Z"
+      "count": 33,
+      "updatedAt": "2026-07-31T00:24:59.467Z"
     },
     {
       "targetType": "project",
