@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T03:52:27.143Z",
+  "updatedAt": "2026-08-03T10:03:57.822Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1009,6 +1009,9 @@
         "article_detail_open": 1,
         "source_link_click": 1
       },
+      "ART-20260728-013549": {
+        "article_detail_open": 2
+      },
       "ART-20260728-013557": {
         "article_detail_open": 1,
         "source_link_click": 1
@@ -1022,7 +1025,7 @@
     },
     "page": {
       "market-home": {
-        "market_page_visit": 33
+        "market_page_visit": 34
       }
     },
     "project": {
@@ -3893,6 +3896,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260728-013549",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-08-03T06:44:24.380Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260728-013557",
       "eventType": "article_detail_open",
       "count": 1,
@@ -3923,8 +3933,8 @@
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 33,
-      "updatedAt": "2026-07-31T00:24:59.467Z"
+      "count": 34,
+      "updatedAt": "2026-08-03T06:45:05.612Z"
     },
     {
       "targetType": "project",
