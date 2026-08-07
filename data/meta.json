@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T17:58:01.079Z",
+  "updatedAt": "2026-08-07T18:53:09.705Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,43 +28,50 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7648,
-    "projects": 3396
+    "articles": 7664,
+    "projects": 3404
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260807-013569",
-        "ART-20260807-013573",
-        "ART-20260806-013565",
-        "ART-20260806-013574",
-        "ART-20260805-013566",
-        "ART-20260805-013570",
-        "ART-20260805-013571",
-        "ART-20260804-013567",
-        "ART-20260804-013568",
-        "ART-20260804-013572"
+        "ART-20260807-013577",
+        "ART-20260807-013578",
+        "ART-20260807-013580",
+        "ART-20260807-013581",
+        "ART-20260807-013586",
+        "ART-20260807-013587",
+        "ART-20260807-013588",
+        "ART-20260806-013576",
+        "ART-20260806-013585",
+        "ART-20260806-013589",
+        "ART-20260805-013575",
+        "ART-20260805-013579",
+        "ART-20260805-013584",
+        "ART-20260804-013583",
+        "ART-20260804-013590",
+        "ART-20260803-013582"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "CHL-ROAD-RUTA150-CONCEPCION-TALCAHUANO-CORRIDOR",
-        "CHL-ROAD-RUTA160-TRANSIT-CORRIDOR",
-        "DOM-WATER-CANADA-JUANVALDEZ",
-        "DOM-WATER-CANADA-LOSGIRASOLES",
-        "NIC-PORT-CORINTO-BULK-TERMINAL"
+        "AUS-SOC-REDCLIFFE-HOSPITAL-EXPANSION",
+        "USA-IND-TEXAS-TERAFAB",
+        "NPL-POWER-BAJHANG-BANLEK-400KV",
+        "NZL-RAIL-AUCKLAND-CITY-RAIL-LINK",
+        "AUS-SOC-MANDURAH-HOSPITAL",
+        "NZL-URBAN-DOWNTOWN-CARPARK-REDEVELOPMENT",
+        "USA-WATER-CADIZ-NORTHERN-PIPELINE",
+        "USA-WATER-DEATH-VALLEY-WW-REHAB"
       ],
-      "updated": [
-        "ARG-PORT-VILLA-CONSTITUCION-TERMINAL-I"
-      ],
+      "updated": [],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026. 8. 8",
     "articlePublishedDate": "2026. 8. 7",
-    "projectUpdatedDate": "2026. 8. 7"
+    "projectUpdatedDate": "2026-08-07"
   }
 }

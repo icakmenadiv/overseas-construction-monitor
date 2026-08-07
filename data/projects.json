@@ -1,5 +1,20 @@
 [
   {
+    "프로젝트 고유값": "AUS-SOC-REDCLIFFE-HOSPITAL-EXPANSION",
+    "프로젝트명": "Redcliffe Hospital Expansion Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "사회인프라",
+    "발주처": "Queensland Government / Health Infrastructure Queensland / Metro North Health",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-07 기사와 현행 정부 사업 페이지에서 개편 후 최종 총사업비·본공사 계약금액 미공개. 과거 CEP 금액은 현 사업비로 혼용하지 않음.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026-08-07",
+    "대표 기사 고유값": "ART-20260807-013580",
+    "비고": "Moreton Bay 권역 Redcliffe Hospital에 최소 210개 입원병상, 산부인과·내시경·수술실, 보조시설과 주차공간을 확충하는 사업. Lendlease가 본공사 우선협상대상자로 선정됐으며 첫 병상은 2027년 말, 전체 완료는 2032년 목표. 최종 계약과 패키지별 착공 일정을 후속 확인.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "CHL-ROAD-RUTA150-CONCEPCION-TALCAHUANO-CORRIDOR",
     "프로젝트명": "Ruta 150 and Concepción-Talcahuano Public Transport Corridors Project",
     "지역": "중남미",
@@ -27,6 +42,21 @@
     "최근 업데이트일": "2026. 8. 7",
     "대표 기사 고유값": "ART-20260807-013569",
     "비고": "Biobío의 San Pedro de la Paz-Coronel 구간 약 14km에 중앙부 양방향 대중교통 전용회랑, 정류장, 보행·자전거 시설을 조성하는 사업. Grupo Azvi 계열 Consorcio Electro-Cointer 양허 절차는 정식 낙찰 decree 없이 종료되고 MOP 도로국 공공사업으로 전환됨. 2031년 준공 목표 유지 방침이며 한 달 내 세부 일정표 공개 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-IND-TEXAS-TERAFAB",
+    "프로젝트명": "SpaceX-Tesla TeraFab Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "산업·물류",
+    "발주처": "SpaceX / Tesla / xAI",
+    "사업비(달러 기준 추정액)": "USD 16.8bn",
+    "사업비 환산 환율 / 기준": "DCD 2026-08-07 보도에서 SpaceX·Tesla 공동 투자계획 USD 16.8bn 명시. 과거 세제신청의 USD 55bn·USD 119bn 단계별 시나리오는 혼용하지 않고 후속 공식 공시에서 재검증.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-07",
+    "대표 기사 고유값": "ART-20260807-013586",
+    "비고": "Texas Grimes County의 초대형 반도체 제조·패키징 복합시설. 완전 개발 시 100mn ft² 제조공간과 최소 3,000명 고용, Gibbons Creek Reservoir 산업용수 및 현장 폐수처리·재이용 시설을 계획. 재산세 감면은 확보했으나 본공사 계약·상세 일정·최종 CAPEX 재확인이 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -60,6 +90,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NPL-POWER-BAJHANG-BANLEK-400KV",
+    "프로젝트명": "Bajhang-Banlek (West Seti) 400 kV Transmission Line Project",
+    "지역": "아시아",
+    "국가": "네팔",
+    "섹터": "에너지",
+    "발주처": "National Transmission Grid Company Limited / Department of Electricity Development",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-06 Republica 기사에서 공식 사업비·계약금액이 공개되지 않음.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-08-06",
+    "대표 기사 고유값": "ART-20260806-013589",
+    "비고": "Bajhang Chainpur Substation-Doti Banlek 간 약 60km 400kV 송전선. 최대 2,500MW 전력 반출을 목표로 하며 DoED 건설승인 신청과 주민 의견수렴이 시작됨. 착수 후 5년 내 완료 목표로, 승인 이후 환경·토지 절차와 EPC 조달을 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NZL-RAIL-AUCKLAND-CITY-RAIL-LINK",
+    "프로젝트명": "Auckland City Rail Link (CRL) Project",
+    "지역": "태평양",
+    "국가": "뉴질랜드",
+    "섹터": "교통",
+    "발주처": "City Rail Link Limited / New Zealand Government / Auckland Council / Auckland Transport / KiwiRail",
+    "사업비(달러 기준 추정액)": "USD 3.17bn",
+    "사업비 환산 환율 / 기준": "원문: NZD 5.493bn. 2026-07-28 기존 운영 기준 1 NZD=약 USD 0.577 적용, 약 USD 3.17bn.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026. 8. 6",
+    "대표 기사 고유값": "ART-20260806-013576",
+    "비고": "Auckland 도심 3.45km 복선 지하철도와 Te Waihorotiu·Karanga-a-Hape 신규역, Maungawhau·Waitematā역 재개발. 2026-08-06 시험·시운전 및 안전검증 완료 후 2026-09-13 여객 개통일 확정. 실제 operation 전환과 초기 운행 성과 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARG-PORT-VILLA-CONSTITUCION-TERMINAL-I",
     "프로젝트명": "Puerto Villa Constitución Terminal I Concession Project",
     "지역": "중남미",
@@ -75,6 +135,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AUS-SOC-MANDURAH-HOSPITAL",
+    "프로젝트명": "New Mandurah Hospital Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "사회인프라",
+    "발주처": "Western Australian Government / Department of Health / West Alliance Health Alliance",
+    "사업비(달러 기준 추정액)": "USD 671mn",
+    "사업비 환산 환율 / 기준": "원문 공식 예산 AUD 950mn. 2026-08-05 AUD/USD 0.7062 적용, 약 USD 670.89mn을 USD 671mn으로 반올림.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-08-05",
+    "대표 기사 고유값": "ART-20260805-013579",
+    "비고": "기존 Peel Health Campus 부지의 Mandurah 신공공병원. Built·Sacyr JV 참여 West Alliance Health Alliance가 계약을 체결했으며 수주 내 본공사 착수, 2029년 초 운영 목표. 전문하도급·의료설비·시운전 패키지와 서호주 공급망 참여를 후속 확인.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "NZL-URBAN-DOWNTOWN-CARPARK-REDEVELOPMENT",
+    "프로젝트명": "Downtown Carpark Redevelopment - Te Pūmanawa o Tāmaki",
+    "지역": "태평양",
+    "국가": "뉴질랜드",
+    "섹터": "도시개발·주택",
+    "발주처": "Precinct Properties New Zealand Limited / Ngāti Whātua Ōrākei",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 기사와 패스트트랙 자료에서 단일 총사업비 또는 계약금액 미공개.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 8. 5",
+    "대표 기사 고유값": "ART-20260805-013575",
+    "비고": "Auckland Downtown Carpark 부지 약 170,000㎡ 복합개발. 기존 7층 주차장 철거 후 55층 오피스 타워, 162m 주거·복합 타워, 3개 포디움, 호텔·상업시설·공공공간·보행로 조성. 2026-08-05 패스트트랙 최종 승인. 후속 ECI, 개발투자 확정, 본공사 계약과 착공 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NIC-PORT-CORINTO-BULK-TERMINAL",
     "프로젝트명": "Puerto Corinto Specialized Bulk Terminal Project",
     "지역": "중남미",
@@ -87,6 +177,36 @@
     "최근 업데이트일": "2026. 8. 4",
     "대표 기사 고유값": "ART-20260804-013568",
     "비고": "Puerto Corinto 신규 전문 벌크터미널. 4개 사일로에 약 4만 톤을 저장하고 2번 부두의 연속하역설비와 연계해 시간당 600톤 처리, 선박 체류시간 60% 이상 단축을 목표로 한다. 2026-08-04 기사 기준 공정률 50%이며, 후속 사일로·하역설비 설치, 자동화, 시운전·준공과 2027년 항만 시스템 완전 가동 여부를 확인한다.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-WATER-CADIZ-NORTHERN-PIPELINE",
+    "프로젝트명": "Cadiz Northern Pipeline Conversion Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "수자원·환경",
+    "발주처": "Fenner Gap Mutual Water Company / Cadiz Inc.",
+    "사업비(달러 기준 추정액)": "USD 403.3mn",
+    "사업비 환산 환율 / 기준": "2026-08-04 기사와 2026-07-27 SEC 공시 인용 기준 총 추정비 USD 403.3mn. 별도 환산 없음.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-08-04",
+    "대표 기사 고유값": "ART-20260804-013583",
+    "비고": "California Mojave Desert-Central Valley 구간 220마일 기존 가스관을 연간 25,000 acre-feet 상수도 이송시설로 전환. W.M. Lyles는 펌프장, Mike Bubalo Construction은 관로교체·부대시설 CMAR 계약을 수행하며 2026년 9월 착공지시 가정. 금융·NTP·관재·펌프·발전설비 공급을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-WATER-DEATH-VALLEY-WW-REHAB",
+    "프로젝트명": "Death Valley National Park Water and Wastewater Systems Rehabilitation Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "수자원·환경",
+    "발주처": "U.S. National Park Service / Perini Management Services, Inc.",
+    "사업비(달러 기준 추정액)": "USD 69.5mn",
+    "사업비 환산 환율 / 기준": "Tutor Perini 2026-08-03 공식 수주 발표의 계약금액 USD 69.5mn. 별도 환산 없음.",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-08-03",
+    "대표 기사 고유값": "ART-20260803-013582",
+    "비고": "California Death Valley National Park의 Furnace Creek·Cow Creek 상수도 및 공동 하수처리 시스템 재생사업. 관로·펌프장·식수정·역삼투 처리동·염소처리·제어설비·처리연못을 개선하며 2026년 가을 착공, 2029년 초 실질 준공 예정. 원도급 후속 공급·전문하도급 및 착공을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
