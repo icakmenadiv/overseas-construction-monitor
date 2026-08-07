@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T18:53:09.705Z",
+  "updatedAt": "2026-08-07T19:09:38.432Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 7664,
@@ -33,38 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260807-013577",
-        "ART-20260807-013578",
-        "ART-20260807-013580",
-        "ART-20260807-013581",
-        "ART-20260807-013586",
-        "ART-20260807-013587",
-        "ART-20260807-013588",
-        "ART-20260806-013576",
-        "ART-20260806-013585",
-        "ART-20260806-013589",
-        "ART-20260805-013575",
-        "ART-20260805-013579",
-        "ART-20260805-013584",
-        "ART-20260804-013583",
-        "ART-20260804-013590",
-        "ART-20260803-013582"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "AUS-SOC-REDCLIFFE-HOSPITAL-EXPANSION",
-        "USA-IND-TEXAS-TERAFAB",
-        "NPL-POWER-BAJHANG-BANLEK-400KV",
-        "NZL-RAIL-AUCKLAND-CITY-RAIL-LINK",
-        "AUS-SOC-MANDURAH-HOSPITAL",
-        "NZL-URBAN-DOWNTOWN-CARPARK-REDEVELOPMENT",
-        "USA-WATER-CADIZ-NORTHERN-PIPELINE",
-        "USA-WATER-DEATH-VALLEY-WW-REHAB"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
