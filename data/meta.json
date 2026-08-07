@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T17:07:01.735Z",
+  "updatedAt": "2026-08-07T17:58:01.079Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,43 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7638,
-    "projects": 3391
+    "articles": 7648,
+    "projects": 3396
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260807-013569",
+        "ART-20260807-013573",
+        "ART-20260806-013565",
+        "ART-20260806-013574",
+        "ART-20260805-013566",
+        "ART-20260805-013570",
+        "ART-20260805-013571",
+        "ART-20260804-013567",
+        "ART-20260804-013568",
+        "ART-20260804-013572"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CHL-ROAD-RUTA150-CONCEPCION-TALCAHUANO-CORRIDOR",
+        "CHL-ROAD-RUTA160-TRANSIT-CORRIDOR",
+        "DOM-WATER-CANADA-JUANVALDEZ",
+        "DOM-WATER-CANADA-LOSGIRASOLES",
+        "NIC-PORT-CORINTO-BULK-TERMINAL"
+      ],
+      "updated": [
+        "ARG-PORT-VILLA-CONSTITUCION-TERMINAL-I"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 7. 30",
-    "articlePublishedDate": "2026. 7. 29",
-    "projectUpdatedDate": "2026. 7. 29"
+    "articleCollectedDate": "2026. 8. 8",
+    "articlePublishedDate": "2026. 8. 7",
+    "projectUpdatedDate": "2026. 8. 7"
   }
 }
