@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T20:47:21.799Z",
+  "updatedAt": "2026-08-08T21:13:11.722Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,25 +28,22 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7668,
-    "projects": 3404
+    "articles": 7669,
+    "projects": 3405
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260807-013592",
-        "ART-20260807-013593",
-        "ART-20260806-013591",
-        "ART-20260805-013594"
+        "ART-20260805-013595"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [
-        "KAZ-ROAD-AKTOBE-ULGAISYN"
+      "added": [
+        "TKM-OILGAS-DASHOGUZ-FERTILIZER-COMPLEX"
       ],
+      "updated": [],
       "removed": []
     }
   },
