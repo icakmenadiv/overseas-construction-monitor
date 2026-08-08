@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T22:03:30.010Z",
+  "updatedAt": "2026-08-08T22:38:56.318Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,18 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260808-013597",
-        "ART-20260807-013596"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [],
-      "updated": [
-        "OMN-ENERGY-HYNFRA-GAO-DUQM"
-      ],
+      "updated": [],
       "removed": []
     }
   },
