@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T23:02:05.593Z",
+  "updatedAt": "2026-08-08T23:36:33.622Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,25 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260808-013598",
-        "ART-20260808-013599",
-        "ART-20260808-013600",
-        "ART-20260808-013605",
-        "ART-20260807-013601",
-        "ART-20260807-013602",
-        "ART-20260807-013603",
-        "ART-20260807-013604"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "BWA-IND-KHOEMACAU-EXPANSION",
-        "NGA-URBAN-NAVEEDA-PARK-GARDENS",
-        "BWA-ROAD-MODIPANE-MABALANE"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
