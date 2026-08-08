@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T21:44:58.239Z",
+  "updatedAt": "2026-08-08T22:03:30.010Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,29 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7669,
+    "articles": 7671,
     "projects": 3405
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260808-013597",
+        "ART-20260807-013596"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [],
-      "updated": [],
+      "updated": [
+        "OMN-ENERGY-HYNFRA-GAO-DUQM"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-08-09",
-    "articlePublishedDate": "2026-08-07",
+    "articlePublishedDate": "2026-08-08",
     "projectUpdatedDate": "2026-08-07"
   }
 }

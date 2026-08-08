@@ -45,6 +45,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "OMN-ENERGY-HYNFRA-GAO-DUQM",
+    "프로젝트명": "Green Ammonia Oman Project near Duqm",
+    "지역": "중동",
+    "국가": "오만",
+    "섹터": "에너지",
+    "발주처": "Hynfra PSA / Ohmium International",
+    "사업비(달러 기준 추정액)": "USD 5.4bn",
+    "사업비 환산 환율 / 기준": "2026-08-07 Oman Observer: estimated investment around USD 5.4bn; USD 표기라 환산 없음",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026-08-07",
+    "대표 기사 고유값": "ART-20260807-013596",
+    "비고": "두큼항 인근 Green Ammonia Oman 프로젝트. Hynfra가 약 2.6GW 재생에너지 기반 연 40만 톤 그린암모니아 생산·수출사업을 추진하며 예상 투자액은 약 USD 5.4bn임. 전략적 투자자·ECA·DFI·상업은행·산업 파트너를 결합한 금융구조를 검토 중이나 실제 금융약정·금융종결은 미확인이고 Hydrom 공개 포트폴리오에도 아직 포함되지 않음. Ohmium이 FEED 단계 PEM 전해조 기술을 지원하며 부지·오프테이크·금융·EPC 조달을 후속 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "USA-IND-TEXAS-TERAFAB",
     "프로젝트명": "SpaceX-Tesla TeraFab Project",
     "지역": "북미",
@@ -31018,21 +31033,6 @@
     "대표 기사 고유값": "ART-20260617-003738",
     "비고": "SH2 Waioweka Gorge 2026년 1월 기상재해 복구·회복력 보강. Stellar Projects PM, Beca 설계, Geovert·Waiotahi Contractors 물리공사 계약. Goldsmith slip 암석낙하 방호, 암거·배수 개선, 후속 Budget 2026 회복력 구간 확정 필요.",
     "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "OMN-ENERGY-HYNFRA-GAO-DUQM",
-    "프로젝트명": "Green Ammonia Oman Project near Duqm",
-    "지역": "중동",
-    "국가": "오만",
-    "섹터": "에너지",
-    "발주처": "Hynfra PSA / Ohmium International",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "study",
-    "최근 업데이트일": "2026. 6. 17",
-    "대표 기사 고유값": "ART-20260617-004760",
-    "비고": "두큼항 인근 Green Ammonia Oman 프로젝트. Hynfra와 Ohmium의 마스터 협력계약에 따라 FEED 및 개발 단계에서 PEM 전해조 기술 지원을 받는 구조. 후속 부지, 투자액, 금융, EPC, 전해조 공급계약 및 수출 오프테이크 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "OMN-ROAD-SULTANTURKI-SAID-PH2PART2",
