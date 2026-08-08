@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T22:38:56.318Z",
+  "updatedAt": "2026-08-08T23:02:05.593Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,30 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7671,
-    "projects": 3405
+    "articles": 7679,
+    "projects": 3408
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260808-013598",
+        "ART-20260808-013599",
+        "ART-20260808-013600",
+        "ART-20260808-013605",
+        "ART-20260807-013601",
+        "ART-20260807-013602",
+        "ART-20260807-013603",
+        "ART-20260807-013604"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "BWA-IND-KHOEMACAU-EXPANSION",
+        "NGA-URBAN-NAVEEDA-PARK-GARDENS",
+        "BWA-ROAD-MODIPANE-MABALANE"
+      ],
       "updated": [],
       "removed": []
     }
@@ -46,6 +59,6 @@
   "latest": {
     "articleCollectedDate": "2026-08-09",
     "articlePublishedDate": "2026-08-08",
-    "projectUpdatedDate": "2026-08-07"
+    "projectUpdatedDate": "2026-08-08"
   }
 }

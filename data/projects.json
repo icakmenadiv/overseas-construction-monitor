@@ -1,5 +1,35 @@
 [
   {
+    "프로젝트 고유값": "BWA-IND-KHOEMACAU-EXPANSION",
+    "프로젝트명": "Khoemacau Copper Mine Expansion Project",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "산업·물류",
+    "발주처": "MMG Limited / Khoemacau Copper Mining",
+    "사업비(달러 기준 추정액)": "USD 900mn",
+    "사업비 환산 환율 / 기준": "MMG 공식 2026-02-09 착공 보도: 총 CAPEX 약 USD 900mn, pre-2026 spending 포함. 원문 통화가 USD이므로 환산 불필요.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-08",
+    "대표 기사 고유값": "ART-20260808-013605",
+    "비고": "신규 4.5Mtpa 처리플랜트와 Zone 5 North·Mango·Zeta North-East 광산 확장으로 구리정광 생산능력을 연 130,000톤까지 확대하는 사업. 2026년 2분기 기초·굴착·대규모 토공·boxcut 공정이 진행됐고 2028년 상반기 최초 정광 생산 목표. 향후 연 200,000톤 확장 PFS도 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-URBAN-NAVEEDA-PARK-GARDENS",
+    "프로젝트명": "Naveeda Park and Gardens Housing Development",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "도시개발·주택",
+    "발주처": "FCMB Staff Cooperative / Footy Homes and Properties",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-08 BusinessDay 기사에 공식 총사업비·계약금액이 공개되지 않음.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-08-08",
+    "대표 기사 고유값": "ART-20260808-013598",
+    "비고": "이바단 Toll Gate 회랑의 4베드룸 듀플렉스 250가구 개발. 18개월간 단계별 공급 예정이며 준공 성과에 따라 개발사의 시설관리 우선 고려 가능. 착공·공정·자재 및 MEP 하도급·단계별 인도를 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AUS-SOC-REDCLIFFE-HOSPITAL-EXPANSION",
     "프로젝트명": "Redcliffe Hospital Expansion Project",
     "지역": "태평양",
@@ -13,6 +43,21 @@
     "대표 기사 고유값": "ART-20260807-013580",
     "비고": "Moreton Bay 권역 Redcliffe Hospital에 최소 210개 입원병상, 산부인과·내시경·수술실, 보조시설과 주차공간을 확충하는 사업. Lendlease가 본공사 우선협상대상자로 선정됐으며 첫 병상은 2027년 말, 전체 완료는 2032년 목표. 최종 계약과 패키지별 착공 일정을 후속 확인.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "BWA-ROAD-MODIPANE-MABALANE",
+    "프로젝트명": "Modipane-Mabalane Road Project",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "교통",
+    "발주처": "Government of Botswana / Ministry of Transport and Infrastructure",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인. 2026-08-07 Botswana Gazette의 항소법원 판결 및 공사재개 보도 기준.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-07",
+    "대표 기사 고유값": "ART-20260807-013604",
+    "비고": "Modipane와 Mabalane을 연결하는 공공 도로사업. 공사자금 동결 임시명령이 항소심에서 취소돼 사업 재개 여건이 마련됨. Pro-Serve Consulting Botswana, Tau Grading, Unik Construction 관련 계약분쟁과 시공사 교체, 현장 재동원 일정을 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "CHL-ROAD-RUTA150-CONCEPCION-TALCAHUANO-CORRIDOR",
