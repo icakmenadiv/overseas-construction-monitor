@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T18:59:25.326Z",
+  "updatedAt": "2026-08-10T02:32:31.295Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1028,11 +1028,62 @@
       },
       "ART-20260729-013550": {
         "article_detail_open": 1
+      },
+      "ART-20260804-013568": {
+        "article_detail_open": 1
+      },
+      "ART-20260804-013572": {
+        "article_detail_open": 1
+      },
+      "ART-20260805-013566": {
+        "article_detail_open": 2
+      },
+      "ART-20260805-013570": {
+        "article_detail_open": 1
+      },
+      "ART-20260805-013571": {
+        "article_detail_open": 1
+      },
+      "ART-20260805-013584": {
+        "article_detail_open": 1
+      },
+      "ART-20260805-013595": {
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260806-013565": {
+        "article_detail_open": 1
+      },
+      "ART-20260806-013574": {
+        "article_detail_open": 2
+      },
+      "ART-20260806-013589": {
+        "article_detail_open": 1
+      },
+      "ART-20260807-013569": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260807-013573": {
+        "article_detail_open": 1
+      },
+      "ART-20260807-013578": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260807-013587": {
+        "source_link_click": 1
+      },
+      "ART-20260807-013593": {
+        "article_detail_open": 1
+      },
+      "ART-20260807-013596": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 36
+        "market_page_visit": 38
       }
     },
     "project": {
@@ -1145,6 +1196,9 @@
         "project_detail_open": 1
       },
       "THA-WATER-RAYONG-EEC-DRAINAGE": {
+        "project_detail_open": 1
+      },
+      "TKM-OILGAS-DASHOGUZ-FERTILIZER-COMPLEX": {
         "project_detail_open": 1
       },
       "UAE-URBAN-EMAAR-AED200BN-MASTERPLAN": {
@@ -3958,11 +4012,144 @@
       "updatedAt": "2026-07-31T00:51:33.907Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260804-013568",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:10:48.010Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260804-013572",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:10:34.192Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260805-013566",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-08-10T00:10:36.334Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260805-013570",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:10:28.589Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260805-013571",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:10:46.901Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260805-013584",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:00:19.226Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260805-013595",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-08-10T00:36:15.464Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260805-013595",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:36:52.256Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260806-013565",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:10:37.127Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260806-013574",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-08-10T00:10:24.475Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260806-013589",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:03:30.581Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260807-013569",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:09:35.773Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260807-013569",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:09:49.177Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260807-013573",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:10:48.900Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260807-013578",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:01:16.680Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260807-013578",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:01:11.582Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260807-013587",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-10T01:13:39.015Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260807-013593",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:01:48.817Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260807-013596",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:05:15.704Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 36,
-      "updatedAt": "2026-08-07T07:36:39.289Z"
+      "count": 38,
+      "updatedAt": "2026-08-10T00:05:10.162Z"
     },
     {
       "targetType": "project",
@@ -4222,6 +4409,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-26T04:29:51.790Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "TKM-OILGAS-DASHOGUZ-FERTILIZER-COMPLEX",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-10T00:36:43.977Z"
     },
     {
       "targetType": "project",
