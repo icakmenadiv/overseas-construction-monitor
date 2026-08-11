@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T18:35:44.445Z",
+  "updatedAt": "2026-08-11T19:15:27.144Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,52 +24,46 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 7701,
-    "projects": 3419
+    "articles": 7712,
+    "projects": 3422
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260811-013615",
-        "ART-20260811-013616",
-        "ART-20260811-013619",
-        "ART-20260811-013621",
-        "ART-20260811-013622",
-        "ART-20260811-013627",
-        "ART-20260810-013617",
-        "ART-20260810-013618",
-        "ART-20260810-013620",
-        "ART-20260810-013623",
-        "ART-20260810-013624",
-        "ART-20260810-013625",
-        "ART-20260808-013626"
+        "ART-20260812-013630",
+        "ART-20260811-013631",
+        "ART-20260811-013632",
+        "ART-20260811-013634",
+        "ART-20260811-013636",
+        "ART-20260811-013637",
+        "ART-20260810-013629",
+        "ART-20260810-013633",
+        "ART-20260810-013635",
+        "ART-20260809-013627",
+        "ART-20260809-013628"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BRA-ENERGY-UTE-GARUVA",
-        "BRA-PORT-SANTOS-BTP-EXPANSION",
-        "CAN-URBANRAIL-ONTARIO-LINE",
-        "NZL-RAIL-TE-MAHIA-STATION-PEDBRIDGE",
-        "NZL-ENERGY-HALDON-SOLAR-FARM",
-        "NZL-URBAN-DELMORE-DEVELOPMENT"
+        "NPL-HYDRO-DUDH-KHOLA-65MW",
+        "MNG-URBAN-SELBE-20MIN-SPECIAL-ZONE",
+        "USA-DIGITAL-AMAZON-GW-RANCH"
       ],
       "updated": [
-        "NZL-TRANSIT-NORTHWEST-BUSWAY",
-        "BRA-PORT-ITAJAI-ACCESS-CHANNEL"
+        "MNG-TRANSPORT-ULAANBAATAR-CABLE-CAR"
       ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-08-12",
-    "articlePublishedDate": "2026-08-11",
-    "projectUpdatedDate": "2026-08-11"
+    "articlePublishedDate": "2026-08-12",
+    "projectUpdatedDate": "2026-08-12"
   }
 }
