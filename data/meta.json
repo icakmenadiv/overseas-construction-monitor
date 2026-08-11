@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T19:15:27.144Z",
+  "updatedAt": "2026-08-11T19:40:58.672Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 7712,
@@ -33,31 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260812-013630",
-        "ART-20260811-013631",
-        "ART-20260811-013632",
-        "ART-20260811-013634",
-        "ART-20260811-013636",
-        "ART-20260811-013637",
-        "ART-20260810-013629",
-        "ART-20260810-013633",
-        "ART-20260810-013635",
-        "ART-20260809-013627",
-        "ART-20260809-013628"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "NPL-HYDRO-DUDH-KHOLA-65MW",
-        "MNG-URBAN-SELBE-20MIN-SPECIAL-ZONE",
-        "USA-DIGITAL-AMAZON-GW-RANCH"
-      ],
-      "updated": [
-        "MNG-TRANSPORT-ULAANBAATAR-CABLE-CAR"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
