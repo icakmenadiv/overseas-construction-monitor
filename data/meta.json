@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T17:42:54.559Z",
+  "updatedAt": "2026-08-11T18:35:44.445Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,35 +28,41 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7688,
-    "projects": 3413
+    "articles": 7701,
+    "projects": 3419
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260811-013608",
-        "ART-20260811-013613",
-        "ART-20260811-013614",
-        "ART-20260810-013606",
-        "ART-20260810-013607",
-        "ART-20260810-013609",
-        "ART-20260810-013612",
-        "ART-20260807-013610",
-        "ART-20260807-013611"
+        "ART-20260811-013615",
+        "ART-20260811-013616",
+        "ART-20260811-013619",
+        "ART-20260811-013621",
+        "ART-20260811-013622",
+        "ART-20260811-013627",
+        "ART-20260810-013617",
+        "ART-20260810-013618",
+        "ART-20260810-013620",
+        "ART-20260810-013623",
+        "ART-20260810-013624",
+        "ART-20260810-013625",
+        "ART-20260808-013626"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "CHL-POWER-LOS-CONDORES-RIO-DIAMANTE",
-        "DOM-POWER-GSF-ANDRES-I",
-        "PER-BRIDGE-CHANCAY-PANAMERICANA",
-        "PER-WATER-PTAR-SAN-IGNACIO",
-        "PER-WATER-QUEBRADA-CANSAS"
+        "BRA-ENERGY-UTE-GARUVA",
+        "BRA-PORT-SANTOS-BTP-EXPANSION",
+        "CAN-URBANRAIL-ONTARIO-LINE",
+        "NZL-RAIL-TE-MAHIA-STATION-PEDBRIDGE",
+        "NZL-ENERGY-HALDON-SOLAR-FARM",
+        "NZL-URBAN-DELMORE-DEVELOPMENT"
       ],
       "updated": [
-        "DOM-WATER-DN-CIRC3-SANITARY-DRAINAGE"
+        "NZL-TRANSIT-NORTHWEST-BUSWAY",
+        "BRA-PORT-ITAJAI-ACCESS-CHANNEL"
       ],
       "removed": []
     }
