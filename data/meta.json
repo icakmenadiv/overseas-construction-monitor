@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T19:51:50.927Z",
+  "updatedAt": "2026-08-15T20:00:58.248Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,18 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260814-090002",
-        "ART-20260813-090001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "IND-ENERGY-VISHNUGAD-PIPALKOTI-HEP",
-        "PHL-AIR-SANGLEY-POINT-INTERNATIONAL"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
