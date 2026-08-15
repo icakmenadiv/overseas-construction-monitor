@@ -1,5 +1,35 @@
 [
   {
+    "프로젝트 고유값": "BGD-SOC-NINH-500BED-EXPANSION",
+    "프로젝트명": "National Institute of Neurosciences and Hospital 500-Bed Expansion Building Project",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "사회인프라",
+    "발주처": "Ministry of Health and Family Welfare / National Institute of Neurosciences and Hospital",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-15 원문에 공식 총사업비·공사계약금액 미공개. 500병상, 지하 3층·지상 12층, ICU·HDU·수술실·영상진단·산소·폐기물처리설비 규모만 확인.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-08-15",
+    "대표 기사 고유값": "ART-20260815-013674",
+    "비고": "Dhaka Agargaon 국가신경과학연구소의 500병상 증축동. 15층 건물과 100병상 외상센터, 40 ICU, 20 HDU, 수술실, MRI·CT, 산소플랜트 등을 포함하며 2026-08-15 개원함. 후속 운영설비 유지관리와 추가 확장 여부를 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HKG-TRANSPORT-HUANGGANG-PORT-HK-PORT-AREA",
+    "프로젝트명": "Huanggang Port Hong Kong Port Area Redevelopment and Colocation Project",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "교통",
+    "발주처": "HKSAR Government / Shenzhen Municipal People's Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 재개발 사업비 미공개. 2026-07-17 HKSAR Government 발표 기준 홍콩항구역 관할권·공동검사·통합통관 운영 법적 근거, 2026-07-31 관할권 적용 개시, 설계 처리량 일 20만명 및 Northern Link Spur Line 이후 약 30만명 확대 가능성만 확인.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-08-15",
+    "대표 기사 고유값": "ART-20260815-013670",
+    "비고": "신황강커우 홍콩항구역 재개발·공동검사 프로젝트. 2026-08-15 약 30개 부처·기관 공무원 5,000명 이상과 대중교통 차량 250회 이상을 투입해 여객검사동, 대중교통환승센터, 연결도로의 출입국·세관·승객 집중유입·교통우회·검역·대테러 대응을 종합 시험함. 주요 시설 공사는 완료된 상태이며 홍콩·선전 당국은 추가 시험 뒤 공식 개통일을 발표할 예정. 통관·교통 시스템 보완, 운영설비·유지관리와 Northern Link Spur Line 연계 일정을 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-ROAD-BENI-JOMSOM-KORALA",
     "프로젝트명": "Beni-Jomsom-Korala Road Project",
     "지역": "아시아",
@@ -87,6 +117,21 @@
     "최근 업데이트일": "2026-08-13",
     "대표 기사 고유값": "ART-20260813-013648",
     "비고": "펌프·송수관·여과·소독 시스템과 관련 기반시설을 포함하는 Gympie 정수장 2단계 업그레이드. 처리용량, 설계·공사 패키지, 조달방식과 공고 일정을 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BGD-METRO-DHAKA-MRT1",
+    "프로젝트명": "Dhaka MRT Line-1 Project",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "교통",
+    "발주처": "Dhaka Mass Transit Company Limited / Road Transport and Highways Division / JICA",
+    "사업비(달러 기준 추정액)": "USD 9.80bn",
+    "사업비 환산 환율 / 기준": "원문 수정 DPP Tk120,794.13 crore / Bangladesh Bank 2026-08-13 USD/BDT WAR 123.2032 기준 환산(약 USD 9.804bn).",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-13",
+    "대표 기사 고유값": "ART-20260813-013672",
+    "비고": "Airport-Kamalapur 19.872km 지하구간과 Natun Bazar-Purbachal 11.369km 구간을 포함한 31.241km MRT 사업. CP-01 부지조성은 완료됐고 나머지 11개 패키지는 조달 단계가 서로 다르며, 2026-08-11 수정 DPP 제출로 총사업비 129.82% 증액과 2035년 준공기한 연장이 제안됨. CP-04 Tokyu-MIL JV, CP-06 Nishimatsu-TODA JV 최저입찰가 및 후속 기획위원회 승인·경쟁조건 조정을 추적함.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -3402,21 +3447,6 @@
     "최근 업데이트일": "2026. 7. 17",
     "대표 기사 고유값": "ART-20260717-013125",
     "비고": "Aberdeen Tunnel Wong Chuk Hang portal의 신규 Bus-Bus Interchange. HKeToll 시행 후 기존 요금소 철거 부지를 활용해 버스베이, 보행교 연결, 접근로, 지붕형 대기공간, 좌석, 선풍기, 노선정보·실시간 도착정보 패널을 조성했다. 2024년 8월 착공, 2026년 7월 26일 개통 예정. 후속 운영, 교통효율, 추가 환승시설 개선 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "HKG-TRANSPORT-HUANGGANG-PORT-HK-PORT-AREA",
-    "프로젝트명": "Huanggang Port Hong Kong Port Area Redevelopment and Colocation Project",
-    "지역": "아시아",
-    "국가": "홍콩",
-    "섹터": "교통",
-    "발주처": "HKSAR Government / Shenzhen Municipal People's Government",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 재개발 사업비 미공개. 2026-07-17 HKSAR Government 발표 기준 홍콩항구역 관할권·공동검사·통합통관 운영 법적 근거, 2026-07-31 관할권 적용 개시, 설계 처리량 일 20만명 및 Northern Link Spur Line 이후 약 30만명 확대 가능성만 확인.",
-    "현재 단계": "operation",
-    "최근 업데이트일": "2026. 7. 17",
-    "대표 기사 고유값": "ART-20260717-013249",
-    "비고": "재개발 Huanggang Port의 Hong Kong Port Area 및 관련 확장구역 관할권과 공동검사·통합통관 운영을 위한 법적 기반 확정. 2026-07-31 관할권 적용 개시 예정이며, 정식 개통 전 공동 시스템 테스트·시범운영 준비가 진행될 예정이다. 후속 공식 개통일, 통관·교통시설 운영, Northern Link Spur Line 연계 일정 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
