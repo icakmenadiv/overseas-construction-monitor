@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T17:58:41.596Z",
+  "updatedAt": "2026-08-15T18:28:49.623Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,46 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7712,
-    "projects": 3422
+    "articles": 7725,
+    "projects": 3429
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260814-013638",
+        "ART-20260814-013639",
+        "ART-20260814-013640",
+        "ART-20260814-013646",
+        "ART-20260814-013647",
+        "ART-20260813-013641",
+        "ART-20260813-013642",
+        "ART-20260813-013648",
+        "ART-20260813-013649",
+        "ART-20260812-013643",
+        "ART-20260812-013644",
+        "ART-20260812-013645",
+        "ART-20260812-013650"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "AUS-ROAD-COOMERA-CONNECTOR-STAGE2",
+        "AUS-SOC-BRISBANE-AEROMEDICAL-PRECINCT",
+        "NZL-ENERGY-FOXTON-SOLAR-FARM",
+        "AUS-WATER-GYMPIE-WTP-PHASE2",
+        "NZL-URBAN-ARLINGTON-SOCIAL-HOUSING",
+        "NZL-IND-ASPIRING-MINERALS-HYDROGEN-PLANT",
+        "NZL-PORT-CHATHAM-WHARF-FUEL-UPGRADES"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-08-12",
-    "articlePublishedDate": "2026-08-12",
-    "projectUpdatedDate": "2026-08-12"
+    "articleCollectedDate": "2026-08-16",
+    "articlePublishedDate": "2026-08-14",
+    "projectUpdatedDate": "2026-08-14"
   }
 }
