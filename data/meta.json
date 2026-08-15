@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T18:41:55.015Z",
+  "updatedAt": "2026-08-15T18:56:46.006Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,32 +24,41 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7728,
-    "projects": 3429
+    "articles": 7735,
+    "projects": 3431
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260813-013653",
-        "ART-20260812-013651",
-        "ART-20260812-013652"
+        "ART-20260815-013654",
+        "ART-20260814-013655",
+        "ART-20260814-013657",
+        "ART-20260814-013659",
+        "ART-20260814-013660",
+        "ART-20260813-013656",
+        "ART-20260813-013658"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "NPL-POWER-TUMLINGTAR-SITALPATI-220KV",
+        "NPL-ROAD-MAHAKALI-CORRIDOR"
+      ],
+      "updated": [
+        "NPL-ROAD-BENI-JOMSOM-KORALA"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-08-16",
-    "articlePublishedDate": "2026-08-14",
-    "projectUpdatedDate": "2026-08-14"
+    "articlePublishedDate": "2026-08-15",
+    "projectUpdatedDate": "2026-08-15"
   }
 }
