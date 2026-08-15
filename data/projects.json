@@ -75,6 +75,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IND-ENERGY-VISHNUGAD-PIPALKOTI-HEP",
+    "프로젝트명": "Vishnugad Pipalkoti Hydroelectric Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "에너지",
+    "발주처": "THDC India Limited",
+    "사업비(달러 기준 추정액)": "USD 805.37mn",
+    "사업비 환산 환율 / 기준": "India Investment Grid가 2026-06-05 갱신한 공식 프로젝트 페이지의 Total Project Cost USD 805.37mn을 사용.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-14",
+    "대표 기사 고유값": "ART-20260814-090002",
+    "비고": "Uttarakhand Chamoli의 444MW(4x111MW) 유수식 수력발전사업. 65m 전환댐, 13.4km 도수터널, 지하발전소 등을 포함하며 THDC는 1호기 2027년 12월, 최종 4호기 2028년 6월 시운전을 목표로 함. 2026년 8월 14일 터널 붕괴 사고로 인명피해가 발생해 사고조사·복구와 일정 영향을 추적해야 함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-POWER-TUMLINGTAR-SITALPATI-220KV",
     "프로젝트명": "Tumlingtar-Sitalpati 220 kV Transmission Line Project",
     "지역": "아시아",
@@ -192,6 +207,21 @@
     "최근 업데이트일": "2026-08-13",
     "대표 기사 고유값": "ART-20260813-013642",
     "비고": "Wellington Mount Cook의 104가구 사회주택 재개발. 상세 사업계획·임대계약 변경 승인 후 2027년 착공, 2029년 말 준공 목표이며 잔여 부지의 추가 주택개발도 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PHL-AIR-SANGLEY-POINT-INTERNATIONAL",
+    "프로젝트명": "Sangley Point International Airport (SPIA) Project",
+    "지역": "아시아",
+    "국가": "필리핀",
+    "섹터": "교통",
+    "발주처": "Provincial Government of Cavite / SPIA Development Consortium / Department of Transportation / Philippine Reclamation Authority",
+    "사업비(달러 기준 추정액)": "USD 3,827.10mn",
+    "사업비 환산 환율 / 기준": "필리핀 DBM 2026 Budget of Expenditures and Sources of Financing Table I.3.B의 Estimated Cost US$3,827.10mn. 원문이 USD 기준이므로 환산 없음.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-08-13",
+    "대표 기사 고유값": "ART-20260813-090001",
+    "비고": "Cavite의 대형 국제공항·매립·에어로트로폴리스 JV 사업. 2026-08-13 보도 기준 대통령 지시로 DoTr-PRA 공동 기술작업반을 구성해 인허가·기관조정·환경기준 이행을 가속함. DBM 공식 PPP 목록상 2026년 말 under pre-construction 예상. 후속 환경승인, 매립·접속도로·교량, 터미널·활주로 EPC 패키지와 금융조달을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

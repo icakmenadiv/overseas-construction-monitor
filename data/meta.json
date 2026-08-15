@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T19:38:05.342Z",
+  "updatedAt": "2026-08-15T19:51:50.927Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,31 +28,24 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7750,
-    "projects": 3436
+    "articles": 7752,
+    "projects": 3438
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260815-013670",
-        "ART-20260815-013674",
-        "ART-20260815-013675",
-        "ART-20260814-013669",
-        "ART-20260813-013671",
-        "ART-20260813-013672",
-        "ART-20260813-013673"
+        "ART-20260814-090002",
+        "ART-20260813-090001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BGD-SOC-NINH-500BED-EXPANSION",
-        "BGD-METRO-DHAKA-MRT1"
+        "IND-ENERGY-VISHNUGAD-PIPALKOTI-HEP",
+        "PHL-AIR-SANGLEY-POINT-INTERNATIONAL"
       ],
-      "updated": [
-        "HKG-TRANSPORT-HUANGGANG-PORT-HK-PORT-AREA"
-      ],
+      "updated": [],
       "removed": []
     }
   },
