@@ -90,6 +90,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KHM-URBAN-MIRACLE-ANGKOR",
+    "프로젝트명": "Miracle Angkor Project",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "도시개발·주택",
+    "발주처": "Angkor International Airport Investment (Cambodia) Co., Ltd. / Yuntou Group / State Secretariat of Civil Aviation",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-13 AKP 기사에서 공식 총사업비·계약금액 미공개. 구 시엠립공항 부지 196.32ha와 17,000㎡ 전시센터 구상만 확인.",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026-08-13",
+    "대표 기사 고유값": "ART-20260813-013665",
+    "비고": "구 시엠립공항 부지의 문화·상업·관광 복합개발 제안. 국제전시센터, 디지털 박물관, 탄소중립 관광공연 시설을 포함하며 관계부처 추가 조사·평가 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KHM-WATER-SWPHNOMPENH-IRRIGATION-DRAINAGE-PH2",
+    "프로젝트명": "Southwest Phnom Penh Irrigation and Drainage Rehabilitation and Improvement Project Phase II",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Water Resources and Meteorology / JICA",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-13 기사에서 공식 총사업비·계약금액 미공개. JICA 2023년 2단계 차관 JPY 2.482bn은 대출액이므로 총사업비로 저장하지 않음.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-13",
+    "대표 기사 고유값": "ART-20260813-013663",
+    "비고": "2023년 6월 착공한 2단계. Roluang Chrey와 Kandal Stung-Bati 하위사업으로 구성되며 2026-08-13 보도 기준 토목공정 약 99%. 기존 2026년 금융의 3단계 프로젝트와 별도 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-ROAD-MAHAKALI-CORRIDOR",
     "프로젝트명": "Mahakali Corridor Road Project",
     "지역": "아시아",
@@ -117,6 +147,21 @@
     "최근 업데이트일": "2026-08-13",
     "대표 기사 고유값": "ART-20260813-013642",
     "비고": "Wellington Mount Cook의 104가구 사회주택 재개발. 상세 사업계획·임대계약 변경 승인 후 2027년 착공, 2029년 말 준공 목표이며 잔여 부지의 추가 주택개발도 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MMR-WATER-NGAWUN-EMBANKMENT-REINFORCEMENT",
+    "프로젝트명": "Ngawun Embankment Reinforcement Project at Laymyethna",
+    "지역": "아시아",
+    "국가": "미얀마",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Construction / Ayeyawady Region Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-12 MOI 공식 원문에서 사업비·계약금액 미공개. 시트파일 286개 중 55개 설치만 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-12",
+    "대표 기사 고유값": "ART-20260812-013662",
+    "비고": "Ayeyawady Region Laymyethna Township의 Ngawun 제방 긴급 보강사업. 하천 침식에 따른 제방 하부 파손·침하와 월류 이후 강재 시트파일 286개를 설치하며, 2026-08-11 기준 55개 설치 완료. 잔여 시트파일, 토공·배수·제방 복구 범위, 시공사·준공기한과 추가 홍수방지 패키지를 추적함.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

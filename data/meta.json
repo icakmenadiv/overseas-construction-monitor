@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T18:56:46.006Z",
+  "updatedAt": "2026-08-15T19:17:46.440Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,31 +28,31 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7735,
-    "projects": 3431
+    "articles": 7743,
+    "projects": 3434
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260815-013654",
-        "ART-20260814-013655",
-        "ART-20260814-013657",
-        "ART-20260814-013659",
-        "ART-20260814-013660",
-        "ART-20260813-013656",
-        "ART-20260813-013658"
+        "ART-20260815-013661",
+        "ART-20260815-013666",
+        "ART-20260813-013663",
+        "ART-20260813-013664",
+        "ART-20260813-013665",
+        "ART-20260813-013668",
+        "ART-20260812-013662",
+        "ART-20260812-013667"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "NPL-POWER-TUMLINGTAR-SITALPATI-220KV",
-        "NPL-ROAD-MAHAKALI-CORRIDOR"
+        "KHM-URBAN-MIRACLE-ANGKOR",
+        "KHM-WATER-SWPHNOMPENH-IRRIGATION-DRAINAGE-PH2",
+        "MMR-WATER-NGAWUN-EMBANKMENT-REINFORCEMENT"
       ],
-      "updated": [
-        "NPL-ROAD-BENI-JOMSOM-KORALA"
-      ],
+      "updated": [],
       "removed": []
     }
   },
