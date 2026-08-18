@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T07:02:24.715Z",
+  "updatedAt": "2026-08-18T13:05:47.244Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1111,7 +1111,7 @@
     },
     "page": {
       "market-home": {
-        "market_page_visit": 38
+        "market_page_visit": 39
       }
     },
     "project": {
@@ -4246,8 +4246,8 @@
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 38,
-      "updatedAt": "2026-08-10T00:05:10.162Z"
+      "count": 39,
+      "updatedAt": "2026-08-18T08:14:29.480Z"
     },
     {
       "targetType": "project",
