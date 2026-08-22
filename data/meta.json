@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T20:29:08.805Z",
+  "updatedAt": "2026-08-22T20:49:23.822Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,22 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260821-100003",
-        "ART-20260820-100002",
-        "ART-20260819-100001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "SGP-ENERGY-TUASPOWER-670MW-CCGT",
-        "SGP-IND-KAKI-BUKIT-SITE"
-      ],
-      "updated": [
-        "SGP-DIGITAL-JURONG-ISLAND-DC-PARK"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
