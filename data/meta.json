@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T18:52:17.076Z",
+  "updatedAt": "2026-08-22T19:12:10.780Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,32 +28,58 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7770,
-    "projects": 3449
+    "articles": 7789,
+    "projects": 3458
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260822-013693",
-        "ART-20260820-013690",
-        "ART-20260820-013691",
-        "ART-20260820-013692"
+        "ART-20260822-091001",
+        "ART-20260822-091002",
+        "ART-20260822-091003",
+        "ART-20260822-093508",
+        "ART-20260821-091004",
+        "ART-20260821-091005",
+        "ART-20260821-091008",
+        "ART-20260821-093504",
+        "ART-20260821-093505",
+        "ART-20260821-093506",
+        "ART-20260821-093507",
+        "ART-20260821-093509",
+        "ART-20260821-093511",
+        "ART-20260819-091006",
+        "ART-20260819-091007",
+        "ART-20260819-093501",
+        "ART-20260819-093502",
+        "ART-20260819-093503",
+        "ART-20260819-093510"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "NPL-HYDRO-DUDHKOSHI2-JALESHWOR-70MW",
-        "NPL-ROAD-KALAIYA-MALAHI-PLRIP"
+        "PAK-SOC-JINNAH-CARDIOLOGY-INSTITUTE",
+        "PAK-WATER-DADUCHA-DAM",
+        "PAK-WATER-LAHORE-BABUSABU-WWTP",
+        "JPN-ENERGY-HAMAMATSU-GRID-BESS",
+        "MNG-ROAD-TUUL-EXPRESSWAY",
+        "PAK-DIGITAL-CMPAK-KARACHI-AI-DC",
+        "PAK-WATER-LARKANO-DRAINAGE-UPGRADE",
+        "MNG-ENERGY-ZES-OYU-220KV",
+        "PAK-ENERGY-KOHAT-CEMENT-50MW-CPP"
       ],
-      "updated": [],
+      "updated": [
+        "MMR-PORT-DAWEI-DEEPSEA-SEZ",
+        "MNG-URBAN-UB-GREEN-HOUSING-SUBCENTERS",
+        "MNG-RAIL-BAGAKHANGAI-KHUSHIG-VALLEY"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-08-23",
     "articlePublishedDate": "2026-08-22",
-    "projectUpdatedDate": "2026-08-21"
+    "projectUpdatedDate": "2026-08-22"
   }
 }
