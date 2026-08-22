@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T19:12:10.780Z",
+  "updatedAt": "2026-08-22T19:33:57.046Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,51 +28,39 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7789,
-    "projects": 3458
+    "articles": 7803,
+    "projects": 3462
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260822-091001",
-        "ART-20260822-091002",
-        "ART-20260822-091003",
-        "ART-20260822-093508",
-        "ART-20260821-091004",
-        "ART-20260821-091005",
-        "ART-20260821-091008",
-        "ART-20260821-093504",
-        "ART-20260821-093505",
-        "ART-20260821-093506",
-        "ART-20260821-093507",
-        "ART-20260821-093509",
-        "ART-20260821-093511",
-        "ART-20260819-091006",
-        "ART-20260819-091007",
-        "ART-20260819-093501",
-        "ART-20260819-093502",
-        "ART-20260819-093503",
-        "ART-20260819-093510"
+        "ART-20260821-094002",
+        "ART-20260821-095001",
+        "ART-20260821-095003",
+        "ART-20260821-095004",
+        "ART-20260821-096002",
+        "ART-20260820-094001",
+        "ART-20260820-096001",
+        "ART-20260820-096003",
+        "ART-20260820-096004",
+        "ART-20260820-097004",
+        "ART-20260819-095002",
+        "ART-20260819-097001",
+        "ART-20260819-097002",
+        "ART-20260819-097003"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "PAK-SOC-JINNAH-CARDIOLOGY-INSTITUTE",
-        "PAK-WATER-DADUCHA-DAM",
-        "PAK-WATER-LAHORE-BABUSABU-WWTP",
-        "JPN-ENERGY-HAMAMATSU-GRID-BESS",
-        "MNG-ROAD-TUUL-EXPRESSWAY",
-        "PAK-DIGITAL-CMPAK-KARACHI-AI-DC",
-        "PAK-WATER-LARKANO-DRAINAGE-UPGRADE",
-        "MNG-ENERGY-ZES-OYU-220KV",
-        "PAK-ENERGY-KOHAT-CEMENT-50MW-CPP"
+        "HKG-RAIL-HK-STATION-OVERRUN-TUNNELS",
+        "KHM-WATER-SESAN-WEF-DSS",
+        "TWN-OILGAS-GUANTANG-THIRD-LNG-TERMINAL",
+        "TWN-SOC-NEWTAIPEI-SECOND-ADMIN-CENTER"
       ],
       "updated": [
-        "MMR-PORT-DAWEI-DEEPSEA-SEZ",
-        "MNG-URBAN-UB-GREEN-HOUSING-SUBCENTERS",
-        "MNG-RAIL-BAGAKHANGAI-KHUSHIG-VALLEY"
+        "KHM-PORT-SIHANOUKVILLE-NCT-PH2"
       ],
       "removed": []
     }

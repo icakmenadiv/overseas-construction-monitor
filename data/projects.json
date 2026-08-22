@@ -90,6 +90,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HKG-RAIL-HK-STATION-OVERRUN-TUNNELS",
+    "프로젝트명": "Lantau and Airport Railway Phase II Hong Kong Station Extended Overrun Tunnels Project",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "교통",
+    "발주처": "Highways Department / Transport and Logistics Bureau / MTR Corporation",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-21",
+    "대표 기사 고유값": "ART-20260821-095001",
+    "비고": "홍콩역 동쪽 Lung Wo Road 지하 약 500m 연장 인상선 터널과 Yiu Sing Street 동쪽 환기동·부대공사. 2026년 8월 수정계획 관보 게재, 10월 20일까지 이의접수 후 승인·착공 예정이며 본공사 2032년 완료 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "JPN-ENERGY-HAMAMATSU-GRID-BESS",
     "프로젝트명": "Hamamatsu Grid-Scale Battery Storage Project",
     "지역": "아시아",
@@ -102,6 +117,21 @@
     "최근 업데이트일": "2026-08-21",
     "대표 기사 고유값": "ART-20260821-093509",
     "비고": "시즈오카현 하마마쓰시의 1.999MW/8.584MWh 계통용 ESS. Green Energy Plus가 용지개발·권리취득·건설공사를 일괄 수주함. 착공·계통연계·시운전 일정과 배터리·PCS 공급사, 후속 ESS 발주를 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KHM-WATER-SESAN-WEF-DSS",
+    "프로젝트명": "Cambodia Se San River Basin Climate-Resilient WEF Decision Support System Project",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "수자원·환경",
+    "발주처": "UNEP CTCN / Cambodia National Mekong Committee",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-21 UNGM EOI에 공식 Project Cost·Contract Value 미공개. EOI reference EOIUNON24646.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-08-21",
+    "대표 기사 고유값": "ART-20260821-094002",
+    "비고": "세산강 유역의 기후회복력형 물·에너지·식량 연계 DSS를 업그레이드·운영화하고 역량강화, 지속가능 금융전략과 3S 유역·전국 확산 로드맵을 수립하는 기술지원 사업. 2026-09-04 EOI 마감 후 RFP·계약자·금액 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -180,6 +210,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TWN-OILGAS-GUANTANG-THIRD-LNG-TERMINAL",
+    "프로젝트명": "Guantang Third LNG Receiving Terminal Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "석유가스·화학",
+    "발주처": "CPC Corporation, Taiwan",
+    "사업비(달러 기준 추정액)": "USD 1.91bn",
+    "사업비 환산 환율 / 기준": "CPC 공식 Projects and Plans: TWD 60.1bn. 2026-08-20 전후 기사 환산 수준 1 USD≈TWD 31.45 적용, 약 USD 1.91bn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-21",
+    "대표 기사 고유값": "ART-20260821-096002",
+    "비고": "관탕 산업단지의 연 300만톤 LNG 수입시설, 16만kL 저장탱크 2기, 기화·공급설비 및 외해 확장 방파제 사업. 2026-08-20 최고행정법원이 기존 해안관리 심의를 취소했으나 CPC는 핵심 공사구역 허가와 별개라 방파제 공사는 지속된다고 설명. 재심의·환경조건·방파제 공정 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CAN-RAIL-ALTO-HSR-TORONTO-QUEBEC",
     "프로젝트명": "Alto Toronto-Quebec City High-Speed Rail Project",
     "지역": "북미",
@@ -225,6 +270,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KHM-PORT-SIHANOUKVILLE-NCT-PH2",
+    "프로젝트명": "Sihanoukville Port New Container Terminal Development Project Phase II",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "교통",
+    "발주처": "Sihanoukville Autonomous Port / Government of Cambodia / Government of Japan",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 2026-08-20 Construction & Property 및 2026-08-12 JICA 원문 기준 JPY 17.776bn(약 USD 114mn)은 Phase II 일본 ODA 차관 한도이며 총사업비·공사계약액으로 보지 않음.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-08-20",
+    "대표 기사 고유값": "ART-20260820-094001",
+    "비고": "Sihanoukville Autonomous Port 신규 컨테이너터미널 개발 2단계. 정식 JICA 차관계약 체결, 터미널·준설·세관부지·크레인·감리 범위 확인. JICA 자료상 최초 본공사 ICB 패키지는 계약 완료이며 2027년 6월 시설 완공 예정. 계약자·착공·공정과 Phase III 조달 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-HYDRO-DUDHKOSHI2-JALESHWOR-70MW",
     "프로젝트명": "Dudhkoshi-2 (Jaleshwor) Hydropower Project",
     "지역": "아시아",
@@ -252,6 +312,21 @@
     "최근 업데이트일": "2026-08-20",
     "대표 기사 고유값": "ART-20260820-013690",
     "비고": "World Bank PLRIP(P171836) 재원 Bara District 16.226km 도로 개량 패키지. 2년 공사 후 5년 성능기반 유지관리를 포함하며 2026-10-06 입찰 마감. 적격요건·현지 JV·보증조건 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TWN-SOC-NEWTAIPEI-SECOND-ADMIN-CENTER",
+    "프로젝트명": "New Taipei City Second Administrative Center Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "사회인프라",
+    "발주처": "New Taipei City Government / Yago Investment Co.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미확인. 2026-08-20 신베이시 공사점검 기사 기준 지하 4층·지상 26층, 약 3,000명 수용, 공원·광장·연결도로·공공주차장 포함.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-20",
+    "대표 기사 고유값": "ART-20260820-096001",
+    "비고": "2026년 9월 사용승인, 연말 입주 목표. 공공구역 마감, 공연장 시험, 재난대응센터와 스마트교통센터 구축 진행. 후속 사용승인·준공·입주 및 시스템·시설운영 패키지 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -5847,21 +5922,6 @@
     "최근 업데이트일": "2026. 7. 14",
     "대표 기사 고유값": "ART-20260714-013117",
     "비고": "전자해도(ENC) 생산·갱신·배포 역량강화 및 수로측량·항해안전 디지털 인프라 프로젝트. 2026년 말 수로측량선 인도 이후 2027~2030년 추진 예정이며 후속 JICA 조달, 장비·시스템·교육·운영 패키지 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "KHM-PORT-SIHANOUKVILLE-NCT-PH2",
-    "프로젝트명": "Sihanoukville Port New Container Terminal Development Project Phase II",
-    "지역": "아시아",
-    "국가": "캄보디아",
-    "섹터": "교통",
-    "발주처": "Sihanoukville Autonomous Port / Government of Cambodia / Government of Japan",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 2026-07-14 Cambodianess 보도 기준 JPY 17.776bn(약 USD 119mn) 일본 차관은 Phase II 금융 규모로만 확인됨.",
-    "현재 단계": "financing",
-    "최근 업데이트일": "2026. 7. 14",
-    "대표 기사 고유값": "ART-20260714-013248",
-    "비고": "Sihanoukville Autonomous Port 신규 컨테이너터미널 개발 2단계. 일본 ODA 차관으로 금융 문서 서명, 컨테이너 처리능력·물류 효율 개선 및 수심 제약 없는 국제선박 접안 목표. 후속 JICA·PAS 조달, 터미널 토목·준설·장비 패키지, Phase III 범위 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
