@@ -1,5 +1,20 @@
 [
   {
+    "프로젝트 고유값": "GUM-DIGITAL-P649-JOINT-COMM-UPGRADE",
+    "프로젝트명": "P-649 Joint Communications Upgrade Project",
+    "지역": "태평양",
+    "국가": "괌",
+    "섹터": "디지털·데이터센터",
+    "발주처": "NAVFAC Marianas / Naval Support Activity Andersen / Core Tech-HDCC-Kajima LLC",
+    "사업비(달러 기준 추정액)": "USD 351.34mn",
+    "사업비 환산 환율 / 기준": "2026-08-20 MBJ가 인용한 발주기관 발표 기준 누적 계약금액 USD 351.34mn. Option Three 계약변경 금액은 USD 61.58mn이며 환산 없음.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-08-20",
+    "대표 기사 고유값": "ART-20260820-013676",
+    "비고": "Naval Base Guam과 Marine Corps Base Camp Blaz의 P-649 합동통신 업그레이드 사업. Core Tech International·Hawaiian Dredging Construction·Kajima JV가 Fiber SONET Rings 옵션 3을 수주했으며, 고속 광섬유 이중화망을 구축해 통신 복원력을 강화함. 2029년 3월 완료 예정으로 잔여 옵션, 하도급, 광케이블·네트워크 장비와 시운전 패키지를 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BGD-SOC-NINH-500BED-EXPANSION",
     "프로젝트명": "National Institute of Neurosciences and Hospital 500-Bed Expansion Building Project",
     "지역": "아시아",

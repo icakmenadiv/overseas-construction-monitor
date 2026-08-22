@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T17:56:43.324Z",
+  "updatedAt": "2026-08-22T18:20:04.478Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,28 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7752,
-    "projects": 3438
+    "articles": 7753,
+    "projects": 3439
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260820-013676"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "GUM-DIGITAL-P649-JOINT-COMM-UPGRADE"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-08-16",
-    "articlePublishedDate": "2026-08-15",
-    "projectUpdatedDate": "2026-08-15"
+    "articleCollectedDate": "2026-08-23",
+    "articlePublishedDate": "2026-08-20",
+    "projectUpdatedDate": "2026-08-20"
   }
 }
