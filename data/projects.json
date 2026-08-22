@@ -90,6 +90,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NPL-HYDRO-DUDHKOSHI2-JALESHWOR-70MW",
+    "프로젝트명": "Dudhkoshi-2 (Jaleshwor) Hydropower Project",
+    "지역": "아시아",
+    "국가": "네팔",
+    "섹터": "에너지",
+    "발주처": "Dudh Koshi Hydropower Nepal Pvt. Ltd.",
+    "사업비(달러 기준 추정액)": "USD 97.90mn",
+    "사업비 환산 환율 / 기준": "개발사 공식 총사업비 NPR 15bn / 2026-08-20 NRB USD 매입 152.91·매도 153.51의 중간환율 1 USD=NPR 153.21 기준 환산(USD 97.9048mn).",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-08-20",
+    "대표 기사 고유값": "ART-20260820-013691",
+    "비고": "Solukhumbu 70MW pondage run-of-river 사업. 4,677.58m 도수터널, 2×35MW 터빈, 12km 132kV 송전선을 포함하며 2025년 금융종결 후 2026-08-20 취수부·도수터널 토목 입찰 공고. 2029-07 상업운전 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NPL-ROAD-KALAIYA-MALAHI-PLRIP",
+    "프로젝트명": "Kalaiya-Malahi Road Upgrading Project",
+    "지역": "아시아",
+    "국가": "네팔",
+    "섹터": "교통",
+    "발주처": "Madhesh Province Ministry of Physical Infrastructure Development / PPMU Janakpurdham",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-20 World Bank 조달공고에 공식 예정가격·총사업비 미기재. 16.226km와 공사·유지관리 범위만 확인.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-08-20",
+    "대표 기사 고유값": "ART-20260820-013690",
+    "비고": "World Bank PLRIP(P171836) 재원 Bara District 16.226km 도로 개량 패키지. 2년 공사 후 5년 성능기반 유지관리를 포함하며 2026-10-06 입찰 마감. 적격요건·현지 JV·보증조건 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CAN-ENERGY-NEWELL-SUBSTATION",
     "프로젝트명": "Newell Substation Upgrade Project",
     "지역": "북미",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T18:43:45.827Z",
+  "updatedAt": "2026-08-22T18:52:17.076Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,53 +24,36 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7766,
-    "projects": 3447
+    "articles": 7770,
+    "projects": 3449
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260821-013677",
-        "ART-20260821-013678",
-        "ART-20260821-013679",
-        "ART-20260821-013680",
-        "ART-20260820-013681",
-        "ART-20260820-013685",
-        "ART-20260820-013687",
-        "ART-20260820-013688",
-        "ART-20260819-013682",
-        "ART-20260819-013683",
-        "ART-20260819-013684",
-        "ART-20260819-013686",
-        "ART-20260819-013689"
+        "ART-20260822-013693",
+        "ART-20260820-013690",
+        "ART-20260820-013691",
+        "ART-20260820-013692"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "AUS-ENERGY-MUSWELLBROOK-SOLAR-BESS",
-        "AUS-SOC-BANKSTOWN-HOSPITAL",
-        "AUS-TRANSPORT-WADANDI-TRACK",
-        "CAN-ROAD-MACKENZIE-VALLEY-HIGHWAY",
-        "CAN-ENERGY-NEWELL-SUBSTATION",
-        "CAN-OILGAS-SUNRISE-EXPANSION",
-        "USA-AIR-DULLES-TRANSFORMATION",
-        "USA-DIGITAL-TULSA-CLYDESDALE-DC"
+        "NPL-HYDRO-DUDHKOSHI2-JALESHWOR-70MW",
+        "NPL-ROAD-KALAIYA-MALAHI-PLRIP"
       ],
-      "updated": [
-        "CAN-RAIL-ALTO-HSR-TORONTO-QUEBEC"
-      ],
+      "updated": [],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-08-23",
-    "articlePublishedDate": "2026-08-21",
+    "articlePublishedDate": "2026-08-22",
     "projectUpdatedDate": "2026-08-21"
   }
 }
