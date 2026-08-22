@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T19:33:57.046Z",
+  "updatedAt": "2026-08-22T19:49:55.867Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,39 +28,58 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7803,
-    "projects": 3462
+    "articles": 7824,
+    "projects": 3471
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260821-094002",
-        "ART-20260821-095001",
-        "ART-20260821-095003",
-        "ART-20260821-095004",
-        "ART-20260821-096002",
-        "ART-20260820-094001",
-        "ART-20260820-096001",
-        "ART-20260820-096003",
-        "ART-20260820-096004",
-        "ART-20260820-097004",
-        "ART-20260819-095002",
-        "ART-20260819-097001",
-        "ART-20260819-097002",
-        "ART-20260819-097003"
+        "ART-20260821-098001",
+        "ART-20260821-098002",
+        "ART-20260821-098004",
+        "ART-20260821-098005",
+        "ART-20260821-098007",
+        "ART-20260821-098009",
+        "ART-20260821-098010",
+        "ART-20260821-099002",
+        "ART-20260820-097003",
+        "ART-20260820-097005",
+        "ART-20260820-097006",
+        "ART-20260820-097104",
+        "ART-20260820-098003",
+        "ART-20260820-098006",
+        "ART-20260820-099001",
+        "ART-20260820-099003",
+        "ART-20260820-099004",
+        "ART-20260819-097101",
+        "ART-20260819-097102",
+        "ART-20260819-097103",
+        "ART-20260819-098008"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20260820-097004",
+        "ART-20260819-097001",
+        "ART-20260819-097002"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "HKG-RAIL-HK-STATION-OVERRUN-TUNNELS",
-        "KHM-WATER-SESAN-WEF-DSS",
-        "TWN-OILGAS-GUANTANG-THIRD-LNG-TERMINAL",
-        "TWN-SOC-NEWTAIPEI-SECOND-ADMIN-CENTER"
+        "CHN-ENERGY-LIANSHUI-JUSHI-WIND-496MW",
+        "IND-ENERGY-CHOUTUPPAL-BESS-750MWH",
+        "IND-ENERGY-LAKADIA-PARTA-14GW-ISTS",
+        "IND-ENERGY-LALITPUR-SOLAR-435MW",
+        "IND-METRO-MUMBAI-LINE10",
+        "IND-WATER-CHENNAI-CLIMATE-RESILIENT-WS",
+        "CHN-TRANSPORT-LINGAO-CROSSSEA-LOWALT",
+        "IND-ENERGY-AMPIN-AP-WIND-SOLAR-BESS-100MW",
+        "THA-RAIL-NAKHONSAWAN-BANPHAI"
       ],
       "updated": [
-        "KHM-PORT-SIHANOUKVILLE-NCT-PH2"
+        "IND-WATER-VARANASI-RAMNAGAR-SEWERAGE",
+        "THA-RAIL-THREE-AIRPORT-HSR",
+        "THA-BRIDGE-KOHLANTA",
+        "THA-BRIDGE-SONGKHLA-LAKE"
       ],
       "removed": []
     }
