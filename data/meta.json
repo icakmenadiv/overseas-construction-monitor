@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T19:49:55.867Z",
+  "updatedAt": "2026-08-22T20:00:51.539Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,59 +28,26 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7824,
-    "projects": 3471
+    "articles": 7828,
+    "projects": 3473
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260821-098001",
-        "ART-20260821-098002",
-        "ART-20260821-098004",
-        "ART-20260821-098005",
-        "ART-20260821-098007",
-        "ART-20260821-098009",
-        "ART-20260821-098010",
-        "ART-20260821-099002",
-        "ART-20260820-097003",
-        "ART-20260820-097005",
-        "ART-20260820-097006",
-        "ART-20260820-097104",
-        "ART-20260820-098003",
-        "ART-20260820-098006",
-        "ART-20260820-099001",
-        "ART-20260820-099003",
-        "ART-20260820-099004",
-        "ART-20260819-097101",
-        "ART-20260819-097102",
-        "ART-20260819-097103",
-        "ART-20260819-098008"
+        "ART-20260821-099502",
+        "ART-20260820-099501",
+        "ART-20260819-099503",
+        "ART-20260819-099504"
       ],
-      "updated": [
-        "ART-20260820-097004",
-        "ART-20260819-097001",
-        "ART-20260819-097002"
-      ],
+      "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "CHN-ENERGY-LIANSHUI-JUSHI-WIND-496MW",
-        "IND-ENERGY-CHOUTUPPAL-BESS-750MWH",
-        "IND-ENERGY-LAKADIA-PARTA-14GW-ISTS",
-        "IND-ENERGY-LALITPUR-SOLAR-435MW",
-        "IND-METRO-MUMBAI-LINE10",
-        "IND-WATER-CHENNAI-CLIMATE-RESILIENT-WS",
-        "CHN-TRANSPORT-LINGAO-CROSSSEA-LOWALT",
-        "IND-ENERGY-AMPIN-AP-WIND-SOLAR-BESS-100MW",
-        "THA-RAIL-NAKHONSAWAN-BANPHAI"
+        "MYS-IND-KUDAT-BLUE-ECONOMY-PARK",
+        "MYS-DIGITAL-SALAM-SUBSEA-CABLE"
       ],
-      "updated": [
-        "IND-WATER-VARANASI-RAMNAGAR-SEWERAGE",
-        "THA-RAIL-THREE-AIRPORT-HSR",
-        "THA-BRIDGE-KOHLANTA",
-        "THA-BRIDGE-SONGKHLA-LAKE"
-      ],
+      "updated": [],
       "removed": []
     }
   },
