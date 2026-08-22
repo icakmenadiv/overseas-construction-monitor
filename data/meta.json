@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T20:00:51.539Z",
+  "updatedAt": "2026-08-22T20:29:08.805Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,26 +28,27 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7828,
-    "projects": 3473
+    "articles": 7831,
+    "projects": 3475
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260821-099502",
-        "ART-20260820-099501",
-        "ART-20260819-099503",
-        "ART-20260819-099504"
+        "ART-20260821-100003",
+        "ART-20260820-100002",
+        "ART-20260819-100001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "MYS-IND-KUDAT-BLUE-ECONOMY-PARK",
-        "MYS-DIGITAL-SALAM-SUBSEA-CABLE"
+        "SGP-ENERGY-TUASPOWER-670MW-CCGT",
+        "SGP-IND-KAKI-BUKIT-SITE"
       ],
-      "updated": [],
+      "updated": [
+        "SGP-DIGITAL-JURONG-ISLAND-DC-PARK"
+      ],
       "removed": []
     }
   },
