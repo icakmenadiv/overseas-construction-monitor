@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T17:29:03.651Z",
+  "updatedAt": "2026-08-24T17:57:42.412Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,38 +28,59 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7836,
-    "projects": 3481
+    "articles": 7859,
+    "projects": 3491
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260824-101006",
-        "ART-20260822-101001",
-        "ART-20260822-101004",
-        "ART-20260822-101005",
-        "ART-20260822-102003",
-        "ART-20260821-101002",
-        "ART-20260821-101003",
-        "ART-20260821-102001",
-        "ART-20260821-102002",
-        "ART-20260820-101001"
+        "ART-20260824-102006",
+        "ART-20260824-103001",
+        "ART-20260824-103002",
+        "ART-20260824-103003",
+        "ART-20260824-103005",
+        "ART-20260823-102002",
+        "ART-20260823-103004",
+        "ART-20260823-103006",
+        "ART-20260823-104003",
+        "ART-20260823-104005",
+        "ART-20260822-102001",
+        "ART-20260822-103004",
+        "ART-20260822-103005",
+        "ART-20260822-104004",
+        "ART-20260821-102003",
+        "ART-20260821-102004",
+        "ART-20260821-102005",
+        "ART-20260821-103001",
+        "ART-20260821-103002",
+        "ART-20260821-103003",
+        "ART-20260821-103004",
+        "ART-20260821-104002",
+        "ART-20260820-104001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "DOM-AIR-PEDERNALES-SPACEPORT",
-        "DOM-ROAD-CABRAL-POLO",
-        "DOM-URBAN-PUNTA-BERGANTIN",
-        "NIC-SOC-MOMOTOMBO-CENTER",
-        "SLV-DIGITAL-FIRST-SUBSEA-CABLE",
-        "DOM-WATER-LA-PAVA-SANITATION",
-        "SLV-ROAD-NATIONAL-LED-LIGHTING",
-        "DOM-DIGITAL-SD-CABLE-REORGANIZATION"
+        "ARG-IND-PPG-LITHIUM",
+        "ARG-ROAD-RFC-ETAPA-III",
+        "BRA-DIGITAL-MACAIBA-AI-SUPERCOMPUTER",
+        "CHL-AIR-PICHOY-EXPANSION",
+        "CHL-ENERGY-CARDONES-BESS-LIFE-EXTENSION",
+        "CHL-WATER-ZAPALLAR-RESERVOIR",
+        "PAN-ROAD-COSTA-DEL-ESTE-HIPODROMO-INTERCHANGES",
+        "PER-BRIDGE-TINGOMARIA-CASTILLOGRANDE",
+        "PER-SOC-ESSALUD-HUANUCO-HOSPITAL",
+        "PAN-PORT-PUERTO-ARMUELLES-MULTIPURPOSE"
       ],
-      "updated": [],
+      "updated": [
+        "ARG-ROAD-AUTOPISTA-DELLEPIANE",
+        "PER-BRIDGE-MUYUNA",
+        "PER-ROAD-NUEVA-CARRETERA-CENTRAL",
+        "BRA-CHEM-AUTAZES-POTASH-PROJECT",
+        "BRA-PORT-TECON-SANTOS10"
+      ],
       "removed": []
     }
   },
