@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T16:58:24.380Z",
+  "updatedAt": "2026-08-24T17:29:03.651Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,44 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7826,
-    "projects": 3473
+    "articles": 7836,
+    "projects": 3481
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260824-101006",
+        "ART-20260822-101001",
+        "ART-20260822-101004",
+        "ART-20260822-101005",
+        "ART-20260822-102003",
+        "ART-20260821-101002",
+        "ART-20260821-101003",
+        "ART-20260821-102001",
+        "ART-20260821-102002",
+        "ART-20260820-101001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "DOM-AIR-PEDERNALES-SPACEPORT",
+        "DOM-ROAD-CABRAL-POLO",
+        "DOM-URBAN-PUNTA-BERGANTIN",
+        "NIC-SOC-MOMOTOMBO-CENTER",
+        "SLV-DIGITAL-FIRST-SUBSEA-CABLE",
+        "DOM-WATER-LA-PAVA-SANITATION",
+        "SLV-ROAD-NATIONAL-LED-LIGHTING",
+        "DOM-DIGITAL-SD-CABLE-REORGANIZATION"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-08-23",
-    "articlePublishedDate": "2026-08-22",
-    "projectUpdatedDate": "2026-08-22"
+    "articleCollectedDate": "2026-08-25",
+    "articlePublishedDate": "2026-08-24",
+    "projectUpdatedDate": "2026-08-24"
   }
 }

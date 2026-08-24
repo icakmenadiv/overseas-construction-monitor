@@ -1,5 +1,65 @@
 [
   {
+    "프로젝트 고유값": "DOM-AIR-PEDERNALES-SPACEPORT",
+    "프로젝트명": "Pedernales Commercial Spaceport Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "교통",
+    "발주처": "Instituto Dominicano de Aviación Civil (IDAC) / Government of the Dominican Republic",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 상업우주 발사시설과 수자원·기술 인프라, 근로자 주거·서비스 복합단지 구상.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-24",
+    "대표 기사 고유값": "ART-20260824-101006",
+    "비고": "미국 FAR Parts 420·433·450 기술기준 국내 적용 검토 중. 규정·개발자·환경·금융·본공사 패키지 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-ROAD-CABRAL-POLO",
+    "프로젝트명": "Cabral-Polo Road Rehabilitation Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas y Comunicaciones (MOPC)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 20.6km 재활, 배수·수로·사면안정·표지 포함.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-08-22",
+    "대표 기사 고유값": "ART-20260822-101004",
+    "비고": "Polo-Enriquillo 30.9km와 51.5km 회랑 구성. Duvergé-Puerto Escondido-Pedernales 후속 입찰 별도 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-URBAN-PUNTA-BERGANTIN",
+    "프로젝트명": "Punta Bergantin Tourism and Residential Development Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "도시개발·주택",
+    "발주처": "Fideicomiso Punta Bergantín / Banreservas / private developers",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "Villas Hacienda Serena·Velavento 금융지원이 확인됐으나 개별 대출액과 공식 총사업비는 미공개.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-08-22",
+    "대표 기사 고유값": "ART-20260822-101005",
+    "비고": "Puerto Plata 관광·주거 복합개발. 개발사·호텔·주거·기반시설 패키지와 Autopista del Ámbar 연계 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NIC-SOC-MOMOTOMBO-CENTER",
+    "프로젝트명": "Centro MOMOTOMBO de Monitoreo, Alerta y Respuesta",
+    "지역": "중남미",
+    "국가": "니카라과",
+    "섹터": "사회인프라",
+    "발주처": "SINAPRED / INETER / Gobierno de Nicaragua / Gobierno de China",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. Managua Bolonia 4,000㎡ 부지 내 내진형 주센터, INETER 백업센터, 통신·데이터·조기경보 시스템 범위만 확인.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-08-22",
+    "대표 기사 고유값": "ART-20260822-101001",
+    "비고": "국가 다중재난 감시·조기경보·대응 통합센터. 12개 업무 애플리케이션, 7개 지원 플랫폼, 재해복구 시스템을 포함하며 후속 유지관리·고도화·관측망 연계 패키지 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PAK-SOC-JINNAH-CARDIOLOGY-INSTITUTE",
     "프로젝트명": "Jinnah Institute of Cardiology Project",
     "지역": "아시아",
@@ -45,6 +105,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SLV-DIGITAL-FIRST-SUBSEA-CABLE",
+    "프로젝트명": "El Salvador First Submarine Cable Project",
+    "지역": "중남미",
+    "국가": "엘살바도르",
+    "섹터": "디지털·데이터센터",
+    "발주처": "CAF / Superintendencia General de Electricidad y Telecomunicaciones (SIGET) / Liberty Networks",
+    "사업비(달러 기준 추정액)": "USD 145mn",
+    "사업비 환산 환율 / 기준": "CAF 공식 사업자료 기준 총 프로그램 비용 및 주권금융 USD 145mn. 원문 USD 금액이라 환산 불필요. 2026년 건설·장비·배치 예산 USD 81.24mn은 총사업비와 구분.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-08-22",
+    "대표 기사 고유값": "ART-20260822-102003",
+    "비고": "1,800km 해저케이블, 육양국 및 건식 플랜트 인프라. 2026-09-04 설계·조사 제안 마감, Liberty Networks 개발 참여, 2028년 하반기 운영 목표. 컨설턴트 선정, 환경·해안 인허가, 케이블 공급·부설, 육양국·전력·보안·통신 패키지를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AUS-ENERGY-MUSWELLBROOK-SOLAR-BESS",
     "프로젝트명": "Muswellbrook Solar Farm and Battery Project",
     "지역": "태평양",
@@ -87,6 +162,21 @@
     "최근 업데이트일": "2026-08-21",
     "대표 기사 고유값": "ART-20260821-013679",
     "비고": "기존 46km 트랙을 Busselton Jetty-Flinders Bay 약 110km 연속 노선으로 확장하는 사업. Common Ground Trails가 첫 24km 공사를 수주했고 수개월 내 착공 예정이며, 나머지 구간은 2026년 후반 별도 입찰 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-WATER-LA-PAVA-SANITATION",
+    "프로젝트명": "La Pava Ravine Sanitation Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "수자원·환경",
+    "발주처": "Instituto Nacional de Aguas Potables y Alcantarillados (INAPA)",
+    "사업비(달러 기준 추정액)": "USD 8.39mn",
+    "사업비 환산 환율 / 기준": "공식 사업비 RD 489,078,818.64 / 2026-08-21 BCRD USD 매입 기준 1 USD=RD 58.3185 적용: 약 USD 8.39mn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-21",
+    "대표 기사 고유값": "ART-20260821-101002",
+    "비고": "5.5km 수로, 우수관·집수정, 중력식 하수관로·800개 이상 점검구, 1.6만㎡ 공원. 공정·후속 지역 위생사업 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -315,6 +405,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SLV-ROAD-NATIONAL-LED-LIGHTING",
+    "프로젝트명": "National Road Network LED Lighting Project",
+    "지역": "중남미",
+    "국가": "엘살바도르",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas y de Transporte (MOPT)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 1단계 100km 이상, Carretera de Oro·Troncal del Norte·Periférico Claudia Lars·Sacacoyo-Acajutla 축 포함.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-21",
+    "대표 기사 고유값": "ART-20260821-102001",
+    "비고": "국가 우선 도로구간 LED 조명 공급·설치사업. 1단계 공사 진행과 2단계 관광·Litoral·Panamericana 축 확대, 시공사·구간별 계약·스마트제어·유지관리 패키지를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TWN-OILGAS-GUANTANG-THIRD-LNG-TERMINAL",
     "프로젝트명": "Guantang Third LNG Receiving Terminal Project",
     "지역": "아시아",
@@ -357,6 +462,21 @@
     "최근 업데이트일": "2026-08-20",
     "대표 기사 고유값": "ART-20260820-013687",
     "비고": "Wrigley-Inuvik 약 800km 전천후 도로 회랑. Highway 1 재포장, Oscar Creek Bridge 이전, Christina Creek 재정렬, Smith Creek Bridge와 Wrigley Bypass의 공사·조달·계획이 진전됨. 환경평가와 패키지별 공고·계약자 선정 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-DIGITAL-SD-CABLE-REORGANIZATION",
+    "프로젝트명": "Santo Domingo Urban Telecommunications Cabling Reorganization Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Indotel / Alcaldía del Distrito Nacional / CUED",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. 수도권 8개 구역, 3개 로트, 미사용 공중 통신케이블 약 300km 철거·재배치·정리.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-20",
+    "대표 기사 고유값": "ART-20260820-101001",
+    "비고": "도시지역 통신케이블 철거·재배치·재정비 사업. 추가 로트, 지중화·스마트도시 연계와 폐기물 처리 범위 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
