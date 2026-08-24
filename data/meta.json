@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T19:45:12.699Z",
+  "updatedAt": "2026-08-24T20:03:26.683Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,32 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260824-121001",
-        "ART-20260824-121002",
-        "ART-20260824-121003",
-        "ART-20260824-121007",
-        "ART-20260821-121004",
-        "ART-20260821-121005",
-        "ART-20260821-121006",
-        "ART-20260821-121008",
-        "ART-20260821-121009"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "JPN-ENERGY-CHOSHI-OFFSHORE-WIND-REDEVELOPMENT",
-        "JPN-OILGAS-MIZUSHIMA-CCS-CLUSTER",
-        "JPN-ROAD-DAIKAKUNO-PASS-TUNNEL1",
-        "JPN-IND-NAGAO-ARASAKA-LAND-READJUSTMENT",
-        "JPN-PORT-OBAMA-IMPROVEMENT",
-        "JPN-ROAD-OSAKA-BAY-WEST-ROKKO-PE18"
-      ],
-      "updated": [
-        "JPN-URBAN-NAKANO-SUNPLAZA-REDEVELOPMENT"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
