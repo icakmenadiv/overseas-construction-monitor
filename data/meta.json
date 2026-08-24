@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T19:14:17.643Z",
+  "updatedAt": "2026-08-24T19:45:12.699Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,43 +28,36 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7909,
-    "projects": 3519
+    "articles": 7918,
+    "projects": 3525
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260824-110001",
-        "ART-20260824-110002",
-        "ART-20260824-110004",
-        "ART-20260824-110006",
-        "ART-20260824-110007",
-        "ART-20260824-120001",
-        "ART-20260824-120002",
-        "ART-20260824-120005",
-        "ART-20260823-110003",
-        "ART-20260823-110005",
-        "ART-20260823-120003",
-        "ART-20260823-120004",
-        "ART-20260821-120006",
-        "ART-20260821-120007"
+        "ART-20260824-121001",
+        "ART-20260824-121002",
+        "ART-20260824-121003",
+        "ART-20260824-121007",
+        "ART-20260821-121004",
+        "ART-20260821-121005",
+        "ART-20260821-121006",
+        "ART-20260821-121008",
+        "ART-20260821-121009"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "MNG-ROAD-UGTAALTSAIDAM-BAYANKHANGAI-122KM",
-        "PAK-PORT-KETI-BANDAR-PHASE1",
-        "PAK-WATER-DADUCHA-WTP-SUPPLY",
-        "PAK-WATER-SINDH-BARRAGES-IMPROVEMENT",
-        "PAK-ROAD-GALIYAT-TOURISM-ROADS"
+        "JPN-ENERGY-CHOSHI-OFFSHORE-WIND-REDEVELOPMENT",
+        "JPN-OILGAS-MIZUSHIMA-CCS-CLUSTER",
+        "JPN-ROAD-DAIKAKUNO-PASS-TUNNEL1",
+        "JPN-IND-NAGAO-ARASAKA-LAND-READJUSTMENT",
+        "JPN-PORT-OBAMA-IMPROVEMENT",
+        "JPN-ROAD-OSAKA-BAY-WEST-ROKKO-PE18"
       ],
       "updated": [
-        "NPL-HYDRO-RAHUGHAT-40MW",
-        "NPL-ROAD-KODARI-ECO-REHAB",
-        "PAK-BRT-KARACHI-RED-LINE",
-        "NPL-AIR-TIA-ATC-TOWER"
+        "JPN-URBAN-NAKANO-SUNPLAZA-REDEVELOPMENT"
       ],
       "removed": []
     }
