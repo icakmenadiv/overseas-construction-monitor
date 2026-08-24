@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T18:53:23.369Z",
+  "updatedAt": "2026-08-24T19:14:17.643Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,42 +24,48 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7895,
-    "projects": 3514
+    "articles": 7909,
+    "projects": 3519
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260824-109001",
-        "ART-20260824-109003",
-        "ART-20260824-109004",
-        "ART-20260823-108006",
-        "ART-20260823-109005",
-        "ART-20260822-109002",
-        "ART-20260821-108001",
-        "ART-20260821-108002",
-        "ART-20260821-108003",
-        "ART-20260821-108004",
-        "ART-20260821-108005"
+        "ART-20260824-110001",
+        "ART-20260824-110002",
+        "ART-20260824-110004",
+        "ART-20260824-110006",
+        "ART-20260824-110007",
+        "ART-20260824-120001",
+        "ART-20260824-120002",
+        "ART-20260824-120005",
+        "ART-20260823-110003",
+        "ART-20260823-110005",
+        "ART-20260823-120003",
+        "ART-20260823-120004",
+        "ART-20260821-120006",
+        "ART-20260821-120007"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
+        "MNG-ROAD-UGTAALTSAIDAM-BAYANKHANGAI-122KM",
+        "PAK-PORT-KETI-BANDAR-PHASE1",
+        "PAK-WATER-DADUCHA-WTP-SUPPLY",
+        "PAK-WATER-SINDH-BARRAGES-IMPROVEMENT",
+        "PAK-ROAD-GALIYAT-TOURISM-ROADS"
+      ],
+      "updated": [
         "NPL-HYDRO-RAHUGHAT-40MW",
         "NPL-ROAD-KODARI-ECO-REHAB",
-        "NPL-AIR-TIA-ATC-TOWER",
-        "USA-IND-MIDDLETOWN-WORKS",
-        "USA-PORT-IBERIA-CHANNEL-DEEPENING",
-        "USA-SOC-WHITE-HOUSE-BALLROOM-COMPLEX",
-        "USA-WATER-ANDERSON-DAM-SEISMIC-RETROFIT"
+        "PAK-BRT-KARACHI-RED-LINE",
+        "NPL-AIR-TIA-ATC-TOWER"
       ],
-      "updated": [],
       "removed": []
     }
   },
