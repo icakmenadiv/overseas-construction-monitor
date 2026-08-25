@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T18:57:35.219Z",
+  "updatedAt": "2026-08-25T01:50:29.598Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1107,6 +1107,13 @@
       },
       "ART-20260813-013672": {
         "source_link_click": 2
+      },
+      "ART-20260822-102001": {
+        "source_link_click": 1
+      },
+      "ART-20260822-102003": {
+        "article_detail_open": 1,
+        "source_link_click": 1
       }
     },
     "page": {
@@ -1221,6 +1228,9 @@
         "project_detail_open": 1
       },
       "SAU-WATER-RIYADH-NORTH-ISTP": {
+        "project_detail_open": 1
+      },
+      "SLV-DIGITAL-FIRST-SUBSEA-CABLE": {
         "project_detail_open": 1
       },
       "THA-WATER-RAYONG-EEC-DRAINAGE": {
@@ -4243,6 +4253,27 @@
       "updatedAt": "2026-08-17T23:34:43.890Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260822-102001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-25T00:31:47.802Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260822-102003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-25T00:30:43.587Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260822-102003",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-25T00:30:10.560Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
@@ -4500,6 +4531,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-07-02T00:11:52.909Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "SLV-DIGITAL-FIRST-SUBSEA-CABLE",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-25T00:30:36.622Z"
     },
     {
       "targetType": "project",
