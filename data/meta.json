@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T17:18:40.651Z",
+  "updatedAt": "2026-08-25T17:48:25.058Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,40 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7921,
-    "projects": 3526
+    "articles": 7932,
+    "projects": 3530
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260825-122003",
-        "ART-20260824-122002",
-        "ART-20260822-122001"
+        "ART-20260825-102005",
+        "ART-20260825-123001",
+        "ART-20260825-123002",
+        "ART-20260824-102004",
+        "ART-20260824-122001",
+        "ART-20260824-122003",
+        "ART-20260824-124001",
+        "ART-20260824-124004",
+        "ART-20260822-122002",
+        "ART-20260822-124002",
+        "ART-20260822-124003"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "DOM-HOSP-SANCRISTOBAL-TRAUMA"
+        "CHL-ROAD-COVI-RUTA78-RUTA68",
+        "CHL-ROAD-LAS-LENAS-TUNNEL",
+        "NIC-ROAD-MANAGUA-HEROES-INSURRECCION",
+        "NIC-URBAN-NUEVAS-VICTORIAS-MANAGUA-150"
       ],
-      "updated": [],
+      "updated": [
+        "NIC-SOC-MOMOTOMBO-CENTER",
+        "SLV-ROAD-LOS-CHORROS-VIADUCT-WIDENING",
+        "CHL-ROAD-RUTA150-CONCEPCION-TALCAHUANO-CORRIDOR",
+        "CHL-ROAD-RUTA160-TRANSIT-CORRIDOR"
+      ],
       "removed": []
     }
   },

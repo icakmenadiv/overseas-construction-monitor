@@ -75,6 +75,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CHL-ROAD-COVI-RUTA78-RUTA68",
+    "프로젝트명": "COVI Ruta 78-Ruta 68 Road Connection Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas (MOP) / Grupo Costanera",
+    "사업비(달러 기준 추정액)": "USD 262mn",
+    "사업비 환산 환율 / 기준": "MOP 2026-08-24 공식 기사에서 총투자 USD 262mn 제시. 원문이 USD 기준이므로 환산 없음.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-24",
+    "대표 기사 고유값": "ART-20260824-124001",
+    "비고": "Pudahuel-Maipú 간 Ruta 68과 Ruta 78을 연결하는 9.4km 양방향 3차로 도로. 비아덕트 2개, 상부교차로 2개, 교량 2개, 서비스도로·보행·자전거 시설을 포함하며 2026-08-24 공정률 20% 초과, 2027년 말 완공 목표를 확인함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHL-ROAD-LAS-LENAS-TUNNEL",
+    "프로젝트명": "Paso Las Leñas International Tunnel Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas (MOP) / Entidad Binacional para el Proyecto Túnel Internacional Paso Las Leñas (EBILEÑAS)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-24 GORE O'Higgins 원문에 공식 총사업비 미공개. 과거 구상값은 최신 확정 사업비로 확인되지 않아 반영하지 않음.",
+    "현재 단계": "on-hold",
+    "최근 업데이트일": "2026-08-24",
+    "대표 기사 고유값": "ART-20260824-124004",
+    "비고": "O'Higgins의 Machalí와 아르헨티나 Mendoza를 연결하는 국제터널·국경회랑 구상. 2023년 타당성조사 착수 이력이 있으나 장기간 계류돼 있으며, 2026-08-24 주지사가 MOP에 재활성화와 국제양허형 재원 검토를 요청함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "DOM-AIR-PEDERNALES-SPACEPORT",
     "프로젝트명": "Pedernales Commercial Spaceport Project",
     "지역": "중남미",
@@ -255,6 +285,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "NIC-ROAD-MANAGUA-HEROES-INSURRECCION",
+    "프로젝트명": "Managua Pista Héroes y Mártires de la Insurrección Modernization Project",
+    "지역": "중남미",
+    "국가": "니카라과",
+    "섹터": "교통",
+    "발주처": "Alcaldía de Managua",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-24 원문에 공식 총사업비 미공개. 과거 현지 보도의 USD 200mn 초과 추정치는 현행 공식 총사업비로 확인되지 않아 사업비 열에 반영하지 않음.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-24",
+    "대표 기사 고유값": "ART-20260824-122001",
+    "비고": "구 Pista Juan Pablo II로도 알려진 마나과 동서축 약 9.6km 현대화사업. 4개 구간, 다수 입체교차로·교량·배수·전력 이설을 포함하며 2026-08-24 기준 Tramo II 배수공정 72% 초과, ENEL Central 교량 약 30일 내 부분 개통, 주요 배수공정 11~12월 종료 목표를 확인함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NIC-SOC-MOMOTOMBO-CENTER",
+    "프로젝트명": "Centro MOMOTOMBO de Monitoreo, Alerta y Respuesta",
+    "지역": "중남미",
+    "국가": "니카라과",
+    "섹터": "사회인프라",
+    "발주처": "SINAPRED / INETER / Gobierno de Nicaragua / Gobierno de China / China Communications Services International",
+    "사업비(달러 기준 추정액)": "USD 42mn",
+    "사업비 환산 환율 / 기준": "2026-08-24 El 19 Digital 후속 보도에서 공식 투자액 USD 42mn 확인. USD 원문금액으로 환산 불필요.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-08-24",
+    "대표 기사 고유값": "ART-20260824-122003",
+    "비고": "국가 다중재난 감시·조기경보·대응 통합센터. 4,000㎡ 내진형 주센터, INETER 백업센터, 고속 데이터센터, 12개 운영 애플리케이션과 전국 관측·위성통신망을 포함함. 같은 날 공식 동반 보도에서 China Communications Services International의 건설·장비 참여가 확인됨. 유지관리·고도화·관측망 확장 패키지 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NPL-HYDRO-RAHUGHAT-40MW",
     "프로젝트명": "Rahughat Hydropower Project",
     "지역": "아시아",
@@ -360,6 +420,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SLV-ROAD-LOS-CHORROS-VIADUCT-WIDENING",
+    "프로젝트명": "Los Chorros Viaduct and Pan-American Highway Widening Project",
+    "지역": "중남미",
+    "국가": "엘살바도르",
+    "섹터": "교통",
+    "발주처": "MOPT",
+    "사업비(달러 기준 추정액)": "USD 372.6mn",
+    "사업비 환산 환율 / 기준": "2025-05-12 elsalvador.com 보도가 프로젝트 계약에 따른 공식 투자액 USD 372.6mn을 명시. USD 410mn 금융한도·초기 총사업비 보도와 구분.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-24",
+    "대표 기사 고유값": "ART-20260824-102004",
+    "비고": "Los Chorros 구간 사면 안정화와 Francisco Morazán 비아덕트·Pan-American Highway 확장 공사. 한국 동부건설 시공, 도화엔지니어링 감리, 한국 EDCF·BCIE 금융 연계 사업. 2026-08-29~30 핵심 사면 발파·잔해 제거 예정으로 공정·안전·공기변경을 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MEX-URBANRAIL-CDMX-CABLEBUS-L4",
     "프로젝트명": "Cablebús Line 4 Tlalpan-Coyoacán Project",
     "지역": "중남미",
@@ -402,6 +477,36 @@
     "최근 업데이트일": "2026-08-23",
     "대표 기사 고유값": "ART-20260823-110005",
     "비고": "Abbottabad-Nathiagali-Barian 57.5km와 Kozagali-Ayubia-Khanspur 6.15km 등 총 63.65km 산악 관광도로 재건·개량. 착공·중장비 투입 확인, 공정·사면·배수·포장 품질 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHL-ROAD-RUTA150-CONCEPCION-TALCAHUANO-CORRIDOR",
+    "프로젝트명": "Ruta 150 and Concepción-Talcahuano Public Transport Corridors Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas (MOP) / Dirección de Vialidad",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "기존 DGC 공식 사업자료는 UF 4,431,000(약 USD 172mn)을 제시했으나, 2026-08-22 MOP가 두 회랑 합계 예산을 USD 332mn으로 23% 축소함. 최신 개별 배분액은 미공개라 미확인으로 전환하고 과거 공식값은 참고로 보존함.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-08-22",
+    "대표 기사 고유값": "ART-20260822-124002",
+    "비고": "Biobío Penco-Talcahuano-Hualpén-Concepción 약 9.3km 대중교통 회랑. 양허에서 MOP 도로국 재정사업으로 전환됐고 두 회랑 합계 예산은 USD 332mn으로 축소됨. 착공은 2029년, 전체 준공은 2032년 하반기 목표이며 개별 예산배분·공구분할·입찰을 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHL-ROAD-RUTA160-TRANSIT-CORRIDOR",
+    "프로젝트명": "Ruta 160 Public Transport Corridor Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "교통",
+    "발주처": "Ministerio de Obras Públicas (MOP) / Dirección de Vialidad",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "기존 DGC 공식 사업자료는 UF 4,414,000(약 USD 171mn)을 제시했으나, 2026-08-22 MOP가 두 회랑 합계 예산을 USD 332mn으로 23% 축소함. 최신 개별 배분액은 미공개라 미확인으로 전환하고 과거 공식값은 참고로 보존함.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-08-22",
+    "대표 기사 고유값": "ART-20260822-124002",
+    "비고": "Biobío San Pedro de la Paz-Coronel 약 14km 대중교통 회랑. 양허에서 MOP 도로국 재정사업으로 전환됐고 두 회랑 합계 예산은 USD 332mn으로 축소됨. Ruta 160 일정은 약 2개월 조정되고 전체 준공 목표는 2032년 하반기임. 개별 예산배분·입찰 패키지를 추적함.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -450,18 +555,18 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "NIC-SOC-MOMOTOMBO-CENTER",
-    "프로젝트명": "Centro MOMOTOMBO de Monitoreo, Alerta y Respuesta",
+    "프로젝트 고유값": "NIC-URBAN-NUEVAS-VICTORIAS-MANAGUA-150",
+    "프로젝트명": "Apartamentos Nuevas Victorias Managua 150-unit Project",
     "지역": "중남미",
     "국가": "니카라과",
-    "섹터": "사회인프라",
-    "발주처": "SINAPRED / INETER / Gobierno de Nicaragua / Gobierno de China",
+    "섹터": "도시개발·주택",
+    "발주처": "Instituto de la Vivienda Urbana y Rural (INVUR) / Gobierno de Nicaragua",
     "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. Managua Bolonia 4,000㎡ 부지 내 내진형 주센터, INETER 백업센터, 통신·데이터·조기경보 시스템 범위만 확인.",
-    "현재 단계": "operation",
+    "사업비 환산 환율 / 기준": "2026-08-22 원문은 가구당 시장가치 USD 85,000과 우대대출 USD 45,000을 제시하지만 이는 공식 총사업비·공사계약액이 아니므로 미확인 유지.",
+    "현재 단계": "completion",
     "최근 업데이트일": "2026-08-22",
-    "대표 기사 고유값": "ART-20260822-101001",
-    "비고": "국가 다중재난 감시·조기경보·대응 통합센터. 12개 업무 애플리케이션, 7개 지원 플랫폼, 재해복구 시스템을 포함하며 후속 유지관리·고도화·관측망 연계 패키지 추적.",
+    "대표 기사 고유값": "ART-20260822-122002",
+    "비고": "Estadio Stanley Cayasso 맞은편과 Parque El Alba 일대 2개 부지의 150가구 공공주택 단지. 약 63㎡·침실 2개 주택과 포장도로·보도·전력·조명·상하수도·우수배수망을 포함하며 첫 가구 인도가 시작됨. 잔여 인도, 하자보수와 후속 720가구 단계의 사업화 여부를 추적함.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2187,36 +2292,6 @@
     "최근 업데이트일": "2026-08-07",
     "대표 기사 고유값": "ART-20260807-013604",
     "비고": "Modipane와 Mabalane을 연결하는 공공 도로사업. 공사자금 동결 임시명령이 항소심에서 취소돼 사업 재개 여건이 마련됨. Pro-Serve Consulting Botswana, Tau Grading, Unik Construction 관련 계약분쟁과 시공사 교체, 현장 재동원 일정을 추적함.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "CHL-ROAD-RUTA150-CONCEPCION-TALCAHUANO-CORRIDOR",
-    "프로젝트명": "Ruta 150 and Concepción-Talcahuano Public Transport Corridors Project",
-    "지역": "중남미",
-    "국가": "칠레",
-    "섹터": "교통",
-    "발주처": "Ministerio de Obras Públicas (MOP) / Dirección de Vialidad",
-    "사업비(달러 기준 추정액)": "USD 172mn",
-    "사업비 환산 환율 / 기준": "DGC 공식 사업자료 기준 UF 4,431,000(약 USD 172mn). 2026-08-07 양허에서 공공사업 방식으로 전환돼 최종 공사비·재원은 새 Carta Gantt와 발주문서에서 재확인 필요.",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 8. 7",
-    "대표 기사 고유값": "ART-20260807-013569",
-    "비고": "Biobío의 Penco-Talcahuano-Hualpén-Concepción을 잇는 Ruta 150 및 Autopista Concepción-Talcahuano Tramo II 약 9.3km 대중교통 회랑 사업. Grupo Azvi 계열 Consorcio Electro-Cointer II 양허 절차는 정식 낙찰 decree 없이 종료되고 MOP 도로국 공공사업으로 전환됨. 2031년 준공 목표 유지 방침이며 한 달 내 세부 일정표 공개 예정.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "CHL-ROAD-RUTA160-TRANSIT-CORRIDOR",
-    "프로젝트명": "Ruta 160 Public Transport Corridor Project",
-    "지역": "중남미",
-    "국가": "칠레",
-    "섹터": "교통",
-    "발주처": "Ministerio de Obras Públicas (MOP) / Dirección de Vialidad",
-    "사업비(달러 기준 추정액)": "USD 171mn",
-    "사업비 환산 환율 / 기준": "DGC 공식 사업자료 기준 UF 4,414,000(약 USD 171mn). 2026-08-07 양허에서 공공사업 방식으로 전환돼 최종 공사비·재원은 새 Carta Gantt와 발주문서에서 재확인 필요.",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 8. 7",
-    "대표 기사 고유값": "ART-20260807-013569",
-    "비고": "Biobío의 San Pedro de la Paz-Coronel 구간 약 14km에 중앙부 양방향 대중교통 전용회랑, 정류장, 보행·자전거 시설을 조성하는 사업. Grupo Azvi 계열 Consorcio Electro-Cointer 양허 절차는 정식 낙찰 decree 없이 종료되고 MOP 도로국 공공사업으로 전환됨. 2031년 준공 목표 유지 방침이며 한 달 내 세부 일정표 공개 예정.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -26952,21 +27027,6 @@
     "최근 업데이트일": "2026. 6. 23",
     "대표 기사 고유값": "ART-20260623-005394",
     "비고": "San Óscar Arnulfo Romero 국제공항 신규 도착 터미널. 24,000㎡급 도착·이민·세관·수하물 처리시설 확장으로 8개월 공사 후 개장. 후속 공항 현대화 패키지, 주차동, 터미널 외관 리모델링과는 범위를 구분한다.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "SLV-ROAD-LOS-CHORROS-VIADUCT-WIDENING",
-    "프로젝트명": "Los Chorros Viaduct and Pan-American Highway Widening Project",
-    "지역": "중남미",
-    "국가": "엘살바도르",
-    "섹터": "교통",
-    "발주처": "MOPT",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 23",
-    "대표 기사 고유값": "ART-20260623-005397",
-    "비고": "Los Chorros 구간 사면 안정화, viaduct 및 Pan-American Highway 확장 공사. 2026-06-23 talud 1 임시 보호 컨테이너 철거로 현장 공정 전환이 확인됐다. 후속 준공, 주요 구조물 완료, 계약변경 기사는 같은 프로젝트 후보로 비교한다.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
