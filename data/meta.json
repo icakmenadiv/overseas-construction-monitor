@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T22:29:09.469Z",
+  "updatedAt": "2026-08-25T22:55:42.508Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,45 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7932,
-    "projects": 3530
+    "articles": 7948,
+    "projects": 3540
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260825-125004",
+        "ART-20260825-126002",
+        "ART-20260825-126003",
+        "ART-20260825-126006",
+        "ART-20260825-128001",
+        "ART-20260824-125002",
+        "ART-20260824-125003",
+        "ART-20260824-126001",
+        "ART-20260824-126004",
+        "ART-20260824-126005",
+        "ART-20260824-127001",
+        "ART-20260824-127002",
+        "ART-20260824-127003",
+        "ART-20260824-128002",
+        "ART-20260823-125001",
+        "ART-20260822-128003"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "ETH-WATER-MEGECH-IRRIGATION",
+        "NGA-HOSP-NATIONAL-CANCER-INSTITUTE",
+        "NGA-ROAD-BENIN-ASABA-EXPRESSWAY",
+        "NGA-ROAD-IBADAN-IJEBUODE",
+        "SDN-HOSP-TEACHERS-MEDICAL-CITY",
+        "BWA-ENERGY-BPC-SMART-METER-7392",
+        "ETH-ROAD-COCA-GEDAME-EYESUS-MESALEMIA",
+        "NGA-OILGAS-BONGA-SW-APARO",
+        "NGA-SOC-NATIONAL-LIBRARY-HQ",
+        "ETH-ROAD-UNISA-GALAN-BISHOFTU-BIYO"
+      ],
       "updated": [],
       "removed": []
     }
@@ -46,6 +74,6 @@
   "latest": {
     "articleCollectedDate": "2026-08-26",
     "articlePublishedDate": "2026-08-25",
-    "projectUpdatedDate": "2026-08-24"
+    "projectUpdatedDate": "2026-08-25"
   }
 }
