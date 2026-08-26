@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T18:07:37.514Z",
+  "updatedAt": "2026-08-26T19:58:17.005Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,33 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260826-129004",
-        "ART-20260825-129001",
-        "ART-20260825-129002",
-        "ART-20260825-129003",
-        "ART-20260825-130002",
-        "ART-20260825-130003",
-        "ART-20260825-130004",
-        "ART-20260824-122004",
-        "ART-20260824-130001",
-        "ART-20260824-130005",
-        "ART-20260823-130001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "DOM-URBAN-BONBOGA-PEDERNALES",
-        "DOM-AIR-AILA-TERMINAL2",
-        "PER-WATER-HUAURA-LEONCIO-PRADO-IRRIGATION",
-        "NIC-URBAN-NUEVAS-VICTORIAS-ESTELI-147",
-        "SLV-ENERGY-SAN-MATIAS-SOLAR"
-      ],
-      "updated": [
-        "PER-BRIDGE-SANTA-ROSA-CALLAO"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
