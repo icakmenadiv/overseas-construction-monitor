@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T18:55:13.758Z",
+  "updatedAt": "2026-08-26T01:56:51.965Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1114,11 +1114,14 @@
       "ART-20260822-102003": {
         "article_detail_open": 1,
         "source_link_click": 1
+      },
+      "ART-20260822-109002": {
+        "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 39
+        "market_page_visit": 41
       }
     },
     "project": {
@@ -1183,6 +1186,9 @@
         "project_detail_open": 1
       },
       "NPL-AIR-TARIGAUN-AIRPORT-UPGRADE": {
+        "project_detail_open": 1
+      },
+      "NPL-AIR-TIA-ATC-TOWER": {
         "project_detail_open": 1
       },
       "NPL-HYDRO-JAGDULLA-106MW": {
@@ -4274,11 +4280,18 @@
       "updatedAt": "2026-08-25T00:30:10.560Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260822-109002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-26T00:26:54.136Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 39,
-      "updatedAt": "2026-08-18T08:14:29.480Z"
+      "count": 41,
+      "updatedAt": "2026-08-26T00:25:36.485Z"
     },
     {
       "targetType": "project",
@@ -4426,6 +4439,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-30T23:47:10.629Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "NPL-AIR-TIA-ATC-TOWER",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-26T00:25:25.570Z"
     },
     {
       "targetType": "project",
