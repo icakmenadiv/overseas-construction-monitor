@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T19:58:17.005Z",
+  "updatedAt": "2026-08-26T22:42:40.966Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,18 +28,59 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7959,
-    "projects": 3545
+    "articles": 7983,
+    "projects": 3555
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260826-131001",
+        "ART-20260826-132004",
+        "ART-20260826-132007",
+        "ART-20260826-132008",
+        "ART-20260826-134001",
+        "ART-20260826-134003",
+        "ART-20260825-131002",
+        "ART-20260825-131003",
+        "ART-20260825-132005",
+        "ART-20260825-132006",
+        "ART-20260825-132009",
+        "ART-20260825-133001",
+        "ART-20260825-134002",
+        "ART-20260825-134004",
+        "ART-20260825-134005",
+        "ART-20260825-134006",
+        "ART-20260824-131004",
+        "ART-20260824-132001",
+        "ART-20260824-132002",
+        "ART-20260824-132003",
+        "ART-20260824-133002",
+        "ART-20260824-133003",
+        "ART-20260823-132001",
+        "ART-20260823-133004"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "KGZ-ENERGY-LEBEDINOVKA-HPP-REHAB",
+        "UZB-IND-DPWORLD-TASHKENT-MULTIMODAL",
+        "KGZ-PETCHEM-JUNDA-REFINERY-MODERNIZATION",
+        "KGZ-ROAD-SUUSAMYR-TALAS-TARAZ-PH4",
+        "UZB-URBAN-KHIVA-SMART-CITY",
+        "TJK-AIR-MUMINOBOD-LOCAL-AIRPORT",
+        "TJK-SOC-DUSHANBE-NATIONAL-THEATRE",
+        "UZB-IND-YAZYAVAN-EBUS-PLANT",
+        "UZB-URBAN-SEABREEZE-UZBEKISTAN",
+        "UZB-URBANRAIL-MINGURIK-IPPODROM"
+      ],
+      "updated": [
+        "KAZ-URBAN-ALATAU-CITY",
+        "KGZ-TRANSPORT-CKU-RAILWAY",
+        "KGZ-URBAN-ALATOO-RESORT",
+        "TJK-ENERGY-ROGUN-HPP-PHASE1"
+      ],
       "removed": []
     }
   },
