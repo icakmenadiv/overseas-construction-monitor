@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T14:34:11.900Z",
+  "updatedAt": "2026-08-27T23:55:41.768Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,107 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 7983,
-    "projects": 3555
+    "articles": 8030,
+    "projects": 3577
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260827-137003",
+        "ART-20260827-137004",
+        "ART-20260827-137005",
+        "ART-20260827-138004",
+        "ART-20260827-140004",
+        "ART-20260827-141002",
+        "ART-20260827-141004",
+        "ART-20260827-141005",
+        "ART-20260826-135001",
+        "ART-20260826-135002",
+        "ART-20260826-135003",
+        "ART-20260826-136002",
+        "ART-20260826-137001",
+        "ART-20260826-137002",
+        "ART-20260826-138001",
+        "ART-20260826-138002",
+        "ART-20260826-138003",
+        "ART-20260826-138005",
+        "ART-20260826-138006",
+        "ART-20260826-138007",
+        "ART-20260826-138009",
+        "ART-20260826-139002",
+        "ART-20260826-140003",
+        "ART-20260826-141003",
+        "ART-20260826-142001",
+        "ART-20260826-143001",
+        "ART-20260826-143002",
+        "ART-20260826-143008",
+        "ART-20260825-136001",
+        "ART-20260825-138001",
+        "ART-20260825-138002",
+        "ART-20260825-138003",
+        "ART-20260825-138005",
+        "ART-20260825-140002",
+        "ART-20260825-142002",
+        "ART-20260825-143006",
+        "ART-20260825-143007",
+        "ART-20260824-138004",
+        "ART-20260824-138008",
+        "ART-20260824-139001",
+        "ART-20260824-140001",
+        "ART-20260824-141001",
+        "ART-20260824-143001",
+        "ART-20260824-143002",
+        "ART-20260824-143003",
+        "ART-20260824-143004",
+        "ART-20260824-143005"
+      ],
+      "updated": [
+        "ART-20260520-007029"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CHL-ROAD-RUTAS-DEL-LOA",
+        "PER-AIR-PUCALLPA-MODERNIZATION",
+        "SDN-WATER-ALDAMER-ALMOGRAN-STATION",
+        "ARG-AIR-SALTA-TERMINAL",
+        "ARG-IND-QUEQUEN-FISHING-COMPLEX",
+        "ARG-OILGAS-MEGA-EXPANSION",
+        "BWA-ROAD-FRANCISTOWN-NATA-A3",
+        "CHL-ROAD-RUTA7-BAHIAMURTA-ELBELGA",
+        "DOM-ENERGY-CABRAL-DUVERGE-JIMANI-69KV-RECOVERY",
+        "ETH-ENERGY-KOYSHA-HPP",
+        "ISR-WATER-EMEK-HEFER-DESALINATION",
+        "NGA-ROAD-BONNY-BODO",
+        "NIC-URBAN-NUEVAS-VICTORIAS-MANAGUA-PH2-720",
+        "PER-ENERGY-HUARMEY-220KV-SUBSTATION",
+        "PER-ROAD-ANILLO-VIAL-PERIFERICO",
+        "BWA-SOC-BIUST-RADIO-TELESCOPE-FOUNDATION",
+        "CHL-AIR-BALMACEDA-NEW-TERMINAL",
+        "CHL-DIGITAL-CHILE-CHINA-EXPRESS",
+        "MOZ-WATER-MATOLA-RIVERS-REHAB",
+        "MOZ-ENERGY-NHAMATANDA-SOLAR-45MW",
+        "MOZ-WATER-MOAMBA-MAJOR-DAM",
+        "MOZ-WATER-RURAL-SMALL-TOWNS-SECURITY"
+      ],
+      "updated": [
+        "NGA-RAIL-KANO-MARADI",
+        "NGA-ROAD-BENIN-ASABA-EXPRESSWAY",
+        "ARG-GAS-SAN-MATIAS-PIPELINE",
+        "MOZ-OILGAS-ROVUMA-LNG",
+        "NIC-ROAD-MANAGUA-HEROES-INSURRECCION",
+        "ARG-OILGAS-VMOS",
+        "ISR-RAIL-GUSH-DAN-METRO",
+        "MOZ-OILGAS-BEIRA-FERUKA-PIPELINE-EXP",
+        "SGP-WATER-IWMF-PHASE2"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-08-27",
-    "articlePublishedDate": "2026-08-26",
-    "projectUpdatedDate": "2026-08-26"
+    "articleCollectedDate": "2026-08-28",
+    "articlePublishedDate": "2026-08-27",
+    "projectUpdatedDate": "2026-08-27"
   }
 }
