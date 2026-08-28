@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T08:06:30.040Z",
+  "updatedAt": "2026-08-28T20:10:32.803Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,34 +28,68 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8028,
-    "projects": 3577
+    "articles": 8052,
+    "projects": 3591
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260827-140004",
-        "ART-20260827-141002",
-        "ART-20260827-141004",
-        "ART-20260827-141005",
-        "ART-20260826-140003",
-        "ART-20260826-141003",
-        "ART-20260825-140002",
-        "ART-20260824-140001",
-        "ART-20260824-141001"
+      "added": [
+        "ART-20260828-144003",
+        "ART-20260828-146006",
+        "ART-20260828-146007",
+        "ART-20260827-144001",
+        "ART-20260827-144002",
+        "ART-20260827-145001",
+        "ART-20260827-145002",
+        "ART-20260827-146001",
+        "ART-20260827-146002",
+        "ART-20260827-146003",
+        "ART-20260827-146004",
+        "ART-20260827-146005",
+        "ART-20260827-147001",
+        "ART-20260827-147002",
+        "ART-20260827-147003",
+        "ART-20260827-147004",
+        "ART-20260827-147005",
+        "ART-20260827-147006",
+        "ART-20260826-147004",
+        "ART-20260826-147005",
+        "ART-20260826-147007",
+        "ART-20260825-147001",
+        "ART-20260825-147002",
+        "ART-20260825-147003"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ARG-ENERGY-LOSAZULES-CALINGASTA-220KV",
+        "DOM-URBAN-VISTA-LAGO-NEYBA",
+        "ARG-ENERGY-CARRERAS-SUBSTATION",
+        "ARG-IND-DIABLILLOS-SILVER-GOLD",
+        "ARG-RAIL-RETIRO-YARD-SIGNALING",
+        "DOM-WATER-LUPERON-SANITARY-SEWER-EXP",
+        "NIC-ROAD-MANAGUA-CARRETERASUR-SUBURBANA",
+        "NZL-ROAD-SH25-RAMARAMA-BRIDGE",
+        "PAN-ENERGY-CHEVRON-BAHIA-LAS-MINAS-SOLAR",
+        "PAN-SOC-HACIENDA-SANTA-CECILIA-SCHOOL",
+        "PAN-WATER-CABRA12-INTAKE-MODERNIZATION",
+        "PAN-WATER-PACORA-WTP-REHAB",
+        "PAN-URBAN-PULLMAN-PANAMA-CITY-HOTEL",
+        "NZL-WATER-UPPER-CLUTHA-CONVEYANCE"
+      ],
+      "updated": [
+        "ARG-GAS-SAN-MATIAS-PIPELINE",
+        "NIC-ROAD-MANAGUA-HEROES-INSURRECCION",
+        "NZL-ROAD-WARKWORTH-TEHANA-PPP"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-08-28",
-    "articlePublishedDate": "2026-08-27",
-    "projectUpdatedDate": "2026-08-27"
+    "articleCollectedDate": "2026-08-29",
+    "articlePublishedDate": "2026-08-28",
+    "projectUpdatedDate": "2026-08-28"
   }
 }
