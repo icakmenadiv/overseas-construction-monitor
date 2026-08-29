@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T20:51:51.186Z",
+  "updatedAt": "2026-08-29T22:32:22.416Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,22 +24,61 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8082,
-    "projects": 3609
+    "articles": 8106,
+    "projects": 3619
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260829-154001",
+        "ART-20260829-155001",
+        "ART-20260829-155002",
+        "ART-20260829-155004",
+        "ART-20260829-156007",
+        "ART-20260829-BHR001",
+        "ART-20260829-BHR004",
+        "ART-20260828-154001",
+        "ART-20260828-155003",
+        "ART-20260828-156006",
+        "ART-20260827-154001",
+        "ART-20260827-154002",
+        "ART-20260827-154003",
+        "ART-20260827-156003",
+        "ART-20260827-156004",
+        "ART-20260827-156005",
+        "ART-20260827-BHR003",
+        "ART-20260827-BHR005",
+        "ART-20260826-154001",
+        "ART-20260826-154003",
+        "ART-20260826-154004",
+        "ART-20260826-156001",
+        "ART-20260826-156002",
+        "ART-20260826-BHR002"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "BHR-ROAD-RIFFA-BOULEVARD",
+        "EGY-ENERGY-INFINITY-HASSANALLAM-RASSHUKEIR-WIND",
+        "EGY-ENERGY-MASDAR-GULFSUEZ-200MW-WIND",
+        "OMN-ENERGY-DUQM-NORTH-SOUTH-WIND",
+        "EGY-WATER-ALNASR5-PUMPING-STATION",
+        "TUR-ENERGY-SIVAS-1GW-SOLAR",
+        "TUR-ENERGY-TASELI-1GW-SOLAR",
+        "DZA-IND-HYUNDAI-RELIZANE-ASSEMBLY",
+        "DZA-WATER-SIDIABDALLAH-WWTP",
+        "BHR-DIGITAL-SEEF-MALL-FIBER"
+      ],
+      "updated": [
+        "EGY-ENERGY-NEFER-MINYA-SOLAR",
+        "TUR-ENERGY-AKKUYU-NPP"
+      ],
       "removed": []
     }
   },
