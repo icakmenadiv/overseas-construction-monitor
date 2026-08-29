@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T20:10:32.803Z",
+  "updatedAt": "2026-08-29T01:43:21.471Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,66 +24,56 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 8052,
-    "projects": 3591
+    "articles": 8067,
+    "projects": 3599
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260828-144003",
-        "ART-20260828-146006",
-        "ART-20260828-146007",
-        "ART-20260827-144001",
-        "ART-20260827-144002",
-        "ART-20260827-145001",
-        "ART-20260827-145002",
-        "ART-20260827-146001",
-        "ART-20260827-146002",
-        "ART-20260827-146003",
-        "ART-20260827-146004",
-        "ART-20260827-146005",
-        "ART-20260827-147001",
-        "ART-20260827-147002",
-        "ART-20260827-147003",
+        "ART-20260828-148001",
+        "ART-20260828-149001",
+        "ART-20260828-149002",
+        "ART-20260828-149004",
+        "ART-20260828-149005",
+        "ART-20260828-149006",
+        "ART-20260828-150001",
+        "ART-20260828-150002",
+        "ART-20260828-151002",
+        "ART-20260827-148002",
+        "ART-20260827-148003",
+        "ART-20260827-149002",
+        "ART-20260827-149003",
+        "ART-20260827-151001",
+        "ART-20260825-149001",
+        "ART-20260825-149003"
+      ],
+      "updated": [
         "ART-20260827-147004",
         "ART-20260827-147005",
-        "ART-20260827-147006",
-        "ART-20260826-147004",
-        "ART-20260826-147005",
-        "ART-20260826-147007",
         "ART-20260825-147001",
         "ART-20260825-147002",
         "ART-20260825-147003"
       ],
-      "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20260825-136001"
+      ]
     },
     "projects": {
       "added": [
-        "ARG-ENERGY-LOSAZULES-CALINGASTA-220KV",
-        "DOM-URBAN-VISTA-LAGO-NEYBA",
-        "ARG-ENERGY-CARRERAS-SUBSTATION",
-        "ARG-IND-DIABLILLOS-SILVER-GOLD",
-        "ARG-RAIL-RETIRO-YARD-SIGNALING",
-        "DOM-WATER-LUPERON-SANITARY-SEWER-EXP",
-        "NIC-ROAD-MANAGUA-CARRETERASUR-SUBURBANA",
-        "NZL-ROAD-SH25-RAMARAMA-BRIDGE",
-        "PAN-ENERGY-CHEVRON-BAHIA-LAS-MINAS-SOLAR",
-        "PAN-SOC-HACIENDA-SANTA-CECILIA-SCHOOL",
-        "PAN-WATER-CABRA12-INTAKE-MODERNIZATION",
-        "PAN-WATER-PACORA-WTP-REHAB",
-        "PAN-URBAN-PULLMAN-PANAMA-CITY-HOTEL",
-        "NZL-WATER-UPPER-CLUTHA-CONVEYANCE"
+        "BWA-ENERGY-LOBATSE-SOLAR-4MW",
+        "BWA-URBAN-JWANENG-CBD-SHOPPING-MALL",
+        "NGA-ENERGY-VICTORIA-ISLAND-POWER",
+        "ETH-IND-ETHIOPOST-GREEN-LOGISTICS-ODA",
+        "NGA-ENERGY-SAHARA-OGBA-IPP",
+        "SDN-IND-NORTHERN-SUSTAINABLE-FISHERIES",
+        "SDN-IND-RIVERNILE-LIVESTOCK-CITY",
+        "NGA-ENERGY-BALANGA-DAM-SHP"
       ],
-      "updated": [
-        "ARG-GAS-SAN-MATIAS-PIPELINE",
-        "NIC-ROAD-MANAGUA-HEROES-INSURRECCION",
-        "NZL-ROAD-WARKWORTH-TEHANA-PPP"
-      ],
+      "updated": [],
       "removed": []
     }
   },

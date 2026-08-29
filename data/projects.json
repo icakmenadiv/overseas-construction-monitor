@@ -30,6 +30,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "BWA-ENERGY-LOBATSE-SOLAR-4MW",
+    "프로젝트명": "Lobatse 4MW Solar Photovoltaic Power Plant",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "에너지",
+    "발주처": "Lobatse Town Council / Botswana Power Corporation",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-28 DailyNews 보도에 공식 총사업비·계약금액 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-149001",
+    "비고": "Lobatse 외곽 4MW 계통연계형 태양광발전소. 설계·공급·설치·시험·시운전 포함, 2026-08-28 기준 공정률 85%. 시운전·계통연계·준공 및 운영 초기 성능을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BWA-URBAN-JWANENG-CBD-SHOPPING-MALL",
+    "프로젝트명": "Jwaneng CBD Shopping Mall PPP Development",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "도시개발·주택",
+    "발주처": "Jwaneng Town Council / MSDM Pty Ltd",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-28 DailyNews 보도에 공식 총사업비·계약금액 미공개.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-149002",
+    "비고": "Jwaneng CBD 복합 쇼핑몰 개발. 시의회와 MSDM의 30년 임대계약, 조건부 설계 승인, 2026/27 회계연도 3분기 착공 목표. 소매·상업, 호텔, 사무실, 의료서비스 포함. 최종 인허가·금융·시공계약·착공을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "DOM-URBAN-VISTA-LAGO-NEYBA",
     "프로젝트명": "Residencial Vista del Lago I & II Project",
     "지역": "중남미",
@@ -42,6 +72,21 @@
     "최근 업데이트일": "2026-08-28",
     "대표 기사 고유값": "ART-20260828-144003",
     "비고": "Neyba 소재 240가구 공공주택. 2026-08-28 1단계 128가구 인도, 잔여 112가구 공정 추적. 약 7,400㎡ 부지·연면적 7,000㎡ 이상, 도로·전기·위생·녹지 포함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ENERGY-VICTORIA-ISLAND-POWER",
+    "프로젝트명": "Victoria Island Power 40MW Embedded Generation and Distribution Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "에너지",
+    "발주처": "Elektron Energy / Eko Electricity Distribution Company",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "Guardian Nigeria 2026-08-28 기사에 공식 총사업비·계약금액 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-149004",
+    "비고": "Lagos Victoria Island의 40MW 발전·배전 통합 전력망. Wärtsilä 엔진, ARM-Harith·NSIA·InfraCredit·BOI 금융지원, 시운전 직전 단계. 상업운전·고객연결·O&M·증설을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -117,6 +162,36 @@
     "최근 업데이트일": "2026-08-27",
     "대표 기사 고유값": "ART-20260827-144001",
     "비고": "Luperón 7개 지역의 하수 수집·처리·최종방류와 집수관망 확장. 주민 2만명 이상·연간 관광객 약 1만210명 수혜. 처리용량·관로·공정·후속 위생사업 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ETH-IND-ETHIOPOST-GREEN-LOGISTICS-ODA",
+    "프로젝트명": "Ethiopost Green Logistics Transition Package ODA Project",
+    "지역": "아프리카",
+    "국가": "에티오피아",
+    "섹터": "산업·물류",
+    "발주처": "Ethiopian Postal Service / Ministry of Transport and Logistics",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-27 ENA 보도에 공식 총사업비·계약금액과 수행기관 미공개.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-27",
+    "대표 기사 고유값": "ART-20260827-151001",
+    "비고": "Ethiopost의 녹색물류 전환과 스마트 모빌리티 도입을 지원하는 한·에티오피아 ODA 사업. 한국 연구진이 이행 협의를 진행 중이며, 세부 시설·차량·충전·정보시스템 범위와 수행기관·조달계획을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ENERGY-SAHARA-OGBA-IPP",
+    "프로젝트명": "Sahara Power Ogba 12MW Independent Power Plant",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "에너지",
+    "발주처": "Sahara Power Enterprise Group / Ikeja Electric Plc",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "Energy Times 2026-08-27 기사에 공식 총사업비·EPC 계약금액 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-27",
+    "대표 기사 고유값": "ART-20260827-149003",
+    "비고": "Lagos Ogba Undertaking의 12MW 가스연료 IPP. 6기 구성, Cummins EPC, 2027년 1분기 준공 목표. 가스·배전연계·시운전·O&M과 준공을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -282,6 +357,36 @@
     "최근 업데이트일": "2026-08-27",
     "대표 기사 고유값": "ART-20260827-137003",
     "비고": "Capitán FAP David Abensur Rengifo 공항 현대화·부지확보 사업. 토지수용 집행 승인, 감정가 공탁·등기·인도 절차 진행. 전체 패키지·계약·본공사 착수 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SDN-IND-NORTHERN-SUSTAINABLE-FISHERIES",
+    "프로젝트명": "Sustainable Fisheries Development Project in Northern State",
+    "지역": "중동",
+    "국가": "수단",
+    "섹터": "산업·물류",
+    "발주처": "Northern State Government / Higher Council for Livestock and Fisheries / FAO / Government of China",
+    "사업비(달러 기준 추정액)": "USD 3.46mn",
+    "사업비 환산 환율 / 기준": "FAO Sudan country profile의 OSRO/SUD/145/CPR 총예산 USD 3,458,898. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-08-27",
+    "대표 기사 고유값": "ART-20260827-148002",
+    "비고": "2026~2028년 사업. 5,200가구, 75ha 양식장, 동골라 사료공장, 메로위 틸라피아 종묘시설, 냉장유통·포장체계 포함. 2026-09 착수 예정이며 개별 시설 설계·입찰·시공사와 운영체계를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SDN-IND-RIVERNILE-LIVESTOCK-CITY",
+    "프로젝트명": "River Nile State Livestock Production City Project",
+    "지역": "중동",
+    "국가": "수단",
+    "섹터": "산업·물류",
+    "발주처": "Ministry of Animal Resources and Fisheries / River Nile State Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-27 SUNA 보도에 공식 총사업비·개별 계약금액 미공개.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-27",
+    "대표 기사 고유값": "ART-20260827-148003",
+    "비고": "수출형 축산생산도시. 현대식 도축·가공, 무두질·가죽제품 공장, 부산물·폐기물 재활용, 친환경 에너지, 교육센터 포함. 중국 주요 기업과 파트너십 협의 단계로 부지·투자자·금융·조달공고 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -717,6 +822,21 @@
     "최근 업데이트일": "2026-08-25",
     "대표 기사 고유값": "ART-20260825-143007",
     "비고": "Matola 하천 환경복원·배수개선·생태복원, 공동체 양식과 현대식 수산시장을 포함하는 통합사업. 대상범위·재원·환경조사 및 세부 패키지 발주를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ENERGY-BALANGA-DAM-SHP",
+    "프로젝트명": "Balanga Dam Small Hydropower Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "에너지",
+    "발주처": "Federal Ministry of Power / UNIDO / Gombe State Government / Rural Electrification Agency",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "Punch 2026-08-25 기사에 공식 총사업비·계약금액 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-25",
+    "대표 기사 고유값": "ART-20260825-149001",
+    "비고": "Gombe주 Balanga Dam을 활용하는 620kW 소수력사업. 관개·상수·홍수조절과 농산물가공 클러스터 전력공급을 연계하며, 잔여 전기기계·계통연계·시운전과 완공을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
