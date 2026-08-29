@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T17:51:32.514Z",
+  "updatedAt": "2026-08-29T20:00:57.825Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,46 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260829-137006",
-        "ART-20260829-152002",
-        "ART-20260829-153002",
-        "ART-20260828-137008",
-        "ART-20260828-152001",
-        "ART-20260828-153001",
-        "ART-20260827-137007",
-        "ART-20260827-137009",
-        "ART-20260827-153001",
-        "ART-20260827-153003",
-        "ART-20260827-153004",
-        "ART-20260827-153005",
-        "ART-20260826-150001",
-        "ART-20260826-152001",
-        "ART-20260826-153002"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "PER-WATER-CORONEL-PORTILLO-SANITATION",
-        "ARG-ENERGY-SANTACRUZ-RIVER-DAMS",
-        "NIC-POWER-SIEPAC-SECOND-CIRCUIT",
-        "PAN-ROAD-CORREDOR-PLAYAS-CAMPANA",
-        "BRA-DIGITAL-VOLTALIA-PECEM-DATACENTER",
-        "BRA-ROAD-SANTA-MARIA-URBAN-CROSSING",
-        "BRA-WATERWAY-AMAZONAS-PADMA-DREDGING",
-        "PER-PORT-LIGURIA-CALLAO-TERMINAL",
-        "BRA-ENERGY-NOVO-TEMPO-BARCARENA-UTE",
-        "SLV-WATER-LLANO-LOS-PATOS-SANITATION"
-      ],
-      "updated": [
-        "PAN-SOC-LAS-GARZAS-PENITENTIARY",
-        "PAN-SOCIAL-CENTRAL-PENITENTIARY-DIVISA",
-        "SLV-ROAD-LOS-CHORROS-VIADUCT-WIDENING",
-        "PER-WATER-TRUJILLO-QUEBRADAS-SANIDELFONSO-SANCARLOS",
-        "DOM-ROAD-ANILLO-VERDE-SANCRISTOBAL"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
