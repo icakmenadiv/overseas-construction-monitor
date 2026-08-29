@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T01:43:21.471Z",
+  "updatedAt": "2026-08-29T02:48:20.430Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 8067,
@@ -33,46 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260828-148001",
-        "ART-20260828-149001",
-        "ART-20260828-149002",
-        "ART-20260828-149004",
-        "ART-20260828-149005",
-        "ART-20260828-149006",
-        "ART-20260828-150001",
-        "ART-20260828-150002",
-        "ART-20260828-151002",
-        "ART-20260827-148002",
-        "ART-20260827-148003",
-        "ART-20260827-149002",
-        "ART-20260827-149003",
-        "ART-20260827-151001",
-        "ART-20260825-149001",
-        "ART-20260825-149003"
-      ],
-      "updated": [
-        "ART-20260827-147004",
-        "ART-20260827-147005",
-        "ART-20260825-147001",
-        "ART-20260825-147002",
-        "ART-20260825-147003"
-      ],
-      "removed": [
-        "ART-20260825-136001"
-      ]
+      "added": [],
+      "updated": [],
+      "removed": []
     },
     "projects": {
-      "added": [
-        "BWA-ENERGY-LOBATSE-SOLAR-4MW",
-        "BWA-URBAN-JWANENG-CBD-SHOPPING-MALL",
-        "NGA-ENERGY-VICTORIA-ISLAND-POWER",
-        "ETH-IND-ETHIOPOST-GREEN-LOGISTICS-ODA",
-        "NGA-ENERGY-SAHARA-OGBA-IPP",
-        "SDN-IND-NORTHERN-SUSTAINABLE-FISHERIES",
-        "SDN-IND-RIVERNILE-LIVESTOCK-CITY",
-        "NGA-ENERGY-BALANGA-DAM-SHP"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
