@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T14:59:24.203Z",
+  "updatedAt": "2026-08-30T18:28:15.924Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,39 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8106,
-    "projects": 3619
+    "articles": 8116,
+    "projects": 3620
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260829-137012",
+        "ART-20260829-157001",
+        "ART-20260829-SLV001",
+        "ART-20260828-137010",
+        "ART-20260828-137013",
+        "ART-20260828-DOM001",
+        "ART-20260827-137011",
+        "ART-20260827-SLV002",
+        "ART-20260827-SLV003",
+        "ART-20260827-SLV004"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "PER-AIR-TINGO-MARIA-RUNWAY"
+      ],
+      "updated": [
+        "PER-BRIDGE-SANTA-ROSA-CALLAO",
+        "PER-HOSP-PAPA-FRANCISCO-MANCHAY"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-08-30",
+    "articleCollectedDate": "2026-08-31",
     "articlePublishedDate": "2026-08-29",
     "projectUpdatedDate": "2026-08-29"
   }
