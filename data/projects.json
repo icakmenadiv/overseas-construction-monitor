@@ -1,5 +1,20 @@
 [
   {
+    "프로젝트 고유값": "UZB-WATER-ZHYIDAKAPA-INTAKE",
+    "프로젝트명": "Zhyidakapa Water Intake and Supply Facility Reconstruction",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "수자원·환경",
+    "발주처": "Namangan regional administration / O'zsuvta'minot JSC",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 미공개. UzDaily 2026-08-30 기사에서 EBRD 참여 및 재건 후 180,000㎥/일 운영용량 확인.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-08-30",
+    "대표 기사 고유값": "ART-20260830-UZB003",
+    "비고": "나망간주 Uychi 취수·급수시설 전면 재건. 용량 90,000~100,000㎥/일에서 약 180,000㎥/일로 확대하고 고효율 펌프·SCADA 도입. 후속 관망·O&M 패키지 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BHR-ROAD-RIFFA-BOULEVARD",
     "프로젝트명": "Riffa Boulevard Road Project",
     "지역": "중동",
@@ -195,6 +210,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AZE-RAIL-BAKU-METRO-PHASE1",
+    "프로젝트명": "Baku Metro Expansion Project - Phase I",
+    "지역": "유럽",
+    "국가": "아제르바이잔",
+    "섹터": "교통",
+    "발주처": "Baku Metro CJSC / Government of Azerbaijan / AIIB",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "AIIB 승인금융 USD 180mn은 차관액이며 공식 총 Project Cost 또는 Darnagul 패키지 계약금액으로 확인되지 않아 사업비는 미확인 유지.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-AZE001",
+    "비고": "Darnagul·Khojasan 전동차기지와 Green Line 10개 역사 현대화 사업. AIIB USD 180mn 승인금융 이후 2026-08-28 Darnagul Electrical Depot 완공·장비 설치 패키지 BMEP/P1/CW-01 국제입찰 공고가 게시되어 tender 단계로 갱신. 약 165,000㎡ 부지, 19,500㎡ 건물, 궤도·견인변전·MEP·토목, 24개월 공기와 2026-10-16 마감을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AZE-WATER-SUMGAYIT-DESALINATION",
+    "프로젝트명": "Sumgait Seawater Desalination Plant PPP Project",
+    "지역": "유럽",
+    "국가": "아제르바이잔",
+    "섹터": "수자원·환경",
+    "발주처": "Azerbaijan State Water Resources Agency / ACWA Power / IC İçtaş / HDEC (PowerChina)",
+    "사업비(달러 기준 추정액)": "USD 407mn",
+    "사업비 환산 환율 / 기준": "Report.az 2026-08-28 원문에 Project Cost USD 407mn 명시. 별도 환산 불필요.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-AZE002",
+    "비고": "Sumgait Chemical Industrial Park의 300,000㎥/일 역삼투 해수담수화 PPP. HDEC가 EPC, ACWA Power·IC İçtaş 컨소시엄이 시행하며 Savener가 설계를 수행. 2028년 4분기 가동, 27.5년 후 Azerbaijan State Water Resources Agency 이관 목표. 기자재·시운전·O&M 및 공급망 참여를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BWA-ENERGY-LOBATSE-SOLAR-4MW",
     "프로젝트명": "Lobatse 4MW Solar Photovoltaic Power Plant",
     "지역": "아프리카",
@@ -252,6 +297,36 @@
     "최근 업데이트일": "2026-08-28",
     "대표 기사 고유값": "ART-20260828-154002",
     "비고": "베헤이라주 양수장 건설사업. 7개 유닛, 각 초당 12.5㎥, 약 17만 페단 담당, 공정률 65%. 2027년 5월 1일 시험가동과 잔여 기전·제어·유지관리 발주를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HUN-RAIL-BUDAPEST-BELGRADE-HUNGARY-SECTION",
+    "프로젝트명": "Budapest-Belgrade Railway Hungary Section Modernization Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "교통",
+    "발주처": "Hungary Ministry of Transport / MÁV Group",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-28 기사에 헝가리 구간 공식 총사업비·잔여 계약금액 미공개.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-HUN002",
+    "비고": "헝가리 측 약 167.7km 철도 현대화사업. ETCS Level 2 최종시험 완료 후 Soko 차량 현지시험 및 국경·세관 절차를 포함한 전 구간 모의운행 준비 단계. 안전승인, 실제 여객개통일, 운영 초기 신호·통신·국경시설 보완을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-DIGITAL-ECG-EKIBASTUZ-AI-DATACENTER",
+    "프로젝트명": "Ekibastuz ECG AI Data Center Campus Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Energy Capital Global Pte. Ltd. / KT-Telecom LLP / KAZAKH INVEST",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2026-08-28 KAZAKH INVEST 발표 기준 1단계 100MW, 최대 1GW IT 부하는 확인됐으나 공식 Project Cost·CAPEX는 미공개.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-KAZ001",
+    "비고": "Data Center Valley 부지 내 ECG 별도 AI 데이터센터 캠퍼스. Firebird·NVIDIA 250MW 사업과 투자자·개발주체·MoU가 달라 독립 관리. 투자계약, 전력접속, 냉각·부지 인프라, EPC와 1단계 착공을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -525,6 +600,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HUN-RAIL-ZAHONY-EPERJESKE-SOLIDARITY-LANES",
+    "프로젝트명": "HU-UA Railway Border Crossing - Solidarity Lanes",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "교통",
+    "발주처": "Hungary Ministry of Transport and Investment / MÁV Pályaműködtetési Zrt. / NAV / Záhony-Port Zrt.",
+    "사업비(달러 기준 추정액)": "USD 177.89mn",
+    "사업비 환산 환율 / 기준": "EIB 공식 총사업비 HUF 55.596bn / ECB 2026-08-27 1 EUR=HUF 363.95, 1 EUR=USD 1.1645 적용: 약 USD 177.89mn.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-08-27",
+    "대표 기사 고유값": "ART-20260827-HUN001",
+    "비고": "Záhony-Chop 및 Eperjeske-Batovo 국경의 철도화물·환적 인프라 현대화·용량확대사업. EIB HUF 27bn 금융심사 중. 이사회 승인·대출계약, 환경·사회 심사, 선로·신호·전력·조명·환적장비의 EU 조달공고를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NGA-ENERGY-SAHARA-OGBA-IPP",
     "프로젝트명": "Sahara Power Ogba 12MW Independent Power Plant",
     "지역": "아프리카",
@@ -780,6 +870,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TJK-IND-KUSHONIYON-SEMENTI-KHATLON-CEMENT",
+    "프로젝트명": "Sementi Khatlon Kushoniyon Cement Plant Project",
+    "지역": "중앙아시아",
+    "국가": "타지키스탄",
+    "섹터": "산업·물류",
+    "발주처": "LLC Sementi Khatlon",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "CemNet 2026-08-27 원문에 연산 1.2Mta·30ha·2029년 준공목표는 확인되나 공식 Project Cost·CAPEX는 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-27",
+    "대표 기사 고유값": "ART-20260827-TJK001",
+    "비고": "하틀론주 쿠쇼니욘군 누라프숀 마을 30ha 부지의 연산 120만t 시멘트공장. 쿠르곤테파 석회석 광상 인접, 2029년 준공 목표. 기존 Varzob·Istaravshan 시멘트 프로젝트와 별도 관리하며 EPC·설비·전력·물류·환경 패키지를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TUR-ENERGY-AKKUYU-NPP",
     "프로젝트명": "Akkuyu Nuclear Power Plant Project",
     "지역": "중동",
@@ -792,6 +897,36 @@
     "최근 업데이트일": "2026-08-27",
     "대표 기사 고유값": "ART-20260827-156003",
     "비고": "Mersin Akkuyu NPP 2호기 주순환 배관 32개 접합부 용접·검사 완료로 1차계통 구성. 2026-06-17 용접 착수 후속의 독립 공정완료 기사이며 후속 배관 연결·시운전 준비와 3·4호기 유사 공정을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UZB-ENERGY-RABAT-HPP",
+    "프로젝트명": "Rabat Hydropower Plant",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "에너지",
+    "발주처": "Uzbekhydroenergo JSC",
+    "사업비(달러 기준 추정액)": "USD 20.4mn",
+    "사업비 환산 환율 / 기준": "UzDaily 2026-08-27 기사에서 Rabat 발전소 직접 투자액 USD 20.4mn 명시. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-08-27",
+    "대표 기사 고유값": "ART-20260827-UZB002",
+    "비고": "카슈카다리야 Shakhrisabz 6.2MW 수력발전소. 연 26.2mn kWh 생산. 같은 PP-163 투자계획의 Chappasuy·Tamshush 후속 준공, O&M·기자재 기회를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UZB-ROAD-URGENCH-KHIVA-TOLL",
+    "프로젝트명": "Urgench-Khiva Toll Road Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Committee for Roads under the Ministry of Transport / Khorezm road authorities",
+    "사업비(달러 기준 추정액)": "USD 150mn",
+    "사업비 환산 환율 / 기준": "UzDaily 2026-08-27 기사에서 Road Committee가 기존 USD 120mn이 초기 예산이었다고 밝히고 갱신 건설비 USD 150mn을 확인. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-08-27",
+    "대표 기사 고유값": "ART-20260827-UZB001",
+    "비고": "35km 4차로 Urgench-Khiva 유료도로. 2026년 8월 운영 개시, 전 구간 승용차 통행료 25,000숨·무정차 전자징수 적용. 사업비 25% 증가를 반영했으며 ITS·통행료 운영·O&M과 후속 유료도로 PPP를 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -5247,21 +5382,6 @@
     "최근 업데이트일": "2026. 7. 24",
     "대표 기사 고유값": "ART-20260724-013443",
     "비고": "Serhetabat-Herat 153km 핵심 구간. 2024-09-11 착공(ART-20240911-004090), 2025-10-20 다음 단계 승인 보도, 2026-06-09 약 52% 공정(ART-20260609-004091), 2026-06-13 약 700명·250대 이상 장비 투입 및 강관 공급 현황(ART-20260613-003235), 2026-07-24 아프간 구간 106km 공사 완료·127km 시공 준비·36km 되메우기 완료(ART-20260724-013443)를 같은 프로젝트 이력으로 연결.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "UZB-ROAD-URGENCH-KHIVA-TOLL",
-    "프로젝트명": "Urgench-Khiva Toll Road Project",
-    "지역": "중앙아시아",
-    "국가": "우즈베키스탄",
-    "섹터": "교통",
-    "발주처": "Committee for Roads under the Ministry of Transport / Khorezm road authorities",
-    "사업비(달러 기준 추정액)": "USD 120mn",
-    "사업비 환산 환율 / 기준": "Kun.uz 2026-07-24 and prior UzDaily project article report USD 120mn cost for 35km four-lane toll road.",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 24",
-    "대표 기사 고유값": "ART-20260724-013434",
-    "비고": "35km four-lane toll road directly connecting Urgench International Airport and Khiva. Construction began in February 2026; 2026-07-15 progress 80%; August 2026 opening target. Includes 17 bridges, 8 overpasses, 1 tunnel and 5 dedicated crossings. Track actual opening, toll operator, ITS and O&M.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -39792,21 +39912,6 @@
     "최근 업데이트일": "2026. 6. 12",
     "대표 기사 고유값": "ART-20260612-001494",
     "비고": "기존 Koroğlu 변전소 철거 후 신규 110/35/10kV, 2x40MVA 변전소와 제어센터 건설. 공사·설치업체 선정 절차 진행",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "AZE-RAIL-BAKU-METRO-PHASE1",
-    "프로젝트명": "Baku Metro Expansion Project - Phase I",
-    "지역": "유럽",
-    "국가": "아제르바이잔",
-    "섹터": "교통",
-    "발주처": "Baku Metro CJSC / Government of Azerbaijan / AIIB",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "financing",
-    "최근 업데이트일": "2026. 6. 12",
-    "대표 기사 고유값": "ART-20260612-001886",
-    "비고": "Darnagul·Khojasan 전동차기지 계속 공사와 Green Line 10개 역사 현대화 포함. AIIB 20년 만기·4년 거치 차관 및 프로젝트 협정 체결.",
     "대표 기사 정보 분류": ""
   },
   {
