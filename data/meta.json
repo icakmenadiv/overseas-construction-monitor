@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T20:58:24.408Z",
+  "updatedAt": "2026-08-30T21:21:44.519Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 8131,
@@ -33,43 +33,38 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20260830-UZB003",
         "ART-20260830-UZB005",
+        "ART-20260829-137012",
+        "ART-20260829-SLV001",
         "ART-20260829-TJK003",
+        "ART-20260828-137010",
+        "ART-20260828-137013",
         "ART-20260828-AZE001",
         "ART-20260828-AZE002",
         "ART-20260828-HUN002",
         "ART-20260828-KAZ001",
         "ART-20260828-KAZ003",
+        "ART-20260827-137011",
         "ART-20260827-AZE003",
         "ART-20260827-HUN001",
         "ART-20260827-KAZ002",
+        "ART-20260827-SLV002",
+        "ART-20260827-SLV003",
+        "ART-20260827-SLV004",
         "ART-20260827-TJK001",
         "ART-20260827-TJK002",
         "ART-20260827-UZB001",
         "ART-20260827-UZB002",
         "ART-20260827-UZB004"
       ],
-      "updated": [],
-      "removed": [
-        "ART-20260827-BHR005"
-      ]
+      "removed": []
     },
     "projects": {
-      "added": [
-        "UZB-WATER-ZHYIDAKAPA-INTAKE",
-        "AZE-WATER-SUMGAYIT-DESALINATION",
-        "HUN-RAIL-BUDAPEST-BELGRADE-HUNGARY-SECTION",
-        "KAZ-DIGITAL-ECG-EKIBASTUZ-AI-DATACENTER",
-        "HUN-RAIL-ZAHONY-EPERJESKE-SOLIDARITY-LANES",
-        "TJK-IND-KUSHONIYON-SEMENTI-KHATLON-CEMENT",
-        "UZB-ENERGY-RABAT-HPP"
-      ],
-      "updated": [
-        "AZE-RAIL-BAKU-METRO-PHASE1",
-        "UZB-ROAD-URGENCH-KHIVA-TOLL"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
