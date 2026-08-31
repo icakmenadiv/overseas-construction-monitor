@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T21:02:49.546Z",
+  "updatedAt": "2026-08-31T05:30:41.961Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1117,6 +1117,12 @@
       },
       "ART-20260822-109002": {
         "source_link_click": 1
+      },
+      "ART-20260826-137001": {
+        "source_link_click": 1
+      },
+      "ART-20260828-146006": {
+        "source_link_click": 1
       }
     },
     "page": {
@@ -1125,6 +1131,9 @@
       }
     },
     "project": {
+      "ARG-ENERGY-LOSAZULES-CALINGASTA-220KV": {
+        "project_detail_open": 1
+      },
       "AUS-ENERGY-HUMELINK-500KV": {
         "project_detail_open": 1
       },
@@ -4287,11 +4296,32 @@
       "updatedAt": "2026-08-26T00:26:54.136Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260826-137001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-31T00:52:04.719Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-146006",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-08-31T01:22:29.600Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
       "count": 41,
       "updatedAt": "2026-08-26T00:25:36.485Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "ARG-ENERGY-LOSAZULES-CALINGASTA-220KV",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-08-31T01:22:25.985Z"
     },
     {
       "targetType": "project",
