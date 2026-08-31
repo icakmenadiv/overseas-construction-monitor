@@ -1,5 +1,110 @@
 [
   {
+    "프로젝트 고유값": "CHL-IND-DOMINGA-MINE-PORT",
+    "프로젝트명": "Proyecto Minero-Portuario Dominga",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "산업·물류",
+    "발주처": "Andes Iron",
+    "사업비(달러 기준 추정액)": "USD 3bn",
+    "사업비 환산 환율 / 기준": "Reporte Minero 2026-08-31 기사에서 Andes Iron이 공식 투자액 USD 3bn을 확인. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-31",
+    "대표 기사 고유값": "ART-20260831-CHL005",
+    "비고": "La Higuera 철광석·구리 광산과 항만·담수화 지원 인프라. 2026-08-10 회사가 착공 이정표·초기 공사를 선언했으나 법적 절차 잔존 논쟁이 있어 본공사 실체·허가·금융·사법 판단 병행 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "DOM-ENERGY-CAPOTILLO-CAPO09-CAPO11",
+    "프로젝트명": "CAPO09 and CAPO11 Electrical Distribution Network Rehabilitation and Modernization Project",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "에너지",
+    "발주처": "Edeeste Dominicana",
+    "사업비(달러 기준 추정액)": "USD 14.38mn",
+    "사업비 환산 환율 / 기준": "Edeeste 2026-08-31 기사 공식 투자액 RD 843,117,091; BCRD 2026-08-28 기준환율 USD 1=RD 58.6440(매입) 적용.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-31",
+    "대표 기사 고유값": "ART-20260831-DOM003",
+    "비고": "Distrito Nacional Capotillo의 CAPO09·CAPO11 중·저압 배전망, 전주·변압기·계량설비 재활·현대화. 16개월 공기로 2027년 12월 완료 목표. 배전 기자재·공정·정규사용자 편입과 준공을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HUN-URBAN-BUDAPEST-LANG-QUARTER",
+    "프로젝트명": "Láng Negyed Mixed-Use Urban Quarter Development Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "도시개발·주택",
+    "발주처": "Láng Negyed 개발사 / Budapest XIII구 관계기관",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-31",
+    "대표 기사 고유값": "ART-20260831-HUN003",
+    "비고": "Budapest XIII구 옛 Láng Gépgyár 8.2ha 부지 복합개발. 2026-08-31 개발사는 시공사 Bayer Construct의 파산 신청에도 공사가 일정대로 진행 중이며 9월 말 지하공사 완료 후 골조공사에 착수한다고 확인. 대체 시공사 여부, 골조 전환과 2028년 1단계 인도를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-IND-MAPEI-CAJAMARQUILLA-PLANT",
+    "프로젝트명": "Mapei Cajamarquilla Construction Materials Plant Project",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "산업·물류",
+    "발주처": "Mapei Perú / Mapei S.p.A.",
+    "사업비(달러 기준 추정액)": "USD 20mn",
+    "사업비 환산 환율 / 기준": "Gestión 2026-08-31 기사에서 토지·엔지니어링·건설·설비 포함 투자액 약 USD 20mn 명시. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-31",
+    "대표 기사 고유값": "ART-20260831-137014",
+    "비고": "Lima Este Cajamarquilla 20,000㎡ 건설자재 공장. 건식 모르타르·타일 접착제·시멘트계 제품을 추가해 최대 연산 90,000t 생산. 2027년 2분기 건축, 3분기 설비 완료와 Lurín 공장 이전·남미 수출 검토를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-ROAD-LIMA-CANTA-LAVIUDA-UNISH",
+    "프로젝트명": "Lima-Canta-La Viuda-Unish Road Rehabilitation and Improvement Project",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "교통",
+    "발주처": "Ministerio de Transportes y Comunicaciones / Provías Nacional",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "El Peruano 2026-08-31 결의는 토지보상액 PEN 19,576.48만 공개하며 프로젝트 공식 총사업비는 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-31",
+    "대표 기사 고유값": "ART-20260831-137016",
+    "비고": "Lima-Canta 구간 재건·완공공사. 43.92㎡ 토지수용 승인과 보상금 예치·인도절차 확인. 잔여 공정, 추가 토지수용·설계변경, 공기연장과 준공일을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HUN-ROAD-FLORIAN-SQUARE-FLYOVER-RECON",
+    "프로젝트명": "Flórián Square Flyover Reconstruction Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "교통",
+    "발주처": "BKK / KM Építő Kft. / Főmterv Zrt.",
+    "사업비(달러 기준 추정액)": "USD 10.44mn",
+    "사업비 환산 환율 / 기준": "공식 공사비 HUF 3.27bn / ECB 2026-08-28 1 EUR=HUF 364.79, 1 EUR=USD 1.1643 적용: 약 USD 10.44mn.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-08-30",
+    "대표 기사 고유값": "ART-20260830-HUN005",
+    "비고": "Budapest Flórián tér 북·남측 고가교 총 686.57m 전면 보수. 2026-08-30 양측 교량 공사 완료·북측 재개통, 잔여 하자보수와 지상 교차로 복구 진행. 최종 인수와 잔여공사 종료를 확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UZB-ROAD-TASHKENT-SAMARKAND-TOLL",
+    "프로젝트명": "Tashkent-Samarkand Toll Motorway PPP Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Ministry of Transport / Roads Committee / National Bank of Uzbekistan / China Overseas Engineering Group (COVEC)",
+    "사업비(달러 기준 추정액)": "USD 2.2bn",
+    "사업비 환산 환율 / 기준": "President.uz 2026-07-22 official article says about USD 2.2bn. Previous 2026-05-28 Kun.uz tender article estimated USD 2.18bn; 2026-07-23 Kun.uz notes 85% Chinese bank financing and 15% state budget possibility.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 8. 30",
+    "대표 기사 고유값": "ART-20260830-UZB008",
+    "비고": "282km six-lane Tashkent-Samarkand toll motorway. 2026-05-28 awarded article confirmed Chinese firm selection; 2026-07-22 official article confirmed foundation stone and construction start; 2026-08-30 follow-up confirmed Hong Kong bank financing discussions while COVEC construction and a separate future toll-operator selection remain planned. Current project stage remains construction. Track financing commitment/close, government guarantees, package split, ITS/service areas, operator tender and 2030 commissioning.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UZB-WATER-ZHYIDAKAPA-INTAKE",
     "프로젝트명": "Zhyidakapa Water Intake and Supply Facility Reconstruction",
     "지역": "중앙아시아",
@@ -72,6 +177,21 @@
     "최근 업데이트일": "2026-08-29",
     "대표 기사 고유값": "ART-20260829-154001",
     "비고": "기존 Nefer Minya 1.2GWp 모듈 공급계약과 동일 Minya 태양광 프로젝트 계열로 보고 프로젝트 고유값 유지. 최신 대표 사실은 Hassan Allam Construction-Sterling and Wilson Renewable Energy 50:50 JV의 West Minya Solar Plant EPC 수주이며, 1,000MWac 태양광 + 600MWh BESS, EPC 범위는 PV·BESS·grid connection·transmission facilities·BOP 포함. 2026-08-29 정부-업계 점검에서 Infinity-Hassan Allam 컨소시엄의 진행사업으로 재확인됨. 후속 확인: 금융종결, 착공·준공 일정, BESS/인버터/변전·송전 기자재 공급사, O&M 및 현지화 요건.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-ENERGY-ALGABAS-OSIRIS-HPP",
+    "프로젝트명": "Algabas Osiris Energo 10MW Small Hydropower Plant",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "에너지",
+    "발주처": "Osiris Energo",
+    "사업비(달러 기준 추정액)": "USD 23.67mn",
+    "사업비 환산 환율 / 기준": "Kapital.kz 2026-08-29의 공식 투자액 KZT 11bn을 카자흐스탄 중앙은행 2026-08-29 환율 1 USD=KZT 464.77로 환산.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-29",
+    "대표 기사 고유값": "ART-20260829-KAZ004",
+    "비고": "알마티주 케겐군 알가바스 10MW 소수력발전소. 투자협약·인허가·환경승인·금융·EPC 조달과 착공 전환을 추적. 같은 마을 Kegen Hydro 별도 발전소와 분리 관리.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -162,6 +282,21 @@
     "최근 업데이트일": "2026-08-29",
     "대표 기사 고유값": "ART-20260829-152002",
     "비고": "관련 기사: ART-20260623-005397, ART-20260824-102004, ART-20260829-152002. Los Chorros 구간 사면 안정화와 Francisco Morazán 비아덕트·Pan-American Highway 확장 공사. 한국 동부건설 시공, 도화엔지니어링 감리, 한국 EDCF·BCIE 금융 연계 사업. 2026-08-29 Tadisa 인근 핵심 사면 통제발파 완료 후 잔해 제거·안전점검 진행. 후속 사면 안정화, 공기·안전, 도로 재개통과 준공일정을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SLV-SOC-UES-K-INNO4U-CENTER",
+    "프로젝트명": "K-INNO4U UES Technology Innovation Center Project",
+    "지역": "중남미",
+    "국가": "엘살바도르",
+    "섹터": "사회인프라",
+    "발주처": "Universidad de El Salvador (UES) / KOICA / ESCO / Ministerio de Relaciones Exteriores",
+    "사업비(달러 기준 추정액)": "USD 9mn",
+    "사업비 환산 환율 / 기준": "Diario El Mundo 2026-08-29 기사에 한국 정부 무상원조 USD 9mn을 프로젝트 공식 재원으로 명시. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-08-29",
+    "대표 기사 고유값": "ART-20260829-SLV005",
+    "비고": "산살바도르 UES 내 자동화·시제품 제작·디지털 제조·품질관리 실험실을 갖춘 기술혁신센터 건립·장비사업. 2026~2031년 시행하며 KOICA 무상재원, 전문인력 교육과 산학협력·기술창업 지원을 포함함. 설계·시공·실험실 장비 조달과 착공을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -270,6 +405,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CHL-ENERGY-ANTOFAGASTA1-SOLAR-BESS",
+    "프로젝트명": "Parque Fotovoltaico Antofagasta 1",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "에너지",
+    "발주처": "Solar Antofagasta SpA / Grenergy Renovables",
+    "사업비(달러 기준 추정액)": "USD 593mn",
+    "사업비 환산 환율 / 기준": "2026-08-27 SEA DIA 및 2026-08-28 기사에서 공식 투자액 USD 593mn 명시. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-CHL002",
+    "비고": "María Elena 516.92MWp 태양광, 430MW/3,010MWh BESS, Salitre 33/220kV 변전소, 20.7km 송전선. 2028-05 착공·20개월 공사 목표. RCA·상세설계·조달 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHL-SOC-PDI-CONCEPCION-COMPLEX",
+    "프로젝트명": "Complejo Policial PDI Concepción",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "사회인프라",
+    "발주처": "Ministerio de Obras Públicas / Dirección de Arquitectura / Policía de Investigaciones de Chile",
+    "사업비(달러 기준 추정액)": "USD 66.68mn",
+    "사업비 환산 환율 / 기준": "공식 투자액 CLP 61,700mn ÷ SII·Banco Central de Chile 2026-08-28 Dólar Observado 925.25 CLP/USD = USD 66.68mn.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-CHL001",
+    "비고": "콘셉시온 해안가의 PDI 본부·범죄수사연구시설 건설. 4개 기술제안 접수, 2026-09-15 가격제안 개찰 예정. 낙찰·계약·착공과 보안·실험실 전문설비 패키지 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "DOM-URBAN-VISTA-LAGO-NEYBA",
     "프로젝트명": "Residencial Vista del Lago I & II Project",
     "지역": "중남미",
@@ -315,6 +480,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HUN-TRANSPORT-M100-M1-INTERCHANGE",
+    "프로젝트명": "M100-M1 Motorway Interchange Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "교통",
+    "발주처": "MKIF Magyar Koncessziós Infrastruktúra Fejlesztő Zrt.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-HUN006",
+    "비고": "M1 30~33km 구간의 M100 입체교차로. 2026-08-28 부다페스트 방향 교량에 길이 21.8m·16t 거더 43개 설치, 이후 거푸집·콘크리트 공정 진행. 가을 국경 방향 거더 설치와 교통전환·개통을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KAZ-DIGITAL-ECG-EKIBASTUZ-AI-DATACENTER",
     "프로젝트명": "Ekibastuz ECG AI Data Center Campus Project",
     "지역": "중앙아시아",
@@ -327,6 +507,21 @@
     "최근 업데이트일": "2026-08-28",
     "대표 기사 고유값": "ART-20260828-KAZ001",
     "비고": "Data Center Valley 부지 내 ECG 별도 AI 데이터센터 캠퍼스. Firebird·NVIDIA 250MW 사업과 투자자·개발주체·MoU가 달라 독립 관리. 투자계약, 전력접속, 냉각·부지 인프라, EPC와 1단계 착공을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-IND-TANGSOLPAN-BRICK-PLANT",
+    "프로젝트명": "Tangsolpan Zhanasemey Brick Plant",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "산업·물류",
+    "발주처": "Tangsolpan / 중국 파트너",
+    "사업비(달러 기준 추정액)": "USD 3.24mn",
+    "사업비 환산 환율 / 기준": "아바이주 공식 발표 2026-08-28의 투자액 KZT 1.5bn을 카자흐스탄 중앙은행 2026-08-28 환율 1 USD=KZT 462.30으로 환산.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-KAZ005",
+    "비고": "프리레치노예 3ha, 일 10만장·연 3,640만장 벽돌공장. 전력·용수 공사와 공정설비 설치, 2027년 4월 가동 일정을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -387,6 +582,21 @@
     "최근 업데이트일": "2026-08-28",
     "대표 기사 고유값": "ART-20260828-137010",
     "비고": "2026-08-28 공정률 28.23%. 5개층·지하 1개층, 약 27,000㎡, 입원병상 110개 규모. 구조·건축·MEP·소방·위생설비와 의료장비·시운전을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-WATER-CUSCO-GRANDES-CIUDADES",
+    "프로젝트명": "Grandes Ciudades Cusco Water and Sanitation Megaproject",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "수자원·환경",
+    "발주처": "Gobierno Regional del Cusco",
+    "사업비(달러 기준 추정액)": "USD 427.20mn",
+    "사업비 환산 환율 / 기준": "Peru Construye 2026-08-28 공식 예산 PEN 1.429bn / BCRP 2026-08-27 기준 1 USD=PEN 3.345 적용: 약 USD 427.20mn.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-137015",
+    "비고": "Cusco권 7개 구 약 54만명 대상 상수·하수 현대화. 취수원·저수지·관망·하수관로와 Poroy·Valle Sur 하수처리장 2곳 포함. 투자승인·재원·조달방식, 처리용량과 설계·감리·시공 패키지를 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -5850,21 +6060,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "UZB-ROAD-TASHKENT-SAMARKAND-TOLL",
-    "프로젝트명": "Tashkent-Samarkand Toll Motorway PPP Project",
-    "지역": "중앙아시아",
-    "국가": "우즈베키스탄",
-    "섹터": "교통",
-    "발주처": "Ministry of Transport / Roads Committee / National Bank of Uzbekistan / China Overseas Engineering Group (COVEC)",
-    "사업비(달러 기준 추정액)": "USD 2.2bn",
-    "사업비 환산 환율 / 기준": "President.uz 2026-07-22 official article says about USD 2.2bn. Previous 2026-05-28 Kun.uz tender article estimated USD 2.18bn; 2026-07-23 Kun.uz notes 85% Chinese bank financing and 15% state budget possibility.",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 22",
-    "대표 기사 고유값": "ART-20260722-013433",
-    "비고": "282km six-lane Tashkent-Samarkand toll motorway. 2026-05-28 awarded article confirmed Chinese firm selection; 2026-07-22 official article confirmed foundation stone and construction start; 2026-07-23 follow-up identified COVEC as constructor and separate later toll operator selection. Track financing close, package split, ITS/service areas, operator tender and 2030 commissioning.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "AUS-ENERGY-MOKOAN-SOLAR-BESS",
     "프로젝트명": "Mokoan Solar Farm and Battery Energy Storage System Project",
     "지역": "태평양",
@@ -6912,21 +7107,6 @@
     "최근 업데이트일": "2026. 7. 17",
     "대표 기사 고유값": "ART-20260717-013124",
     "비고": "관련 기사: ART-20260626-006989, ART-20260717-013124. 2026-07-17 실제 입찰 초청으로 단계 갱신. San Tin Technopole 1단계 2기 동부 3공구 프레임워크 계약 F1-F4이며, 4개 framework contractor를 선정해 Job Request 방식으로 부지조성, 도로, 자전거교, 하수·우수 펌프장, 야생동물 통로, 배수·하수·상수·조경·사면·환경저감 공사를 배정할 예정. 첫 작업은 2027년 1월 착수, 전체 공기는 약 65개월.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "HUN-ROAD-FLORIAN-SQUARE-FLYOVER-RECON",
-    "프로젝트명": "Flórián Square Flyover Reconstruction Project",
-    "지역": "유럽",
-    "국가": "헝가리",
-    "섹터": "교통",
-    "발주처": "BKK / KM Építő Kft. / Főmterv Zrt.",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 7. 17",
-    "대표 기사 고유값": "ART-20260717-013293",
-    "비고": "Budapest Flórián tér 고가차도 재건사업. Szentendrei út와 Árpád Bridge를 연결하는 40년 이상 된 고가 구조물을 보수·재건하며, 2026-07-17 기준 7월 말 90% 이상 기술완성, 여름 말 주공정 완료 및 가을 북측 고가차도 교통 개방 예정. 후속 표면교차로 복구·마감공사·최종 준공 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -23232,21 +23412,6 @@
     "최근 업데이트일": "2026. 6. 26",
     "대표 기사 고유값": "ART-20260626-008755",
     "비고": "Tiszaújváros MVM Tisza 발전소 부지의 31MW·62MWh 배터리 에너지저장장치. 같은 부지의 약 1,000MW CCGT와 함께 하이브리드 발전·저장 거점으로 조성되는 흐름이므로 후속 Ajka ESS, MVM 저장 포트폴리오 확대, CCGT 연계 전력설비를 함께 추적한다.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "HUN-URBAN-BUDAPEST-LANG-QUARTER",
-    "프로젝트명": "Láng Negyed Mixed-Use Urban Quarter Development Project",
-    "지역": "유럽",
-    "국가": "헝가리",
-    "섹터": "도시개발·주택",
-    "발주처": "Láng Negyed 개발사 / Budapest XIII구 관계기관",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "financing",
-    "최근 업데이트일": "2026. 6. 26",
-    "대표 기사 고유값": "ART-20260626-007795",
-    "비고": "Budapest XIII구 옛 Láng Gépgyár 8.2ha 부지의 도시재생형 복합개발. 2031년까지 2,607가구 주거, 약 70,000㎡ 오피스, 상업·외식, 2ha 공원, World Aquatics 본부, 도로·자전거도로·공공설비 개선을 단계적으로 추진. 2028년 12월 1단계 인도 목표, 1000억 HUF 채권조달 확인. 후속 시공사·공구·MEP·인프라 패키지 공개 여부 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -45642,21 +45807,6 @@
     "최근 업데이트일": "2026. 6. 9",
     "대표 기사 고유값": "ART-20260609-000399",
     "비고": "Budapest XXII구역 Nagytétény Bányalég utca 15,000㎡+ 맞춤형 식품 물류센터, 2027년 1분기 인도 목표",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "HUN-TRANSPORT-M100-M1-INTERCHANGE",
-    "프로젝트명": "M100-M1 Motorway Interchange Project",
-    "지역": "유럽",
-    "국가": "헝가리",
-    "섹터": "교통",
-    "발주처": "MKIF Magyar Koncessziós Infrastruktúra Fejlesztő Zrt.",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 6. 9",
-    "대표 기사 고유값": "ART-20260609-000398",
-    "비고": "M1 30~33km 구간에서 M100 고속도로와의 입체 연결부 조성. M100 본선과 구분해 추적",
     "대표 기사 정보 분류": ""
   },
   {

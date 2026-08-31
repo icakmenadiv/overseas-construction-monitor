@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T15:20:47.258Z",
+  "updatedAt": "2026-08-31T20:52:42.863Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,27 +28,72 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8131,
-    "projects": 3627
+    "articles": 8162,
+    "projects": 3637
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260828-146006",
-        "ART-20260826-137001"
+      "added": [
+        "ART-20260831-137014",
+        "ART-20260831-137016",
+        "ART-20260831-CHL003",
+        "ART-20260831-CHL005",
+        "ART-20260831-DOM002",
+        "ART-20260831-DOM003",
+        "ART-20260831-HUN003",
+        "ART-20260831-HUN004",
+        "ART-20260831-HUN007",
+        "ART-20260831-NIC001",
+        "ART-20260831-UZB009",
+        "ART-20260830-137017",
+        "ART-20260830-137019",
+        "ART-20260830-HUN005",
+        "ART-20260830-KAZ006",
+        "ART-20260830-SLV006",
+        "ART-20260830-UZB008",
+        "ART-20260829-137018",
+        "ART-20260829-KAZ004",
+        "ART-20260829-SLV005",
+        "ART-20260829-UZB006",
+        "ART-20260829-UZB007",
+        "ART-20260828-137015",
+        "ART-20260828-CHL001",
+        "ART-20260828-CHL002",
+        "ART-20260828-CHL004",
+        "ART-20260828-DOM004",
+        "ART-20260828-HUN006",
+        "ART-20260828-KAZ005",
+        "ART-20260828-KAZ007",
+        "ART-20260828-SLV007"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CHL-IND-DOMINGA-MINE-PORT",
+        "DOM-ENERGY-CAPOTILLO-CAPO09-CAPO11",
+        "PER-IND-MAPEI-CAJAMARQUILLA-PLANT",
+        "PER-ROAD-LIMA-CANTA-LAVIUDA-UNISH",
+        "KAZ-ENERGY-ALGABAS-OSIRIS-HPP",
+        "SLV-SOC-UES-K-INNO4U-CENTER",
+        "CHL-ENERGY-ANTOFAGASTA1-SOLAR-BESS",
+        "CHL-SOC-PDI-CONCEPCION-COMPLEX",
+        "KAZ-IND-TANGSOLPAN-BRICK-PLANT",
+        "PER-WATER-CUSCO-GRANDES-CIUDADES"
+      ],
+      "updated": [
+        "HUN-URBAN-BUDAPEST-LANG-QUARTER",
+        "HUN-ROAD-FLORIAN-SQUARE-FLYOVER-RECON",
+        "UZB-ROAD-TASHKENT-SAMARKAND-TOLL",
+        "HUN-TRANSPORT-M100-M1-INTERCHANGE"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-08-31",
-    "articlePublishedDate": "2026-08-30",
-    "projectUpdatedDate": "2026-08-30"
+    "articleCollectedDate": "2026-09-01",
+    "articlePublishedDate": "2026-08-31",
+    "projectUpdatedDate": "2026-08-31"
   }
 }
