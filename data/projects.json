@@ -90,6 +90,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KGZ-TRANSPORT-MANAS-AIRPORT-RECON",
+    "프로젝트명": "Manas International Airport Major Reconstruction Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "교통",
+    "발주처": "Airports of Kyrgyzstan OJSC / Presidential Administration of Kyrgyz Republic",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "Kabar 2026-08-30 기사에서 대규모 재건 완료 후 점검은 확인되나 공식 Project Cost·CAPEX와 계약금액은 미공개.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-08-30",
+    "대표 기사 고유값": "ART-20260830-KGZ003",
+    "비고": "Manas 국제공항 대규모 재건 후 공항단지·의전공간 운영 준비 점검. 주요 공사는 완료됐으며 최종 인수, 잔여 보완공사, 운영설비 안정화와 향후 터미널·에어사이드 확장 패키지를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UZB-ROAD-TASHKENT-SAMARKAND-TOLL",
     "프로젝트명": "Tashkent-Samarkand Toll Motorway PPP Project",
     "지역": "중앙아시아",
@@ -192,6 +207,21 @@
     "최근 업데이트일": "2026-08-29",
     "대표 기사 고유값": "ART-20260829-KAZ004",
     "비고": "알마티주 케겐군 알가바스 10MW 소수력발전소. 투자협약·인허가·환경승인·금융·EPC 조달과 착공 전환을 추적. 같은 마을 Kegen Hydro 별도 발전소와 분리 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KGZ-SOC-BISHKEK-HEPATOLOGY-CENTER",
+    "프로젝트명": "Bishkek State Hepatology Center Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "사회인프라",
+    "발주처": "Ilshat Public Foundation / Republican Clinical Infectious Diseases Hospital / Ministry of Health",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "Erkin-Too 2026-08-29 원문에 공식 총사업비 미공개. 4층·3,100㎡·80병상 규모만 확인.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-29",
+    "대표 기사 고유값": "ART-20260829-KGZ002",
+    "비고": "비슈케크 공화국 임상감염병원 부지의 국가 첫 간질환 전문센터. Ilshat 재단이 건설·의료장비·집기를 지원해 국가에 인도 예정. 공식 원문 기준 4층, 3,100㎡, 80병상. 공정·MEP·장비조달·완공일 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -525,6 +555,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KGZ-URBAN-BAYTIK-MOUNTAIN-RESORT",
+    "프로젝트명": "Baytik Mountain Resort Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "도시개발·주택",
+    "발주처": "National Investment Agency / Tourism Development Support Fund / Velmont Group / CHMC",
+    "사업비(달러 기준 추정액)": "USD 127.9mn",
+    "사업비 환산 환율 / 기준": "키르기스스탄 국가투자청 2026-08-27 공식자료에서 총사업비 USD 127.9mn 명시. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-KGZ001",
+    "비고": "추이주 Kashka-Suu 연중형 산악관광 클러스터. 케이블카·스키장·호텔·민속마을·웰니스·MICE와 교통·전력·상하수도·디지털 인프라 포함. CHMC EPC+F, 4~5년 내 1단계 운영개시 및 단계별 전문공종·기자재 조달을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NGA-ENERGY-VICTORIA-ISLAND-POWER",
     "프로젝트명": "Victoria Island Power 40MW Embedded Generation and Distribution Project",
     "지역": "아프리카",
@@ -612,6 +657,21 @@
     "최근 업데이트일": "2026-08-28",
     "대표 기사 고유값": "ART-20260828-137008",
     "비고": "Trujillo Quebradas San Idelfonso·San Carlos 통합 홍수방지사업. 총투자 PEN 1.664bn, Consorcio Besalco Stracon 시공. 2026-08-28 공정률 각각 78.82%·69.52%, 61개 구조물·1.5km 터널·12.85km 수로·Río Moche 17.2km 정비. 연내 완공 재원·잔여공정 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TKM-PETCHEM-TURKMENBASHI-FCC-REVAMP",
+    "프로젝트명": "Turkmenbashi Oil Refinery FCC Unit Reconstruction and Modernization Project",
+    "지역": "중앙아시아",
+    "국가": "투르크메니스탄",
+    "섹터": "석유가스·화학",
+    "발주처": "Turkmenbashi Complex of Oil Refineries / State Concern Türkmennebit",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "News Central Asia 2026-08-28 기사에서 Yuhan Technology의 2025년 8월 EPC 계약과 설계·조달·건설·설치 범위는 확인됐으나 공식 Project Cost·CAPEX는 미공개.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-08-28",
+    "대표 기사 고유값": "ART-20260828-TKM001",
+    "비고": "투르크멘바시 정유단지 FCC 설비 재건·현대화 EPC. 한국 Yuhan Technology가 수행하며 현지 활동·계획공정이 2026-08-28 점검됨. 실제 착공·설치 진척, 기자재 공급, 시운전·준공과 후속 정유설비 현대화 패키지를 추적. 같은 기사에 포함된 KSIT 6,100t급 선박 건조는 별도 프로젝트 후보로 분리 유지.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

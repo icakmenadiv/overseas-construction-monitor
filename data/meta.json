@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T20:52:42.863Z",
+  "updatedAt": "2026-08-31T22:45:34.731Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,70 +24,45 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 8162,
-    "projects": 3637
+    "articles": 8172,
+    "projects": 3641
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260831-137014",
-        "ART-20260831-137016",
-        "ART-20260831-CHL003",
-        "ART-20260831-CHL005",
+        "ART-20260830-KGZ003",
+        "ART-20260830-TJK005",
+        "ART-20260829-KGZ002",
+        "ART-20260829-KGZ004",
+        "ART-20260829-TJK004",
+        "ART-20260829-TKM003",
+        "ART-20260828-KGZ001",
+        "ART-20260828-KGZ005",
+        "ART-20260828-TKM001",
+        "ART-20260828-TKM002"
+      ],
+      "updated": [
         "ART-20260831-DOM002",
         "ART-20260831-DOM003",
-        "ART-20260831-HUN003",
-        "ART-20260831-HUN004",
-        "ART-20260831-HUN007",
-        "ART-20260831-NIC001",
-        "ART-20260831-UZB009",
-        "ART-20260830-137017",
-        "ART-20260830-137019",
-        "ART-20260830-HUN005",
-        "ART-20260830-KAZ006",
         "ART-20260830-SLV006",
-        "ART-20260830-UZB008",
-        "ART-20260829-137018",
-        "ART-20260829-KAZ004",
         "ART-20260829-SLV005",
-        "ART-20260829-UZB006",
-        "ART-20260829-UZB007",
-        "ART-20260828-137015",
-        "ART-20260828-CHL001",
-        "ART-20260828-CHL002",
-        "ART-20260828-CHL004",
         "ART-20260828-DOM004",
-        "ART-20260828-HUN006",
-        "ART-20260828-KAZ005",
-        "ART-20260828-KAZ007",
         "ART-20260828-SLV007"
       ],
-      "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "CHL-IND-DOMINGA-MINE-PORT",
-        "DOM-ENERGY-CAPOTILLO-CAPO09-CAPO11",
-        "PER-IND-MAPEI-CAJAMARQUILLA-PLANT",
-        "PER-ROAD-LIMA-CANTA-LAVIUDA-UNISH",
-        "KAZ-ENERGY-ALGABAS-OSIRIS-HPP",
-        "SLV-SOC-UES-K-INNO4U-CENTER",
-        "CHL-ENERGY-ANTOFAGASTA1-SOLAR-BESS",
-        "CHL-SOC-PDI-CONCEPCION-COMPLEX",
-        "KAZ-IND-TANGSOLPAN-BRICK-PLANT",
-        "PER-WATER-CUSCO-GRANDES-CIUDADES"
+        "KGZ-TRANSPORT-MANAS-AIRPORT-RECON",
+        "KGZ-SOC-BISHKEK-HEPATOLOGY-CENTER",
+        "KGZ-URBAN-BAYTIK-MOUNTAIN-RESORT",
+        "TKM-PETCHEM-TURKMENBASHI-FCC-REVAMP"
       ],
-      "updated": [
-        "HUN-URBAN-BUDAPEST-LANG-QUARTER",
-        "HUN-ROAD-FLORIAN-SQUARE-FLYOVER-RECON",
-        "UZB-ROAD-TASHKENT-SAMARKAND-TOLL",
-        "HUN-TRANSPORT-M100-M1-INTERCHANGE"
-      ],
+      "updated": [],
       "removed": []
     }
   },
