@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T22:48:44.527Z",
+  "updatedAt": "2026-09-01T05:04:37.966Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1118,16 +1118,37 @@
       "ART-20260822-109002": {
         "source_link_click": 1
       },
+      "ART-20260826-131001": {
+        "article_detail_open": 1
+      },
+      "ART-20260826-135001": {
+        "article_detail_open": 1
+      },
       "ART-20260826-137001": {
         "source_link_click": 1
       },
+      "ART-20260826-139002": {
+        "article_detail_open": 1
+      },
+      "ART-20260828-137015": {
+        "article_detail_open": 1
+      },
       "ART-20260828-146006": {
         "source_link_click": 1
+      },
+      "ART-20260828-KAZ001": {
+        "article_detail_open": 1
+      },
+      "ART-20260828-KAZ007": {
+        "source_link_click": 1
+      },
+      "ART-20260830-UZB008": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 41
+        "market_page_visit": 42
       }
     },
     "project": {
@@ -1237,6 +1258,9 @@
         "project_detail_open": 1
       },
       "PAN-WATER-RIO-INDIO-RESERVOIR": {
+        "project_detail_open": 1
+      },
+      "PER-ROAD-ANILLO-VIAL-PERIFERICO": {
         "project_detail_open": 1
       },
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
@@ -4297,10 +4321,38 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260826-131001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T02:02:24.227Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260826-135001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T04:10:04.203Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260826-137001",
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-08-31T00:52:04.719Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260826-139002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T02:03:12.888Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-137015",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T02:03:09.440Z"
     },
     {
       "targetType": "article",
@@ -4310,11 +4362,32 @@
       "updatedAt": "2026-08-31T01:22:29.600Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260828-KAZ001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T02:03:18.903Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-KAZ007",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-01T02:37:31.750Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260830-UZB008",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T02:02:50.722Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 41,
-      "updatedAt": "2026-08-26T00:25:36.485Z"
+      "count": 42,
+      "updatedAt": "2026-09-01T02:02:10.516Z"
     },
     {
       "targetType": "project",
@@ -4567,6 +4640,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-07-03T00:00:14.018Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "PER-ROAD-ANILLO-VIAL-PERIFERICO",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T02:01:26.838Z"
     },
     {
       "targetType": "project",
