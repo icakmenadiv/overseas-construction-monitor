@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T14:20:12.406Z",
+  "updatedAt": "2026-09-01T17:52:22.298Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,82 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8172,
-    "projects": 3641
+    "articles": 8202,
+    "projects": 3661
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260901-AUS001",
+        "ART-20260901-AUS005",
+        "ART-20260901-AUS006",
+        "ART-20260901-IND001",
+        "ART-20260831-AUS002",
+        "ART-20260831-AUS003",
+        "ART-20260831-AUS004",
+        "ART-20260831-BGD001",
+        "ART-20260831-BGD002",
+        "ART-20260831-CZE002",
+        "ART-20260831-IND001",
+        "ART-20260831-IND002",
+        "ART-20260831-IND003",
+        "ART-20260831-KAZ001",
+        "ART-20260831-KAZ002",
+        "ART-20260831-QAT001",
+        "ART-20260830-BGD001",
+        "ART-20260829-IND001",
+        "ART-20260829-IND002",
+        "ART-20260829-IND003",
+        "ART-20260829-NGA001",
+        "ART-20260828-CZE001",
+        "ART-20260828-KAZ004",
+        "ART-20260828-MYS001",
+        "ART-20260828-MYS002",
+        "ART-20260828-MYS003",
+        "ART-20260828-NGA002",
+        "ART-20260828-NGA003",
+        "ART-20260828-RUS001",
+        "ART-20260828-RUS002"
+      ],
+      "updated": [
+        "ART-20260605-000005"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "AUS-SOC-ROYAL-PRINCE-ALFRED-REDEVELOPMENT",
+        "IND-RAIL-BSRP-MATHIKERE-DOUBLEDECKER",
+        "AUS-ENERGY-GAWARA-BAYA-WIND-BESS",
+        "AUS-ENERGY-NWTD-STAGE1",
+        "AUS-ENERGY-WAROONA-RENEWABLE-STAGE1",
+        "BGD-PORT-LALDIA-CONTAINER-TERMINAL",
+        "IND-ENERGY-FATEHGARH-600MW-SOLAR",
+        "IND-METRO-GURUGRAM-EXPANSION",
+        "IND-METRO-RITHALA-NARELA-KUNDLI",
+        "KAZ-IND-NORTHERN-KATPAR-TUNGSTEN",
+        "QAT-DIGITAL-ASHGHAL-IT-INFRA-CALL-OFF-2026",
+        "IND-ENERGY-NCRTC-110MW-CAPTIVE-SOLAR",
+        "IND-METRO-NAGPUR-PH2-REACH4A",
+        "IND-RAIL-RISHIKESH-KARNPRAYAG-E4-P3",
+        "NGA-ENERGY-CCETC-OGUA-100MW",
+        "CZE-ROAD-I35-LESNA-PALACOV",
+        "MYS-ENERGY-NATIONAL-GRID-BACKBONE-500KV",
+        "MYS-TRANSPORT-BANDAR-MALAYSIA-SERI-KEMBANGAN-ELEVATED-HIGHWAY",
+        "NGA-ROAD-BENIN-SAPELE-RECONSTRUCTION",
+        "RUS-WATER-ALEXEYEVSKY-MSW-COMPLEX"
+      ],
+      "updated": [
+        "AUS-ROAD-GREAT-WESTERN-VICTORIA-PASS-CROSSING",
+        "KAZ-ENERGY-ZHANAOZEN-HYBRID-POWER-PLANT",
+        "BGD-ROAD-DHAKA-INNER-CIRCULAR-RING"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-01",
-    "articlePublishedDate": "2026-08-31",
-    "projectUpdatedDate": "2026-08-31"
+    "articleCollectedDate": "2026-09-02",
+    "articlePublishedDate": "2026-09-01",
+    "projectUpdatedDate": "2026-09-01"
   }
 }
