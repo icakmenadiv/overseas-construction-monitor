@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T21:00:43.256Z",
+  "updatedAt": "2026-09-02T04:30:02.588Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -138,7 +138,7 @@
         "article_detail_open": 1
       },
       "ART-20260622-005032": {
-        "article_detail_open": 1,
+        "article_detail_open": 2,
         "source_link_click": 1
       },
       "ART-20260622-005050": {
@@ -1130,25 +1130,69 @@
       "ART-20260826-139002": {
         "article_detail_open": 1
       },
+      "ART-20260827-UZB001": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260827-UZB004": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
       "ART-20260828-137015": {
-        "article_detail_open": 1
+        "article_detail_open": 1,
+        "source_link_click": 1
       },
       "ART-20260828-146006": {
         "source_link_click": 1
       },
+      "ART-20260828-AZE002": {
+        "article_detail_open": 1
+      },
+      "ART-20260828-CHL002": {
+        "source_link_click": 1
+      },
       "ART-20260828-KAZ001": {
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260828-KAZ003": {
         "article_detail_open": 1
       },
       "ART-20260828-KAZ007": {
         "source_link_click": 1
       },
+      "ART-20260828-KGZ001": {
+        "article_detail_open": 1
+      },
+      "ART-20260828-RUS002": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260829-TJK003": {
+        "article_detail_open": 1
+      },
+      "ART-20260829-UZB006": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260830-KGZ003": {
+        "article_detail_open": 1
+      },
       "ART-20260830-UZB008": {
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
+      "ART-20260831-AUS003": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260831-BGD001": {
         "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 42
+        "market_page_visit": 43
       }
     },
     "project": {
@@ -1204,6 +1248,9 @@
         "project_detail_open": 1
       },
       "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION": {
+        "project_detail_open": 1
+      },
+      "KAZ-DIGITAL-ECG-EKIBASTUZ-AI-DATACENTER": {
         "project_detail_open": 1
       },
       "LKA-URBAN-KIRULAPONE-RESIDENCIES": {
@@ -1656,8 +1703,8 @@
       "targetType": "article",
       "targetId": "ART-20260622-005032",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-06-26T04:29:32.497Z"
+      "count": 2,
+      "updatedAt": "2026-09-02T01:50:17.589Z"
     },
     {
       "targetType": "article",
@@ -4349,10 +4396,45 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260827-UZB001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:49:26.927Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260827-UZB001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:49:21.975Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260827-UZB004",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:48:23.769Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260827-UZB004",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:48:28.680Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260828-137015",
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-09-01T02:03:09.440Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-137015",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:49:55.727Z"
     },
     {
       "targetType": "article",
@@ -4363,10 +4445,38 @@
     },
     {
       "targetType": "article",
-      "targetId": "ART-20260828-KAZ001",
+      "targetId": "ART-20260828-AZE002",
       "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-09-01T02:03:18.903Z"
+      "updatedAt": "2026-09-02T01:48:35.987Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-CHL002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:50:09.536Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-KAZ001",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-02T01:46:33.952Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-KAZ001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:46:42.054Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-KAZ003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:47:06.192Z"
     },
     {
       "targetType": "article",
@@ -4377,17 +4487,94 @@
     },
     {
       "targetType": "article",
-      "targetId": "ART-20260830-UZB008",
+      "targetId": "ART-20260828-KGZ001",
       "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-09-01T02:02:50.722Z"
+      "updatedAt": "2026-09-02T01:48:57.694Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-RUS002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:47:39.525Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-RUS002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:47:54.147Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260829-TJK003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:48:00.888Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260829-UZB006",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:47:17.543Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260829-UZB006",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:47:18.901Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260830-KGZ003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:49:44.121Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260830-UZB008",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-02T01:46:46.444Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260830-UZB008",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T01:46:47.870Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260831-AUS003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T23:59:10.395Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260831-AUS003",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-01T23:59:07.607Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260831-BGD001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-01T23:59:23.429Z"
     },
     {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 42,
-      "updatedAt": "2026-09-01T02:02:10.516Z"
+      "count": 43,
+      "updatedAt": "2026-09-02T01:10:00.278Z"
     },
     {
       "targetType": "project",
@@ -4514,6 +4701,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-26T04:30:25.915Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "KAZ-DIGITAL-ECG-EKIBASTUZ-AI-DATACENTER",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T00:44:12.510Z"
     },
     {
       "targetType": "project",
