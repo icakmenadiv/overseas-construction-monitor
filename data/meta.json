@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T13:36:56.814Z",
+  "updatedAt": "2026-09-02T17:18:48.741Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,94 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8202,
-    "projects": 3661
+    "articles": 8241,
+    "projects": 3678
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260902-CHN001",
+        "ART-20260902-CHN004",
+        "ART-20260902-IRQ002",
+        "ART-20260902-KWT003",
+        "ART-20260902-SAU003",
+        "ART-20260902-SAU004",
+        "ART-20260902-SGP001",
+        "ART-20260902-SGP002",
+        "ART-20260902-THA002",
+        "ART-20260901-CHN002",
+        "ART-20260901-CHN003",
+        "ART-20260901-CHN005",
+        "ART-20260901-IRQ001",
+        "ART-20260901-KWT001",
+        "ART-20260901-KWT002",
+        "ART-20260901-KWT004",
+        "ART-20260901-MEX001",
+        "ART-20260901-MEX003",
+        "ART-20260901-SAU002",
+        "ART-20260901-THA001",
+        "ART-20260901-THA003",
+        "ART-20260901-VNM001",
+        "ART-20260901-VNM004",
+        "ART-20260831-IRN001",
+        "ART-20260831-IRN003",
+        "ART-20260831-MEX002",
+        "ART-20260831-SAU001",
+        "ART-20260831-SAU005",
+        "ART-20260831-SGP004",
+        "ART-20260831-SGP005",
+        "ART-20260831-VNM005",
+        "ART-20260831-VNM006",
+        "ART-20260830-SGP003",
+        "ART-20260830-VNM002",
+        "ART-20260830-VNM003",
+        "ART-20260829-IRN002",
+        "ART-20260829-IRN004",
+        "ART-20260829-IRN005",
+        "ART-20260829-IRQ003"
+      ],
+      "updated": [
+        "ART-20260830-UZB008",
+        "ART-20260828-KGZ005",
+        "ART-20260828-AZE001",
+        "ART-20260828-KAZ001",
+        "ART-20260828-KAZ003",
+        "ART-20260827-HUN001"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CHN-DIGITAL-CHINA-MOBILE-CHONGQING-JIANGNAN-DC",
+        "SAU-SOC-ZATCA-LANDPORT-RESIDENTIAL-PPP",
+        "SAU-WATER-NWC-LTOM-PKG10-9STP",
+        "CHN-DIGITAL-HANGZHOU-INTELLIGENT-SUPERCOMPUTING-CENTER",
+        "CHN-ENERGY-QUJIANG-PUMPED-STORAGE",
+        "IRQ-WATER-EBS-GREENING-IRRIGATION-PIPELINES",
+        "KWT-WATER-IND-SULAIBIYA-UMM-AGHRA-SEWER",
+        "MEX-SOC-SALTILLO-HGR-260-BEDS",
+        "SAU-DIGITAL-OXAGON-DATAVOLT-100MW",
+        "THA-TRANSPORT-RAIL-SOUTHERN-DOUBLETRACK-PH2",
+        "VNM-OILGAS-THAIBINH-LNG-POWER",
+        "IRN-OILGAS-LAVAN-VACUUM-DISTILLATION-BITUMEN",
+        "IRN-PETCHEM-NEHBANDAN-PETROCHEMICAL",
+        "SAU-OILGAS-SLB-GAS-LSTK-11RIGS",
+        "VNM-URBAN-HCMC-MALANG-CHOGA-RENEWAL",
+        "IRN-OILGAS-DALAN-WELLHEAD-FACILITIES",
+        "IRN-OILGAS-KHARTANG-GAS-FIELD-PH1-REMAINING"
+      ],
+      "updated": [
+        "KWT-ENERGY-SOUTHSAAD-132KV-SUBSTATIONS-PH3",
+        "KWT-ENERGY-SOUTHSAAD-132KV-SUBSTATIONS-PH4",
+        "THA-RAIL-THREE-AIRPORT-HSR",
+        "SAU-RAIL-LANDBRIDGE"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-02",
-    "articlePublishedDate": "2026-09-01",
-    "projectUpdatedDate": "2026-09-01"
+    "articleCollectedDate": "2026-09-03",
+    "articlePublishedDate": "2026-09-02",
+    "projectUpdatedDate": "2026-09-02"
   }
 }
