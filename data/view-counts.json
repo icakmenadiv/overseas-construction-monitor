@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T04:30:02.588Z",
+  "updatedAt": "2026-09-02T11:14:44.387Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1130,6 +1130,10 @@
       "ART-20260826-139002": {
         "article_detail_open": 1
       },
+      "ART-20260827-HUN001": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
       "ART-20260827-UZB001": {
         "article_detail_open": 1,
         "source_link_click": 1
@@ -1145,6 +1149,9 @@
       "ART-20260828-146006": {
         "source_link_click": 1
       },
+      "ART-20260828-AZE001": {
+        "article_detail_open": 1
+      },
       "ART-20260828-AZE002": {
         "article_detail_open": 1
       },
@@ -1152,16 +1159,20 @@
         "source_link_click": 1
       },
       "ART-20260828-KAZ001": {
-        "article_detail_open": 2,
-        "source_link_click": 1
+        "article_detail_open": 4,
+        "source_link_click": 2
       },
       "ART-20260828-KAZ003": {
-        "article_detail_open": 1
+        "article_detail_open": 2,
+        "source_link_click": 1
       },
       "ART-20260828-KAZ007": {
         "source_link_click": 1
       },
       "ART-20260828-KGZ001": {
+        "article_detail_open": 1
+      },
+      "ART-20260828-KGZ005": {
         "article_detail_open": 1
       },
       "ART-20260828-RUS002": {
@@ -1179,8 +1190,8 @@
         "article_detail_open": 1
       },
       "ART-20260830-UZB008": {
-        "article_detail_open": 2,
-        "source_link_click": 1
+        "article_detail_open": 3,
+        "source_link_click": 2
       },
       "ART-20260831-AUS003": {
         "article_detail_open": 1,
@@ -1235,6 +1246,9 @@
       "HUN-RAIL-SOUTHERN-CIRCLE-PH3": {
         "project_detail_open": 1
       },
+      "HUN-RAIL-ZAHONY-EPERJESKE-SOLIDARITY-LANES": {
+        "project_detail_open": 1
+      },
       "IDN-DIGITAL-AGCC-AI-DATA-CENTER": {
         "project_detail_open": 1
       },
@@ -1251,7 +1265,7 @@
         "project_detail_open": 1
       },
       "KAZ-DIGITAL-ECG-EKIBASTUZ-AI-DATACENTER": {
-        "project_detail_open": 1
+        "project_detail_open": 3
       },
       "LKA-URBAN-KIRULAPONE-RESIDENCIES": {
         "project_detail_open": 1
@@ -4396,6 +4410,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260827-HUN001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T07:36:26.917Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260827-HUN001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-02T07:36:38.422Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260827-UZB001",
       "eventType": "article_detail_open",
       "count": 1,
@@ -4445,6 +4473,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260828-AZE001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T07:43:39.374Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260828-AZE002",
       "eventType": "article_detail_open",
       "count": 1,
@@ -4461,22 +4496,29 @@
       "targetType": "article",
       "targetId": "ART-20260828-KAZ001",
       "eventType": "article_detail_open",
-      "count": 2,
-      "updatedAt": "2026-09-02T01:46:33.952Z"
+      "count": 4,
+      "updatedAt": "2026-09-02T07:34:24.949Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260828-KAZ001",
       "eventType": "source_link_click",
-      "count": 1,
-      "updatedAt": "2026-09-02T01:46:42.054Z"
+      "count": 2,
+      "updatedAt": "2026-09-02T07:26:33.231Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260828-KAZ003",
       "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-02T07:40:06.848Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-KAZ003",
+      "eventType": "source_link_click",
       "count": 1,
-      "updatedAt": "2026-09-02T01:47:06.192Z"
+      "updatedAt": "2026-09-02T07:40:10.228Z"
     },
     {
       "targetType": "article",
@@ -4491,6 +4533,13 @@
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-09-02T01:48:57.694Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260828-KGZ005",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T07:39:59.183Z"
     },
     {
       "targetType": "article",
@@ -4538,15 +4587,15 @@
       "targetType": "article",
       "targetId": "ART-20260830-UZB008",
       "eventType": "article_detail_open",
-      "count": 2,
-      "updatedAt": "2026-09-02T01:46:46.444Z"
+      "count": 3,
+      "updatedAt": "2026-09-02T07:34:27.722Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260830-UZB008",
       "eventType": "source_link_click",
-      "count": 1,
-      "updatedAt": "2026-09-02T01:46:47.870Z"
+      "count": 2,
+      "updatedAt": "2026-09-02T07:34:29.453Z"
     },
     {
       "targetType": "article",
@@ -4669,6 +4718,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "HUN-RAIL-ZAHONY-EPERJESKE-SOLIDARITY-LANES",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-02T07:36:29.460Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "IDN-DIGITAL-AGCC-AI-DATA-CENTER",
       "eventType": "project_detail_open",
       "count": 1,
@@ -4706,8 +4762,8 @@
       "targetType": "project",
       "targetId": "KAZ-DIGITAL-ECG-EKIBASTUZ-AI-DATACENTER",
       "eventType": "project_detail_open",
-      "count": 1,
-      "updatedAt": "2026-09-02T00:44:12.510Z"
+      "count": 3,
+      "updatedAt": "2026-09-02T07:26:30.761Z"
     },
     {
       "targetType": "project",
