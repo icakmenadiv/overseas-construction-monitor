@@ -1,6 +1,7 @@
 {
-  "version": "20260903-production-1",
+  "version": "20260903-header-restored-1",
   "architecture": "one stylesheet and one JavaScript bundle per production page",
+  "headerPresentation": "restored pre-refactor centered two-tab navigation; integrated asset structure retained",
   "productionPages": {
     "index.html": {
       "stylesheets": [
