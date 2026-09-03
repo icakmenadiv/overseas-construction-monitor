@@ -34,6 +34,10 @@ jobs:
       - name: Build integrated production assets
         run: node scripts/migrate-production-assets.mjs
 
+      - name: Preserve workflow and migration sources
+        run: |
+          git restore --source=HEAD -- .github/workflows scripts/migrate-production-assets.mjs
+
       - name: Commit migration output
         run: |
           git config user.name "github-actions[bot]"
