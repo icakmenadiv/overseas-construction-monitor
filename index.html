@@ -3,24 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>해외 건설시장 뉴스 | 글로벌 인프라 뉴스 대시보드</title>
+    <title>해외 건설시장 모니터링 | 해외건설협회</title>
     <meta
       name="description"
       content="국가별 인프라 시장뉴스와 프로젝트 흐름을 통합 조회하는 대시보드"
     />
     <meta name="view-tracking-endpoint" content="https://icak-view-tracker.icak-mena-div.workers.dev/track" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./monitor-ui.css" />
-    <link rel="stylesheet" href="./large-text.css" />
-    <link rel="stylesheet" href="./filter-tuning.css" />
-    <link rel="stylesheet" href="./brand-enhancements.css" />
-    <link rel="stylesheet" href="./high-priority-filter.css" />
-    <link rel="stylesheet" href="./interest.css" />
-    <link rel="stylesheet" href="./monitor-enhancements.css?v=20260615-4" />
-    <link rel="stylesheet" href="./filter-tooltip-fix.css?v=20260619-1" />
-    <link rel="stylesheet" href="./responsive-mobile-cards.css?v=20260619-1" />
+
+    <link rel="stylesheet" href="./assets/css/market.css?v=20260903-production-1" />
   </head>
-  <body>
+  <body class="production-ui page-market">
     <header class="site-header" id="top">
       <div class="brand-wrap">
         <a class="brand" href="https://www.icak.or.kr/" target="_blank" rel="noreferrer">
@@ -202,26 +194,6 @@
       <a hidden id="footerSheetLink" href="#" target="_blank" rel="noreferrer" aria-hidden="true" tabindex="-1"></a>
     </footer>
 
-    <script>
-      (() => {
-        try {
-          const versionKey = "marketFilterSchemaVersion";
-          const currentVersion = "20260625-date-sort-fix-1";
-          const saved = JSON.parse(localStorage.getItem("dashboardFilters") || "{}");
-          saved.sort = saved.sort || "중요도:desc";
-          saved.highPriorityOnly = false;
-          localStorage.setItem("dashboardFilters", JSON.stringify(saved));
-          localStorage.setItem(versionKey, currentVersion);
-        } catch (error) {
-          console.warn("Failed to migrate market filter defaults:", error);
-        }
-      })();
-    </script>
-    <script src="./app.js?v=20260623-restore-2"></script>
-    <script src="./market-date-sort-fix.js?v=20260625-1"></script>
-    <script src="./interest-sort.js?v=20260626-1"></script>
-    <script src="./monitor-core-ui.js?v=20260624-7"></script>
-    <script src="./interest.js?v=20260623-clean-1"></script>
-    <script src="./view-tracking.js?v=20260624-3"></script>
+    <script src="./assets/js/market.js?v=20260903-production-1"></script>
   </body>
 </html>

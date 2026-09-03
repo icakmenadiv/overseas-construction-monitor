@@ -1,8 +1,0 @@
-/*
- * Legacy compatibility entrypoint.
- * Canonical stylesheet: assets/css/site-shell.css
- *
- * Keep this file while cached HTML or historical preview pages may still
- * request actual-redesign.css. Do not add new production rules here.
- */
-@import url("./assets/css/site-shell.css?v=20260903-1");
