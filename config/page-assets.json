@@ -1,0 +1,59 @@
+{
+  "version": "20260903-production-1",
+  "architecture": "one stylesheet and one JavaScript bundle per production page",
+  "productionPages": {
+    "index.html": {
+      "stylesheets": [
+        "assets/css/market.css"
+      ],
+      "scripts": [
+        "assets/js/market.js"
+      ]
+    },
+    "projects.html": {
+      "stylesheets": [
+        "assets/css/projects.css"
+      ],
+      "scripts": [
+        "assets/js/projects.js"
+      ]
+    },
+    "project.html": {
+      "stylesheets": [
+        "assets/css/project.css"
+      ],
+      "scripts": [
+        "assets/js/project.js"
+      ]
+    }
+  },
+  "bundles": {
+    "css": [
+      "assets/css/market.css",
+      "assets/css/projects.css",
+      "assets/css/project.css"
+    ],
+    "js": [
+      "assets/js/market.js",
+      "assets/js/projects.js",
+      "assets/js/project.js"
+    ]
+  },
+  "deletedLegacyPatterns": [
+    "root/*.css",
+    "root/*.js",
+    "*preview*.html",
+    "*-fix.js"
+  ],
+  "publicIdPolicy": {
+    "projectId": "internal matching only; never render or place in public URLs",
+    "articleId": "internal matching only; never render or export"
+  },
+  "dataFiles": [
+    "data/articles.json",
+    "data/projects.json",
+    "data/meta.json",
+    "data/view-counts.json"
+  ],
+  "backupBranch": "backup/pre-asset-refactor-20260903"
+}

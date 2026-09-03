@@ -1,0 +1,87 @@
+name: Validate production pages
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "*.html"
+      - "assets/**"
+      - "config/page-assets.json"
+      - "scripts/validate-page-assets.mjs"
+      - "scripts/smoke-test-pages.mjs"
+      - ".github/workflows/validate-page-assets.yml"
+  push:
+    branches:
+      - main
+      - "refactor/**"
+    paths:
+      - "*.html"
+      - "assets/**"
+      - "config/page-assets.json"
+      - "scripts/validate-page-assets.mjs"
+      - "scripts/smoke-test-pages.mjs"
+      - ".github/workflows/validate-page-assets.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-production-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Validate asset structure
+        run: node scripts/validate-page-assets.mjs
+
+      - name: Check JavaScript bundles
+        run: |
+          node --check assets/js/market.js
+          node --check assets/js/projects.js
+          node --check assets/js/project.js
+
+  visual-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Install Chromium test runner
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Start local site
+        run: |
+          python3 -m http.server 4173 > /tmp/monitor-http.log 2>&1 &
+          echo $! > /tmp/monitor-http.pid
+
+      - name: Run desktop and mobile smoke tests
+        env:
+          PAGE_BASE_URL: http://127.0.0.1:4173
+        run: node scripts/smoke-test-pages.mjs
+
+      - name: Upload verification screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: production-page-screenshots
+          path: artifacts/screenshots
+          if-no-files-found: ignore
