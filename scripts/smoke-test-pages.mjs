@@ -45,6 +45,10 @@ async function openPage(context, route, name, readySelector) {
     throw new Error(`${name}: expected one CSS and one JS asset, got ${JSON.stringify(assetCounts)}`);
   }
 
+  // Keep a viewport-only image for reliable header/layout review. Extremely
+  // tall full-page screenshots can contain Chromium compositor stitching
+  // artifacts that are not present in the actual page.
+  await page.screenshot({ path: `${output}/${name}-viewport.png`, fullPage: false });
   await page.screenshot({ path: `${output}/${name}.png`, fullPage: true });
   return page;
 }
