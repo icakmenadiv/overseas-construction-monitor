@@ -105,6 +105,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HUN-TRANSPORT-BUDAPEST-AIRPORT-R100-GROUND-INFRA",
+    "프로젝트명": "Budapest Airport R100 Ground-Side Infrastructure Development Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "교통",
+    "발주처": "Budapest Airport Budapest Ferenc Liszt International Airport Operating Private Limited Company",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "Tender notice 14657/2026 does not state total project cost; no USD conversion applied.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-01",
+    "대표 기사 고유값": "ART-20260901-HUN001",
+    "비고": "R100 지상측 인프라 개발공사. 지반정지 및 케이블 인프라 설치를 포함하며, 원문 공고는 2026-09-01 게시 및 2026-09-03 마감을 제시함. 낙찰 결과·재공고·후속 공항 지상 인프라 패키지를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PHL-WATER-ILIGAN-CITYWATERWORKS",
     "프로젝트명": "TUBO: A Tariff and Utility Blueprint for Water Operations, Model for the Iligan City Waterworks System",
     "지역": "아시아",
@@ -135,6 +150,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TWN-METRO-TAICHUNG-BLUE-LINE",
+    "프로젝트명": "Taichung MRT Blue Line Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "교통",
+    "발주처": "Taichung City Government Rapid Transit System Bureau",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-01",
+    "대표 기사 고유값": "ART-20260901-TWN001",
+    "비고": "관련 기사: ART-20250411-003502, ART-20260605-000336, ART-20260606-000337, ART-20260616-004323, ART-20260901-TWN001. 24.8km, 20개 역 규모의 타이중 제2 도시철도 노선. E&M 턴키 계약 이후 BC11·BC12 토목 패키지 입찰, 궤도공사 공개열람을 거쳐 2026-08-31 BC21 토건·시설기전(약 2.01km, B09 서측~BC12 연결 및 룽징 차량기지 진출입선) 입찰이 공고됨. BC21 입찰 마감은 2026-10-12로, 전자조달 원문상 자격·평가기준과 후속 패키지를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ARG-AIR-SAN-RAFAEL-TERMINAL",
     "프로젝트명": "San Rafael Airport Passenger Terminal Expansion Project",
     "지역": "중남미",
@@ -162,6 +192,21 @@
     "최근 업데이트일": "2026-08-31",
     "대표 기사 고유값": "ART-20260831-IDN001",
     "비고": "Kutai Timur BCIP 93ha 부지의 석탄가스화·메탄올 플랜트. 연간 저열량 석탄 약 770만~778만 톤 처리, 메탄올 약 200만 톤 생산, 가스화·합성반응·발전·수처리·항만터미널·CCS 연계 설비 포함. 2029년 시운전 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PAN-ROAD-YAVIZA-PINOGANA-CHUCUNAQUE-TUIRA",
+    "프로젝트명": "Yaviza-Pinogana Road and Chucunaque-Tuira Bridges Project",
+    "지역": "중남미",
+    "국가": "파나마",
+    "섹터": "교통",
+    "발주처": "Ministry of Public Works (MOP)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-08-31",
+    "대표 기사 고유값": "ART-20260831-PAN001",
+    "비고": "Yaviza-Pinogana 도로와 Chucunaque·Tuira 교량 공사의 2026-08-31 통합 공정률은 73%로 확인됨. 공식 총사업비, 개별 계약금액, 시공사 및 준공일은 원문에 미공개. 잔여 교량·포장·배수·안전시설 공종과 준공일을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2323,21 +2368,6 @@
     "대표 기사 고유값": "ART-20260616-003725",
     "비고": "DBOLT 방식, 15년 임대 후 KCHL 이전 예정",
     "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "TWN-METRO-TAICHUNG-BLUE-LINE",
-    "프로젝트명": "Taichung MRT Blue Line Project",
-    "지역": "아시아",
-    "국가": "대만",
-    "섹터": "교통",
-    "발주처": "Taichung City Government Rapid Transit System Bureau",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "tender",
-    "최근 업데이트일": "2026. 6. 16",
-    "대표 기사 고유값": "ART-20260616-004323",
-    "비고": "관련 기사: ART-20250411-003502, ART-20260605-000336, ART-20260606-000337, ART-20260616-004323. 24.8km, 20개 역 규모의 타이중 제2 도시철도 노선. E&M 턴키 계약 이후 BC11·BC12 등 토목 패키지 입찰, 궤도공사 공개열람, 예산 증액 필요성을 후속 추적. BC11은 타이중항~B03 약 2.49km 구간이며 2026-06-16 보정공고와 수목 처리 설명회로 본공사 조달·시공준비가 계속 진행 중임.",
-    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "USA-ROAD-US160-ELMORES-EAST",

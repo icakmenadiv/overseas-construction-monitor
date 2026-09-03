@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T16:22:25.783Z",
+  "updatedAt": "2026-09-03T19:20:10.969Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,42 +28,29 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8289,
-    "projects": 3698
+    "articles": 8295,
+    "projects": 3700
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260903-IDN001",
-        "ART-20260903-IDN002",
-        "ART-20260903-PHL003",
-        "ART-20260902-IDN001",
-        "ART-20260902-IDN002",
-        "ART-20260902-PHL002",
-        "ART-20260902-POL001",
-        "ART-20260901-IDN002",
-        "ART-20260901-PHL001",
-        "ART-20260831-IDN001",
-        "ART-20260831-POL001",
-        "ART-20260831-POL002",
-        "ART-20260830-UAE001"
+        "ART-20260903-HUN003",
+        "ART-20260902-HUN002",
+        "ART-20260901-HUN001",
+        "ART-20260901-TWN001",
+        "ART-20260831-PAN001",
+        "ART-20260831-TWN002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "IDN-WATER-BIMA-AMAHAMI-TAMANRIA-RETENTION",
-        "IDN-ENERGY-GUNUNG-UNGARAN-GEOTHERMAL",
-        "PHL-WATER-ILIGAN-CITYWATERWORKS",
-        "IDN-PETCHEM-BCIP-COAL-GASIFICATION-METHANOL",
-        "POL-ENERGY-ENEA-LESNIOW-PRZYLEP-110KV",
-        "POL-ROAD-LIMANOWA-BYPASS-DK28",
-        "UAE-ROAD-AL-MEYDAN-STREET-DEVELOPMENT"
+        "HUN-TRANSPORT-BUDAPEST-AIRPORT-R100-GROUND-INFRA",
+        "PAN-ROAD-YAVIZA-PINOGANA-CHUCUNAQUE-TUIRA"
       ],
       "updated": [
-        "PHL-ENERGY-MTERRA-SOLAR-BESS",
-        "POL-ENERGY-BALTYK23-OFFSHORE-WIND"
+        "TWN-METRO-TAICHUNG-BLUE-LINE"
       ],
       "removed": []
     }
