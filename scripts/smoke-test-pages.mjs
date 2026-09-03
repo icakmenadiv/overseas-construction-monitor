@@ -2,6 +2,7 @@ import { chromium } from "playwright";
 import fs from "node:fs/promises";
 
 const base = process.env.PAGE_BASE_URL || "http://127.0.0.1:4173";
+const baseOrigin = new URL(base).origin;
 const output = "artifacts/screenshots";
 await fs.mkdir(output, { recursive: true });
 const browser = await chromium.launch({ headless: true });
@@ -12,14 +13,17 @@ async function openPage(context, route, name, readySelector) {
 
   // The view-tracking worker only permits the deployed GitHub Pages origin.
   // Stub that external request during localhost smoke tests so CORS does not
-  // mask actual page errors.
-  await page.route("https://icak-view-tracker.icak-mena-div.workers.dev/**", async (route) => {
-    await route.fulfill({
+  // mask actual page errors. The application uses credentialed requests, so
+  // the test response must echo the localhost origin instead of using '*'.
+  await page.route("https://icak-view-tracker.icak-mena-div.workers.dev/**", async (requestRoute) => {
+    await requestRoute.fulfill({
       status: 204,
       headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Allow-Origin": baseOrigin,
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        Vary: "Origin",
       },
     });
   });
