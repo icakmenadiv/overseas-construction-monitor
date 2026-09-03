@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T21:01:08.167Z",
+  "updatedAt": "2026-09-03T04:20:35.946Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1186,6 +1186,9 @@
         "article_detail_open": 1,
         "source_link_click": 1
       },
+      "ART-20260830-EGY001": {
+        "article_detail_open": 2
+      },
       "ART-20260830-KGZ003": {
         "article_detail_open": 1
       },
@@ -1193,17 +1196,44 @@
         "article_detail_open": 3,
         "source_link_click": 2
       },
+      "ART-20260831-AUS002": {
+        "article_detail_open": 1
+      },
       "ART-20260831-AUS003": {
         "article_detail_open": 1,
         "source_link_click": 1
       },
       "ART-20260831-BGD001": {
         "article_detail_open": 1
+      },
+      "ART-20260901-KWT004": {
+        "article_detail_open": 2
+      },
+      "ART-20260901-SAU002": {
+        "article_detail_open": 1
+      },
+      "ART-20260902-ARG004": {
+        "article_detail_open": 1
+      },
+      "ART-20260902-ARG005": {
+        "article_detail_open": 1
+      },
+      "ART-20260902-CHN001": {
+        "article_detail_open": 1
+      },
+      "ART-20260902-CHN004": {
+        "article_detail_open": 1
+      },
+      "ART-20260902-SAU003": {
+        "article_detail_open": 1
+      },
+      "ART-20260902-TZA002": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 43
+        "market_page_visit": 44
       }
     },
     "project": {
@@ -1261,6 +1291,9 @@
       "IRN-ENERGY-HORMOZ-SIRIK-NPP": {
         "project_detail_open": 1
       },
+      "IRQ-OILGAS-BASRA-AQABA-PIPELINE": {
+        "project_detail_open": 1
+      },
       "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION": {
         "project_detail_open": 1
       },
@@ -1272,6 +1305,9 @@
       },
       "LTU-PORT-KLAIPEDA-SOUTHPORT": {
         "project_detail_open": 1
+      },
+      "Moscow-St Petersburg High-Speed Railway Project": {
+        "project_detail_open": 2
       },
       "MYS-TRANSPORT-SHAH-ALAM-LRT3": {
         "project_detail_open": 1
@@ -1322,6 +1358,9 @@
         "project_detail_open": 1
       },
       "PER-ROAD-ANILLO-VIAL-PERIFERICO": {
+        "project_detail_open": 1
+      },
+      "RUS-RAIL-MOSCOW-SPB-HSR": {
         "project_detail_open": 1
       },
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
@@ -4578,6 +4617,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260830-EGY001",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-03T00:24:49.126Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260830-KGZ003",
       "eventType": "article_detail_open",
       "count": 1,
@@ -4596,6 +4642,13 @@
       "eventType": "source_link_click",
       "count": 2,
       "updatedAt": "2026-09-02T07:34:29.453Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260831-AUS002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T00:13:09.682Z"
     },
     {
       "targetType": "article",
@@ -4619,11 +4672,67 @@
       "updatedAt": "2026-09-01T23:59:23.429Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260901-KWT004",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-03T00:24:48.168Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260901-SAU002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T00:12:52.642Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260902-ARG004",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T02:12:11.679Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260902-ARG005",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T02:12:13.585Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260902-CHN001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T02:12:16.253Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260902-CHN004",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T02:12:22.284Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260902-SAU003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T00:12:33.778Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260902-TZA002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T00:13:06.817Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 43,
-      "updatedAt": "2026-09-02T01:10:00.278Z"
+      "count": 44,
+      "updatedAt": "2026-09-03T00:20:49.857Z"
     },
     {
       "targetType": "project",
@@ -4753,6 +4862,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "IRQ-OILGAS-BASRA-AQABA-PIPELINE",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T00:57:27.183Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "JPN-WATER-SHIOGAMA-CLEANING-PLANT-RENOVATION",
       "eventType": "project_detail_open",
       "count": 1,
@@ -4778,6 +4894,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-07-01T00:36:13.642Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Moscow-St Petersburg High-Speed Railway Project",
+      "eventType": "project_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-03T02:31:02.065Z"
     },
     {
       "targetType": "project",
@@ -4897,6 +5020,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-09-01T02:01:26.838Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "RUS-RAIL-MOSCOW-SPB-HSR",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-03T00:53:59.895Z"
     },
     {
       "targetType": "project",
