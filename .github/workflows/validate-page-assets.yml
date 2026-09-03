@@ -1,0 +1,57 @@
+name: Validate page assets
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "*.html"
+      - "*.css"
+      - "*.js"
+      - "assets/**"
+      - "config/page-assets.json"
+      - "scripts/validate-page-assets.mjs"
+      - ".github/workflows/validate-page-assets.yml"
+  push:
+    branches:
+      - main
+      - "refactor/**"
+    paths:
+      - "*.html"
+      - "*.css"
+      - "*.js"
+      - "assets/**"
+      - "config/page-assets.json"
+      - "scripts/validate-page-assets.mjs"
+      - ".github/workflows/validate-page-assets.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-page-assets-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Validate production asset graph
+        run: node scripts/validate-page-assets.mjs
+
+      - name: Check production JavaScript syntax
+        run: |
+          node --check app.js
+          node --check projects.js
+          node --check project.js
+          node --check monitor-core-ui.js
+          node --check interest.js
+          node --check view-tracking.js

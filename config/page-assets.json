@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "migrationPhase": "phase-1-canonical-css-with-legacy-entrypoints",
+  "productionPages": {
+    "index.html": {
+      "styles": [
+        "styles.css",
+        "monitor-ui.css",
+        "large-text.css",
+        "filter-tuning.css",
+        "brand-enhancements.css",
+        "high-priority-filter.css",
+        "interest.css",
+        "monitor-enhancements.css",
+        "filter-tooltip-fix.css",
+        "responsive-mobile-cards.css"
+      ],
+      "scripts": [
+        "app.js",
+        "market-date-sort-fix.js",
+        "interest-sort.js",
+        "monitor-core-ui.js",
+        "interest.js",
+        "view-tracking.js"
+      ]
+    },
+    "projects.html": {
+      "styles": [
+        "styles.css",
+        "monitor-ui.css",
+        "large-text.css",
+        "filter-tuning.css",
+        "brand-enhancements.css",
+        "project-page-updates.css",
+        "monitor-enhancements.css",
+        "filter-tooltip-fix.css",
+        "responsive-mobile-cards.css"
+      ],
+      "scripts": [
+        "projects.js",
+        "project-interest-sort.js",
+        "project-ai-cost.js",
+        "monitor-core-ui.js",
+        "view-tracking.js"
+      ]
+    },
+    "project.html": {
+      "styles": [
+        "styles.css",
+        "monitor-ui.css",
+        "large-text.css",
+        "brand-enhancements.css",
+        "interest.css",
+        "monitor-enhancements.css",
+        "responsive-mobile-cards.css"
+      ],
+      "scripts": [
+        "project.js",
+        "monitor-core-ui.js",
+        "interest.js",
+        "view-tracking.js"
+      ]
+    }
+  },
+  "canonicalStyles": {
+    "assets/css/site-shell.css": {
+      "role": "Current production shell, header, navigation and global visual overrides",
+      "baselineGitBlobSha": "0baafcd948fb7c43ff98632ed851f2b749e10e78"
+    },
+    "assets/css/site-brand-motion.css": {
+      "role": "Brand presentation, entrance motion and reduced-motion handling",
+      "baselineGitBlobSha": "493a7556193580e2b52c7669e5cfbb595f40d8a2"
+    }
+  },
+  "legacyCompatibility": {
+    "actual-redesign.css": [
+      "assets/css/site-shell.css"
+    ],
+    "brand-enhancements.css": [
+      "assets/css/site-shell.css",
+      "assets/css/site-brand-motion.css"
+    ]
+  },
+  "runtimeData": [
+    "data/articles.json",
+    "data/projects.json",
+    "data/meta.json",
+    "data/view-counts.json"
+  ],
+  "historicalPages": [
+    "market-preview.html",
+    "projects-preview.html",
+    "project-preview.html"
+  ]
+}
