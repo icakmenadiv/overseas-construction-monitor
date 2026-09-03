@@ -1,15 +1,14 @@
-name: Validate page assets
+name: Validate production pages
 
 on:
   workflow_dispatch:
   pull_request:
     paths:
       - "*.html"
-      - "*.css"
-      - "*.js"
       - "assets/**"
       - "config/page-assets.json"
       - "scripts/validate-page-assets.mjs"
+      - "scripts/smoke-test-pages.mjs"
       - ".github/workflows/validate-page-assets.yml"
   push:
     branches:
@@ -17,18 +16,17 @@ on:
       - "refactor/**"
     paths:
       - "*.html"
-      - "*.css"
-      - "*.js"
       - "assets/**"
       - "config/page-assets.json"
       - "scripts/validate-page-assets.mjs"
+      - "scripts/smoke-test-pages.mjs"
       - ".github/workflows/validate-page-assets.yml"
 
 permissions:
   contents: read
 
 concurrency:
-  group: validate-page-assets-${{ github.ref }}
+  group: validate-production-pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -44,14 +42,46 @@ jobs:
           node-version: "24"
           package-manager-cache: false
 
-      - name: Validate production asset graph
+      - name: Validate asset structure
         run: node scripts/validate-page-assets.mjs
 
-      - name: Check production JavaScript syntax
+      - name: Check JavaScript bundles
         run: |
-          node --check app.js
-          node --check projects.js
-          node --check project.js
-          node --check monitor-core-ui.js
-          node --check interest.js
-          node --check view-tracking.js
+          node --check assets/js/market.js
+          node --check assets/js/projects.js
+          node --check assets/js/project.js
+
+  visual-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Install Chromium test runner
+        run: |
+          npm install --no-save playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Start local site
+        run: |
+          python3 -m http.server 4173 > /tmp/monitor-http.log 2>&1 &
+          echo $! > /tmp/monitor-http.pid
+
+      - name: Run desktop and mobile smoke tests
+        env:
+          PAGE_BASE_URL: http://127.0.0.1:4173
+        run: node scripts/smoke-test-pages.mjs
+
+      - name: Upload verification screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: production-page-screenshots
+          path: artifacts/screenshots
+          if-no-files-found: ignore
