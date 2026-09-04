@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T17:39:49.988Z",
+  "updatedAt": "2026-09-04T19:50:38.914Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,47 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260904-MYS001",
-        "ART-20260904-MYS002",
-        "ART-20260904-QAT001",
-        "ART-20260903-QAT001",
-        "ART-20260902-CZE004",
-        "ART-20260902-IND004",
-        "ART-20260902-IND005",
-        "ART-20260902-IND006",
-        "ART-20260901-CZE003",
-        "ART-20260901-IND002",
-        "ART-20260901-IND003",
-        "ART-20260901-MYS001",
-        "ART-20260901-MYS002",
-        "ART-20260901-MYS003",
-        "ART-20260901-QAT001"
-      ],
-      "updated": [
-        "ART-20260903-IDN002",
-        "ART-20260902-IDN001",
-        "ART-20260902-IDN002",
-        "ART-20260831-IDN001",
-        "ART-20260902-ARG005",
-        "ART-20260901-MEX003"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "MYS-DIGITAL-KEYASIC-CTVISION-GREEN-AI-DC",
-        "QAT-OILGAS-NORTH-FIELD-WEST-OFFSHORE-PDM",
-        "QAT-OILGAS-NGL5-MESAIEED",
-        "IND-ENERGY-BATHINDA-SWARAJ-GROUP-CAPTIVE-SOLAR",
-        "CZE-ROAD-D7-KNOVIZ-SLANY-ZAPAD",
-        "IND-RAIL-ADRA-JOYCHANDIPAHAR-BYPASS",
-        "IND-RAIL-SAMASTIPUR-ELECTRONIC-INTERLOCKING",
-        "IND-ROAD-RAMESHWAR-PARADEEP-COASTAL-HIGHWAY",
-        "MYS-DIGITAL-DAYONE-SELANGOR-DATA-CENTRE-POWER",
-        "MYS-ROAD-PAN-BORNEO-SABAH-HIGHWAY",
-        "MYS-ROAD-TANJUNG-MALIM-LUMUT-FT001-PHASE1"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
