@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T21:00:08.488Z",
+  "updatedAt": "2026-09-04T04:29:07.143Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1224,11 +1224,18 @@
       "ART-20260902-CHN004": {
         "article_detail_open": 1
       },
+      "ART-20260902-PHL002": {
+        "source_link_click": 1
+      },
       "ART-20260902-SAU003": {
         "article_detail_open": 1
       },
       "ART-20260902-TZA002": {
         "article_detail_open": 1
+      },
+      "ART-20260903-HUN003": {
+        "article_detail_open": 1,
+        "source_link_click": 1
       }
     },
     "page": {
@@ -4715,6 +4722,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260902-PHL002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-03T23:48:09.052Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260902-SAU003",
       "eventType": "article_detail_open",
       "count": 1,
@@ -4726,6 +4740,20 @@
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-09-03T00:13:06.817Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260903-HUN003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-04T00:30:40.287Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260903-HUN003",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-04T00:30:38.222Z"
     },
     {
       "targetType": "page",
