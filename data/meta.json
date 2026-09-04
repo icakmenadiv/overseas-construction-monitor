@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T14:21:52.387Z",
+  "updatedAt": "2026-09-04T17:39:49.988Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,59 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8295,
-    "projects": 3700
+    "articles": 8310,
+    "projects": 3711
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260904-MYS001",
+        "ART-20260904-MYS002",
+        "ART-20260904-QAT001",
+        "ART-20260903-QAT001",
+        "ART-20260902-CZE004",
+        "ART-20260902-IND004",
+        "ART-20260902-IND005",
+        "ART-20260902-IND006",
+        "ART-20260901-CZE003",
+        "ART-20260901-IND002",
+        "ART-20260901-IND003",
+        "ART-20260901-MYS001",
+        "ART-20260901-MYS002",
+        "ART-20260901-MYS003",
+        "ART-20260901-QAT001"
+      ],
+      "updated": [
+        "ART-20260903-IDN002",
+        "ART-20260902-IDN001",
+        "ART-20260902-IDN002",
+        "ART-20260831-IDN001",
+        "ART-20260902-ARG005",
+        "ART-20260901-MEX003"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "MYS-DIGITAL-KEYASIC-CTVISION-GREEN-AI-DC",
+        "QAT-OILGAS-NORTH-FIELD-WEST-OFFSHORE-PDM",
+        "QAT-OILGAS-NGL5-MESAIEED",
+        "IND-ENERGY-BATHINDA-SWARAJ-GROUP-CAPTIVE-SOLAR",
+        "CZE-ROAD-D7-KNOVIZ-SLANY-ZAPAD",
+        "IND-RAIL-ADRA-JOYCHANDIPAHAR-BYPASS",
+        "IND-RAIL-SAMASTIPUR-ELECTRONIC-INTERLOCKING",
+        "IND-ROAD-RAMESHWAR-PARADEEP-COASTAL-HIGHWAY",
+        "MYS-DIGITAL-DAYONE-SELANGOR-DATA-CENTRE-POWER",
+        "MYS-ROAD-PAN-BORNEO-SABAH-HIGHWAY",
+        "MYS-ROAD-TANJUNG-MALIM-LUMUT-FT001-PHASE1"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-04",
-    "articlePublishedDate": "2026-09-03",
-    "projectUpdatedDate": "2026-09-03"
+    "articleCollectedDate": "2026-09-05",
+    "articlePublishedDate": "2026-09-04",
+    "projectUpdatedDate": "2026-09-04"
   }
 }
