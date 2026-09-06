@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:20:46.891Z",
+  "updatedAt": "2026-09-06T21:46:49.092Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 8310,
