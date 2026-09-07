@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T16:05:51.437Z",
+  "updatedAt": "2026-09-07T19:53:16.387Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,31 +28,55 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8312,
-    "projects": 3712
+    "articles": 8329,
+    "projects": 3720
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260903-IDN003",
-        "ART-20260903-IDN004"
+        "ART-20260907-POL001",
+        "ART-20260906-HUN001",
+        "ART-20260906-PAN001",
+        "ART-20260904-HKG001",
+        "ART-20260904-HKG002",
+        "ART-20260904-HUN001",
+        "ART-20260904-PAN001",
+        "ART-20260904-PAN002",
+        "ART-20260904-POL001",
+        "ART-20260904-POL002",
+        "ART-20260904-POL003",
+        "ART-20260904-TWN001",
+        "ART-20260903-HUN004",
+        "ART-20260903-HUN005",
+        "ART-20260903-PAN001",
+        "ART-20260903-POL001",
+        "ART-20260903-TWN001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "IDN-ROAD-CARINGIN-CISARUA-PUNCAK-TOLL"
+        "POL-ROAD-CZLUCHOW-BYPASS-DK22-DK25",
+        "HKG-SOC-QUEEN-MARY-HOSPITAL-NEW-CLINICAL-BLOCK",
+        "HUN-ROAD-M49-EASTERN-SECTION-SZAMOS-BRIDGE",
+        "PAN-AIRPORT-TOCUMEN-T2-SOUTH-PIER",
+        "POL-ROAD-A4-DULOWA-BALICE-THIRD-LANE",
+        "TWN-RAIL-NORTHLINK-CHONGDE-TUNNEL-BRIDGE-STATION",
+        "POL-ROAD-S8-KOBIERZYCE-BARDO",
+        "TWN-METRO-TAOYUAN-GREEN-LINE-ZHONGLI-EXTENSION"
       ],
       "updated": [
-        "IDN-DIGITAL-RANGEIDC-BATAM-AI-DC"
+        "PAN-ROAD-CUARTO-PUENTE-CANAL",
+        "POL-RAIL-CPK-WARSAW-LODZ-HSR",
+        "PAN-TRANSPORT-SANMIGUELITO-CABLECAR"
       ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-09-08",
-    "articlePublishedDate": "2026-09-04",
-    "projectUpdatedDate": "2026-09-04"
+    "articlePublishedDate": "2026-09-07",
+    "projectUpdatedDate": "2026. 9. 7"
   }
 }
