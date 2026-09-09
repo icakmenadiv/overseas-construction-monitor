@@ -15,6 +15,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TUR-IND-DIYARBAKIR-TEXTILE-MIXED-OSB-EXPANSION-INFRA",
+    "프로젝트명": "Diyarbakır Textile Specialized and Mixed OSB Expansion Area Infrastructure Project",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "산업·물류",
+    "발주처": "Diyarbakır Textile Specialized and Mixed OSB Entrepreneurial Committee",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-09",
+    "대표 기사 고유값": "ART-20260910-TUR001",
+    "비고": "도로·오·우수·전력·통신 기반시설 공사. 2026-10-01 입찰; 현지 기업만 참여 가능, 공동수급·컨소시엄 불가.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "VNM-RAIL-NORTHSOUTH-HSR",
     "프로젝트명": "North-South High-Speed Railway Project",
     "지역": "아시아",
@@ -135,6 +150,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "JPN-ROAD-SHIN-YAMANASHI-HIROSE-SAKURAI",
+    "프로젝트명": "New Yamanashi Ring Road (Hirose-Sakurai) Project",
+    "지역": "아시아",
+    "국가": "일본",
+    "섹터": "교통",
+    "발주처": "국토교통성 간토지방정비국·야마나시현·고후시·후에후키시",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-08",
+    "대표 기사 고유값": "ART-20260908-160001",
+    "비고": "국도 20호 신야마나시 순환도로의 후에후키시 이사와초 히로세~고후시 사쿠라이 2.0km 구간. 2026-09-08 본체 구조물(교량 하부공) 착수와 10월 4일 착수식 계획이 발표됨. 세부 공정·시공사·전체 사업비·준공 일정 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MEX-ENERGY-CFE-GUADALAJARA-CCC",
     "프로젝트명": "CFE Guadalajara Combined Cycle Power Plant Project",
     "지역": "중남미",
@@ -177,6 +207,51 @@
     "최근 업데이트일": "2026-09-08",
     "대표 기사 고유값": "ART-20260908-NGA001",
     "비고": "250호 주택단지가 약 80% 공정. 완공시점·분양 및 배정 기준, 후속 주택단지 발주를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUR-ENERGY-TARSUS-OSB-ADANA-400KV-TL",
+    "프로젝트명": "Tarsus OSB-Adana 400kV Transmission Line Project",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "에너지",
+    "발주처": "Türkiye Elektrik İletim A.Ş. (TEİAŞ)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-08",
+    "대표 기사 고유값": "ART-20260910-TUR003",
+    "비고": "약 67.7km 400kV 가공송전선·고압케이블·고압설비 공사. 입찰번호 2026/1562737, 2026-10-08 마감.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUR-IND-GIRESUN-SEBINKARAHISAR-MIXED-OSB-INFRA",
+    "프로젝트명": "Giresun Şebinkarahisar Mixed Organized Industrial Zone Infrastructure Project",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "산업·물류",
+    "발주처": "Giresun Şebinkarahisar Mixed OSB Entrepreneurial Committee",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-08",
+    "대표 기사 고유값": "ART-20260910-TUR002",
+    "비고": "도로·하수·우수·상수·전력·통신 기반시설 단일 패키지. 2026-09-29 입찰, 2027-12-15 완공 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUR-OILGAS-OSMAN-GAZI-FPU-SAKARYA",
+    "프로젝트명": "Osman Gazi Floating Production Unit Project (Sakarya Gas Field)",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "석유가스·화학",
+    "발주처": "GOE Petrol Sanayi / Turkish Petroleum Corporation (TPAO)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-09-08",
+    "대표 기사 고유값": "ART-20260910-TUR004",
+    "비고": "Saipem이 Osman Gazi FPU 시운전 서비스를 약 8개월 수행하는 계약을 확보함. 사카리아 가스전 개발 관련 후속 시운전·운영 전환 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -282,6 +357,21 @@
     "최근 업데이트일": "2026-09-07",
     "대표 기사 고유값": "ART-20260907-KAZ001",
     "비고": "아크몰라주의 제2 금 회수공장과 에너지·용수·광미·물류·정비·숙소 부대시설 건설.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KHM-IND-MANHATTAN-II-SEZ",
+    "프로젝트명": "Manhattan II Special Economic Zone",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "산업·물류",
+    "발주처": "Cambodian Investment Board (CIB)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-09-07",
+    "대표 기사 고유값": "ART-20260907-KHM001",
+    "비고": "스바이리엥주 Manhattan II 특별경제구역 설립 제안이 2026-09-07 CIB One-Stop Meeting에서 심의됨. 개발면적·투자액·개발사·내부도로·전력·용수·물류 기반시설의 세부 범위와 인허가·조달 일정은 미공개로, 설립 승인·사업자 지정·부지 및 기반시설 계획 공개를 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

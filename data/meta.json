@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T17:21:20.915Z",
+  "updatedAt": "2026-09-09T19:51:37.676Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,73 +28,35 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8390,
-    "projects": 3755
+    "articles": 8399,
+    "projects": 3761
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260909-SAU001",
-        "ART-20260909-VNM001",
-        "ART-20260909-VNM002",
-        "ART-20260909-VNM003",
-        "ART-20260908-CHN001",
-        "ART-20260908-CHN002",
-        "ART-20260908-CHN003",
-        "ART-20260908-MEX001",
-        "ART-20260908-MEX002",
-        "ART-20260908-SAU001",
-        "ART-20260908-SGP001",
-        "ART-20260908-VNM001",
-        "ART-20260908-VNM002",
-        "ART-20260907-CHN001",
-        "ART-20260907-IRN001",
-        "ART-20260907-IRQ001",
-        "ART-20260907-SAU001",
-        "ART-20260907-SAU002",
-        "ART-20260906-CHN001",
-        "ART-20260906-CHN002",
-        "ART-20260906-IRQ001",
-        "ART-20260906-MEX001",
-        "ART-20260906-SAU001",
-        "ART-20260906-SAU002",
-        "ART-20260905-MEX001"
+        "ART-20260909-160002",
+        "ART-20260910-TUR001",
+        "ART-20260908-160001",
+        "ART-20260910-TUR002",
+        "ART-20260910-TUR003",
+        "ART-20260910-TUR004",
+        "ART-20260910-TUR005",
+        "ART-20260907-KHM001",
+        "ART-20260910-TUR006"
       ],
-      "updated": [
-        "ART-20260907-CZE006",
-        "ART-20260907-NGA001",
-        "ART-20260905-NGA002",
-        "ART-20260904-CZE005",
-        "ART-20260905-KAZ002",
-        "ART-20260904-PAN001",
-        "ART-20260903-IDN003",
-        "ART-20260903-POL001"
-      ],
+      "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "SAU-DIGITAL-HUMAIN-MIS-200MW-AI-DC",
-        "CHN-AIR-DALIAN-JINZHOU-BAY-INTL-AIRPORT",
-        "CHN-DIGITAL-GUANYUN-SMART-UNDERGROUND-PIPELINE",
-        "CHN-WATER-HUANBEIGUANGDONG-WATER-RESOURCES-ALLOCATION",
-        "MEX-ENERGY-CFE-GUADALAJARA-CCC",
-        "MEX-URBANRAIL-CDMX-CABLEBUS-L5",
-        "VNM-IND-TIENTHANG-IP-PHASE1",
-        "CHN-ENERGY-LINGBAO-PUMPED-STORAGE",
-        "IRN-ENERGY-PAYAM-SOLAR-POWER-PLANTS",
-        "IRQ-URBAN-KARBALA-60000-UNIT-HOUSING",
-        "SAU-OILGAS-DAMMAM-THIRD-INDUSTRIAL-CITY-CNG",
-        "SAU-URBAN-AL-KHAFJI-GULF-COAST",
-        "CHN-RAIL-GUANGZHOU-EAST-XINTANG-5-6-LINES",
-        "SAU-ENERGY-RED-SEA-UTILITIES",
-        "MEX-ROAD-OSIRIS-AGUASCALIENTES"
+        "TUR-IND-DIYARBAKIR-TEXTILE-MIXED-OSB-EXPANSION-INFRA",
+        "JPN-ROAD-SHIN-YAMANASHI-HIROSE-SAKURAI",
+        "TUR-ENERGY-TARSUS-OSB-ADANA-400KV-TL",
+        "TUR-IND-GIRESUN-SEBINKARAHISAR-MIXED-OSB-INFRA",
+        "TUR-OILGAS-OSMAN-GAZI-FPU-SAKARYA",
+        "KHM-IND-MANHATTAN-II-SEZ"
       ],
-      "updated": [
-        "VNM-RAIL-NORTHSOUTH-HSR",
-        "VNM-RAIL-LAOCAI-HANOI-HAIPHONG",
-        "SAU-AIR-QASSIM-PRINCE-NAIF-AIRPORT-PPP"
-      ],
+      "updated": [],
       "removed": []
     }
   },
