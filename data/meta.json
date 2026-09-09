@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T20:52:25.889Z",
+  "updatedAt": "2026-09-09T22:00:51.930Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 8399,
@@ -34,7 +34,42 @@
   "diff": {
     "articles": {
       "added": [],
-      "updated": [],
+      "updated": [
+        "ART-20260909-160002",
+        "ART-20260909-SAU001",
+        "ART-20260909-VNM001",
+        "ART-20260909-VNM002",
+        "ART-20260909-VNM003",
+        "ART-20260910-TUR001",
+        "ART-20260908-160001",
+        "ART-20260908-CHN001",
+        "ART-20260908-CHN002",
+        "ART-20260908-CHN003",
+        "ART-20260908-MEX001",
+        "ART-20260908-MEX002",
+        "ART-20260908-SAU001",
+        "ART-20260908-SGP001",
+        "ART-20260908-VNM001",
+        "ART-20260908-VNM002",
+        "ART-20260910-TUR002",
+        "ART-20260910-TUR003",
+        "ART-20260910-TUR004",
+        "ART-20260910-TUR005",
+        "ART-20260907-CHN001",
+        "ART-20260907-IRN001",
+        "ART-20260907-IRQ001",
+        "ART-20260907-KHM001",
+        "ART-20260907-SAU001",
+        "ART-20260907-SAU002",
+        "ART-20260906-CHN001",
+        "ART-20260906-CHN002",
+        "ART-20260906-IRQ001",
+        "ART-20260906-MEX001",
+        "ART-20260906-SAU001",
+        "ART-20260906-SAU002",
+        "ART-20260905-MEX001",
+        "ART-20260910-TUR006"
+      ],
       "removed": []
     },
     "projects": {
