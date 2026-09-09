@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T04:38:48.690Z",
+  "updatedAt": "2026-09-09T11:19:28.932Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1253,6 +1253,34 @@
         "source_link_click": 1
       },
       "ART-20260903-IDN002": {
+        "article_detail_open": 1
+      },
+      "ART-20260903-IDN003": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260903-POL001": {
+        "article_detail_open": 1
+      },
+      "ART-20260904-CZE005": {
+        "source_link_click": 1
+      },
+      "ART-20260904-PAN001": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260905-KAZ002": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260905-NGA002": {
+        "article_detail_open": 1
+      },
+      "ART-20260907-CZE006": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260907-NGA001": {
         "article_detail_open": 1
       }
     },
@@ -4828,6 +4856,90 @@
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-09-04T06:12:50.128Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260903-IDN003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-09T07:38:18.745Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260903-IDN003",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-09T07:38:20.262Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260903-POL001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-09T06:31:50.008Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260904-CZE005",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-09T06:16:20.955Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260904-PAN001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-09T07:38:24.428Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260904-PAN001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-09T07:38:26.834Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260905-KAZ002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-09T06:31:54.989Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260905-KAZ002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-09T06:32:00.731Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260905-NGA002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-09T06:51:33.790Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260907-CZE006",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-09T06:14:57.546Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260907-CZE006",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-09T06:14:53.507Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260907-NGA001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-09T06:51:16.490Z"
     },
     {
       "targetType": "page",
