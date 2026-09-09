@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T19:51:37.676Z",
+  "updatedAt": "2026-09-09T20:52:25.889Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8399,
@@ -33,29 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260909-160002",
-        "ART-20260910-TUR001",
-        "ART-20260908-160001",
-        "ART-20260910-TUR002",
-        "ART-20260910-TUR003",
-        "ART-20260910-TUR004",
-        "ART-20260910-TUR005",
-        "ART-20260907-KHM001",
-        "ART-20260910-TUR006"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "TUR-IND-DIYARBAKIR-TEXTILE-MIXED-OSB-EXPANSION-INFRA",
-        "JPN-ROAD-SHIN-YAMANASHI-HIROSE-SAKURAI",
-        "TUR-ENERGY-TARSUS-OSB-ADANA-400KV-TL",
-        "TUR-IND-GIRESUN-SEBINKARAHISAR-MIXED-OSB-INFRA",
-        "TUR-OILGAS-OSMAN-GAZI-FPU-SAKARYA",
-        "KHM-IND-MANHATTAN-II-SEZ"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
