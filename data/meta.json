@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T13:53:04.620Z",
+  "updatedAt": "2026-09-09T17:21:20.915Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,79 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8365,
-    "projects": 3740
+    "articles": 8390,
+    "projects": 3755
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260909-SAU001",
+        "ART-20260909-VNM001",
+        "ART-20260909-VNM002",
+        "ART-20260909-VNM003",
+        "ART-20260908-CHN001",
+        "ART-20260908-CHN002",
+        "ART-20260908-CHN003",
+        "ART-20260908-MEX001",
+        "ART-20260908-MEX002",
+        "ART-20260908-SAU001",
+        "ART-20260908-SGP001",
+        "ART-20260908-VNM001",
+        "ART-20260908-VNM002",
+        "ART-20260907-CHN001",
+        "ART-20260907-IRN001",
+        "ART-20260907-IRQ001",
+        "ART-20260907-SAU001",
+        "ART-20260907-SAU002",
+        "ART-20260906-CHN001",
+        "ART-20260906-CHN002",
+        "ART-20260906-IRQ001",
+        "ART-20260906-MEX001",
+        "ART-20260906-SAU001",
+        "ART-20260906-SAU002",
+        "ART-20260905-MEX001"
+      ],
+      "updated": [
+        "ART-20260907-CZE006",
+        "ART-20260907-NGA001",
+        "ART-20260905-NGA002",
+        "ART-20260904-CZE005",
+        "ART-20260905-KAZ002",
+        "ART-20260904-PAN001",
+        "ART-20260903-IDN003",
+        "ART-20260903-POL001"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "SAU-DIGITAL-HUMAIN-MIS-200MW-AI-DC",
+        "CHN-AIR-DALIAN-JINZHOU-BAY-INTL-AIRPORT",
+        "CHN-DIGITAL-GUANYUN-SMART-UNDERGROUND-PIPELINE",
+        "CHN-WATER-HUANBEIGUANGDONG-WATER-RESOURCES-ALLOCATION",
+        "MEX-ENERGY-CFE-GUADALAJARA-CCC",
+        "MEX-URBANRAIL-CDMX-CABLEBUS-L5",
+        "VNM-IND-TIENTHANG-IP-PHASE1",
+        "CHN-ENERGY-LINGBAO-PUMPED-STORAGE",
+        "IRN-ENERGY-PAYAM-SOLAR-POWER-PLANTS",
+        "IRQ-URBAN-KARBALA-60000-UNIT-HOUSING",
+        "SAU-OILGAS-DAMMAM-THIRD-INDUSTRIAL-CITY-CNG",
+        "SAU-URBAN-AL-KHAFJI-GULF-COAST",
+        "CHN-RAIL-GUANGZHOU-EAST-XINTANG-5-6-LINES",
+        "SAU-ENERGY-RED-SEA-UTILITIES",
+        "MEX-ROAD-OSIRIS-AGUASCALIENTES"
+      ],
+      "updated": [
+        "VNM-RAIL-NORTHSOUTH-HSR",
+        "VNM-RAIL-LAOCAI-HANOI-HAIPHONG",
+        "SAU-AIR-QASSIM-PRINCE-NAIF-AIRPORT-PPP"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-09",
-    "articlePublishedDate": "2026-09-08",
-    "projectUpdatedDate": "2026-09-08"
+    "articleCollectedDate": "2026-09-10",
+    "articlePublishedDate": "2026-09-09",
+    "projectUpdatedDate": "2026-09-09"
   }
 }
