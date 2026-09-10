@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T12:24:36.636Z",
+  "updatedAt": "2026-09-10T16:33:15.631Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,28 +28,62 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8399,
-    "projects": 3761
+    "articles": 8422,
+    "projects": 3774
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260908-MEX001",
-        "ART-20260905-MEX001",
-        "ART-20260903-IDN004"
+      "added": [
+        "ART-20260910-IDN001",
+        "ART-20260910-PHL007",
+        "ART-20260909-HUN001",
+        "ART-20260909-IDN001",
+        "ART-20260909-IDN002",
+        "ART-20260909-PHL006",
+        "ART-20260909-POL001",
+        "ART-20260909-POL002",
+        "ART-20260909-UAE001",
+        "ART-20260909-UAE002",
+        "ART-20260909-USA001",
+        "ART-20260909-USA002",
+        "ART-20260908-HUN001",
+        "ART-20260908-HUN002",
+        "ART-20260908-IDN001",
+        "ART-20260908-PHL005",
+        "ART-20260908-POL001",
+        "ART-20260908-UAE001",
+        "ART-20260908-USA001",
+        "ART-20260908-USA002",
+        "ART-20260907-IDN001",
+        "ART-20260907-PHL004",
+        "ART-20260907-UAE001"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "HUN-RAIL-MISKOLC-HIDASMETI-MAINTENANCE",
+        "POL-ENERGY-PGE-LUBLIN-THERMAL-STORAGE",
+        "POL-RAIL-LINE101-WERCHRATA-LVIV",
+        "UAE-SOC-DUBAI-EXHIBITION-CENTRE-EXPANSION",
+        "UAE-URBAN-DUBAI-HOLDING-HQ-EMIRATES-TOWERS",
+        "HUN-IND-FLEX-ZALAEGERSZEG-F-WAREHOUSE",
+        "HUN-TRANSPORT-M1-BICSKE-EAST-INTERCHANGE",
+        "IDN-ROAD-KATARAZA-SECTION1",
+        "POL-RAIL-LINE140-169-ORZESZE-TYCHY",
+        "UAE-ENERGY-DUBAI-DC-EV-CHARGERS-156",
+        "USA-IND-PORTMACKENZIE-ANTIMONY-REFINERY",
+        "USA-SOC-COASTGUARD-JACKSONVILLE-ANNEX-WATERFRONT",
+        "UAE-URBAN-CITYWALK-CRESTLANE-PHASE3"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-10",
-    "articlePublishedDate": "2026-09-09",
+    "articleCollectedDate": "2026-09-11",
+    "articlePublishedDate": "2026-09-10",
     "projectUpdatedDate": "2026-09-09"
   }
 }
