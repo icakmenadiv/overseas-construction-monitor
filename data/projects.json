@@ -495,6 +495,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "HKG-ROAD-LOOP-EASTERN-CONNECTION",
+    "프로젝트명": "Development of the Loop Eastern Connection Road",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "교통",
+    "발주처": "Civil Engineering and Development Department / Transport and Logistics Bureau",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-09-07",
+    "대표 기사 고유값": "ART-20260907-HKG001",
+    "비고": "2026년 9월 7일 행정장관회의가 공사 실시를 승인하고, 관련 고시는 9월 4일 관보에 게재됨. 공식 총사업비·입찰공고·계약조건은 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IRN-ENERGY-PAYAM-SOLAR-POWER-PLANTS",
     "프로젝트명": "Payam Solar Power Plants Project",
     "지역": "중동",
@@ -597,6 +612,36 @@
     "최근 업데이트일": "2026-09-07",
     "대표 기사 고유값": "ART-20260907-NGA003",
     "비고": "Uyo 3.5ha 부지의 5침실 단독주택 35호·부대시설 건설사업. 지연에 따라 3개월 내 준공 시한 부여.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PAN-SOC-MINSA-CAPSI-EL-TIGRE-LOS-AMARILLOS",
+    "프로젝트명": "MINSA-CAPSi El Tigre de los Amarillos Rehabilitation Project",
+    "지역": "중남미",
+    "국가": "파나마",
+    "섹터": "사회인프라",
+    "발주처": "Ministerio de Salud (MINSA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost·Investment Cost·Contract Value가 기사에 공개되지 않음.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-09-07",
+    "대표 기사 고유값": "ART-20260907-PAN002",
+    "비고": "Soná군 El Tigre de los Amarillos의 MINSA-CAPSi 보수공사. 2026-09-07 보도 기준 정식 계약 없는 보수작업 뒤 기존 절차가 취소되고 공개입찰 전환 방침이 제시됨. 향후 PanamaCompra 공고, 보수 범위·예산, 계약·감리 방식 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PAN-WATER-RIO-INDIO-RESERVOIR",
+    "프로젝트명": "Río Indio Multipurpose Reservoir Project",
+    "지역": "중남미",
+    "국가": "파나마",
+    "섹터": "수자원·환경",
+    "발주처": "Panama Canal Authority (ACP)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-07",
+    "대표 기사 고유값": "ART-20260907-PAN001",
+    "비고": "운하·국가 상수 수요를 위한 다목적 저수지. 2026-09-07 ITB 213985로 프로젝트관리·엔지니어링·시공관리 컨설팅 용역이 입찰 단계에 진입. 현장방문 9월 22~23일, 사전입찰회의 9월 24일, 제안서 마감 10월 6일 13시. 후속으로 입찰자격·컨소시엄 요건, 컨설턴트 선정 및 본공사 패키지 분할 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -2697,21 +2742,6 @@
     "최근 업데이트일": "2026. 7. 1",
     "대표 기사 고유값": "ART-20260701-010595",
     "비고": "Colón주 Cuatro Altos 로터리 도로 재활공사. 2026-07-01 MOP 기준 공정률 60%로 상승했으며 포장 철거·콘크리트 보수·아스팔트 포설 등 Plan Tapahuecos 범위의 도로 재활 공정이 진행 중. 후속 준공·개통, 잔여 배수·안전시설 보완 여부 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "PAN-WATER-RIO-INDIO-RESERVOIR",
-    "프로젝트명": "Río Indio Multipurpose Reservoir Project",
-    "지역": "중남미",
-    "국가": "파나마",
-    "섹터": "수자원·환경",
-    "발주처": "Panama Canal Authority (ACP)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 7. 1",
-    "대표 기사 고유값": "ART-20260701-010594",
-    "비고": "운하·국가 상수 수요를 위한 다목적 저수지. 2026-07-01 보도 기준 지역가구 개별협약이 향후 몇 달 내 시작되고, EIA 2026년 말~2027년 초 제출 후 국제입찰·낙찰 절차 및 2028년 본공사 착수 가능성이 제시됨. 후속 EIA 승인, 입찰공고, 토지·이주 협약, 본공사 패키지 분할 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -27321,21 +27351,6 @@
     "국가": "홍콩",
     "섹터": "교통",
     "발주처": "Transport and Logistics Bureau / relevant road works authority",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "HKG-ROAD-LOOP-EASTERN-CONNECTION",
-    "프로젝트명": "Development of the Loop Eastern Connection Road",
-    "지역": "아시아",
-    "국가": "홍콩",
-    "섹터": "교통",
-    "발주처": "Civil Engineering and Development Department / Transport and Logistics Bureau",
     "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
