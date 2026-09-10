@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T21:38:05.861Z",
+  "updatedAt": "2026-09-10T23:22:31.237Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -34,35 +34,7 @@
   "diff": {
     "articles": {
       "added": [],
-      "updated": [
-        "ART-20260910-IDN001",
-        "ART-20260910-PHL007",
-        "ART-20260909-HUN001",
-        "ART-20260909-IDN001",
-        "ART-20260909-IDN002",
-        "ART-20260909-PAN001",
-        "ART-20260909-PHL006",
-        "ART-20260909-POL001",
-        "ART-20260909-POL002",
-        "ART-20260909-UAE001",
-        "ART-20260909-UAE002",
-        "ART-20260909-USA001",
-        "ART-20260909-USA002",
-        "ART-20260908-HUN001",
-        "ART-20260908-HUN002",
-        "ART-20260908-IDN001",
-        "ART-20260908-PHL005",
-        "ART-20260908-POL001",
-        "ART-20260908-UAE001",
-        "ART-20260908-USA001",
-        "ART-20260908-USA002",
-        "ART-20260907-HKG001",
-        "ART-20260907-IDN001",
-        "ART-20260907-PAN001",
-        "ART-20260907-PAN002",
-        "ART-20260907-PHL004",
-        "ART-20260907-UAE001"
-      ],
+      "updated": [],
       "removed": []
     },
     "projects": {
