@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T17:52:46.422Z",
+  "updatedAt": "2026-09-11T20:05:45.819Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,60 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260911-AUS001",
-        "ART-20260911-MYS001",
-        "ART-20260910-BGD001",
-        "ART-20260910-CZE001",
-        "ART-20260910-MYS001",
-        "ART-20260910-QAT001",
-        "ART-20260910-RUS001",
-        "ART-20260909-AUS001",
-        "ART-20260909-AUS002",
-        "ART-20260909-BGD001",
-        "ART-20260909-NGA001",
-        "ART-20260909-NGA002",
-        "ART-20260909-QAT001",
-        "ART-20260909-QAT002",
-        "ART-20260909-QAT003",
-        "ART-20260908-AUS001",
-        "ART-20260908-BGD001",
-        "ART-20260908-BGD002",
-        "ART-20260908-BHR001",
-        "ART-20260908-CZE001",
-        "ART-20260908-MYS003",
-        "ART-20260908-NGA002",
-        "ART-20260908-NGA003",
-        "ART-20260908-NGA004",
-        "ART-20260908-RUS001",
-        "ART-20260907-CZE007",
-        "ART-20260907-NGA004"
-      ],
-      "updated": [
-        "ART-20260907-RUS001"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "RUS-ROAD-MAKHACHKALA-NORTH-BYPASS",
-        "AUS-ROAD-HUME-TABLETOP-UPGRADE",
-        "AUS-ROAD-M1-BLACKHILL-RAYMONDTERRACE-EXTENSION",
-        "NGA-ENERGY-AFAM-IPP-ELELENWO-132KV-REHABILITATION",
-        "QAT-ROAD-ORBITAL-HIGHWAY-C3-QA",
-        "QAT-ROAD-ZEKREET-CAMP-ACCESS-ROAD",
-        "BHR-ROAD-KING-FAISAL-HIGHWAY-UPGRADE",
-        "NGA-PORT-BADAGRY-DEEP-SEA-PORT",
-        "NGA-SOC-OLOIBIRI-MUSEUM-RESEARCH-CENTRE",
-        "RUS-OILGAS-NAKHODKA-MINERAL-FERTILIZER-PLANT",
-        "CZE-ENERGY-CEPS-REP-P0600",
-        "RUS-BRIDGE-RUSSIA-NORTHKOREA-YAKOV-NOVICHENKO"
-      ],
-      "updated": [
-        "MYS-TRANSPORT-BANDAR-MALAYSIA-SERI-KEMBANGAN-ELEVATED-HIGHWAY",
-        "NGA-ROAD-BENIN-ASABA-EXPRESSWAY",
-        "BGD-METRO-DHAKA-MRT1"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
