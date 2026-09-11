@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:50:03.711Z",
+  "updatedAt": "2026-09-11T04:36:41.268Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1291,14 +1291,18 @@
       "ART-20260907-NGA001": {
         "article_detail_open": 1
       },
-      "ART-20260908-MEX001": {
+      "ART-20260907-PAN001": {
         "article_detail_open": 1,
         "source_link_click": 1
+      },
+      "ART-20260908-MEX001": {
+        "article_detail_open": 2,
+        "source_link_click": 2
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 45
+        "market_page_visit": 46
       }
     },
     "project": {
@@ -4983,24 +4987,38 @@
     },
     {
       "targetType": "article",
-      "targetId": "ART-20260908-MEX001",
+      "targetId": "ART-20260907-PAN001",
       "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-09-10T04:14:00.993Z"
+      "updatedAt": "2026-09-11T00:12:38.130Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260907-PAN001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-11T00:12:39.610Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260908-MEX001",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-11T00:12:04.451Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20260908-MEX001",
       "eventType": "source_link_click",
-      "count": 1,
-      "updatedAt": "2026-09-10T04:14:02.300Z"
+      "count": 2,
+      "updatedAt": "2026-09-11T00:12:12.102Z"
     },
     {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 45,
-      "updatedAt": "2026-09-10T00:58:29.027Z"
+      "count": 46,
+      "updatedAt": "2026-09-11T00:01:43.508Z"
     },
     {
       "targetType": "project",
