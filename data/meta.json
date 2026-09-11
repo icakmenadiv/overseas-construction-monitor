@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T10:44:54.978Z",
+  "updatedAt": "2026-09-11T14:38:13.341Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -34,10 +34,7 @@
   "diff": {
     "articles": {
       "added": [],
-      "updated": [
-        "ART-20260907-PAN001",
-        "ART-20260908-MEX001"
-      ],
+      "updated": [],
       "removed": []
     },
     "projects": {
