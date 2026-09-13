@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T21:51:20.823Z",
+  "updatedAt": "2026-09-13T23:40:21.714Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -34,23 +34,7 @@
   "diff": {
     "articles": {
       "added": [],
-      "updated": [
-        "ART-20260911-EGY002",
-        "ART-20260911-IRQ001",
-        "ART-20260911-IRQ002",
-        "ART-20260911-VNM001",
-        "ART-20260911-VNM002",
-        "ART-20260911-VNM003",
-        "ART-20260910-CHN001",
-        "ART-20260910-CHN004",
-        "ART-20260910-EGY001",
-        "ART-20260910-IRQ001",
-        "ART-20260910-KWT001",
-        "ART-20260910-KWT002",
-        "ART-20260910-VNM001",
-        "ART-20260909-CHN001",
-        "ART-20260909-CHN002"
-      ],
+      "updated": [],
       "removed": []
     },
     "projects": {
