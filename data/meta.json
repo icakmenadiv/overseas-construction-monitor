@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T17:51:47.664Z",
+  "updatedAt": "2026-09-13T19:54:15.715Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,51 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260912-SGP001",
-        "ART-20260911-EGY002",
-        "ART-20260911-IRQ001",
-        "ART-20260911-IRQ002",
-        "ART-20260911-SAU001",
-        "ART-20260911-SAU002",
-        "ART-20260911-VNM001",
-        "ART-20260911-VNM002",
-        "ART-20260911-VNM003",
-        "ART-20260910-CHN001",
-        "ART-20260910-CHN004",
-        "ART-20260910-EGY001",
-        "ART-20260910-IRQ001",
-        "ART-20260910-KWT001",
-        "ART-20260910-KWT002",
-        "ART-20260910-SAU002",
-        "ART-20260910-SAU003",
-        "ART-20260910-VNM001",
-        "ART-20260909-CHN001",
-        "ART-20260909-CHN002"
-      ],
-      "updated": [
-        "ART-20260608-000310"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "SGP-ROAD-NORTH-SOUTH-CORRIDOR",
-        "EGY-ENERGY-EGYPT-SUDAN-INTERCONNECTOR-PHASE2",
-        "IRQ-ENERGY-SHAMS-BASRA-SOLAR-GGIP",
-        "SAU-OILGAS-SABIC-AN-SAN7-AMMONIA-UREA",
-        "VNM-DATACENTER-STARMASON-SAIGON-HITECH",
-        "VNM-INDUSTRIAL-WHA-DANANG-INDUSTRIAL-PARK",
-        "VNM-WATER-DIENBIEN-INTEGRATED-WATER-RESOURCES",
-        "CHN-TRANSPORT-THREE-GORGES-NEW-WATERWAY",
-        "EGY-ENERGY-ELTOR-GREEN-VALLEY",
-        "CHN-ENERGY-KELAN-WIND-100MW",
-        "CHN-PETCHEM-HAMI-GREEN-HYDROGEN-AMMONIA"
-      ],
-      "updated": [
-        "IRQ-TRANSPORT-DEVELOPMENT-ROAD",
-        "KWT-OILGAS-KOC-CRUDE-EXPORT-INFRA"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
