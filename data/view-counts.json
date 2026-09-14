@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:47:27.149Z",
+  "updatedAt": "2026-09-14T04:52:36.678Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1298,6 +1298,19 @@
       "ART-20260908-MEX001": {
         "article_detail_open": 2,
         "source_link_click": 2
+      },
+      "ART-20260908-PHL005": {
+        "source_link_click": 1
+      },
+      "ART-20260909-BGD001": {
+        "source_link_click": 1
+      },
+      "ART-20260909-VNM001": {
+        "article_detail_open": 1
+      },
+      "ART-20260911-SAU001": {
+        "article_detail_open": 1,
+        "source_link_click": 1
       }
     },
     "page": {
@@ -1319,6 +1332,9 @@
         "project_detail_open": 1
       },
       "CHL-IND-MEJILLONES-LOGISTICS-PLATFORM": {
+        "project_detail_open": 1
+      },
+      "Dhaka MRT Line-1 Project": {
         "project_detail_open": 1
       },
       "DOM-RAIL-SANTIAGO-MONORAIL": {
@@ -5014,6 +5030,41 @@
       "updatedAt": "2026-09-11T00:12:12.102Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260908-PHL005",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-13T23:45:58.859Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260909-BGD001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-13T23:51:08.153Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260909-VNM001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-14T01:41:41.800Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260911-SAU001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-14T01:41:22.450Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260911-SAU001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-14T01:41:30.065Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
@@ -5054,6 +5105,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-07-02T05:00:56.194Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Dhaka MRT Line-1 Project",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-13T23:49:23.722Z"
     },
     {
       "targetType": "project",
