@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T13:52:46.871Z",
+  "updatedAt": "2026-09-14T18:54:52.088Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,29 +28,65 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8471,
-    "projects": 3798
+    "articles": 8493,
+    "projects": 3812
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260911-SAU001",
-        "ART-20260909-BGD001",
-        "ART-20260908-PHL005",
-        "ART-20260909-VNM001"
+      "added": [
+        "ART-20260914-PHL009",
+        "ART-20260914-PHL010",
+        "ART-20260914-PHL011",
+        "ART-20260914-POL001",
+        "ART-20260912-IDN001",
+        "ART-20260911-HUN001",
+        "ART-20260911-HUN002",
+        "ART-20260911-IDN001",
+        "ART-20260911-IDN002",
+        "ART-20260911-PAN001",
+        "ART-20260911-PHL008",
+        "ART-20260911-POL001",
+        "ART-20260911-POL002",
+        "ART-20260911-UAE001",
+        "ART-20260911-USA001",
+        "ART-20260911-USA002",
+        "ART-20260911-USA003",
+        "ART-20260910-IDN002",
+        "ART-20260910-UAE001",
+        "ART-20260910-UAE002",
+        "ART-20260910-USA001",
+        "ART-20260910-USA002"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "PHL-WATER-CEBU-GX-PARK",
+        "POL-ENERGY-CHOCHZEWO-GDANSK-BLONIA-400KV-LINE",
+        "IDN-METRO-JAKARTA-NS-PH2A-CP201",
+        "HUN-RAIL-DEBRECEN-BALMAZUJVAROS-LINE108",
+        "HUN-RAIL-DELI-KORVASUT-PHASE2",
+        "IDN-ENERGY-PANGKALAN-BUN-KLM-150KV-GRID",
+        "PHL-IND-SUBIC-DRYDOCK-APPROACH-PIER",
+        "POL-RAIL-LINE8-SKARZYSKO-KAMIENNA-TUMLIN",
+        "USA-ENERGY-CENTRALIA-UNIT2-OPERATION",
+        "IDN-METRO-JAKARTA-LRT-KELAPAGADING-MANGGARAI",
+        "IDN-WATER-BATAM-DAYONE-SWRO",
+        "UAE-SOC-MEDICLINIC-PARKVIEW-HOSPITAL-EXPANSION",
+        "UAE-URBAN-DUBAI-CREEK-GARDENS",
+        "USA-IND-PRYSMIAN-CLAREMONT-FIBER-EXPANSION"
+      ],
+      "updated": [
+        "PAN-WATER-RIO-INDIO-RESERVOIR",
+        "POL-ENERGY-LUBIATOWO-KOPALINO-NPP"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-14",
-    "articlePublishedDate": "2026-09-12",
-    "projectUpdatedDate": "2026-09-12"
+    "articleCollectedDate": "2026-09-15",
+    "articlePublishedDate": "2026-09-14",
+    "projectUpdatedDate": "2026-09-14"
   }
 }
