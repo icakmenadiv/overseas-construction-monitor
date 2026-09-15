@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T18:39:32.318Z",
+  "updatedAt": "2026-09-15T21:14:33.285Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8520,
@@ -33,20 +33,16 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20260915-BGD001",
         "ART-20260915-BGD002",
         "ART-20260914-BGD001",
         "ART-20260914-BGD002",
-        "ART-20260914-CZE001",
-        "ART-20260914-KAZ001",
-        "ART-20260914-KAZ002",
         "ART-20260914-MYS001",
         "ART-20260914-MYS002",
         "ART-20260914-MYS003",
         "ART-20260914-MYS004",
-        "ART-20260914-NGA001",
-        "ART-20260914-NGA002",
         "ART-20260914-RUS001",
         "ART-20260913-BGD001",
         "ART-20260913-BGD002",
@@ -54,7 +50,6 @@
         "ART-20260913-QAT001",
         "ART-20260913-QAT002",
         "ART-20260912-BGD001",
-        "ART-20260912-KAZ001",
         "ART-20260912-RUS001",
         "ART-20260911-RUS001",
         "ART-20260911-RUS002",
@@ -62,32 +57,11 @@
         "ART-20260912-IND001",
         "ART-20260911-IND001"
       ],
-      "updated": [
-        "ART-20260824-110001"
-      ],
       "removed": []
     },
     "projects": {
-      "added": [
-        "BGD-METRO-DHAKA-MRT5-NORTHERN",
-        "BGD-ROAD-3RD-KARNAPHULI-BRIDGE-RETROFIT",
-        "BGD-ROAD-RAJSHAHI-ZONE-DISTRICT-HIGHWAYS-UPGRADE",
-        "CZE-ENERGY-TABOR-ULTRAFAST-EV-CHARGING-HUB",
-        "KAZ-TRANSPORT-ZAISAN-KATONKARAGAY-AIRPORTS",
-        "MYS-DATACENTER-BITDEER-A202-AI-CLOUD",
-        "MYS-SOC-NUCLEAR-RESEARCH-COMPLEX",
-        "RUS-ROAD-M8-KHOLMOGORY-KM145-160-UPGRADE",
-        "BGD-LOG-BENAPOLE-LAND-PORT-EXPANSION",
-        "BGD-LOG-BHOMRA-LAND-PORT-EXPANSION",
-        "BGD-ROAD-CHATTOGRAM-ZONE-DISTRICT-HIGHWAYS-PHASE3",
-        "BGD-WATER-DASHERKANDI-STP",
-        "IND-RAIL-SECL-CHHATTISGARH-CORRIDORS",
-        "KAZ-WATER-BAIDIBEK-ATA-RESERVOIR",
-        "RUS-ROAD-R158-KM52-77-UPGRADE"
-      ],
-      "updated": [
-        "BGD-METRO-DHAKA-MRT1"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
