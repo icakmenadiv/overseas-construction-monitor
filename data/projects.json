@@ -30,6 +30,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "THA-ROAD-PHUKET-KATHU-PATONG-EXPRESSWAY",
+    "프로젝트명": "Phuket Expressway Phase 1 (Kathu-Patong) Project",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "교통",
+    "발주처": "Expressway Authority of Thailand (EXAT)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost 또는 Contract Value 미공개.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-09-16",
+    "대표 기사 고유값": "ART-20260916-THA001",
+    "비고": "푸껫 Kathu-Patong 산악터널 고속도로. 2026년 12월 내각 승인, 2027년 4월 경쟁입찰·10월 착공, 2031년 10월 개통 목표. 터널 직경 14m 수정안을 검토 중.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "VNM-URBAN-VINHOMES-KING-PARK-BACNINH",
     "프로젝트명": "Vinhomes King Park (Northwest Bac Ninh New Urban Area Zone 1)",
     "지역": "아시아",
@@ -162,6 +177,21 @@
     "최근 업데이트일": "2026-09-15",
     "대표 기사 고유값": "ART-20260915-SGP001",
     "비고": "로롱 푼통/신밍 애비뉴의 4,283.4㎡ 주거용지(최대 GFA 11,994㎡) 공개입찰. 99년 임대 조건이며 URA의 낙찰자 평가·발표 후 개발계획, 설계·인허가, 시공 패키지 전환을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "THA-ENERGY-EGAT-SMR-POWER-PLANT",
+    "프로젝트명": "EGAT Small Modular Reactor Power Plant Project",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "에너지",
+    "발주처": "Electricity Generating Authority of Thailand (EGAT) / USTDA",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost 또는 Investment Cost 미공개.",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026-09-15",
+    "대표 기사 고유값": "ART-20260915-THA001",
+    "비고": "USTDA 지원 예비타당성조사 사업. 후보부지·비용·규제절차 평가를 통해 태국 SMR 도입 가능성을 검토.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -357,6 +387,36 @@
     "최근 업데이트일": "2026-09-14",
     "대표 기사 고유값": "ART-20260914-SAU001",
     "비고": "KAEC 경제특구 King Salman Automotive Cluster 내 Masarat Mobility Park의 추가 유틸리티 인프라 설계·시공·인도 계약. MASARAT은 산업·물류 클러스터를 개발 중.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "THA-DIGITAL-THUS-SUBMARINE-CABLE",
+    "프로젝트명": "Thailand-U.S. Submarine Cable System (THUS)",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "디지털·데이터센터",
+    "발주처": "National Telecom Public Company Limited (NT) / USTDA",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost 또는 Investment Cost 미공개.",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026-09-14",
+    "대표 기사 고유값": "ART-20260914-THA001",
+    "비고": "태국-미국 연결을 위한 최대 11,500마일 개방형 해저케이블 구상. NT가 APTelecom을 타당성조사 수행사로 선정했고, 상업·기술·재무·규제 가능성을 검토.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "THA-SOC-MAHARAT-NR-MEDICAL-EXCELLENCE-CENTER",
+    "프로젝트명": "Maharat Nakhon Ratchasima Medical Center of Excellence Building Project",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "사회인프라",
+    "발주처": "Maharat Nakhon Ratchasima Hospital / Ministry of Public Health",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost 또는 Contract Value 미공개.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-14",
+    "대표 기사 고유값": "ART-20260914-THA001",
+    "비고": "ADB Climate-smart Health Services System Enhancement Project 아래 18층 Medical Center of Excellence Building 건설 국제경쟁입찰. ADB 융자 80%, 태국 정부 대응자금 20%.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
