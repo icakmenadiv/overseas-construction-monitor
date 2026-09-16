@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T21:18:28.229Z",
+  "updatedAt": "2026-09-16T04:46:26.034Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1314,6 +1314,12 @@
       "ART-20260911-SAU001": {
         "article_detail_open": 1,
         "source_link_click": 1
+      },
+      "ART-20260913-BGD001": {
+        "source_link_click": 1
+      },
+      "ART-20260915-BGD001": {
+        "source_link_click": 1
       }
     },
     "page": {
@@ -1329,6 +1335,9 @@
         "project_detail_open": 1
       },
       "AUS-ENERGY-MOORABOOL-BESS-VBB2": {
+        "project_detail_open": 1
+      },
+      "Benapole Land Port Expansion Project": {
         "project_detail_open": 1
       },
       "BGR-ENERGY-KOZLODUY-UNITS-7-8": {
@@ -5075,6 +5084,20 @@
       "updatedAt": "2026-09-14T01:41:30.065Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20260913-BGD001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-16T00:10:01.782Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260915-BGD001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-16T00:09:19.264Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
@@ -5101,6 +5124,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:22:26.325Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Benapole Land Port Expansion Project",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-16T00:09:50.026Z"
     },
     {
       "targetType": "project",
