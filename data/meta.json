@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T12:07:39.414Z",
+  "updatedAt": "2026-09-16T16:47:08.265Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,27 +28,73 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8520,
-    "projects": 3827
+    "articles": 8549,
+    "projects": 3842
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260915-BGD001",
-        "ART-20260913-BGD001"
+      "added": [
+        "ART-20260916-CHN001",
+        "ART-20260916-IRN001",
+        "ART-20260916-IRQ001",
+        "ART-20260916-VNM001",
+        "ART-20260915-CHN001",
+        "ART-20260915-IRN001",
+        "ART-20260915-IRN002",
+        "ART-20260915-IRQ001",
+        "ART-20260915-IRQ002",
+        "ART-20260915-SAU001",
+        "ART-20260915-SAU002",
+        "ART-20260915-SAU003",
+        "ART-20260915-SGP001",
+        "ART-20260915-VNM001",
+        "ART-20260915-VNM002",
+        "ART-20260914-CHN001",
+        "ART-20260914-IRN001",
+        "ART-20260914-MEX001",
+        "ART-20260914-MEX002",
+        "ART-20260914-SAU001",
+        "ART-20260914-SAU002",
+        "ART-20260914-VNM001",
+        "ART-20260914-VNM002",
+        "ART-20260913-IRQ001",
+        "ART-20260913-IRQ002",
+        "ART-20260912-CHN001",
+        "ART-20260912-MEX001",
+        "ART-20260912-MEX002",
+        "ART-20260912-VNM001"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "IRN-ENERGY-KHAFR-TADVAN-63KV-SUBSTATION",
+        "IRQ-ENERGY-AL-KHEYRAT-DRY-GAS-PIPELINE",
+        "VNM-URBAN-VINHOMES-KING-PARK-BACNINH",
+        "CHN-IND-XIHEISHAN-MINE-COAL-PREPARATION-PH1",
+        "IRN-WATER-FASA-WASTEWATER-SYSTEM",
+        "SAU-URBAN-KEC-ALMAJDIAH-RESIDENTIAL-COMMERCIAL",
+        "SAU-URBAN-PORTA-JEDDAH",
+        "SGP-URBAN-LORONG-PUNTONG-SIN-MING-RESIDENTIAL",
+        "CHN-ENERGY-HELONG-PUMPED-STORAGE",
+        "IRN-IND-HIMCO-MECHANIZED-RAIL-TERMINAL",
+        "MEX-TRANSPORT-VERACRUZ-PORT-ACCESS-INTERCHANGE",
+        "SAU-IND-MASARAT-MOBILITY-PARK-INFRA",
+        "IRQ-URBAN-ALI-ALWARDI-RESIDENTIAL-CITY",
+        "CHN-OILGAS-CHINA-SAUDI-GULEI-ETHYLENE",
+        "VNM-ROAD-CHAUDOC-CANTHO-SOCTRANG-PH1"
+      ],
+      "updated": [
+        "IRN-RAIL-CHABAHAR-ZAHEDAN",
+        "MEX-RAIL-SALTILLO-NUEVO-LAREDO"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-16",
-    "articlePublishedDate": "2026-09-15",
-    "projectUpdatedDate": "2026-09-15"
+    "articleCollectedDate": "2026-09-17",
+    "articlePublishedDate": "2026-09-16",
+    "projectUpdatedDate": "2026. 9. 16"
   }
 }

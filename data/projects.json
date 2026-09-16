@@ -1,5 +1,50 @@
 [
   {
+    "프로젝트 고유값": "IRN-ENERGY-KHAFR-TADVAN-63KV-SUBSTATION",
+    "프로젝트명": "Khafr-Tadvan 63/20kV Substation and Connection Line Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "에너지",
+    "발주처": "Fars Regional Electricity Company",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "원문상 1,575bn 토만이나 신뢰 가능한 USD 환산기준 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 9. 16",
+    "대표 기사 고유값": "ART-20260916-IRN001",
+    "비고": "파르스주 카프르-타드반 2x40MVA(총 80MVA) 63/20kV 변전소 및 연계선 건설사업.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IRQ-ENERGY-AL-KHEYRAT-DRY-GAS-PIPELINE",
+    "프로젝트명": "Al-Kheyrat Power Plant Dry Gas Pipeline Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "에너지",
+    "발주처": "Ministry of Oil / Oil Pipelines Company",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost 또는 Contract Value 미공개. 공고 플랫폼의 추정가는 원문 공고에서 검증되지 않아 공식 사업비로 환산하지 않음.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-16",
+    "대표 기사 고유값": "ART-20260916-IRQ001",
+    "비고": "알카이라트 발전소에 건조가스를 공급하는 총연장 15km, 24인치 배관 자재 공급사업. PL/PM/7/2026 입찰 마감은 2026-09-28로 연장됨. 자재 규격·납품 및 시공 범위·입찰자격을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "VNM-URBAN-VINHOMES-KING-PARK-BACNINH",
+    "프로젝트명": "Vinhomes King Park (Northwest Bac Ninh New Urban Area Zone 1)",
+    "지역": "아시아",
+    "국가": "베트남",
+    "섹터": "도시개발·주택",
+    "발주처": "Vingroup-led investor consortium / Bac Ninh People's Committee",
+    "사업비(달러 기준 추정액)": "USD 1.61bn",
+    "사업비 환산 환율 / 기준": "공식·지역 보도 총투자 VND 41.3tn / SBV 2026-09-16 기준환율 25,626 VND/USD 적용 = USD 1.61bn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-16",
+    "대표 기사 고유값": "ART-20260916-VNM001",
+    "비고": "박닌 Kinh Bac 구 북부 약 270ha 복합도시 개발. 주거·상업서비스·교육·의료·공원·수변 및 기술인프라 포함. 초기 부지조성·기반시설, 공구 분할과 설계·시공·감리 조달을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BGD-METRO-DHAKA-MRT1",
     "프로젝트명": "Dhaka MRT Line-1 Project",
     "지역": "아시아",
@@ -27,6 +72,96 @@
     "최근 업데이트일": "2026-09-15",
     "대표 기사 고유값": "ART-20260915-BGD002",
     "비고": "Hemayetpur-Bhatara 20km 도시철도. 수정 DPP와 건설패키지 조달안이 ECNEC 승인 대기 중이며, 입찰 유효기간·재공고 가능성 및 JICA 조달조건을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHN-IND-XIHEISHAN-MINE-COAL-PREPARATION-PH1",
+    "프로젝트명": "Xiheishan No. 1 Mine and Coal Preparation Plant Phase I Project",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "산업·물류",
+    "발주처": "China Huadian Group Xinjiang Changji Yinggema Coal-Electricity Investment Co., Ltd.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-09-15",
+    "대표 기사 고유값": "ART-20260915-CHN001",
+    "비고": "신장 창지주 시헤이산 광구의 신규 광산·선탄장 1기 사업. 연 1,200만t 규모로 생태환경부가 2026-09-07 환경영향평가서를 접수했고, 2026-09-15 공시. 인허가 승인과 광산개발·선탄·물류·전력·용수 패키지 전환을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IRN-RAIL-CHABAHAR-ZAHEDAN",
+    "프로젝트명": "Chabahar-Zahedan Railway Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "교통",
+    "발주처": "Ministry of Roads and Urban Development / Islamic Republic of Iran Railways",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 9. 15",
+    "대표 기사 고유값": "ART-20260915-IRN002",
+    "비고": "2026-09-15 Mehr 기준 전담 점검반·11개항 실행계획으로 완공 가속 및 잔여 공정 관리에 착수. 기존 운영 표기는 최신 원문 기준 construction으로 정정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IRN-WATER-FASA-WASTEWATER-SYSTEM",
+    "프로젝트명": "Fasa Wastewater Collection, Transmission and Treatment Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "수자원·환경",
+    "발주처": "Fars Province Water and Wastewater Company",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미공개",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 9. 15",
+    "대표 기사 고유값": "ART-20260915-IRN001",
+    "비고": "집수·이송관로 135km를 포함하는 파사 하수도 집수·이송·처리시설 사업. 2026-09-15 기준 공정률 약 80%, 수혜인구 11.2만 명.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SAU-URBAN-KEC-ALMAJDIAH-RESIDENTIAL-COMMERCIAL",
+    "프로젝트명": "Knowledge Economic City Almajdiah Residential and Commercial Development Project",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "도시개발·주택",
+    "발주처": "Knowledge Economic City Company / Almajdiah / Capital Hill",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "기사상 SAR 2.8bn은 MOU 기준 예비 총사업비이며, 최종 설계·인허가·확정계약 전이므로 공식 사업비로 입력하지 않음.",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026-09-15",
+    "대표 기사 고유값": "ART-20260915-SAU002",
+    "비고": "마디나 Knowledge Economic City 내 2,700가구·상업시설·주차장 개발 MOU. 90일 실사·협상 후 폐쇄형 부동산펀드 및 최종계약을 추진 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SAU-URBAN-PORTA-JEDDAH",
+    "프로젝트명": "Porta Jeddah Project",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "도시개발·주택",
+    "발주처": "Saudi Real Estate Company (Al Akaria)",
+    "사업비(달러 기준 추정액)": "USD 123.50mn",
+    "사업비 환산 환율 / 기준": "공식 Package One Contract Value SAR 463,132,910(부가세 제외). SAR 3.75 = USD 1 고정환율 적용, USD 123.50mn 환산.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-09-15",
+    "대표 기사 고유값": "ART-20260915-SAU001",
+    "비고": "제다 Al Nahdah의 호텔·서비스드아파트·오피스·리테일·여가시설 복합개발. MOBCO 1패키지와 Parsons PMC 계약이 2026-09-15 체결됨.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SGP-URBAN-LORONG-PUNTONG-SIN-MING-RESIDENTIAL",
+    "프로젝트명": "Lorong Puntong / Sin Ming Avenue Residential Site",
+    "지역": "아시아",
+    "국가": "싱가포르",
+    "섹터": "도시개발·주택",
+    "발주처": "Urban Redevelopment Authority (URA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost 또는 Investment Cost 미공개. S$208.099mn은 토지 매각 최고 입찰가로 건설 총사업비가 아님.",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026-09-15",
+    "대표 기사 고유값": "ART-20260915-SGP001",
+    "비고": "로롱 푼통/신밍 애비뉴의 4,283.4㎡ 주거용지(최대 GFA 11,994㎡) 공개입찰. 99년 임대 조건이며 URA의 낙찰자 평가·발표 후 개발계획, 설계·인허가, 시공 패키지 전환을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -60,6 +195,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CHN-ENERGY-HELONG-PUMPED-STORAGE",
+    "프로젝트명": "Helong Pumped Storage Power Station Project",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "에너지",
+    "발주처": "China South-to-North Water Diversion Group New Energy Investment / SNWD (Helong) Energy",
+    "사업비(달러 기준 추정액)": "USD 1.72bn",
+    "사업비 환산 환율 / 기준": "공식 총투자 CNY 11.611bn. 2026-09-14 PBOC 중간환율 USD 1=CNY 6.7698 적용, USD 1.72bn 환산.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-14",
+    "대표 기사 고유값": "ART-20260914-CHN001",
+    "비고": "지린성 허룽시 1,800MW(300MW 6기) 양수발전소. 2026-09-14 기준 교통터널·시공갱·환기갱과 현장도로, 변전·개폐소 사면공사를 진행 중이며 2031년 첫 호기, 2032년 전 호기 운전 목표. 지하굴착·수력기계·송전연계·주요 기자재 조달을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CZE-ENERGY-TABOR-ULTRAFAST-EV-CHARGING-HUB",
     "프로젝트명": "Tábor Ultra-fast EV Charging Hub Project",
     "지역": "유럽",
@@ -75,6 +225,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRN-IND-HIMCO-MECHANIZED-RAIL-TERMINAL",
+    "프로젝트명": "HIMCO Mechanized Rail Terminal and Jetty Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "산업·물류",
+    "발주처": "HIMCO Co. / Golgohar, Chadormalu and Goharzamin consortium",
+    "사업비(달러 기준 추정액)": "USD 267.70mn",
+    "사업비 환산 환율 / 기준": "원문 투자액 EUR 232mn; ECB 2026-09-15 EUR/USD 1.1539",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 9. 14",
+    "대표 기사 고유값": "ART-20260914-IRN001",
+    "비고": "샤히드 라자이항 서쪽 71ha의 광산·철강 벌크화물 철도-항만 연계 터미널·부두 사업. 2026-09-14 기준 공정률 23%.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "KAZ-TRANSPORT-ZAISAN-KATONKARAGAY-AIRPORTS",
     "프로젝트명": "Zaisan and Katon-Karagay Airports Construction Programme",
     "지역": "중앙아시아",
@@ -87,6 +252,21 @@
     "최근 업데이트일": "2026-09-14",
     "대표 기사 고유값": "ART-20260914-KAZ001",
     "비고": "동카자흐스탄주 자이산·카톤카라가이 신규 공항의 비행장·터미널 인프라 건설 프로그램. 공항별 계약·조달 정보 공개 시 별도 프로젝트로 분리 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MEX-TRANSPORT-VERACRUZ-PORT-ACCESS-INTERCHANGE",
+    "프로젝트명": "Veracruz Port Access Interchange (Viaducto TAMSA) Project",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "교통",
+    "발주처": "Secretaría de Infraestructura, Comunicaciones y Transportes (SICT)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-14",
+    "대표 기사 고유값": "ART-20260914-MEX001",
+    "비고": "연방 140호 Xalapa-Veracruz의 약 2km 항만 진입 입체교차로. 2026-09-14 기준 공정률 91%가 확인됨. 보도별 투자금액에 차이가 있어 공식 사업비는 미확인으로 유지하며, 개통·최종 정산·잔여 공정을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -165,6 +345,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-IND-MASARAT-MOBILITY-PARK-INFRA",
+    "프로젝트명": "Masarat Mobility Park Additional Infrastructure Works",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "산업·물류",
+    "발주처": "Emaar The Economic City / MASARAT Mobility Park Co.",
+    "사업비(달러 기준 추정액)": "USD 40.53mn",
+    "사업비 환산 환율 / 기준": "공식 Contract Value SAR 152mn(부가세 제외). SAR 3.75 = USD 1 고정환율 적용, USD 40.53mn 환산.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-09-14",
+    "대표 기사 고유값": "ART-20260914-SAU001",
+    "비고": "KAEC 경제특구 King Salman Automotive Cluster 내 Masarat Mobility Park의 추가 유틸리티 인프라 설계·시공·인도 계약. MASARAT은 산업·물류 클러스터를 개발 중.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BGD-LOG-BENAPOLE-LAND-PORT-EXPANSION",
     "프로젝트명": "Benapole Land Port Expansion Project",
     "지역": "아시아",
@@ -210,6 +405,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRQ-URBAN-ALI-ALWARDI-RESIDENTIAL-CITY",
+    "프로젝트명": "Ali Al-Wardi Residential City Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "도시개발·주택",
+    "발주처": "National Investment Commission / Aura Company",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost 또는 Investment Cost 미공개.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-09-13",
+    "대표 기사 고유값": "ART-20260913-IRQ001",
+    "비고": "전략적 주거도시 사업. NIC와 Aura Company가 실행 단계 전환에 필요한 요건과 관계기관 협의를 점검함. 토지·인허가·재원·기반시설 및 주택 공구의 조달 전환을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BGD-WATER-DASHERKANDI-STP",
     "프로젝트명": "Dasherkandi Sewage Treatment Plant Project",
     "지역": "아시아",
@@ -222,6 +432,21 @@
     "최근 업데이트일": "2026-09-12",
     "대표 기사 고유값": "ART-20260912-BGD001",
     "비고": "다카 다셰르칸디 하수처리장. 설계용량의 약 25%만 가동 중이며, 연결관로 확대 및 발루강·수로 복원과 방류여건 개선이 가동률 제고의 핵심 과제.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHN-OILGAS-CHINA-SAUDI-GULEI-ETHYLENE",
+    "프로젝트명": "China-Saudi Gulei Ethylene Project",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "석유가스·화학",
+    "발주처": "Fujian Energy Petrochemical Group / SABIC",
+    "사업비(달러 기준 추정액)": "USD 6.62bn",
+    "사업비 환산 환율 / 기준": "공식 총투자 CNY 44.8bn. 2026-09-14 PBOC 중간환율 USD 1=CNY 6.7698 적용, USD 6.62bn 환산.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-12",
+    "대표 기사 고유값": "ART-20260912-CHN001",
+    "비고": "푸젠 구레이 석화기지의 SABIC-푸젠에너지석화 합작 프로젝트. 최대 연산 180만t 에틸렌 및 하류 심가공 설비를 포함하며, 2026년 준공·가동을 목표로 공사 진행 중. 시운전·유틸리티·저장 및 하류설비 발주를 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -270,6 +495,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MEX-RAIL-SALTILLO-NUEVO-LAREDO",
+    "프로젝트명": "Saltillo-Nuevo Laredo Passenger Railway Project",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "교통",
+    "발주처": "Agencia de Trenes y Transporte Público Integrado / SICT",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-12",
+    "대표 기사 고유값": "ART-20260912-MEX001",
+    "비고": "Coahuila-Nuevo León-Tamaulipas 396.3km 여객철도. 기존 토목·역사·시스템 패키지 낙찰 이력에 더해 2026-09-12 Vanegas-Zacatecano 93km Tramo III 설계·건설 국제입찰(LO-09-JZO-009JZO001-I-59-2026)이 새로 공고됨. 마감 2026-10-27. 관련 기사: ART-20241211-003099, ART-20260514-004865, ART-20260616-003742, ART-20260912-MEX001.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SGP-ROAD-NORTH-SOUTH-CORRIDOR",
     "프로젝트명": "North-South Corridor Project",
     "지역": "아시아",
@@ -282,6 +522,21 @@
     "최근 업데이트일": "2026-09-12",
     "대표 기사 고유값": "ART-20260912-SGP001",
     "비고": "싱가포르 북부와 도심을 잇는 약 21.5km 복합 교통회랑. 8.8km 고가도로와 12.3km 터널, 버스·자전거 인프라를 포함한다. 2026-09-12 기준 경암·암반·지하수 유입 및 운영 MRT 인접 시공으로 공정 난제가 확인됐으며, 수정 일정과 공기·공법 변동을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "VNM-ROAD-CHAUDOC-CANTHO-SOCTRANG-PH1",
+    "프로젝트명": "Chau Doc - Can Tho - Soc Trang Expressway Phase 1 Project",
+    "지역": "아시아",
+    "국가": "베트남",
+    "섹터": "교통",
+    "발주처": "Ministry of Construction / Can Tho City / An Giang Province / Soc Trang Province",
+    "사업비(달러 기준 추정액)": "USD 1.74bn",
+    "사업비 환산 환율 / 기준": "공식 총투자 VND 44.691tn(기존 결과 기사 2026-06-26) / SBV 2026-09-16 기준환율 25,626 VND/USD 적용 = USD 1.74bn.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-12",
+    "대표 기사 고유값": "ART-20260912-VNM001",
+    "비고": "188.2km, 4개 성분사업으로 구성된 메콩델타 고속도로. 성분사업별 진도와 자재 조달·연약지반·교량·ITS·휴게소 공정, 2026년 기본완공·2027년 전구간 운영 목표를 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -4425,21 +4680,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "MEX-RAIL-SALTILLO-NUEVO-LAREDO",
-    "프로젝트명": "Saltillo-Nuevo Laredo Passenger Railway Project",
-    "지역": "중남미",
-    "국가": "멕시코",
-    "섹터": "교통",
-    "발주처": "Agencia de Trenes y Transporte Público Integrado / SICT",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "awarded",
-    "최근 업데이트일": "2026. 6. 16",
-    "대표 기사 고유값": "ART-20260616-003742",
-    "비고": "Coahuila-Nuevo León-Tamaulipas 396.3km 여객철도. 조사용역 이후 2025~2026년 111km·136.28km·100.05km 토목 구간, 30.75km·8.854km·9.204km Monterrey권 구간, 신호·통신·제어 시스템, 역사 패키지가 순차 낙찰·fallo 진행 중이며 2026-06-16 기준 6개 역사 설계·시공 패키지 약 USD 214m 낙찰 후속 확인. 관련 기사: ART-20241211-003099, ART-20260514-004865, ART-20260616-003742.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "PER-BRIDGE-SAN-FRANCISCO-PE28B",
     "프로젝트명": "Reemplazo del Puente San Francisco en la Red Vial Nacional PE-28B",
     "지역": "중남미",
@@ -5697,21 +5937,6 @@
     "최근 업데이트일": "2026-06-14",
     "대표 기사 고유값": "ART-20260614-003248",
     "비고": "이란 북서부 가스망 안정화를 위한 전략 천연가스 파이프라인. Miandoab-Malekan-Bonab-Ajabshir 구간을 통과하며 2026-06-14 기준 96% 공정, 2026년 11월 말 시운전 예정.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "IRN-RAIL-CHABAHAR-ZAHEDAN",
-    "프로젝트명": "Chabahar-Zahedan Railway Project",
-    "지역": "중동",
-    "국가": "이란",
-    "섹터": "교통",
-    "발주처": "Ministry of Roads and Urban Development / Islamic Republic of Iran Railways",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "operation",
-    "최근 업데이트일": "2026. 6. 14",
-    "대표 기사 고유값": "ART-20260614-002865",
-    "비고": "차바하르-자헤단 철도 연결 성과와 동부 철도축·물류역량 확대 언급. 기존 인프라 활용 시 철도 화물능력 690만 톤에서 1,800만 톤 확대 가능성이 제시되어 후속 물류터미널·차량·동부 철도망 보강 기사 추적 필요.",
     "대표 기사 정보 분류": ""
   },
   {
