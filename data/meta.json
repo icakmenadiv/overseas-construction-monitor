@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T18:40:14.191Z",
+  "updatedAt": "2026-09-17T21:17:00.373Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8586,
@@ -33,7 +33,8 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20260917-IDN001",
         "ART-20260917-IDN002",
         "ART-20260916-IDN001",
@@ -58,42 +59,11 @@
         "ART-20260914-USA001",
         "ART-20260914-USA002"
       ],
-      "updated": [
-        "ART-20260914-MEX001",
-        "ART-20260914-MEX002",
-        "ART-20260912-MEX001",
-        "ART-20260912-MEX002",
-        "ART-20260914-KAZ002",
-        "ART-20260912-IDN001",
-        "ART-20260911-IDN001",
-        "ART-20260911-IDN002",
-        "ART-20260911-POL001",
-        "ART-20260911-POL002",
-        "ART-20260826-131001"
-      ],
       "removed": []
     },
     "projects": {
-      "added": [
-        "IDN-WTE-BOGOR-RAYA1-GALUGA",
-        "IDN-ROAD-IKN-HANKAM-LINGKAR-SEPAKU4",
-        "IDN-WTE-BOGOR-KAYUMANIS",
-        "POL-IND-CPK-AIRPORT-CARGO-SORTING",
-        "USA-PORT-DELAWARE-CONTAINER-TERMINAL",
-        "POL-DIGITAL-HILLWOOD-REGULY-DATA-CAMPUS",
-        "USA-AIR-PHX-TAXIWAY-U",
-        "USA-IND-HITACHI-GALLMAN-TRANSFORMER",
-        "IDN-ENERGY-LAMPUNG-BIOETHANOL-CENTER",
-        "POL-RAIL-LUBIATOWO-KOPALINO-NPP-ACCESS"
-      ],
-      "updated": [
-        "IDN-METRO-JAKARTA-LRT-KELAPAGADING-MANGGARAI",
-        "IDN-OILGAS-MASELA-ABADI-LNG",
-        "IDN-WATER-JAVA-GIANT-SEA-WALL",
-        "POL-RAIL-CPK-WARSAW-LODZ-HSR",
-        "POL-RAIL-CPK-LINEY-SRK-TRACTION",
-        "USA-RAIL-SECOND-AVENUE-PHASE2"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
