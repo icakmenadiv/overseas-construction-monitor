@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T05:20:26.176Z",
+  "updatedAt": "2026-09-17T10:06:07.652Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,18 +28,46 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8550,
-    "projects": 3846
+    "articles": 8563,
+    "projects": 3851
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260915-KAZ901",
+        "ART-20260915-KAZ902",
+        "ART-20260915-UKR901",
+        "ART-20260911-UKR901",
+        "ART-20260911-UZB901",
+        "ART-20260910-POL901",
+        "ART-20260909-KAZ901",
+        "ART-20260909-KAZ902",
+        "ART-20260909-UKR901",
+        "ART-20260907-POL901",
+        "ART-20260903-KAZ901",
+        "ART-20260903-UZB901",
+        "ART-20260903-UZB902"
+      ],
+      "updated": [
+        "ART-20260915-BGD001",
+        "ART-20260914-PHL010"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "KAZ-ROAD-KYZYLORDA-SAKSAULSK",
+        "POL-ROAD-DW747-ILZA-LIPSK",
+        "POL-GAS-KOZIENICE-DN700-PIPELINE",
+        "KAZ-ENERGY-BALKHASH-NUCLEAR-POWER-PLANT",
+        "UZB-ENERGY-UZBEKISTAN-NPP"
+      ],
+      "updated": [
+        "KAZ-OILGAS-KARACHAGANAK-GPP",
+        "UKR-ENERGY-CHORNOBYL-NSC-REPAIR",
+        "UZB-ROAD-TASHKENT-ANDIJAN-TOLL",
+        "KAZ-ENERGY-ZHAMBYL-MASDAR-WIND-BESS"
+      ],
       "removed": []
     }
   },

@@ -135,6 +135,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KAZ-OILGAS-KARACHAGANAK-GPP",
+    "프로젝트명": "Karachaganak Gas Processing Plant Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "석유가스·화학",
+    "발주처": "QazaqGaz / Kazakhstan Ministry of Energy",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-09-15",
+    "대표 기사 고유값": "ART-20260915-KAZ902",
+    "비고": "연 50억㎥ 원료가스 처리시설 및 부대 인프라. QazaqGaz 단일 운영자 지정 후 Hyundai Engineering LOA/참여 보도",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "KAZ-ROAD-KYZYLORDA-SAKSAULSK",
+    "프로젝트명": "Kyzylorda-Saksaulsk Road Reconstruction Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "교통",
+    "발주처": "Government of Kazakhstan / Islamic Development Bank",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미공개.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-15",
+    "대표 기사 고유값": "ART-20260915-KAZ901",
+    "비고": "Kyzylorda-Saksaulsk 공화국도로 Lot 1·2 설계·시공·성과기반 유지관리 국제입찰. 2026-10-30 마감.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SAU-URBAN-KEC-ALMAJDIAH-RESIDENTIAL-COMMERCIAL",
     "프로젝트명": "Knowledge Economic City Almajdiah Residential and Commercial Development Project",
     "지역": "중동",
@@ -193,6 +223,21 @@
     "대표 기사 고유값": "ART-20260915-THA001",
     "비고": "USTDA 지원 예비타당성조사 사업. 후보부지·비용·규제절차 평가를 통해 태국 SMR 도입 가능성을 검토.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UKR-ENERGY-CHORNOBYL-NSC-REPAIR",
+    "프로젝트명": "Chornobyl New Safe Confinement Repair Project",
+    "지역": "유럽",
+    "국가": "우크라이나",
+    "섹터": "에너지",
+    "발주처": "State Nuclear Regulatory Inspectorate of Ukraine / EBRD / international consortium",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-09-15",
+    "대표 기사 고유값": "ART-20260915-UKR901",
+    "비고": "체르노빌 원전 New Safe Confinement 보수. 2025년 드론 공격으로 손상된 설계 기능 복구 조치 개발, EBRD 국제 컨소시엄 및 공여자 조율 진행.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "BGD-ROAD-3RD-KARNAPHULI-BRIDGE-RETROFIT",
@@ -795,6 +840,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UZB-ROAD-TASHKENT-ANDIJAN-TOLL",
+    "프로젝트명": "Tashkent-Andijan Toll Road PPP Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Ministry of Economy and Finance / Ministry of Transport / Committee for Roads",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026-09-11",
+    "대표 기사 고유값": "ART-20260911-UZB901",
+    "비고": "Tashkent-Andijan 314km 6차로 1A급 유료도로 PPP. Kamchik Pass 신규 터널 포함, 3개 기업 2단계 입찰 통과 및 2026년 상반기 낙찰자 선정 전망",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "VNM-DATACENTER-STARMASON-SAIGON-HITECH",
     "프로젝트명": "Starmason Saigon Hi-Tech Park Hyperscale Data Centre",
     "지역": "아시아",
@@ -912,6 +972,21 @@
     "최근 업데이트일": "2026-09-10",
     "대표 기사 고유값": "ART-20260910-KWT001",
     "비고": "L&T 주계약 체결 후 HEISCO가 저장탱크 CMEI·EPC 하도급(42개월)을 수주함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "POL-ROAD-DW747-ILZA-LIPSK",
+    "프로젝트명": "DW 747 Iłża-Lipsk Road Expansion Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "Mazovia Voivodeship Road Authority / PARP",
+    "사업비(달러 기준 추정액)": "USD 83.85mn",
+    "사업비 환산 환율 / 기준": "공식 총사업비 PLN 311mn / 2026-09-10 USD/PLN 3.7090 적용 = USD 83.85mn.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-09-10",
+    "대표 기사 고유값": "ART-20260910-POL901",
+    "비고": "Iłża-Lipsk 간 29km 이상 신설·개량 도로. 2026-09-10 준공 발표, 동부폴란드 유럽기금 PLN 264.4mn 지원.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1047,6 +1122,21 @@
     "최근 업데이트일": "2026-09-09",
     "대표 기사 고유값": "ART-20260909-HUN001",
     "비고": "90호선 Felsőzsolca-Hidasnémeti 구간 28km 궤도정정·다짐 및 Novajidrány-Hidasnémeti 약 1.2km 레일교체. 2026-09-09~22 시행, Onga역 2번선 포함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-ENERGY-ZHAMBYL-MASDAR-WIND-BESS",
+    "프로젝트명": "Zhambyl 1GW Wind Power and 600MWh BESS Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "에너지",
+    "발주처": "Jambyl Region Akimat / Masdar",
+    "사업비(달러 기준 추정액)": "USD 1.4bn",
+    "사업비 환산 환율 / 기준": "Samruk-Kazyna 2026-09-09 발표에서 투자액 약 USD 1.4bn 명시. 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-09",
+    "대표 기사 고유값": "ART-20260909-KAZ901",
+    "비고": "잠빌주 1GW 풍력발전소 및 300MW/600MWh ESS. 2026-06-29 착공식 후 2029년 준공 목표.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -1800,6 +1890,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "POL-GAS-KOZIENICE-DN700-PIPELINE",
+    "프로젝트명": "Kozienice Power Plant DN700 Gas Pipeline Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "석유가스·화학",
+    "발주처": "GAZ-SYSTEM S.A.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 Project Cost 또는 Contract Value 미공개.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-07",
+    "대표 기사 고유값": "ART-20260907-POL901",
+    "비고": "Kozienice 발전소 연결용 DN700·MOP 8.4MPa 가스배관, 가스정거장 및 부대시설 건설. 투자·환경감리·사업관리 입찰은 2026-09-30 마감.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "POL-ROAD-CZLUCHOW-BYPASS-DK22-DK25",
     "프로젝트명": "Człuchów Bypass in DK22 and DK25 Project",
     "지역": "유럽",
@@ -2295,6 +2400,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KAZ-ENERGY-BALKHASH-NUCLEAR-POWER-PLANT",
+    "프로젝트명": "Balkhash Nuclear Power Plant Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "에너지",
+    "발주처": "Kazakhstan Nuclear Power Plants LLP / Rosatom",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미공개.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-09-03",
+    "대표 기사 고유값": "ART-20260903-KAZ901",
+    "비고": "2,400MW급 원전 2기 건설 EPC 계약 체결. 설계·부지·원전기기·시공공구 및 금융·규제승인을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PAN-TRANSPORT-SANMIGUELITO-CABLECAR",
     "프로젝트명": "Panama and San Miguelito Cable Car Project",
     "지역": "중남미",
@@ -2367,6 +2487,21 @@
     "최근 업데이트일": "2026-09-03",
     "대표 기사 고유값": "ART-20260903-TWN001",
     "비고": "7.2km·5개 역 중리 연장선 GEM01 기전시스템 통합계약. ST Engineering·현대 로템 공동수급이 계약을 체결했으며 2026년 4분기 착공, 약 7년 공기 예정. 총 공식 사업비는 확인되지 않음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UZB-ENERGY-UZBEKISTAN-NPP",
+    "프로젝트명": "Uzbekistan Nuclear Power Plant Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "에너지",
+    "발주처": "Uzatom / Government of Uzbekistan",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미공개.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-03",
+    "대표 기사 고유값": "ART-20260903-UZB901",
+    "비고": "원자력발전소 및 원전전문가용 위성도시 건설 추진. IAEA 평가와 공기·안전·품질관리, 국내기업 참여 확대 지시가 확인됨.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -8550,21 +8685,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "UKR-ENERGY-CHORNOBYL-NSC-REPAIR",
-    "프로젝트명": "Chornobyl New Safe Confinement Repair Project",
-    "지역": "유럽",
-    "국가": "우크라이나",
-    "섹터": "에너지",
-    "발주처": "State Nuclear Regulatory Inspectorate of Ukraine / EBRD / international consortium",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "planning",
-    "최근 업데이트일": "2026. 6. 12",
-    "대표 기사 고유값": "ART-20260612-002825",
-    "비고": "체르노빌 원전 New Safe Confinement 보수. 2025년 드론 공격으로 손상된 설계 기능 복구 조치 개발, EBRD 국제 컨소시엄 및 공여자 조율 진행.",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "UKR-ROAD-M19-TEREBOVLIA-BRIDGE",
     "프로젝트명": "M-19 Terebovlia Bridge and Detour Road Repair Project",
     "지역": "유럽",
@@ -9762,21 +9882,6 @@
     "최근 업데이트일": "2026. 6. 11",
     "대표 기사 고유값": "ART-20260611-002026",
     "비고": "신동명 고속도로 오야마 PA(가칭) 상행선. NEXCO중일본·도요타부동산 연계 정비·운영, 부지 약 2만㎡, 개업시기 추후 발표.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "KAZ-OILGAS-KARACHAGANAK-GPP",
-    "프로젝트명": "Karachaganak Gas Processing Plant Project",
-    "지역": "중앙아시아",
-    "국가": "카자흐스탄",
-    "섹터": "석유가스·화학",
-    "발주처": "QazaqGaz / Kazakhstan Ministry of Energy",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "awarded",
-    "최근 업데이트일": "2026. 6. 11",
-    "대표 기사 고유값": "ART-20260611-001103",
-    "비고": "연 50억㎥ 원료가스 처리시설 및 부대 인프라. QazaqGaz 단일 운영자 지정 후 Hyundai Engineering LOA/참여 보도",
     "대표 기사 정보 분류": ""
   },
   {
@@ -16332,21 +16437,6 @@
     "최근 업데이트일": "2026. 1. 12",
     "대표 기사 고유값": "ART-20260112-002012",
     "비고": "Opatovec-Staré Město-Mohelnice 35.4km 고속도로 PPP. Dětřichov·Maletín 터널 포함, 3개 컨소시엄 최종입찰 요청 단계.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "UZB-ROAD-TASHKENT-ANDIJAN-TOLL",
-    "프로젝트명": "Tashkent-Andijan Toll Road PPP Project",
-    "지역": "중앙아시아",
-    "국가": "우즈베키스탄",
-    "섹터": "교통",
-    "발주처": "Ministry of Economy and Finance / Ministry of Transport / Committee for Roads",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "bid-evaluation",
-    "최근 업데이트일": "2026. 1. 6",
-    "대표 기사 고유값": "ART-20260106-001456",
-    "비고": "Tashkent-Andijan 314km 6차로 1A급 유료도로 PPP. Kamchik Pass 신규 터널 포함, 3개 기업 2단계 입찰 통과 및 2026년 상반기 낙찰자 선정 전망",
     "대표 기사 정보 분류": ""
   },
   {
@@ -34298,21 +34388,6 @@
     "발주처": "LLP MAEK / Mangystau Region Akimat / Government of Kazakhstan",
     "사업비(달러 기준 추정액)": "미확인",
     "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-23 총리실 보도 기준 전기 최대 500MW, 열 560Gcal, 담수화 설비 통합 계획만 확인.",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "KAZ-ENERGY-ZHAMBYL-MASDAR-WIND-BESS",
-    "프로젝트명": "Zhambyl 1GW Wind Power and 600MWh BESS Project",
-    "지역": "중앙아시아",
-    "국가": "카자흐스탄",
-    "섹터": "에너지",
-    "발주처": "Jambyl Region Akimat / Masdar",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
     "최근 업데이트일": "",
     "대표 기사 고유값": "",
