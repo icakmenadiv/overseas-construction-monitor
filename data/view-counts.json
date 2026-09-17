@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T04:49:44.417Z",
+  "updatedAt": "2026-09-17T11:38:16.177Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1122,7 +1122,7 @@
         "source_link_click": 1
       },
       "ART-20260826-131001": {
-        "article_detail_open": 1
+        "article_detail_open": 2
       },
       "ART-20260826-135001": {
         "article_detail_open": 1
@@ -1311,11 +1311,45 @@
       "ART-20260909-VNM001": {
         "article_detail_open": 1
       },
+      "ART-20260911-IDN001": {
+        "article_detail_open": 1
+      },
+      "ART-20260911-IDN002": {
+        "article_detail_open": 1
+      },
+      "ART-20260911-POL001": {
+        "article_detail_open": 1
+      },
+      "ART-20260911-POL002": {
+        "article_detail_open": 1
+      },
       "ART-20260911-SAU001": {
         "article_detail_open": 1,
         "source_link_click": 1
       },
+      "ART-20260912-IDN001": {
+        "article_detail_open": 1
+      },
+      "ART-20260912-MEX001": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260912-MEX002": {
+        "article_detail_open": 2,
+        "source_link_click": 1
+      },
       "ART-20260913-BGD001": {
+        "source_link_click": 1
+      },
+      "ART-20260914-KAZ002": {
+        "article_detail_open": 2,
+        "source_link_click": 2
+      },
+      "ART-20260914-MEX001": {
+        "article_detail_open": 1
+      },
+      "ART-20260914-MEX002": {
+        "article_detail_open": 2,
         "source_link_click": 1
       },
       "ART-20260914-PHL010": {
@@ -1331,6 +1365,9 @@
       }
     },
     "project": {
+      "Alatau City 개발사업": {
+        "project_detail_open": 2
+      },
       "ARG-ENERGY-LOSAZULES-CALINGASTA-220KV": {
         "project_detail_open": 1
       },
@@ -1461,6 +1498,9 @@
         "project_detail_open": 1
       },
       "RUS-RAIL-MOSCOW-SPB-HSR": {
+        "project_detail_open": 1
+      },
+      "Saltillo-Nuevo Laredo Passenger Railway Project": {
         "project_detail_open": 1
       },
       "SAU-OILGAS-RASTANURA-GART22-PIPELINE": {
@@ -4530,8 +4570,8 @@
       "targetType": "article",
       "targetId": "ART-20260826-131001",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-09-01T02:02:24.227Z"
+      "count": 2,
+      "updatedAt": "2026-09-17T05:18:33.809Z"
     },
     {
       "targetType": "article",
@@ -5074,6 +5114,34 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260911-IDN001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-17T05:14:47.450Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260911-IDN002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-17T06:58:20.251Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260911-POL001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-17T05:18:02.415Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260911-POL002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-17T05:18:11.716Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260911-SAU001",
       "eventType": "article_detail_open",
       "count": 1,
@@ -5088,10 +5156,80 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260912-IDN001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-17T06:58:19.115Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260912-MEX001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-17T06:58:36.497Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260912-MEX001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-17T06:58:40.155Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260912-MEX002",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-17T07:04:19.477Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260912-MEX002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-17T07:05:18.832Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260913-BGD001",
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-09-16T00:10:01.782Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260914-KAZ002",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-17T05:53:11.262Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260914-KAZ002",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-09-17T05:53:14.746Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260914-MEX001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-17T06:58:25.933Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260914-MEX002",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-17T07:04:29.324Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260914-MEX002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-17T07:04:59.892Z"
     },
     {
       "targetType": "article",
@@ -5113,6 +5251,13 @@
       "eventType": "market_page_visit",
       "count": 46,
       "updatedAt": "2026-09-11T00:01:43.508Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Alatau City 개발사업",
+      "eventType": "project_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-17T05:18:39.431Z"
     },
     {
       "targetType": "project",
@@ -5421,6 +5566,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-09-03T00:53:59.895Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Saltillo-Nuevo Laredo Passenger Railway Project",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-17T07:00:54.580Z"
     },
     {
       "targetType": "project",
