@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T14:54:48.722Z",
+  "updatedAt": "2026-09-17T18:40:14.191Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,78 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8563,
-    "projects": 3851
+    "articles": 8586,
+    "projects": 3861
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260917-IDN001",
+        "ART-20260917-IDN002",
+        "ART-20260916-IDN001",
+        "ART-20260916-IDN002",
+        "ART-20260916-IDN003",
+        "ART-20260916-IDN004",
+        "ART-20260916-IDN005",
+        "ART-20260916-IDN006",
+        "ART-20260916-POL001",
+        "ART-20260916-POL002",
+        "ART-20260916-USA001",
+        "ART-20260916-USA002",
+        "ART-20260915-POL001",
+        "ART-20260915-POL002",
+        "ART-20260915-USA001",
+        "ART-20260915-USA002",
+        "ART-20260915-USA003",
+        "ART-20260914-IDN001",
+        "ART-20260914-POL002",
+        "ART-20260914-POL003",
+        "ART-20260914-POL004",
+        "ART-20260914-USA001",
+        "ART-20260914-USA002"
+      ],
+      "updated": [
+        "ART-20260914-MEX001",
+        "ART-20260914-MEX002",
+        "ART-20260912-MEX001",
+        "ART-20260912-MEX002",
+        "ART-20260914-KAZ002",
+        "ART-20260912-IDN001",
+        "ART-20260911-IDN001",
+        "ART-20260911-IDN002",
+        "ART-20260911-POL001",
+        "ART-20260911-POL002",
+        "ART-20260826-131001"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "IDN-WTE-BOGOR-RAYA1-GALUGA",
+        "IDN-ROAD-IKN-HANKAM-LINGKAR-SEPAKU4",
+        "IDN-WTE-BOGOR-KAYUMANIS",
+        "POL-IND-CPK-AIRPORT-CARGO-SORTING",
+        "USA-PORT-DELAWARE-CONTAINER-TERMINAL",
+        "POL-DIGITAL-HILLWOOD-REGULY-DATA-CAMPUS",
+        "USA-AIR-PHX-TAXIWAY-U",
+        "USA-IND-HITACHI-GALLMAN-TRANSFORMER",
+        "IDN-ENERGY-LAMPUNG-BIOETHANOL-CENTER",
+        "POL-RAIL-LUBIATOWO-KOPALINO-NPP-ACCESS"
+      ],
+      "updated": [
+        "IDN-METRO-JAKARTA-LRT-KELAPAGADING-MANGGARAI",
+        "IDN-OILGAS-MASELA-ABADI-LNG",
+        "IDN-WATER-JAVA-GIANT-SEA-WALL",
+        "POL-RAIL-CPK-WARSAW-LODZ-HSR",
+        "POL-RAIL-CPK-LINEY-SRK-TRACTION",
+        "USA-RAIL-SECOND-AVENUE-PHASE2"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-17",
-    "articlePublishedDate": "2026-09-16",
-    "projectUpdatedDate": "2026. 9. 16"
+    "articleCollectedDate": "2026-09-18",
+    "articlePublishedDate": "2026-09-17",
+    "projectUpdatedDate": "2026-09-17"
   }
 }
