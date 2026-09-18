@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T15:06:43.122Z",
+  "updatedAt": "2026-09-18T18:22:02.121Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,43 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8586,
-    "projects": 3861
+    "articles": 8593,
+    "projects": 3867
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260918-CZE001",
+        "ART-20260917-CZE001",
+        "ART-20260917-QAT001",
+        "ART-20260916-CZE001",
+        "ART-20260915-QAT001",
+        "ART-20260915-QAT002",
+        "ART-20260915-QAT003"
+      ],
+      "updated": [
+        "ART-20260916-IDN001"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CZE-ROAD-I53-LECHOVICE-POHORELICE",
+        "CZE-RAIL-TABOR-STATION-BUILDING",
+        "QAT-OILGAS-BUL-HANINE-BH-EPIC",
+        "CZE-WATER-PRAGUE-UCOV-SVL",
+        "QAT-ROAD-DESIGN-CALLOFF-2",
+        "QAT-URBAN-AL-ASMAKH-DEVELOPMENT-P1"
+      ],
+      "updated": [
+        "QAT-OILGAS-MAYDAN-MAHZAM-EXPANSION"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-18",
-    "articlePublishedDate": "2026-09-17",
-    "projectUpdatedDate": "2026-09-17"
+    "articleCollectedDate": "2026-09-19",
+    "articlePublishedDate": "2026-09-18",
+    "projectUpdatedDate": "2026-09-18"
   }
 }
