@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T18:22:02.121Z",
+  "updatedAt": "2026-09-18T20:50:12.113Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8593,
@@ -33,32 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260918-CZE001",
-        "ART-20260917-CZE001",
-        "ART-20260917-QAT001",
-        "ART-20260916-CZE001",
-        "ART-20260915-QAT001",
-        "ART-20260915-QAT002",
-        "ART-20260915-QAT003"
-      ],
-      "updated": [
-        "ART-20260916-IDN001"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "CZE-ROAD-I53-LECHOVICE-POHORELICE",
-        "CZE-RAIL-TABOR-STATION-BUILDING",
-        "QAT-OILGAS-BUL-HANINE-BH-EPIC",
-        "CZE-WATER-PRAGUE-UCOV-SVL",
-        "QAT-ROAD-DESIGN-CALLOFF-2",
-        "QAT-URBAN-AL-ASMAKH-DEVELOPMENT-P1"
-      ],
-      "updated": [
-        "QAT-OILGAS-MAYDAN-MAHZAM-EXPANSION"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
