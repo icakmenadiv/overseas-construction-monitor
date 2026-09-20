@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T17:00:22.816Z",
+  "updatedAt": "2026-09-20T19:18:37.637Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,62 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260919-VNM001",
-        "ART-20260919-VNM002",
-        "ART-20260919-VNM003",
-        "ART-20260918-MEX001",
-        "ART-20260918-MEX002",
-        "ART-20260918-MEX003",
-        "ART-20260918-SGP001",
-        "ART-20260918-SGP002",
-        "ART-20260918-SGP003",
-        "ART-20260918-VNM001",
-        "ART-20260918-VNM002",
-        "ART-20260918-VNM003",
-        "ART-20260918-VNM004",
-        "ART-20260918-VNM005",
-        "ART-20260917-MEX001",
-        "ART-20260917-MEX002",
-        "ART-20260917-SGP002",
-        "ART-20260917-VNM001",
-        "ART-20260917-VNM002",
-        "ART-20260920-CHN001",
-        "ART-20260918-CHN001",
-        "ART-20260918-CHN002",
-        "ART-20260918-CHN003",
-        "ART-20260917-CHN001",
-        "ART-20260917-CHN002",
-        "ART-20260917-CHN003",
-        "ART-20260917-CHN004"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "CHN-ENERGY-TAIZIHE-PUMPED-STORAGE",
-        "VNM-IND-BESTWAY-CANTHO-SPORTTECH-PH2",
-        "CHN-DIGITAL-NANNING-WUXIANG-GREEN-AI-CENTER",
-        "CHN-ENERGY-BAOTOU-BUERHANTU-BESS-200MW",
-        "CHN-WATER-SHANXI-DONGSHAN-WATER-SUPPLY",
-        "MEX-WATER-SOLIS-LEON-AQUEDUCT",
-        "SGP-ENERGY-KEPPEL-RIAU-SOLAR-IMPORT",
-        "VNM-ENERGY-HOABINH2-TAYHANOI-500KV",
-        "VNM-URBAN-QUANGNGAI-ANPHU",
-        "CHN-DIGITAL-BEIJING-TONGZHOU-AI-COMPUTING-PH1",
-        "CHN-ENERGY-CHANGJIANG-NPP-PH2",
-        "VNM-ROAD-HCMC-LUONGDINHCUA-UPGRADE"
-      ],
-      "updated": [
-        "VNM-ROAD-HCMC-NH1-KINHDUONGVUONG-LONGAN",
-        "MEX-RAIL-MEXICO-QUERETARO",
-        "SGP-URBAN-LORONG-PUNTONG-SIN-MING-RESIDENTIAL",
-        "VNM-ENERGY-QUYNHLAP-LNG-POWER",
-        "VNM-WATER-HCMC-TIDAL-FLOOD-CONTROL-PH1",
-        "CHN-WATER-DASHIXIA-HYDRO-JUNCTION",
-        "SGP-ROAD-NORTH-SOUTH-CORRIDOR"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
