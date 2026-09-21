@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T18:44:23.262Z",
+  "updatedAt": "2026-09-21T21:56:13.777Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8628,
@@ -33,7 +33,8 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20260920-UAE001",
         "ART-20260920-UAE002",
         "ART-20260918-UAE001",
@@ -43,17 +44,10 @@
         "ART-20260918-USA004",
         "ART-20260918-USA005"
       ],
-      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "UAE-ROAD-OUDMAITHA-ALASAYEL",
-        "UAE-URBAN-YAS-THE-WADI",
-        "USA-ROAD-I10-MOBILE-RIVER-BAYWAY",
-        "USA-SOC-BIG-BEND1-SMART-WALL",
-        "USA-WATER-LASVIRGENES-TRIUNFO-PURE-WATER"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
