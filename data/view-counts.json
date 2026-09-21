@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T20:46:51.799Z",
+  "updatedAt": "2026-09-21T04:52:13.366Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1377,16 +1377,48 @@
         "source_link_click": 1
       },
       "ART-20260916-IDN001": {
-        "article_detail_open": 1,
+        "article_detail_open": 2,
         "source_link_click": 1
       },
-      "ART-20260916-IDN006": {
+      "ART-20260916-IDN002": {
         "article_detail_open": 1
+      },
+      "ART-20260916-IDN003": {
+        "article_detail_open": 1
+      },
+      "ART-20260916-IDN004": {
+        "article_detail_open": 2
+      },
+      "ART-20260916-IDN005": {
+        "article_detail_open": 1
+      },
+      "ART-20260916-IDN006": {
+        "article_detail_open": 2
       },
       "ART-20260916-POL002": {
         "source_link_click": 1
       },
+      "ART-20260917-IDN001": {
+        "article_detail_open": 2
+      },
       "ART-20260917-IDN002": {
+        "article_detail_open": 3
+      },
+      "ART-20260917-MEX001": {
+        "article_detail_open": 1,
+        "source_link_click": 1
+      },
+      "ART-20260917-MEX002": {
+        "article_detail_open": 1
+      },
+      "ART-20260918-MEX001": {
+        "article_detail_open": 3,
+        "source_link_click": 2
+      },
+      "ART-20260918-MEX002": {
+        "article_detail_open": 1
+      },
+      "ART-20260918-MEX003": {
         "article_detail_open": 1
       }
     },
@@ -5322,8 +5354,8 @@
       "targetType": "article",
       "targetId": "ART-20260916-IDN001",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-09-18T04:46:43.413Z"
+      "count": 2,
+      "updatedAt": "2026-09-21T01:59:02.922Z"
     },
     {
       "targetType": "article",
@@ -5334,10 +5366,38 @@
     },
     {
       "targetType": "article",
-      "targetId": "ART-20260916-IDN006",
+      "targetId": "ART-20260916-IDN002",
       "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-09-18T00:57:43.090Z"
+      "updatedAt": "2026-09-21T02:05:43.830Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260916-IDN003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-21T01:59:26.632Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260916-IDN004",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-21T02:05:08.876Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260916-IDN005",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-21T02:05:48.875Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260916-IDN006",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-21T02:05:49.707Z"
     },
     {
       "targetType": "article",
@@ -5348,10 +5408,66 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260917-IDN001",
+      "eventType": "article_detail_open",
+      "count": 2,
+      "updatedAt": "2026-09-21T02:05:12.296Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260917-IDN002",
       "eventType": "article_detail_open",
+      "count": 3,
+      "updatedAt": "2026-09-21T02:05:11.085Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260917-MEX001",
+      "eventType": "article_detail_open",
       "count": 1,
-      "updatedAt": "2026-09-18T00:55:58.595Z"
+      "updatedAt": "2026-09-21T02:05:35.673Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260917-MEX001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-09-21T02:05:57.628Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260917-MEX002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-21T02:05:38.359Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260918-MEX001",
+      "eventType": "article_detail_open",
+      "count": 3,
+      "updatedAt": "2026-09-21T02:11:53.978Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260918-MEX001",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-09-21T02:11:55.160Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260918-MEX002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-21T02:05:51.183Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260918-MEX003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-21T02:05:23.176Z"
     },
     {
       "targetType": "page",
