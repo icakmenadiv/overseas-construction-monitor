@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T13:16:05.663Z",
+  "updatedAt": "2026-09-21T18:44:23.262Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,37 +28,38 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8620,
-    "projects": 3879
+    "articles": 8628,
+    "projects": 3884
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260918-MEX001",
-        "ART-20260918-MEX002",
-        "ART-20260918-MEX003",
-        "ART-20260917-MEX001",
-        "ART-20260917-MEX002",
-        "ART-20260917-IDN001",
-        "ART-20260917-IDN002",
-        "ART-20260916-IDN001",
-        "ART-20260916-IDN002",
-        "ART-20260916-IDN003",
-        "ART-20260916-IDN004",
-        "ART-20260916-IDN005",
-        "ART-20260916-IDN006"
+      "added": [
+        "ART-20260920-UAE001",
+        "ART-20260920-UAE002",
+        "ART-20260918-UAE001",
+        "ART-20260918-USA001",
+        "ART-20260918-USA002",
+        "ART-20260918-USA003",
+        "ART-20260918-USA004",
+        "ART-20260918-USA005"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "UAE-ROAD-OUDMAITHA-ALASAYEL",
+        "UAE-URBAN-YAS-THE-WADI",
+        "USA-ROAD-I10-MOBILE-RIVER-BAYWAY",
+        "USA-SOC-BIG-BEND1-SMART-WALL",
+        "USA-WATER-LASVIRGENES-TRIUNFO-PURE-WATER"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-21",
+    "articleCollectedDate": "2026-09-22",
     "articlePublishedDate": "2026-09-20",
     "projectUpdatedDate": "2026-09-20"
   }
