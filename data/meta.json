@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T14:54:10.779Z",
+  "updatedAt": "2026-09-22T18:22:55.726Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,63 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8628,
-    "projects": 3884
+    "articles": 8650,
+    "projects": 3894
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260922-MYS001",
+        "ART-20260922-MYS002",
+        "ART-20260922-MYS003",
+        "ART-20260922-MYS004",
+        "ART-20260922-QAT001",
+        "ART-20260922-QAT002",
+        "ART-20260922-RUS001",
+        "ART-20260922-RUS002",
+        "ART-20260921-CZE001",
+        "ART-20260921-CZE002",
+        "ART-20260921-CZE003",
+        "ART-20260921-MYS001",
+        "ART-20260921-MYS002",
+        "ART-20260921-MYS003",
+        "ART-20260921-RUS001",
+        "ART-20260920-QAT001",
+        "ART-20260920-QAT002",
+        "ART-20260919-RUS001",
+        "ART-20260918-CZE002",
+        "ART-20260918-CZE003",
+        "ART-20260918-CZE004",
+        "ART-20260918-RUS001"
+      ],
+      "updated": [
+        "ART-20260918-MEX003"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "MYS-ROAD-MEDAN-JAYA-FLYOVER",
+        "MYS-ROAD-PAN-BORNEO-SARAWAK-REDLINE",
+        "MYS-ROAD-SEDENAK-MURNI-JAYA-INAS",
+        "CZE-ENERGY-MVE-LIBSTEJNSKY-MLYN",
+        "MYS-ROAD-FT4-EAST-WEST-UPGRADE-83-74-198-40",
+        "MYS-SOC-SERIKIN-ICQS",
+        "RUS-IND-ENERGOPOTOK-SAROV-VALVE-PRODUCTION",
+        "RUS-IND-NPS-VNOVGOROD-RAIL-SLAB-PLANT",
+        "CZE-ROAD-I43-LOM-CERNAHORA",
+        "CZE-ROAD-SSUD-KAPLICE"
+      ],
+      "updated": [
+        "RUS-AIR-OMSK-FEDOROVKA-AIRFIELD",
+        "CZE-RAIL-PRAGUE-METRO-D-OLBRACHTOVA-NOVEDVORY"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-22",
-    "articlePublishedDate": "2026-09-20",
-    "projectUpdatedDate": "2026-09-20"
+    "articleCollectedDate": "2026-09-23",
+    "articlePublishedDate": "2026-09-22",
+    "projectUpdatedDate": "2026-09-22"
   }
 }
