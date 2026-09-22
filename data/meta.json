@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T18:22:55.726Z",
+  "updatedAt": "2026-09-22T21:12:47.001Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8650,
@@ -33,52 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260922-MYS001",
-        "ART-20260922-MYS002",
-        "ART-20260922-MYS003",
-        "ART-20260922-MYS004",
-        "ART-20260922-QAT001",
-        "ART-20260922-QAT002",
-        "ART-20260922-RUS001",
-        "ART-20260922-RUS002",
-        "ART-20260921-CZE001",
-        "ART-20260921-CZE002",
-        "ART-20260921-CZE003",
-        "ART-20260921-MYS001",
-        "ART-20260921-MYS002",
-        "ART-20260921-MYS003",
-        "ART-20260921-RUS001",
-        "ART-20260920-QAT001",
-        "ART-20260920-QAT002",
-        "ART-20260919-RUS001",
-        "ART-20260918-CZE002",
-        "ART-20260918-CZE003",
-        "ART-20260918-CZE004",
-        "ART-20260918-RUS001"
-      ],
-      "updated": [
-        "ART-20260918-MEX003"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "MYS-ROAD-MEDAN-JAYA-FLYOVER",
-        "MYS-ROAD-PAN-BORNEO-SARAWAK-REDLINE",
-        "MYS-ROAD-SEDENAK-MURNI-JAYA-INAS",
-        "CZE-ENERGY-MVE-LIBSTEJNSKY-MLYN",
-        "MYS-ROAD-FT4-EAST-WEST-UPGRADE-83-74-198-40",
-        "MYS-SOC-SERIKIN-ICQS",
-        "RUS-IND-ENERGOPOTOK-SAROV-VALVE-PRODUCTION",
-        "RUS-IND-NPS-VNOVGOROD-RAIL-SLAB-PLANT",
-        "CZE-ROAD-I43-LOM-CERNAHORA",
-        "CZE-ROAD-SSUD-KAPLICE"
-      ],
-      "updated": [
-        "RUS-AIR-OMSK-FEDOROVKA-AIRFIELD",
-        "CZE-RAIL-PRAGUE-METRO-D-OLBRACHTOVA-NOVEDVORY"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
