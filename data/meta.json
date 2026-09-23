@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T12:15:27.249Z",
+  "updatedAt": "2026-09-23T17:03:30.430Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,80 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8650,
-    "projects": 3894
+    "articles": 8682,
+    "projects": 3910
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260923-IRQ001",
+        "ART-20260923-IRQ002",
+        "ART-20260923-SAU001",
+        "ART-20260923-SGP001",
+        "ART-20260923-VNM001",
+        "ART-20260923-VNM002",
+        "ART-20260923-VNM003",
+        "ART-20260923-VNM004",
+        "ART-20260923-VNM005",
+        "ART-20260923-VNM006",
+        "ART-20260922-IRQ001",
+        "ART-20260922-SAU001",
+        "ART-20260922-SAU002",
+        "ART-20260922-SAU003",
+        "ART-20260922-SGP001",
+        "ART-20260922-VNM001",
+        "ART-20260922-VNM002",
+        "ART-20260922-VNM003",
+        "ART-20260922-VNM004",
+        "ART-20260922-VNM005",
+        "ART-20260921-IRQ001",
+        "ART-20260921-IRQ002",
+        "ART-20260921-IRQ003",
+        "ART-20260921-SAU001",
+        "ART-20260921-SGP001",
+        "ART-20260921-SGP002",
+        "ART-20260921-SGP003",
+        "ART-20260921-SGP004",
+        "ART-20260920-IRQ001",
+        "ART-20260920-SAU001",
+        "ART-20260920-SAU002",
+        "ART-20260919-VNM004"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "IRQ-OILGAS-EAST-BAGHDAD-SOUTH-GAS-PROCESSING",
+        "IRQ-URBAN-BISMAYAH-NEW-CITY",
+        "SAU-RAIL-MASHAAER-METRO-REVAMP",
+        "VNM-RAIL-BENTHANH-CANGIO-HSR",
+        "VNM-URBAN-SUN-UBO-THACCHUOI-ECOTOURISM",
+        "SAU-AIR-MADINAH-T2-BHS",
+        "SAU-ENERGY-PETROKEMYA-JUBAIL-COGEN-730MW",
+        "SAU-SOC-ALMOOSA-ALKHOBAR-HOSPITAL-MEP",
+        "SGP-IND-SAFRAN-LANDING-GEAR-MRO-EXTENSION",
+        "VNM-IND-CAMEL-HAUGIANG-BEVERAGE-PLANT",
+        "VNM-IND-QUELAM-LAMHONG-4F-COMPLEX",
+        "VNM-IND-VISSAN-TAYNINH-MEAT-PLANT",
+        "IRQ-OILGAS-NAHR-BIN-UMAR-ASSOCIATED-GAS",
+        "IRQ-OILGAS-RATAWI-AGUP2",
+        "SAU-ROAD-DHARIYA-AFIF-DUALISATION",
+        "SGP-IND-JURONG-ISLAND-LOGISTICS-HUB-PH2"
+      ],
+      "updated": [
+        "VNM-RAIL-HANOI-QUANGNINH-HSR",
+        "VNM-RAIL-NORTHSOUTH-HSR",
+        "VNM-RAIL-LAOCAI-HANOI-HAIPHONG",
+        "IRQ-TRANSPORT-DEVELOPMENT-ROAD",
+        "SAU-DIGITAL-HUMAIN-MIS-200MW-AI-DC"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-23",
-    "articlePublishedDate": "2026-09-22",
-    "projectUpdatedDate": "2026-09-22"
+    "articleCollectedDate": "2026-09-24",
+    "articlePublishedDate": "2026-09-23",
+    "projectUpdatedDate": "2026-09-23"
   }
 }
