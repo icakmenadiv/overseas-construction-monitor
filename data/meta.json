@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T15:30:23.112Z",
+  "updatedAt": "2026-09-24T19:26:11.495Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,44 +28,36 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8692,
-    "projects": 3916
+    "articles": 8698,
+    "projects": 3920
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20260923-USA001",
-        "ART-20260923-USA002",
-        "ART-20260922-USA001",
-        "ART-20260922-USA002",
-        "ART-20260922-USA003",
-        "ART-20260922-USA004",
-        "ART-20260922-USA005",
-        "ART-20260921-USA001",
-        "ART-20260921-USA002",
-        "ART-20260920-USA001"
+        "ART-20260924-UAE001",
+        "ART-20260924-UAE002",
+        "ART-20260924-UAE003",
+        "ART-20260924-UAE004",
+        "ART-20260923-UAE001",
+        "ART-20260922-UAE001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "USA-DIGITAL-DATAONE-VINELAND-AI-DC",
-        "USA-ENERGY-TERRAPOWER-NATRIUM-KEMMERER1",
-        "USA-DIGITAL-AWS-WILMINGTON-OHIO",
-        "USA-ENERGY-KAIROS-HERMES2",
-        "USA-PORT-USCG-NEWPORT-OPC-PIER",
-        "USA-ROAD-I395-POTOMAC-NB-BRIDGE-REHAB"
+        "UAE-ENERGY-SEWA-220132KV-TRANSMISSION-2026",
+        "UAE-URBAN-NADALSHEBA-GARDENS-PH7",
+        "UAE-ENERGY-DUBAI-GOVFACILITIES-SOLAR-RFP306",
+        "UAE-WATER-ALFREISH-LAKE-KALBA"
       ],
-      "updated": [
-        "USA-IND-SK-HYNIX-WEST-LAFAYETTE-HBM-HUB"
-      ],
+      "updated": [],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-09-25",
-    "articlePublishedDate": "2026-09-23",
-    "projectUpdatedDate": "2026-09-23"
+    "articlePublishedDate": "2026-09-24",
+    "projectUpdatedDate": "2026-09-24"
   }
 }

@@ -1,5 +1,35 @@
 [
   {
+    "프로젝트 고유값": "UAE-ENERGY-SEWA-220132KV-TRANSMISSION-2026",
+    "프로젝트명": "SEWA 220/132kV Transmission Projects 2026",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "에너지",
+    "발주처": "Sharjah Electricity, Water and Gas Authority (SEWA)",
+    "사업비(달러 기준 추정액)": "USD 92.99mn",
+    "사업비 환산 환율 / 기준": "WAM 2026-09-24 기사에 두 완료사업 합계 AED 341.493mn 명시. UAE 디르함 고정환율 AED 3.6725/USD로 환산(USD 92.99mn).",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-09-24",
+    "대표 기사 고유값": "ART-20260924-UAE002",
+    "비고": "Airport 132kV 지중케이블 71.7km·7개 변전소 연결(AED 235mn)과 220kV 가공송전선 업그레이드(AED 106.493mn) 준공 묶음. Al Shanouf·Al Ghubaiba·Al Nahda 변전소와 9개 후속사업의 개별 발주·준공을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UAE-URBAN-NADALSHEBA-GARDENS-PH7",
+    "프로젝트명": "Nad Al Sheba Gardens Phase 7",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "도시개발·주택",
+    "발주처": "Meraas / Dubai Holding Real Estate / GCC Contracting",
+    "사업비(달러 기준 추정액)": "USD 272.29mn",
+    "사업비 환산 환율 / 기준": "WAM 2026-09-24 기사에 약 AED 1bn 계약금액 명시. UAE 디르함 고정환율 AED 3.6725/USD로 환산(약 USD 272.29mn).",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-09-24",
+    "대표 기사 고유값": "ART-20260924-UAE001",
+    "비고": "272개 빌라·타운하우스와 풀하우스·유틸리티·기반시설을 포함한 Nad Al Sheba Gardens 7단계. GCC Contracting 본공사 착수, 2028년 2분기 완료 목표. MEP·조경·유틸리티 하위패키지와 공정을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IRQ-OILGAS-EAST-BAGHDAD-SOUTH-GAS-PROCESSING",
     "프로젝트명": "East Baghdad South Gas Processing Unit Project",
     "지역": "중동",
@@ -42,6 +72,21 @@
     "최근 업데이트일": "2026-09-23",
     "대표 기사 고유값": "ART-20260923-SAU001",
     "비고": "Mina-Muzdalifah-Arafat 18km·9개 역사 성지 메트로의 신뢰성·운영성능 개선사업. Hitachi Rail 수행. 세부 시스템 범위, 공기와 하지 전 시험·인도 일정을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UAE-ENERGY-DUBAI-GOVFACILITIES-SOLAR-RFP306",
+    "프로젝트명": "Dubai Government Facilities Solar PV EPC and O&M Project (RFP #306)",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "에너지",
+    "발주처": "Etihad ESCO",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "Etihad ESCO RFP #306 공고에 설비용량·Project Cost·Contract Value 미공개.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-09-23",
+    "대표 기사 고유값": "ART-20260923-UAE001",
+    "비고": "두바이 정부시설 태양광 설비의 EPC와 25년 O&M 사업자 선정 EOI. 2026-09-23 공고, 9월 28일 참여의향 마감. 시설목록·설비용량·후속 RFP·성능보증·금융구조를 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -252,6 +297,21 @@
     "최근 업데이트일": "2026-09-22",
     "대표 기사 고유값": "ART-20260922-SGP001",
     "비고": "싱가포르 착륙장치 MRO센터 7,500㎡ 증설 및 오버홀 조립라인 구축. 개장 후 가동률, 추가 장비투자와 공급망·유지관리, 후속 증설을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UAE-WATER-ALFREISH-LAKE-KALBA",
+    "프로젝트명": "Al Freish Lake Project, Kalba",
+    "지역": "중동",
+    "국가": "UAE",
+    "섹터": "수자원·환경",
+    "발주처": "Government of Sharjah",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "WAM 2026-09-22 기사에 면적·저장용량은 공개됐으나 Project Cost·Contract Value 미공개.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-09-22",
+    "대표 기사 고유값": "ART-20260922-UAE001",
+    "비고": "칼바 Al Marsh Square 뒤편 51,200㎡·약 750m·최대 2,800만갤런 호수 및 가족공원 개발. 200대 주차, 산림 식재·폭포·산책공간을 포함하며 세부 설계·조달·공사계약과 준공일을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
