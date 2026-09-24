@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T19:26:11.495Z",
+  "updatedAt": "2026-09-24T21:26:53.579Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8698,
@@ -33,24 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20260924-UAE001",
-        "ART-20260924-UAE002",
-        "ART-20260924-UAE003",
-        "ART-20260924-UAE004",
-        "ART-20260923-UAE001",
-        "ART-20260922-UAE001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "UAE-ENERGY-SEWA-220132KV-TRANSMISSION-2026",
-        "UAE-URBAN-NADALSHEBA-GARDENS-PH7",
-        "UAE-ENERGY-DUBAI-GOVFACILITIES-SOLAR-RFP306",
-        "UAE-WATER-ALFREISH-LAKE-KALBA"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
