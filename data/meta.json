@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T11:57:31.799Z",
+  "updatedAt": "2026-09-27T16:20:40.320Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,66 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8698,
-    "projects": 3920
+    "articles": 8723,
+    "projects": 3933
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20260927-SGP001",
+        "ART-20260927-VNM001",
+        "ART-20260925-SAU001",
+        "ART-20260925-SAU002",
+        "ART-20260925-SGP001",
+        "ART-20260925-VNM001",
+        "ART-20260925-VNM002",
+        "ART-20260924-SAU001",
+        "ART-20260924-SAU002",
+        "ART-20260924-SAU003",
+        "ART-20260924-SAU004",
+        "ART-20260924-SAU005",
+        "ART-20260924-SAU006",
+        "ART-20260924-SAU007",
+        "ART-20260924-SGP001",
+        "ART-20260924-SGP002",
+        "ART-20260924-SGP003",
+        "ART-20260924-SGP004",
+        "ART-20260924-VNM001",
+        "ART-20260924-VNM002",
+        "ART-20260924-VNM003",
+        "ART-20260923-SAU002",
+        "ART-20260923-SAU003",
+        "ART-20260923-SGP002",
+        "ART-20260923-VNM007"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "SGP-SOC-CHANGI-AIRBASE-RUNWAY03-21",
+        "VNM-ROAD-DONGDANG-TRALINH-EXP",
+        "SAU-RAIL-PHOSPHATE3-TRACK-DOUBLING-SEC2",
+        "VNM-ROAD-GIANGHIA-CHONTHANH-EXP",
+        "SAU-DIGITAL-HUMAIN-RIYADH-6GW-AI-CAMPUS",
+        "SAU-ENERGY-QASSIM1-CCGT-1896MW",
+        "SAU-ENERGY-TAIBA1-CCGT-1934MW",
+        "SGP-IND-6-TUAS-AVENUE14",
+        "SGP-IND-OMEGA1-GUL-LANE",
+        "VNM-AIR-PHUCAT-RUNWAY2",
+        "VNM-ROAD-VINH-THANHTHUY-EXP",
+        "SAU-ROAD-OXAGON-HIGHWAY55-PH1",
+        "VNM-WATER-BIENHOA-DIOXIN-REMEDIATION"
+      ],
+      "updated": [
+        "SAU-ENERGY-PETROKEMYA-JUBAIL-COGEN-730MW"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-25",
-    "articlePublishedDate": "2026-09-24",
-    "projectUpdatedDate": "2026-09-24"
+    "articleCollectedDate": "2026-09-28",
+    "articlePublishedDate": "2026-09-27",
+    "projectUpdatedDate": "2026-09-27"
   }
 }
