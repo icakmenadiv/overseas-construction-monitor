@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T21:19:04.869Z",
+  "updatedAt": "2026-09-28T05:20:03.529Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1421,6 +1421,25 @@
       "ART-20260918-MEX003": {
         "article_detail_open": 2,
         "source_link_click": 1
+      },
+      "ART-20260922-USA002": {
+        "article_detail_open": 1
+      },
+      "ART-20260923-IRQ002": {
+        "article_detail_open": 1,
+        "source_link_click": 2
+      },
+      "ART-20260923-UAE001": {
+        "article_detail_open": 1
+      },
+      "ART-20260923-USA001": {
+        "article_detail_open": 1
+      },
+      "ART-20260923-VNM001": {
+        "article_detail_open": 1
+      },
+      "ART-20260923-VNM003": {
+        "article_detail_open": 1
       }
     },
     "page": {
@@ -5476,6 +5495,55 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-09-22T08:21:10.500Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260922-USA002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-28T01:56:44.176Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260923-IRQ002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-28T01:55:41.793Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260923-IRQ002",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-09-28T02:02:15.849Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260923-UAE001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-28T02:02:42.712Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260923-USA001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-28T01:57:09.025Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260923-VNM001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-28T01:57:06.572Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260923-VNM003",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-09-28T01:57:05.596Z"
     },
     {
       "targetType": "page",
