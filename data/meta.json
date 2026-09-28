@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T20:42:25.638Z",
+  "updatedAt": "2026-09-28T23:12:07.553Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8746,
@@ -33,7 +33,8 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20260928-IDN001",
         "ART-20260928-IDN002",
         "ART-20260928-IDN003",
@@ -44,42 +45,13 @@
         "ART-20260925-IDN001",
         "ART-20260925-IDN002",
         "ART-20260925-IDN003",
-        "ART-20260925-UAE001",
-        "ART-20260925-USA001",
-        "ART-20260925-USA002",
-        "ART-20260925-USA003",
-        "ART-20260925-USA004",
-        "ART-20260925-USA005",
-        "ART-20260925-USA006",
-        "ART-20260924-USA001",
-        "ART-20260924-USA002",
-        "ART-20260924-USA003",
-        "ART-20260924-USA004",
-        "ART-20260924-USA005",
-        "ART-20260924-USA006"
+        "ART-20260925-UAE001"
       ],
-      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "IDN-SOC-IKN-LEGISLATIVE-JUDICIARY-OFFICES",
-        "IDN-ROAD-JAKARTA-HARBOURROAD2-ANCOLPLUIT",
-        "IDN-ENERGY-GILIMANUK-SOLAR-BESS",
-        "IDN-ROAD-JOGJASOLO-TRIHANGGO-JCTSLEMAN",
-        "IDN-ENERGY-DIENG-UNIT1-TURBINE-UPGRADE",
-        "UAE-URBAN-MANCHESTER-CITY-YAS-RESIDENCES",
-        "USA-SOC-PIEDMONT-NEWTON-HOSPITAL",
-        "USA-TRN-EWR-TERMINAL-A-EXPANSION",
-        "USA-DIG-PIMA-MIDDLE-MILE-FIBER",
-        "USA-IND-LILLY-HOUSTON-API-PLANT",
-        "USA-SOC-KODIAK-FUEL-CUTTER-PIERS",
-        "USA-URB-WACO-BARRONS-BRANCH",
-        "USA-WAT-PANTHER-ISLAND-NORTH-BYPASS"
-      ],
-      "updated": [
-        "IDN-WATER-JAVA-GIANT-SEA-WALL"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
