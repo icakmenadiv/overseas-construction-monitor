@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T14:32:25.546Z",
+  "updatedAt": "2026-09-28T20:42:25.638Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,31 +28,64 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8723,
-    "projects": 3933
+    "articles": 8746,
+    "projects": 3946
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20260923-UAE001",
-        "ART-20260923-USA001",
-        "ART-20260922-USA002",
-        "ART-20260923-IRQ002",
-        "ART-20260923-VNM001",
-        "ART-20260923-VNM003"
+      "added": [
+        "ART-20260928-IDN001",
+        "ART-20260928-IDN002",
+        "ART-20260928-IDN003",
+        "ART-20260928-UAE001",
+        "ART-20260927-IDN001",
+        "ART-20260926-IDN001",
+        "ART-20260926-IDN002",
+        "ART-20260925-IDN001",
+        "ART-20260925-IDN002",
+        "ART-20260925-IDN003",
+        "ART-20260925-UAE001",
+        "ART-20260925-USA001",
+        "ART-20260925-USA002",
+        "ART-20260925-USA003",
+        "ART-20260925-USA004",
+        "ART-20260925-USA005",
+        "ART-20260925-USA006",
+        "ART-20260924-USA001",
+        "ART-20260924-USA002",
+        "ART-20260924-USA003",
+        "ART-20260924-USA004",
+        "ART-20260924-USA005",
+        "ART-20260924-USA006"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "IDN-SOC-IKN-LEGISLATIVE-JUDICIARY-OFFICES",
+        "IDN-ROAD-JAKARTA-HARBOURROAD2-ANCOLPLUIT",
+        "IDN-ENERGY-GILIMANUK-SOLAR-BESS",
+        "IDN-ROAD-JOGJASOLO-TRIHANGGO-JCTSLEMAN",
+        "IDN-ENERGY-DIENG-UNIT1-TURBINE-UPGRADE",
+        "UAE-URBAN-MANCHESTER-CITY-YAS-RESIDENCES",
+        "USA-SOC-PIEDMONT-NEWTON-HOSPITAL",
+        "USA-TRN-EWR-TERMINAL-A-EXPANSION",
+        "USA-DIG-PIMA-MIDDLE-MILE-FIBER",
+        "USA-IND-LILLY-HOUSTON-API-PLANT",
+        "USA-SOC-KODIAK-FUEL-CUTTER-PIERS",
+        "USA-URB-WACO-BARRONS-BRANCH",
+        "USA-WAT-PANTHER-ISLAND-NORTH-BYPASS"
+      ],
+      "updated": [
+        "IDN-WATER-JAVA-GIANT-SEA-WALL"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-28",
-    "articlePublishedDate": "2026-09-27",
-    "projectUpdatedDate": "2026-09-27"
+    "articleCollectedDate": "2026-09-29",
+    "articlePublishedDate": "2026-09-28",
+    "projectUpdatedDate": "2026-09-28"
   }
 }
