@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T18:15:22.825Z",
+  "updatedAt": "2026-09-29T22:10:22.184Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8766,
@@ -33,49 +33,21 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20260929-IND001",
-        "ART-20260929-RUS001",
         "ART-20260928-IND001",
         "ART-20260928-IND002",
         "ART-20260928-IND003",
         "ART-20260928-IND004",
-        "ART-20260928-MYS001",
-        "ART-20260928-MYS002",
-        "ART-20260928-MYS003",
-        "ART-20260928-MYS004",
-        "ART-20260928-RUS001",
-        "ART-20260928-RUS002",
-        "ART-20260928-RUS003",
-        "ART-20260928-RUS004",
         "ART-20260927-IND001",
-        "ART-20260927-QAT001",
-        "ART-20260927-QAT002",
         "ART-20260926-IND001",
-        "ART-20260926-IND002",
-        "ART-20260926-QAT001"
-      ],
-      "updated": [
-        "ART-20260928-IDN003",
-        "ART-20260926-IDN002"
+        "ART-20260926-IND002"
       ],
       "removed": []
     },
     "projects": {
-      "added": [
-        "IND-WATER-YELERU-ANAKAPALLI-MVS",
-        "RUS-PORT-BAIKAL-FACILITIES-REPAIR",
-        "IND-ENERGY-YAVATMAL-BABHULGAON-400KV-AIS",
-        "IND-IND-UNA-BULK-DRUG-PARK-STEAM-COGEN",
-        "IND-ROAD-SOLAPUR-NH65-ELEVATED-CORRIDOR",
-        "MYS-OILGAS-SK408-TEPU-TUNAI-OFS-EPC",
-        "MYS-WATER-IWK-UP3-PHASE2",
-        "RUS-AIR-VOLOGDA-AIRFIELD-RECON-STG2-4",
-        "RUS-PORT-ARKHANGELSK-DEEPWATER",
-        "RUS-PORT-TALAGI-ARCTIC-TERMINAL",
-        "QAT-ROAD-DUKHAN-AIRBASE-ACCESS-2026",
-        "IND-RAIL-BAHRAICH-KHALILABAD-MEHDWAL-KHESHRAHA-BALANCE"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
