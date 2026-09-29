@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T12:42:15.590Z",
+  "updatedAt": "2026-09-29T18:15:22.825Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,61 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8746,
-    "projects": 3946
+    "articles": 8766,
+    "projects": 3958
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20260929-IND001",
+        "ART-20260929-RUS001",
+        "ART-20260928-IND001",
+        "ART-20260928-IND002",
+        "ART-20260928-IND003",
+        "ART-20260928-IND004",
+        "ART-20260928-MYS001",
+        "ART-20260928-MYS002",
+        "ART-20260928-MYS003",
+        "ART-20260928-MYS004",
+        "ART-20260928-RUS001",
+        "ART-20260928-RUS002",
+        "ART-20260928-RUS003",
+        "ART-20260928-RUS004",
+        "ART-20260927-IND001",
+        "ART-20260927-QAT001",
+        "ART-20260927-QAT002",
+        "ART-20260926-IND001",
+        "ART-20260926-IND002",
+        "ART-20260926-QAT001"
+      ],
+      "updated": [
+        "ART-20260928-IDN003",
+        "ART-20260926-IDN002"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "IND-WATER-YELERU-ANAKAPALLI-MVS",
+        "RUS-PORT-BAIKAL-FACILITIES-REPAIR",
+        "IND-ENERGY-YAVATMAL-BABHULGAON-400KV-AIS",
+        "IND-IND-UNA-BULK-DRUG-PARK-STEAM-COGEN",
+        "IND-ROAD-SOLAPUR-NH65-ELEVATED-CORRIDOR",
+        "MYS-OILGAS-SK408-TEPU-TUNAI-OFS-EPC",
+        "MYS-WATER-IWK-UP3-PHASE2",
+        "RUS-AIR-VOLOGDA-AIRFIELD-RECON-STG2-4",
+        "RUS-PORT-ARKHANGELSK-DEEPWATER",
+        "RUS-PORT-TALAGI-ARCTIC-TERMINAL",
+        "QAT-ROAD-DUKHAN-AIRBASE-ACCESS-2026",
+        "IND-RAIL-BAHRAICH-KHALILABAD-MEHDWAL-KHESHRAHA-BALANCE"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-09-29",
-    "articlePublishedDate": "2026-09-28",
-    "projectUpdatedDate": "2026-09-28"
+    "articleCollectedDate": "2026-09-30",
+    "articlePublishedDate": "2026-09-29",
+    "projectUpdatedDate": "2026-09-29"
   }
 }
