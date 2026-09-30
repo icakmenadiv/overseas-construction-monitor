@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T22:10:01.580Z",
+  "updatedAt": "2026-09-30T22:23:59.137Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 8822,
@@ -34,32 +34,7 @@
   "diff": {
     "articles": {
       "added": [],
-      "updated": [
-        "ART-20260930-CHN001",
-        "ART-20260930-SGP001",
-        "ART-20260929-CHN001",
-        "ART-20260929-CHN002",
-        "ART-20260929-CHN003",
-        "ART-20260929-MEX001",
-        "ART-20260929-MEX002",
-        "ART-20260929-MEX003",
-        "ART-20260929-MEX004",
-        "ART-20260929-MEX005",
-        "ART-20260929-MEX006",
-        "ART-20260929-SGP001",
-        "ART-20260929-SGP002",
-        "ART-20260928-CHN001",
-        "ART-20260928-CHN002",
-        "ART-20260928-CHN003",
-        "ART-20260928-CHN004",
-        "ART-20260928-CHN005",
-        "ART-20260928-CHN006",
-        "ART-20260928-CHN007",
-        "ART-20260928-MEX001",
-        "ART-20260928-SGP001",
-        "ART-20260928-SGP002",
-        "ART-20260928-SGP003"
-      ],
+      "updated": [],
       "removed": []
     },
     "projects": {
