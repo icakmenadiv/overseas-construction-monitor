@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T14:29:22.902Z",
+  "updatedAt": "2026-10-01T19:42:35.901Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,89 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8822,
-    "projects": 3989
+    "articles": 8864,
+    "projects": 4005
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261001-IDN001",
+        "ART-20261001-IDN002",
+        "ART-20261001-IDN003",
+        "ART-20261001-IDN004",
+        "ART-20261001-UAE001",
+        "ART-20261001-UAE002",
+        "ART-20261001-UAE003",
+        "ART-20261001-USA001",
+        "ART-20260930-IDN001",
+        "ART-20260930-IDN002",
+        "ART-20260930-IDN003",
+        "ART-20260930-IDN004",
+        "ART-20260930-PHL001",
+        "ART-20260930-PHL002",
+        "ART-20260930-PHL003",
+        "ART-20260930-PHL004",
+        "ART-20260930-PHL005",
+        "ART-20260930-PHL006",
+        "ART-20260930-UAE001",
+        "ART-20260930-UAE002",
+        "ART-20260930-UAE003",
+        "ART-20260930-USA001",
+        "ART-20260929-IDN001",
+        "ART-20260929-IDN002",
+        "ART-20260929-PHL001",
+        "ART-20260929-PHL002",
+        "ART-20260929-UAE001",
+        "ART-20260929-UAE002",
+        "ART-20260929-USA001",
+        "ART-20260929-USA002",
+        "ART-20260929-USA003",
+        "ART-20260929-USA004",
+        "ART-20260929-USA005",
+        "ART-20260929-USA006",
+        "ART-20260928-IDN004",
+        "ART-20260928-PHL001",
+        "ART-20260928-PHL002",
+        "ART-20260928-PHL003",
+        "ART-20260928-UAE002",
+        "ART-20260928-UAE003",
+        "ART-20260928-USA001",
+        "ART-20260928-USA002"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "IDN-DATA-BDX-CGK4-JATILUHUR",
+        "IDN-ROAD-GEDANGAN-FLYOVER",
+        "IDN-CHEM-CHANDRA-ASRI-CAEDC",
+        "IDN-ENERGY-BONTANG-LESTARI-GI150",
+        "IDN-ENERGY-SATUI-GI150-TRAFO2",
+        "IDN-PORT-PENGAMBENGAN-IFPIFM1",
+        "UAE-TRANSPORT-ITC-HEADQUARTERS",
+        "UAE-URBAN-SEIH-SDEIRAH-MIXEDUSE",
+        "USA-IND-AVIO-HURT-ROCKET-MOTOR-PLANT",
+        "IDN-DIGITAL-SUB2-SUBMARINE-CABLE",
+        "UAE-TRANSPORT-DUBAI-LOOP",
+        "USA-ENERGY-CLINCH-RIVER-BWRX300-SMR",
+        "USA-IND-MESABI-IOWA-STEEL-COMPLEX",
+        "IDN-DATA-SMX01-JAKARTA",
+        "UAE-IND-KEZAD-JINGDONG-LOGISTICS-FACILITY",
+        "USA-ROAD-OAK-HILL-PARKWAY"
+      ],
+      "updated": [
+        "USA-RAIL-HUDSON-TUNNEL",
+        "USA-ROAD-I10-MOBILE-RIVER-BAYWAY",
+        "UAE-RAIL-ETIHAD-PASSENGER-NETWORK",
+        "USA-TRANSPORT-SAGAMORE-BRIDGE-REPLACEMENT"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-01",
-    "articlePublishedDate": "2026-09-30",
-    "projectUpdatedDate": "2026-09-30"
+    "articleCollectedDate": "2026-10-02",
+    "articlePublishedDate": "2026-10-01",
+    "projectUpdatedDate": "2026-10-01"
   }
 }
