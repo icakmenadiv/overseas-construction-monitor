@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T19:45:42.093Z",
+  "updatedAt": "2026-10-02T22:06:50.634Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 8867,
@@ -33,22 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261001-CZE001",
-        "ART-20261001-QAT001",
-        "ART-20260930-CZE001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "CZE-ROAD-D3-VACLAVICE-VORACICE",
-        "CZE-ROAD-D48-SENOV-RYBI-PH2"
-      ],
-      "updated": [
-        "QAT-ROAD-DOHA-AIR-BASE-INFRA"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
