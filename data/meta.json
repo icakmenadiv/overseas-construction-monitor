@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T14:58:41.142Z",
+  "updatedAt": "2026-10-02T19:45:42.093Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,32 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8864,
-    "projects": 4005
+    "articles": 8867,
+    "projects": 4007
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261001-CZE001",
+        "ART-20261001-QAT001",
+        "ART-20260930-CZE001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CZE-ROAD-D3-VACLAVICE-VORACICE",
+        "CZE-ROAD-D48-SENOV-RYBI-PH2"
+      ],
+      "updated": [
+        "QAT-ROAD-DOHA-AIR-BASE-INFRA"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-02",
+    "articleCollectedDate": "2026-10-03",
     "articlePublishedDate": "2026-10-01",
     "projectUpdatedDate": "2026-10-01"
   }
