@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T13:20:39.478Z",
+  "updatedAt": "2026-10-04T17:39:46.936Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,63 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8867,
-    "projects": 4007
+    "articles": 8889,
+    "projects": 4015
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261004-IRQ001",
+        "ART-20261004-VNM001",
+        "ART-20261003-CHN001",
+        "ART-20261003-VNM001",
+        "ART-20261002-CHN001",
+        "ART-20261002-CHN002",
+        "ART-20261002-IRQ001",
+        "ART-20261002-IRQ002",
+        "ART-20261002-SGP001",
+        "ART-20261002-SGP002",
+        "ART-20261002-VNM001",
+        "ART-20261001-CHN001",
+        "ART-20261001-VNM001",
+        "ART-20261001-VNM002",
+        "ART-20261001-VNM003",
+        "ART-20261001-VNM004",
+        "ART-20261001-VNM005",
+        "ART-20260930-SGP002",
+        "ART-20260930-SGP003",
+        "ART-20260930-SGP004",
+        "ART-20260930-SGP005",
+        "ART-20260930-SGP006"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CHN-ENERGY-NINGXIA-ZHONGWEI-4X660MW",
+        "CHN-ENERGY-GONGHE-1GW-PV-CSP",
+        "SGP-RAIL-JB-SG-RTS-LINK",
+        "CHN-ENERGY-HEFEI-BEST-FUSION",
+        "VNM-IND-LONGMY-IP-PHASE2",
+        "VNM-ROAD-BENLUC-LONGTHANH-EXP",
+        "SGP-IND-5-TUAS-AVENUE13",
+        "SGP-RAIL-NSEWL-STATION-REJUV-P1"
+      ],
+      "updated": [
+        "IRQ-URBAN-ALI-ALWARDI-RESIDENTIAL-CITY",
+        "VNM-AIR-LONGTHANH-INTERNATIONAL-PH1",
+        "IRQ-OILGAS-BASRA-CEYHAN-PIPELINE-STUDY",
+        "VNM-AIR-PHUCAT-RUNWAY2",
+        "SGP-IND-LORONG-HALUS-RECLAMATION",
+        "SGP-SOC-SGH-PHASE2-REDEVELOPMENT"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-03",
-    "articlePublishedDate": "2026-10-01",
-    "projectUpdatedDate": "2026-10-01"
+    "articleCollectedDate": "2026-10-05",
+    "articlePublishedDate": "2026-10-04",
+    "projectUpdatedDate": "2026-10-04"
   }
 }
