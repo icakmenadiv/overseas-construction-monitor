@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T17:27:47.289Z",
+  "updatedAt": "2026-10-05T23:15:54.752Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,55 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261005-IDN001",
-        "ART-20261005-IDN002",
-        "ART-20261005-PHL001",
-        "ART-20261005-PHL002",
-        "ART-20261005-PHL003",
-        "ART-20261005-POL001",
-        "ART-20261005-POL002",
-        "ART-20261005-POL003",
-        "ART-20261005-UAE001",
-        "ART-20261005-UAE002",
-        "ART-20261005-UAE003",
-        "ART-20261004-UAE001",
-        "ART-20261003-IDN001",
-        "ART-20261002-IDN001",
-        "ART-20261002-IDN002",
-        "ART-20261002-PHL001",
-        "ART-20261002-POL001",
-        "ART-20261002-POL002",
-        "ART-20261002-UAE001",
-        "ART-20261001-IDN005",
-        "ART-20261001-IDN006",
-        "ART-20261001-PHL001",
-        "ART-20261001-PHL002",
-        "ART-20261001-POL001",
-        "ART-20261001-POL002"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "PHL-ENERGY-LIMBAUAN-SOLAR-PH2",
-        "PHL-SOC-PSRRRP",
-        "POL-PORT-EJ1-MOLF",
-        "POL-ROAD-DK78-SZCZEKOCINY-GOLENIOWY-BYPASS",
-        "POL-ROAD-DW536-ILAWA-LK9-TUNNEL",
-        "UAE-WATER-DUBAI-TF07C1-STORMWATER",
-        "UAE-WATER-FUJAIRAH-HOLCIM-CCM-PILOT",
-        "UAE-IND-DUBAI-COMMERCITY-PH2",
-        "IDN-WATER-JRAGUNG-DAM",
-        "POL-RAIL-LKA-KAROLEW-DEPOT",
-        "PHL-URBAN-JAB-RESIDENCES-DASMARINAS"
-      ],
-      "updated": [
-        "IDN-DATA-BDX-CGK4-JATILUHUR",
-        "UAE-WATER-DUBAI-DSST",
-        "PHL-SOC-PSIP3"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
