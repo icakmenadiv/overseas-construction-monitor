@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T16:38:53.704Z",
+  "updatedAt": "2026-10-06T21:12:45.849Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,57 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261006-IND001",
-        "ART-20261006-IND002",
-        "ART-20261006-IND003",
-        "ART-20261006-MYS001",
-        "ART-20261006-MYS002",
-        "ART-20261006-MYS003",
-        "ART-20261006-MYS004",
-        "ART-20261006-QAT001",
-        "ART-20261006-RUS001",
-        "ART-20261006-RUS002",
-        "ART-20261006-RUS003",
-        "ART-20261006-RUS004",
-        "ART-20261006-RUS005",
-        "ART-20261006-RUS006",
-        "ART-20261006-RUS007",
-        "ART-20261005-IND001",
-        "ART-20261005-IND002",
-        "ART-20261005-IND003",
-        "ART-20261005-MYS001",
-        "ART-20261005-MYS002",
-        "ART-20261005-QAT001",
-        "ART-20261005-RUS001",
-        "ART-20261005-RUS002",
-        "ART-20261004-IND001",
-        "ART-20261004-IND002",
-        "ART-20261004-QAT001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "IND-ENERGY-MAHARASHTRA-ONIX-225MW-SOLAR",
-        "IND-METRO-CHENNAI-THIRUMANGALAM-BUILDINGS",
-        "MYS-ENERGY-YTL-LSS5PLUS-99MW",
-        "MYS-RAIL-MRT-KAJANG-PAPIDS-UPGRADE",
-        "MYS-WATER-SUNGAI-GOLOK-PLSB",
-        "RUS-IND-KADALINSKY-INDUSTRIAL-PARK",
-        "RUS-IND-MOSCOW-ROSATOM-GIGAFACTORY",
-        "RUS-RAIL-SPB-CIRCLE-LINE-FIRST-SECTIONS",
-        "RUS-WATER-NOVOSIBIRSK-BERDSK-SEWER-DUPLICATE-SEC1",
-        "IND-ENERGY-BIDAR-HFE-500MW-HYBRID-BESS",
-        "RUS-PETCHEM-EFREMOVAZOT-FERTILIZER-COMPLEX",
-        "IND-ROAD-GURUGRAM-SHANKAR-CHOWK-LINKS",
-        "QAT-SOC-SJC-PERMANENT-FACILITIES"
-      ],
-      "updated": [
-        "RUS-ROAD-M4-DON-ROSTOV-RECONSTRUCTION",
-        "MYS-ROAD-PAN-BORNEO-SABAH-HIGHWAY"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
