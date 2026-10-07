@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T13:42:56.370Z",
+  "updatedAt": "2026-10-07T19:32:07.919Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,30 +28,84 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8956,
-    "projects": 4044
+    "articles": 8988,
+    "projects": 4064
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261007-SAU001",
+        "ART-20261007-SAU002",
+        "ART-20261007-VNM001",
+        "ART-20261007-VNM002",
+        "ART-20261006-CHN001",
+        "ART-20261006-CHN002",
+        "ART-20261006-IRQ001",
+        "ART-20261006-IRQ002",
+        "ART-20261006-IRQ003",
+        "ART-20261006-SAU001",
+        "ART-20261006-SAU002",
+        "ART-20261006-SAU003",
+        "ART-20261006-SGP001",
+        "ART-20261006-SGP002",
+        "ART-20261006-VNM001",
+        "ART-20261006-VNM002",
+        "ART-20261005-CHN001",
+        "ART-20261005-CHN002",
+        "ART-20261005-CHN003",
+        "ART-20261005-SAU001",
+        "ART-20261005-SAU002",
+        "ART-20261005-SAU003",
+        "ART-20261005-SAU004",
+        "ART-20261005-SAU005",
+        "ART-20261005-SAU006",
+        "ART-20261005-SGP001",
+        "ART-20261005-VNM001",
+        "ART-20261004-IRQ002",
+        "ART-20261004-IRQ003",
+        "ART-20261004-IRQ004",
+        "ART-20261004-SAU001",
+        "ART-20261004-VNM002"
+      ],
       "updated": [
-        "ART-20261006-RUS003",
-        "ART-20261005-RUS001",
-        "ART-20261005-POL001",
-        "ART-20261002-POL001",
-        "ART-20261001-CZE001"
+        "ART-20261002-IDN001"
       ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "SAU-SOC-EXPO2030-KSA-PAVILION",
+        "SAU-URBAN-ROSHN-RIYADH-PLOT1",
+        "VNM-ROAD-MOCCHAU-SONLA-DIENBIEN-CT03",
+        "CHN-ENERGY-WUHAN-GANGDU-500KV-SUPPORT",
+        "IRQ-OILGAS-ALLAN-SASAN-FIELDS",
+        "SAU-DIGITAL-HUMAIN-CENTER3-RIYADH-50MW",
+        "SAU-OILGAS-MARJAN-OFFSHORE-UPGRADE",
+        "SGP-ENERGY-PULAU-TEKONG-CLUSTER",
+        "CHN-ENERGY-HUNYUAN-PUMPED-STORAGE",
+        "CHN-ROAD-YONGJING-JINGPING-EXPRESSWAY",
+        "CHN-WATERWAY-THREE-GORGES-NEW-CHANNEL",
+        "SAU-AIR-KSIA-PRIVATE-AVIATION-TERMINAL",
+        "SAU-ENERGY-RABIGH2-IPP-EXPANSION",
+        "SAU-OILGAS-ALKHARJ-INDUSTRIAL-GAS-NETWORK",
+        "SAU-URBAN-DIRIYAH-SQUARE-HOSP-RES-ASSETS",
+        "SGP-RAIL-SPLRT-CAPACITY-ENHANCEMENT",
+        "IRQ-BRIDGE-KUFA-THIRD-IMAM-ALI",
+        "IRQ-ROAD-ALI-ALWARDI-CONNECTING-ROADS-PH1",
+        "SAU-OILGAS-SAFANIYAH-WATER-INJECTION",
+        "VNM-ENERGY-HIEPPHUOC-LNG-PH1"
+      ],
+      "updated": [
+        "VNM-AIR-LONGTHANH-INTERNATIONAL-PH1",
+        "SAU-OILGAS-JAFURAH-PHASE5-GAS-COMPRESSION",
+        "SGP-ROAD-NORTH-SOUTH-CORRIDOR"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-07",
-    "articlePublishedDate": "2026-10-06",
-    "projectUpdatedDate": "2026-10-06"
+    "articleCollectedDate": "2026-10-08",
+    "articlePublishedDate": "2026-10-07",
+    "projectUpdatedDate": "2026-10-07"
   }
 }
