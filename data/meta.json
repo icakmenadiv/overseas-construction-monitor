@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T06:28:19.360Z",
+  "updatedAt": "2026-10-07T13:42:56.370Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,39 +33,19 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261006-KAZ001",
-        "ART-20261006-UZB001",
-        "ART-20261005-KAZ001",
-        "ART-20261005-POL004",
-        "ART-20261005-POL005",
-        "ART-20261005-UKR001",
-        "ART-20261005-UKR002",
-        "ART-20261005-UKR003",
-        "ART-20261004-UZB001",
-        "ART-20261003-HUN001",
-        "ART-20261003-UZB001",
-        "ART-20261002-UZB001",
-        "ART-20261001-HUN001",
-        "ART-20261001-HUN002",
-        "ART-20261001-KAZ001",
-        "ART-20261001-KAZ002"
+      "added": [],
+      "updated": [
+        "ART-20261006-RUS003",
+        "ART-20261005-RUS001",
+        "ART-20261005-POL001",
+        "ART-20261002-POL001",
+        "ART-20261001-CZE001"
       ],
-      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "POL-RAIL-L229-KARTUZY-SIERAKOWICE",
-        "POL-RAIL-L70-L75-SWIETOKRZYSKIE-STOPS",
-        "HUN-RAIL-BUDAPEST-VIENNA-WARSAW-HSR",
-        "UZB-RAIL-SOBIR-RAKHIMOV-URTAAUL-OVERPASS",
-        "KAZ-WATER-URALSK-MAIN-WATER-PIPELINE"
-      ],
-      "updated": [
-        "UZB-AIR-TASHKENT-NEW-AIRPORT",
-        "HUN-TRANSPORT-BUDAPEST-AIRPORT-R100-GROUND-INFRA"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
