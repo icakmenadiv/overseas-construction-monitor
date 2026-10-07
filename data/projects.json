@@ -225,6 +225,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "POL-RAIL-L229-KARTUZY-SIERAKOWICE",
+    "프로젝트명": "Kartuzy–Sierakowice Railway Line 229 Reconstruction Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "PKP Polskie Linie Kolejowe S.A.",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "Pomorskie Voivodeship construction-permit notice 2026-10-05: 공식 Project Cost·CAPEX 미공개.",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-10-05",
+    "대표 기사 고유값": "ART-20261005-POL004",
+    "비고": "철도 229호선 Kartuzy–Sierakowice km 40.918~67.500 약 26.6km 재건·재활성화 사업. 건축허가 절차 개시. 전철화 범위, 본공사 조달, Kartuzy–Lębork 원전 접근철도 사업과의 경계·연계를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "POL-RAIL-L70-L75-SWIETOKRZYSKIE-STOPS",
+    "프로젝트명": "Świętokrzyskie Lines 70/75 New Railway Stops Project",
+    "지역": "유럽",
+    "국가": "폴란드",
+    "섹터": "교통",
+    "발주처": "PKP Polskie Linie Kolejowe S.A.",
+    "사업비(달러 기준 추정액)": "USD 7.67mn",
+    "사업비 환산 환율 / 기준": "PKP PLK 2026-10-05: 계약 합계 gross PLN 30mn / NBP table 193/A/NBP/2026, 1 USD=PLN 3.9116.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-10-05",
+    "대표 기사 고유값": "ART-20261005-POL005",
+    "비고": "70·75호선 신설 정거장 6곳과 Chmielnik·Staszów·Połaniec 기존 승강장 재생. Primost Południe·Budimex Kolejnictwo 수행, 2026년 말 운영 목표. 공정·개통과 남부 Świętokrzyskie 여객운행 재개를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "POL-ROAD-DK78-SZCZEKOCINY-GOLENIOWY-BYPASS",
     "프로젝트명": "DK78 Szczekociny and Goleniowy Bypass Project",
     "지역": "유럽",
@@ -360,6 +390,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UZB-AIR-TASHKENT-NEW-AIRPORT",
+    "프로젝트명": "New Tashkent International Airport Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Uzbekistan Ministry of Transport / Uzbekistan Airports",
+    "사업비(달러 기준 추정액)": "USD 2.7bn",
+    "사업비 환산 환율 / 기준": "UzDaily 2026-10-04(자료: Uzbekistan Ministry of Transport): 1단계 construction investment USD 2.7bn, 원문 USD 금액으로 환산 불필요.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-04",
+    "대표 기사 고유값": "ART-20261004-UZB001",
+    "비고": "Tashkent Region 1,310ha 신공항 1단계. 연 2,000만명, 터미널·화물·관제탑·MRO·케이터링 포함. 기존 관련기사 ART-20260612-001281, ART-20260612-001312, ART-20260515-001410, ART-20260617-004142. 2026-10-03 L&T 조달 로드쇼 후 패키지·현지조달·하도급 기회를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "VNM-AIR-LONGTHANH-INTERNATIONAL-PH1",
     "프로젝트명": "Long Thanh International Airport Phase 1 Project",
     "지역": "아시아",
@@ -387,6 +432,36 @@
     "최근 업데이트일": "2026-10-03",
     "대표 기사 고유값": "ART-20261003-CHN001",
     "비고": "660MW급 4기, 총 2.64GW 규모의 닝샤-후난 UHV 연계 조정전원. 6호기 168시간 시험운전 통과로 2026-10-02 전용량 투입.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HUN-RAIL-BUDAPEST-VIENNA-WARSAW-HSR",
+    "프로젝트명": "Budapest–Vienna/Warsaw High-Speed Rail Hungarian Section Preparation Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "교통",
+    "발주처": "Hungarian Ministry of Construction and Transport",
+    "사업비(달러 기준 추정액)": "USD 58.27mn",
+    "사업비 환산 환율 / 기준": "Hungarian Government Gazette 2026-10-02: 준비사업 총액 gross HUF 19.05bn / MNB 2026-10-02 1 USD=HUF 326.94.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-03",
+    "대표 기사 고유값": "ART-20261003-HUN001",
+    "비고": "부다페스트–빈/바르샤바 고속철도 헝가리 구간의 개념 인허가 설계, 기존망 연결부 검토, 설계공모·도시계획 준비사업. CEF2 Reflow 지원신청 및 재원확정, 설계용역 공고, 본선 노선·정거장 확정을 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "UZB-RAIL-SOBIR-RAKHIMOV-URTAAUL-OVERPASS",
+    "프로젝트명": "Sobir Rakhimov–Urtaaul Railway Overpass Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "교통",
+    "발주처": "Uzbekistan Railways JSC",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "UzDaily / Uzbekistan Railways 2026-10-03: 공식 Project Cost·CAPEX 미공개.",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-10-03",
+    "대표 기사 고유값": "ART-20261003-UZB001",
+    "비고": "Tashkent–Tashkent Region 경계 Sobir Rakhimov–Urtaaul 구간 철도건널목 입체화. 23.6m 복선교, 우회로 1.2km, 말뚝 237개, 콘크리트 1.1만㎥, 전차선 800m 이설. 2026-10-03 개통.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -540,6 +615,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HUN-TRANSPORT-BUDAPEST-AIRPORT-R100-GROUND-INFRA",
+    "프로젝트명": "Budapest Airport R100 Ground-Side Infrastructure Development Project",
+    "지역": "유럽",
+    "국가": "헝가리",
+    "섹터": "교통",
+    "발주처": "Budapest Airport Budapest Ferenc Liszt International Airport Operating Private Limited Company",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "Friedrich & Clement tender summary 2026-10-01: 총사업비 미공개. HUF 11bn은 입찰자 매출 자격기준으로 사업비가 아님.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-10-01",
+    "대표 기사 고유값": "ART-20261001-HUN001",
+    "비고": "R100 터미널 연계 지상측 도로망·주차·유틸리티 본공사. 2026-10-09 입찰마감, 외국기업은 자국 전문등록 증빙 가능. 기존 기사 ART-20260901-HUN001의 지반정지·케이블 선행패키지와 연결해 낙찰·착공·후속 공항 패키지를 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-ROAD-GEDANGAN-FLYOVER",
     "프로젝트명": "Gedangan Flyover Project",
     "지역": "아시아",
@@ -552,6 +642,21 @@
     "최근 업데이트일": "2026-10-01",
     "대표 기사 고유값": "ART-20261001-IDN002",
     "비고": "Sidoarjo Gedangan역과 SRRL 계획을 연계하는 6차로 고가도로. 상세설계 조정과 재원확보가 필요한 기획 단계.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-WATER-URALSK-MAIN-WATER-PIPELINE",
+    "프로젝트명": "Uralsk Main Water Pipeline Reconstruction Project",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "수자원·환경",
+    "발주처": "West Kazakhstan Region Akimat / Kazakhstan Housing Company",
+    "사업비(달러 기준 추정액)": "USD 22.00mn",
+    "사업비 환산 환율 / 기준": "MEKS 2026-10-01: 총사업비 KZT 9.7bn / National Bank of Kazakhstan 2026-10-01 1 USD=KZT 440.86.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-01",
+    "대표 기사 고유값": "ART-20261001-KAZ001",
+    "비고": "Uralsk의 2018년 이후 미가동 1,000mm 간선상수관 재건. KHC가 지방정부 채권 KZT 9.2bn 매입, 128,974개 수용가 급수 안정화. 공정·시운전과 MEKS 유사사업 확산을 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -5940,21 +6045,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "HUN-TRANSPORT-BUDAPEST-AIRPORT-R100-GROUND-INFRA",
-    "프로젝트명": "Budapest Airport R100 Ground-Side Infrastructure Development Project",
-    "지역": "유럽",
-    "국가": "헝가리",
-    "섹터": "교통",
-    "발주처": "Budapest Airport Budapest Ferenc Liszt International Airport Operating Private Limited Company",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "Tender notice 14657/2026 does not state total project cost; no USD conversion applied.",
-    "현재 단계": "tender",
-    "최근 업데이트일": "2026-09-01",
-    "대표 기사 고유값": "ART-20260901-HUN001",
-    "비고": "R100 지상측 인프라 개발공사. 지반정지 및 케이블 인프라 설치를 포함하며, 원문 공고는 2026-09-01 게시 및 2026-09-03 마감을 제시함. 낙찰 결과·재공고·후속 공항 지상 인프라 패키지를 추적.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "IND-RAIL-ADRA-JOYCHANDIPAHAR-BYPASS",
     "프로젝트명": "Adra-Joychandipahar-Sanka Railway Bypass Project",
     "지역": "아시아",
@@ -8068,21 +8158,6 @@
     "대표 기사 고유값": "ART-20260617-003874",
     "비고": "Al Taawun roundabout 일대 터널 개발 및 샤르자-두바이 연결 도로 개선 사업. 2026-06-13 교통우회 시행 후 2026-06-17 기사에서 AED 750m 도로연계 패키지와 2026년 말 완공 목표가 추가 확인됨.",
     "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "UZB-AIR-TASHKENT-NEW-AIRPORT",
-    "프로젝트명": "New Tashkent International Airport Project",
-    "지역": "중앙아시아",
-    "국가": "우즈베키스탄",
-    "섹터": "교통",
-    "발주처": "Uzbekistan Ministry of Transport / Uzbekistan Airports",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "contracted",
-    "최근 업데이트일": "2026. 6. 17",
-    "대표 기사 고유값": "ART-20260617-004142",
-    "비고": "관련 기사: ART-20260612-001312, ART-20260612-001281, ART-20260515-001410, ART-20260617-004142. New Tashkent International Airport 1단계 터미널·공항 인프라 PPP. 2026-06-17 Uzbekistan Airports와 Vision Invest 주도 컨소시엄(Sojitz, Incheon International Airport Corporation 포함)이 PPP 협약을 체결했고, 민간 컨소시엄은 여객터미널·landside 인프라 건설·운영, 국가는 airside 인프라를 담당. 후속 착공, 금융종결, 공구별 EPC·시스템 발주 확인 필요.",
-    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "BRA-WATER-ANDRADAS-SANITATION-CONCESSION",
