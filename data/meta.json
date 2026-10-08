@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T09:50:37.656Z",
+  "updatedAt": "2026-10-08T16:59:33.222Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,26 +28,59 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 8988,
-    "projects": 4064
+    "articles": 9010,
+    "projects": 4073
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20261005-IDN002"
+      "added": [
+        "ART-20261008-IDN001",
+        "ART-20261008-IDN002",
+        "ART-20261008-UAE001",
+        "ART-20261008-UAE002",
+        "ART-20261007-IDN001",
+        "ART-20261007-IDN002",
+        "ART-20261007-UAE001",
+        "ART-20261007-UAE002",
+        "ART-20261007-UAE003",
+        "ART-20261007-USA001",
+        "ART-20261006-IDN001",
+        "ART-20261006-IDN002",
+        "ART-20261006-IDN003",
+        "ART-20261006-UAE001",
+        "ART-20261006-USA001",
+        "ART-20261006-USA002",
+        "ART-20261006-USA003",
+        "ART-20261006-USA004",
+        "ART-20261005-UAE004",
+        "ART-20261005-USA001",
+        "ART-20261005-USA002",
+        "ART-20261005-USA003"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "UAE-URBAN-DUBAI-ISLANDS-B-MARINE",
+        "UAE-ENERGY-DUBAI-SCIENCE-PARK-DCP",
+        "UAE-URBAN-AZIZI-FLORENCE",
+        "UAE-URBAN-BAY360-JLT",
+        "USA-DIGITAL-HUT8-RIVER-BEND",
+        "UAE-URBAN-ALJADA-CBD-PH2",
+        "USA-IND-ANDURIL-ARSENAL2-SHIPYARD",
+        "USA-BRIDGE-WIS82-IA9-MISSISSIPPI",
+        "USA-DIGITAL-MUSKIE-DATA-CAMPUS"
+      ],
+      "updated": [
+        "IDN-WATER-JAVA-GIANT-SEA-WALL"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-08",
-    "articlePublishedDate": "2026-10-07",
-    "projectUpdatedDate": "2026-10-07"
+    "articleCollectedDate": "2026-10-09",
+    "articlePublishedDate": "2026-10-08",
+    "projectUpdatedDate": "2026-10-08"
   }
 }
