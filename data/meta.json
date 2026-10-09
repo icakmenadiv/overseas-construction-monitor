@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T19:47:07.627Z",
+  "updatedAt": "2026-10-09T22:33:35.314Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 9037,
@@ -33,60 +33,34 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20261009-MYS001",
         "ART-20261009-MYS002",
         "ART-20261009-QAT001",
         "ART-20261009-RUS001",
         "ART-20261009-RUS002",
         "ART-20261009-RUS003",
-        "ART-20261008-CZE001",
         "ART-20261008-MYS001",
         "ART-20261008-MYS002",
         "ART-20261008-QAT001",
         "ART-20261008-RUS001",
         "ART-20261008-RUS002",
         "ART-20261008-RUS003",
-        "ART-20261007-CZE001",
-        "ART-20261007-CZE002",
         "ART-20261007-QAT001",
         "ART-20261007-QAT002",
         "ART-20261007-RUS001",
         "ART-20261007-RUS002",
         "ART-20261007-RUS003",
-        "ART-20261006-CZE001",
-        "ART-20261006-CZE002",
-        "ART-20261006-CZE003",
         "ART-20261006-MYS005",
         "ART-20261006-MYS006",
-        "ART-20261005-CZE001",
         "ART-20261005-MYS003"
       ],
-      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "MYS-OILGAS-MALIKAI-PHASE3",
-        "RUS-ROAD-MOSCOW-MENZHINSKOGO-DUDINKA-OVERPASS",
-        "CZE-WATERWAY-DECIN-NAVIGATION-STAGE",
-        "MYS-IND-PENANG-SILICON-ISLAND",
-        "RUS-RAIL-MOSCOW-BIRYULEVSKAYA-LINE",
-        "RUS-ROAD-OMSK-NORTHERN-BYPASS",
-        "RUS-SOC-PROTVINO-SILA-SYNCHROTRON",
-        "CZE-ENERGY-TREBOVICE-CCGT",
-        "RUS-BRIDGE-KAMENSK-BAYNOVSKY-DUPLICATE",
-        "RUS-WATER-NOVOSIBIRSK-BERDSK-SEWER-DUPLICATE-SEC2",
-        "CZE-RAIL-VOCHOC-HRADEC-TYNISTE",
-        "CZE-RAIL-MALOVANKA-STRAHOV-TRAM",
-        "MYS-BRIDGE-SEJINGKAT"
-      ],
-      "updated": [
-        "MYS-ROAD-PAN-BORNEO-SABAH-HIGHWAY",
-        "QAT-OILGAS-MAYDAN-MAHZAM-EXPANSION",
-        "CZE-RAIL-MORAVIAN-GATE-HSR",
-        "CZE-ROAD-D35-OPATOVEC-MOHELNICE-PPP"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
