@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T07:53:52.835Z",
+  "updatedAt": "2026-10-12T17:02:55.826Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,52 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9060,
-    "projects": 4100
+    "articles": 9074,
+    "projects": 4107
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "ART-20261012-UAE001",
+        "ART-20261011-IDN001",
+        "ART-20261011-UAE001",
+        "ART-20261010-IDN001",
+        "ART-20261010-IDN002",
+        "ART-20261009-IDN001",
+        "ART-20261009-IDN002",
+        "ART-20261009-UAE001",
+        "ART-20261009-UAE002",
+        "ART-20261009-USA001",
+        "ART-20261009-USA002",
+        "ART-20261009-USA003",
+        "ART-20261009-USA004",
+        "ART-20261008-IDN003"
+      ],
+      "updated": [
+        "ART-20261009-RUS001"
+      ],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "UAE-TRANSPORT-DUBAI-GLYDWAYS",
+        "UAE-ROAD-MUSSAFAH-E30-STREET8-UPGRADES",
+        "IDN-ENERGY-BATANGTORU-HYDRO",
+        "IDN-IND-HSG-KENDAL-PRECAST",
+        "IDN-ENERGY-BATANGTORU-HYDRO-PHASE2",
+        "USA-RAIL-PORT-COLUMBIA-SPUR",
+        "USA-TRANSIT-LONGMONT-1ST-MAIN-STATION"
+      ],
+      "updated": [
+        "UAE-TRANSPORT-DUBAI-AIRPORT-EXPRESS-LINE",
+        "UAE-TRANSPORT-DWC-ALMAKTOUM-AIRPORT-EXP"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-12",
-    "articlePublishedDate": "2026-10-10",
-    "projectUpdatedDate": "2026-10-10"
+    "articleCollectedDate": "2026-10-13",
+    "articlePublishedDate": "2026-10-12",
+    "projectUpdatedDate": "2026-10-12"
   }
 }
