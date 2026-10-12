@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T17:02:55.826Z",
+  "updatedAt": "2026-10-12T23:34:40.310Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,7 +33,8 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20261012-UAE001",
         "ART-20261011-IDN001",
         "ART-20261011-UAE001",
@@ -47,27 +48,15 @@
         "ART-20261009-USA002",
         "ART-20261009-USA003",
         "ART-20261009-USA004",
-        "ART-20261008-IDN003"
-      ],
-      "updated": [
-        "ART-20261009-RUS001"
+        "ART-20261008-IDN003",
+        "ART-20260611-001220",
+        "ART-20260606-000295"
       ],
       "removed": []
     },
     "projects": {
-      "added": [
-        "UAE-TRANSPORT-DUBAI-GLYDWAYS",
-        "UAE-ROAD-MUSSAFAH-E30-STREET8-UPGRADES",
-        "IDN-ENERGY-BATANGTORU-HYDRO",
-        "IDN-IND-HSG-KENDAL-PRECAST",
-        "IDN-ENERGY-BATANGTORU-HYDRO-PHASE2",
-        "USA-RAIL-PORT-COLUMBIA-SPUR",
-        "USA-TRANSIT-LONGMONT-1ST-MAIN-STATION"
-      ],
-      "updated": [
-        "UAE-TRANSPORT-DUBAI-AIRPORT-EXPRESS-LINE",
-        "UAE-TRANSPORT-DWC-ALMAKTOUM-AIRPORT-EXP"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
