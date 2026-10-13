@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T18:15:11.965Z",
+  "updatedAt": "2026-10-13T22:37:21.358Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 9096,
@@ -33,53 +33,21 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261013-CZE001",
-        "ART-20261013-CZE002",
+      "added": [],
+      "updated": [
         "ART-20261013-IND001",
-        "ART-20261013-MYS001",
-        "ART-20261013-MYS002",
-        "ART-20261013-RUS001",
-        "ART-20261012-CZE001",
-        "ART-20261012-CZE002",
         "ART-20261012-IND001",
-        "ART-20261012-MYS001",
-        "ART-20261012-MYS002",
-        "ART-20261012-QAT001",
-        "ART-20261012-RUS001",
-        "ART-20261012-RUS002",
-        "ART-20261011-CZE001",
         "ART-20261011-IND001",
-        "ART-20261011-MYS001",
         "ART-20261010-IND001",
         "ART-20261010-IND002",
         "ART-20261010-IND003",
-        "ART-20261010-RUS001",
         "ART-20261009-IND001"
       ],
-      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "CZE-ROAD-D6-PETROHRAD-LUBENEC",
-        "CZE-ROAD-I20-CESKEBUDEJOVICE-NORTH-CONNECTOR",
-        "IND-RAIL-SONNAGAR-ANDAL-TRACKWORKS-ECR",
-        "CZE-ROAD-II240-D7-D8-CONNECTION",
-        "CZE-TRANSPORT-BRNO-KOMIN-DEPOT",
-        "IND-URBAN-DHARAVI-MATUNGA-REHAB-HOMES",
-        "MYS-IND-KULIM-ATS-MANUFACTURING-EXPANSION",
-        "QAT-ROAD-IZGHAWA-ALTHUMAID-PKG2",
-        "RUS-ROAD-SPB-SHMSD",
-        "IND-ROAD-SHIKOHABAD-BHOGAON-GHIROR",
-        "IND-WATER-DAMANGANGA-LIFT-IRRIGATION",
-        "IND-IND-SAIL-IISCO-PELLET-BOP-PKG2"
-      ],
-      "updated": [
-        "MYS-RAIL-PENANG-MUTIARA-LRT",
-        "RUS-RAIL-MOSCOW-SPB-HSR",
-        "CZE-RAIL-BRNO-PREROV-RS-PPP"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
