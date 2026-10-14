@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T17:03:54.120Z",
+  "updatedAt": "2026-10-14T20:35:23.744Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,49 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261014-SAU001",
-        "ART-20261014-SAU002",
-        "ART-20261014-SAU003",
-        "ART-20261014-VNM001",
-        "ART-20261013-SAU001",
-        "ART-20261013-SAU002",
-        "ART-20261013-SAU003",
-        "ART-20261013-SGP001",
-        "ART-20261013-VNM001",
-        "ART-20261013-VNM002",
-        "ART-20261013-VNM003",
-        "ART-20261013-VNM004",
-        "ART-20261012-SAU001",
-        "ART-20261012-SAU002",
-        "ART-20261012-VNM001",
-        "ART-20261012-VNM002",
-        "ART-20261012-VNM003",
-        "ART-20261012-VNM004",
-        "ART-20261011-SAU001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "SAU-SOC-EXPO2030-USA-PAVILION",
-        "SAU-WATER-JEDDAH-PRINCEFAWAZ-DRAINAGE",
-        "VNM-ENERGY-HAIPHONG-LNG-POWER",
-        "SAU-METRO-RIYADH-FLEET-EXPANSION",
-        "SAU-ROAD-RIYADH-OROUBA-PRINCEBANDAR",
-        "SAU-SOC-RIYADH-ADMIN-OFFICE-PPP",
-        "SGP-SOC-CGH-MAIN-REMODELING",
-        "VNM-URBAN-BADIEM-SOCIAL-HOUSING",
-        "VNM-URBAN-MANGDEN-URBANAREA1",
-        "VNM-ENERGY-IARVE-SOLAR-COMPLEX",
-        "VNM-IND-POTO-MUYUAN-LIVESTOCK-FEED",
-        "VNM-SOC-SOCSON-HORSE-RACING-COMPLEX"
-      ],
-      "updated": [
-        "SAU-RAIL-GCC-DESIGN-SERVICES",
-        "SAU-ENERGY-RABIGH2-IPP-EXPANSION"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
