@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T12:07:04.922Z",
+  "updatedAt": "2026-10-14T17:03:54.120Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,31 +28,60 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9096,
-    "projects": 4119
+    "articles": 9115,
+    "projects": 4131
   },
   "diff": {
     "articles": {
-      "added": [],
-      "updated": [
-        "ART-20261011-IDN001",
-        "ART-20261010-IDN001",
-        "ART-20261009-IDN001",
-        "ART-20261009-IDN002",
-        "ART-20261008-IDN001",
-        "ART-20261008-IDN002"
+      "added": [
+        "ART-20261014-SAU001",
+        "ART-20261014-SAU002",
+        "ART-20261014-SAU003",
+        "ART-20261014-VNM001",
+        "ART-20261013-SAU001",
+        "ART-20261013-SAU002",
+        "ART-20261013-SAU003",
+        "ART-20261013-SGP001",
+        "ART-20261013-VNM001",
+        "ART-20261013-VNM002",
+        "ART-20261013-VNM003",
+        "ART-20261013-VNM004",
+        "ART-20261012-SAU001",
+        "ART-20261012-SAU002",
+        "ART-20261012-VNM001",
+        "ART-20261012-VNM002",
+        "ART-20261012-VNM003",
+        "ART-20261012-VNM004",
+        "ART-20261011-SAU001"
       ],
+      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "SAU-SOC-EXPO2030-USA-PAVILION",
+        "SAU-WATER-JEDDAH-PRINCEFAWAZ-DRAINAGE",
+        "VNM-ENERGY-HAIPHONG-LNG-POWER",
+        "SAU-METRO-RIYADH-FLEET-EXPANSION",
+        "SAU-ROAD-RIYADH-OROUBA-PRINCEBANDAR",
+        "SAU-SOC-RIYADH-ADMIN-OFFICE-PPP",
+        "SGP-SOC-CGH-MAIN-REMODELING",
+        "VNM-URBAN-BADIEM-SOCIAL-HOUSING",
+        "VNM-URBAN-MANGDEN-URBANAREA1",
+        "VNM-ENERGY-IARVE-SOLAR-COMPLEX",
+        "VNM-IND-POTO-MUYUAN-LIVESTOCK-FEED",
+        "VNM-SOC-SOCSON-HORSE-RACING-COMPLEX"
+      ],
+      "updated": [
+        "SAU-RAIL-GCC-DESIGN-SERVICES",
+        "SAU-ENERGY-RABIGH2-IPP-EXPANSION"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-14",
-    "articlePublishedDate": "2026-10-13",
-    "projectUpdatedDate": "2026-10-13"
+    "articleCollectedDate": "2026-10-15",
+    "articlePublishedDate": "2026-10-14",
+    "projectUpdatedDate": "2026-10-14"
   }
 }
