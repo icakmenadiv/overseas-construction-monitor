@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T15:44:29.862Z",
+  "updatedAt": "2026-10-15T19:23:55.959Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,39 +28,52 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9126,
-    "projects": 4137
+    "articles": 9146,
+    "projects": 4146
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261015-UAE001",
-        "ART-20261015-UAE002",
-        "ART-20261015-UAE003",
-        "ART-20261014-UAE001",
-        "ART-20261014-USA001",
-        "ART-20261014-USA002",
-        "ART-20261013-UAE001",
-        "ART-20261013-UAE002",
-        "ART-20261013-USA001",
-        "ART-20261013-USA002",
-        "ART-20261012-UAE002"
+        "ART-20261015-IDN001",
+        "ART-20261015-IDN002",
+        "ART-20261015-IDN003",
+        "ART-20261015-IDN004",
+        "ART-20261015-PHL001",
+        "ART-20261015-PHL002",
+        "ART-20261014-IDN001",
+        "ART-20261014-IDN002",
+        "ART-20261014-IDN003",
+        "ART-20261014-PHL001",
+        "ART-20261014-POL001",
+        "ART-20261013-IDN001",
+        "ART-20261013-POL001",
+        "ART-20261013-POL002",
+        "ART-20261012-IDN001",
+        "ART-20261012-PHL001",
+        "ART-20261012-PHL002",
+        "ART-20261012-POL001",
+        "ART-20261012-POL002",
+        "ART-20261012-POL003"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "UAE-IND-JINGDONG-GARGASH-DUBAI-LOGISTICS",
-        "UAE-WATER-DEWA-GRE-PIPELINES-2422600132",
-        "USA-IND-PUGETSOUND-MULTIMISSION-DRYDOCK",
-        "USA-ENERGY-IRONWOOD-500KV",
-        "USA-WATER-SBIWTP-EXPANSION",
-        "UAE-WATER-DXB-STORMWATER-TANKS-TF30C1"
+        "IDN-OILGAS-CILAMAYA-LPG-PLANT",
+        "IDN-ROAD-IKN-SEPINGGAN-TOLL-PKG1B",
+        "IDN-TRANSPORT-PULAU-LAUT-BRIDGE",
+        "IDN-URBAN-IKN-ASN-8TOWERS-WP1A",
+        "IDN-URBAN-IKN-GRAND-VISTA-NUSANTARA",
+        "PHL-URBAN-PASAY360-SM-CLIMATE-RESILIENT",
+        "POL-ENERGY-ZYDOWO-KIERZKOWO-BUSBARS",
+        "POL-ROAD-LUBSKO-BYPASS-DW287-STAGE2",
+        "POL-ROAD-RZESZOW-NORTHEAST-BYPASS"
       ],
       "updated": [
-        "UAE-OILGAS-BAB-GAS-CAP-DEVELOPMENT",
-        "UAE-TRANSPORT-DUBAI-METRO-GOLD-LINE"
+        "IDN-DIGITAL-AGCC-AI-DATA-CENTER",
+        "PHL-SOC-PSIP3",
+        "POL-RAIL-WARSAWA-WSCHODNIA-MODERNIZATION"
       ],
       "removed": []
     }
