@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T19:23:55.959Z",
+  "updatedAt": "2026-10-15T21:16:59.884Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
     "articles": 9146,
@@ -33,7 +33,8 @@
   },
   "diff": {
     "articles": {
-      "added": [
+      "added": [],
+      "updated": [
         "ART-20261015-IDN001",
         "ART-20261015-IDN002",
         "ART-20261015-IDN003",
@@ -55,26 +56,11 @@
         "ART-20261012-POL002",
         "ART-20261012-POL003"
       ],
-      "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "IDN-OILGAS-CILAMAYA-LPG-PLANT",
-        "IDN-ROAD-IKN-SEPINGGAN-TOLL-PKG1B",
-        "IDN-TRANSPORT-PULAU-LAUT-BRIDGE",
-        "IDN-URBAN-IKN-ASN-8TOWERS-WP1A",
-        "IDN-URBAN-IKN-GRAND-VISTA-NUSANTARA",
-        "PHL-URBAN-PASAY360-SM-CLIMATE-RESILIENT",
-        "POL-ENERGY-ZYDOWO-KIERZKOWO-BUSBARS",
-        "POL-ROAD-LUBSKO-BYPASS-DW287-STAGE2",
-        "POL-ROAD-RZESZOW-NORTHEAST-BYPASS"
-      ],
-      "updated": [
-        "IDN-DIGITAL-AGCC-AI-DATA-CENTER",
-        "PHL-SOC-PSIP3",
-        "POL-RAIL-WARSAWA-WSCHODNIA-MODERNIZATION"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
