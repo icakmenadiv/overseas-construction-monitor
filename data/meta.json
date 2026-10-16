@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T14:05:06.561Z",
+  "updatedAt": "2026-10-16T17:58:03.111Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,60 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9146,
-    "projects": 4146
+    "articles": 9168,
+    "projects": 4156
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261016-CZE001",
+        "ART-20261016-MYS001",
+        "ART-20261016-RUS001",
+        "ART-20261015-CZE001",
+        "ART-20261015-CZE002",
+        "ART-20261015-MYS001",
+        "ART-20261015-MYS002",
+        "ART-20261015-MYS003",
+        "ART-20261015-MYS004",
+        "ART-20261015-QAT001",
+        "ART-20261015-QAT002",
+        "ART-20261015-RUS001",
+        "ART-20261014-MYS001",
+        "ART-20261014-MYS002",
+        "ART-20261014-MYS003",
+        "ART-20261014-MYS004",
+        "ART-20261014-MYS005",
+        "ART-20261014-MYS006",
+        "ART-20261014-QAT001",
+        "ART-20261014-RUS001",
+        "ART-20261013-QAT001",
+        "ART-20261013-RUS002"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "MYS-SOC-UM-STUDENT-RESIDENCE",
+        "RUS-IND-PERM-SEZ-INFRA",
+        "CZE-ROAD-D35-ULIBICE-BYPASS",
+        "MYS-DIGITAL-JENDELA2-SARAWAK-G1",
+        "MYS-WATER-KELANTAN-IRBD-VESTLAND-PKG",
+        "QAT-ROAD-ALSHEEHANIYA-C2021-44-PKG1",
+        "QAT-ROAD-UMMSLAL-BUFESSELA-C2021-038-PKG1",
+        "RUS-OILGAS-CPC-KOMSOMOLSK-EPS",
+        "MYS-RAIL-TRANS-BORNEO",
+        "MYS-WATER-SUNGAI-PINANG-RTB-PH1"
+      ],
+      "updated": [
+        "MYS-DIGITAL-SALAM-SUBSEA-CABLE"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-16",
-    "articlePublishedDate": "2026-10-15",
-    "projectUpdatedDate": "2026-10-15"
+    "articleCollectedDate": "2026-10-17",
+    "articlePublishedDate": "2026-10-16",
+    "projectUpdatedDate": "2026-10-16"
   }
 }
