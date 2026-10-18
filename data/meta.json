@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T13:12:48.654Z",
+  "updatedAt": "2026-10-18T16:31:39.339Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,39 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9168,
-    "projects": 4156
+    "articles": 9175,
+    "projects": 4160
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261016-SAU001",
+        "ART-20261016-SAU002",
+        "ART-20261016-SGP001",
+        "ART-20261015-IRQ001",
+        "ART-20261015-SAU001",
+        "ART-20261015-SGP001",
+        "ART-20261015-SGP002"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "SAU-ROAD-RIYADH-URGENT-STEEL-BRIDGES-PKG2",
+        "SGP-RAIL-CRL1-CR116-AMK",
+        "SGP-RAIL-BPLRT-RENEWAL",
+        "SGP-URBAN-MARINA-GARDENS-LANE-2"
+      ],
+      "updated": [
+        "SAU-DIGITAL-HUMAIN-RIYADH-6GW-AI-CAMPUS",
+        "IRQ-OILGAS-KIRKUK-FIELDS-REDEV"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-17",
+    "articleCollectedDate": "2026-10-19",
     "articlePublishedDate": "2026-10-16",
     "projectUpdatedDate": "2026-10-16"
   }
