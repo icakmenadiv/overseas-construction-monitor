@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T12:13:54.219Z",
+  "updatedAt": "2026-10-19T18:43:05.412Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,61 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9172,
-    "projects": 4160
+    "articles": 9192,
+    "projects": 4171
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261019-IDN001",
+        "ART-20261019-IDN002",
+        "ART-20261019-IDN003",
+        "ART-20261019-PHL001",
+        "ART-20261019-PHL002",
+        "ART-20261019-PHL003",
+        "ART-20261019-PHL004",
+        "ART-20261019-PHL005",
+        "ART-20261019-UAE001",
+        "ART-20261019-UAE002",
+        "ART-20261017-IDN001",
+        "ART-20261017-IDN002",
+        "ART-20261017-IDN003",
+        "ART-20261017-IDN004",
+        "ART-20261016-IDN001",
+        "ART-20261016-IDN002",
+        "ART-20261016-UAE001",
+        "ART-20261016-USA001",
+        "ART-20261016-USA002",
+        "ART-20261016-USA003"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "PHL-OILGAS-LNGPH-ILIJAN-TANK3",
+        "PHL-RAIL-PNR-SOUTH-LONGHAUL",
+        "UAE-WATER-TF06C2-AL-MAKTOUM-DRAINAGE",
+        "IDN-ENERGY-HALMAHERA-FLOATING-NPP",
+        "IDN-OILGAS-CIREBON-BANDUNG-GAS-PIPELINE",
+        "IDN-OILGAS-SEMARANG-SOLO-YOGYAKARTA-GAS-PIPELINE",
+        "IDN-ROAD-PEJAGAN-CILACAP-TOLL",
+        "IDN-INDUSTRIAL-KATIBUNG-ENERGY-ZONE",
+        "UAE-OILGAS-BUHASA-SHUAIBA-EOR-P1",
+        "USA-ENERGY-VAWV-GRID-ENHANCING",
+        "USA-TRANSPORT-GWB-GENERAL-CONSTRUCTION-MA"
+      ],
+      "updated": [
+        "IDN-WATER-JAVA-GIANT-SEA-WALL",
+        "PHL-ROAD-BATAAN-CAVITE-INTERLINK",
+        "UAE-ROAD-FIRST-AL-KHAIL-STREET"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-19",
-    "articlePublishedDate": "2026-10-16",
-    "projectUpdatedDate": "2026-10-16"
+    "articleCollectedDate": "2026-10-20",
+    "articlePublishedDate": "2026-10-19",
+    "projectUpdatedDate": "2026-10-19"
   }
 }
