@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T15:41:13.935Z",
+  "updatedAt": "2026-10-20T19:34:12.152Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,63 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9192,
-    "projects": 4171
+    "articles": 9215,
+    "projects": 4181
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261020-BGD001",
+        "ART-20261020-BGD002",
+        "ART-20261020-IND001",
+        "ART-20261020-IND002",
+        "ART-20261020-IND003",
+        "ART-20261020-MYS001",
+        "ART-20261020-MYS002",
+        "ART-20261020-MYS003",
+        "ART-20261020-RUS001",
+        "ART-20261020-RUS002",
+        "ART-20261019-IND001",
+        "ART-20261019-IND002",
+        "ART-20261019-IND003",
+        "ART-20261019-QAT001",
+        "ART-20261019-RUS001",
+        "ART-20261019-RUS002",
+        "ART-20261018-IND001",
+        "ART-20261018-QAT001",
+        "ART-20261018-QAT002",
+        "ART-20261018-RUS001",
+        "ART-20261018-RUS002",
+        "ART-20261017-IND001",
+        "ART-20261017-QAT001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "IND-ENERGY-ELEVEN-HARYANA-PARALLEL-DISTRIBUTION",
+        "IND-ENERGY-NOPL-MAHARASHTRA-990MW-SOLAR",
+        "IND-ROAD-DELHI-MUMBAI-EXPRESSWAY-PKG8",
+        "MYS-WATER-NORTHERN-PERAK-NPWSS",
+        "MYS-WATER-PRAB3-SARAWAK",
+        "IND-ENERGY-NTPCREL-KURNOOL-900MW-SOLAR",
+        "IND-IND-PETNIKOTA-CEMENT-WORKS",
+        "QAT-ROAD-SAFETY-IMPROVEMENTS-STRUCTURES",
+        "IND-ENERGY-ERES47-NAWADA-DURGAPUR-JEERAT",
+        "QAT-WATER-AQUIFER-STORAGE-RECOVERY"
+      ],
+      "updated": [
+        "BGD-BRT-AIRPORT-JOYDEBPUR",
+        "RUS-BRIDGE-LENA-YAKUTSK",
+        "RUS-SOC-PROTVINO-SILA-SYNCHROTRON"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-20",
-    "articlePublishedDate": "2026-10-19",
-    "projectUpdatedDate": "2026-10-19"
+    "articleCollectedDate": "2026-10-21",
+    "articlePublishedDate": "2026-10-20",
+    "projectUpdatedDate": "2026. 10. 20"
   }
 }
