@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T15:21:30.464Z",
+  "updatedAt": "2026-10-21T19:22:29.878Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,33 +28,77 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9218,
-    "projects": 4183
+    "articles": 9248,
+    "projects": 4199
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261020-SAU001",
-        "ART-20261020-SAU002",
-        "ART-20261019-SAU001"
+        "ART-20261021-EGY001",
+        "ART-20261021-KWT003",
+        "ART-20261021-KWT004",
+        "ART-20261021-SGP001",
+        "ART-20261021-THA001",
+        "ART-20261021-TUR001",
+        "ART-20261021-UZB001",
+        "ART-20261021-VNM001",
+        "ART-20261020-ARG001",
+        "ART-20261020-CHN001",
+        "ART-20261020-IRN001",
+        "ART-20261020-IRQ001",
+        "ART-20261020-JPN001",
+        "ART-20261020-LBY001",
+        "ART-20261020-MEX001",
+        "ART-20261020-TZA001",
+        "ART-20261020-VNM001",
+        "ART-20261020-VNM002",
+        "ART-20261019-ARG001",
+        "ART-20261019-THA001",
+        "ART-20261019-TZA001",
+        "ART-20261018-EGY001",
+        "ART-20261018-KWT001",
+        "ART-20261018-KWT002",
+        "ART-20261018-LBY001",
+        "ART-20261018-LBY002",
+        "ART-20261018-UZB002",
+        "ART-20261018-VNM001",
+        "ART-20261016-KHM001",
+        "ART-20261013-ARG001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "SAU-URBAN-ALRIMAL-RESIDENTIAL-COMMUNITY",
-        "SAU-SOC-QIDDIYA-PRINCE-MBS-STADIUM"
+        "IRQ-WATER-SHATT-AL-ARAB-AL-MAQIL-WEIR-KARMA-ALI-PH2",
+        "KWT-URBAN-MATLAA-N1-SUBDISTRICT-CENTRE-INFRASTRUCTURE",
+        "ARG-SOC-USHUAIA-NAVAL-BASE-MODULAR-SHEDS",
+        "IRN-DIGITAL-POWERGRID-HOTZONE-SEG-C",
+        "JPN-ENERGY-CHIBA-SANMU-GRID-BESS",
+        "LBY-ROAD-TOBRUK-AMSAAD",
+        "TZA-TRANSPORT-PANGANI-BRIDGE",
+        "VNM-IND-DANANG-FTZ-FA7-INFRA",
+        "ARG-OILGAS-BAJO-DEL-CHOIQUE-LA-INVERNADA",
+        "THA-RAIL-BANGKOK-BROWN-LINE",
+        "TZA-TRANSPORT-NYOLOLO-MTWANGO-ROAD",
+        "KWT-TRANSPORT-KOC-ROADS-AHMADI-SOUTH-EAST-RFP2143095-P3",
+        "KWT-TRANSPORT-KOC-ROADS-NORTH-WEST-RFP2134797",
+        "LBY-DIGITAL-MEDUSA-BENGHAZI-LANDING",
+        "UZB-TRANSPORT-SAMARKAND-SHIRIN-KARADARYA-BRIDGE",
+        "ARG-TRANSPORT-USHUAIA-MILITARY-WHARF"
       ],
       "updated": [
-        "SAU-SOC-QIDDIYA-NATIONAL-TENNIS-CENTRE"
+        "EGY-ENERGY-NEFER-MINYA-SOLAR",
+        "KWT-ENERGY-SOUTHSAAD-132KV-SUBSTATIONS-PH4",
+        "UZB-SOC-KARSHI-600BED-MEDICAL-CENTER",
+        "KHM-BRIDGE-KOH-NOREA-AREY-KSAT"
       ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-21",
-    "articlePublishedDate": "2026-10-20",
-    "projectUpdatedDate": "2026. 10. 20"
+    "articleCollectedDate": "2026-10-22",
+    "articlePublishedDate": "2026-10-21",
+    "projectUpdatedDate": "2026-10-22"
   }
 }
