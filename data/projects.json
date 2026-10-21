@@ -90,6 +90,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-SOC-QIDDIYA-NATIONAL-TENNIS-CENTRE",
+    "프로젝트명": "National Tennis Centre at Qiddiya City",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "사회인프라",
+    "발주처": "Qiddiya Investment Company",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-20",
+    "대표 기사 고유값": "ART-20261020-SAU001",
+    "비고": "Qiddiya City National Tennis Centre. 2026-10-19 Zamil Steel sub-contract for structural steel and external metal facades, SAR 308,174,296 excl. VAT, 19-month execution. Latest update reflects this specialist works contract; total project cost remains unconfirmed.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "SAU-URBAN-ALRIMAL-RESIDENTIAL-COMMUNITY",
+    "프로젝트명": "Arada Al Rimal Residential Community Project",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "도시개발·주택",
+    "발주처": "Arada KSA / Arada / XTOPIA",
+    "사업비(달러 기준 추정액)": "USD 3.73bn",
+    "사업비 환산 환율 / 기준": "Arada 2026-10-20 공식 발표 SAR 14bn 프로젝트 규모, SAR 3.75/USD 고정환율 적용. 개별 공사계약액이 아닌 프로젝트 발표 규모.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-20",
+    "대표 기사 고유값": "ART-20261020-SAU002",
+    "비고": "리야드 알리말 2.5mn㎡, 약 3,500채의 빌라·타운하우스, 학교·상업·커뮤니티·스포츠시설 및 10만 그루 식재 계획. CMA 규제 투자구조로 조달하고 2027년 분양·현장공사 개시 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-WATER-JAVA-GIANT-SEA-WALL",
     "프로젝트명": "Java 북부 Giant Sea Wall 사업",
     "지역": "아시아",
@@ -207,6 +237,21 @@
     "최근 업데이트일": "2026-10-19",
     "대표 기사 고유값": "ART-20261019-RUS002",
     "비고": "야쿠츠크 인근 레나강 3주탑 사장교·접근도로 사업임. 2026-10-19 지방의원의 1년 중단·RUB11bn 전용 제안이 나왔으나 정부 결정은 아니어서 construction 단계를 유지하고 2027년 연방·공화국 예산 확정을 추적함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SAU-SOC-QIDDIYA-PRINCE-MBS-STADIUM",
+    "프로젝트명": "Prince Mohammed bin Salman Stadium",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "사회인프라",
+    "발주처": "Qiddiya Investment Company / UPTOWN STADIUM CONSTRUCTION JV",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 공시에서 커튼월 패키지 계약금액은 확인되나 경기장 전체 프로젝트 사업비는 확인되지 않음. 패키지 계약금액은 프로젝트 전체 사업비로 입력하지 않음.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-10-19",
+    "대표 기사 고유값": "ART-20261019-SAU001",
+    "비고": "주 경기장 LOT 1 및 박물관·부속건물 LOT 3의 커튼월 설계·공급·설치 패키지. 863일 계약. 원도급사 FCC Construcción-Nesma & Partners JV.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -11382,21 +11427,6 @@
     "최근 업데이트일": "2026-06-15",
     "대표 기사 고유값": "ART-20260615-003197",
     "비고": "모스크바-니즈니노브고로드-카잔 고속철 후보. 2026-06-15 대통령 승인 보도 기준 사전검토 단계이며, 기존 Moscow-St Petersburg HSR과 별도 프로젝트로 관리.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "SAU-SOC-QIDDIYA-NATIONAL-TENNIS-CENTRE",
-    "프로젝트명": "National Tennis Centre at Qiddiya City",
-    "지역": "중동",
-    "국가": "사우디아라비아",
-    "섹터": "사회인프라",
-    "발주처": "Qiddiya Investment Company",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-06-15",
-    "대표 기사 고유값": "ART-20260615-003240",
-    "비고": "Qiddiya City 내 대형 테니스·스포츠 인프라. Populous가 설계하고 ATP·WTA·ITF 기준으로 조성 중이며, 국제대회·훈련·웰니스·공공공간·복합 이벤트 기능을 포함. 공사가 이미 진행 중인 것으로 확인되어 construction 단계로 관리.",
     "대표 기사 정보 분류": ""
   },
   {

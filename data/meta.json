@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T10:19:39.029Z",
+  "updatedAt": "2026-10-21T15:21:30.464Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,18 +28,27 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9215,
-    "projects": 4181
+    "articles": 9218,
+    "projects": 4183
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261020-SAU001",
+        "ART-20261020-SAU002",
+        "ART-20261019-SAU001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "SAU-URBAN-ALRIMAL-RESIDENTIAL-COMMUNITY",
+        "SAU-SOC-QIDDIYA-PRINCE-MBS-STADIUM"
+      ],
+      "updated": [
+        "SAU-SOC-QIDDIYA-NATIONAL-TENNIS-CENTRE"
+      ],
       "removed": []
     }
   },
