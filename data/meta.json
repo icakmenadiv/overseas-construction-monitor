@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T21:34:22.409Z",
+  "updatedAt": "2026-10-21T22:28:46.998Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 9246,
@@ -35,17 +35,12 @@
     "articles": {
       "added": [],
       "updated": [],
-      "removed": [
-        "ART-20261020-BGD002",
-        "ART-20260714-013081"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [],
       "updated": [],
-      "removed": [
-        "CAN-SOC-ALBERTA-P3-SCHOOL-BUNDLE-7"
-      ]
+      "removed": []
     }
   },
   "latest": {
