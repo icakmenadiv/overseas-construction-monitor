@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T21:34:48.975Z",
+  "updatedAt": "2026-10-21T04:42:05.713Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -492,6 +492,9 @@
       "ART-20260701-010619": {
         "source_link_click": 1
       },
+      "ART-20260701-011167": {
+        "source_link_click": 1
+      },
       "ART-20260701-011427": {
         "article_detail_open": 1
       },
@@ -761,6 +764,9 @@
       },
       "ART-20260710-012831": {
         "article_detail_open": 1
+      },
+      "ART-20260710-012973": {
+        "source_link_click": 1
       },
       "ART-20260710-012989": {
         "source_link_click": 1
@@ -1496,6 +1502,9 @@
       },
       "ART-20261011-IDN001": {
         "article_detail_open": 1
+      },
+      "ART-20261019-PHL001": {
+        "source_link_click": 1
       }
     },
     "page": {
@@ -1504,6 +1513,9 @@
       }
     },
     "project": {
+      "Accra-Kumasi Expressway Project": {
+        "project_detail_open": 1
+      },
       "Alatau City 개발사업": {
         "project_detail_open": 2
       },
@@ -1514,6 +1526,9 @@
         "project_detail_open": 1
       },
       "AUS-ENERGY-MOORABOOL-BESS-VBB2": {
+        "project_detail_open": 1
+      },
+      "Bataan-Cavite Interlink Bridge Project": {
         "project_detail_open": 1
       },
       "Benapole Land Port Expansion Project": {
@@ -2970,6 +2985,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20260701-011167",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-10-21T00:56:00.723Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20260701-011427",
       "eventType": "article_detail_open",
       "count": 1,
@@ -3737,6 +3759,13 @@
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-08-07T00:29:27.485Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20260710-012973",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-10-21T00:55:52.559Z"
     },
     {
       "targetType": "article",
@@ -5748,11 +5777,25 @@
       "updatedAt": "2026-10-14T01:02:19.384Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20261019-PHL001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-10-21T02:09:33.053Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
       "count": 49,
       "updatedAt": "2026-10-14T01:01:14.056Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Accra-Kumasi Expressway Project",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-10-21T00:55:32.989Z"
     },
     {
       "targetType": "project",
@@ -5781,6 +5824,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:22:26.325Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Bataan-Cavite Interlink Bridge Project",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-10-21T02:09:24.309Z"
     },
     {
       "targetType": "project",
