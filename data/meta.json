@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T10:23:36.905Z",
+  "updatedAt": "2026-10-22T15:26:02.308Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,33 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9246,
-    "projects": 4198
+    "articles": 9251,
+    "projects": 4201
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261021-USA001",
+        "ART-20261020-USA001",
+        "ART-20261019-USA001",
+        "ART-20261019-USA002",
+        "ART-20261019-USA003"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "USA-ENERGY-NEW-ENGLAND-WIND",
+        "USA-OILGAS-CONSTITUTION-PIPELINE",
+        "USA-URBAN-DETROIT-RENAISSANCE-EAST-RIVERFRONT"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-22",
+    "articleCollectedDate": "2026-10-23",
     "articlePublishedDate": "2026-10-21",
     "projectUpdatedDate": "2026-10-22"
   }

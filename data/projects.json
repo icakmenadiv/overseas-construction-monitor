@@ -60,6 +60,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "USA-ENERGY-NEW-ENGLAND-WIND",
+    "프로젝트명": "New England Wind Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "에너지",
+    "발주처": "Avangrid / U.S. Department of the Interior",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-21",
+    "대표 기사 고유값": "ART-20261021-USA001",
+    "비고": "매사추세츠 해상 최대 129기·2,600MW 계획. 연방 건설·운영계획 승인을 내무부가 재검토하도록 정부가 법원에 환송 요청; 법원 판단·허가 효력 변화 미확정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UZB-SOC-KARSHI-600BED-MEDICAL-CENTER",
     "프로젝트명": "Karshi City 600-bed Multi-profile Medical Center Construction Project",
     "지역": "중앙아시아",
@@ -492,6 +507,36 @@
     "최근 업데이트일": "2026-10-19",
     "대표 기사 고유값": "ART-20261019-UAE002",
     "비고": "Al Maktoum Airport·Dubai South·Dubai Industrial City를 서비스하는 약 20km 우수배수관 패키지임. 직경 400~3,000mm 관로를 비개착·개착 방식으로 시공하며 2026년 11월 5일 입찰 마감임.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-OILGAS-CONSTITUTION-PIPELINE",
+    "프로젝트명": "Constitution Pipeline Project",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "석유가스·화학",
+    "발주처": "U.S. Department of Energy / Constitution Pipeline project sponsor",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-10-19",
+    "대표 기사 고유값": "ART-20261019-USA003",
+    "비고": "펜실베이니아-뉴욕 약 125마일 제안 가스관. DOE DPA Title III 최대 USD 42mn 지원은 개발·인허가 목적이며 사업 총사업비와 공사 발주 일정 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "USA-URBAN-DETROIT-RENAISSANCE-EAST-RIVERFRONT",
+    "프로젝트명": "Renaissance Center and East Riverfront District Redevelopment",
+    "지역": "북미",
+    "국가": "미국",
+    "섹터": "도시개발·주택",
+    "발주처": "Bedrock / 신규 비영리조직",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-19",
+    "대표 기사 고유값": "ART-20261019-USA001",
+    "비고": "10억 달러 개발자본 출연 약정. 르네상스센터 및 35에이커 강변지구 재개발·소유·운영 계획. 총사업비와 발주·시공 일정 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
