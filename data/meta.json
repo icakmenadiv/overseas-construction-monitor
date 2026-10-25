@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T15:20:56.961Z",
+  "updatedAt": "2026-10-25T18:27:01.710Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,30 +28,52 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9306,
-    "projects": 1827
+    "articles": 9320,
+    "projects": 1836
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261021-SAU001",
-        "ART-20261021-SAU002"
+        "ART-20261024-IRN001",
+        "ART-20261024-IRN002",
+        "ART-20261024-IRQ001",
+        "ART-20261023-JPN001",
+        "ART-20261023-SGP001",
+        "ART-20261022-KHM001",
+        "ART-20261022-KWT001",
+        "ART-20261022-THA001",
+        "ART-20261022-THA002",
+        "ART-20261022-TUR001",
+        "ART-20261021-IRN001",
+        "ART-20261021-IRQ001",
+        "ART-20261021-KHM002",
+        "ART-20261021-MEX001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "SAU-DIGITAL-NEOM-OXAGON-AI-CAMPUS",
-        "SAU-SOC-EXPO2030-RIYADH-ADAPTATION-PAVILION"
+        "IRN-PETCHEM-ALAY-MEHESTAN-PDH-PP",
+        "IRQ-PORT-GRAND-FAW-PHASE1",
+        "JPN-ENERGY-KASHIWAZAKI-HYDROGEN-PARK",
+        "SGP-WATER-UPPER-BUKIT-TIMAH-CANAL-UPGRADE",
+        "KWT-OILGAS-ALZOUR-ONSHORE-PRODUCTION-FACILITY",
+        "TUR-RAIL-ETMIC-DIVRIGI-KARS",
+        "IRN-PETCHEM-DEHDASHT-HDPE",
+        "KHM-RURAL-INFRA-RISING",
+        "CHN-RAIL-TONGYONG-HANGZHOU-BAY-BRIDGE"
       ],
-      "updated": [],
+      "updated": [
+        "KHM-BRIDGE-KOH-NOREA-AREY-KSAT",
+        "THA-RAIL-THREE-AIRPORT-HSR"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-10-26",
-    "articlePublishedDate": "2026-10-23",
-    "projectUpdatedDate": "2026-10-22"
+    "articlePublishedDate": "2026-10-24",
+    "projectUpdatedDate": "2026-10-24"
   }
 }
