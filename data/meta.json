@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:44:13.614Z",
+  "updatedAt": "2026-10-25T21:02:05.765Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 9330,
@@ -33,34 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261026-TZA001",
-        "ART-20261023-LBY001",
-        "ART-20261023-TZA001",
-        "ART-20261023-UZB001",
-        "ART-20261022-ARG001",
-        "ART-20261022-LBY001",
-        "ART-20261022-UZB001",
-        "ART-20261022-UZB002",
-        "ART-20261021-ARG001",
-        "ART-20261021-UZB002"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "TZA-SOC-MTUMBA-GOVERNMENT-CITY",
-        "LBY-SOC-MARJ-ENGINEERING-MEDICAL-COLLEGES-COMPLEX",
-        "TZA-ROAD-NSALAGA-IFISI-DUAL-CARRIAGEWAY",
-        "LBY-SOC-AL-BAYDA-GENERAL-ONCOLOGY-HOSPITAL",
-        "UZB-ENERGY-KASHKADARYA-MASDAR-SOLAR-BESS",
-        "UZB-URBAN-NEW-KARSHI",
-        "ARG-RAIL-BELGRANO-CARGAS-CONCESSION"
-      ],
-      "updated": [
-        "UZB-ENERGY-INTEGRATED-NPP"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
