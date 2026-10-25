@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:56:03.909Z",
+  "updatedAt": "2026-10-25T15:20:56.961Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,29 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9304,
-    "projects": 1825
+    "articles": 9306,
+    "projects": 1827
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261021-SAU001",
+        "ART-20261021-SAU002"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "SAU-DIGITAL-NEOM-OXAGON-AI-CAMPUS",
+        "SAU-SOC-EXPO2030-RIYADH-ADAPTATION-PAVILION"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-24",
+    "articleCollectedDate": "2026-10-26",
     "articlePublishedDate": "2026-10-23",
     "projectUpdatedDate": "2026-10-22"
   }
