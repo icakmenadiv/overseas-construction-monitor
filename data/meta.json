@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T18:27:01.710Z",
+  "updatedAt": "2026-10-25T20:44:13.614Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,56 +24,49 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9320,
-    "projects": 1836
+    "articles": 9330,
+    "projects": 1843
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261024-IRN001",
-        "ART-20261024-IRN002",
-        "ART-20261024-IRQ001",
-        "ART-20261023-JPN001",
-        "ART-20261023-SGP001",
-        "ART-20261022-KHM001",
-        "ART-20261022-KWT001",
-        "ART-20261022-THA001",
-        "ART-20261022-THA002",
-        "ART-20261022-TUR001",
-        "ART-20261021-IRN001",
-        "ART-20261021-IRQ001",
-        "ART-20261021-KHM002",
-        "ART-20261021-MEX001"
+        "ART-20261026-TZA001",
+        "ART-20261023-LBY001",
+        "ART-20261023-TZA001",
+        "ART-20261023-UZB001",
+        "ART-20261022-ARG001",
+        "ART-20261022-LBY001",
+        "ART-20261022-UZB001",
+        "ART-20261022-UZB002",
+        "ART-20261021-ARG001",
+        "ART-20261021-UZB002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "IRN-PETCHEM-ALAY-MEHESTAN-PDH-PP",
-        "IRQ-PORT-GRAND-FAW-PHASE1",
-        "JPN-ENERGY-KASHIWAZAKI-HYDROGEN-PARK",
-        "SGP-WATER-UPPER-BUKIT-TIMAH-CANAL-UPGRADE",
-        "KWT-OILGAS-ALZOUR-ONSHORE-PRODUCTION-FACILITY",
-        "TUR-RAIL-ETMIC-DIVRIGI-KARS",
-        "IRN-PETCHEM-DEHDASHT-HDPE",
-        "KHM-RURAL-INFRA-RISING",
-        "CHN-RAIL-TONGYONG-HANGZHOU-BAY-BRIDGE"
+        "TZA-SOC-MTUMBA-GOVERNMENT-CITY",
+        "LBY-SOC-MARJ-ENGINEERING-MEDICAL-COLLEGES-COMPLEX",
+        "TZA-ROAD-NSALAGA-IFISI-DUAL-CARRIAGEWAY",
+        "LBY-SOC-AL-BAYDA-GENERAL-ONCOLOGY-HOSPITAL",
+        "UZB-ENERGY-KASHKADARYA-MASDAR-SOLAR-BESS",
+        "UZB-URBAN-NEW-KARSHI",
+        "ARG-RAIL-BELGRANO-CARGAS-CONCESSION"
       ],
       "updated": [
-        "KHM-BRIDGE-KOH-NOREA-AREY-KSAT",
-        "THA-RAIL-THREE-AIRPORT-HSR"
+        "UZB-ENERGY-INTEGRATED-NPP"
       ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-10-26",
-    "articlePublishedDate": "2026-10-24",
-    "projectUpdatedDate": "2026-10-24"
+    "articlePublishedDate": "2026-10-26",
+    "projectUpdatedDate": "2026-10-26"
   }
 }
