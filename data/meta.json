@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T12:44:44.688Z",
+  "updatedAt": "2026-10-27T18:19:23.205Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,56 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9357,
-    "projects": 1855
+    "articles": 9377,
+    "projects": 1861
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261027-AUS001",
+        "ART-20261027-AUS002",
+        "ART-20261027-BGD001",
+        "ART-20261026-CAN003",
+        "ART-20261026-CZE001",
+        "ART-20261026-CZE002",
+        "ART-20261026-DZA001",
+        "ART-20261026-KAZ001",
+        "ART-20261026-MYS001",
+        "ART-20261026-MYS002",
+        "ART-20261026-MYS003",
+        "ART-20261026-QAT001",
+        "ART-20261025-DZA001",
+        "ART-20261025-NGA001",
+        "ART-20261024-NGA001",
+        "ART-20261028-RUS001",
+        "ART-20261028-RUS002",
+        "ART-20261023-CAN001",
+        "ART-20261023-CAN002",
+        "ART-20261023-NGA001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "CAN-SOC-QUINTE-DETENTION-CENTRE-EXP",
+        "DZA-ENERGY-EL-FOULIA-SOLAR-PV",
+        "KAZ-URBAN-ALATAU-ICONIC-COMPLEX",
+        "NGA-ROAD-ABUJA-KADUNA-LOT1-TUNGAN-MAJE-JERE",
+        "CAN-DIGITAL-LEIF-ERIKSON",
+        "NGA-WATER-JALINGO-RESERVOIR-INTERCONNECTION"
+      ],
+      "updated": [
+        "CZE-ROAD-D35-OPATOVEC-MOHELNICE-PPP",
+        "NGA-ROAD-OPEBI-OJOTA-LINK-BRIDGE",
+        "TKM-ENERGY-SHEBERGHAN-ALWAN-DASHTE-500KV"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-27",
-    "articlePublishedDate": "2026-10-26",
+    "articleCollectedDate": "2026-10-28",
+    "articlePublishedDate": "2026-10-27",
     "projectUpdatedDate": "2026-10-26"
   }
 }
