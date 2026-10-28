@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T13:58:52.280Z",
+  "updatedAt": "2026-10-28T19:20:30.685Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,69 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9386,
-    "projects": 1446
+    "articles": 9412,
+    "projects": 1460
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261028-CHN001",
+        "ART-20261028-IRN001",
+        "ART-20261028-IRN002",
+        "ART-20261028-IRQ001",
+        "ART-20261028-IRQ002",
+        "ART-20261028-JPN001",
+        "ART-20261028-UZB001",
+        "ART-20261028-VNM001",
+        "ART-20261029-KHM001",
+        "ART-20261027-ARG001",
+        "ART-20261027-JPN001",
+        "ART-20261027-SAU001",
+        "ART-20261027-SGP001",
+        "ART-20261027-TZA001",
+        "ART-20261027-VNM001",
+        "ART-20261029-KHM002",
+        "ART-20261026-CHN001",
+        "ART-20261026-IRQ001",
+        "ART-20261026-JPN001",
+        "ART-20261026-SGP001",
+        "ART-20261026-SGP002",
+        "ART-20261026-TZA002",
+        "ART-20261026-VNM001",
+        "ART-20261026-VNM002",
+        "ART-20261025-IRN001",
+        "ART-20261025-TZA001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "IRQ-ENERGY-AL-KHAIRAT-HFO-POWER-PLANT-PHASE1",
+        "IRQ-WATER-SHATT-AL-ARAB-AL-MAQIL-WEIR-KARMA-ALI-PH2",
+        "JPN-DIGITAL-UTSUNOMIYA-SHINTOCHIGI-DATACENTER",
+        "KHM-PORT-SIHANOUKVILLE-NCT-PH2",
+        "VNM-PORT-CAN-GIO-INTERNATIONAL-TRANSSHIPMENT",
+        "ARG-GAS-HOLDICH-COMPRESSOR-STATION",
+        "JPN-URBAN-NEXT-SHIBUYA-SAKURAGAOKA",
+        "KHM-IND-KP-CEMENT-KRATIE",
+        "SAU-ROAD-RIYADH-KING-SALMAN-INTERCHANGES-9-11",
+        "TZA-RAIL-SGR-MAKUTUPORA-ISAKA-LOTS3-4",
+        "IRQ-WATER-AL-KHALIDIYA-SANITATION-DRAINAGE",
+        "VNM-BRIDGE-TAN-AN-NH18",
+        "VNM-ENERGY-BAC-AI-PUMPED-STORAGE",
+        "TZA-RAIL-MGR-KALIUA-MPANDA-UPGRADE"
+      ],
+      "updated": [
+        "THA-RAIL-THREE-AIRPORT-HSR",
+        "EGY-ENERGY-GULF-SUEZ-500KV-LINE"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-28",
-    "articlePublishedDate": "2026-10-27",
-    "projectUpdatedDate": "2026-10-27"
+    "articleCollectedDate": "2026-10-29",
+    "articlePublishedDate": "2026-10-28",
+    "projectUpdatedDate": "2026-10-28"
   }
 }
