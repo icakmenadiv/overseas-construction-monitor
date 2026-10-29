@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T02:30:06.559Z",
+  "updatedAt": "2026-10-29T08:47:45.399Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,34 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9412,
-    "projects": 1460
+    "articles": 9421,
+    "projects": 1466
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261028-JOR002",
+        "ART-20261028-KGZ005",
+        "ART-20261028-SDN001",
+        "ART-20261028-SDN002",
+        "ART-20261026-KGZ001",
+        "ART-20261026-KGZ002",
+        "ART-20261026-KGZ003",
+        "ART-20261026-KGZ004",
+        "ART-20261025-JOR001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "SDN-ENERGY-DONGOLA-20MW-SOLAR",
+        "SDN-WATER-PORT-SUDAN-INFRASTRUCTURE",
+        "KGZ-ENERGY-CHATKAL-HPP-CASCADE",
+        "KGZ-IND-ATBASHY-CUSTOMS-LOGISTICS-COMPLEX",
+        "KGZ-ROAD-OSH-KARA-SUU-RECONSTRUCTION",
+        "JOR-OILGAS-AQABA-PIPELINE-BRIDGE-CULVERTS"
+      ],
       "updated": [],
       "removed": []
     }
