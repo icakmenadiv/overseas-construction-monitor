@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T21:27:52.053Z",
+  "updatedAt": "2026-10-30T22:13:15.282Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,51 +24,34 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9498,
-    "projects": 1511
+    "articles": 9497,
+    "projects": 1508
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261030-RUS001",
-        "ART-20261030-RUS002",
-        "IND-20261030-BSRP001",
-        "ART-20261028-NGA001",
-        "ART-20261029-AUS001",
-        "ART-20261029-BGD001",
-        "ART-20261029-RUS001",
-        "ART-20261028-AUS001",
-        "ART-20261028-AUS002",
-        "ART-20261028-BGD001",
-        "IND-20261028-AP-CYCLONE001",
-        "ART-20261027-AUS003",
-        "ART-20261027-AUS004",
-        "ART-20261027-BGD002",
-        "ART-20261027-BGD003",
-        "IND-20261027-UP-PMITRA001"
+        "ART-20261028-KAZ001",
+        "ART-20261028-KAZ002"
       ],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20261029-BRA001",
+        "ART-20261029-OMN001",
+        "ART-20261027-OMN001"
+      ]
     },
     "projects": {
-      "added": [
-        "AUS-SOC-SHOALHAVEN-MEMORIAL-HOSPITAL-REDEVELOPMENT",
-        "BGD-METRO-DHAKA-MRT2",
-        "IND-RAIL-BSRP-MALLIGE-CORRIDOR2-PKG1",
-        "NGA-ROAD-ADO-ILAWE-ILUMABA-IKOLE",
-        "AUS-ROAD-BRIBIE-ISLAND-BRIDGE",
-        "BGD-ENERGY-CHATTOGRAM-PORT-ROOFTOP-SOLAR",
-        "AUS-ROAD-BULLEEN-INTERCHANGE",
-        "BGD-METRO-DHAKA-MRT1",
-        "BGD-METRO-DHAKA-MRT5-NORTH",
-        "IND-IND-UP-PM-MITRA-TEXTILE-PARK"
-      ],
+      "added": [],
       "updated": [],
-      "removed": []
+      "removed": [
+        "IDN-RAIL-SUMBAR-REACTIVATION",
+        "POL-RAIL-JASTRZEBIE-L159-RESTORATION",
+        "UAE-ENERGY-ALBIHOUTH-WASTE-TO-ENERGY"
+      ]
     }
   },
   "latest": {
