@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T11:37:17.418Z",
+  "updatedAt": "2026-10-30T17:08:36.785Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,48 +28,44 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9473,
-    "projects": 1496
+    "articles": 9482,
+    "projects": 1501
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261029-GNQ001",
-        "ART-20261028-AZE001",
-        "ART-20261028-GNQ001",
-        "ART-20261028-TJK001",
-        "ART-20261027-AZE001",
-        "ART-20261027-LKA001",
-        "ART-20261027-RWA001",
-        "ART-20261027-TJK001",
-        "ART-20261027-TJK002",
-        "ART-20261026-AZE001",
-        "ART-20261026-AZE002",
-        "ART-20261026-ISR001",
-        "ART-20261026-PNG001"
+        "ART-20261030-QAT001",
+        "ART-20261029-CZE001",
+        "ART-20261029-QAT001",
+        "ART-20261029-CHL001",
+        "ART-20261027-CHL001",
+        "ART-20261027-ECU001",
+        "ART-20261026-CHL001",
+        "ART-20261026-COL001",
+        "ART-20261025-ECU001"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20261026-CZE001"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "RWA-ROAD-BUGESERA-AIRPORT-EXPRESSWAY",
-        "GNQ-ROAD-CIUDAD-DE-LA-PAZ-AVENUES",
-        "AZE-RAIL-ADY-CRRC-4-PASSENGER-TRAINS",
-        "TJK-ROAD-BALJUVON-SARI-KHOSOR",
-        "LKA-WATER-MAHAWELI-SECURITY-INVESTMENT-PHASE-2",
-        "TJK-ROAD-DUSHANBE-SAADI-SHEROZI-GRADE-SEPARATED",
-        "AZE-WATER-CASPIAN-DESALINATION",
-        "ISR-URBAN-E1-1234-HOUSING-2026",
-        "PNG-IND-CENTRAL-CEMENT"
+        "CHL-IND-SANTO-DOMINGO-MINE",
+        "QAT-ROAD-MEKEINES-UMM-BAB-LINK",
+        "CHL-ENERGY-INTERCHILE-ATACAMA-SUBSTATIONS",
+        "COL-ROAD-CONEXION-CENTRO",
+        "ECU-ROAD-PUENTE-DELTA-CHURUTE"
       ],
-      "updated": [],
+      "updated": [
+        "CZE-ROAD-D35-OPATOVEC-MOHELNICE-PPP"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-10-30",
-    "articlePublishedDate": "2026-10-29",
+    "articleCollectedDate": "2026-10-31",
+    "articlePublishedDate": "2026-10-30",
     "projectUpdatedDate": "2026-10-30"
   }
 }

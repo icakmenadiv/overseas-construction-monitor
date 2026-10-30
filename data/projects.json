@@ -30,6 +30,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CHL-IND-SANTO-DOMINGO-MINE",
+    "프로젝트명": "Santo Domingo Copper-Iron-Gold Mine Project",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "산업·물류",
+    "발주처": "Capstone Copper",
+    "사업비(달러 기준 추정액)": "USD 2.3bn",
+    "사업비 환산 환율 / 기준": "공식 2024 타당성조사 기준 초기 자본비 추정액, 2023년 달러 기준; 회사가 2026 Q3에 갱신 중임을 공지",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-CHL001",
+    "비고": "상세설계 60% 목표, 지구 인프라 최적화 및 차입금 조달 작업 진행; FID 목표 2027년 1분기. 기존 Puerto Santo Domingo 항만사업(CHL-PORT-SANTO-DOMINGO)과는 별도 광산개발 사업임.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "GNQ-ROAD-CIUDAD-DE-LA-PAZ-AVENUES",
     "프로젝트명": "Ciudad de La Paz Bioko Norte, La Paz and Justicia Avenues Completion Project",
     "지역": "아프리카",
@@ -42,6 +57,21 @@
     "최근 업데이트일": "2026-10-29",
     "대표 기사 고유값": "ART-20261029-GNQ001",
     "비고": "Ciudad de la Paz의 Bioko Norte·La Paz·Justicia 대로 공사 완료 합의. 첫 지급 지시; 실제 지급·현장 재개일 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "QAT-ROAD-MEKEINES-UMM-BAB-LINK",
+    "프로젝트명": "Design and Construction of Mekeines to Umm Bab Link Road and Infrastructure",
+    "지역": "중동",
+    "국가": "카타르",
+    "섹터": "교통",
+    "발주처": "Public Works Authority (Ashghal)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-QAT001",
+    "비고": "2026-10-29 입찰 공고; 프로젝트 ID PA 2026 C 006 G. 제출 마감 2026-12-22, 입찰보증금 QAR 12.3mn. 공식 총사업비·공사기간 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -150,6 +180,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "CHL-ENERGY-INTERCHILE-ATACAMA-SUBSTATIONS",
+    "프로젝트명": "Interchile Atacama Nueva Cardones and Nueva Maitencillo GIS Expansions",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "에너지",
+    "발주처": "Interchile S.A. (ISA Energía)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-10-27",
+    "대표 기사 고유값": "ART-20261027-CHL001",
+    "비고": "Nueva Cardones 및 Nueva Maitencillo 220kV GIS 증설 국제입찰. 참고 투자액은 각각 USD 1,896,506 및 USD 1,880,310으로 기사에 제시됨; 두 건 통합 공식 총사업비는 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "LKA-WATER-MAHAWELI-SECURITY-INVESTMENT-PHASE-2",
     "프로젝트명": "Mahaweli Water Security Investment Program Phase 2",
     "지역": "아시아",
@@ -193,6 +238,36 @@
     "대표 기사 고유값": "ART-20261026-AZE001",
     "비고": "ADB가 2건의 USD 70mn 대출을 제안·검토 중. 300,000㎥/일 역삼투압 담수화시설과 관련 인프라, 25년 PPP.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "COL-ROAD-CONEXION-CENTRO",
+    "프로젝트명": "Conexión Centro Private Road Initiative",
+    "지역": "중남미",
+    "국가": "콜롬비아",
+    "섹터": "교통",
+    "발주처": "Agencia Nacional de Infraestructura (ANI) / Originator: Odinsa Vías S.A.S.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026-10-26",
+    "대표 기사 고유값": "ART-20261026-COL001",
+    "비고": "2026-10-26 교통부 발표: 기존 거부 결정을 철회하고 타당성 평가 재개. 승인·계약 미확정; 공식 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CZE-ROAD-D35-OPATOVEC-MOHELNICE-PPP",
+    "프로젝트명": "D35 Motorway Opatovec-Mohelnice PPP Project",
+    "지역": "유럽",
+    "국가": "체코",
+    "섹터": "교통",
+    "발주처": "Czech Ministry of Transport",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "체코 교통부 2026-10-06: 제안 가용성 지급액 NPV CZK 71.324bn은 장기 지급 현재가치로 공식 CAPEX가 아니므로 사업비 열에 미반영.",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-10-26",
+    "대표 기사 고유값": "ART-20261026-CZE001",
+    "비고": "",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "ISR-URBAN-E1-1234-HOUSING-2026",
@@ -252,6 +327,21 @@
     "최근 업데이트일": "2026-10-26",
     "대표 기사 고유값": "ART-20261026-SRB002",
     "비고": "",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ECU-ROAD-PUENTE-DELTA-CHURUTE",
+    "프로젝트명": "Puente Delta en Churute Project",
+    "지역": "중남미",
+    "국가": "에콰도르",
+    "섹터": "교통",
+    "발주처": "Prefectura del Guayas",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-25",
+    "대표 기사 고유값": "ART-20261025-ECU001",
+    "비고": "Churute강, Puerto Inca–Naranjal 도로 km 26. 1단계 공정률 60% 초과, 40m 거더 4기 설치. 2026년 11월 중순 인도 목표; 공식 총사업비·시공사 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -7464,21 +7554,6 @@
     "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "CZE-ROAD-D35-OPATOVEC-MOHELNICE-PPP",
-    "프로젝트명": "D35 Motorway Opatovec-Mohelnice PPP Project",
-    "지역": "유럽",
-    "국가": "체코",
-    "섹터": "교통",
-    "발주처": "Czech Ministry of Transport",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "체코 교통부 2026-10-06: 제안 가용성 지급액 NPV CZK 71.324bn은 장기 지급 현재가치로 공식 CAPEX가 아니므로 사업비 열에 미반영.",
-    "현재 단계": "awarded",
     "최근 업데이트일": "",
     "대표 기사 고유값": "",
     "비고": "",
