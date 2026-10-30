@@ -15,6 +15,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AUS-SOC-SHOALHAVEN-MEMORIAL-HOSPITAL-REDEVELOPMENT",
+    "프로젝트명": "Shoalhaven Memorial Hospital Redevelopment Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "사회인프라",
+    "발주처": "NSW Government / NSW Health / Illawarra Shoalhaven Local Health District",
+    "사업비(달러 기준 추정액)": "USD 310.33mn",
+    "사업비 환산 환율 / 기준": "AUD/USD 0.7053, 2026-10-29 기준",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-AUS001",
+    "비고": "공식 재개발액 AUD 440mn을 Reserve Bank of Australia 2026-10-29 고시환율 AUD/USD 0.7053으로 환산. 7층 급성의료서비스동 개원·응급실 운영 개시; 서비스 단계 이전과 기존 병동 개보수가 남아 전체 사업은 construction.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BGD-METRO-DHAKA-MRT2",
+    "프로젝트명": "Dhaka Metro Rail MRT Line-2 (Gabtoli–Narayanganj)",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "교통",
+    "발주처": "Dhaka Mass Transit Company Limited (DMTCL)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-BGD001",
+    "비고": "30.4km, 7.5km 지하·22.9km 고가 계획. Tk 60,837 crore 추정액 및 세계은행 금융요청 확인; 세계은행 지원은 미확정.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "BWA-RAIL-TRANS-KALAHARI",
     "프로젝트명": "Trans-Kalahari Railway Project",
     "지역": "아프리카",
@@ -60,6 +90,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IND-RAIL-BSRP-MALLIGE-CORRIDOR2-PKG1",
+    "프로젝트명": "Bengaluru Suburban Rail Project, Mallige Line (Corridor 2), Package 1",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "Karnataka Rail Infrastructure Development Company (K-RIDE) / Cemindia Projects Ltd",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "IND-20261030-BSRP001",
+    "비고": "Mallige Line Package 1의 INR 665.61 crore 계약은 전체 사업비가 아닌 패키지 계약액임. 7.795km 고가교·진입램프, Mathikere 역 및 복층 철도·도로 플라이오버 포함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-ROAD-ADO-ILAWE-ILUMABA-IKOLE",
+    "프로젝트명": "Ado–Ilawe–Ilumaba–Ikole Road Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "Federal Ministry of Works",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261028-NGA001",
+    "비고": "FEC가 81.1km 도로 재건 및 교량 사업에 NGN 209bn 승인. 공식 USD 사업비 미확인; 시공사·공사 일정 미공개.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "QAT-ROAD-MEKEINES-UMM-BAB-LINK",
     "프로젝트명": "Design and Construction of Mekeines to Umm Bab Link Road and Infrastructure",
     "지역": "중동",
@@ -72,6 +132,21 @@
     "최근 업데이트일": "2026-10-29",
     "대표 기사 고유값": "ART-20261029-QAT001",
     "비고": "2026-10-29 입찰 공고; 프로젝트 ID PA 2026 C 006 G. 제출 마감 2026-12-22, 입찰보증금 QAR 12.3mn. 공식 총사업비·공사기간 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "AUS-ROAD-BRIBIE-ISLAND-BRIDGE",
+    "프로젝트명": "Bribie Island Bridge Upgrade Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "교통",
+    "발주처": "Queensland Government / Department of Transport and Main Roads",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-28",
+    "대표 기사 고유값": "ART-20261028-AUS001",
+    "비고": "기존 교량 북측 왕복 4차로 신설 및 기존 교량 보행·자전거 연결로 전환 선호설계 공개. 상세설계·지반·환경조사 중, 2028년 착공 예상(조달·인허가 조건부).",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -88,6 +163,21 @@
     "대표 기사 고유값": "ART-20261027-AZE001",
     "비고": "계약 4편성은 바쿠–가자흐 노선 우선 투입 예정; 노선 배치 세부는 ART-20261028-AZE001 참조.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BGD-ENERGY-CHATTOGRAM-PORT-ROOFTOP-SOLAR",
+    "프로젝트명": "Chattogram Port Rooftop Solar Power Project",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "에너지",
+    "발주처": "Chattogram Port Authority (CPA) / Greener Perpetual Initiatives Limited",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-10-28",
+    "대표 기사 고유값": "ART-20261028-BGD001",
+    "비고": "8.42MWp 지붕형 태양광. OPEX 방식 20년 전력공급계약, 민간 사업자가 금융·설계·건설·운영·유지관리 부담; 총사업비 미확인.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "BLR-DIGITAL-MINSK-TRAFFIC-OPTICAL-RING",
@@ -165,6 +255,51 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AUS-ROAD-BULLEEN-INTERCHANGE",
+    "프로젝트명": "Bulleen Interchange Project",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "교통",
+    "발주처": "Victorian Government / North East Link / Eastern Freeway Upgrade",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-27",
+    "대표 기사 고유값": "ART-20261027-AUS003",
+    "비고": "Bulleen 인터체인지 188개 거더(약 15,000톤) 설치 완료. Eastern Freeway와 North East Link 터널을 잇는 3개 고가램프, 2028년 개통 목표. 전체 North East Link 사업비와 별도 관리.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BGD-METRO-DHAKA-MRT1",
+    "프로젝트명": "Dhaka Metro Rail MRT Line-1",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "교통",
+    "발주처": "Dhaka Mass Transit Company Limited (DMTCL) / Government of Bangladesh / JICA",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-10-27",
+    "대표 기사 고유값": "ART-20261027-BGD002",
+    "비고": "CP-02 차량기지 및 CP-07 5.007km 고가구간·3개 역 계약 체결. 같은 기사에서 MRT-5 북부 노선의 CP-02·CP-03 계약도 발표됨.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "BGD-METRO-DHAKA-MRT5-NORTH",
+    "프로젝트명": "Dhaka Metro Rail MRT Line-5 Northern Route",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "교통",
+    "발주처": "Dhaka Mass Transit Company Limited (DMTCL) / Government of Bangladesh / JICA",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-10-27",
+    "대표 기사 고유값": "ART-20261027-BGD002",
+    "비고": "CP-02 차량기지 시설 및 CP-03 6.5km 고가구간·5개 역 계약 체결. MRT-1 패키지와 같은 2026-10-27 발표 기사에 수록됨.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "BLR-ENERGY-BELNPP-UNIT3",
     "프로젝트명": "Belarusian NPP Unit 3 Project",
     "지역": "유럽",
@@ -192,6 +327,21 @@
     "최근 업데이트일": "2026-10-27",
     "대표 기사 고유값": "ART-20261027-CHL001",
     "비고": "Nueva Cardones 및 Nueva Maitencillo 220kV GIS 증설 국제입찰. 참고 투자액은 각각 USD 1,896,506 및 USD 1,880,310으로 기사에 제시됨; 두 건 통합 공식 총사업비는 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-IND-UP-PM-MITRA-TEXTILE-PARK",
+    "프로젝트명": "PM MITRA Park Uttar Pradesh Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "산업·물류",
+    "발주처": "PM MITRA Park Uttar Pradesh Ltd / Government of Uttar Pradesh / Ramky Infrastructure Ltd",
+    "사업비(달러 기준 추정액)": "USD 204.60mn",
+    "사업비 환산 환율 / 기준": "추정 사업비 INR 1,947 crore ÷ FBIL USD/INR 95.1623 (2026-10-27); 최종 계약액 아님",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-10-27",
+    "대표 기사 고유값": "IND-20261027-UP-PMITRA001",
+    "비고": "Lucknow–Hardoi 경계 1,000에이커 섬유산업단지. Ramky 우선협상자 내각 승인; DBFOT, 공사 5년·양허 50년. 공식 발표상 추정 사업비를 환산했으며 확정 계약액은 아님.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
