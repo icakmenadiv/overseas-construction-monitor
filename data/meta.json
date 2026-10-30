@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T05:41:03.807Z",
+  "updatedAt": "2026-10-30T11:37:17.418Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,44 +28,48 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9460,
-    "projects": 1487
+    "articles": 9473,
+    "projects": 1496
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261029-BWA001",
-        "ART-20261029-MNG001",
-        "ART-20261028-BLR001",
-        "ART-20261028-GBR001",
-        "ART-20261028-GBR002",
-        "ART-20261028-MMR001",
-        "ART-20261028-NPL001",
-        "ART-20261027-BLR001",
-        "ART-20261027-BWA001",
-        "ART-20261026-SRB002"
+        "ART-20261029-GNQ001",
+        "ART-20261028-AZE001",
+        "ART-20261028-GNQ001",
+        "ART-20261028-TJK001",
+        "ART-20261027-AZE001",
+        "ART-20261027-LKA001",
+        "ART-20261027-RWA001",
+        "ART-20261027-TJK001",
+        "ART-20261027-TJK002",
+        "ART-20261026-AZE001",
+        "ART-20261026-AZE002",
+        "ART-20261026-ISR001",
+        "ART-20261026-PNG001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BLR-DIGITAL-MINSK-TRAFFIC-OPTICAL-RING",
-        "GBR-ENERGY-DUNGENESS-A-BOILER-REMOVAL",
-        "GBR-RAIL-LEEDS-STATION-UPGRADE",
-        "BLR-ENERGY-BELNPP-UNIT3",
-        "GBR-WATER-THAMES-AMP8-9-MAJOR-PROJECTS-FRAMEWORK"
+        "RWA-ROAD-BUGESERA-AIRPORT-EXPRESSWAY",
+        "GNQ-ROAD-CIUDAD-DE-LA-PAZ-AVENUES",
+        "AZE-RAIL-ADY-CRRC-4-PASSENGER-TRAINS",
+        "TJK-ROAD-BALJUVON-SARI-KHOSOR",
+        "LKA-WATER-MAHAWELI-SECURITY-INVESTMENT-PHASE-2",
+        "TJK-ROAD-DUSHANBE-SAADI-SHEROZI-GRADE-SEPARATED",
+        "AZE-WATER-CASPIAN-DESALINATION",
+        "ISR-URBAN-E1-1234-HOUSING-2026",
+        "PNG-IND-CENTRAL-CEMENT"
       ],
-      "updated": [
-        "BWA-RAIL-TRANS-KALAHARI",
-        "SRB-TRANSPORT-BELGRADE-METRO-L1"
-      ],
+      "updated": [],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-10-30",
     "articlePublishedDate": "2026-10-29",
-    "projectUpdatedDate": "2026-10-29"
+    "projectUpdatedDate": "2026-10-30"
   }
 }
