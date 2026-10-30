@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T00:10:53.230Z",
+  "updatedAt": "2026-10-30T05:41:03.807Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,28 +28,44 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9450,
-    "projects": 1482
+    "articles": 9460,
+    "projects": 1487
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261029-BRA001",
-        "ART-20261029-OMN001",
-        "ART-20261027-OMN001"
+        "ART-20261029-BWA001",
+        "ART-20261029-MNG001",
+        "ART-20261028-BLR001",
+        "ART-20261028-GBR001",
+        "ART-20261028-GBR002",
+        "ART-20261028-MMR001",
+        "ART-20261028-NPL001",
+        "ART-20261027-BLR001",
+        "ART-20261027-BWA001",
+        "ART-20261026-SRB002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "BLR-DIGITAL-MINSK-TRAFFIC-OPTICAL-RING",
+        "GBR-ENERGY-DUNGENESS-A-BOILER-REMOVAL",
+        "GBR-RAIL-LEEDS-STATION-UPGRADE",
+        "BLR-ENERGY-BELNPP-UNIT3",
+        "GBR-WATER-THAMES-AMP8-9-MAJOR-PROJECTS-FRAMEWORK"
+      ],
+      "updated": [
+        "BWA-RAIL-TRANS-KALAHARI",
+        "SRB-TRANSPORT-BELGRADE-METRO-L1"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-10-30",
     "articlePublishedDate": "2026-10-29",
-    "projectUpdatedDate": "2026-10-28"
+    "projectUpdatedDate": "2026-10-29"
   }
 }
