@@ -1,5 +1,35 @@
 [
   {
+    "프로젝트 고유값": "DOM-ENERGY-DR-L1178-TRANSMISSION",
+    "프로젝트명": "Modernization and Expansion of Electricity Sector Infrastructure (DR-L1178)",
+    "지역": "중남미",
+    "국가": "도미니카공화국",
+    "섹터": "에너지",
+    "발주처": "Empresa de Transmisión Eléctrica Dominicana (ETED) / Banco Interamericano de Desarrollo (BID)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-DOM001",
+    "비고": "DR-L1178 송전망 현대화·확장사업. 동적 무효전력 보상설비 및 San Francisco de Macorís, Azua II, Guerra, Guayubín 변전소 확장 포함. BID 금융 예정액 USD 156mn은 승인 조건부 금융액이며 공식 총사업비로 확인되지 않아 미확인 유지. 첫 입찰 2027년 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "FJI-ROAD-MATUKU-ISLAND-ROADS-UPGRADE",
+    "프로젝트명": "Matuku Island Roads Upgrade Project",
+    "지역": "태평양",
+    "국가": "피지",
+    "섹터": "교통",
+    "발주처": "Fiji Roads Authority / Ministry of Public Works",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-FJI001",
+    "비고": "Matuku섬 19.53km 도로 개선사업; FJD 3.67mn 승인예산 보도. USD 환산 기준 확인 전 공식 USD 사업비 미확인 유지.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "RWA-ROAD-BUGESERA-AIRPORT-EXPRESSWAY",
     "프로젝트명": "New Kigali International Airport Bugesera Expressway Project",
     "지역": "아프리카",
@@ -90,6 +120,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "FJI-ENERGY-LAKEBA-SOLAR-HYBRID",
+    "프로젝트명": "Lakeba Solar Hybrid Rehabilitation Project",
+    "지역": "태평양",
+    "국가": "피지",
+    "섹터": "에너지",
+    "발주처": "Fiji Ministry of Public Works",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-FJI001",
+    "비고": "2026-10-29 준공·운영 개시 보도. USD 2.5mn은 UAE·뉴질랜드 지원으로 제시됐으나 Lakeba 단독 비용인지 복수 도서사업 총액인지 범위 확인 전까지 공식 사업비 미확인 유지.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "GEO-ROAD-KOBULETI-BYPASS-4LANE",
     "프로젝트명": "Kobuleti Bypass Project (Lots 1 and 2)",
     "지역": "유럽",
@@ -103,6 +148,21 @@
     "대표 기사 고유값": "ART-20261029-GEO001",
     "비고": "31.3km 4차로 확장(1공구 약 13km, 2공구 약 18km). ADB 감리용역 EOI가 2026-10-27 게시됐으며 용역 예산 USD 20.671mn, 기간 108개월. 이는 전체 사업비가 아니므로 공식 총사업비 미확인으로 유지. 본공사 조달 일정 추적 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "GHA-ROAD-ACCRA-TEMA-MOTORWAY",
+    "프로젝트명": "Accra-Tema Motorway Reconstruction and Extension Project",
+    "지역": "아프리카",
+    "국가": "가나",
+    "섹터": "교통",
+    "발주처": "Ghana Highways Authority / AT Express Limited / Maripoma Limited",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-GHA001",
+    "비고": "",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "GNQ-ROAD-CIUDAD-DE-LA-PAZ-AVENUES",
@@ -162,6 +222,21 @@
     "최근 업데이트일": "2026-10-29",
     "대표 기사 고유값": "ART-20261028-NGA001",
     "비고": "FEC가 81.1km 도로 재건 및 교량 사업에 NGN 209bn 승인. 공식 USD 사업비 미확인; 시공사·공사 일정 미공개.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PER-ROAD-SULLANA-MANCORA-PERIODIC-MAINTENANCE",
+    "프로젝트명": "Sullana–Máncora Highway Periodic Maintenance, Talara Junction–El Alto Section",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "교통",
+    "발주처": "MTC / Provías Nacional",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-PER003",
+    "비고": "보도상 S/30mn은 23km 정기 유지보수 배정액이며, 공식 USD 총사업비로 환산·확인되지 않아 사업비 미확인으로 유지함.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -9276,21 +9351,6 @@
     "국가": "가나",
     "섹터": "교통",
     "발주처": "Ministry of Roads and Highways / Accra-Kumasi Expressway Ltd",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "GHA-ROAD-ACCRA-TEMA-MOTORWAY",
-    "프로젝트명": "Accra-Tema Motorway Reconstruction and Extension Project",
-    "지역": "아프리카",
-    "국가": "가나",
-    "섹터": "교통",
-    "발주처": "Ghana Highways Authority / AT Express Limited / Maripoma Limited",
     "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "",

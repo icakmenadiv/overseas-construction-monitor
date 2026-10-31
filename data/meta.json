@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T06:32:12.539Z",
+  "updatedAt": "2026-10-31T12:58:31.145Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,38 +28,40 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9510,
-    "projects": 1515
+    "articles": 9524,
+    "projects": 1519
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261030-MOZ001",
-        "ART-20261029-ETH001",
-        "ART-20261029-GEO001",
-        "ART-20261029-GEO002",
-        "ART-20261029-MDA001",
-        "ART-20261029-MDA002",
-        "ART-20261029-ROU001",
-        "ART-20261028-GUM001",
-        "ART-20261028-MOZ001",
-        "ART-20261027-ETH001",
-        "ART-20261027-MDA001"
+        "ART-20261030-DOM001",
+        "ART-20261030-FJI001",
+        "ART-20261030-PER001",
+        "ART-20261030-ZAF002",
+        "ART-20261029-FJI001",
+        "ART-20261029-FJI002",
+        "ART-20261029-GHA001",
+        "ART-20261029-GHA002",
+        "ART-20261029-PER001",
+        "ART-20261029-PER002",
+        "ART-20261029-PER003",
+        "ART-20261028-PER001",
+        "ART-20261027-ZAF001",
+        "ART-20261026-TUN001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "ETH-ENERGY-RISED-TRANSMISSION",
-        "GEO-ROAD-KOBULETI-BYPASS-4LANE",
-        "MDA-ENERGY-VULCANESTI-CHISINAU-400KV",
-        "ROU-ENERGY-400KV-CONSTANTA-NORD-MEDGIDIA-SUD",
-        "GUM-ENERGY-P087-GWA-DEDEDO-UNDERGROUND-CONVERSION",
-        "MOZ-OILGAS-ROVUMA-LNG",
-        "ETH-WATER-CLIMATE-RESILIENCE-SAP073"
+        "DOM-ENERGY-DR-L1178-TRANSMISSION",
+        "FJI-ROAD-MATUKU-ISLAND-ROADS-UPGRADE",
+        "FJI-ENERGY-LAKEBA-SOLAR-HYBRID",
+        "PER-ROAD-SULLANA-MANCORA-PERIODIC-MAINTENANCE"
       ],
-      "updated": [],
+      "updated": [
+        "GHA-ROAD-ACCRA-TEMA-MOTORWAY"
+      ],
       "removed": []
     }
   },
