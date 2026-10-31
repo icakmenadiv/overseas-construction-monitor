@@ -45,6 +45,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "URY-ENERGY-NORTH-500KV-RING",
+    "프로젝트명": "Cierre del Anillo del Norte de 500 kV",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "에너지",
+    "발주처": "UTE",
+    "사업비(달러 기준 추정액)": "USD 320mn",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "completion",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-URY001",
+    "비고": "",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "AUS-SOC-SHOALHAVEN-MEMORIAL-HOSPITAL-REDEVELOPMENT",
     "프로젝트명": "Shoalhaven Memorial Hospital Redevelopment Project",
     "지역": "태평양",
@@ -268,6 +283,21 @@
     "대표 기사 고유값": "ART-20261029-ROU001",
     "비고": "2026-10-29 수용재결 제101호 및 부지계획 공개. 공사 발주·사업비·착공 일정은 확인되지 않음.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "URY-WATER-PUNTA-DEL-ESTE-SANITATION",
+    "프로젝트명": "Punta del Este Sanitation Network Expansion Project",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "수자원·환경",
+    "발주처": "OSE-UGD / Intendencia de Maldonado",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-URY001",
+    "비고": "",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "AUS-ROAD-BRIBIE-ISLAND-BRIDGE",
@@ -568,6 +598,21 @@
     "대표 기사 고유값": "ART-20261027-TJK001",
     "비고": "사아디 셰로지 대로 입체도로 및 두샨빈카강 교량 사업; 2026-10-27 착공식 확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "URY-WATER-METROPOLITAN-SYSTEM-EXPANSION",
+    "프로젝트명": "Metropolitan Water Supply System Expansion (Aguas Corrientes and Seventh Pumping Line)",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "수자원·환경",
+    "발주처": "OSE",
+    "사업비(달러 기준 추정액)": "USD 215mn",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-27",
+    "대표 기사 고유값": "ART-20261027-URY001",
+    "비고": "",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "AZE-WATER-CASPIAN-DESALINATION",

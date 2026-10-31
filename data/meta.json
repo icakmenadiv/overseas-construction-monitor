@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T12:58:31.145Z",
+  "updatedAt": "2026-10-31T17:31:08.789Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,40 +28,26 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9524,
-    "projects": 1519
+    "articles": 9527,
+    "projects": 1522
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261030-DOM001",
-        "ART-20261030-FJI001",
-        "ART-20261030-PER001",
-        "ART-20261030-ZAF002",
-        "ART-20261029-FJI001",
-        "ART-20261029-FJI002",
-        "ART-20261029-GHA001",
-        "ART-20261029-GHA002",
-        "ART-20261029-PER001",
-        "ART-20261029-PER002",
-        "ART-20261029-PER003",
-        "ART-20261028-PER001",
-        "ART-20261027-ZAF001",
-        "ART-20261026-TUN001"
+        "ART-20261030-URY001",
+        "ART-20261029-URY001",
+        "ART-20261027-URY001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "DOM-ENERGY-DR-L1178-TRANSMISSION",
-        "FJI-ROAD-MATUKU-ISLAND-ROADS-UPGRADE",
-        "FJI-ENERGY-LAKEBA-SOLAR-HYBRID",
-        "PER-ROAD-SULLANA-MANCORA-PERIODIC-MAINTENANCE"
+        "URY-ENERGY-NORTH-500KV-RING",
+        "URY-WATER-PUNTA-DEL-ESTE-SANITATION",
+        "URY-WATER-METROPOLITAN-SYSTEM-EXPANSION"
       ],
-      "updated": [
-        "GHA-ROAD-ACCRA-TEMA-MOTORWAY"
-      ],
+      "updated": [],
       "removed": []
     }
   },
