@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T22:13:15.282Z",
+  "updatedAt": "2026-10-31T00:56:35.941Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,34 +24,28 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9497,
+    "articles": 9499,
     "projects": 1508
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261028-KAZ001",
-        "ART-20261028-KAZ002"
+        "ART-20261028-DZA001",
+        "ART-20261026-BHR001"
       ],
       "updated": [],
-      "removed": [
-        "ART-20261029-BRA001",
-        "ART-20261029-OMN001",
-        "ART-20261027-OMN001"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [],
-      "updated": [],
-      "removed": [
-        "IDN-RAIL-SUMBAR-REACTIVATION",
-        "POL-RAIL-JASTRZEBIE-L159-RESTORATION",
-        "UAE-ENERGY-ALBIHOUTH-WASTE-TO-ENERGY"
-      ]
+      "updated": [
+        "DZA-RAIL-ALGER-TAMANRASSET-SOUTHERN-SECTIONS"
+      ],
+      "removed": []
     }
   },
   "latest": {
