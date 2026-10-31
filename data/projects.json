@@ -75,6 +75,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ETH-ENERGY-RISED-TRANSMISSION",
+    "프로젝트명": "Renewable, Integrated and Sustainable Energy and Digitalization (RISED) Project",
+    "지역": "아프리카",
+    "국가": "에티오피아",
+    "섹터": "에너지",
+    "발주처": "Ethiopia Ministry of Finance / European Investment Bank (EIB Global)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-ETH001",
+    "비고": "EIB Global과 에티오피아가 EUR 80mn 금융의 서명·효력 발생 가속에 합의. 송전망 현대화·에너지 전환 목적. 총사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "GEO-ROAD-KOBULETI-BYPASS-4LANE",
+    "프로젝트명": "Kobuleti Bypass Project (Lots 1 and 2)",
+    "지역": "유럽",
+    "국가": "조지아",
+    "섹터": "교통",
+    "발주처": "Roads Department of Georgia / Ministry of Regional Development and Infrastructure",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-GEO001",
+    "비고": "31.3km 4차로 확장(1공구 약 13km, 2공구 약 18km). ADB 감리용역 EOI가 2026-10-27 게시됐으며 용역 예산 USD 20.671mn, 기간 108개월. 이는 전체 사업비가 아니므로 공식 총사업비 미확인으로 유지. 본공사 조달 일정 추적 필요.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "GNQ-ROAD-CIUDAD-DE-LA-PAZ-AVENUES",
     "프로젝트명": "Ciudad de La Paz Bioko Norte, La Paz and Justicia Avenues Completion Project",
     "지역": "아프리카",
@@ -105,6 +135,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MDA-ENERGY-VULCANESTI-CHISINAU-400KV",
+    "프로젝트명": "Vulcănești–Chișinău 400 kV Transmission Line and Chișinău Electrical Substation",
+    "지역": "유럽",
+    "국가": "몰도바",
+    "섹터": "에너지",
+    "발주처": "Moldelectrica / Moldova Ministry of Energy",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-MDA001",
+    "비고": "2026-10-29 인수위원회가 계약 A2 첫 현장점검을 실시하고 단계별 가압 일정을 설정함. 최종 인수·준공증명서는 가압 및 계약조건 검증 뒤 검토 예정. 관련 기사: ART-20261027-MDA001, ART-20261029-MDA001.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NGA-ROAD-ADO-ILAWE-ILUMABA-IKOLE",
     "프로젝트명": "Ado–Ilawe–Ilumaba–Ikole Road Project",
     "지역": "아프리카",
@@ -132,6 +177,21 @@
     "최근 업데이트일": "2026-10-29",
     "대표 기사 고유값": "ART-20261029-QAT001",
     "비고": "2026-10-29 입찰 공고; 프로젝트 ID PA 2026 C 006 G. 제출 마감 2026-12-22, 입찰보증금 QAR 12.3mn. 공식 총사업비·공사기간 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ROU-ENERGY-400KV-CONSTANTA-NORD-MEDGIDIA-SUD",
+    "프로젝트명": "Constanța Nord–Medgidia Sud 400 kV Transmission Line Project",
+    "지역": "유럽",
+    "국가": "루마니아",
+    "섹터": "에너지",
+    "발주처": "Transelectrica",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-ROU001",
+    "비고": "2026-10-29 수용재결 제101호 및 부지계획 공개. 공사 발주·사업비·착공 일정은 확인되지 않음.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -240,6 +300,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "GUM-ENERGY-P087-GWA-DEDEDO-UNDERGROUND-CONVERSION",
+    "프로젝트명": "P-087 GWA Underground Conversion Project",
+    "지역": "태평양",
+    "국가": "괌",
+    "섹터": "에너지",
+    "발주처": "Guam Power Authority / Guam Waterworks Authority",
+    "사업비(달러 기준 추정액)": "USD 3.945mn",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-10-28",
+    "대표 기사 고유값": "ART-20261028-GUM001",
+    "비고": "데데도 GWA 운영 급수정 8곳 공급 가공 배전선 지중화. 총 공식 사업비 USD 3,945,438, DOE 보조금 USD 2,455,334(62%) 및 GPA 부담 USD 1,490,104. PUC 입찰문서 승인 후 조달 예정, 착공지시서 발급 후 580일 공사.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MOZ-OILGAS-ROVUMA-LNG",
+    "프로젝트명": "Rovuma LNG Project (Area 4)",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "석유가스·화학",
+    "발주처": "ExxonMobil Moçambique / Area 4 partners (ENH, CNPC, Eni, KOGAS, XRG)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-10-28",
+    "대표 기사 고유값": "ART-20261028-MOZ001",
+    "비고": "Area 4 해상 가스전과 육상 LNG 시설 개발사업. 2026-10-28 하도급 숙소모듈 계약 및 2026-08~10월 선행·장기납기 계약 확인. 전체 사업은 FID 전이며 약 700명 수용 숙소시설 후속 범위, FID, EPC·선행 패키지 집행상황 추적.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "POL-RAIL-CPK-WARSAW-LODZ-HSR",
     "프로젝트명": "CPK Warsaw-Lodz High-Speed Rail Line No.85 Project",
     "지역": "유럽",
@@ -342,6 +432,21 @@
     "최근 업데이트일": "2026-10-27",
     "대표 기사 고유값": "ART-20261027-CHL001",
     "비고": "Nueva Cardones 및 Nueva Maitencillo 220kV GIS 증설 국제입찰. 참고 투자액은 각각 USD 1,896,506 및 USD 1,880,310으로 기사에 제시됨; 두 건 통합 공식 총사업비는 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ETH-WATER-CLIMATE-RESILIENCE-SAP073",
+    "프로젝트명": "Building Climate Change Resilience of Vulnerable Households in Selected Localities of Ethiopia",
+    "지역": "아프리카",
+    "국가": "에티오피아",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Finance of Ethiopia / Green Climate Fund",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-10-27",
+    "대표 기사 고유값": "ART-20261027-ETH001",
+    "비고": "GCF 2026-10-27 승인. 15개 케벨레·7개 워레다의 태양광 식수 21개 시스템, 관개 펌프 150개, 유역 복원 포함. 총 사업가치 USD 30mn(GCF grant USD 24.997mn, 공동재원 USD 5mn); 이행 미개시.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

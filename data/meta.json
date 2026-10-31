@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:56:35.941Z",
+  "updatedAt": "2026-10-31T06:32:12.539Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,38 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9499,
-    "projects": 1508
+    "articles": 9510,
+    "projects": 1515
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261028-DZA001",
-        "ART-20261026-BHR001"
+        "ART-20261030-MOZ001",
+        "ART-20261029-ETH001",
+        "ART-20261029-GEO001",
+        "ART-20261029-GEO002",
+        "ART-20261029-MDA001",
+        "ART-20261029-MDA002",
+        "ART-20261029-ROU001",
+        "ART-20261028-GUM001",
+        "ART-20261028-MOZ001",
+        "ART-20261027-ETH001",
+        "ART-20261027-MDA001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [
-        "DZA-RAIL-ALGER-TAMANRASSET-SOUTHERN-SECTIONS"
+      "added": [
+        "ETH-ENERGY-RISED-TRANSMISSION",
+        "GEO-ROAD-KOBULETI-BYPASS-4LANE",
+        "MDA-ENERGY-VULCANESTI-CHISINAU-400KV",
+        "ROU-ENERGY-400KV-CONSTANTA-NORD-MEDGIDIA-SUD",
+        "GUM-ENERGY-P087-GWA-DEDEDO-UNDERGROUND-CONVERSION",
+        "MOZ-OILGAS-ROVUMA-LNG",
+        "ETH-WATER-CLIMATE-RESILIENCE-SAP073"
       ],
+      "updated": [],
       "removed": []
     }
   },
