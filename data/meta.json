@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T17:31:08.789Z",
+  "updatedAt": "2026-10-31T20:37:54.146Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,20 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261030-URY001",
-        "ART-20261029-URY001",
-        "ART-20261027-URY001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "URY-ENERGY-NORTH-500KV-RING",
-        "URY-WATER-PUNTA-DEL-ESTE-SANITATION",
-        "URY-WATER-METROPOLITAN-SYSTEM-EXPANSION"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
