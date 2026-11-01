@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T16:19:45.119Z",
+  "updatedAt": "2026-11-01T20:36:06.883Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,43 +28,41 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9536,
-    "projects": 1528
+    "articles": 9545,
+    "projects": 1531
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261031-VNM001",
-        "ART-20261030-SAU001",
-        "ART-20261030-SAU002",
-        "ART-20261030-SAU003",
-        "ART-20261030-VNM001",
-        "ART-20261030-VNM002",
-        "ART-20261030-VNM003",
-        "ART-20261030-VNM004",
-        "ART-20261029-VNM001"
+        "ART-20261101-CHN001",
+        "ART-20261101-IRN001",
+        "ART-20261031-IRN001",
+        "ART-20261031-MEX001",
+        "ART-20261030-CHN001",
+        "ART-20261030-SGP001",
+        "ART-20261029-IRN001",
+        "ART-20261029-IRQ003",
+        "ART-20261029-MEX001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "VNM-ROAD-HCMC-LONGTHANH-EXPANSION",
-        "SAU-OILGAS-PETRO-RABIGH-BOTTOM-OF-THE-BARREL",
-        "SAU-SOC-EXPO2030-KSA-PAVILION",
-        "SAU-WATER-NWC-LTOM12-NORTHWESTERN-B",
-        "VNM-AIR-PHUQUOC-INTERNATIONAL-AIRPORT-UPGRADE",
-        "VNM-URBAN-SUN-UBO-THACCHUOI-ECOTOURISM"
+        "CHN-ENERGY-HAIYANG-NUCLEAR-PH3",
+        "CHN-DIGITAL-ENVISION-GALAXY-CAMPUS",
+        "SGP-WATER-VIDACITY-GREEN-WALL"
       ],
       "updated": [
-        "VNM-AIR-LONGTHANH-INTERNATIONAL-PH1"
+        "IRN-OILGAS-SOUTH-PARS-PHASE11",
+        "MEX-RAIL-MEXICO-QUERETARO"
       ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-02",
-    "articlePublishedDate": "2026-10-31",
+    "articlePublishedDate": "2026-11-01",
     "projectUpdatedDate": "2026-10-31"
   }
 }

@@ -1,5 +1,50 @@
 [
   {
+    "프로젝트 고유값": "CHN-ENERGY-HAIYANG-NUCLEAR-PH3",
+    "프로젝트명": "Haiyang Nuclear Power Plant Phase III Project",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "에너지",
+    "발주처": "State Power Investment Corporation (SPIC) / Shandong Nuclear Power",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261101-CHN001",
+    "비고": "5·6호기 CAP1000 원전 건설. 2026-10-31 5호기 원자로건물 첫 콘크리트 타설로 3기 착공; 총사업비 공식 USD값 미확인.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "IRN-OILGAS-SOUTH-PARS-PHASE11",
+    "프로젝트명": "South Pars Phase 11 Development Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "석유가스·화학",
+    "발주처": "Pars Oil and Gas Company / Petropars",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261031-IRN001",
+    "비고": "B 위치 12개 가스정 생산 연결, 13번째 가스정 추가 시추(16인치 굴착 1,010m 초과), 플랫폼 데크 제작 50% 초과(2026-10-31). 공식 총사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MEX-RAIL-MEXICO-QUERETARO",
+    "프로젝트명": "Mexico-Queretaro Passenger Train Project",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "교통",
+    "발주처": "SICT / DEFENSA / Agrupamiento de Ingenieros Felipe Angeles",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "2025년 정부 발표의 1,440억 MXN 수치는 기사 문맥상 철도 건설 투자계획으로 제시됐으나, 현재 운영 기준에서 단일 프로젝트 공식 Project Cost로 재확인되지 않아 미확인 유지.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261031-MEX001",
+    "비고": "",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "VNM-ROAD-HCMC-LONGTHANH-EXPANSION",
     "프로젝트명": "Ho Chi Minh City-Long Thanh Expressway Expansion Project",
     "지역": "아시아",
@@ -13,6 +58,21 @@
     "대표 기사 고유값": "ART-20261031-VNM001",
     "비고": "공정률 약 80%, 2026년 12월 본선 완공 목표. Long Thanh 교량은 2027년 2월 완공 예상.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "CHN-DIGITAL-ENVISION-GALAXY-CAMPUS",
+    "프로젝트명": "Envision Galaxy AI Data Center Campus",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Envision Group",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-CHN001",
+    "비고": "울란차브 데이터센터 단지. 초기 120MW 시설은 2026년 8월 운영 개시; 최종 최대 3GW, 2028년 말 완성 목표. 풍력 전력 약 80% 및 저장장치·전용 송전 계획; 총사업비 미확인.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "DOM-ENERGY-DR-L1178-TRANSMISSION",
@@ -102,6 +162,21 @@
     "최근 업데이트일": "2026-10-30",
     "대표 기사 고유값": "ART-20261030-SAU003",
     "비고": "MEED가 사업 관계자를 인용해 Al-Yamama 낙찰을 보도했으나 NWC 공식 확인은 없음. 계약금액 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SGP-WATER-VIDACITY-GREEN-WALL",
+    "프로젝트명": "Vidacity @ One-North Green Wall",
+    "지역": "아시아",
+    "국가": "싱가포르",
+    "섹터": "수자원·환경",
+    "발주처": "GWS Living Art / Vidacity (NParks, JTC, NUS 협력)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-SGP001",
+    "비고": "1,035.4㎡ 생태형 녹색외벽. GWS Living Art 설계·설치, 400종 식물 적용. 연구·초기 센서 측정은 참여 측 발표이며 독립 성능 검증 아님.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -11265,21 +11340,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "IRN-OILGAS-SOUTH-PARS-PHASE11",
-    "프로젝트명": "South Pars Phase 11 Development Project",
-    "지역": "중동",
-    "국가": "이란",
-    "섹터": "석유가스·화학",
-    "발주처": "Pars Oil and Gas Company / Petropars",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "IRN-OILGAS-SOUTH-PARS-PRESSURE-BOOST",
     "프로젝트명": "South Pars Gas Field Pressure Boosting Project",
     "지역": "중동",
@@ -14258,21 +14318,6 @@
     "발주처": "SICT / DEFENSA / Agrupamiento de Ingenieros Felipe Angeles / Fonadin",
     "사업비(달러 기준 추정액)": "미확인",
     "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "MEX-RAIL-MEXICO-QUERETARO",
-    "프로젝트명": "Mexico-Queretaro Passenger Train Project",
-    "지역": "중남미",
-    "국가": "멕시코",
-    "섹터": "교통",
-    "발주처": "SICT / DEFENSA / Agrupamiento de Ingenieros Felipe Angeles",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "2025년 정부 발표의 1,440억 MXN 수치는 기사 문맥상 철도 건설 투자계획으로 제시됐으나, 현재 운영 기준에서 단일 프로젝트 공식 Project Cost로 재확인되지 않아 미확인 유지.",
     "현재 단계": "",
     "최근 업데이트일": "",
     "대표 기사 고유값": "",
