@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:36:06.883Z",
+  "updatedAt": "2026-11-01T21:57:00.766Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,39 +24,30 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9545,
+    "articles": 9541,
     "projects": 1531
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261101-CHN001",
-        "ART-20261101-IRN001",
-        "ART-20261031-IRN001",
-        "ART-20261031-MEX001",
-        "ART-20261030-CHN001",
-        "ART-20261030-SGP001",
-        "ART-20261029-IRN001",
-        "ART-20261029-IRQ003",
-        "ART-20261029-MEX001"
+        "ART-20261029-KWT001"
       ],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20261030-PER001",
+        "ART-20261029-GHA001",
+        "ART-20261029-GHA002",
+        "ART-20261029-PER002",
+        "ART-20261026-TUN001"
+      ]
     },
     "projects": {
-      "added": [
-        "CHN-ENERGY-HAIYANG-NUCLEAR-PH3",
-        "CHN-DIGITAL-ENVISION-GALAXY-CAMPUS",
-        "SGP-WATER-VIDACITY-GREEN-WALL"
-      ],
-      "updated": [
-        "IRN-OILGAS-SOUTH-PARS-PHASE11",
-        "MEX-RAIL-MEXICO-QUERETARO"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
