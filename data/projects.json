@@ -180,6 +180,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TUR-WATER-BASISKELE-KANDIRA-MULTI-2026",
+    "프로젝트명": "Başiskele and Kandıra Districts Multi-Neighborhood Water and Wastewater Infrastructure",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "수자원·환경",
+    "발주처": "Kocaeli Su ve Kanalizasyon İdaresi Genel Müdürlüğü (İSU)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-TUR001",
+    "비고": "TRY 82,633,280 계약. 식수관 12,157m·하수관 6,130m·우수관 1,103m 및 식수저장고 2기; USD 환산 사업비는 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "URY-ENERGY-NORTH-500KV-RING",
     "프로젝트명": "Cierre del Anillo del Norte de 500 kV",
     "지역": "중남미",
@@ -297,6 +312,21 @@
     "최근 업데이트일": "2026-10-29",
     "대표 기사 고유값": "ART-20261029-CHL001",
     "비고": "상세설계 60% 목표, 지구 인프라 최적화 및 차입금 조달 작업 진행; FID 목표 2027년 1분기. 기존 Puerto Santo Domingo 항만사업(CHL-PORT-SANTO-DOMINGO)과는 별도 광산개발 사업임.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "EGY-ENERGY-DANDARA-SOLAR-BESS",
+    "프로젝트명": "Dandara (Egypt Aluminium) Solar and BESS Project",
+    "지역": "중동",
+    "국가": "이집트",
+    "섹터": "에너지",
+    "발주처": "Scatec / Egypt Aluminium / National Bank of Egypt",
+    "사업비(달러 기준 추정액)": "USD 271mn",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-EGY001",
+    "비고": "1단계 569MW 태양광·100MWh BESS. 10/29 Enterprise 보도와 10/28 Scatec 공시상 총 CAPEX USD 271mn, DFI 비소구 금융 USD 217mn. 25년 PPA, 상업운전 2028년 상반기 목표.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
