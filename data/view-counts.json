@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:58:59.393Z",
+  "updatedAt": "2026-11-02T05:57:37.763Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1515,11 +1515,41 @@
       "ART-20261025-NPL001": {
         "article_detail_open": 1,
         "source_link_click": 1
+      },
+      "ART-20261027-SGP001": {
+        "source_link_click": 2
+      },
+      "ART-20261027-VNM001": {
+        "source_link_click": 1
+      },
+      "ART-20261028-MMR001": {
+        "source_link_click": 2
+      },
+      "ART-20261028-VNM001": {
+        "source_link_click": 1
+      },
+      "ART-20261029-KHM002": {
+        "article_detail_open": 1
+      },
+      "ART-20261030-SGP001": {
+        "source_link_click": 1
+      },
+      "ART-20261030-VNM001": {
+        "source_link_click": 1
+      },
+      "ART-20261030-VNM003": {
+        "source_link_click": 1
+      },
+      "ART-20261030-VNM004": {
+        "source_link_click": 1
+      },
+      "ART-20261031-VNM001": {
+        "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 49
+        "market_page_visit": 51
       }
     },
     "project": {
@@ -1545,6 +1575,9 @@
         "project_detail_open": 1
       },
       "BGR-ENERGY-KOZLODUY-UNITS-7-8": {
+        "project_detail_open": 1
+      },
+      "Can Gio International Transshipment Port": {
         "project_detail_open": 1
       },
       "CHL-IND-MEJILLONES-LOGISTICS-PLATFORM": {
@@ -5822,11 +5855,81 @@
       "updatedAt": "2026-10-29T06:06:05.175Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20261027-SGP001",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-11-02T04:52:24.239Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261027-VNM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-02T02:38:57.102Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261028-MMR001",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-11-02T04:57:08.137Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261028-VNM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-02T01:19:10.938Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261029-KHM002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-02T01:10:38.510Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261030-SGP001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-02T01:10:22.349Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261030-VNM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-02T02:07:05.700Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261030-VNM003",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-02T04:38:40.238Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261030-VNM004",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-02T01:46:12.693Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261031-VNM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-02T02:02:33.975Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 49,
-      "updatedAt": "2026-10-14T01:01:14.056Z"
+      "count": 51,
+      "updatedAt": "2026-11-02T01:45:50.566Z"
     },
     {
       "targetType": "project",
@@ -5883,6 +5986,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T06:47:42.439Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Can Gio International Transshipment Port",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-02T01:19:00.164Z"
     },
     {
       "targetType": "project",
