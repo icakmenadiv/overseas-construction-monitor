@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T02:47:42.471Z",
+  "updatedAt": "2026-11-02T10:01:59.525Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,31 +28,57 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9548,
-    "projects": 1534
+    "articles": 9568,
+    "projects": 1543
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261030-JPN001",
-        "ART-20261030-KHM001",
-        "ART-20261029-UZB001",
-        "ART-20261029-UZB002"
+        "ART-20261101-JOR001",
+        "ART-20261101-JOR002",
+        "ART-20261101-KEN001",
+        "ART-20261031-ARM001",
+        "ART-20261031-LBY001",
+        "ART-20261030-ARG001",
+        "ART-20261030-ARG002",
+        "ART-20261030-KEN001",
+        "ART-20261030-KGZ001",
+        "ART-20261030-KGZ002",
+        "ART-20261030-SDN001",
+        "ART-20261030-UKR001",
+        "ART-20261030-UKR002",
+        "ART-20261029-ARG001",
+        "ART-20261029-KEN001",
+        "ART-20261029-KEN002",
+        "ART-20261029-KGZ001",
+        "ART-20261029-TZA001",
+        "ART-20261029-UKR001",
+        "ART-20261029-UKR002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "KHM-AVIATION-TECHO-VVIP-TERMINAL"
+        "JOR-TRANSPORT-KARAMAH-CUSTOMS-ROADS-2026",
+        "JOR-TRANSPORT-ZARQA-ARRIVAL-DEPARTURE-CENTER",
+        "ARM-DIGITAL-HAYPASS-DATA-CENTRE",
+        "LBY-ROAD-BENGHAZI-FOURTH-RING",
+        "ARG-ENERGY-BESS-CHINGOLO-SULL",
+        "UKR-ENERGY-MAYAKI-WIND",
+        "ARG-OILGAS-VACA-MUERTA-NORTH-HUB-GAS-GATHERING",
+        "KGZ-ROAD-MYRZAKE-KARA-KULDZHA-ALAIKUU",
+        "TZA-ROAD-MTO-WA-MBU-LOLIONDO-REHAB"
       ],
-      "updated": [],
+      "updated": [
+        "KEN-ROAD-NAIROBI-NAKURU-MAU-SUMMIT-PPP"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-02",
     "articlePublishedDate": "2026-11-01",
-    "projectUpdatedDate": "2026-10-31"
+    "projectUpdatedDate": "2026-11-01"
   }
 }

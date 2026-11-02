@@ -1,5 +1,65 @@
 [
   {
+    "프로젝트 고유값": "JOR-TRANSPORT-KARAMAH-CUSTOMS-ROADS-2026",
+    "프로젝트명": "Karama Border Customs Center Roads and Yards Expansion Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "교통",
+    "발주처": "Ministry of Public Works and Housing",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-01",
+    "대표 기사 고유값": "ART-20261101-JOR002",
+    "비고": "2026-11-01 현지 시공 입찰 109/2026 공고. 사업비·물량 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "JOR-TRANSPORT-ZARQA-ARRIVAL-DEPARTURE-CENTER",
+    "프로젝트명": "Zarqa New Departure and Arrival Center Project",
+    "지역": "중동",
+    "국가": "요르단",
+    "섹터": "교통",
+    "발주처": "Land Transport Regulatory Commission",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-01",
+    "대표 기사 고유값": "ART-20261101-JOR001",
+    "비고": "2026-11-01 감리용역 입찰 107/2026 공고. 공사 본입찰 및 시설 범위·사업비는 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KEN-ROAD-NAIROBI-NAKURU-MAU-SUMMIT-PPP",
+    "프로젝트명": "Nairobi-Nakuru-Mau Summit and Rironi-Maai Mahiu-Naivasha Road PPP Project",
+    "지역": "아프리카",
+    "국가": "케냐",
+    "섹터": "교통",
+    "발주처": "Kenya National Highways Authority (KeNHA) / CRBC-NSSF / SDRBI",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-01",
+    "대표 기사 고유값": "ART-20261101-KEN001",
+    "비고": "2026-11-01 DBM 포설 확인; bitumen 공급 차질로 공정 지연 보도됨",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ARM-DIGITAL-HAYPASS-DATA-CENTRE",
+    "프로젝트명": "HayPass Data Centre",
+    "지역": "유럽",
+    "국가": "아르메니아",
+    "섹터": "디지털·데이터센터",
+    "발주처": "HayPass / Ministry of Internal Affairs of Armenia",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미확인",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261031-ARM001",
+    "비고": "HayPass 본사 데이터센터. 생체인식 여권·신분증 시스템의 안전한 데이터 관리·운영 기반으로 2026-10-31 개소. 2년간 유럽 전문가팀의 생산공정 평가 및 인프라 인증 예정. 용량·사업비·시공사 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "CHN-ENERGY-HAIYANG-NUCLEAR-PH3",
     "프로젝트명": "Haiyang Nuclear Power Plant Phase III Project",
     "지역": "아시아",
@@ -30,6 +90,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "LBY-ROAD-BENGHAZI-FOURTH-RING",
+    "프로젝트명": "Benghazi Fourth Ring Road Development Project",
+    "지역": "중동",
+    "국가": "리비아",
+    "섹터": "교통",
+    "발주처": "Libya Development and Reconstruction Fund",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261031-LBY001",
+    "비고": "벵가지 제4순환도로 약 10km 개발·확장사업. 살람 지역 교차부-베네치아 교량 구간을 양방향 각 3차로로 확장하며, 우수배수·조명·보도·중앙분리대·8개 회전 지점 포함. 2026-10-31 현재 배수 맨홀·분기관·관로 공사 및 시험 진행 확인. 공식 사업비·시공사·공사기간 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MEX-RAIL-MEXICO-QUERETARO",
     "프로젝트명": "Mexico-Queretaro Passenger Train Project",
     "지역": "중남미",
@@ -57,6 +132,21 @@
     "최근 업데이트일": "2026-10-31",
     "대표 기사 고유값": "ART-20261031-VNM001",
     "비고": "공정률 약 80%, 2026년 12월 본선 완공 목표. Long Thanh 교량은 2027년 2월 완공 예상.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ARG-ENERGY-BESS-CHINGOLO-SULL",
+    "프로젝트명": "BESS Chingolo Sull",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "에너지",
+    "발주처": "Sullair Argentina S.A.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-ARG002",
+    "비고": "Quilmes Partido 소재 24MW 배터리저장시설. 2026-10-30 ENReGE가 EDESUR 신청에 따른 계통접속을 승인했으며 기술요건 이행이 남아 있음. 공식 사업비 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -210,6 +300,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "UKR-ENERGY-MAYAKI-WIND",
+    "프로젝트명": "Mayaki Wind Farm (162 MW)",
+    "지역": "유럽",
+    "국가": "우크라이나",
+    "섹터": "에너지",
+    "발주처": "Grupa Mosty / Mosty Odesa 1 LLC",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "총사업비·CAPEX 미공개",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-UKR001",
+    "비고": "Odesa주 162MW 풍력사업. Vestas 4.5MW 터빈 36기 계획. 2027년 1분기 건설준비 단계, 2027년 2~3분기 금융조달 완료, 2028년 말 가동 목표. 총사업비 미확인.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "URY-ENERGY-NORTH-500KV-RING",
     "프로젝트명": "Cierre del Anillo del Norte de 500 kV",
     "지역": "중남미",
@@ -267,6 +372,21 @@
     "최근 업데이트일": "2026-10-30",
     "대표 기사 고유값": "ART-20261030-VNM003",
     "비고": "VND 16.234tn, 약 167.48ha. 4단계 사업으로 2037년 2분기까지 추진 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ARG-OILGAS-VACA-MUERTA-NORTH-HUB-GAS-GATHERING",
+    "프로젝트명": "Vaca Muerta North Hub Gas Gathering Project",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "석유가스·화학",
+    "발주처": "YPF S.A.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-ARG001",
+    "비고": "Narambuena·Bajo del Toro 블록에서 El Portón 산업단지로 가스관이 완공됐고 가스처리시설 공사가 진행 중임. 상업운전 목표는 2027년 1분기이며 공식 사업비 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -435,6 +555,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "KGZ-ROAD-MYRZAKE-KARA-KULDZHA-ALAIKUU",
+    "프로젝트명": "Myrzake–Kara-Kuldzha–Alaykuu Road Project",
+    "지역": "중앙아시아",
+    "국가": "키르기스스탄",
+    "섹터": "교통",
+    "발주처": "Ministry of Transport and Communications of the Kyrgyz Republic",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-KGZ001",
+    "비고": "총연장 138km 중 72km 포장 완료. 현재 54.4km 구간에서 공사 중이며 24.5km 구간은 토공 완료 후 포장 진행, 6km 포장 완료. 위험구간 방호벽·배수 및 토석류 통과관, 장비창고 3동과 아스팔트 플랜트 운영. 공식 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MDA-ENERGY-VULCANESTI-CHISINAU-400KV",
     "프로젝트명": "Vulcănești–Chișinău 400 kV Transmission Line and Chișinău Electrical Substation",
     "지역": "유럽",
@@ -507,6 +642,21 @@
     "최근 업데이트일": "2026-10-29",
     "대표 기사 고유값": "ART-20261029-ROU001",
     "비고": "2026-10-29 수용재결 제101호 및 부지계획 공개. 공사 발주·사업비·착공 일정은 확인되지 않음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TZA-ROAD-MTO-WA-MBU-LOLIONDO-REHAB",
+    "프로젝트명": "Mto wa Mbu–Loliondo and Wasso–Kleins Gate Road Rehabilitation Works",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "교통",
+    "발주처": "TANROADS - Arusha Regional Office",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-10-29",
+    "대표 기사 고유값": "ART-20261029-TZA001",
+    "비고": "공고 제목은 Mto wa Mbu–Loliondo 217km 구간 및 Wasso–Kleins Gate 도로 재활을 명시함. 입찰번호 TR36/001/2026/2027/W/54, Lot S002, 제안서 마감 2026-11-05. 계약금액·재원 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -12623,21 +12773,6 @@
     "발주처": "Kenya National Highways Authority (KeNHA)",
     "사업비(달러 기준 추정액)": "USD 3,400백만",
     "사업비 환산 환율 / 기준": "기존 PIP 기준 기존 사업비열 원문: 약 3,400백만 달러 추정(기존 PIP 기준)",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "KEN-ROAD-NAIROBI-NAKURU-MAU-SUMMIT-PPP",
-    "프로젝트명": "Nairobi-Nakuru-Mau Summit and Rironi-Maai Mahiu-Naivasha Road PPP Project",
-    "지역": "아프리카",
-    "국가": "케냐",
-    "섹터": "교통",
-    "발주처": "Kenya National Highways Authority (KeNHA) / CRBC-NSSF / SDRBI",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
     "최근 업데이트일": "",
     "대표 기사 고유값": "",
