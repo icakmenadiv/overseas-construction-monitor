@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T23:51:07.393Z",
+  "updatedAt": "2026-11-02T02:47:42.471Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,23 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9544,
-    "projects": 1533
+    "articles": 9548,
+    "projects": 1534
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261030-TUR001",
-        "ART-20261030-TUR002",
-        "ART-20261029-EGY001"
+        "ART-20261030-JPN001",
+        "ART-20261030-KHM001",
+        "ART-20261029-UZB001",
+        "ART-20261029-UZB002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "TUR-WATER-BASISKELE-KANDIRA-MULTI-2026",
-        "EGY-ENERGY-DANDARA-SOLAR-BESS"
+        "KHM-AVIATION-TECHO-VVIP-TERMINAL"
       ],
       "updated": [],
       "removed": []
