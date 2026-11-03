@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T00:53:54.105Z",
+  "updatedAt": "2026-11-03T02:15:59.630Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,52 +24,29 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9579,
-    "projects": 1556
+    "articles": 9581,
+    "projects": 1558
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261102-OMN001",
-        "ART-20261030-BRA001",
-        "ART-20261030-HKG002"
+        "ART-20261031-MMR001",
+        "ART-20261030-GBR001"
       ],
       "updated": [],
-      "removed": [
-        "ART-20261102-UAE001",
-        "ART-20261031-UAE001",
-        "ART-20261030-IDN001",
-        "ART-20261030-IDN002",
-        "ART-20261030-IDN003",
-        "ART-20261103-HUN001",
-        "ART-20261102-PHL001",
-        "ART-20261101-JOR001",
-        "ART-20261101-JOR002",
-        "ART-20261101-KEN001",
-        "ART-20261101-PHL001",
-        "ART-20261030-KEN001",
-        "ART-20261030-PHL001",
-        "ART-20261030-SDN001",
-        "ART-20261029-KEN001",
-        "ART-20261029-KEN002",
-        "ART-20261029-PHL001",
-        "ART-20261027-PHL001"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "OMN-DIGITAL-KHAZAEN-DATA-CAMPUS",
-        "PAN-TRANSPORT-SANMIGUELITO-CABLECAR"
+        "MMR-TRANSPORT-HANTHAWADDY-INTERNATIONAL-AIRPORT",
+        "GBR-ENERGY-SEA-LINK-INTERCONNECTOR"
       ],
       "updated": [],
-      "removed": [
-        "JOR-TRANSPORT-KARAMAH-CUSTOMS-ROADS-2026",
-        "JOR-TRANSPORT-ZARQA-ARRIVAL-DEPARTURE-CENTER"
-      ]
+      "removed": []
     }
   },
   "latest": {
