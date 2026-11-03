@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T17:17:34.813Z",
+  "updatedAt": "2026-11-03T22:20:03.721Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,52 +28,50 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9594,
-    "projects": 1581
+    "articles": 9607,
+    "projects": 1592
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261103-MYS001",
-        "ART-20261102-CZE001",
-        "ART-20261102-MYS001",
-        "ART-20261102-CHL001",
-        "ART-20261102-COL001",
-        "ART-20261102-NIC001",
-        "ART-20261101-LKA001",
-        "ART-20261101-NIC001",
-        "ART-20261030-CHL001",
-        "ART-20261030-CHL002",
-        "ART-20261030-ECU001",
-        "ART-20261030-PNG001"
+        "ART-20261104-AUS001",
+        "ART-20261103-AUS001",
+        "ART-20261103-BGD001",
+        "ART-20261103-IND001",
+        "ART-20261103-IND002",
+        "ART-20261103-KAZ001",
+        "ART-20261103-RUS001",
+        "ART-20261102-AUS001",
+        "ART-20261102-IND001",
+        "ART-20261102-RUS001",
+        "ART-20261031-BGD001",
+        "ART-20261031-NGA001",
+        "ART-20261030-KAZ001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "MYS-IND-SHAHALAM-SECTION15-ROCHESTER-LOGISTICS-HUB",
-        "CHL-ENERGY-LOS-PORTONES",
-        "COL-ROAD-BUCARAMANGA-BOGOTA-APP",
-        "CZE-ENERGY-CHEB-STRATEGIC-PARK-SUBSTATION",
-        "CZE-TRANSPORT-PRAGUE-HRADCANSKA-METRO-MODERNIZATION",
-        "MYS-SOC-TUNG-SHIN-HOSPITAL-REDEVELOPMENT",
-        "LKA-TRANSPORT-CHINA-AID-DITWAH-14-BRIDGES",
-        "CHL-ENERGY-LO-AGUIRRE-PERALILLO-BESS",
-        "CHL-ROAD-RUTA-235CH-VILLA-SANTA-LUCIA-PUERTO-RAMIREZ",
-        "ECU-ROAD-E436-LOS-ZORROS",
-        "PNG-ROAD-MUGIL-BRIDGE-REPLACEMENT"
+        "AUS-DIGITAL-FIRMUS-WESLEY-VALE-RD-FACILITY",
+        "AUS-RAIL-MIDLAND-LINE-CARNAMAH-MINGENEW-UPGRADE",
+        "BGD-TRANSPORT-SECOND-PADMA-JAMUNA-BRIDGES",
+        "IND-TRANSPORT-PUNE-METRO-PHASE-II",
+        "IND-WATER-BHADBHUT-BARRAGE-RHS-WATER-SUPPLY",
+        "RUS-ROAD-MAKHACHKALA-PORT-ACCESS-ROAD",
+        "AUS-ROAD-ANKETELL-ROAD-UPGRADE",
+        "RUS-RAIL-ZABAIKALSK-MANZHOULI-SECOND-1435",
+        "BGD-IND-KERANIGANJ-BEZA-ECONOMIC-ZONE",
+        "NGA-DIGITAL-SMART-NATIONAL-TRANSPORT-DATA-BANK",
+        "KAZ-ROAD-USTKAMENOGORSK-SATPAYEV-ZHIBEK-ZHOLY-INTERCHANGE"
       ],
-      "updated": [
-        "CHL-PORT-SANANTONIO-PUERTO-EXTERIOR",
-        "NIC-PORT-BLUEFIELDS-DEEPWATER"
-      ],
+      "updated": [],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-04",
-    "articlePublishedDate": "2026-11-03",
-    "projectUpdatedDate": "2026-11-03"
+    "articlePublishedDate": "2026-11-04",
+    "projectUpdatedDate": "2026-11-04"
   }
 }
