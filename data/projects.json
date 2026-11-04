@@ -15,6 +15,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRN-TRANSPORT-RASHT-ASTARA-RAIL",
+    "프로젝트명": "Rasht-Astara Railway Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "교통",
+    "발주처": "Construction and Development of Transportation Infrastructure Company / MRUD",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026. 11. 4",
+    "대표 기사 고유값": "ART-20261104-IRN001",
+    "비고": "2026-11-04: 잔여 37km 접근권 인계 및 조사기간 연장. 본공사 착공·계약 체결 아님.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KWT-OILGAS-KOC-WEST-KUWAIT-PRODUCTION-FACILITIES-REVAMP",
+    "프로젝트명": "KOC West Kuwait Production Facilities Repair and Revamping Services",
+    "지역": "중동",
+    "국가": "쿠웨이트",
+    "섹터": "석유가스·화학",
+    "발주처": "Kuwait Oil Company (KOC) / Combined Group Contracting Company",
+    "사업비(달러 기준 추정액)": "USD 31.4mn",
+    "사업비 환산 환율 / 기준": "공식 계약액 KD 9.7mn; MEED 2026-11-04 보도 환산액 USD 31.4mn. 전체 시설의 총사업비가 아닌 5년 서비스 계약액.",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-11-04",
+    "대표 기사 고유값": "ART-20261104-KWT001",
+    "비고": "KOC 입찰 REP: 2143229. 서부 쿠웨이트 생산시설 수리·개보수 5년 계약; 2026-09-13 낙찰 승인, 2026-11-04 계약 체결 보도.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SAU-ROAD-RIYADH-NORTHERN-ROADS-NETWORK",
     "프로젝트명": "Riyadh Northern Roads Network Upgrade Programme",
     "지역": "중동",
@@ -27,6 +57,21 @@
     "최근 업데이트일": "2026-11-04",
     "대표 기사 고유값": "ART-20261104-SAU001",
     "비고": "총 189km·19개 도로사업·33개 입체교차로. RCRC 162km는 3개 웨이브·5개 패키지, 공항 27km는 KSIA가 개발 예정. 전체 입찰 목표 2028년까지.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "THA-TRANSPORT-SUVARNABHUMI-EAST-EXPANSION",
+    "프로젝트명": "Suvarnabhumi Airport East Expansion Project",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "교통",
+    "발주처": "Airports of Thailand (AOT)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미확인; Pattaya Mail 보도액 THB 13.52bn, 공식 원문자료 미확인",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-11-04",
+    "대표 기사 고유값": "ART-20261104-THA001",
+    "비고": "내각 승인 대기, 2027년 입찰 예상, 공사기간 약 4년. 보도상 사업비 THB 13.52bn은 AOT 사장 발언 인용이며 공식 원문 확인 전 USD 사업비 미확인 유지.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -87,6 +132,21 @@
     "최근 업데이트일": "2026-11-03",
     "대표 기사 고유값": "ART-20261103-CAN001",
     "비고": "Oakville의 4차로 도로·교량 사업 약 97% 완료. 기사상 금액 CAD 117.5mn, WSP Canada 설계·Dufferin Construction 시공, 2026-11-30 개통 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "EGY-RAIL-SINAI-DEVELOPMENT-TRAIN",
+    "프로젝트명": "Sinai Development Train (El-Ferdan–East Port Said–Bir El-Abd–El-Arish–Taba Railway)",
+    "지역": "중동",
+    "국가": "이집트",
+    "섹터": "교통",
+    "발주처": "이집트 교통부 / Egyptian National Railways",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-EGY001",
+    "비고": "2026-11-03 Daily News Egypt 현장점검 보도 기준. 공식 USD 총사업비 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -450,6 +510,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "EGY-ENERGY-DANDARA-SOLAR-BESS",
+    "프로젝트명": "Dandara (Egypt Aluminium) Solar and BESS Project",
+    "지역": "중동",
+    "국가": "이집트",
+    "섹터": "에너지",
+    "발주처": "Scatec / Egypt Aluminium / National Bank of Egypt",
+    "사업비(달러 기준 추정액)": "USD 271mn",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-EGY001",
+    "비고": "",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "FJI-WATER-REWA-WATER-MAIN-UPGRADES",
     "프로젝트명": "Rewa Water Main Upgrades",
     "지역": "태평양",
@@ -492,6 +567,36 @@
     "최근 업데이트일": "2026-11-02",
     "대표 기사 고유값": "ART-20261102-GEO001",
     "비고": "계약기한이 2026-11-01에서 2026-11-30으로 30일 연장됨. 도로·우수배수 공사와 지하 설비 정비 진행; 전체 준공 목표는 2026년 11월 말.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IRQ-AIR-MOSUL-INTERNATIONAL-AIRPORT",
+    "프로젝트명": "Mosul International Airport Development and Operation",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "교통",
+    "발주처": "Nineveh Governorate / Iraqi Civil Aviation Authority / Ministry of Transport",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-IRQ001",
+    "비고": "총리의 개항·운영 가속 지시(2026-11-02). 운영사 선정 요건은 내각 승인 및 후속 조달 절차 추적 필요.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "MEX-RAIL-QUERETARO-SALTILLO",
+    "프로젝트명": "Querétaro-Saltillo Passenger Railway Project (San Miguel de Allende–Villa de Reyes Section)",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "교통",
+    "발주처": "ATTRAPI / SICT",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 공개자료 미확인",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-MEX001",
+    "비고": "San Miguel de Allende–Villa de Reyes 82km 설계·시공 입찰 취소 후 단선·대피선 우선 시공안으로 조정. 후속 복선은 수요·예산에 따라 추진 예정.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -645,6 +750,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CHN-ROAD-HOHOT-BEIHAl-EXPRESSWAY",
+    "프로젝트명": "Hohhot–Beihai Expressway, Zhangjiajie–Gaoping Section",
+    "지역": "아시아",
+    "국가": "중국",
+    "섹터": "교통",
+    "발주처": "",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미확인",
+    "현재 단계": "operation",
+    "최근 업데이트일": "2026-11-01",
+    "대표 기사 고유값": "ART-20261102-CHN001",
+    "비고": "2026-11-01 장자제–가오핑 57.4km 구간 시험운영 개시. 총연장 약 2,803km의 후베이(呼北) 고속도로 전 구간 연결; 6개 성·구 통과. 구간 사업비·시공사 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "GNQ-IND-ANNOBON-TUNA-FACTORY",
     "프로젝트명": "Annobón Tuna Processing Plant",
     "지역": "아프리카",
@@ -660,6 +780,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRQ-AIR-NASIRIYAH-INTERNATIONAL-AIRPORT",
+    "프로젝트명": "Nasiriyah International Airport Project",
+    "지역": "중동",
+    "국가": "이라크",
+    "섹터": "교통",
+    "발주처": "Ministry of Transport / Dhi Qar Governorate",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-01",
+    "대표 기사 고유값": "ART-20261101-IRQ001",
+    "비고": "전력·통신 연계공사를 2027년 1분기까지 완료하고 항행장비를 설치하도록 지시. 개항일 미공개.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "LKA-TRANSPORT-CHINA-AID-DITWAH-14-BRIDGES",
     "프로젝트명": "China Aid Emergency Post-Disaster Reconstruction Project for 14 Cyclone-Damaged Bridges",
     "지역": "아시아",
@@ -672,6 +807,21 @@
     "최근 업데이트일": "2026-11-01",
     "대표 기사 고유값": "ART-20261101-LKA001",
     "비고": "사이클론 디트와 피해 교량 14개 복구사업. 중국 정부 보조금 RMB 79mn; 1단계 9개 교량을 18개월 내 복구 계획(스리랑카 내각 발표, 2026-08-24). 2026-11-01 감파하에서 첫 교량 착공. RMB 보조금액은 공식 USD 사업비로 환산하지 않음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MEX-RAIL-QUERETARO-IRAPUATO",
+    "프로젝트명": "Querétaro-Irapuato Passenger Railway Project",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "교통",
+    "발주처": "ATTRAPI / SICT",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 공개자료 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-01",
+    "대표 기사 고유값": "ART-20261101-MEX001",
+    "비고": "11/1 현장점검 보도: 공정률 25%, 총 102km, 10개 viaduct 중 5개 시공 중·2개 추가 착수 예정, 열차 47편 제작 개시. Guanajuato주 10/31 자료의 108.2km와 차이가 있어 범위 추가 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -9120,21 +9270,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "EGY-ENERGY-DANDARA-SOLAR-BESS",
-    "프로젝트명": "Dandara (Egypt Aluminium) Solar and BESS Project",
-    "지역": "중동",
-    "국가": "이집트",
-    "섹터": "에너지",
-    "발주처": "Scatec / Egypt Aluminium / National Bank of Egypt",
-    "사업비(달러 기준 추정액)": "USD 271mn",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "EGY-ENERGY-ELDABAA-NPP",
     "프로젝트명": "El Dabaa Nuclear Power Plant Project",
     "지역": "중동",
@@ -12024,21 +12159,6 @@
     "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "construction",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "IRN-TRANSPORT-RASHT-ASTARA-RAIL",
-    "프로젝트명": "Rasht-Astara Railway Project",
-    "지역": "중동",
-    "국가": "이란",
-    "섹터": "교통",
-    "발주처": "Construction and Development of Transportation Infrastructure Company / MRUD",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "pre-procurement",
     "최근 업데이트일": "",
     "대표 기사 고유값": "",
     "비고": "",
