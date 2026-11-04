@@ -105,6 +105,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "MDA-ROAD-MRRV-M2-M1",
+    "프로젝트명": "Moldova Roads Rehabilitation V Project",
+    "지역": "유럽",
+    "국가": "몰도바",
+    "섹터": "교통",
+    "발주처": "National Road Administration / Ministry of Infrastructure and Regional Development",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026. 11. 3",
+    "대표 기사 고유값": "ART-20261103-MDA001",
+    "비고": "M2 Chisinau 순환도로 2구간 및 M1 Chisinau-Leuseni 구간 개량. M1 Lot 1·2 감리 사전심사 공고 확인. 2026-11-03 M1 Leușeni–Chișinău Lot 4(23.71km, km 61+750–85+460) 공공협의 완료; ART-20261103-MDA001.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "MYS-IND-SHAHALAM-SECTION15-ROCHESTER-LOGISTICS-HUB",
     "프로젝트명": "Rochester Logistics Asset 2 Seksyen 15 Shah Alam Logistics Hub",
     "지역": "아시아",
@@ -118,6 +133,21 @@
     "대표 기사 고유값": "ART-20261103-MYS001",
     "비고": "PT 845, Jalan 15/23의 기존 공장 철거 및 5층 물류허브 2개 동 신축; 2026-11-04 착공, 34개월, 2029-09-03 준공 목표. 계약액은 전체 투자비가 아닌 주계약액임.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ROU-ROAD-A0-NORTH-AFUMATI-PANTELIMON-CERNICA",
+    "프로젝트명": "A0 North Afumați–Pantelimon–Cernica Motorway Sections",
+    "지역": "유럽",
+    "국가": "루마니아",
+    "섹터": "교통",
+    "발주처": "CNAIR / Ministry of Transport and Infrastructure",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-ROU001",
+    "비고": "",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "RUS-ROAD-MAKHACHKALA-PORT-ACCESS-ROAD",
@@ -285,6 +315,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "GEO-ROAD-TBILISI-RUSTAVELI-AVENUE-REHABILITATION",
+    "프로젝트명": "Rustaveli Avenue Rehabilitation Project",
+    "지역": "유럽",
+    "국가": "조지아",
+    "섹터": "교통",
+    "발주처": "Tbilisi City Hall / Smart Solutions / Georgian Water and Power",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "세 구간 공사계약 합계 약 GEL 19.8mn (보도 기준); 공식 USD 총사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-GEO001",
+    "비고": "계약기한이 2026-11-01에서 2026-11-30으로 30일 연장됨. 도로·우수배수 공사와 지하 설비 정비 진행; 전체 준공 목표는 2026년 11월 말.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MYS-SOC-TUNG-SHIN-HOSPITAL-REDEVELOPMENT",
     "프로젝트명": "Hospital Tung Shin Redevelopment Project",
     "지역": "아시아",
@@ -313,6 +358,21 @@
     "대표 기사 고유값": "ART-20261102-NIC001",
     "비고": "2026-10-28 CAMCE 3번 계약분 선급금 수령으로 계약상 착수조건 충족; 실제 착공지시일·공사 개시일 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ROU-TRANSPORT-BUCHAREST-TRAM-LINES-MODERNIZATION-16-LOTS",
+    "프로젝트명": "Bucharest Tram Lines Modernization Project (16 Lots)",
+    "지역": "유럽",
+    "국가": "루마니아",
+    "섹터": "교통",
+    "발주처": "Bucharest Municipality / PMB",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-ROU001",
+    "비고": "",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "RUS-RAIL-ZABAIKALSK-MANZHOULI-SECOND-1435",
@@ -420,6 +480,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ETH-ENERGY-ETHIOPIA-DJIBOUTI-TRUCK-CHARGING-NETWORK",
+    "프로젝트명": "Ethiopia–Djibouti Heavy EV Charging Network Feasibility Study",
+    "지역": "아프리카",
+    "국가": "에티오피아",
+    "섹터": "에너지",
+    "발주처": "Ethiopian Electric Utility (EEU)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261031-ETH002",
+    "비고": "타당성조사 협약 체결 단계. 공식 총사업비·재원 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "GHA-ROAD-WA-SAWLA-BAMAHU-WA-DUALIZATION",
+    "프로젝트명": "Bamahu–Wa Township Road Dualisation Project",
+    "지역": "아프리카",
+    "국가": "가나",
+    "섹터": "교통",
+    "발주처": "Ministry of Roads and Highways / Ghana Highway Authority / Maripoma Enterprise Limited",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261031-GHA001",
+    "비고": "Wa-Sawla 도로사업의 Bamahu–Wa 도심 구간 이중화. 2026-10-31 구조물 철거 착수; Wa-Sawla 도로사업은 2026-01 시작, 36개월 공기로 보도됨. 세부 사업비 및 구간 계약범위 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NGA-DIGITAL-SMART-NATIONAL-TRANSPORT-DATA-BANK",
     "프로젝트명": "Smart National Transport Data Bank Project - Edo State Facility",
     "지역": "아프리카",
@@ -432,6 +522,21 @@
     "최근 업데이트일": "2026-10-31",
     "대표 기사 고유값": "ART-20261031-NGA001",
     "비고": "NITT 운영 국가교통 데이터뱅크의 Edo주 시설. 주지사가 시설용 1,000㎡ 부지 제공 의사를 밝혔으며 부지 절차·시설 조달·일정은 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUN-SOC-EL-MENZAH-OLYMPIC-STADIUM-RECONSTRUCTION",
+    "프로젝트명": "El Menzah Olympic Stadium Reconstruction Project",
+    "지역": "중동",
+    "국가": "튀니지",
+    "섹터": "사회인프라",
+    "발주처": "튀니지 장비·주택부 / 청년·체육부",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "TAP 보도 사업비 TND 520~600mn(세금 포함); 공식 USD 사업비 미확인",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261031-TUN001",
+    "비고": "2026-10-29 상업계약 체결. CRCEG/CAMCE 컨소시엄이 재건·개보수 수행. TAP 보도 공기는 30~36개월; 착공일·재원 및 세부 계약조건 후속 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -4512,21 +4617,6 @@
     "최근 업데이트일": "2026. 4. 10",
     "대표 기사 고유값": "ART-20260410-004086",
     "비고": "관련 기사: ART-20250718-004085, ART-20260303-001429, ART-20260410-004086. M-10 레치차-칼린코비치 86km 1급 기술기준·시멘트콘크리트 포장 재건. 1단계 Rechitsa-Korovatichi 17km 2026년 9월 완료 목표, 드네프르강 교량 우측부는 2027년 말 조기 개통 가능성.",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "MDA-ROAD-MRRV-M2-M1",
-    "프로젝트명": "Moldova Roads Rehabilitation V Project",
-    "지역": "유럽",
-    "국가": "몰도바",
-    "섹터": "교통",
-    "발주처": "National Road Administration / Ministry of Infrastructure and Regional Development",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "pre-procurement",
-    "최근 업데이트일": "2026. 4. 10",
-    "대표 기사 고유값": "ART-20260410-001425",
-    "비고": "M2 Chisinau 순환도로 2구간 및 M1 Chisinau-Leuseni 구간 개량. M1 Lot 1·2 감리 사전심사 공고 확인",
     "대표 기사 정보 분류": ""
   },
   {
@@ -19357,21 +19447,6 @@
     "섹터": "교통",
     "발주처": "Brașov County Council / Brașov metropolitan transport stakeholders / CFR partnership candidates",
     "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "ROU-ROAD-A0-NORTH-AFUMATI-PANTELIMON-CERNICA",
-    "프로젝트명": "A0 North Afumați–Pantelimon–Cernica Motorway Sections",
-    "지역": "유럽",
-    "국가": "루마니아",
-    "섹터": "교통",
-    "발주처": "CNAIR / Ministry of Transport and Infrastructure",
-    "사업비(달러 기준 추정액)": "미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
     "최근 업데이트일": "",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T02:26:19.919Z",
+  "updatedAt": "2026-11-04T09:34:37.261Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,46 +28,36 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9510,
-    "projects": 1598
+    "articles": 9518,
+    "projects": 1603
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261103-BHR001",
-        "ART-20261103-CAN001",
-        "ART-20261103-TKM001",
-        "ART-20261102-BHR001",
-        "ART-20261102-BHR002",
-        "ART-20261102-CAN001",
-        "ART-20261102-CAN002",
-        "ART-20261101-BHR001",
-        "ART-20261101-BHR002",
-        "ART-20261101-BHR003",
-        "ART-20261101-BHR004",
-        "ART-20261101-BHR005",
-        "ART-20261030-CAN001",
-        "ART-20261030-CAN002",
-        "ART-20261030-CAN003",
-        "ART-20261030-CAN004"
+        "ART-20261103-MDA001",
+        "ART-20261103-ROU001",
+        "ART-20261103-ROU002",
+        "ART-20261102-GEO001",
+        "ART-20261102-MAR001",
+        "ART-20261102-ROU001",
+        "ART-20261031-GHA001",
+        "ART-20261031-TUN001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BHR-IND-AMFORM-POWER-TRANSFORMER-FACTORY",
-        "CAN-ROAD-WYECROFT-EXTENSION-BRIDGE",
-        "CAN-PORT-MONTREAL-CONTRECOEUR-CONTAINER-TERMINAL",
-        "CAN-WATER-WINNIPEG-NORTH-END-WWTP-PHASE-3",
-        "BHR-ENERGY-BEYON-SOLAR-PARK-PHASE-5",
-        "BHR-URBAN-BILAJ-ALJAZAYER-RETAL-700-MIXED-USE",
-        "CAN-PORT-ROBERTS-BANK-TERMINAL-2",
-        "CAN-SOC-TRANSPORTATION-SAFETY-TECHNOLOGY-SCIENCE-HUB",
-        "CAN-SOC-WINDSOR-FANCSY-FAMILY-HOSPITAL-DTB",
-        "CAN-URBAN-LEBRETON-AQUEDUCT-DISTRICT"
+        "GEO-ROAD-TBILISI-RUSTAVELI-AVENUE-REHABILITATION",
+        "ROU-TRANSPORT-BUCHAREST-TRAM-LINES-MODERNIZATION-16-LOTS",
+        "ETH-ENERGY-ETHIOPIA-DJIBOUTI-TRUCK-CHARGING-NETWORK",
+        "GHA-ROAD-WA-SAWLA-BAMAHU-WA-DUALIZATION",
+        "TUN-SOC-EL-MENZAH-OLYMPIC-STADIUM-RECONSTRUCTION"
       ],
-      "updated": [],
+      "updated": [
+        "MDA-ROAD-MRRV-M2-M1",
+        "ROU-ROAD-A0-NORTH-AFUMATI-PANTELIMON-CERNICA"
+      ],
       "removed": []
     }
   },
