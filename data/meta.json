@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:46:26.598Z",
+  "updatedAt": "2026-11-04T23:33:56.313Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,46 +24,25 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9552,
+    "articles": 9550,
     "projects": 1627
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261104-CHN001",
-        "ART-20261104-IRN001",
-        "ART-20261104-KWT001",
-        "ART-20261104-THA001",
-        "ART-20261103-EGY001",
-        "ART-20261102-CHN001",
-        "ART-20261102-EGY001",
-        "ART-20261102-IRQ001",
-        "ART-20261102-MEX001",
-        "ART-20261101-IRQ001",
-        "ART-20261101-MEX001"
-      ],
+      "added": [],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20261104-VNM001",
+        "ART-20261103-VNM001"
+      ]
     },
     "projects": {
-      "added": [
-        "KWT-OILGAS-KOC-WEST-KUWAIT-PRODUCTION-FACILITIES-REVAMP",
-        "THA-TRANSPORT-SUVARNABHUMI-EAST-EXPANSION",
-        "EGY-RAIL-SINAI-DEVELOPMENT-TRAIN",
-        "IRQ-AIR-MOSUL-INTERNATIONAL-AIRPORT",
-        "MEX-RAIL-QUERETARO-SALTILLO",
-        "CHN-ROAD-HOHOT-BEIHAl-EXPRESSWAY",
-        "IRQ-AIR-NASIRIYAH-INTERNATIONAL-AIRPORT",
-        "MEX-RAIL-QUERETARO-IRAPUATO"
-      ],
-      "updated": [
-        "IRN-TRANSPORT-RASHT-ASTARA-RAIL",
-        "EGY-ENERGY-DANDARA-SOLAR-BESS"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
