@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:34:37.261Z",
+  "updatedAt": "2026-11-04T17:27:59.851Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,41 +28,64 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9518,
-    "projects": 1603
+    "articles": 9541,
+    "projects": 1619
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261103-MDA001",
-        "ART-20261103-ROU001",
-        "ART-20261103-ROU002",
-        "ART-20261102-GEO001",
-        "ART-20261102-MAR001",
-        "ART-20261102-ROU001",
-        "ART-20261031-GHA001",
-        "ART-20261031-TUN001"
+        "ART-20261104-SAU001",
+        "ART-20261104-SGP001",
+        "ART-20261104-VNM001",
+        "ART-20261103-SAU001",
+        "ART-20261103-VNM001",
+        "ART-20261102-SAU001",
+        "ART-20261104-FJI001",
+        "ART-20261103-DOM001",
+        "ART-20261103-FJI001",
+        "ART-20261103-LAO001",
+        "ART-20261103-PER001",
+        "ART-20261103-URY001",
+        "ART-20261103-URY002",
+        "ART-20261103-ZAF001",
+        "ART-20261103-ZAF002",
+        "ART-20261103-ZAF003",
+        "ART-20261102-FJI001",
+        "ART-20261102-FJI002",
+        "ART-20261102-PER001",
+        "ART-20261102-ZAF001",
+        "ART-20261031-PER001",
+        "ART-20261031-ZAF001",
+        "ART-20261030-URY001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "GEO-ROAD-TBILISI-RUSTAVELI-AVENUE-REHABILITATION",
-        "ROU-TRANSPORT-BUCHAREST-TRAM-LINES-MODERNIZATION-16-LOTS",
-        "ETH-ENERGY-ETHIOPIA-DJIBOUTI-TRUCK-CHARGING-NETWORK",
-        "GHA-ROAD-WA-SAWLA-BAMAHU-WA-DUALIZATION",
-        "TUN-SOC-EL-MENZAH-OLYMPIC-STADIUM-RECONSTRUCTION"
+        "SAU-ROAD-RIYADH-NORTHERN-ROADS-NETWORK",
+        "LAO-TRANSPORT-BOUN-NEUA-AIRPORT-EXPANSION",
+        "PER-SOC-TORRE-TRECCA-ESSALUD",
+        "SAU-TRANSPORT-RIYADH-METRO-RED-LINE-EXTENSION",
+        "URY-OILGAS-HIF-PAYSANDU-ECOMFUELS",
+        "URY-ROAD-DOLORES-BYPASS",
+        "ZAF-ROAD-N17-SPRINGS-LEANDRA-RESURFACING",
+        "ZAF-ROAD-N3-HEIDELBERG-GELDENHUYS-RESURFACING",
+        "ZAF-ROAD-R21-OLIFANTSFONTEIN-HANS-STRYDOM-RESURFACING",
+        "FJI-WATER-REWA-WATER-MAIN-UPGRADES",
+        "FJI-WATER-VIRIA-WATER-MAINS-EXTENSIONS",
+        "PER-ROAD-CHIMBOTE-BYPASS-SAFETY-WORKS",
+        "SAU-ENERGY-SHUQAIQ-3GW-POWER-PLANT",
+        "ZAF-PORT-RICHARDS-BAY-URANIA-NEWARK-VENTURA-ROADS",
+        "ZAF-TRANSPORT-GODURBAN-C3-CORRIDOR",
+        "URY-ROAD-NATIONAL-ROUTES-MAINTENANCE-UR-L1221"
       ],
-      "updated": [
-        "MDA-ROAD-MRRV-M2-M1",
-        "ROU-ROAD-A0-NORTH-AFUMATI-PANTELIMON-CERNICA"
-      ],
+      "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-04",
+    "articleCollectedDate": "2026-11-05",
     "articlePublishedDate": "2026-11-04",
     "projectUpdatedDate": "2026-11-04"
   }

@@ -15,6 +15,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-ROAD-RIYADH-NORTHERN-ROADS-NETWORK",
+    "프로젝트명": "Riyadh Northern Roads Network Upgrade Programme",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "교통",
+    "발주처": "Royal Commission for Riyadh City (RCRC) / King Salman International Airport",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "MEED 2026-11-04 보도 기준; 공식 사업비 미확인",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-04",
+    "대표 기사 고유값": "ART-20261104-SAU001",
+    "비고": "총 189km·19개 도로사업·33개 입체교차로. RCRC 162km는 3개 웨이브·5개 패키지, 공항 27km는 KSIA가 개발 예정. 전체 입찰 목표 2028년까지.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AUS-RAIL-MIDLAND-LINE-CARNAMAH-MINGENEW-UPGRADE",
     "프로젝트명": "Midland Line Carnamah–Mingenew Upgrade Project",
     "지역": "태평양",
@@ -105,6 +120,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "LAO-TRANSPORT-BOUN-NEUA-AIRPORT-EXPANSION",
+    "프로젝트명": "Boun Neua Airport Expansion",
+    "지역": "아시아",
+    "국가": "라오스",
+    "섹터": "교통",
+    "발주처": "Ministry of Public Works and Transport / Phongsaly Provincial Administration",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-LAO001",
+    "비고": "ATR-72·C909 수용을 위한 확장 계획. 2026-10-28 중앙부처-퐁살리주 협력 합의에 포함. 공식 사업비·재원·발주일정 미확인.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "MDA-ROAD-MRRV-M2-M1",
     "프로젝트명": "Moldova Roads Rehabilitation V Project",
     "지역": "유럽",
@@ -135,6 +165,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PER-SOC-TORRE-TRECCA-ESSALUD",
+    "프로젝트명": "Torre Trecca EsSalud Specialized Outpatient Care Complex",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "사회인프라",
+    "발주처": "EsSalud / PROINVERSIÓN / Consorcio Trecca S.A.C.",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 발표 PEN 486.3mn(2026-11-03, VAT 제외); 공식 USD 사업비 환산 근거 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-PER001",
+    "비고": "2026-11-03 공사 착수. HV Salfacorp 시공, 건설·장비 설치 24개월 및 PPP 운영 18년 예정. USD 기준 공식 총사업비는 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ROU-ROAD-A0-NORTH-AFUMATI-PANTELIMON-CERNICA",
     "프로젝트명": "A0 North Afumați–Pantelimon–Cernica Motorway Sections",
     "지역": "유럽",
@@ -162,6 +207,96 @@
     "최근 업데이트일": "2026-11-03",
     "대표 기사 고유값": "ART-20261103-RUS001",
     "비고": "R-215–마하치칼라항 연결 6.2km 왕복 4차로 도로. 보도상 사업비 RUB 8.9bn, 입체교차로 2곳 포함; 환산 근거가 없어 공식 USD 사업비는 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "SAU-TRANSPORT-RIYADH-METRO-RED-LINE-EXTENSION",
+    "프로젝트명": "Riyadh Metro Red Line Extension",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "교통",
+    "발주처": "Royal Commission for Riyadh City (RCRC)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "PMCM 용역 계약금액·공식 프로젝트 총사업비 미공개",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-SAU001",
+    "비고": "8.4km·5개 역(KSU–Diriyah South). Parsons·Systra·Egis JV 선정 사실을 Parsons가 2026-11-03 발표했으며, 선정 시점은 2026년 3월임.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "URY-OILGAS-HIF-PAYSANDU-ECOMFUELS",
+    "프로젝트명": "HIF Paysandú Synthetic Fuels Project",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "석유가스·화학",
+    "발주처": "HIF Global / Uruguay Government",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "기사상 USD 1.277bn은 태양광·풍력 발전설비 투자액이며 전체 사업비 아님",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-URY001",
+    "비고": "",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "URY-ROAD-DOLORES-BYPASS",
+    "프로젝트명": "Dolores Bypass Project",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "교통",
+    "발주처": "MTOP / Dirección Nacional de Vialidad",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 확인되지 않음",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-URY002",
+    "비고": "",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "ZAF-ROAD-N17-SPRINGS-LEANDRA-RESURFACING",
+    "프로젝트명": "N17 Springs–Leandra 인터체인지 재포장 사업",
+    "지역": "아프리카",
+    "국가": "남아프리카공화국",
+    "섹터": "교통",
+    "발주처": "SANRAL",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "약 ZAR 469.5mn 계약액(2026-11-03 SANRAL 발표); 공식 USD 총사업비 미확인",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-ZAF003",
+    "비고": "주계약 Roadmac Surfacing. 2027-05 중순 착공 예상; 일부 구간은 음푸말랑가주로 연장.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ZAF-ROAD-N3-HEIDELBERG-GELDENHUYS-RESURFACING",
+    "프로젝트명": "N3 Heidelberg Road–Geldenhuys 인터체인지 재포장 사업",
+    "지역": "아프리카",
+    "국가": "남아프리카공화국",
+    "섹터": "교통",
+    "발주처": "SANRAL",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "ZAR 463mn 계약액(2026-11-03 SANRAL 발표); 공식 USD 총사업비 미확인",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-ZAF002",
+    "비고": "주계약 Roadspan Surfaces. 2027-02 말 착공, 2028-09 완료 예상.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ZAF-ROAD-R21-OLIFANTSFONTEIN-HANS-STRYDOM-RESURFACING",
+    "프로젝트명": "R21 Olifantsfontein–Hans Strydom 구간 포장 재정비",
+    "지역": "아프리카",
+    "국가": "남아프리카공화국",
+    "섹터": "교통",
+    "발주처": "SANRAL",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "ZAR 499.8mn 계약액(2026-11-03 SANRAL 발표); 공식 USD 총사업비 미확인",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-ZAF001",
+    "비고": "주계약 Roadmac Surfacing. 2027-01 착공, 2028-04 완료 예상.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -315,6 +450,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "FJI-WATER-REWA-WATER-MAIN-UPGRADES",
+    "프로젝트명": "Rewa Water Main Upgrades",
+    "지역": "태평양",
+    "국가": "피지",
+    "섹터": "수자원·환경",
+    "발주처": "Water Authority of Fiji",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-FJI001",
+    "비고": "RFT PMU 019/2027, 공고번호 WAFIJI-1178305. 2026-11-27 14:30 FJT 마감. 공사범위·사업비·공기 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "FJI-WATER-VIRIA-WATER-MAINS-EXTENSIONS",
+    "프로젝트명": "Viria Water Mains Extensions",
+    "지역": "태평양",
+    "국가": "피지",
+    "섹터": "수자원·환경",
+    "발주처": "Water Authority of Fiji",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-FJI002",
+    "비고": "RFT PMU 018/2027, 공고번호 WAFIJI-1178304. 2026-11-27 14:30 FJT 마감. 공사범위·사업비·공기 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "GEO-ROAD-TBILISI-RUSTAVELI-AVENUE-REHABILITATION",
     "프로젝트명": "Rustaveli Avenue Rehabilitation Project",
     "지역": "유럽",
@@ -360,6 +525,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PER-ROAD-CHIMBOTE-BYPASS-SAFETY-WORKS",
+    "프로젝트명": "Chimbote Bypass Safety and Connectivity Works",
+    "지역": "중남미",
+    "국가": "페루",
+    "섹터": "교통",
+    "발주처": "MTC / Autopista del Norte S.A.C. (AUNOR)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "보도된 설계 예산 미확정; 공식 USD 사업비 미확인",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-PER001",
+    "비고": "2026-10-29 MTC-AUNOR 협약으로 우회도로 안전시설 기본설계 착수. 차량 입체교차로·보행육교·연결도로 및 4개 교량 검토; 설계기간 12개월. 공사비·후속 조달 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "ROU-TRANSPORT-BUCHAREST-TRAM-LINES-MODERNIZATION-16-LOTS",
     "프로젝트명": "Bucharest Tram Lines Modernization Project (16 Lots)",
     "지역": "유럽",
@@ -390,6 +570,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SAU-ENERGY-SHUQAIQ-3GW-POWER-PLANT",
+    "프로젝트명": "Shuqaiq 3GW Combined-Cycle Power Plant",
+    "지역": "중동",
+    "국가": "사우디아라비아",
+    "섹터": "에너지",
+    "발주처": "Saudi Electricity Company (SEC) / Orascom Construction / Técnicas Reunidas",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "CANNON Artes 수처리 패키지 계약금액 및 공식 총사업비 미공개",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-SAU001",
+    "비고": "3GW 복합화력발전 사업의 고도 수처리설비 엔지니어링·공급 계약을 CANNON Artes가 수주. 지잔 지역 홍해 연안, EPC는 Orascom Construction·Técnicas Reunidas.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TJK-ROAD-DUSHANBE-QAHHOROV-OVERPASSES",
     "프로젝트명": "Dushanbe Abdulahad-Qahhorov Street Overpasses and Bridge Project",
     "지역": "중앙아시아",
@@ -403,6 +598,21 @@
     "대표 기사 고유값": "ART-20261102-TJK001",
     "비고": "3개 입체교차로와 1개 교량 사업. 야간 통행통제 개시; 일정·총사업비 미확인.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "ZAF-PORT-RICHARDS-BAY-URANIA-NEWARK-VENTURA-ROADS",
+    "프로젝트명": "리차즈베이항 Urania·Newark·Ventura 도로 재정비 사업",
+    "지역": "아프리카",
+    "국가": "남아프리카공화국",
+    "섹터": "교통",
+    "발주처": "Transnet National Ports Authority (TNPA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "ZAR 375mn(공식 TNPA 발표, 2026-11-02); 공식 USD 총사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-ZAF001",
+    "비고": "2026-10 착공, 공기 18개월. 시공사 및 세부 패키지는 미공개.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "BHR-ENERGY-BEYON-SOLAR-PARK-PHASE-5",
@@ -537,6 +747,21 @@
     "최근 업데이트일": "2026-10-31",
     "대표 기사 고유값": "ART-20261031-TUN001",
     "비고": "2026-10-29 상업계약 체결. CRCEG/CAMCE 컨소시엄이 재건·개보수 수행. TAP 보도 공기는 30~36개월; 착공일·재원 및 세부 계약조건 후속 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ZAF-TRANSPORT-GODURBAN-C3-CORRIDOR",
+    "프로젝트명": "GO!Durban Corridor 3 (Bridge City–Pinetown)",
+    "지역": "아프리카",
+    "국가": "남아프리카공화국",
+    "섹터": "교통",
+    "발주처": "eThekwini Municipality",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 총사업비 미확인",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-10-31",
+    "대표 기사 고유값": "ART-20261031-ZAF001",
+    "비고": "2026-12 운행 목표. 운영계약·시스템 시험·시운전 미완료.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -702,6 +927,21 @@
     "최근 업데이트일": "2026-10-30",
     "대표 기사 고유값": "ART-20261030-TJK001",
     "비고": "90km 도로 재건. 중국 무상원조 사업이며 타당성 조사 관련 의정서 서명. 착공 예상 2027년; 공식 총사업비 미확인.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "URY-ROAD-NATIONAL-ROUTES-MAINTENANCE-UR-L1221",
+    "프로젝트명": "Support for Improving the Quality of Transportation Infrastructure Spending in Uruguay II (UR-L1221)",
+    "지역": "중남미",
+    "국가": "우루과이",
+    "섹터": "교통",
+    "발주처": "IDB / Ministerio de Transporte y Obras Públicas",
+    "사업비(달러 기준 추정액)": "USD 200mn",
+    "사업비 환산 환율 / 기준": "IDB project page; approval 2026-10-30",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-10-30",
+    "대표 기사 고유값": "ART-20261030-URY001",
+    "비고": "",
     "대표 기사 정보 분류": ""
   },
   {
