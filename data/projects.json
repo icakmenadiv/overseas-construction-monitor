@@ -15,6 +15,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PHL-ROAD-C5-REHABILITATION",
+    "프로젝트명": "C-5 Road Rehabilitation Project",
+    "지역": "아시아",
+    "국가": "필리핀",
+    "섹터": "교통",
+    "발주처": "Department of Public Works and Highways (DPWH)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "보도된 사업비 PHP 2.5bn; 공식 USD 사업비 미확인",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-11-04",
+    "대표 기사 고유값": "ART-20261104-PHL001",
+    "비고": "Kalayaan Interchange–Commonwealth Avenue 간 23km 재활. 기층 보수·아스팔트 덧씌우기·보도 확장 포함; 약 420일 공사, 2028년 1~2월 완료 목표. 적격심사 중.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UAE-TRANSPORT-SHARJAH-AL-TAAWUN-TUNNEL",
     "프로젝트명": "Sharjah Al Taawun Tunnel Development Project",
     "지역": "중동",
@@ -58,6 +73,51 @@
     "대표 기사 고유값": "ART-20261103-MDA001",
     "비고": "M2 Chisinau 순환도로 2구간 및 M1 Chisinau-Leuseni 구간 개량. M1 Lot 1·2 감리 사전심사 공고 확인. 2026-11-03 M1 Leușeni–Chișinău Lot 4(23.71km, km 61+750–85+460) 공공협의 완료; ART-20261103-MDA001.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "OMN-DIGITAL-SALALAH-MUBBADRAH-AI-PARK",
+    "프로젝트명": "Salalah AI Data Centre and Green Computing Park",
+    "지역": "중동",
+    "국가": "오만",
+    "섹터": "디지털·데이터센터",
+    "발주처": "Mubbadrah Investments / PCG Global / AB Energy",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "기사상 제안 투자액 USD 3bn; 공식 사업비 확인 불가. 선행 관련기사 ART-20261024-OMN002",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-OMN002",
+    "비고": "Salalah 소재 AI 데이터센터·그린 컴퓨팅 파크 제안사업. 최대 400MW 목표 보도. Mubbadrah가 앵커 투자자로 사업개발 조율; PCG Global·AB Energy와 재생에너지·ESS·계통연계 전력구조 협의 중. 전력 인프라·재원·계약 구조 미확정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "OMN-ENERGY-OMAN-GCC-INTERCONNECTION",
+    "프로젝트명": "Oman-GCC Direct Electricity Interconnection Project",
+    "지역": "중동",
+    "국가": "오만",
+    "섹터": "에너지",
+    "발주처": "GCC Interconnection Authority (GCCIA) / Oman Electricity Transmission Company (OETC)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "보도상 투자액 RO 268.9mn 초과; 공식 USD 총사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-OMN001",
+    "비고": "Ibri–Al Sila 530km·400kV 연계선과 Ibri·Baynunah 변전소 포함. 공정률 약 35%, 2027년 말 가동 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TWN-URBAN-KAOHSIUNG-MRT-Y8-JOINT-DEVELOPMENT",
+    "프로젝트명": "Kaohsiung MRT Yellow Line Y8 Station Joint Development Project",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "도시개발·주택",
+    "발주처": "Kaohsiung City Government Mass Rapid Transit Bureau / Taiwan Ministry of the Interior Urban Planning Commission",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-TWN001",
+    "비고": "1.38ha 개발구역에 3개 동을 계획하며 가오슝과기대 기술산학센터 및 가오슝고공 학생활동센터 개선을 포함. 도시계획 변경 승인 후 2027년 투자자 모집, 2032년 준공 계획. 별도 사업비는 발표에서 확인되지 않음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "UAE-URBAN-RIVIERA-RESIDENCES-AL-REEM-PHASE2",
@@ -105,6 +165,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "HKG-URBAN-WAH-FU-ESTATE-REDEVELOPMENT",
+    "프로젝트명": "Wah Fu Estate Redevelopment and New Wah Fu Estate Phase 1",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "도시개발·주택",
+    "발주처": "Hong Kong Housing Authority",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 총사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-HKG001",
+    "비고": "Pok Fu Lam South 5개 수용단지 건설 진행 중. 1차 Wah Fu North Estate 2026년 말 완공 예상. 전체 이주 2027년 3분기 종료 전망 후 철거 예정. New Wah Fu Estate 1단계 3개 주거동·상업/공공공간 계획; 도로 정렬공사는 2028년 중반 착수 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-DATA-SMX01-JAKARTA",
     "프로젝트명": "SMX01 Jakarta AI Data Center Project",
     "지역": "아시아",
@@ -132,6 +207,36 @@
     "최근 업데이트일": "2026-11-02",
     "대표 기사 고유값": "ART-20261102-IDN002",
     "비고": "Paser 부두와 동·남칼리만탄 3개 항로 준설을 포함하는 사업 묶음; EPC CCCC",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PAN-METRO-LINE3",
+    "프로젝트명": "Panama Metro Line 3 Monorail Project",
+    "지역": "중남미",
+    "국가": "파나마",
+    "섹터": "교통",
+    "발주처": "Metro de Panamá, S.A.",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 총사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-PAN001",
+    "비고": "2026-11-02 내각 승인에 따라 Consorcio PMTS Línea 3가 사업관리·인터페이스 조정·기술지원 용역을 수행하도록 예외 계약 절차 승인. 용역액 B/.16,223,996.07은 메트로 전체 사업비가 아님. 수행기간 2026-08-01~2029-06-30, 청산 2개월 추가. 전체 프로젝트 공식 USD 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PHL-ENERGY-QUEZON-NORTH-WIND-DEDICATED-TRANSMISSION",
+    "프로젝트명": "Quezon North Wind Power Project Dedicated Transmission Facilities",
+    "지역": "아시아",
+    "국가": "필리핀",
+    "섹터": "에너지",
+    "발주처": "Giga Ace 6 Inc. (ACEN subsidiary) / ERC",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "ERC 승인 보도액 PHP 7.352bn은 전용 송전시설 비용; 전체 프로젝트 공식 USD 사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-PHL001",
+    "비고": "344.5MW Quezon North 풍력발전사업 계통연계시설. 임시 2.7km 및 최종 20km 500kV 복회선 계획; ERC는 2026년 11월 시설 개발·보유를 승인했으며 9월 현장점검 시 공사 시작 확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {

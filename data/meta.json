@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T17:44:22.541Z",
+  "updatedAt": "2026-11-05T22:54:42.431Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,57 +28,36 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9596,
-    "projects": 1650
+    "articles": 9605,
+    "projects": 1657
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261105-IDN001",
-        "ART-20261104-UAE001",
-        "ART-20261103-IDN001",
-        "ART-20261103-UAE001",
-        "ART-20261103-UAE002",
-        "ART-20261102-IDN001",
-        "ART-20261102-IDN002",
-        "ART-20261104-NZL001",
-        "ART-20261104-NZL002",
-        "ART-20261104-PRY001",
-        "ART-20261104-SLV001",
-        "ART-20261103-NZL001",
-        "ART-20261103-PAK001",
-        "ART-20261103-PRY001",
-        "ART-20261103-SLV001",
-        "ART-20261105-BOL001",
-        "ART-20261102-PAK001",
-        "ART-20261102-PRY001",
-        "ART-20261102-PRY002"
+        "ART-20261104-PHL001",
+        "ART-20261104-PHL002",
+        "ART-20261104-POL001",
+        "ART-20261103-OMN001",
+        "ART-20261103-OMN002",
+        "ART-20261103-TWN002",
+        "ART-20261102-HKG001",
+        "ART-20261102-PAN001",
+        "ART-20261102-PHL001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "IDN-TRANSPORT-BRT-BBMA-CINUNUK-DEPOT",
-        "IDN-TRANSPORT-PUPUK-KALTIM-JETTY-11",
-        "UAE-URBAN-RIVIERA-RESIDENCES-AL-REEM-PHASE2",
-        "IDN-DATA-SMX01-JAKARTA",
-        "IDN-TRANSPORT-JHONLIN-KALIMANTAN-PORTS-CHANNELS",
-        "BOL-ROAD-RIOSECO-HUARINA-D14-SLOW-LANE",
-        "NZL-ROAD-SH1-ROLLESTON-ACCESS-IMPROVEMENTS",
-        "NZL-WATER-AVONDALE-COLLECTOR-SEWER",
-        "NZL-WATER-MOTIONS-CATCHMENT-IMPROVEMENT",
-        "PAK-ENERGY-DHABEI-JHIMPIR-II-220KV-TRANSMISSION",
-        "PRY-ROAD-PY12-CHACOI-GRAL-BRUGUEZ",
-        "PRY-WATER-ASUNCION-MINOR-MAIN-COLLECTORS-PHASE1"
+        "PHL-ROAD-C5-REHABILITATION",
+        "OMN-DIGITAL-SALALAH-MUBBADRAH-AI-PARK",
+        "OMN-ENERGY-OMAN-GCC-INTERCONNECTION",
+        "TWN-URBAN-KAOHSIUNG-MRT-Y8-JOINT-DEVELOPMENT",
+        "HKG-URBAN-WAH-FU-ESTATE-REDEVELOPMENT",
+        "PAN-METRO-LINE3",
+        "PHL-ENERGY-QUEZON-NORTH-WIND-DEDICATED-TRANSMISSION"
       ],
-      "updated": [
-        "UAE-TRANSPORT-SHARJAH-AL-TAAWUN-TUNNEL",
-        "KEN-ROAD-NAIROBI-KENYATTA-AVENUE-UPPER-HILL-VIADUCT",
-        "KEN-ROAD-NAIROBI-NAKURU-MAU-SUMMIT-PPP",
-        "KGZ-ENERGY-CHON-KEMIN-SMALL-HPP-CASCADE",
-        "KGZ-WATER-NARYN-WWTP"
-      ],
+      "updated": [],
       "removed": []
     }
   },
