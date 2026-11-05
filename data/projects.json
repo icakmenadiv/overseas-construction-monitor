@@ -285,6 +285,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TUR-ENERGY-ANTALYA-GOKSU-154KV-CABLE",
+    "프로젝트명": "154kV Antalya–Göksu 지중케이블 연결사업",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "에너지",
+    "발주처": "Turkish Electricity Transmission Corporation (TEİAŞ)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인; 입찰공고에는 예상 계약금액 미기재",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-TUR001",
+    "비고": "TEİAŞ DB.KAB.22, 세계은행 대출 9859-TR/TPTS P508354. 154kV 지중케이블 공급·설계·시공·시운전 포함, 2026-12-08 입찰 마감; 7년 수리 의무 포함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUR-ENERGY-BESYUZEVLER-ATISALANI-154KV-UGC",
+    "프로젝트명": "154kV Beşyüzevler–Atışalanı 지중케이블 사업",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "에너지",
+    "발주처": "Turkish Electricity Transmission Corporation (TEİAŞ)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비·재원·발주방식 미확인",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-TUR002",
+    "비고": "이스탄불 Esenler·Gaziosmanpaşa·Bayrampaşa 지역, 154kV·1,600mm²·약 4.855km. 2026-11-03 TEİAŞ가 환경·사회관리계획 초안을 공개; 입찰 일정 미공개.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "URY-OILGAS-HIF-PAYSANDU-ECOMFUELS",
     "프로젝트명": "HIF Paysandú Synthetic Fuels Project",
     "지역": "중남미",
@@ -313,6 +343,21 @@
     "대표 기사 고유값": "ART-20261103-URY002",
     "비고": "",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "UZB-URBAN-BUKHARA-TOURISM-CENTER",
+    "프로젝트명": "Bukhara Tourism Center Project",
+    "지역": "중앙아시아",
+    "국가": "우즈베키스탄",
+    "섹터": "도시개발·주택",
+    "발주처": "Government of Uzbekistan / Bukhara regional authorities",
+    "사업비(달러 기준 추정액)": "USD 105mn",
+    "사업비 환산 환율 / 기준": "President.uz, 2026-11-03: planned total investment stated in USD; no currency conversion required.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-03",
+    "대표 기사 고유값": "ART-20261103-UZB001",
+    "비고": "50ha 복합 관광센터. 접견관·전시장·박물관·호텔 2곳·가족형 게스트하우스 80곳·2천석 원형극장·상업시설 포함. 10ha 구역 유틸리티 공사 진행.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "ZAF-ROAD-N17-SPRINGS-LEANDRA-RESURFACING",
@@ -583,6 +628,21 @@
     "대표 기사 고유값": "ART-20261102-IRQ001",
     "비고": "총리의 개항·운영 가속 지시(2026-11-02). 운영사 선정 요건은 내각 승인 및 후속 조달 절차 추적 필요.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "KHM-ROAD-CRCI-AH21-PHASE1",
+    "프로젝트명": "Cambodia Regional Connectivity Improvement Project Phase 1",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "교통",
+    "발주처": "Ministry of Public Works and Transport (MPWT)",
+    "사업비(달러 기준 추정액)": "USD 165mn",
+    "사업비 환산 환율 / 기준": "World Bank project document; full Phase I total, not the 62km Package 01 contract value",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-02",
+    "대표 기사 고유값": "ART-20261102-KHM001",
+    "비고": "기존 프로젝트 ID 재사용. National Road 64 개선·유지관리 62km Package 01 입찰 공고; 개별 계약금액 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "MEX-RAIL-QUERETARO-SALTILLO",
