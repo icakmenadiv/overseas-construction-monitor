@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T23:38:21.536Z",
+  "updatedAt": "2026-11-05T06:40:47.183Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1512,12 +1512,18 @@
       "ART-20261019-PHL001": {
         "source_link_click": 1
       },
+      "ART-20261021-MEX001": {
+        "article_detail_open": 1
+      },
       "ART-20261023-PHL001": {
         "source_link_click": 2
       },
       "ART-20261025-NPL001": {
-        "article_detail_open": 1,
+        "article_detail_open": 2,
         "source_link_click": 1
+      },
+      "ART-20261026-KGZ001": {
+        "article_detail_open": 1
       },
       "ART-20261027-SGP001": {
         "source_link_click": 2
@@ -1533,6 +1539,9 @@
       },
       "ART-20261029-KHM002": {
         "article_detail_open": 1
+      },
+      "ART-20261030-CHL001": {
+        "source_link_click": 1
       },
       "ART-20261030-KHM001": {
         "source_link_click": 1
@@ -1551,11 +1560,20 @@
       },
       "ART-20261031-VNM001": {
         "source_link_click": 1
+      },
+      "ART-20261101-BHR005": {
+        "article_detail_open": 1
+      },
+      "ART-20261103-IND001": {
+        "article_detail_open": 1
+      },
+      "ART-20261103-KAZ001": {
+        "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 51
+        "market_page_visit": 52
       }
     },
     "project": {
@@ -1572,6 +1590,9 @@
         "project_detail_open": 1
       },
       "AUS-ENERGY-MOORABOOL-BESS-VBB2": {
+        "project_detail_open": 1
+      },
+      "Basra-Aqaba Oil Pipeline Project": {
         "project_detail_open": 1
       },
       "Bataan-Cavite Interlink Bridge Project": {
@@ -5848,6 +5869,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20261021-MEX001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-05T04:10:46.846Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20261023-PHL001",
       "eventType": "source_link_click",
       "count": 2,
@@ -5857,8 +5885,8 @@
       "targetType": "article",
       "targetId": "ART-20261025-NPL001",
       "eventType": "article_detail_open",
-      "count": 1,
-      "updatedAt": "2026-10-29T06:05:59.815Z"
+      "count": 2,
+      "updatedAt": "2026-11-05T04:10:37.175Z"
     },
     {
       "targetType": "article",
@@ -5866,6 +5894,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-10-29T06:06:05.175Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261026-KGZ001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-05T04:11:19.051Z"
     },
     {
       "targetType": "article",
@@ -5901,6 +5936,13 @@
       "eventType": "article_detail_open",
       "count": 1,
       "updatedAt": "2026-11-02T01:10:38.510Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261030-CHL001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-05T04:12:18.782Z"
     },
     {
       "targetType": "article",
@@ -5945,11 +5987,32 @@
       "updatedAt": "2026-11-02T02:02:33.975Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20261101-BHR005",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-05T04:11:14.842Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261103-IND001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-05T04:12:15.911Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261103-KAZ001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-05T05:28:29.932Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 51,
-      "updatedAt": "2026-11-02T01:45:50.566Z"
+      "count": 52,
+      "updatedAt": "2026-11-05T04:13:18.288Z"
     },
     {
       "targetType": "project",
@@ -5985,6 +6048,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T05:22:26.325Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Basra-Aqaba Oil Pipeline Project",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-05T04:12:38.037Z"
     },
     {
       "targetType": "project",
