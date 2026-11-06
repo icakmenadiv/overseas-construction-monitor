@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T10:03:23.624Z",
+  "updatedAt": "2026-11-06T17:23:35.293Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,60 +28,46 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9627,
-    "projects": 1670
+    "articles": 9631,
+    "projects": 1681
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261105-BWA001",
-        "ART-20261105-BWA002",
-        "ART-20261105-GNQ001",
-        "ART-20261105-ISR001",
-        "ART-20261105-NPL001",
-        "ART-20261103-BWA001",
-        "ART-20261103-NPL001",
-        "ART-20261102-AZE001",
-        "ART-20261102-BLR001",
-        "ART-20261102-MNG002",
-        "ART-20261102-MNG003",
-        "ART-20261102-MNG004",
-        "ART-20261102-MNG005",
-        "ART-20261102-MNG006",
-        "ART-20261102-MNG007",
-        "ART-20261102-MNG008"
+        "ART-20261105-MYS001",
+        "ART-20261105-QAT001",
+        "ART-20261104-CZE001",
+        "ART-20261103-COL001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "GNQ-ENERGY-500MWP-SOLAR-PLANT",
-        "ISR-ENERGY-SOREK-POWER-PLANT",
-        "BLR-INDUSTRY-NEZHINSKY-MINING-PROCESSING-COMPLEX",
-        "BWA-WATER-CHOBE-ZAMBEZI-TRANSFER-SCHEME",
-        "MNG-ENERGY-SELENGE-MANDAL-150MW-TPP",
-        "MNG-PETCHEM-MONGOL-REFINERY",
-        "MNG-TRANSPORT-BUIR-LAKE-WATER-PORT",
-        "MNG-WATER-ULAANBAATAR-WEST-SOURCE",
-        "TJK-TRANSPORT-DUSHANBE-SMART-TRANSPORT"
+        "CZE-WASTE-CEPERKA-ZEVO",
+        "ECU-ROAD-CUENCA-MOLLETURO-EL-EMPALME",
+        "ECU-WATER-CALDERON-INTEGRAL-DRINKING-WATER",
+        "QAT-OIL-MAYDAN-MAHZAM-FIELD-REDEVELOPMENT",
+        "CZE-WATER-BRNO-TRNITA-FLOOD-PROTECTION-IX-XI",
+        "ECU-IND-CURIPAMBA-ELDOMO-MINE",
+        "CHL-ENERGY-KIMAL-LO-AGUIRRE-HVDC",
+        "CHL-IND-SIERRA-GORDA-FOURTH-GRINDING-LINE",
+        "LKA-ENERGY-KOLONNAWA-100MW-100MWH-BESS",
+        "LKA-WATER-RATHGAMA-FLOOD-MITIGATION",
+        "PNG-SOC-BATCH1-COLLEGE-INFRASTRUCTURE"
       ],
       "updated": [
-        "TJK-ENERGY-ROGUN-HPP-PHASE1",
-        "TJK-ROAD-MURGHAB-KULMA-RECONSTRUCTION",
-        "BRA-CHEM-AUTAZES-POTASH-PROJECT",
-        "BRA-ENERGY-ACU-TRANSMISSION",
-        "GBR-ENERGY-TEESSIDE-NODE-A-SUBSTATION",
-        "MMR-WTE-YANGON-HTEINBIN-DAWEICHAUNG",
-        "SRB-TRANSPORT-BOGOJEVO-RAIL-CONNECTION",
-        "UAE-TRANSPORT-SHARJAH-AL-TAAWUN-TUNNEL"
+        "MYS-RAIL-PENANG-MUTIARA-LRT",
+        "NIC-PORT-BLUEFIELDS-DEEPWATER",
+        "ISR-ENERGY-SOREK-POWER-PLANT",
+        "TJK-ROAD-MURGHAB-KULMA-RECONSTRUCTION"
       ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-06",
+    "articleCollectedDate": "2026-11-07",
     "articlePublishedDate": "2026-11-05",
-    "projectUpdatedDate": "2026-11-05"
+    "projectUpdatedDate": "2026-11-06"
   }
 }
