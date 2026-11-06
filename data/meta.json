@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T22:11:41.464Z",
+  "updatedAt": "2026-11-06T23:00:04.926Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,59 +24,34 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9648,
+    "articles": 9645,
     "projects": 1688
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261106-AUS001",
-        "ART-20261106-BGD001",
-        "ART-20261106-IND001",
-        "ART-20261106-IND002",
-        "ART-20261106-KAZ001",
-        "ART-20261105-AUS001",
-        "ART-20261105-AUS002",
-        "ART-20261105-BGD001",
-        "ART-20261105-BGD003",
-        "ART-20261104-BGD001",
-        "ART-20261104-IND001",
-        "ART-20261103-BGD002",
-        "ART-20261103-IND003",
-        "ART-20261103-NGA001",
-        "ART-20261103-NGA002",
-        "ART-20261102-RUS002",
-        "ART-20261102-RUS003"
+        "ART-20261105-DZA001"
       ],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20261105-GNQ001",
+        "ART-20261105-ISR001",
+        "ART-20261102-AZE001",
+        "ART-20261102-BLR001"
+      ]
     },
     "projects": {
       "added": [
-        "AUS-HOUSING-LEE-POINT-DEVELOPMENT",
-        "AUS-RAIL-LINDUM-LEVEL-CROSSING-UPGRADE",
-        "AUS-ROAD-TORRENS-TO-DARLINGTON",
-        "BGD-PORT-MONGLA-PORT-EXPANSION-MODERNISATION",
-        "BGD-ROAD-DHAKA-ELEVATED-EXPRESSWAY-PPP",
-        "IND-WATER-DHANOTI-HANSIYAWAS-RESERVOIR-A",
-        "NGA-ROAD-ABIDJAN-LAGOS-CORRIDOR-HIGHWAY"
+        "DZA-RAIL-ANNABA-DJEBEL-ONK-LINE"
       ],
-      "updated": [
-        "KAZ-DIGITAL-EKIBASTUZ-DATA-CENTER-VALLEY",
-        "CZE-WASTE-CEPERKA-ZEVO",
-        "CZE-WATER-BRNO-TRNITA-FLOOD-PROTECTION-IX-XI",
-        "ECU-IND-CURIPAMBA-ELDOMO-MINE",
-        "ECU-ROAD-CUENCA-MOLLETURO-EL-EMPALME",
-        "ECU-WATER-CALDERON-INTEGRAL-DRINKING-WATER",
-        "MYS-RAIL-PENANG-MUTIARA-LRT",
-        "NIC-PORT-BLUEFIELDS-DEEPWATER",
-        "QAT-OIL-MAYDAN-MAHZAM-FIELD-REDEVELOPMENT"
-      ],
-      "removed": []
+      "updated": [],
+      "removed": [
+        "GNQ-ENERGY-500MWP-SOLAR-PLANT"
+      ]
     }
   },
   "latest": {
