@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T17:23:35.293Z",
+  "updatedAt": "2026-11-06T22:11:41.464Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,46 +28,60 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9631,
-    "projects": 1681
+    "articles": 9648,
+    "projects": 1688
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261105-MYS001",
-        "ART-20261105-QAT001",
-        "ART-20261104-CZE001",
-        "ART-20261103-COL001"
+        "ART-20261106-AUS001",
+        "ART-20261106-BGD001",
+        "ART-20261106-IND001",
+        "ART-20261106-IND002",
+        "ART-20261106-KAZ001",
+        "ART-20261105-AUS001",
+        "ART-20261105-AUS002",
+        "ART-20261105-BGD001",
+        "ART-20261105-BGD003",
+        "ART-20261104-BGD001",
+        "ART-20261104-IND001",
+        "ART-20261103-BGD002",
+        "ART-20261103-IND003",
+        "ART-20261103-NGA001",
+        "ART-20261103-NGA002",
+        "ART-20261102-RUS002",
+        "ART-20261102-RUS003"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "CZE-WASTE-CEPERKA-ZEVO",
-        "ECU-ROAD-CUENCA-MOLLETURO-EL-EMPALME",
-        "ECU-WATER-CALDERON-INTEGRAL-DRINKING-WATER",
-        "QAT-OIL-MAYDAN-MAHZAM-FIELD-REDEVELOPMENT",
-        "CZE-WATER-BRNO-TRNITA-FLOOD-PROTECTION-IX-XI",
-        "ECU-IND-CURIPAMBA-ELDOMO-MINE",
-        "CHL-ENERGY-KIMAL-LO-AGUIRRE-HVDC",
-        "CHL-IND-SIERRA-GORDA-FOURTH-GRINDING-LINE",
-        "LKA-ENERGY-KOLONNAWA-100MW-100MWH-BESS",
-        "LKA-WATER-RATHGAMA-FLOOD-MITIGATION",
-        "PNG-SOC-BATCH1-COLLEGE-INFRASTRUCTURE"
+        "AUS-HOUSING-LEE-POINT-DEVELOPMENT",
+        "AUS-RAIL-LINDUM-LEVEL-CROSSING-UPGRADE",
+        "AUS-ROAD-TORRENS-TO-DARLINGTON",
+        "BGD-PORT-MONGLA-PORT-EXPANSION-MODERNISATION",
+        "BGD-ROAD-DHAKA-ELEVATED-EXPRESSWAY-PPP",
+        "IND-WATER-DHANOTI-HANSIYAWAS-RESERVOIR-A",
+        "NGA-ROAD-ABIDJAN-LAGOS-CORRIDOR-HIGHWAY"
       ],
       "updated": [
+        "KAZ-DIGITAL-EKIBASTUZ-DATA-CENTER-VALLEY",
+        "CZE-WASTE-CEPERKA-ZEVO",
+        "CZE-WATER-BRNO-TRNITA-FLOOD-PROTECTION-IX-XI",
+        "ECU-IND-CURIPAMBA-ELDOMO-MINE",
+        "ECU-ROAD-CUENCA-MOLLETURO-EL-EMPALME",
+        "ECU-WATER-CALDERON-INTEGRAL-DRINKING-WATER",
         "MYS-RAIL-PENANG-MUTIARA-LRT",
         "NIC-PORT-BLUEFIELDS-DEEPWATER",
-        "ISR-ENERGY-SOREK-POWER-PLANT",
-        "TJK-ROAD-MURGHAB-KULMA-RECONSTRUCTION"
+        "QAT-OIL-MAYDAN-MAHZAM-FIELD-REDEVELOPMENT"
       ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-07",
-    "articlePublishedDate": "2026-11-05",
+    "articlePublishedDate": "2026-11-06",
     "projectUpdatedDate": "2026-11-06"
   }
 }
