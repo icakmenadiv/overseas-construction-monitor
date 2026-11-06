@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T19:54:33.341Z",
+  "updatedAt": "2026-11-06T06:37:57.045Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1564,16 +1564,31 @@
       "ART-20261101-BHR005": {
         "article_detail_open": 1
       },
+      "ART-20261102-KHM001": {
+        "source_link_click": 1
+      },
       "ART-20261103-IND001": {
         "article_detail_open": 1
       },
       "ART-20261103-KAZ001": {
         "source_link_click": 1
+      },
+      "ART-20261103-KGZ001": {
+        "article_detail_open": 1
+      },
+      "ART-20261103-UKR001": {
+        "article_detail_open": 1
+      },
+      "ART-20261103-UZB001": {
+        "article_detail_open": 1
+      },
+      "ART-20261104-KGZ002": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 52
+        "market_page_visit": 53
       }
     },
     "project": {
@@ -1602,6 +1617,9 @@
         "project_detail_open": 1
       },
       "BGR-ENERGY-KOZLODUY-UNITS-7-8": {
+        "project_detail_open": 1
+      },
+      "Cambodia Regional Connectivity Improvement Project Phase 1": {
         "project_detail_open": 1
       },
       "Can Gio International Transshipment Port": {
@@ -5995,6 +6013,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20261102-KHM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-06T00:13:44.352Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20261103-IND001",
       "eventType": "article_detail_open",
       "count": 1,
@@ -6008,11 +6033,39 @@
       "updatedAt": "2026-11-05T05:28:29.932Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20261103-KGZ001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-06T04:15:04.447Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261103-UKR001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-06T04:15:10.394Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261103-UZB001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-06T04:15:27.142Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261104-KGZ002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-06T04:14:59.020Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 52,
-      "updatedAt": "2026-11-05T04:13:18.288Z"
+      "count": 53,
+      "updatedAt": "2026-11-06T06:10:01.714Z"
     },
     {
       "targetType": "project",
@@ -6076,6 +6129,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-06-24T06:47:42.439Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Cambodia Regional Connectivity Improvement Project Phase 1",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-06T00:13:49.580Z"
     },
     {
       "targetType": "project",
