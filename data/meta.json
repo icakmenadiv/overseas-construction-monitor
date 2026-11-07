@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:54:08.399Z",
+  "updatedAt": "2026-11-07T07:53:01.907Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,27 +28,50 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9649,
-    "projects": 1691
+    "articles": 9661,
+    "projects": 1700
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261106-BHR001",
-        "ART-20261105-CAN001",
-        "ART-20261105-CAN002",
-        "ART-20261104-BHR001"
+        "ART-20261106-GEO001",
+        "ART-20261106-GEO002",
+        "ART-20261106-MDA001",
+        "ART-20261106-ROU001",
+        "ART-20261105-ETH001",
+        "ART-20261105-MDA001",
+        "ART-20261105-TKM001",
+        "ART-20261105-TKM002",
+        "ART-20261105-TKM003",
+        "ART-20261104-ETH001",
+        "ART-20261104-MDA001",
+        "ART-20261104-ROU001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BHR-TRANSPORT-GCC-RAILWAY",
-        "CAN-SOC-BOWMANVILLE-HOSPITAL-REDEV",
-        "BHR-URBAN-BAHRAIN-MARINA"
+        "GEO-ROAD-SAMTREDIA-ZUGDIDI-HIGHWAY",
+        "ROU-DIGITAL-BLACK-SEA-AI-GIGAFACTORY",
+        "MDA-ENERGY-STRASENI-GUTINAS-400KV",
+        "MDA-ROAD-MRCP-CORRIDOR-24",
+        "ETH-TRANSPORT-ETHIO-DJIBOUTI-RAILWAY-SUPPLEMENTARY-WORKS",
+        "MOZ-ROAD-N1-CHIMUARA-NICOADALA-LOT2",
+        "MOZ-ROAD-N324-ZAMBEZIA-ASPHALT-2026",
+        "TKM-PETCHEM-DASHOGUZ-NITROGEN-FERTILIZER-COMPLEX",
+        "TKM-ROAD-GARABOGAZ-KAZAKHSTAN-BORDER-44KM"
       ],
-      "updated": [],
+      "updated": [
+        "TKM-ROAD-ASHGABAT-DASHOGUZ-HWY",
+        "ROU-ROAD-A0-NORTH-AFUMATI-PANTELIMON-CERNICA",
+        "BHR-TRANSPORT-GCC-RAILWAY",
+        "BHR-URBAN-BAHRAIN-MARINA",
+        "CAN-SOC-BOWMANVILLE-HOSPITAL-REDEV",
+        "DZA-RAIL-ANNABA-DJEBEL-ONK-LINE",
+        "KAZ-DIGITAL-EKIBASTUZ-DATA-CENTER-VALLEY",
+        "TJK-ENERGY-ROGUN-HPP-PHASE1"
+      ],
       "removed": []
     }
   },
