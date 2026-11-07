@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T23:00:04.926Z",
+  "updatedAt": "2026-11-07T01:54:08.399Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,34 +24,32 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9645,
-    "projects": 1688
+    "articles": 9649,
+    "projects": 1691
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261105-DZA001"
+        "ART-20261106-BHR001",
+        "ART-20261105-CAN001",
+        "ART-20261105-CAN002",
+        "ART-20261104-BHR001"
       ],
       "updated": [],
-      "removed": [
-        "ART-20261105-GNQ001",
-        "ART-20261105-ISR001",
-        "ART-20261102-AZE001",
-        "ART-20261102-BLR001"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "DZA-RAIL-ANNABA-DJEBEL-ONK-LINE"
+        "BHR-TRANSPORT-GCC-RAILWAY",
+        "CAN-SOC-BOWMANVILLE-HOSPITAL-REDEV",
+        "BHR-URBAN-BAHRAIN-MARINA"
       ],
       "updated": [],
-      "removed": [
-        "GNQ-ENERGY-500MWP-SOLAR-PLANT"
-      ]
+      "removed": []
     }
   },
   "latest": {
