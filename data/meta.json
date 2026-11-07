@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T14:25:02.017Z",
+  "updatedAt": "2026-11-07T18:56:45.028Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,32 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261106-URY001",
-        "ART-20261104-DOM001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "FJI-WATER-VUSUYA-PIPE-UPGRADE",
-        "GHA-RAIL-TEMA-MPAKADAN-ETCS-SIGNALING",
-        "GHA-ROAD-VOLIVO-BRIDGE",
-        "PER-SOC-CAJAMARCA-HOSPITAL-ONCOLOGY-HEMODIALYSIS",
-        "TUN-TRANSPORT-TUNIS-SOUTH-ENTRANCE-EXPANSION-PHASE2"
-      ],
-      "updated": [
-        "URY-WATER-PUNTA-DEL-ESTE-SANITATION",
-        "PER-PORT-SAN-JUAN-MARCONA",
-        "DOM-ROAD-AUTOPISTA-AMBAR",
-        "URY-OILGAS-HIF-PAYSANDU-ECOMFUELS",
-        "GEO-ROAD-SAMTREDIA-ZUGDIDI-HIGHWAY",
-        "MDA-ENERGY-STRASENI-GUTINAS-400KV",
-        "MDA-ROAD-MRCP-CORRIDOR-24",
-        "ROU-DIGITAL-BLACK-SEA-AI-GIGAFACTORY",
-        "ROU-ROAD-A0-NORTH-AFUMATI-PANTELIMON-CERNICA"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
