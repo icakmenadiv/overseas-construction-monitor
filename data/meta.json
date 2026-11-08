@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T21:57:28.394Z",
+  "updatedAt": "2026-11-08T22:51:30.518Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,35 +24,26 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9682,
-    "projects": 1713
+    "articles": 9683,
+    "projects": 1714
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261108-IRN001",
-        "ART-20261108-IRN002",
-        "ART-20261108-KWT001",
-        "ART-20261108-THA001",
-        "ART-20261107-MEX001",
-        "ART-20261106-MEX001"
+        "ART-20261106-EGY001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "THA-TRANSPORT-RAIL-SOUTHERN-DOUBLETRACK-PH2",
-        "MEX-DIGITAL-KIO-QRO3"
+        "EGY-URBAN-VIE-HALO-ZOMRA-EAST"
       ],
-      "updated": [
-        "IRN-TRANSPORT-RASHT-ASTARA-RAIL",
-        "KWT-TRANSPORT-KNRR-GCC-COMPONENT"
-      ],
+      "updated": [],
       "removed": []
     }
   },
