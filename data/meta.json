@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T14:45:41.709Z",
+  "updatedAt": "2026-11-08T19:10:43.645Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,47 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9661,
-    "projects": 1705
+    "articles": 9676,
+    "projects": 1711
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261108-IRQ001",
+        "ART-20261108-VNM001",
+        "ART-20261107-CHN001",
+        "ART-20261106-CHN001",
+        "ART-20261106-IRQ001",
+        "ART-20261106-VNM001",
+        "ART-20261105-IRQ001",
+        "ART-20261105-SAU001",
+        "ART-20261105-SAU002",
+        "ART-20261104-IRQ001",
+        "ART-20261104-IRQ002",
+        "ART-20261104-IRQ003",
+        "ART-20261104-SAU002",
+        "ART-20261104-SAU003",
+        "ART-20261104-SGP002"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "IRQ-URBAN-BISMAYAH-NEW-CITY",
+        "SAU-TRANSPORT-SAR-TRACK-DESIGN-FRAMEWORK",
+        "IRQ-SOC-RITAJ-BAGHDAD-HEALTH-EDUCATION",
+        "SAU-URBAN-AL-NARJIS-JOINT-DEVELOPMENT",
+        "SAU-WATER-QIDDIYA-WWTP-RO-PACKAGES",
+        "SGP-TRANSPORT-TEL5-DTL3E-EAST-RAIL-EXTENSION"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-07",
-    "articlePublishedDate": "2026-11-06",
+    "articleCollectedDate": "2026-11-09",
+    "articlePublishedDate": "2026-11-08",
     "projectUpdatedDate": "2026-11-06"
   }
 }
