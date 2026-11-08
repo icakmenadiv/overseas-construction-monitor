@@ -1,5 +1,50 @@
 [
   {
+    "프로젝트 고유값": "IRN-TRANSPORT-RASHT-ASTARA-RAIL",
+    "프로젝트명": "Rasht-Astara Railway Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "교통",
+    "발주처": "Construction and Development of Transportation Infrastructure Company / MRUD",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-11-08",
+    "대표 기사 고유값": "ART-20261108-IRN001",
+    "비고": "2026-11-08: SNSC ratification of the construction agreement reported; commercial/execution contract, financing and construction start remain unconfirmed. Link to ART-20261104-IRN001 on route access for full-corridor surveys.",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "THA-TRANSPORT-RAIL-SOUTHERN-DOUBLETRACK-PH2",
+    "프로젝트명": "Southern Double-Track Railway Phase 2 (Southern Sections)",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "교통",
+    "발주처": "State Railway of Thailand / Ministry of Transport",
+    "사업비(달러 기준 추정액)": "USD 3.19bn",
+    "사업비 환산 환율 / 기준": "공식 내각 승인액 THB 106,798.32mn을 태국 중앙은행 2026-11-06 기준환율 33.5030 THB/USD로 환산",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-11-08",
+    "대표 기사 고유값": "ART-20261108-THA001",
+    "비고": "3개 구간 총 504km. Chumphon–Surat Thani, Surat Thani–Hat Yai Junction, Hat Yai Junction–Padang Besar. 내각 승인 총액 THB 106,798.32mn; SRT가 입찰·계약을 2027년까지 추진 목표. 공식 승인액을 USD 3.19bn으로 환산했으며 개별 구간 계약액은 별도 확인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MEX-DIGITAL-KIO-QRO3",
+    "프로젝트명": "KIO QRO3 Data Center Campus",
+    "지역": "중남미",
+    "국가": "멕시코",
+    "섹터": "디지털·데이터센터",
+    "발주처": "KIO Data Centers",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "10억 달러 초과 및 최대 USD 1.3bn은 회사의 조건부 잠재 투자액으로 발표됨. 고객계약·투자 확정 전이므로 공식 사업비 열에 반영하지 않음.",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-06",
+    "대표 기사 고유값": "ART-20261106-MEX001",
+    "비고": "약 100MW 규모로 2030년까지 개발 계획. 부지와 에너지 공급 타당성 확보 보도; 착공 전 전략 고객 계약 필요.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "URY-WATER-PUNTA-DEL-ESTE-SANITATION",
     "프로젝트명": "Punta del Este Sanitation Network Expansion Project",
     "지역": "중남미",
@@ -12195,21 +12240,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "IRN-TRANSPORT-RASHT-ASTARA-RAIL",
-    "프로젝트명": "Rasht-Astara Railway Project",
-    "지역": "중동",
-    "국가": "이란",
-    "섹터": "교통",
-    "발주처": "Construction and Development of Transportation Infrastructure Company / MRUD",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "IRQ-AIR-BAGHDAD-INTERNATIONAL-AIRPORT-EXP",
     "프로젝트명": "Baghdad International Airport Development Project",
     "지역": "중동",
@@ -14409,9 +14439,9 @@
     "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
+    "최근 업데이트일": "planning",
+    "대표 기사 고유값": "2026-11-08",
+    "비고": "ART-20261108-KWT001",
     "대표 기사 정보 분류": ""
   },
   {
