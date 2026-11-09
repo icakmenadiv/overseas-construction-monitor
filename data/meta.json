@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T02:05:32.725Z",
+  "updatedAt": "2026-11-09T09:38:29.335Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,31 +28,72 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9687,
-    "projects": 1715
+    "articles": 9706,
+    "projects": 1725
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261106-JPN001",
-        "ART-20261106-TUR001",
-        "ART-20261105-KHM001",
-        "ART-20261105-TUR001"
+        "ART-20261109-JOR001",
+        "ART-20261108-JOR001",
+        "ART-20261108-JOR002",
+        "ART-20261108-KGZ001",
+        "ART-20261108-SDN001",
+        "ART-20261108-TZA001",
+        "ART-20261108-TZA002",
+        "ART-20261108-UKR001",
+        "ART-20261108-UZB001",
+        "ART-20261107-TZA001",
+        "ART-20261106-ARG001",
+        "ART-20261106-ARG002",
+        "ART-20261105-ARG001",
+        "ART-20261105-ARM001",
+        "ART-20261105-ARM002",
+        "ART-20261105-KGZ001",
+        "ART-20261105-KGZ002",
+        "ART-20261105-LBY001",
+        "ART-20261105-TZA001"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20261105-KEN001"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "JPN-TRANSPORT-KITSUKI-STATION-AREA-REDEVELOPMENT"
+        "JOR-WATER-SEWAGE-SLUDGE-LANDFILL-CLUSTERS",
+        "JOR-ROAD-AQABA-BACK-ROAD-DETOURS-PKG1",
+        "JOR-ROAD-AQABA-BACK-ROAD-DETOURS-PKG2",
+        "SDN-URBAN-INFRA-KFW-GEDAREF-KOSTI",
+        "KGZ-TRANSIT-BISHKEK-BYD-MONORAIL",
+        "ARM-SOC-GETAHOVIT-UEFA-STADIUM",
+        "ARG-TRANSPORT-VILLA-LA-ANGOSTURA-CIRCUNVALACION",
+        "ARG-WATER-LA-PLATA-ACUEDUCTO-PH2",
+        "TZA-ENERGY-KISONGO-SAME-SEGERA-400KV",
+        "UZB-ENERGY-KHALQA-500KV-TRANSMISSION"
       ],
-      "updated": [],
+      "updated": [
+        "TZA-RAIL-SGR-MAKUTUPORA-ISAKA-LOTS3-4",
+        "TZA-ROAD-JANGWANI-BRIDGE",
+        "EGY-URBAN-VIE-HALO-ZOMRA-EAST",
+        "IRQ-SOC-RITAJ-BAGHDAD-HEALTH-EDUCATION",
+        "IRQ-URBAN-BISMAYAH-NEW-CITY",
+        "JPN-TRANSPORT-KITSUKI-STATION-AREA-REDEVELOPMENT",
+        "MEX-DIGITAL-KIO-QRO3",
+        "SAU-TRANSPORT-SAR-TRACK-DESIGN-FRAMEWORK",
+        "SAU-URBAN-AL-NARJIS-JOINT-DEVELOPMENT",
+        "SAU-WATER-QIDDIYA-WWTP-RO-PACKAGES",
+        "SGP-TRANSPORT-TEL5-DTL3E-EAST-RAIL-EXTENSION",
+        "THA-TRANSPORT-RAIL-SOUTHERN-DOUBLETRACK-PH2",
+        "URY-OILGAS-HIF-PAYSANDU-ECOMFUELS",
+        "URY-WATER-PUNTA-DEL-ESTE-SANITATION"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-09",
-    "articlePublishedDate": "2026-11-08",
-    "projectUpdatedDate": "2026-11-08"
+    "articlePublishedDate": "2026-11-09",
+    "projectUpdatedDate": "2026-11-09"
   }
 }
