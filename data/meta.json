@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T22:51:30.518Z",
+  "updatedAt": "2026-11-09T02:05:32.725Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,20 +28,23 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9683,
-    "projects": 1714
+    "articles": 9687,
+    "projects": 1715
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261106-EGY001"
+        "ART-20261106-JPN001",
+        "ART-20261106-TUR001",
+        "ART-20261105-KHM001",
+        "ART-20261105-TUR001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "EGY-URBAN-VIE-HALO-ZOMRA-EAST"
+        "JPN-TRANSPORT-KITSUKI-STATION-AREA-REDEVELOPMENT"
       ],
       "updated": [],
       "removed": []
