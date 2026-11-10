@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T17:57:54.771Z",
+  "updatedAt": "2026-11-10T22:49:41.982Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,47 +28,32 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9764,
-    "projects": 1758
+    "articles": 9770,
+    "projects": 1763
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261109-MYS001",
-        "ART-20261109-CZE001",
-        "ART-20261109-QAT001",
-        "ART-20261109-RUS001",
-        "ART-20261108-CZE001",
-        "ART-20261110-COL001",
-        "ART-20261110-LKA004",
-        "ART-20261110-LKA005",
-        "ART-20261109-CHL001",
-        "ART-20261109-ECU001",
-        "ART-20261109-LKA001",
-        "ART-20261109-LKA003",
-        "ART-20261108-COL001",
-        "ART-20261108-LKA002",
-        "ART-20261106-CHL001",
-        "ART-20261106-COL001"
+        "ART-20261109-AUS001",
+        "ART-20261109-BGD001",
+        "ART-20261109-KAZ001",
+        "ART-20261109-NGA001",
+        "ART-20261107-NGA001",
+        "ART-20261106-NGA001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "COL-ROAD-TRONCAL-DE-LOS-ANDES",
-        "LKA-ENERGY-JA-ELA-SUDUWELLA-WASTE-TO-ENERGY",
-        "LKA-TRANSPORT-MAHAWELI-SARASAVI-PERADENIYA-RAIL-BRIDGE",
-        "MYS-DIGITAL-SOFTBANK-GRAB-PETROS-AI-INFRA",
-        "CHL-ROAD-CIRCUNVALACION-LA-SERENA-COQUIMBO",
-        "CZE-ROAD-D0-ORECH-SLIVENEC-OVERPASSES",
-        "LKA-WATER-ADB-CLIMATE-RESILIENT-WSS",
-        "QAT-ROAD-NORTH-AL-RIFAA-INFRASTRUCTURE",
-        "COL-RAIL-BOGOTA-METRO-L1",
-        "CHL-AIR-LA-SERENA-LA-FLORIDA-TERMINAL"
+        "AUS-SOC-WESTMEAD-CENTRE-MENTAL-HEALTH",
+        "IND-METRO-AQUA-LINE-EXTENSION-NOIDA",
+        "IND-POWER-BARMER-SOUTH-KALAMB-HVDC",
+        "IND-WATER-HANSIYAWAS-DHANOTI-RESERVOIR-A",
+        "NGA-PORT-IBOM-DEEP-SEA-PORT"
       ],
       "updated": [
-        "COL-RAIL-BOGOTA-METRO-L2"
+        "KAZ-URBAN-ALATAU-CITY"
       ],
       "removed": []
     }

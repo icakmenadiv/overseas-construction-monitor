@@ -60,6 +60,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "AUS-SOC-WESTMEAD-CENTRE-MENTAL-HEALTH",
+    "프로젝트명": "Westmead Centre for Mental Health",
+    "지역": "태평양",
+    "국가": "호주",
+    "섹터": "사회인프라",
+    "발주처": "NSW Health Infrastructure / Western Sydney Local Health District",
+    "사업비(달러 기준 추정액)": "USD 372.28mn",
+    "사업비 환산 환율 / 기준": "AUD 540mn × RBA AUD/USD 0.6894, 2026-11-09",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-09",
+    "대표 기사 고유값": "ART-20261109-AUS001",
+    "비고": "2026-11-09 NSW 정부 발표: 40톤·21m 연결교량 설치, 공사 진행 중, 2027년 말 완공 예상. Richard Crookes Constructions 주 시공사.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BWA-RAIL-TRANS-KALAHARI",
     "프로젝트명": "Trans-Kalahari Railway Project",
     "지역": "아프리카",
@@ -147,6 +162,36 @@
     "최근 업데이트일": "2026-11-09",
     "대표 기사 고유값": "ART-20261109-IDN002",
     "비고": "2015년경 착수 후 장기 중단된 Penjaringan구 PJB–Muara Karang 비유료 고가도로. DKI Jakarta가 사업 재개와 최대 3개월 내 완료를 추진하나 비용 분담·재원·실제 공사 재개일은 확정되지 않음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-METRO-AQUA-LINE-EXTENSION-NOIDA",
+    "프로젝트명": "Noida Metro Aqua Line Extension Project",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "Noida Metro Rail Corporation Ltd / Larsen & Toubro",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-11-09",
+    "대표 기사 고유값": "ART-20261109-IND001",
+    "비고": "15.1km 고가교량, 10개 역 설계·시공. 계약액은 ₹1,000 crore~₹2,500 crore 범위로 공개되어 정확한 공식 USD 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KAZ-URBAN-ALATAU-CITY",
+    "프로젝트명": "Alatau City 개발사업",
+    "지역": "중앙아시아",
+    "국가": "카자흐스탄",
+    "섹터": "도시개발·주택",
+    "발주처": "Government of Kazakhstan / Alatau City Authority",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개. Alatau City 전체 파이프라인 합계는 단일 사업비가 아니므로 미확인 유지.",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-09",
+    "대표 기사 고유값": "ART-20261109-KAZ001",
+    "비고": "2026-11-09 총리실 협의회에서 향후 30년 개발계획 및 특별 법적 체계 규정안 검토. 계획안은 Arup과 작성 중이며 교통·유틸리티 인프라를 통합 고려함. 기존 construction 단계는 개별 현장 공사 근거에 따라 유지. 이전 대표기사 ART-20260826-131001.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -300,6 +345,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IND-POWER-BARMER-SOUTH-KALAMB-HVDC",
+    "프로젝트명": "Barmer-South Kalamb 6 GW HVDC Transmission Corridor",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "에너지",
+    "발주처": "PowerGrid Corporation of India Limited (PGCIL)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-06",
+    "대표 기사 고유값": "ART-20261106-IND001",
+    "비고": "PGCIL이 GE Vernova를 사업자로 선정. ±800kV, 6,000MW 링크, 변환소 신설·주요 설비 공급·현장 설치·시험·시운전 포함. 계약액 미공개.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-WATER-HANSIYAWAS-DHANOTI-RESERVOIR-A",
+    "프로젝트명": "Dhanoti Artificial Reservoir (Reservoir-A), Hansiyawas Reservoir Complex",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "수자원·환경",
+    "발주처": "Yamuna Water Zone, Jaipur / NEC-LCC JV",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-06",
+    "대표 기사 고유값": "ART-20261106-IND002",
+    "비고": "GST 제외 ₹717.46 crore 계약 낙찰, 측량·설계·시공 24개월 및 운영·유지관리 10년. 공식 USD 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MNG-TRANSPORT-ULAANBAATAR-CABLE-CAR",
     "프로젝트명": "Ulaanbaatar Cable Car Transport Project",
     "지역": "아시아",
@@ -313,6 +388,21 @@
     "대표 기사 고유값": "ART-20261106-MNG001",
     "비고": "2026-11-06 기준 98개 객차 적재시험 개시, 정류장 공정률 85~89%. 독립 안전검사와 국가위원회 점검을 거쳐 운영 승인 여부 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NGA-PORT-IBOM-DEEP-SEA-PORT",
+    "프로젝트명": "Ibom Deep Sea Port Project",
+    "지역": "아프리카",
+    "국가": "나이지리아",
+    "섹터": "교통",
+    "발주처": "Akwa Ibom State Government",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-06",
+    "대표 기사 고유값": "ART-20261106-NGA001",
+    "비고": "대통령 승인 발표. 상세 사업비·재원·조달방식 및 후속 인허가 미확인.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "OMN-IND-THUMRAIT-INDUSTRIAL-CITY-PHASE1",
@@ -852,21 +942,6 @@
     "최근 업데이트일": "2026-08-28",
     "대표 기사 고유값": "ART-20260828-146007",
     "비고": "Tratayén-Golfo San Matías 472km·36인치 LNG 수출 가스관. 2026-08-28 USD 900mn·7년 프로젝트금융 종결, 주주자금 USD 400mn. Víctor Contreras-SICIM 시공, OPS Allen 압축플랜트, Welspun 강관 공급. 금융인출·강관 인도·11월 용접 착수와 2028년 중반 준공 추적.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "KAZ-URBAN-ALATAU-CITY",
-    "프로젝트명": "Alatau City 개발사업",
-    "지역": "중앙아시아",
-    "국가": "카자흐스탄",
-    "섹터": "도시개발·주택",
-    "발주처": "Government of Kazakhstan / Alatau City Authority",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 사업비 미공개. 2026-07-10 총리실 보도 기준 53개 투자프로젝트 약 2조 텡게 풀과 Iconic Complex 10억 달러 이상이 언급됐으나 Alatau City 전체 확정 Project Cost가 아니므로 미확인 처리.",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-08-26",
-    "대표 기사 고유값": "ART-20260826-131001",
-    "비고": "2026-08-26 기사 기준 알라타우시티 투자 파이프라인 67개·약 USD 6.9bn. Mars Petcare KZ·Griffin Logopark·DanaFlex·G-Trans Service 공사와 Kokpa-1 변전소 재건이 착수됨. 26개 엔지니어링·교통 인프라 패키지, 도로 61.2km 보수·15km 신설, 상하수도 공정과 한국 기업 협력의 실제 계약 전환을 추적. 파이프라인 합계는 단일 공식 사업비가 아니므로 사업비는 미확인 유지.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
