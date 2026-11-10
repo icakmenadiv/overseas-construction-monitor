@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T02:38:33.410Z",
+  "updatedAt": "2026-11-10T10:20:59.367Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,18 +28,41 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9737,
-    "projects": 1744
+    "articles": 9748,
+    "projects": 1748
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261109-BLR001",
+        "ART-20261109-BWA001",
+        "ART-20261109-BWA002",
+        "ART-20261109-NPL001",
+        "ART-20261108-MNG001",
+        "ART-20261108-MNG001A",
+        "ART-20261106-MNG001",
+        "ART-20261106-NPL001",
+        "ART-20261106-TJK001",
+        "ART-20261105-ISR001",
+        "ART-20261105-MNG001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "BWA-WATER-MOLEPOLOLE-THAMAGA-NETWORK",
+        "MNG-AIR-ATC-ULAANBAATAR-SAINSHAND",
+        "MNG-TRANSPORT-GREEN-STATIONS-HEAVY-ELECTRIC-TRUCKS",
+        "TJK-ENERGY-RUDAKI-KIBLAI-220KV-SUBSTATION"
+      ],
+      "updated": [
+        "BWA-RAIL-TRANS-KALAHARI",
+        "MNG-TRANSPORT-ULAANBAATAR-CABLE-CAR",
+        "ISR-ENERGY-SOREK-POWER-PLANT",
+        "MNG-ENERGY-ULAANBAATAR-TPP5",
+        "TZA-ROAD-JANGWANI-BRIDGE"
+      ],
       "removed": []
     }
   },

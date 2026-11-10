@@ -1,5 +1,35 @@
 [
   {
+    "프로젝트 고유값": "BWA-RAIL-TRANS-KALAHARI",
+    "프로젝트명": "Trans-Kalahari Railway Project",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "교통",
+    "발주처": "Trans-Kalahari Railway Project Management Office / Governments of Botswana and Namibia",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-09",
+    "대표 기사 고유값": "ART-20261029-BWA001",
+    "비고": "2026-11-09 SONA에서 1,600km Trans Kalahari Railway의 Bankable Feasibility Study 완료 및 contractor procurement 2027/2028 회계연도 예정 발표. 동일 프로젝트 ID 유지, planning 단계로 갱신.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BWA-WATER-MOLEPOLOLE-THAMAGA-NETWORK",
+    "프로젝트명": "Molepolole-Thamaga Water Network Project",
+    "지역": "아프리카",
+    "국가": "보츠와나",
+    "섹터": "수자원·환경",
+    "발주처": "Ministry of Water and Human Settlement / Standard Chartered Bank (MIGA-backed financing facility)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-11-09",
+    "대표 기사 고유값": "ART-20261109-BWA002",
+    "비고": "Molepolole 급수난 대응을 위한 급수망 사업. 2026-11-09 SONA에서 Standard Chartered Bank MIGA-backed facility 금융대상 선정 발표. 승인액·대출종결·계약자·공사범위·일정 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "HKG-RAIL-TUNG-CHUNG-WEST-STATION",
     "프로젝트명": "Tung Chung Line Extension - Tung Chung West Station",
     "지역": "아시아",
@@ -45,6 +75,36 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "MNG-AIR-ATC-ULAANBAATAR-SAINSHAND",
+    "프로젝트명": "Ulaanbaatar and Sainshand Area ATC Center System and Equipment Modernization Project",
+    "지역": "아시아",
+    "국가": "몽골",
+    "섹터": "교통",
+    "발주처": "Mongolian Civil Aviation Authority / Government of Mongolia",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-08",
+    "대표 기사 고유값": "ART-20261108-MNG001",
+    "비고": "Sainshand 항공항행 예비센터 2027년 가동 지시. 기존 항공관제 시스템 현대화 프로젝트 범위와 물리적 센터 건설 패키지 일치 여부 추가 확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MNG-TRANSPORT-GREEN-STATIONS-HEAVY-ELECTRIC-TRUCKS",
+    "프로젝트명": "Green Station Heavy Electric Truck Charging Network",
+    "지역": "아시아",
+    "국가": "몽골",
+    "섹터": "교통",
+    "발주처": "Monlogistics Holding / Nexus MLG / Premium Nexus",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-08",
+    "대표 기사 고유값": "ART-20261108-MNG001A",
+    "비고": "700km 울란바토르–Zamyn-Uud 회랑에 7개 재생에너지 충전 거점을 구축하는 계획. 2026-11-08 최종 시험 완료 후 네트워크 실행 단계 진입 발표. 기존 2026-06 첫 거점 개소 기사와 같은 사업.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "OMN-IND-OMAN-NUCLEUS-RADIOPHARMA",
     "프로젝트명": "Oman Nucleus Radiopharmaceutical Production Project",
     "지역": "중동",
@@ -60,21 +120,6 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "TZA-ROAD-JANGWANI-BRIDGE",
-    "프로젝트명": "Jangwani Bridge Construction Project",
-    "지역": "아프리카",
-    "국가": "탄자니아",
-    "섹터": "교통",
-    "발주처": "Tanzania National Roads Agency (TANROADS)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026. 11. 7",
-    "대표 기사 고유값": "ART-20261107-TZA001",
-    "비고": "2026-11-07 의회 인프라위원회 현장점검에서 공기 단축 촉구, 홍수 저감 설계(교량 길이·높이 개선) 설명 확인. 보도된 TZS 97bn은 현지 통화 근사액이며 공식 USD 사업비 미확인.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
     "프로젝트 고유값": "HUN-WATER-NYIREGYHAZA-CLIMATE-RESILIENT-WATER-INFRA",
     "프로젝트명": "Nyíregyháza Climate-Resilient Water Infrastructure Upgrade",
     "지역": "유럽",
@@ -87,6 +132,21 @@
     "최근 업데이트일": "2026-11-06",
     "대표 기사 고유값": "ART-20261106-HUN001",
     "비고": "식수·폐수·우수 관망 확장·현대화와 물/폐수 처리시설 건설·현대화. EIB 금융지원 €95.5m; 총사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MNG-TRANSPORT-ULAANBAATAR-CABLE-CAR",
+    "프로젝트명": "Ulaanbaatar Cable Car Transport Project",
+    "지역": "아시아",
+    "국가": "몽골",
+    "섹터": "교통",
+    "발주처": "Ulaanbaatar City / project implementation stakeholders",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-06",
+    "대표 기사 고유값": "ART-20261106-MNG001",
+    "비고": "2026-11-06 기준 98개 객차 적재시험 개시, 정류장 공정률 85~89%. 독립 안전검사와 국가위원회 점검을 거쳐 운영 승인 여부 추적.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -162,6 +222,21 @@
     "최근 업데이트일": "2026-11-06",
     "대표 기사 고유값": "ART-20261106-PRY002",
     "비고": "PY15 Mariscal Estigarribia–Pozo Hondo 구간 중 약 55km 제3공구. CDD Construcciones S.A. 시공; MOPC 감독, FONPLATA 재원. 2026-11-06 기준 공정률 47.5%. 공식 USD 사업비 미확인. 관련 기사 ART-20261106-PRY002.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TJK-ENERGY-RUDAKI-KIBLAI-220KV-SUBSTATION",
+    "프로젝트명": "Rudaki District Kiblai 220/110/10 kV Substation Project",
+    "지역": "중앙아시아",
+    "국가": "타지키스탄",
+    "섹터": "에너지",
+    "발주처": "Shabakahoi Intiqoli Barq OJSC",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-06",
+    "대표 기사 고유값": "ART-20261106-TJK001",
+    "비고": "타지키스탄 정부·JICA 공동재원. 시공사는 OJSC TajikGidroElectromontaj이며, 2028년 8월 준공·운영 개시 예정. 공식 사업비 미공개.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -267,6 +342,36 @@
     "최근 업데이트일": "2026-11-05",
     "대표 기사 고유값": "ART-20261105-IDN002",
     "비고": "Batam Kabil 산업단지의 데이터센터·산업용 해수담수화 시설. 1단계 300 lps, 2027년 11월 운영 목표; 2단계 400 lps 추가 계획으로 총 700 lps 구상.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ISR-ENERGY-SOREK-POWER-PLANT",
+    "프로젝트명": "Sorek Power Plant Project",
+    "지역": "중동",
+    "국가": "이스라엘",
+    "섹터": "에너지",
+    "발주처": "Edeltech / Menora-Mivtachim / Keystone Infrastructure Fund",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-11-05",
+    "대표 기사 고유값": "ART-20261105-ISR001",
+    "비고": "금융종결 완료 및 건설단계 진입 직전으로 보도됨. 공식 USD 총사업비 미확인. 사업비·용량 수치는 출처별 차이가 있어 추후 공식 대조 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MNG-ENERGY-ULAANBAATAR-TPP5",
+    "프로젝트명": "Ulaanbaatar Thermal Power Plant No. 5 Project",
+    "지역": "아시아",
+    "국가": "몽골",
+    "섹터": "에너지",
+    "발주처": "Ulaanbaatar City / Mithim Group",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-05",
+    "대표 기사 고유값": "ART-20261105-MNG001",
+    "비고": "기존 결과 기사(ART-20261102-MNG002)의 후속. 겨울철 단열 콘크리트 타설, 토공·재 처리 약 80% 진행 및 420명 투입 발표. 공식 사업비 확인 전까지 미확인 유지.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -6975,21 +7080,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "BWA-RAIL-TRANS-KALAHARI",
-    "프로젝트명": "Trans-Kalahari Railway Project",
-    "지역": "아프리카",
-    "국가": "보츠와나",
-    "섹터": "교통",
-    "발주처": "Trans-Kalahari Railway Project Management Office / Governments of Botswana and Namibia",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "BWA-ROAD-A1-DUAL-CARRIAGEWAY-PPP",
     "프로젝트명": "A1 Road Dual Carriageway PPP Upgrade Project",
     "지역": "아프리카",
@@ -12780,21 +12870,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "ISR-ENERGY-SOREK-POWER-PLANT",
-    "프로젝트명": "Sorek Power Plant Project",
-    "지역": "중동",
-    "국가": "이스라엘",
-    "섹터": "에너지",
-    "발주처": "Edeltech / Menora-Mivtachim / Keystone Infrastructure Fund",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "공식 USD 총사업비 확인되지 않음. NIS 5.6bn은 금융조달 규모로 보도되어 공식 사업비 열에 반영하지 않음.",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "ISR-LRT-GUSH-DAN-PURPLE-LINE",
     "프로젝트명": "Gush Dan Purple Line Light Rail Project",
     "지역": "중동",
@@ -16470,21 +16545,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "MNG-ENERGY-ULAANBAATAR-TPP5",
-    "프로젝트명": "Ulaanbaatar Thermal Power Plant No. 5 Project",
-    "지역": "아시아",
-    "국가": "몽골",
-    "섹터": "에너지",
-    "발주처": "Ulaanbaatar City / Mitime International",
-    "사업비(달러 기준 추정액)": "USD 658.5mn",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "MNG-IND-STEEL-COMPLEX",
     "프로젝트명": "",
     "지역": "",
@@ -16552,21 +16612,6 @@
     "섹터": "교통",
     "발주처": "",
     "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "MNG-TRANSPORT-ULAANBAATAR-CABLE-CAR",
-    "프로젝트명": "Ulaanbaatar Cable Car Transport Project",
-    "지역": "아시아",
-    "국가": "몽골",
-    "섹터": "교통",
-    "발주처": "울란바토르시 / Нэгдсэн төслийн удирдлагын газар",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
     "최근 업데이트일": "",
@@ -24008,6 +24053,21 @@
     "발주처": "Tanzania Railways Corporation (TRC) / Ministry of Transport",
     "사업비(달러 기준 추정액)": "미확인",
     "사업비 환산 환율 / 기준": "Lots 3·4 합산 TZS 3.67tn 재원 확보 보도. Lot 4 단독 계약금액 USD 909.1mn은 통합 사업비와 달라 합산하지 않음.",
+    "현재 단계": "",
+    "최근 업데이트일": "",
+    "대표 기사 고유값": "",
+    "비고": "",
+    "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "TZA-ROAD-JANGWANI-BRIDGE",
+    "프로젝트명": "Jangwani Bridge Construction Project",
+    "지역": "아프리카",
+    "국가": "탄자니아",
+    "섹터": "교통",
+    "발주처": "Tanzania National Roads Agency (TANROADS)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
     "최근 업데이트일": "",
     "대표 기사 고유값": "",
