@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T20:01:50.347Z",
+  "updatedAt": "2026-11-10T01:26:42.828Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,72 +24,42 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9729,
-    "projects": 1739
+    "articles": 9737,
+    "projects": 1744
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261109-HUN001",
-        "ART-20261109-IDN001",
-        "ART-20261109-IDN002",
-        "ART-20261109-POL001",
-        "ART-20261108-HUN001",
-        "ART-20261106-HUN001",
-        "ART-20261106-IDN001",
-        "ART-20261106-POL001",
-        "ART-20261106-POL002",
-        "ART-20261106-POL003",
-        "ART-20261106-UAE001",
-        "ART-20261106-UAE002",
-        "ART-20261106-UAE003",
-        "ART-20261106-USA001",
-        "ART-20261106-USA002",
-        "ART-20261105-IDN002",
-        "ART-20261105-USA001",
-        "ART-20261106-PRY001",
-        "ART-20261106-PRY002",
-        "ART-20261105-NZL001",
-        "ART-20261105-NZL002",
-        "ART-20261105-PAK001",
-        "ART-20261105-PAK002"
+        "ART-20261109-HKG001",
+        "ART-20261109-PAN001",
+        "ART-20261108-OMN001",
+        "ART-20261108-OMN002",
+        "ART-20261106-HKG001",
+        "ART-20261106-MMR001",
+        "ART-20261106-OMN001",
+        "ART-20261106-TWN001",
+        "ART-20261105-BRA002",
+        "ART-20261105-HKG001"
       ],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20261106-UAE001",
+        "ART-20261108-KWT001"
+      ]
     },
     "projects": {
       "added": [
-        "IDN-TRANSPORT-JLNT-PJB-MUARA-KARANG",
-        "HUN-WATER-NYIREGYHAZA-CLIMATE-RESILIENT-WATER-INFRA",
-        "POL-ENERGY-BALTYK2-3-LEBA-OM-BASE",
-        "PRY-ROAD-PY15-BIOCEANIC-LOT3",
-        "UAE-OILGAS-HALIBA-PRODUCED-WATER-TREATMENT",
-        "UAE-WATER-HASSYAN-SWRO-PHASE2",
-        "UAE-WATER-MIRFA-LIWA-TRANSMISSION-DISTRIBUTION",
-        "USA-SOC-UNITED-STATES-TRIUMPHAL-ARCH",
-        "IDN-WATER-KABIL-SWRO",
-        "POL-ENERGY-CHOCZEWO-SLUPSK-ZARNOWIEC-400KV",
-        "POL-ROAD-A2-LODZ-WARSAW-WIDENING",
-        "POL-URBANRAIL-SILESIAN-TRAM-INFRA-STAGE1",
-        "USA-OIL-BLUE-MARLIN-OFFSHORE-PORT",
-        "PAK-ROAD-KASHMIR-CHOWK-UNDERPASS"
+        "HKG-RAIL-TUNG-CHUNG-WEST-STATION",
+        "OMN-IND-OMAN-NUCLEUS-RADIOPHARMA",
+        "OMN-IND-THUMRAIT-INDUSTRIAL-CITY-PHASE1",
+        "TWN-IND-MICRON-TAOYUAN-FAB-11E",
+        "HKG-ROAD-SHA-TIN-TRUNK-ROAD-T4"
       ],
-      "updated": [
-        "POL-RAIL-CPK-WARSAW-LODZ-HSR",
-        "PRY-ROAD-AVENIDA-AVELINO-MARTINEZ-REHAB",
-        "NZL-ROAD-WARKWORTH-TEHANA-PPP",
-        "ARM-SOC-GETAHOVIT-UEFA-STADIUM",
-        "JOR-ROAD-AQABA-BACK-ROAD-DETOURS-PKG1",
-        "JOR-ROAD-AQABA-BACK-ROAD-DETOURS-PKG2",
-        "JOR-WATER-SEWAGE-SLUDGE-LANDFILL-CLUSTERS",
-        "KGZ-TRANSIT-BISHKEK-BYD-MONORAIL",
-        "SDN-URBAN-INFRA-KFW-GEDAREF-KOSTI",
-        "TZA-RAIL-SGR-MAKUTUPORA-ISAKA-LOTS3-4"
-      ],
+      "updated": [],
       "removed": []
     }
   },

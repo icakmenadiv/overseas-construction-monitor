@@ -1,5 +1,20 @@
 [
   {
+    "프로젝트 고유값": "HKG-RAIL-TUNG-CHUNG-WEST-STATION",
+    "프로젝트명": "Tung Chung Line Extension - Tung Chung West Station",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "교통",
+    "발주처": "MTR Corporation / 홍콩특별행정구 정부",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-09",
+    "대표 기사 고유값": "ART-20261109-HKG001",
+    "비고": "퉁청선 연장사업의 퉁청서역. 약 30개 기둥 하자 확인 후 MTR이 시공사 부적합 통지, 조사보고서 및 시정안 제출을 요구함. 전체 공사중단 여부 및 시정 일정 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IDN-TRANSPORT-JLNT-PJB-MUARA-KARANG",
     "프로젝트명": "PJB–Muara Karang Non-Toll Elevated Road Project",
     "지역": "아시아",
@@ -30,6 +45,21 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "OMN-IND-OMAN-NUCLEUS-RADIOPHARMA",
+    "프로젝트명": "Oman Nucleus Radiopharmaceutical Production Project",
+    "지역": "중동",
+    "국가": "오만",
+    "섹터": "산업·물류",
+    "발주처": "Oman Investment Authority / Oryx Isotopes Industry Company",
+    "사업비(달러 기준 추정액)": "USD 17mn",
+    "사업비 환산 환율 / 기준": "OIA/ONA 2026-11-08 발표 투자비 OMR 6.5mn (USD 17mn)",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-11-08",
+    "대표 기사 고유값": "ART-20261108-OMN001",
+    "비고": "OIA와 사우디 Oryx 공동법인이 생산시설·교정연구소·선량측정 기능을 장기 PPP 양허계약으로 개발·운영 예정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "TZA-ROAD-JANGWANI-BRIDGE",
     "프로젝트명": "Jangwani Bridge Construction Project",
     "지역": "아프리카",
@@ -57,6 +87,21 @@
     "최근 업데이트일": "2026-11-06",
     "대표 기사 고유값": "ART-20261106-HUN001",
     "비고": "식수·폐수·우수 관망 확장·현대화와 물/폐수 처리시설 건설·현대화. EIB 금융지원 €95.5m; 총사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "OMN-IND-THUMRAIT-INDUSTRIAL-CITY-PHASE1",
+    "프로젝트명": "Thumrait Industrial City Phase 1 Infrastructure Project",
+    "지역": "중동",
+    "국가": "오만",
+    "섹터": "산업·물류",
+    "발주처": "Public Establishment for Industrial Estates (Madayn)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미확인. MEED의 RO 15mn은 업계 추정치로 공식 사업비란에 미반영.",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-06",
+    "대표 기사 고유값": "ART-20261106-OMN001",
+    "비고": "도파르주 산업도시 1단계 기반시설 국제입찰(4/2026/PEIE/HQ-4). 마감 2026-12-13으로 연장, 기술제안 개찰 12/13·가격제안 개찰 2027-01-13. 마감 연장 업데이트 출처는 GCC Tender News; 공식 입찰 조건 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -120,6 +165,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TWN-IND-MICRON-TAOYUAN-FAB-11E",
+    "프로젝트명": "Micron Fab 11E Memory Plant, Taoyuan",
+    "지역": "아시아",
+    "국가": "대만",
+    "섹터": "산업·물류",
+    "발주처": "Micron Technology / Micron Memory Taiwan",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "on-hold",
+    "최근 업데이트일": "2026-11-06",
+    "대표 기사 고유값": "ART-20261106-TWN001",
+    "비고": "타오위안 메모리 팹. Bloomberg 보도(PTS 2026-11-06 재인용)상 투자 규모 USD 4.5bn, 2028년 가동 목표이나 Micron은 공사중단을 공개 확인하지 않음. 관련 기사 ART-20261106-TWN001.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "UAE-OILGAS-HALIBA-PRODUCED-WATER-TREATMENT",
     "프로젝트명": "Haliba Produced Water Treatment Facilities",
     "지역": "중동",
@@ -177,6 +237,21 @@
     "최근 업데이트일": "2026-11-06",
     "대표 기사 고유값": "ART-20261106-USA001",
     "비고": "Washington, D.C.의 약 250피트 기념 아치. 2026-11-05 NCPC 최종승인 직후 연방법원이 14일 착공중지 명령. 사업비 미확인. 관련 기사 ART-20261106-USA001.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HKG-ROAD-SHA-TIN-TRUNK-ROAD-T4",
+    "프로젝트명": "Sha Tin New Town, Stage 2 - Trunk Road T4",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "교통",
+    "발주처": "토목공정서(CEDD)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-05",
+    "대표 기사 고유값": "ART-20261105-HKG001",
+    "비고": "샤틴 T4 간선도로 사업. 2026-11-05 도급사 직원 사망사고로 관련 작업 즉시 중단 및 조사 지시. 전체 공사 중단 여부·재개 일정 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
