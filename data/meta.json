@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T01:26:42.828Z",
+  "updatedAt": "2026-11-10T02:38:33.410Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 9737,
@@ -33,32 +33,12 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261109-HKG001",
-        "ART-20261109-PAN001",
-        "ART-20261108-OMN001",
-        "ART-20261108-OMN002",
-        "ART-20261106-HKG001",
-        "ART-20261106-MMR001",
-        "ART-20261106-OMN001",
-        "ART-20261106-TWN001",
-        "ART-20261105-BRA002",
-        "ART-20261105-HKG001"
-      ],
+      "added": [],
       "updated": [],
-      "removed": [
-        "ART-20261106-UAE001",
-        "ART-20261108-KWT001"
-      ]
+      "removed": []
     },
     "projects": {
-      "added": [
-        "HKG-RAIL-TUNG-CHUNG-WEST-STATION",
-        "OMN-IND-OMAN-NUCLEUS-RADIOPHARMA",
-        "OMN-IND-THUMRAIT-INDUSTRIAL-CITY-PHASE1",
-        "TWN-IND-MICRON-TAOYUAN-FAB-11E",
-        "HKG-ROAD-SHA-TIN-TRUNK-ROAD-T4"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     }
