@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T07:12:46.013Z",
+  "updatedAt": "2026-11-10T19:41:18.377Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1576,6 +1576,9 @@
       "ART-20261103-KGZ001": {
         "article_detail_open": 1
       },
+      "ART-20261103-LAO001": {
+        "source_link_click": 1
+      },
       "ART-20261103-UKR001": {
         "article_detail_open": 1
       },
@@ -1592,6 +1595,15 @@
         "source_link_click": 2
       },
       "ART-20261105-KHM001": {
+        "source_link_click": 1
+      },
+      "ART-20261106-IND002": {
+        "source_link_click": 1
+      },
+      "ART-20261108-THA001": {
+        "source_link_click": 1
+      },
+      "ART-20261108-VNM001": {
         "source_link_click": 1
       }
     },
@@ -6050,6 +6062,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20261103-LAO001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-10T07:48:51.804Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20261103-UKR001",
       "eventType": "article_detail_open",
       "count": 1,
@@ -6089,6 +6108,27 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-11-10T00:39:47.587Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261106-IND002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-10T07:50:56.355Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261108-THA001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-10T07:29:02.172Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261108-VNM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-10T07:36:09.200Z"
     },
     {
       "targetType": "page",
