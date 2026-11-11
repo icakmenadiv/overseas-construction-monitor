@@ -15,6 +15,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "IRN-TRANSPORT-MASHHAD-GOLBAHAR-CHENARAN-RAIL",
+    "프로젝트명": "Mashhad-Golbahar-Chenaran Railway Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "교통",
+    "발주처": "Ministry of Roads and Urban Development / New Towns Development Company",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-11",
+    "대표 기사 고유값": "ART-20261111-IRN001",
+    "비고": "5.5tn toman은 완공까지의 잔여 재원 필요액, 약 3tn toman은 잔여공사 계약액으로 발표됐으며 전체 공식 사업비는 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "SAU-SOC-KING-SALMAN-INTERNATIONAL-STADIUM",
     "프로젝트명": "King Salman International Stadium Early Works",
     "지역": "중동",
@@ -43,6 +58,21 @@
     "대표 기사 고유값": "ART-20261110-CAN001",
     "비고": "OPG 2026-11-10 발표: 건설 계속 중. 1호기는 기존 2030-10 상업운전 및 CAD 7.7bn 공사비 목표 달성이 어렵다고 밝힘. 비용·일정 재평가는 2027년 중반 완료 예상. 2026-11-09 Gillam(관리동)·Mansteel(5개 핵심건물 철근) 계약 수여; 계약액은 보도자료 내 수치 불일치로 미기재.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "IRN-TRANSPORT-ARAS-NURDUZ-SECOND-BRIDGE",
+    "프로젝트명": "Aras River Second Bridge Project",
+    "지역": "중동",
+    "국가": "이란",
+    "섹터": "교통",
+    "발주처": "Iran Plan and Budget Organization / implementation agency not specified",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-10",
+    "대표 기사 고유값": "ART-20261110-IRN001",
+    "비고": "조사 완료, 약 1개월 내 착공 예정으로 발표됨. 사업비·발주·시공계약 미확인. 연계 도로·국경터미널은 별도 사업/패키지 여부 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "SAU-TRANSPORT-MAKKAH-WASEL-ALHARAM",
@@ -87,6 +117,21 @@
     "최근 업데이트일": "2026-11-10",
     "대표 기사 고유값": "ART-20261110-SGP001",
     "비고": "2026-11-10 HDB가 EIA와 의견수렴 공개; 사업비·개발 일정·조달계획 미확인",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "THA-ROAD-RAMA3-DAOKANONG-WESTERNRINGWAY",
+    "프로젝트명": "Rama 3-Dao Khanong-Western Bangkok Outer Ring Road Expressway Project",
+    "지역": "아시아",
+    "국가": "태국",
+    "섹터": "교통",
+    "발주처": "Expressway Authority of Thailand (EXAT)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업한도 THB 38,444mn (2026-11-10); USD 환산율 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026. 11. 10",
+    "대표 기사 고유값": "ART-20261110-THA002",
+    "비고": "공식 총 투자한도는 THB 38,444mn이며 USD 환산 확인 전까지 공식 USD 사업비는 미확인 처리함.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
