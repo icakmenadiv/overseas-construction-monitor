@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T04:03:42.616Z",
+  "updatedAt": "2026-11-12T12:31:44.834Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,34 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9773,
-    "projects": 1059
+    "articles": 9780,
+    "projects": 1067
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261111-PAK001",
+        "ART-20261110-KEN001",
+        "ART-20261110-NZL003",
+        "ART-20261109-NZL001",
+        "ART-20261109-NZL002",
+        "ART-20261109-PAK001",
+        "ART-20261108-SDN002"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "PAK-TRANSPORT-KETI-BANDAR-INTEGRATED-HUB",
+        "KEN-ROAD-LAKE-VICTORIA-BASIN-CONNECTIVITY",
+        "NZL-WASTE-MT-COOEE-LANDFILL-DEVELOPMENT",
+        "NZL-ROAD-SH82-SOUTHCANTERBURY-BRIDGE-REPLACEMENTS",
+        "NZL-WATER-HERNE-BAY-COLLECTOR",
+        "PAK-ENERGY-TARBELA-5TH-EXTENSION",
+        "SDN-GAS-SUAKIN-GAS-BERTH-TERMINAL",
+        "SDN-URBAN-INFRA-KFW-GEDAREF-KOSTI"
+      ],
       "updated": [],
       "removed": []
     }
