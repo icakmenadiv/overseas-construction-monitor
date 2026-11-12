@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T20:19:17.474Z",
+  "updatedAt": "2026-11-12T23:30:28.422Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -25,43 +25,42 @@
       "projects": "csv-export"
     },
     "mode": "quick",
-    "requestedMode": "quick"
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9789,
-    "projects": 1075
+    "articles": 9796,
+    "projects": 1081
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261112-HUN001",
-        "ART-20261112-PAN001",
-        "ART-20261112-PAN002",
-        "ART-20261112-PHL003",
-        "ART-20261111-USA001",
-        "ART-20261110-POL001",
-        "ART-20261110-UAE001",
-        "ART-20261110-UAE002",
-        "ART-20261109-POL002"
+        "ART-20261111-OMN001",
+        "ART-20261111-OMN002",
+        "ART-20261111-OMN003",
+        "ART-20261111-OMN004",
+        "ART-20261110-HKG001",
+        "ART-20261109-OMN001",
+        "ART-20261109-OMN002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
+        "OMN-URBAN-SULTAN-HAITHAM-RETAL-NEIGHBOURHOOD17",
+        "OMN-WATER-AL-GHUBRAH-3-DESALINATION",
+        "OMN-WATER-GROUNDWATER-SMART-METERING",
+        "HKG-RAIL-TUNG-CHUNG-WEST-STATION",
+        "OMN-ENERGY-SADAF-400KV-GRID-STATION",
+        "OMN-URBAN-AL-YAZAN-MUTTRAH"
+      ],
+      "updated": [
+        "HKG-RAIL-NORTHERN-LINK-MAIN-SPUR",
         "HUN-RAIL-DELI-KORVASUT-PHASE2",
         "PHL-RAIL-METRO-MANILA-SUBWAY-CP101",
         "PHL-WATER-METRO-MANILA-FLOOD-MGMT-PH1",
         "POL-ROAD-GDYNIA-DROGA-CZERWONA",
-        "POL-ROAD-SADECKA-S75",
-        "UAE-TRANSPORT-ROUTE2020-DWC-EXTENSION",
-        "UAE-URBAN-AL-ZORAH-DAMAC-WATERFRONT",
-        "USA-WATER-COAST-GUARD-BASE-KODIAK-WATER-SYSTEM"
-      ],
-      "updated": [
-        "PAN-WATER-RIO-INDIO-RESERVOIR",
-        "PHL-ENERGY-AGUS-PULANGI-REHAB",
-        "GHA-WATER-BLEKUSU-SEA-DEFENCE-PH2"
+        "POL-ROAD-SADECKA-S75"
       ],
       "removed": []
     }
