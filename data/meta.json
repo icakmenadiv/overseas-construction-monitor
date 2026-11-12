@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T00:31:08.280Z",
+  "updatedAt": "2026-11-12T04:03:42.616Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,8 +24,8 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 9773,
@@ -35,64 +35,12 @@
     "articles": {
       "added": [],
       "updated": [],
-      "removed": [
-        "ART-20261111-SAU001",
-        "ART-20261110-DOM001",
-        "ART-20261110-SAU001",
-        "ART-20261110-SGP001",
-        "ART-20261110-SGP002",
-        "ART-20261110-VNM001",
-        "ART-20261109-DOM001",
-        "ART-20261109-SAU001",
-        "ART-20261109-SAU002",
-        "ART-20261109-VNM001",
-        "ART-20261109-VNM002",
-        "ART-20261108-VNM002",
-        "ART-20261107-VNM001",
-        "ART-20261111-FJI001",
-        "ART-20261111-FJI002",
-        "ART-20261110-000001",
-        "ART-20261110-CAN001",
-        "ART-20261110-MAR001",
-        "ART-20261110-PER001",
-        "ART-20261110-URY001",
-        "ART-20261110-URY002",
-        "ART-20261109-CAN001",
-        "ART-20261109-CAN002",
-        "ART-20261109-GEO001",
-        "ART-20261109-GUM001",
-        "ART-20261109-KAZ001",
-        "ART-20261109-PER001",
-        "ART-20261109-URY001",
-        "ART-20261108-BHR001",
-        "ART-20261108-GHA001",
-        "ART-20261108-GHA002",
-        "ART-20261108-GHA003",
-        "ART-20261107-PER001",
-        "ART-20261107-TUN001",
-        "ART-20261106-CAN001"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [],
       "updated": [],
-      "removed": [
-        "FJI-ROAD-CRITICAL-BRIDGES-RESILIENCE",
-        "SAU-SOC-KING-SALMAN-INTERNATIONAL-STADIUM",
-        "SAU-TRANSPORT-MAKKAH-WASEL-ALHARAM",
-        "SGP-URBAN-MARINA-BAY-SANDS-IR2",
-        "SGP-URBAN-WOODLANDS-N2-HOUSING",
-        "URY-DIGITAL-ANTEL-LAS-PIEDRAS-DATA-CENTER",
-        "URY-ENERGY-UTE-99MW-SOLAR-P104220",
-        "SAU-URBAN-ALWADI-ABHA",
-        "URY-DIGITAL-SOLARIA-500MW-DATA-CENTRE-PARK",
-        "VNM-DIGITAL-MVISTA-SUBMARINE-CABLE",
-        "VNM-URBAN-HANOI-SPORTS-CITY",
-        "GHA-IND-WETA-LIGHT-INDUSTRIAL-PARK",
-        "GHA-WATER-SOGAKOPE-AGODOME-KETA",
-        "VNM-ROAD-MOCCHAU-SONLA-DIENBIEN-SONLA",
-        "VNM-ROAD-QUANGNGAI-KONTUM-EXPRESSWAY"
-      ]
+      "removed": []
     }
   },
   "latest": {
