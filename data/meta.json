@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T01:11:45.648Z",
+  "updatedAt": "2026-11-13T07:54:10.355Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,21 +28,34 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9798,
-    "projects": 1082
+    "articles": 9808,
+    "projects": 1088
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261112-BRA001",
-        "ART-20261111-SRB001"
+        "ART-20261113-AZE001",
+        "ART-20261112-GBR001",
+        "ART-20261112-GBR002",
+        "ART-20261112-MNG001",
+        "ART-20261111-AZE001",
+        "ART-20261111-GBR001",
+        "ART-20261111-MMR001",
+        "ART-20261111-MNG001",
+        "ART-20261109-TJK001",
+        "ART-20261112-TJK001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "SRB-INDUSTRIAL-JAMA-BOR-MINE-PHASE2"
+        "AZE-TRANSPORT-NAKHCHIVAN-RAILWAY",
+        "GBR-WATER-SOMERSET-LEVELS-PUMP-UPGRADE",
+        "TJK-TRANSPORT-DUSHANBE-SHERALIZODA-KARINMANN-GYANJAVI-NAZAROVA-ROADS",
+        "GBR-ENERGY-NORFOLK-VANGUARD-EAST-WEST",
+        "MMR-WATER-TANINTHAYI-RIVER-DREDGING",
+        "MNG-ROAD-YESONZUIL-LAST-MILE-PKG6"
       ],
       "updated": [],
       "removed": []
@@ -50,7 +63,7 @@
   },
   "latest": {
     "articleCollectedDate": "2026-11-13",
-    "articlePublishedDate": "2026-11-12",
-    "projectUpdatedDate": "2026-11-12"
+    "articlePublishedDate": "2026-11-13",
+    "projectUpdatedDate": "2026-11-13"
   }
 }
