@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T23:28:10.776Z",
+  "updatedAt": "2026-11-14T01:45:36.030Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,85 +24,32 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9808,
-    "projects": 1085
+    "articles": 9812,
+    "projects": 1088
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261112-KAZ001",
-        "ART-20261112-KAZ002"
+        "ART-20261112-BHR001",
+        "ART-20261112-CAN001",
+        "ART-20261111-CAN001",
+        "ART-20261110-BHR001"
       ],
       "updated": [],
-      "removed": [
-        "ART-20261112-CZE001",
-        "ART-20261113-AZE001",
-        "ART-20261112-ECU002",
-        "ART-20261112-ECU003",
-        "ART-20261112-HUN001",
-        "ART-20261112-PAN001",
-        "ART-20261112-PAN002",
-        "ART-20261112-PHL003",
-        "ART-20261111-AZE001",
-        "ART-20261109-TJK001",
-        "ART-20261112-TJK001",
-        "ART-20261111-IRN001",
-        "ART-20261111-PAK001",
-        "ART-20261110-IRN001",
-        "ART-20261110-KEN001",
-        "ART-20261110-NZL003",
-        "ART-20261110-THA001",
-        "ART-20261110-THA002",
-        "ART-20261109-NZL001",
-        "ART-20261109-NZL002",
-        "ART-20261109-PAK001",
-        "ART-20261107-IRN001",
-        "ART-20261110-MDA001",
-        "ART-20261109-MDA001",
-        "ART-20261109-ROU001",
-        "ART-20261106-ROU002",
-        "ART-20261106-PRY002"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "KAZ-IND-NORTHERN-KATPAR-UPPER-KAIRAKTY-TUNGSTEN",
-        "KAZ-URBAN-ULKEN-WORKERS-TOWN"
+        "BHR-TRANSPORT-BUSAITEEN-LINK-PHASE-4",
+        "CAN-IND-HORNE-5-GOLD-COPPER-MINE",
+        "BHR-ENERGY-BILAJ-AL-JAZAYER-SOLAR-IPP"
       ],
       "updated": [],
-      "removed": [
-        "AZE-TRANSPORT-NAKHCHIVAN-RAILWAY",
-        "IRN-TRANSPORT-MASHHAD-GOLBAHAR-CHENARAN-RAIL",
-        "MNG-ROAD-YESONZUIL-LAST-MILE-PKG6",
-        "PAK-TRANSPORT-KETI-BANDAR-INTEGRATED-HUB",
-        "IRN-TRANSPORT-ARAS-NURDUZ-SECOND-BRIDGE",
-        "KEN-ROAD-LAKE-VICTORIA-BASIN-CONNECTIVITY",
-        "NZL-WASTE-MT-COOEE-LANDFILL-DEVELOPMENT",
-        "THA-ROAD-RAMA3-DAOKANONG-WESTERNRINGWAY",
-        "GEO-PORT-ANAKLIA-DEEPSEA",
-        "NZL-ROAD-SH82-SOUTHCANTERBURY-BRIDGE-REPLACEMENTS",
-        "NZL-WATER-HERNE-BAY-COLLECTOR",
-        "PAK-ENERGY-TARBELA-5TH-EXTENSION",
-        "ROU-WATER-BALA-2-DANUBE-REGULATION",
-        "GHA-WATER-WACA-COASTAL-PROTECTION",
-        "SDN-GAS-SUAKIN-GAS-BERTH-TERMINAL",
-        "SDN-URBAN-INFRA-KFW-GEDAREF-KOSTI",
-        "BHR-TRANSPORT-GCC-RAILWAY",
-        "CAN-URBANRAIL-ONTARIO-LINE",
-        "ECU-TRANSPORT-CUENCA-AZOGUES-GAPAL-INTERCHANGE",
-        "ECU-TRANSPORT-GALAPAGOS-LOGISTICS-SYSTEM",
-        "GNQ-IND-OYALA-PREFAB-FACTORY-REHABILITATION",
-        "GUM-SOC-SIMON-SANCHEZ-HIGH-SCHOOL",
-        "ISR-IND-BUSTANEI-HEFETZ-INDUSTRIAL-ZONE",
-        "NIC-POWER-SIEPAC-SECOND-CIRCUIT-ACCESS-BAYS",
-        "NIC-SOCIAL-HOSP-CLAUDIA-CHAMORRO",
-        "RWA-TRANSPORT-KIGALI-PUBLIC-TRANSPORT-INFRASTRUCTURE-MAINTENANCE-2026",
-        "TJK-TRANSPORT-DUSHANBE-SHERALIZODA-KARINMANN-GYANJAVI-NAZAROVA-ROADS"
-      ]
+      "removed": []
     }
   },
   "latest": {

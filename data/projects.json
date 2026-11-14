@@ -45,6 +45,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "BHR-TRANSPORT-BUSAITEEN-LINK-PHASE-4",
+    "프로젝트명": "Busaiteen Link Project, Phase 4 (Signature Bridge)",
+    "지역": "중동",
+    "국가": "바레인",
+    "섹터": "교통",
+    "발주처": "Bahrain Ministry of Works / Saudi Fund for Development",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "SFD 보조금 SAR 937mn 초과는 전체 단계 지원액이며 4단계 공식 사업비와 구분; 현 단계 사업비 미확인",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-11-12",
+    "대표 기사 고유값": "ART-20261112-BHR001",
+    "비고": "4단계 계약 체결(2026-11-12); Muharraq-Manama 북부 약 8km 회랑. SPA 공식자료에 개별 계약액·계약자·공사일정 미기재.",
+    "대표 기사 정보 분류": ""
+  },
+  {
     "프로젝트 고유값": "CZE-ROAD-D35-OPATOVEC-MOHELNICE-PPP",
     "프로젝트명": "D35 Motorway Opatovec-Mohelnice PPP Project",
     "지역": "유럽",
@@ -118,6 +133,21 @@
     "대표 기사 고유값": "ART-20261111-AUS001",
     "비고": "기존 결과 기사 ART-20261103-AUS001과 동일 프로젝트. ICAC 평가 위임사항 공개; 조사 결과는 미확정.",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "CAN-IND-HORNE-5-GOLD-COPPER-MINE",
+    "프로젝트명": "Horne 5 Project",
+    "지역": "북미",
+    "국가": "캐나다",
+    "섹터": "산업·물류",
+    "발주처": "Falco Resources Ltd. (사업자)",
+    "사업비(달러 기준 추정액)": "USD 1.24bn",
+    "사업비 환산 환율 / 기준": "C$1 = US$0.7052 (Bank of Canada, 2026-11-10; 2026-11-11 은행 휴장)",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-11",
+    "대표 기사 고유값": "ART-20261111-CAN001",
+    "비고": "Rouyn-Noranda의 금·구리·아연 지하 다금속 광산 개발사업. 사업자 2026 Updated Feasibility Study의 pre-production capital cost C$1,754mn을 사업비로 적용; USD 환산은 2026-11-10 Bank of Canada 환율 기준. 환경령 획득 목표 2027년 초이며 평가·추가 인허가 미완료.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "IND-URBANRAIL-GREATER-NOIDA-WEST-EXT",
@@ -253,6 +283,21 @@
     "대표 기사 고유값": "ART-20261109-KAZ001",
     "비고": "2026-11-09 총리실 협의회에서 향후 30년 개발계획 및 특별 법적 체계 규정안 검토. 계획안은 Arup과 작성 중이며 교통·유틸리티 인프라를 통합 고려함. 기존 construction 단계는 개별 현장 공사 근거에 따라 유지. 이전 대표기사 ART-20260826-131001.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BHR-ENERGY-BILAJ-AL-JAZAYER-SOLAR-IPP",
+    "프로젝트명": "Bilaj Al Jazayer Independent Power Project (BAJ Solar IPP)",
+    "지역": "중동",
+    "국가": "바레인",
+    "섹터": "에너지",
+    "발주처": "Electricity and Water Authority (EWA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개; BD 300,000은 입찰보증금으로 사업비가 아님",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-08",
+    "대표 기사 고유값": "ART-20261110-BHR001",
+    "비고": "기존 2026-06-18 입찰평가 기사와 동일 프로젝트 ID 재사용. EWA 국제 RFP: 최소 100MWac, 25년 BOO/PPP, 입찰 마감 2026-12-20. 공식 사업비 미확인.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "IRN-TRANSPORT-RASHT-ASTARA-RAIL",
