@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T01:45:36.030Z",
+  "updatedAt": "2026-11-14T08:03:21.504Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,33 +28,58 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9812,
-    "projects": 1088
+    "articles": 9819,
+    "projects": 1095
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261112-BHR001",
-        "ART-20261112-CAN001",
-        "ART-20261111-CAN001",
-        "ART-20261110-BHR001"
+        "ART-20261112-MAR001",
+        "ART-20261112-TUN001",
+        "ART-20261111-ROU001",
+        "ART-20261111-ROU002",
+        "ART-20261111-ROU003",
+        "ART-20261111-TKM001",
+        "ART-20261111-TUN001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BHR-TRANSPORT-BUSAITEEN-LINK-PHASE-4",
-        "CAN-IND-HORNE-5-GOLD-COPPER-MINE",
-        "BHR-ENERGY-BILAJ-AL-JAZAYER-SOLAR-IPP"
+        "TUN-ENERGY-BENI-MHIRA-SOLAR-BESS",
+        "ETH-WATER-AMIBARA-AWASH-RIVER-EMBANKMENT",
+        "GEO-RAIL-ANAKLIA-DEEPSEA-CONNECTION",
+        "MDA-POWER-VULCANESTI-CHISINAU-400KV",
+        "MOZ-OILGAS-INHASSORO-FSRU",
+        "ROU-IND-SIBIU-SIEMENS-FACTORY",
+        "ROU-RAIL-BUCHAREST-GIURGIU-MODERNIZATION-LOT2"
       ],
-      "updated": [],
+      "updated": [
+        "MAR-TRANSPORT-KENITRA-MARRAKECH-HSR",
+        "AUS-ROAD-KENNEDY-THE-LYND-HUGHENDEN-SEALING",
+        "AUS-ROAD-MOUNT-BARKER-VERDUN-INTERCHANGES",
+        "AUS-ROAD-NEH-MAITLAND-WESTBOUND-UPGRADE",
+        "AUS-ROAD-TASMAN-BRIDGE-BARRIERS-PATHWAYS",
+        "AUS-ROAD-TORRENS-TO-DARLINGTON",
+        "BGD-GAS-KUTUBJOM-FSRU",
+        "BGD-METRO-DHAKA-MRT1",
+        "BHR-ENERGY-BILAJ-AL-JAZAYER-SOLAR-IPP",
+        "BHR-TRANSPORT-BUSAITEEN-LINK-PHASE-4",
+        "CZE-ROAD-D35-OPATOVEC-MOHELNICE-PPP",
+        "IND-METRO-AQUA-LINE-EXTENSION-NOIDA",
+        "IND-ROAD-VADODARA-MUMBAI-EXPRESSWAY-KARVAD-JUJUWA-PKG-IX",
+        "IND-URBANRAIL-GREATER-NOIDA-WEST-EXT",
+        "KAZ-IND-NORTHERN-KATPAR-UPPER-KAIRAKTY-TUNGSTEN",
+        "KAZ-URBAN-ULKEN-WORKERS-TOWN",
+        "NGA-POWER-EAST-WEST-SUPER-GRID"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-14",
     "articlePublishedDate": "2026-11-13",
-    "projectUpdatedDate": "2026-11-13"
+    "projectUpdatedDate": "2026-11-12"
   }
 }
