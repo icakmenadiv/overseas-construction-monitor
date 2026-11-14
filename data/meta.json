@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T14:57:11.358Z",
+  "updatedAt": "2026-11-14T19:40:12.161Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,33 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261113-DOM001",
-        "ART-20261112-URY001",
-        "ART-20261112-URY002",
-        "ART-20261111-DOM001",
-        "ART-20261111-FJI001",
-        "ART-20261110-URY001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "DOM-IND-PUEBLO-VIEJO-LIFE-EXTENSION",
-        "PER-SOC-CALLAO-NAVAL-BASE-MODERNIZATION",
-        "PER-TRANSPORT-CHICLAYO-LAMBAYEQUE-BYPASS",
-        "URY-IND-MAERSK-MONTEVIDEO-LOGISTICS-CENTER",
-        "URY-TRANSPORT-METROPOLITAN-CORRIDORS-REFORM",
-        "DOM-URBAN-LA-ZURZA-OZAMA-RIVERFRONT",
-        "FJI-TRANSPORT-CRITICAL-BRIDGES-RESILIENCE",
-        "GHA-IND-TAKORADI-PROJECT-SHIPRITE",
-        "PER-TRANSPORT-TRUJILLO-HUANCHACO-CORRIDOR",
-        "URY-DIGITAL-ANTEL-LAS-PIEDRAS-DATACENTER"
-      ],
-      "updated": [
-        "GHA-RAIL-WESTERN-LINE-REVIVAL"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
