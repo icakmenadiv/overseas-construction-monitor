@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T16:49:05.519Z",
+  "updatedAt": "2026-11-15T21:21:16.937Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,22 +28,30 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9825,
-    "projects": 1106
+    "articles": 9833,
+    "projects": 1110
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261114-VNM001",
-        "ART-20261112-SAU001"
+        "ART-20261113-IRN001",
+        "ART-20261113-MEX001",
+        "ART-20261113-MEX002",
+        "ART-20261113-SGP001",
+        "ART-20261112-MEX001",
+        "ART-20261112-SGP001",
+        "ART-20261112-THA001",
+        "ART-20261111-CHN001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "SAU-WATER-YANBU-300MLD-SWRO",
-        "VNM-IND-DANANG-FTZ-LOCATION7-INFRA"
+        "IRN-TRANSPORT-SHAHID-RAJAEE-KAZAKH-TERMINAL",
+        "MEX-IND-PODEBI-COATZACOALCOS-II",
+        "MEX-RAIL-QUERETARO-IRAPUATO",
+        "CHN-TRANSPORT-THREE-GORGES-NEW-WATERWAY"
       ],
       "updated": [],
       "removed": []
