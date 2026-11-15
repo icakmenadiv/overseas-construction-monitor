@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T21:21:16.937Z",
+  "updatedAt": "2026-11-15T22:44:05.648Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,34 +24,27 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9833,
-    "projects": 1110
+    "articles": 9832,
+    "projects": 1111
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261113-IRN001",
-        "ART-20261113-MEX001",
-        "ART-20261113-MEX002",
-        "ART-20261113-SGP001",
-        "ART-20261112-MEX001",
-        "ART-20261112-SGP001",
-        "ART-20261112-THA001",
-        "ART-20261111-CHN001"
+        "ART-20261114-KWT001"
       ],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20261114-VNM001",
+        "ART-20261112-SAU001"
+      ]
     },
     "projects": {
       "added": [
-        "IRN-TRANSPORT-SHAHID-RAJAEE-KAZAKH-TERMINAL",
-        "MEX-IND-PODEBI-COATZACOALCOS-II",
-        "MEX-RAIL-QUERETARO-IRAPUATO",
-        "CHN-TRANSPORT-THREE-GORGES-NEW-WATERWAY"
+        "KWT-WATER-MINA-ABDULLAH-FRESH-WATER-PIPELINE"
       ],
       "updated": [],
       "removed": []
