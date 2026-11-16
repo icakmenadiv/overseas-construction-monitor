@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T22:44:05.648Z",
+  "updatedAt": "2026-11-16T01:08:24.479Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,35 +24,42 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9832,
-    "projects": 1111
+    "articles": 9839,
+    "projects": 1114
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261114-KWT001"
+        "ART-20261115-EGY001",
+        "ART-20261113-EGY001",
+        "ART-20261112-EGY001",
+        "ART-20261112-KHM001",
+        "ART-20261112-KHM002",
+        "ART-20261112-TUR001",
+        "ART-20261112-TUR002"
       ],
       "updated": [],
-      "removed": [
-        "ART-20261114-VNM001",
-        "ART-20261112-SAU001"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "KWT-WATER-MINA-ABDULLAH-FRESH-WATER-PIPELINE"
+        "EGY-ENERGY-GULF-SUEZ-3-WIND",
+        "KHM-IND-PHNOM-PENH-WHOLESALE-MARKET",
+        "TUR-RAIL-ISTANBUL-NORTH-RAIL-CROSSING"
       ],
-      "updated": [],
+      "updated": [
+        "EGY-TRANSPORT-CAIRO-AIRPORT-T4"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-16",
-    "articlePublishedDate": "2026-11-14",
+    "articlePublishedDate": "2026-11-15",
     "projectUpdatedDate": "2026-11-14"
   }
 }

@@ -60,6 +60,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "EGY-ENERGY-GULF-SUEZ-3-WIND",
+    "프로젝트명": "Gulf of Suez 3 Wind Farm",
+    "지역": "중동",
+    "국가": "이집트",
+    "섹터": "에너지",
+    "발주처": "New and Renewable Energy Authority / Egyptian Electricity Transmission Company",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-11-13",
+    "대표 기사 고유값": "ART-20261113-EGY001",
+    "비고": "900MW Ras Shokeir 인근 풍력 IPP. ENGIE 35%, Orascom Construction 25%, Aeolus 40%; JBIC·PROPARCO·FMO·SocGen·CA-CIB·KfW IPEX 비소구 금융 및 NEXI 보증. 25년 EETC PPA, NREA 25년 사용권. Orascom BOP·고압변전소, Goldwind 터빈 공급·설치·시운전. 2028-01 300MW 시운전, 2028년 3분기 전체 상업운전 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "GHA-RAIL-WESTERN-LINE-REVIVAL",
     "프로젝트명": "Western Railway Line Revival Project",
     "지역": "아프리카",
@@ -135,6 +150,36 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "EGY-TRANSPORT-CAIRO-AIRPORT-T4",
+    "프로젝트명": "Cairo International Airport Terminal 4 Project",
+    "지역": "중동",
+    "국가": "이집트",
+    "섹터": "교통",
+    "발주처": "Egyptian Ministry of Civil Aviation / Cairo International Airport authorities",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "",
+    "최근 업데이트일": "2026-11-12",
+    "대표 기사 고유값": "ART-20261112-EGY001",
+    "비고": "2026-11-12 대통령실이 T4 진행상황 및 단계별 여객처리능력 목표를 재확인. 공식 사업비·재원·발주 패키지는 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KHM-IND-PHNOM-PENH-WHOLESALE-MARKET",
+    "프로젝트명": "Phnom Penh Wholesale Market Project",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "산업·물류",
+    "발주처": "Ministry of Commerce / WorldBridge Group",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "study",
+    "최근 업데이트일": "2026-11-12",
+    "대표 기사 고유값": "ART-20261112-KHM001",
+    "비고": "2026-11-12 MoU로 타당성조사 지원·조정 합의; WorldBridge Group·SEMMARIS 공동 조사 예정. 위치·공식 사업비·조달 및 건설 일정 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "MAR-TRANSPORT-KENITRA-MARRAKECH-HSR",
     "프로젝트명": "Kénitra-Marrakech High-Speed Rail Line",
     "지역": "중동",
@@ -177,6 +222,21 @@
     "최근 업데이트일": "2026. 11. 12",
     "대표 기사 고유값": "ART-20261112-PNG001",
     "비고": "4단계 공항 재개발·확장. 국내선 터미널 확장, 계류장, 신국제선 터미널, 활주로 3,500m 연장 포함. 2026-11-12 NAC 발표 기준 국내선 터미널 확장·재구성 55% 완료(확장부 31%), PX Kumul Lounge 99% 완료 및 11/15 이전 목표; 전체 공사는 2027년 4월 준공 목표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUR-RAIL-ISTANBUL-NORTH-RAIL-CROSSING",
+    "프로젝트명": "Istanbul North Rail Crossing Project",
+    "지역": "중동",
+    "국가": "튀르키예",
+    "섹터": "교통",
+    "발주처": "Ministry of Transport and Infrastructure / AYGM",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총사업비 확인 필요; 기사상 EUR 660mn은 IsDB 개별 금융액",
+    "현재 단계": "bid-evaluation",
+    "최근 업데이트일": "2026-11-12",
+    "대표 기사 고유값": "ART-20261112-TUR001",
+    "비고": "2026-11-12 입찰 제안서 25건 접수, 중국·이탈리아 기업 4곳 포함; IsDB EUR 660mn 금융협약(ART-20261112-TUR002). 사업 총비용과 입찰 평가·낙찰 일정은 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -6816,21 +6876,6 @@
     "국가": "이집트",
     "섹터": "사회인프라",
     "발주처": "Ministry of Health and Population / General Organization for Teaching Hospitals and Institutes / Ancom Engineering Services",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "EGY-TRANSPORT-CAIRO-AIRPORT-T4",
-    "프로젝트명": "Cairo International Airport Terminal 4 Project",
-    "지역": "중동",
-    "국가": "이집트",
-    "섹터": "교통",
-    "발주처": "Egyptian Ministry of Civil Aviation / Cairo International Airport authorities",
     "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
