@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T18:48:33.587Z",
+  "updatedAt": "2026-11-16T06:22:11.904Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1617,6 +1617,27 @@
       },
       "ART-20261108-VNM001": {
         "source_link_click": 1
+      },
+      "ART-20261111-IND001": {
+        "source_link_click": 1
+      },
+      "ART-20261111-MMR001": {
+        "source_link_click": 2
+      },
+      "ART-20261112-KHM001": {
+        "source_link_click": 1
+      },
+      "ART-20261112-KHM002": {
+        "source_link_click": 1
+      },
+      "ART-20261112-SGP001": {
+        "source_link_click": 2
+      },
+      "ART-20261112-THA001": {
+        "source_link_click": 1
+      },
+      "ART-20261113-SGP001": {
+        "source_link_click": 1
       }
     },
     "page": {
@@ -1789,6 +1810,9 @@
       },
       "SLV-DIGITAL-FIRST-SUBSEA-CABLE": {
         "project_detail_open": 1
+      },
+      "Taninthayi River Dredging and Waterway Improvement Project": {
+        "project_detail_open": 2
       },
       "THA-WATER-RAYONG-EEC-DRAINAGE": {
         "project_detail_open": 1
@@ -6171,6 +6195,55 @@
       "updatedAt": "2026-11-10T07:36:09.200Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20261111-IND001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-16T01:34:43.742Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261111-MMR001",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-11-16T00:13:01.626Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261112-KHM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-16T01:18:35.380Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261112-KHM002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-16T01:20:33.576Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261112-SGP001",
+      "eventType": "source_link_click",
+      "count": 2,
+      "updatedAt": "2026-11-16T02:02:25.522Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261112-THA001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-16T01:24:26.121Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261113-SGP001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-16T01:14:00.251Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
@@ -6561,6 +6634,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-08-25T00:30:36.622Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Taninthayi River Dredging and Waterway Improvement Project",
+      "eventType": "project_detail_open",
+      "count": 2,
+      "updatedAt": "2026-11-16T01:13:23.603Z"
     },
     {
       "targetType": "project",
