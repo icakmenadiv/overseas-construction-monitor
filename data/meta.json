@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T01:03:36.875Z",
+  "updatedAt": "2026-11-17T01:50:11.917Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -25,33 +25,25 @@
       "projects": "csv-export"
     },
     "mode": "quick",
-    "requestedMode": "quick"
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9869,
-    "projects": 1137
+    "articles": 9870,
+    "projects": 1138
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261116-SRB001",
-        "ART-20261114-HKG001",
-        "ART-20261114-SRB001",
-        "ART-20261113-BRA001",
-        "ART-20261113-BRA002"
+        "ART-20261113-MMR001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "SRB-URBAN-GENERALSTAFF-REDEVELOPMENT",
-        "BRA-RAIL-TRANSNORDESTINA-RAILWAY"
+        "MMR-WATER-UNDP-RECYCLING-PLANTS-5TOWNSHIPS"
       ],
-      "updated": [
-        "HKG-RAIL-NORTHERN-LINK-MAIN-SPUR",
-        "PHL-ENERGY-AGUS-PULANGI-REHAB"
-      ],
+      "updated": [],
       "removed": []
     }
   },
