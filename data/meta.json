@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T01:50:11.917Z",
+  "updatedAt": "2026-11-17T09:01:38.611Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -25,31 +25,49 @@
       "projects": "csv-export"
     },
     "mode": "quick",
-    "requestedMode": "reconcile"
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9870,
-    "projects": 1138
+    "articles": 9882,
+    "projects": 1146
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261113-MMR001"
+        "ART-20261117-NPL001",
+        "ART-20261116-AZE001",
+        "ART-20261116-BLR001",
+        "ART-20261116-GBR001",
+        "ART-20261116-ISR001",
+        "ART-20261116-ISR002",
+        "ART-20261116-MNG001",
+        "ART-20261116-TJK001",
+        "ART-20261113-AZE001",
+        "ART-20261113-BWA001",
+        "ART-20261113-GBR001",
+        "ART-20261113-GNQ001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "MMR-WATER-UNDP-RECYCLING-PLANTS-5TOWNSHIPS"
+        "BWA-ENERGY-MMAMABULA-JMEP",
+        "MNG-RAIL-UB-COAL-BYPASS-LINK",
+        "BLR-OILGAS-GREAT-STONE-LNG-COMPLEX",
+        "GBR-OILGAS-JACKDAW-GAS-FIELD",
+        "ISR-AIR-BEN-GURION-T3-EAST-EXPANSION",
+        "ISR-DIGITAL-HAIFA-HOF-SHEMEN-DATA-CENTER",
+        "AZE-RAIL-NAKHCHIVAN-RAILWAY",
+        "GNQ-SOC-CIUDAD-DE-LA-PAZ-MINISTERIAL-BUILDINGS"
       ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 11. 17",
-    "articlePublishedDate": "2026. 11. 16",
-    "projectUpdatedDate": "2026-11-16"
+    "articleCollectedDate": "2026-11-17",
+    "articlePublishedDate": "2026-11-17",
+    "projectUpdatedDate": "2026-11-17"
   }
 }
