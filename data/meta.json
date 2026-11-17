@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T09:01:38.611Z",
+  "updatedAt": "2026-11-17T18:23:32.279Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,45 +28,50 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9882,
-    "projects": 1146
+    "articles": 9897,
+    "projects": 1154
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261117-NPL001",
-        "ART-20261116-AZE001",
-        "ART-20261116-BLR001",
-        "ART-20261116-GBR001",
-        "ART-20261116-ISR001",
-        "ART-20261116-ISR002",
-        "ART-20261116-MNG001",
-        "ART-20261116-TJK001",
-        "ART-20261113-AZE001",
-        "ART-20261113-BWA001",
-        "ART-20261113-GBR001",
-        "ART-20261113-GNQ001"
+        "ART-20261117-CZE001",
+        "ART-20261117-MYS001",
+        "ART-20261117-MYS002",
+        "ART-20261117-MYS003",
+        "ART-20261117-RUS001",
+        "ART-20261116-MYS001",
+        "ART-20261116-QAT001",
+        "ART-20261113-CZE001",
+        "ART-20261113-RUS001",
+        "ART-20261117-COL001",
+        "ART-20261116-NIC001",
+        "ART-20261115-COL001",
+        "ART-20261115-ECU001",
+        "ART-20261114-COL001",
+        "ART-20261113-NIC001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BWA-ENERGY-MMAMABULA-JMEP",
-        "MNG-RAIL-UB-COAL-BYPASS-LINK",
-        "BLR-OILGAS-GREAT-STONE-LNG-COMPLEX",
-        "GBR-OILGAS-JACKDAW-GAS-FIELD",
-        "ISR-AIR-BEN-GURION-T3-EAST-EXPANSION",
-        "ISR-DIGITAL-HAIFA-HOF-SHEMEN-DATA-CENTER",
-        "AZE-RAIL-NAKHCHIVAN-RAILWAY",
-        "GNQ-SOC-CIUDAD-DE-LA-PAZ-MINISTERIAL-BUILDINGS"
+        "CZE-ROAD-D1-01313-CHERNOVICKA-TERASA",
+        "MYS-MIN-PERAK-MALACO-CARESTER-REE",
+        "MYS-URBAN-KAMPUNG-BARU-KL-CITY-GATEWAY",
+        "MYS-RAIL-EAST-COAST-RAIL-LINK",
+        "NIC-WATER-TIPITAPA-SANITATION-UPGRADE",
+        "QAT-WATER-DOHA-SOUTH-SEWAGE-TREATMENT-PHASE1",
+        "COL-ROAD-CHINU-LORICA-SAN-BERNARDO-VIENTO",
+        "NIC-HOUSING-JINOTEGA-NUEVAS-VICTORIAS-BLANCA-ARAUZ"
       ],
-      "updated": [],
+      "updated": [
+        "PNG-OILGAS-PAPUA-LNG"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-17",
+    "articleCollectedDate": "2026-11-18",
     "articlePublishedDate": "2026-11-17",
     "projectUpdatedDate": "2026-11-17"
   }
