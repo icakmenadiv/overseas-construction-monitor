@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:58:32.434Z",
+  "updatedAt": "2026-11-17T07:51:01.533Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1618,6 +1618,9 @@
       "ART-20261108-VNM001": {
         "source_link_click": 1
       },
+      "ART-20261111-BGD001": {
+        "source_link_click": 1
+      },
       "ART-20261111-IND001": {
         "source_link_click": 1
       },
@@ -1630,10 +1633,19 @@
       "ART-20261112-KHM002": {
         "source_link_click": 1
       },
+      "ART-20261112-LKA001": {
+        "source_link_click": 1
+      },
+      "ART-20261112-LKA002": {
+        "source_link_click": 1
+      },
       "ART-20261112-SGP001": {
         "source_link_click": 2
       },
       "ART-20261112-THA001": {
+        "source_link_click": 1
+      },
+      "ART-20261113-MMR001": {
         "source_link_click": 1
       },
       "ART-20261113-SGP001": {
@@ -6196,6 +6208,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20261111-BGD001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-17T07:33:23.860Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20261111-IND001",
       "eventType": "source_link_click",
       "count": 1,
@@ -6224,6 +6243,20 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20261112-LKA001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-17T07:30:42.951Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261112-LKA002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-17T07:31:29.551Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20261112-SGP001",
       "eventType": "source_link_click",
       "count": 2,
@@ -6235,6 +6268,13 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-11-16T01:24:26.121Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261113-MMR001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-17T02:36:20.806Z"
     },
     {
       "targetType": "article",
