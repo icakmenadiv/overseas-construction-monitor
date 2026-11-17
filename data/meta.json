@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T17:39:00.176Z",
+  "updatedAt": "2026-11-17T01:03:36.875Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,41 +28,36 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9864,
-    "projects": 1135
+    "articles": 9869,
+    "projects": 1137
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261113-UAE001",
-        "ART-20261112-UAE001",
-        "ART-20261112-USA001",
-        "ART-20261115-BOL001",
-        "ART-20261113-PRY001",
-        "ART-20261112-PRY001"
+        "ART-20261116-SRB001",
+        "ART-20261114-HKG001",
+        "ART-20261114-SRB001",
+        "ART-20261113-BRA001",
+        "ART-20261113-BRA002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "NZL-WATER-WAIROA-NORTH-CLYDE-FLOODWAY",
-        "PAK-ENERGY-TARBELA-5TH-EXTENSION",
-        "JOR-ENERGY-MUJIB-PUMPED-STORAGE",
-        "JOR-ENERGY-SOLAR-PV-BESS-200MW",
-        "NZL-WATER-AVONDALE-COLLECTOR-SEWER-CC6",
-        "PAK-ROAD-ISLAMABAD-EXPRESSWAY-SERVICE-ROAD-EAST",
-        "UAE-OILGAS-HABSHAN-RGD-PHASE2",
-        "KEN-ENERGY-DONGO-KUNDU-HERCULES",
-        "NZL-ENERGY-HUNTLY-POWER-STATION-SWITCHBOARD-RETROFIT"
+        "SRB-URBAN-GENERALSTAFF-REDEVELOPMENT",
+        "BRA-RAIL-TRANSNORDESTINA-RAILWAY"
       ],
-      "updated": [],
+      "updated": [
+        "HKG-RAIL-NORTHERN-LINK-MAIN-SPUR",
+        "PHL-ENERGY-AGUS-PULANGI-REHAB"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-17",
-    "articlePublishedDate": "2026-11-15",
+    "articleCollectedDate": "2026. 11. 17",
+    "articlePublishedDate": "2026. 11. 16",
     "projectUpdatedDate": "2026-11-16"
   }
 }

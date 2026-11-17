@@ -15,6 +15,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "SRB-URBAN-GENERALSTAFF-REDEVELOPMENT",
+    "프로젝트명": "General Staff Complex Redevelopment Project",
+    "지역": "유럽",
+    "국가": "세르비아",
+    "섹터": "도시개발·주택",
+    "발주처": "Government of Serbia / Ministry of Construction, Transport and Infrastructure / Atlantic Incubation Partners LLC",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "cancelled",
+    "최근 업데이트일": "2026-11-16",
+    "대표 기사 고유값": "ART-20261116-SRB001",
+    "비고": "베오그라드 구 유고군 General Staff 단지의 호텔·카지노·주거복합 개발계약 해지 합의서가 2026-11-16 서명됨. 장관대행은 양측 상호 청구권이 없다고 밝혔으며 후속 개발사업은 확인되지 않음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PAK-ENERGY-TARBELA-5TH-EXTENSION",
     "프로젝트명": "Tarbela 5th Extension Hydropower Project (T-5)",
     "지역": "아시아",
@@ -28,6 +43,21 @@
     "대표 기사 고유값": "ART-20261115-PAK001",
     "비고": "2026-11-09 사고 후 복구·안정화 진행; 최종 원인·손실 및 전체 공정 영향은 미확인",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "HKG-RAIL-NORTHERN-LINK-MAIN-SPUR",
+    "프로젝트명": "Northern Link Main Line and Spur Line Project",
+    "지역": "아시아",
+    "국가": "홍콩",
+    "섹터": "교통",
+    "발주처": "MTR Corporation / HKSAR Government",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-11-14",
+    "대표 기사 고유값": "ART-20261114-HKG001",
+    "비고": "Northern Link Main Line과 Spur Line 통합 진행. 전체 공식 추정 자본비용 HK$86.2bn(공식 USD 사업비 미확인). 11/14 기준 철도표준에 따른 장비 조달 유연성, 8개 역세권 부지 단계개발, 2029~2031년 공사 피크 전망을 확인; 구체 패키지 입찰 및 개발용지 공고 추적.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "JOR-ENERGY-MUJIB-PUMPED-STORAGE",
@@ -75,6 +105,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "BRA-RAIL-TRANSNORDESTINA-RAILWAY",
+    "프로젝트명": "Transnordestina Railway Project",
+    "지역": "중남미",
+    "국가": "브라질",
+    "섹터": "교통",
+    "발주처": "Transnordestina Logística S.A. (TLSA) / Sudene (FDNE)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 총예산 R$ 15bn (USD 환산 미실시); R$ 416.5mn은 추가 재원 승인액으로 사업비 아님",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-13",
+    "대표 기사 고유값": "ART-20261113-BRA001",
+    "비고": "공식 발표상 1단계 공정률 84%; FDNE 추가 예산 승인 후 실제 지급은 Banco do Nordeste 심사와 Sudene 이사회 의결 필요",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "EGY-ENERGY-GULF-SUEZ-3-WIND",
     "프로젝트명": "Gulf of Suez 3 Wind Farm",
     "지역": "중동",
@@ -117,6 +162,21 @@
     "최근 업데이트일": "2026-11-13",
     "대표 기사 고유값": "ART-20261113-PAK001",
     "비고": "Faizabad–Gulberg 약 9.3km 동부 서비스도로 건설; 총사업비·시공사·준공일 미확인",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "PHL-ENERGY-AGUS-PULANGI-REHAB",
+    "프로젝트명": "Agus-Pulangi Hydropower Complex Rehabilitation Project",
+    "지역": "아시아",
+    "국가": "필리핀",
+    "섹터": "에너지",
+    "발주처": "Power Sector Assets and Liabilities Management Corp. (PSALM)",
+    "사업비(달러 기준 추정액)": "사업비 미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-13",
+    "대표 기사 고유값": "ART-20261113-PHL002",
+    "비고": "2026-11-11 ED Council이 PHP 29.98bn 규모 Agus-Pulangi Hydro Power Plants Rehabilitation and Asset Management Project를 승인함. 범위는 7개 수력발전소 재활로 사업비 USD 환산 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -7680,21 +7740,6 @@
     "대표 기사 정보 분류": ""
   },
   {
-    "프로젝트 고유값": "HKG-RAIL-NORTHERN-LINK-MAIN-SPUR",
-    "프로젝트명": "Northern Link Main Line and Spur Line Project",
-    "지역": "아시아",
-    "국가": "홍콩",
-    "섹터": "교통",
-    "발주처": "MTR Corporation / HKSAR Government",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
     "프로젝트 고유값": "HKG-RAIL-TUNG-CHUNG-WEST-STATION",
     "프로젝트명": "Tung Chung West Station (Tung Chung Line Extension)",
     "지역": "아시아",
@@ -12861,21 +12906,6 @@
     "국가": "필리핀",
     "섹터": "교통",
     "발주처": "Department of Public Works and Highways (DPWH)",
-    "사업비(달러 기준 추정액)": "사업비 미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "",
-    "최근 업데이트일": "",
-    "대표 기사 고유값": "",
-    "비고": "",
-    "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "PHL-ENERGY-AGUS-PULANGI-REHAB",
-    "프로젝트명": "Agus-Pulangi Hydropower Complex Rehabilitation Project",
-    "지역": "아시아",
-    "국가": "필리핀",
-    "섹터": "에너지",
-    "발주처": "Power Sector Assets and Liabilities Management Corp. (PSALM)",
     "사업비(달러 기준 추정액)": "사업비 미확인",
     "사업비 환산 환율 / 기준": "",
     "현재 단계": "",
