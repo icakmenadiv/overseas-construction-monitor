@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T20:52:10.047Z",
+  "updatedAt": "2026-11-18T07:22:33.286Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1625,10 +1625,10 @@
         "source_link_click": 1
       },
       "ART-20261111-MMR001": {
-        "source_link_click": 2
+        "source_link_click": 3
       },
       "ART-20261112-KHM001": {
-        "source_link_click": 1
+        "source_link_click": 2
       },
       "ART-20261112-KHM002": {
         "source_link_click": 1
@@ -1642,6 +1642,9 @@
       "ART-20261112-LKA003": {
         "source_link_click": 1
       },
+      "ART-20261112-MNG001": {
+        "source_link_click": 1
+      },
       "ART-20261112-SGP001": {
         "source_link_click": 2
       },
@@ -1649,15 +1652,24 @@
         "source_link_click": 1
       },
       "ART-20261113-MMR001": {
-        "source_link_click": 1
+        "source_link_click": 2
       },
       "ART-20261113-SGP001": {
+        "source_link_click": 1
+      },
+      "ART-20261116-AUS001": {
+        "source_link_click": 1
+      },
+      "ART-20261117-AUS001": {
+        "source_link_click": 1
+      },
+      "ART-20261117-AUS002": {
         "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 54
+        "market_page_visit": 55
       }
     },
     "project": {
@@ -1787,6 +1799,9 @@
       "OMN-WATER-NORTH-BATINAH-IWP": {
         "project_detail_open": 2
       },
+      "Pacific Highway Upgrade through Wyong Town Centre": {
+        "project_detail_open": 1
+      },
       "PAK-ENERGY-GRID-STABILITY-ENHANCEMENT": {
         "project_detail_open": 1
       },
@@ -1809,6 +1824,9 @@
         "project_detail_open": 1
       },
       "PER-ROAD-ANILLO-VIAL-PERIFERICO": {
+        "project_detail_open": 1
+      },
+      "Phnom Penh Wholesale Market Project": {
         "project_detail_open": 1
       },
       "RUS-RAIL-MOSCOW-SPB-HSR": {
@@ -6227,15 +6245,15 @@
       "targetType": "article",
       "targetId": "ART-20261111-MMR001",
       "eventType": "source_link_click",
-      "count": 2,
-      "updatedAt": "2026-11-16T00:13:01.626Z"
+      "count": 3,
+      "updatedAt": "2026-11-18T00:30:50.847Z"
     },
     {
       "targetType": "article",
       "targetId": "ART-20261112-KHM001",
       "eventType": "source_link_click",
-      "count": 1,
-      "updatedAt": "2026-11-16T01:18:35.380Z"
+      "count": 2,
+      "updatedAt": "2026-11-18T00:31:46.821Z"
     },
     {
       "targetType": "article",
@@ -6267,6 +6285,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20261112-MNG001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-18T05:47:10.785Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20261112-SGP001",
       "eventType": "source_link_click",
       "count": 2,
@@ -6283,8 +6308,8 @@
       "targetType": "article",
       "targetId": "ART-20261113-MMR001",
       "eventType": "source_link_click",
-      "count": 1,
-      "updatedAt": "2026-11-17T02:36:20.806Z"
+      "count": 2,
+      "updatedAt": "2026-11-17T23:53:20.300Z"
     },
     {
       "targetType": "article",
@@ -6294,11 +6319,32 @@
       "updatedAt": "2026-11-16T01:14:00.251Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20261116-AUS001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-18T05:41:31.669Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261117-AUS001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-18T05:38:16.538Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261117-AUS002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-18T05:39:36.874Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 54,
-      "updatedAt": "2026-11-11T06:30:33.613Z"
+      "count": 55,
+      "updatedAt": "2026-11-18T05:46:07.195Z"
     },
     {
       "targetType": "project",
@@ -6596,6 +6642,13 @@
     },
     {
       "targetType": "project",
+      "targetId": "Pacific Highway Upgrade through Wyong Town Centre",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-18T05:40:39.080Z"
+    },
+    {
+      "targetType": "project",
       "targetId": "PAK-ENERGY-GRID-STABILITY-ENHANCEMENT",
       "eventType": "project_detail_open",
       "count": 1,
@@ -6649,6 +6702,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-09-01T02:01:26.838Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Phnom Penh Wholesale Market Project",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-18T00:31:03.322Z"
     },
     {
       "targetType": "project",
