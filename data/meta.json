@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:02:56.194Z",
+  "updatedAt": "2026-11-18T08:25:51.482Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,17 +28,52 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9865,
-    "projects": 1127
+    "articles": 9884,
+    "projects": 1141
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261117-GEO001",
+        "ART-20261117-GEO002",
+        "ART-20261117-ROU001",
+        "ART-20261117-TUN001",
+        "ART-20261116-GEO001",
+        "ART-20261116-MDA001",
+        "ART-20261116-MOZ001",
+        "ART-20261116-MOZ002",
+        "ART-20261116-MOZ003",
+        "ART-20261116-ROU001",
+        "ART-20261116-ROU002",
+        "ART-20261116-TKM001",
+        "ART-20261114-MAR001",
+        "ART-20261114-MDA001",
+        "ART-20261114-ROU001",
+        "ART-20261114-TKM001",
+        "ART-20261114-TUN001",
+        "ART-20261114-TUN002",
+        "ART-20261114-TUN003"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "GEO-ROAD-KAKHETI-TC-GATE",
+        "GEO-ROAD-KVESHETI-KOBI",
+        "ROU-ROAD-A1-SIBIU-PITESTI-SECTION4",
+        "TUN-SOC-THALA-REGIONAL-HOSPITAL",
+        "MDA-ENERGY-STRASENI-BESS-50MW-100MWH",
+        "MOZ-OILGAS-ROVUMA-LNG",
+        "MOZ-PORT-NACALA-MITRELLI-TERMINAL",
+        "MOZ-WATER-MUEDA-SUPPLY-SYSTEM",
+        "ROU-TRANSPORT-NAVODARI-LOCK-RETROFIT",
+        "TKM-URBAN-ASHGABAT-DEPEGUM-CENTER",
+        "ROU-RAIL-CLUJ-METROPOLITAN-LOT2",
+        "TKM-OILGAS-BAGTYARLYK-BLOCKB-GAS-PIPELINE-2",
+        "TUN-IND-ELFOULADH-NEW-STEEL-PLANT",
+        "TUN-TRANSPORT-TUNIS-LE-KEF-MOTORWAY"
+      ],
       "updated": [],
       "removed": []
     }
