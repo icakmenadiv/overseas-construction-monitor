@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T23:27:38.617Z",
+  "updatedAt": "2026-11-19T00:14:51.124Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,44 +24,34 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9924,
+    "articles": 9923,
     "projects": 1165
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261118-THA001",
-        "ART-20261117-EGY001",
-        "ART-20261117-EGY002",
-        "ART-20261117-IRQ001",
-        "ART-20261117-MEX001",
-        "ART-20261117-MEX002",
-        "ART-20261116-EGY001",
-        "ART-20261116-MEX001",
-        "ART-20261116-THA001",
-        "ART-20261115-IRN001",
-        "ART-20261115-KWT001",
-        "ART-20261115-KWT002"
+        "ART-20261116-TUR001",
+        "ART-20261114-TUR001"
       ],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20261117-MYS001",
+        "ART-20261117-MYS002",
+        "ART-20261111-FJI001"
+      ]
     },
     "projects": {
       "added": [
-        "IRQ-OILGAS-KIRKUK-CEYHAN-EXISTING-PIPELINE",
-        "MEX-RAIL-QUERETARO-SAN-MIGUEL-ALLENDE",
-        "MEX-ROAD-CUAUTLA-TLAPA-MARQUELIA-CORRIDOR",
-        "MEX-ENERGY-ALTAMIRA-COMBINED-CYCLE-PLANT",
-        "KWT-ENERGY-MEWRE-SECONDARY-SUBSTATION-CIVIL-WORKS-2026"
+        "TUR-ENERGY-MERSIN-DRES-AKDENIZ-154KV-TRANSMISSION"
       ],
-      "updated": [
-        "IRN-TRANSPORT-RASHT-ASTARA-RAIL"
-      ],
-      "removed": []
+      "updated": [],
+      "removed": [
+        "NIC-HOUSING-JINOTEGA-NUEVAS-VICTORIAS-BLANCA-ARAUZ"
+      ]
     }
   },
   "latest": {
