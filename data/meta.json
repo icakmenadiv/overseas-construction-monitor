@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T04:21:08.191Z",
+  "updatedAt": "2026-11-19T13:30:54.721Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,36 +28,75 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9929,
-    "projects": 1169
+    "articles": 9950,
+    "projects": 1184
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261118-ARG001",
-        "ART-20261118-JPN001",
-        "ART-20261117-KHM001",
-        "ART-20261117-UZB001",
-        "ART-20261116-ARG001",
-        "ART-20261116-KHM001"
+        "ART-20261119-KGZ001",
+        "ART-20261119-PAK001",
+        "ART-20261118-ARM002",
+        "ART-20261118-ARM003",
+        "ART-20261118-KGZ001",
+        "ART-20261118-KGZ002",
+        "ART-20261118-KGZ003",
+        "ART-20261118-NZL001",
+        "ART-20261118-NZL002",
+        "ART-20261118-PAK001",
+        "ART-20261118-SLV001",
+        "ART-20261118-TZA001",
+        "ART-20261118-UKR001",
+        "ART-20261117-JOR001",
+        "ART-20261117-PAK001",
+        "ART-20261117-TZA001",
+        "ART-20261117-UKR001",
+        "ART-20261116-PAK001",
+        "ART-20261116-SLV001",
+        "ART-20261115-PAK001",
+        "ART-20261115-PAK002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "ARG-PORT-USHUAIA-MODERNIZATION",
-        "KHM-IND-PHNOM-PENH-RAIL-LOGISTICS-PLATFORM",
-        "ARG-RAIL-MITRE-TIGRE-TRACK-RENEWAL",
-        "KHM-ENERGY-KRAKOR-350MW-SOLAR"
+        "KGZ-ENERGY-MAILUU-SUU-SMALL-HPP",
+        "PAK-SOC-NATIONAL-POLICE-ACADEMY-H11",
+        "ARM-TRANSPORT-ARMENIA-IRAN-SECOND-BRIDGE",
+        "ARM-TRANSPORT-SRC-BORDER-CROSSING-MODERNIZATION",
+        "KGZ-POWER-KAMBARATA2-SPILLWAY",
+        "NZL-URBAN-188-BEAUMONT-STREET-DEVELOPMENT",
+        "NZL-WATER-WAIROA-NORTH-CLYDE-FLOODWAY",
+        "PAK-TRANSPORT-MARGALLA-AVENUE-N5-M1-SANGJANI",
+        "SLV-URBAN-TORRES-NUEVA-VISTA",
+        "ARM-WATER-WISE-IRRIGATION-SYSTEMS",
+        "PAK-BRT-KARACHI-RED-LINE",
+        "PAK-RAIL-ML3-ROHRI-TAFTAN",
+        "TZA-OILGAS-EAST-AFRICAN-CRUDE-OIL-PIPELINE",
+        "UKR-ROAD-M05-KYIV-ODESA-KM21-847-INTERCHANGE",
+        "UKR-WATER-KHUST-RESTORATION-PPP"
       ],
-      "updated": [],
+      "updated": [
+        "ARM-TRANSPORT-TRIPP-CORRIDOR",
+        "ARG-PORT-USHUAIA-MODERNIZATION",
+        "ARG-RAIL-MITRE-TIGRE-TRACK-RENEWAL",
+        "EGY-TRANSPORT-CAIRO-AIRPORT-T4",
+        "FJI-WATER-NADI-FLOOD-ALLEVIATION",
+        "IRN-TRANSPORT-RASHT-ASTARA-RAIL",
+        "KHM-ENERGY-KRAKOR-350MW-SOLAR",
+        "KHM-IND-PHNOM-PENH-RAIL-LOGISTICS-PLATFORM",
+        "MAR-TRANSPORT-KENITRA-MARRAKECH-HSR",
+        "TKM-ROAD-ASHGABAT-DASHOGUZ-HWY",
+        "TZA-IND-LIGANGA-MCHUCHUMA",
+        "VNM-ROAD-BAOHA-LAICHAU-CT13"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 11. 19",
-    "articlePublishedDate": "2026. 11. 18",
-    "projectUpdatedDate": "2026-11-18"
+    "articleCollectedDate": "2026-11-19",
+    "articlePublishedDate": "2026-11-19",
+    "projectUpdatedDate": "2026-11-19"
   }
 }
