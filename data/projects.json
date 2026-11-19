@@ -1,5 +1,20 @@
 [
   {
+    "프로젝트 고유값": "ARG-PORT-USHUAIA-MODERNIZATION",
+    "프로젝트명": "Ushuaia Port Modernization Works",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "교통",
+    "발주처": "Agencia Nacional de Puertos y Navegación (ANPYN)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-18",
+    "대표 기사 고유값": "ART-20261118-ARG001",
+    "비고": "방충재 교체 진행 중; 신규 쌍동선 부두·선석 3·5 보수 입찰 예정; 공식 사업비 미확인",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "PER-BRIDGE-SANTA-ROSA-CALLAO",
     "프로젝트명": "Puente Santa Rosa Access Bridge Project",
     "지역": "중남미",
@@ -72,6 +87,21 @@
     "최근 업데이트일": "2026-11-17",
     "대표 기사 고유값": "ART-20261117-IRQ001",
     "비고": "2014년 이후 중단됐던 이라크 북부 구간의 원유 수출 재개. 초기 120,000 bpd; 단계적 500,000 bpd 목표. 공식 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "KHM-IND-PHNOM-PENH-RAIL-LOGISTICS-PLATFORM",
+    "프로젝트명": "Phnom Penh Rail-Connected Logistics Platform",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "산업·물류",
+    "발주처": "CMA CGM / Royal Railway",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 사업비 미공개",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-17",
+    "대표 기사 고유값": "ART-20261117-KHM001",
+    "비고": "MOU 단계; 사업성·설계·환경조사 예정",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -210,6 +240,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ARG-RAIL-MITRE-TIGRE-TRACK-RENEWAL",
+    "프로젝트명": "Mitre Line Tigre Branch Track Renewal Project",
+    "지역": "중남미",
+    "국가": "아르헨티나",
+    "섹터": "교통",
+    "발주처": "Trenes Argentinos Infraestructura",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "공식 USD 사업비 미확인",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-16",
+    "대표 기사 고유값": "ART-20261116-ARG001",
+    "비고": "선로 갱신 80% 초과; 기사 기준 공사 범위 40km 선로 및 제3궤조·분기기·건널목·교량·암거 보수; 공식 사업비 미확인",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "FJI-WATER-NADI-FLOOD-ALLEVIATION",
     "프로젝트명": "Nadi Flood Alleviation Project",
     "지역": "태평양",
@@ -223,6 +268,21 @@
     "대표 기사 고유값": "ART-20261116-FJI001",
     "비고": "",
     "대표 기사 정보 분류": ""
+  },
+  {
+    "프로젝트 고유값": "KHM-ENERGY-KRAKOR-350MW-SOLAR",
+    "프로젝트명": "Krakor 350 MW Solar Power Plant",
+    "지역": "아시아",
+    "국가": "캄보디아",
+    "섹터": "에너지",
+    "발주처": "SchneiTec Jupiter",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "USD 99mn 채권 및 USD 150mn 금융 패키지는 조달액이며 총사업비 아님",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-11-16",
+    "대표 기사 고유값": "ART-20261116-KHM001",
+    "비고": "공식 총사업비 미확인",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "MEX-ENERGY-ALTAMIRA-COMBINED-CYCLE-PLANT",
