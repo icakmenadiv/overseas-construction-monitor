@@ -45,6 +45,36 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "GBR-ENERGY-WOOLAVINGTON-SUBSTATION",
+    "프로젝트명": "Woolavington 400kV Substation Project",
+    "지역": "유럽",
+    "국가": "영국",
+    "섹터": "에너지",
+    "발주처": "National Grid Electricity Transmission",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-18",
+    "대표 기사 고유값": "ART-20261118-GBR002",
+    "비고": "2029년 여름 완공 예상; 개별 사업비 미공개",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "GBR-TRANSPORT-RAF-BRIZE-NORTON-AIRFIELD-UPGRADE",
+    "프로젝트명": "RAF Brize Norton Airfield Infrastructure Upgrade Programme",
+    "지역": "유럽",
+    "국가": "영국",
+    "섹터": "교통",
+    "발주처": "Defence Infrastructure Organisation / VolkerFitzpatrick / AECOM",
+    "사업비(달러 기준 추정액)": "USD 236.59mn",
+    "사업비 환산 환율 / 기준": "GBP 180mn × 2026-11-19 GBP/USD 1.3144; approx. programme value",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-18",
+    "대표 기사 고유값": "ART-20261118-GBR001",
+    "비고": "활주로 교체 완료, 유도로·조명·배수 등 전체 사업은 2027년 말까지 진행",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "OMN-IND-AL-WADI-AL-KABIR-REHABILITATION",
     "프로젝트명": "Al Wadi Al Kabir Industrial City Development and Infrastructure Rehabilitation",
     "지역": "중동",
@@ -57,6 +87,36 @@
     "최근 업데이트일": "2026-11-18",
     "대표 기사 고유값": "ART-20261118-OMN001",
     "비고": "Madayn 1·2 마스터플랜 완료; 실행 입찰문서 준비 중",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "GBR-WATER-BOSTON-SPA-EBORE-WAY-CSO",
+    "프로젝트명": "Boston Spa Ebor Way Combined Storm Overflow Reduction Project",
+    "지역": "유럽",
+    "국가": "영국",
+    "섹터": "수자원·환경",
+    "발주처": "Yorkshire Water / Ward and Burke",
+    "사업비(달러 기준 추정액)": "USD 10.12mn",
+    "사업비 환산 환율 / 기준": "GBP 7.7mn × 2026-11-19 GBP/USD 1.3144",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-17",
+    "대표 기사 고유값": "ART-20261117-GBR001",
+    "비고": "공식 발표상 £7.7mn; 공사기간 약 19개월",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MMR-WATER-NAUNGLYAN-DAM",
+    "프로젝트명": "Naunglyan Dam Project",
+    "지역": "아시아",
+    "국가": "미얀마",
+    "섹터": "수자원·환경",
+    "발주처": "",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-17",
+    "대표 기사 고유값": "ART-20261117-MMR001",
+    "비고": "Kengtung Township의 Naunglyan Dam. 2027-2028 회계연도 연방예산 배정 제안 단계이며, 19개 마을에 식수·농업용수 공급을 계획함. 예산 확정, 사업비, 설계·조달 및 발주 일정 후속 확인 필요.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
