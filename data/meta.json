@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T02:37:31.200Z",
+  "updatedAt": "2026-11-20T10:26:08.802Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,35 +28,38 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9850,
-    "projects": 1121
+    "articles": 9858,
+    "projects": 1125
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261118-GBR001",
-        "ART-20261118-GBR002",
-        "ART-20261118-GBR003",
-        "ART-20261117-GBR001",
-        "ART-20261117-MMR001"
+        "ART-20261120-GNQ001",
+        "ART-20261120-LKA001",
+        "ART-20261120-RWA001",
+        "ART-20261119-LKA001",
+        "ART-20261118-ISR001",
+        "ART-20261117-ISR001",
+        "ART-20261117-LKA001",
+        "ART-20261116-TJK001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "GBR-ENERGY-WOOLAVINGTON-SUBSTATION",
-        "GBR-TRANSPORT-RAF-BRIZE-NORTON-AIRFIELD-UPGRADE",
-        "GBR-WATER-BOSTON-SPA-EBORE-WAY-CSO",
-        "MMR-WATER-NAUNGLYAN-DAM"
+        "RWA-WATER-VOLCANOES-COMMUNITY-RESILIENCE",
+        "ISR-URBAN-E1-MEVASERET-ADUMIM",
+        "MNG-URBAN-NEW-KHARKHORUM-CITY",
+        "LKA-TRANSPORT-RUWANPURA-EXPRESSWAY-KAHATUDUWA-INGIRIYA-PHASE1"
       ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-20",
-    "articlePublishedDate": "2026-11-19",
+    "articleCollectedDate": "2026. 11. 20",
+    "articlePublishedDate": "2026. 11. 20",
     "projectUpdatedDate": "2026. 11. 20"
   }
 }
