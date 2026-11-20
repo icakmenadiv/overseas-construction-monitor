@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T20:31:13.333Z",
+  "updatedAt": "2026-11-20T07:09:41.104Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1688,13 +1688,16 @@
       "ART-20261117-VNM003": {
         "source_link_click": 1
       },
+      "ART-20261118-JPN001": {
+        "source_link_click": 1
+      },
       "ART-20261118-THA001": {
         "source_link_click": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 55
+        "market_page_visit": 56
       }
     },
     "project": {
@@ -6425,6 +6428,13 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20261118-JPN001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-20T02:19:42.045Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20261118-THA001",
       "eventType": "source_link_click",
       "count": 1,
@@ -6434,8 +6444,8 @@
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 55,
-      "updatedAt": "2026-11-18T05:46:07.195Z"
+      "count": 56,
+      "updatedAt": "2026-11-20T00:59:53.190Z"
     },
     {
       "targetType": "project",
