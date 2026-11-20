@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T10:26:08.802Z",
+  "updatedAt": "2026-11-20T18:41:20.585Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,38 +28,70 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9858,
-    "projects": 1125
+    "articles": 9886,
+    "projects": 1139
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261120-GNQ001",
-        "ART-20261120-LKA001",
-        "ART-20261120-RWA001",
-        "ART-20261119-LKA001",
-        "ART-20261118-ISR001",
-        "ART-20261117-ISR001",
-        "ART-20261117-LKA001",
-        "ART-20261116-TJK001"
+        "ART-20261120-CZE001",
+        "ART-20261120-CZE002",
+        "ART-20261119-IND001",
+        "ART-20261119-IND002",
+        "ART-20261121-MYS006",
+        "ART-20261118-CZE001",
+        "ART-20261118-IND001",
+        "ART-20261121-MYS005",
+        "ART-20261117-RUS001",
+        "ART-20261121-MYS002",
+        "ART-20261121-MYS003",
+        "ART-20261121-MYS004",
+        "ART-20261116-QAT001",
+        "ART-20261121-MYS001",
+        "ART-20261119-CHL001",
+        "ART-20261119-ECU001",
+        "ART-20261119-ECU002",
+        "ART-20261119-PNG001",
+        "ART-20261118-COL001",
+        "ART-20261118-ECU001",
+        "ART-20261117-COL001",
+        "ART-20261117-ECU001",
+        "ART-20261120-NIC002",
+        "ART-20261116-CHL001",
+        "ART-20261116-CHL002",
+        "ART-20261116-CHL003",
+        "ART-20261116-PNG001",
+        "ART-20261120-NIC001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "RWA-WATER-VOLCANOES-COMMUNITY-RESILIENCE",
-        "ISR-URBAN-E1-MEVASERET-ADUMIM",
-        "MNG-URBAN-NEW-KHARKHORUM-CITY",
-        "LKA-TRANSPORT-RUWANPURA-EXPRESSWAY-KAHATUDUWA-INGIRIYA-PHASE1"
+        "CZE-RAIL-BRNO-PREROV-RS-PPP",
+        "IND-ENERGY-BHADLA-FATEHPUR-HVDC",
+        "IND-TRANSPORT-GURUGRAM-METRO-DEPOT-SECTOR33",
+        "COL-WATER-BOCAS-CENIZA-TAJAMAR",
+        "IND-TRANSPORT-JNPA-COMMON-RAIL-YARD",
+        "MYS-WATER-LYNAS-PERMANENT-DISPOSAL-FACILITY",
+        "ECU-ENERGY-ECUADOR-PERU-500KV",
+        "MYS-DIGITAL-SALAM-SUBMARINE-CABLE-P1",
+        "MYS-ROAD-JURU-SUNGAI-DUA-TRAFFIC-DISPERSAL",
+        "RUS-SOC-FEFU-CAMPUS-PHASE2",
+        "CHL-IND-NUEVA-CENTINELA-EXPANSION",
+        "MYS-RAIL-EAST-COAST-RAIL-LINK",
+        "NIC-URBAN-NUEVAS-VICTORIAS-CHINANDEGA-PH2",
+        "QAT-WATER-DOHA-SOUTH-SEWAGE-TREATMENT-PLANT"
       ],
-      "updated": [],
+      "updated": [
+        "CZE-ENERGY-DUKOVANY-5-6-KHNP"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026. 11. 20",
-    "articlePublishedDate": "2026. 11. 20",
-    "projectUpdatedDate": "2026. 11. 20"
+    "articleCollectedDate": "2026-11-21",
+    "articlePublishedDate": "2026-11-20",
+    "projectUpdatedDate": "2026-11-20"
   }
 }
