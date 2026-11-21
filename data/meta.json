@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T15:16:26.846Z",
+  "updatedAt": "2026-11-21T20:54:58.164Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -33,42 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261120-DOM001",
-        "ART-20261120-LAO001",
-        "ART-20261120-PER001",
-        "ART-20261120-PER002",
-        "ART-20261120-TUN001",
-        "ART-20261120-URY001",
-        "ART-20261120-ZAF001",
-        "ART-20261119-GHA001",
-        "ART-20261119-LAO001",
-        "ART-20261119-TUN001",
-        "ART-20261118-LAO001",
-        "ART-20261118-LAO002",
-        "ART-20261118-PER001",
-        "ART-20261118-URY001",
-        "ART-20261117-MAR001",
-        "ART-20261117-URY001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "LAO-TRANSPORT-LAOS-VIETNAM-FRIENDSHIP-ROAD",
-        "URY-RAIL-GRUPO-RAS-FREIGHT-OPS",
-        "ZAF-WATER-GIYANI-WATER-WASTEWATER-EMERGENCY-INTERVENTION",
-        "GHA-WATER-GARID-ACCRA-FLOOD-MITIGATION",
-        "LAO-TRANSPORT-NAXAYTHONG-XAYTHANY-ROADS",
-        "TUN-TRANSPORT-PHOSPHATE-MINING-RAIL-REHAB-190KM",
-        "LAO-ENERGY-VILATSAPHONE-WIND-1275MW",
-        "URY-PORT-MONTEVIDEO-CONTAINER-TERMINAL-MCT",
-        "MAR-TRANSPORT-OURIKA-TUNNEL"
-      ],
-      "updated": [
-        "DOM-ROAD-AUTOPISTA-AMBAR"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
