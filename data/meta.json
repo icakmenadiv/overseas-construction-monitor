@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T23:56:46.788Z",
+  "updatedAt": "2026-11-21T00:13:34.141Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -25,7 +25,7 @@
       "projects": "csv-export"
     },
     "mode": "quick",
-    "requestedMode": "reconcile"
+    "requestedMode": "quick"
   },
   "counts": {
     "articles": 9901,
@@ -33,66 +33,13 @@
   },
   "diff": {
     "articles": {
-      "added": [
-        "ART-20261120-KAZ001",
-        "ART-20261120-KAZ002",
-        "ART-20261120-KAZ003",
-        "ART-20261120-NGA001",
-        "ART-20261119-BGD001",
-        "ART-20261119-BHR001",
-        "ART-20261119-BHR002",
-        "ART-20261119-DZA001",
-        "ART-20261119-KAZ001",
-        "ART-20261119-NGA001",
-        "ART-20261118-KAZ001",
-        "ART-20261117-BGD001",
-        "ART-20261117-DZA001",
-        "ART-20261117-KAZ001",
-        "ART-20261117-NGA001"
-      ],
+      "added": [],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [
-        "BHR-ROAD-16DECEMBER-SHZAYED-INTERCHANGE",
-        "BHR-ROAD-TUBLI-AVENUE23-PHASE2-3",
-        "DZA-RAIL-EAST-MINING-LINE",
-        "DZA-WATER-TANEZROUFT-TIN-ZAOUATINE-TRANSFER",
-        "BGD-ROAD-LONG-BRIDGES-UPAZILA-UNION-VILLAGE",
-        "KAZ-WATER-BAIDIBEK-ATA-RESERVOIR",
-        "NGA-RAIL-KADUNA-KANO",
-        "NGA-ROAD-ABIA-INTEGRATED-INFRASTRUCTURE",
-        "NGA-SOC-NATIONAL-LIBRARY-HQ"
-      ],
-      "updated": [
-        "DZA-OILGAS-TSGP-ALGERIAN-SECTION",
-        "CHL-IND-NUEVA-CENTINELA-EXPANSION",
-        "COL-WATER-BOCAS-CENIZA-TAJAMAR",
-        "CZE-ENERGY-DUKOVANY-5-6-KHNP",
-        "CZE-RAIL-BRNO-PREROV-RS-PPP",
-        "ECU-ENERGY-ECUADOR-PERU-500KV",
-        "FJI-WATER-NADI-FLOOD-ALLEVIATION",
-        "GBR-ENERGY-WOOLAVINGTON-SUBSTATION",
-        "GBR-TRANSPORT-RAF-BRIZE-NORTON-AIRFIELD-UPGRADE",
-        "GBR-WATER-BOSTON-SPA-EBORE-WAY-CSO",
-        "IND-ENERGY-BHADLA-FATEHPUR-HVDC",
-        "IND-TRANSPORT-GURUGRAM-METRO-DEPOT-SECTOR33",
-        "IND-TRANSPORT-JNPA-COMMON-RAIL-YARD",
-        "ISR-URBAN-E1-MEVASERET-ADUMIM",
-        "LKA-TRANSPORT-RUWANPURA-EXPRESSWAY-KAHATUDUWA-INGIRIYA-PHASE1",
-        "MNG-URBAN-NEW-KHARKHORUM-CITY",
-        "MYS-DIGITAL-SALAM-SUBMARINE-CABLE-P1",
-        "MYS-RAIL-EAST-COAST-RAIL-LINK",
-        "MYS-ROAD-JURU-SUNGAI-DUA-TRAFFIC-DISPERSAL",
-        "MYS-WATER-LYNAS-PERMANENT-DISPOSAL-FACILITY",
-        "NIC-URBAN-NUEVAS-VICTORIAS-CHINANDEGA-PH2",
-        "PHL-RAIL-METRO-MANILA-SUBWAY-CP101",
-        "QAT-WATER-DOHA-SOUTH-SEWAGE-TREATMENT-PLANT",
-        "RUS-SOC-FEFU-CAMPUS-PHASE2",
-        "RWA-WATER-VOLCANOES-COMMUNITY-RESILIENCE",
-        "TZA-IND-LIGANGA-MCHUCHUMA"
-      ],
+      "added": [],
+      "updated": [],
       "removed": []
     }
   },
