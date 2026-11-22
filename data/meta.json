@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T07:30:14.189Z",
+  "updatedAt": "2026-11-22T15:34:19.281Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,23 +28,35 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9878,
-    "projects": 1105
+    "articles": 9883,
+    "projects": 1110
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261119-SAU003",
+        "ART-20261120-SAU001",
+        "ART-20261120-SAU002",
+        "ART-20261119-SAU001",
+        "ART-20261119-SAU002"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
+      "added": [
+        "SAU-ENERGY-AL-SOUDAH-132KV-SUBSTATIONS",
+        "SAU-TRANSPORT-RIYADH-ROYAL-AVIATION-COMPLEX",
+        "SAU-URBAN-DIRIYAH-II-ONE-HOTEL",
+        "SAU-WATER-RIYADH-CITY2-NEW-PIPELINE",
+        "SAU-WATER-ZULUF-II-WATER-TREATMENT"
+      ],
       "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-21",
+    "articleCollectedDate": "2026-11-23",
     "articlePublishedDate": "2026-11-20",
     "projectUpdatedDate": "2026-11-20"
   }
