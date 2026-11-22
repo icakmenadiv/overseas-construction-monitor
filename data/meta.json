@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:34:19.281Z",
+  "updatedAt": "2026-11-22T21:11:26.345Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,36 +28,49 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9883,
-    "projects": 1110
+    "articles": 9897,
+    "projects": 1117
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261119-SAU003",
-        "ART-20261120-SAU001",
-        "ART-20261120-SAU002",
-        "ART-20261119-SAU001",
-        "ART-20261119-SAU002"
+        "ART-20261122-IRN001",
+        "ART-20261122-VNM001",
+        "ART-20261122-VNM002",
+        "ART-20261122-VNM003",
+        "ART-20261121-IRN001",
+        "ART-20261121-VNM001",
+        "ART-20261121-VNM002",
+        "ART-20261121-VNM003",
+        "ART-20261123-CHN002",
+        "ART-20261119-MEX001",
+        "ART-20261119-SGP001",
+        "ART-20261123-CHN001",
+        "ART-20261118-IRQ001",
+        "ART-20261118-IRQ002"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "SAU-ENERGY-AL-SOUDAH-132KV-SUBSTATIONS",
-        "SAU-TRANSPORT-RIYADH-ROYAL-AVIATION-COMPLEX",
-        "SAU-URBAN-DIRIYAH-II-ONE-HOTEL",
-        "SAU-WATER-RIYADH-CITY2-NEW-PIPELINE",
-        "SAU-WATER-ZULUF-II-WATER-TREATMENT"
+        "VNM-ENERGY-CANA-LNG-POWER",
+        "VNM-RAIL-NORTHSOUTH-HSR",
+        "VNM-ROAD-HOANGLIEN-PASS-TUNNEL",
+        "CHN-ENERGY-ULANQAB-GREENH2-PIPELINE",
+        "MEX-ROAD-LEON-AIRPORT-BOULEVARD-BRIDGE",
+        "SGP-TRANSPORT-MRT-ESCALATOR-REFURB-PROG",
+        "IRQ-PORT-AL-FAW-IMMERSED-TUNNEL"
       ],
-      "updated": [],
+      "updated": [
+        "IRN-RAIL-CHABAHAR-ZAHEDAN"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-23",
-    "articlePublishedDate": "2026-11-20",
-    "projectUpdatedDate": "2026-11-20"
+    "articlePublishedDate": "2026-11-22",
+    "projectUpdatedDate": "2026-11-22"
   }
 }
