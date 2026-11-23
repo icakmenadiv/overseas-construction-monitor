@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T19:33:20.705Z",
+  "updatedAt": "2026-11-23T07:31:20.670Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1692,6 +1692,21 @@
         "source_link_click": 1
       },
       "ART-20261118-THA001": {
+        "source_link_click": 1
+      },
+      "ART-20261121-THA001": {
+        "source_link_click": 1
+      },
+      "ART-20261121-VNM001": {
+        "source_link_click": 1
+      },
+      "ART-20261121-VNM003": {
+        "source_link_click": 1
+      },
+      "ART-20261122-VNM001": {
+        "source_link_click": 1
+      },
+      "ART-20261122-VNM002": {
         "source_link_click": 1
       }
     },
@@ -6439,6 +6454,41 @@
       "eventType": "source_link_click",
       "count": 1,
       "updatedAt": "2026-11-19T02:12:36.349Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261121-THA001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-23T07:26:04.230Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261121-VNM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-23T07:09:57.680Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261121-VNM003",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-23T06:42:39.568Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261122-VNM001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-23T06:36:42.796Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261122-VNM002",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-23T07:21:24.981Z"
     },
     {
       "targetType": "page",
