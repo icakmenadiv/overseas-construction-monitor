@@ -150,19 +150,34 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
-    "프로젝트 고유값": "ECU-ROAD-BAEZA-NARUPA-HUATARACO-COCA",
-    "프로젝트명": "Carretera E45 Y de Baeza–Narupa–Huataraco–Coca",
-    "지역": "중남미",
-    "국가": "에콰도르",
-    "섹터": "교통",
-    "발주처": "Ministerio de Infraestructura y Tecnología (MIT)",
-    "사업비(달러 기준 추정액)": "USD 37.6mn+",
+    "프로젝트 고유값": "GUM-SOC-GMHA-NEW-HOSPITAL",
+    "프로젝트명": "New Guam Memorial Hospital Engineering and Design Project",
+    "지역": "태평양",
+    "국가": "괌",
+    "섹터": "사회인프라",
+    "발주처": "Guam Housing and Urban Renewal Authority (GHURA) / Guam Memorial Hospital Authority",
+    "사업비(달러 기준 추정액)": "미확인",
     "사업비 환산 환율 / 기준": "",
-    "현재 단계": "completion",
+    "현재 단계": "bid-evaluation",
     "최근 업데이트일": "2026-11-23",
-    "대표 기사 고유값": "ART-20261123-ECU001",
-    "비고": "MIT 공식 발표의 USD 37.6mn 초과 투자액; 최종 사업비 기준 불명",
-    "대표 기사 정보 분류": ""
+    "대표 기사 고유값": "ART-20261123-GUM002",
+    "비고": "설계용역 업체로 Jacobs dba CH2M LLC가 선정됐다는 보도. 제안된 설계용역 계약액 USD 90mn은 전체 병원 사업비가 아니며 OAG 계약 승인 전임; 전체 공식 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "GUM-SOC-SIMON-SANCHEZ-HS-REBUILD",
+    "프로젝트명": "Simon Sanchez High School Reconstruction Project",
+    "지역": "태평양",
+    "국가": "괌",
+    "섹터": "사회인프라",
+    "발주처": "Guam Department of Public Works (DPW)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-23",
+    "대표 기사 고유값": "ART-20261123-GUM001",
+    "비고": "기존 캠퍼스 철거 IFB(730-5-1063-F-YIG)와 신축 캠퍼스 PPP/리스백 조달은 분리 진행 중. 철거 입찰 마감 2026-12-18; 신축 PPP 조달은 추가 검토·승인 필요.",
+    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "LKA-URBAN-CENTRAL-PARK-BOULEVARD",
@@ -240,6 +255,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "TKM-OILGAS-GARAGOL-DENIZ-W-REDEVELOPMENT",
+    "프로젝트명": "Garagol Deniz-W (GD-W) Redevelopment Project, Contract Area Block-I",
+    "지역": "중앙아시아",
+    "국가": "투르크메니스탄",
+    "섹터": "석유가스·화학",
+    "발주처": "PETRONAS Carigali (Turkmenistan) Sdn Bhd",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "tender",
+    "최근 업데이트일": "2026-11-21",
+    "대표 기사 고유값": "ART-20261121-TKM001",
+    "비고": "공식 입찰공고 기준. EPCC for redevelopment project in Contract Area Block-I; 사업비 미공개.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "AZE-WATER-GANJA-WW",
     "프로젝트명": "Ganja Water and Wastewater Project",
     "지역": "유럽",
@@ -253,36 +283,6 @@
     "대표 기사 고유값": "ART-20261120-AZE001",
     "비고": "",
     "대표 기사 정보 분류": ""
-  },
-  {
-    "프로젝트 고유값": "CHL-SOC-RIO-BUENO-HOSPITAL",
-    "프로젝트명": "Hospital de Río Bueno Project",
-    "지역": "중남미",
-    "국가": "칠레",
-    "섹터": "사회인프라",
-    "발주처": "Ministerio de Obras Públicas / Dirección General de Concesiones",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-11-20",
-    "대표 기사 고유값": "ART-20261120-CHL002",
-    "비고": "공식 발표에서 공정률 약 70%, 약 38,000㎡, 임시 서비스 개시 2028년 1분기 확인. USD 400mn은 4개 병원 합산액으로 개별 사업비에서 제외.",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "CHL-TRANSPORT-PUENTE-CHACAO",
-    "프로젝트명": "Puente Chacao Bridge Construction Project",
-    "지역": "중남미",
-    "국가": "칠레",
-    "섹터": "교통",
-    "발주처": "Ministerio de Obras Públicas / Dirección de Vialidad",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-11-20",
-    "대표 기사 고유값": "ART-20261120-CHL001",
-    "비고": "MOP의 2026-11-20 감사·공정 업데이트. 기존 Puente Chacao 운영·유지관리 양허와 구분.",
-    "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
     "프로젝트 고유값": "COL-ROAD-ACCESOS-NORTE-FASE-II",
@@ -327,21 +327,6 @@
     "최근 업데이트일": "2026-11-20",
     "대표 기사 고유값": "ART-20261120-DZA001",
     "비고": "",
-    "대표 기사 정보 분류": "프로젝트 정보"
-  },
-  {
-    "프로젝트 고유값": "NIC-URBAN-CHINANDEGA-ELDANTO-PH2",
-    "프로젝트명": "Nuevas Victorias Germán Pomares Ordóñez (El Danto) 주택단지 2단계",
-    "지역": "중남미",
-    "국가": "니카라과",
-    "섹터": "도시개발·주택",
-    "발주처": "INVUR·치난데가 시정부",
-    "사업비(달러 기준 추정액)": "미확인",
-    "사업비 환산 환율 / 기준": "",
-    "현재 단계": "construction",
-    "최근 업데이트일": "2026-11-20",
-    "대표 기사 고유값": "ART-20261120-NIC001",
-    "비고": "공식 사업비 및 시공사 미확인",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
