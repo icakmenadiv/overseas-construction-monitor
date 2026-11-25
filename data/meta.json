@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:12:55.977Z",
+  "updatedAt": "2026-11-25T00:43:36.253Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,58 +28,53 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9486,
-    "projects": 1051
+    "articles": 9502,
+    "projects": 1063
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261124-CHL001",
-        "ART-20261124-LKA001",
-        "ART-20261124-PNG001",
-        "ART-20261124-PNG002",
-        "ART-20261123-COL001",
-        "ART-20261123-ECU001",
-        "ART-20261123-LKA001",
-        "ART-20261121-CHL001",
-        "ART-20261121-LKA001",
-        "ART-20261120-CHL001",
-        "ART-20261120-CHL002",
-        "ART-20261120-COL001",
-        "ART-20261120-COL002",
-        "ART-20261120-NIC001"
+        "ART-20261124-BGD001",
+        "ART-20261124-BHR001",
+        "ART-20261124-NGA001",
+        "ART-20261124-NGA002",
+        "ART-20261124-NGA003",
+        "ART-20261124-RUS001",
+        "ART-20261124-RUS002",
+        "ART-20261123-AUS001",
+        "ART-20261123-AUS002",
+        "ART-20261123-DZA001",
+        "ART-20261123-MYS001",
+        "ART-20261123-NGA001",
+        "ART-20261123-QAT001",
+        "ART-20261121-NGA001",
+        "ART-20261121-NGA002",
+        "ART-20261120-DZA001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "PNG-AIR-BUKA-MAF-HANGAR",
-        "PNG-AIR-WEWAK-BORAM-UPGRADE",
-        "ECU-ROAD-BAEZA-NARUPA-HUATARACO-COCA",
-        "CHL-SOC-RIO-BUENO-HOSPITAL",
-        "CHL-TRANSPORT-PUENTE-CHACAO",
-        "COL-ROAD-ACCESOS-NORTE-FASE-II",
-        "COL-WATER-PTAR-MOCOA",
-        "NIC-URBAN-CHINANDEGA-ELDANTO-PH2",
-        "ISR-ROAD-MEVO-SHOMRON-FUNDUQ-BYPASS",
-        "RWA-ROAD-CENTRAL-EXPRESSWAY",
-        "RWA-ROAD-MWOGO-BRIDGE",
-        "RWA-WATER-KIVU-BELT-SUPPLY-SYSTEM",
-        "RWA-WATER-VCRP-FLOOD-RISK",
-        "TJK-WATER-PUSHING-IRRIGATION-SYSTEM"
+        "BGD-AIR-HSIA-THIRD-TERMINAL-OM-CONCESSION",
+        "BHR-SOC-POLYTECHNIC-ISA-TOWN-MASTER-PLAN",
+        "NGA-RAIL-LAGOS-BLUE-LINE-PHASE2",
+        "NGA-WATER-BALANGA-DAM-IRRIGATION-SCHEME",
+        "AUS-ENERGY-HUNTER-TRANSMISSION",
+        "AUS-ENERGY-SYBELLA-CREEK-SOLAR-BESS",
+        "DZA-SOC-CONSTANTINE-OLYMPIC-VILLAGE",
+        "NGA-TRANSPORT-IDDO-OYINGBO-BRIDGE",
+        "QAT-ROAD-AL-KHEESA-SUPERVISION-15C",
+        "NGA-IND-NATIONAL-PASSPORT-MANUFACTURING-CENTRE",
+        "DZA-RAIL-EAST-MINING-LINE",
+        "CAN-PORT-SAULT-STE-MARIE-MULTIMODAL-PORT"
       ],
-      "updated": [
-        "AZE-TRANSPORT-ALAT-FEZ-CARGO-AIRPORT",
-        "LKA-URBAN-CENTRAL-PARK-BOULEVARD",
-        "AZE-WATER-GANJA-WW",
-        "NPL-HYDRO-LOWER-ARUN-669MW"
-      ],
+      "updated": [],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-24",
+    "articleCollectedDate": "2026-11-25",
     "articlePublishedDate": "2026-11-24",
     "projectUpdatedDate": "2026-11-24"
   }
