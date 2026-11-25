@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T09:10:23.753Z",
+  "updatedAt": "2026-11-25T19:11:35.468Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,39 +28,40 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9511,
-    "projects": 1068
+    "articles": 9512,
+    "projects": 1078
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261124-ROU001",
-        "ART-20261124-TUN001",
-        "ART-20261123-MAR002",
-        "ART-20261123-ROU001",
-        "ART-20261121-MOZ001",
-        "ART-20261121-TUN001",
-        "ART-20261120-MAR001"
+        "ART-20261124-CHN001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "ETH-WATER-ADDIS-EASTERN-SEWERAGE-CATCHMENT",
-        "ROU-ENERGY-CASPIAN-BLACKSEA-GREEN-CORRIDOR",
-        "ETH-TRANSPORT-AWASH-WOLDIA-HARA-GEBEYA-RAILWAY",
-        "MOZ-SOC-MOCUBA-PARLIAMENT-CITADEL",
-        "TUN-RAIL-TUNIS-BIZERTE-REHABILITATION",
-        "MAR-ENERGY-LAMRIJA-SOLAR"
+        "SAU-OILGAS-ARAMCO-OFFSHORE-CRPO-168-170",
+        "VNM-RAIL-NORTHSOUTH-HSR",
+        "CHN-WATER-YARKANT-LARGE-IRRIGATION-MODERNIZATION",
+        "SGP-URBAN-HDB-PROJECT-CM-CN",
+        "SGP-URBAN-JLD-TOWN-HALL-LINK-WHITE-SITE",
+        "SGP-URBAN-PASIR-RIS-NEIGHBOURHOOD-3",
+        "VNM-IND-XUANCAU-RARE-EARTH-MATERIALS-PLANT",
+        "VNM-PORT-LACHHUYEN-BERTHS-9-12",
+        "IRQ-OILGAS-BASRA-UREA-PROJECT",
+        "IRQ-TRANSPORT-RAIL-IREM"
       ],
-      "updated": [],
+      "updated": [
+        "URY-WATER-CASUPA-DAM",
+        "IRQ-TRANSPORT-DEVELOPMENT-ROAD"
+      ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-25",
+    "articleCollectedDate": "2026-11-26",
     "articlePublishedDate": "2026-11-24",
-    "projectUpdatedDate": "2026-11-24"
+    "projectUpdatedDate": "2026-11-25"
   }
 }
