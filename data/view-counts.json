@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:22:50.678Z",
+  "updatedAt": "2026-11-25T08:26:56.016Z",
   "source": "cloudflare-d1",
   "counts": {
     "article": {
@@ -1697,6 +1697,18 @@
       "ART-20261119-SGP001": {
         "source_link_click": 1
       },
+      "ART-20261120-HKG001": {
+        "source_link_click": 1
+      },
+      "ART-20261120-MNG001": {
+        "source_link_click": 1
+      },
+      "ART-20261120-MNG002": {
+        "article_detail_open": 1
+      },
+      "ART-20261120-USA001": {
+        "source_link_click": 1
+      },
       "ART-20261121-THA001": {
         "source_link_click": 1
       },
@@ -1711,11 +1723,14 @@
       },
       "ART-20261122-VNM002": {
         "source_link_click": 1
+      },
+      "ART-20261124-PNG001": {
+        "article_detail_open": 1
       }
     },
     "page": {
       "market-home": {
-        "market_page_visit": 56
+        "market_page_visit": 58
       }
     },
     "project": {
@@ -1873,6 +1888,9 @@
         "project_detail_open": 1
       },
       "Phnom Penh Wholesale Market Project": {
+        "project_detail_open": 1
+      },
+      "Propel NY Energy Project": {
         "project_detail_open": 1
       },
       "RUS-RAIL-MOSCOW-SPB-HSR": {
@@ -6467,6 +6485,34 @@
     },
     {
       "targetType": "article",
+      "targetId": "ART-20261120-HKG001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-25T04:18:11.681Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261120-MNG001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-25T04:16:27.426Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261120-MNG002",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-25T04:16:59.911Z"
+    },
+    {
+      "targetType": "article",
+      "targetId": "ART-20261120-USA001",
+      "eventType": "source_link_click",
+      "count": 1,
+      "updatedAt": "2026-11-25T00:52:31.827Z"
+    },
+    {
+      "targetType": "article",
       "targetId": "ART-20261121-THA001",
       "eventType": "source_link_click",
       "count": 1,
@@ -6501,11 +6547,18 @@
       "updatedAt": "2026-11-23T07:21:24.981Z"
     },
     {
+      "targetType": "article",
+      "targetId": "ART-20261124-PNG001",
+      "eventType": "article_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-25T04:16:15.446Z"
+    },
+    {
       "targetType": "page",
       "targetId": "market-home",
       "eventType": "market_page_visit",
-      "count": 56,
-      "updatedAt": "2026-11-20T00:59:53.190Z"
+      "count": 58,
+      "updatedAt": "2026-11-25T00:36:39.812Z"
     },
     {
       "targetType": "project",
@@ -6870,6 +6923,13 @@
       "eventType": "project_detail_open",
       "count": 1,
       "updatedAt": "2026-11-18T00:31:03.322Z"
+    },
+    {
+      "targetType": "project",
+      "targetId": "Propel NY Energy Project",
+      "eventType": "project_detail_open",
+      "count": 1,
+      "updatedAt": "2026-11-25T00:52:02.782Z"
     },
     {
       "targetType": "project",
