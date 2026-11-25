@@ -150,6 +150,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ETH-WATER-ADDIS-EASTERN-SEWERAGE-CATCHMENT",
+    "프로젝트명": "Addis Ababa City Eastern Sewerage Catchment Project",
+    "지역": "아프리카",
+    "국가": "에티오피아",
+    "섹터": "수자원·환경",
+    "발주처": "Addis Ababa Water and Sewerage Authority (AAWSA)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-23",
+    "대표 기사 고유값": "ART-20261123-ETH001",
+    "비고": "총사업비 공식 확인 불가; AAWSA 인용 보도상 공정률 70%",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "GUM-SOC-GMHA-NEW-HOSPITAL",
     "프로젝트명": "New Guam Memorial Hospital Engineering and Design Project",
     "지역": "태평양",
@@ -225,6 +240,51 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ROU-ENERGY-CASPIAN-BLACKSEA-GREEN-CORRIDOR",
+    "프로젝트명": "Caspian–Black Sea–Europe Green Energy Corridor",
+    "지역": "유럽",
+    "국가": "루마니아",
+    "섹터": "에너지",
+    "발주처": "Green Energy Corridor Power Company (GECO) / Transelectrica / partner governments",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-23",
+    "대표 기사 고유값": "ART-20261123-ROU001",
+    "비고": "GECO의 2026-11-23 발표 기준. PMI 지위 신청(2026년 10월), 개발 파트너 선정안 차기 장관회의 제출 예정, 추가 해저조사·규제기관 협의 계획. FID 2029년, 첫 전력공급 2032년 목표. 공식 USD 사업비 확인되지 않음.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "ETH-TRANSPORT-AWASH-WOLDIA-HARA-GEBEYA-RAILWAY",
+    "프로젝트명": "Awash–Woldia–Hara Gebeya Railway Project",
+    "지역": "아프리카",
+    "국가": "에티오피아",
+    "섹터": "교통",
+    "발주처": "Ethiopian Railways Corporation (ERC)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-22",
+    "대표 기사 고유값": "ART-20261122-ETH001",
+    "비고": "총사업비 미확인; ERC 발표상 Awash–Kombolcha 구간 70km 복구 및 시험운행 준비 중",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MOZ-SOC-MOCUBA-PARLIAMENT-CITADEL",
+    "프로젝트명": "Mocuba Parliamentary Citadel (Cidadela Parlamentar de Mocuba)",
+    "지역": "아프리카",
+    "국가": "모잠비크",
+    "섹터": "사회인프라",
+    "발주처": "Presidency of the Republic of Mozambique / Government of Mozambique",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-21",
+    "대표 기사 고유값": "ART-20261121-MOZ001",
+    "비고": "총사업비·시공사·준공일정 미공개. 2026-11-21 본청사 착공 발표.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "NGA-IND-NATIONAL-PASSPORT-MANUFACTURING-CENTRE",
     "프로젝트명": "National Passport Manufacturing Centre, Abuja",
     "지역": "아프리카",
@@ -268,6 +328,21 @@
     "대표 기사 고유값": "ART-20261121-TKM001",
     "비고": "공식 입찰공고 기준. EPCC for redevelopment project in Contract Area Block-I; 사업비 미공개.",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "TUN-RAIL-TUNIS-BIZERTE-REHABILITATION",
+    "프로젝트명": "Tunis–Bizerte 철도 재활 1단계",
+    "지역": "중동",
+    "국가": "튀니지",
+    "섹터": "교통",
+    "발주처": "Société Nationale des Chemins de Fer Tunisiens (SNCFT)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-11-21",
+    "대표 기사 고유값": "ART-20261121-TUN001",
+    "비고": "",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "AZE-WATER-GANJA-WW",
@@ -328,6 +403,21 @@
     "대표 기사 고유값": "ART-20261120-DZA001",
     "비고": "",
     "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MAR-ENERGY-LAMRIJA-SOLAR",
+    "프로젝트명": "Lamrija 태양광 발전소",
+    "지역": "중동",
+    "국가": "모로코",
+    "섹터": "에너지",
+    "발주처": "DGCT / Masen",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-20",
+    "대표 기사 고유값": "ART-20261120-MAR001",
+    "비고": "Jerada주 Lamrija 3MW 1단계 태양광 발전소. 1단계 공식 사업비 MAD 30mn(DGCT 26mn, Masen 4mn), Masen Services 시공, 7개월 공사. 전체 10MW 계획과 MAD 114.5mn 규모는 초기 보도상 계획액으로 USD 환산 공식비용으로 기록하지 않음. 후속 7MW 사업 범위·재원·발주를 추적.",
+    "대표 기사 정보 분류": ""
   },
   {
     "프로젝트 고유값": "JOR-WATER-NATIONAL-CARRIER",
