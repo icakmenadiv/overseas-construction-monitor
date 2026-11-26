@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T02:11:12.584Z",
+  "updatedAt": "2026-11-26T10:49:30.144Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,24 +28,56 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9513,
-    "projects": 760
+    "articles": 9533,
+    "projects": 768
   },
   "diff": {
     "articles": {
-      "added": [],
+      "added": [
+        "ART-20261126-JOR001",
+        "ART-20261126-PAK001",
+        "ART-20261125-ARG001",
+        "ART-20261125-ARM001",
+        "ART-20261125-KGZ001",
+        "ART-20261125-SDN001",
+        "ART-20261125-TZA001",
+        "ART-20261125-TZA002",
+        "ART-20261124-KEN001",
+        "ART-20261124-SDN001",
+        "ART-20261124-UZB001",
+        "ART-20261123-ARM001",
+        "ART-20261123-ARM002",
+        "ART-20261123-JOR001",
+        "ART-20261123-KGZ001",
+        "ART-20261123-LBY001",
+        "ART-20261123-SDN001",
+        "ART-20261123-UKR001",
+        "ART-20261122-LBY001",
+        "ART-20261122-SDN001"
+      ],
       "updated": [],
       "removed": []
     },
     "projects": {
-      "added": [],
-      "updated": [],
+      "added": [
+        "TZA-ROAD-IFAKARA-MBINGU",
+        "KEN-ENERGY-KPLC-66KV-SUBSTATION-UPGRADE",
+        "SDN-WATER-PORT-SUDAN-INFRASTRUCTURE",
+        "KGZ-ENERGY-CHAKAN-HPP5-FLOATING-SOLAR",
+        "LBY-URBAN-GREATER-TRIPOLI-NATIONAL-PLAN",
+        "SDN-WATER-WAD-ALZAKI-AGRICULTURE-LIVESTOCK",
+        "LBY-TRANSPORT-ERAWIN-AIRSTRIP-ACCESS-ROAD",
+        "SDN-WATER-SUKI-AGRICULTURAL-SCHEME"
+      ],
+      "updated": [
+        "ARM-TRANSPORT-TRIPP-CORRIDOR"
+      ],
       "removed": []
     }
   },
   "latest": {
     "articleCollectedDate": "2026-11-26",
-    "articlePublishedDate": "2026-11-25",
+    "articlePublishedDate": "2026-11-26",
     "projectUpdatedDate": "2026-11-25"
   }
 }
