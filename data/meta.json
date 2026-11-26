@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T10:49:30.144Z",
+  "updatedAt": "2026-11-26T19:51:37.093Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,56 +28,63 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9533,
-    "projects": 768
+    "articles": 9554,
+    "projects": 781
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261126-JOR001",
-        "ART-20261126-PAK001",
-        "ART-20261125-ARG001",
-        "ART-20261125-ARM001",
-        "ART-20261125-KGZ001",
-        "ART-20261125-SDN001",
-        "ART-20261125-TZA001",
-        "ART-20261125-TZA002",
-        "ART-20261124-KEN001",
-        "ART-20261124-SDN001",
-        "ART-20261124-UZB001",
-        "ART-20261123-ARM001",
-        "ART-20261123-ARM002",
-        "ART-20261123-JOR001",
-        "ART-20261123-KGZ001",
-        "ART-20261123-LBY001",
-        "ART-20261123-SDN001",
-        "ART-20261123-UKR001",
-        "ART-20261122-LBY001",
-        "ART-20261122-SDN001"
+        "ART-20261126-PHL001",
+        "ART-20261126-POL001",
+        "ART-20261126-UAE001",
+        "ART-20261125-HUN001",
+        "ART-20261125-IDN001",
+        "ART-20261125-IDN002",
+        "ART-20261125-PHL001",
+        "ART-20261125-POL001",
+        "ART-20261125-USA001",
+        "ART-20261124-HUN001",
+        "ART-20261124-HUN002",
+        "ART-20261124-IDN001",
+        "ART-20261124-UAE001",
+        "ART-20261123-PHL003",
+        "ART-20261123-POL001",
+        "ART-20261123-POL002",
+        "ART-20261123-USA001",
+        "ART-20261125-BOL001",
+        "ART-20261125-PRY001",
+        "ART-20261123-NZL001",
+        "ART-20261123-SLV001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "TZA-ROAD-IFAKARA-MBINGU",
-        "KEN-ENERGY-KPLC-66KV-SUBSTATION-UPGRADE",
-        "SDN-WATER-PORT-SUDAN-INFRASTRUCTURE",
-        "KGZ-ENERGY-CHAKAN-HPP5-FLOATING-SOLAR",
-        "LBY-URBAN-GREATER-TRIPOLI-NATIONAL-PLAN",
-        "SDN-WATER-WAD-ALZAKI-AGRICULTURE-LIVESTOCK",
-        "LBY-TRANSPORT-ERAWIN-AIRSTRIP-ACCESS-ROAD",
-        "SDN-WATER-SUKI-AGRICULTURAL-SCHEME"
+        "POL-IND-CITY-LOGISTICS-LODZ-V",
+        "BOL-OILGAS-DOMO-OSO-X3",
+        "HUN-IND-VESZTO-ENX-RAIL-COMPOSITE-PLANT",
+        "IDN-TRANSPORT-TRANS-KALIMANTAN-RAILWAY",
+        "USA-WATER-BARTLETT-DAM-EXPANSION",
+        "HUN-TRANSPORT-BUDAI-TRAM-PHASE2",
+        "IDN-TRANSPORT-BANDUNG-BRT-TEGALEGA-PARKRIDE",
+        "NZL-ENERGY-KAIWAIKAWE-WIND-FARM",
+        "PHL-BRIDGE-GANDARA-II-PARALLEL",
+        "POL-AIR-PORT-POLSKA-NEW-AIRPORT",
+        "POL-RAIL-CPK-L85-L86-SIGNALING",
+        "SLV-ROAD-AMSS-MOBILITY-PHASE-I",
+        "USA-AIR-PHX-WEST-TERMINAL"
       ],
       "updated": [
-        "ARM-TRANSPORT-TRIPP-CORRIDOR"
+        "UAE-TRANSPORT-DWC-ALMAKTOUM-AIRPORT-EXP",
+        "UAE-URBAN-KHALID-BIN-SULTAN-CITY"
       ],
       "removed": []
     }
   },
   "latest": {
-    "articleCollectedDate": "2026-11-26",
+    "articleCollectedDate": "2026-11-27",
     "articlePublishedDate": "2026-11-26",
-    "projectUpdatedDate": "2026-11-25"
+    "projectUpdatedDate": "2026-11-26"
   }
 }
