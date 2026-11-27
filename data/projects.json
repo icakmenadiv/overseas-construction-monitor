@@ -1,5 +1,50 @@
 [
   {
+    "프로젝트 고유값": "BGD-AIR-HSIA-THIRD-TERMINAL-OPS",
+    "프로젝트명": "Hazrat Shahjalal International Airport (HSIA) Third Terminal Operations Concession",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "교통",
+    "발주처": "Civil Aviation Authority of Bangladesh (CAAB)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-27",
+    "대표 기사 고유값": "ART-20261127-BGD001",
+    "비고": "현지 보도상 사업비 약 Tk 22,000 crore; USD 공식 총사업비 미확인. 일본 컨소시엄 운영 양허협약 서명 예정일 2026-11-30, 터미널 개관 계획일 2026-12-16.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BGD-RAIL-CHATTOGRAM-DOHAZARI-DUAL-GAUGE-CONVERSION",
+    "프로젝트명": "Chattogram-Dohazari Railway Line Dual-Gauge Conversion Project",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "교통",
+    "발주처": "Bangladesh Railway",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-26",
+    "대표 기사 고유값": "ART-20261126-BGD002",
+    "비고": "WD1 Tk 2,717.91 crore 및 WD2 Tk 1,911.48 crore는 계약 패키지별 보도액이며 전체 사업비가 아님. 공식 USD 총사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "BGD-WATER-CLUSTER-TOWNS-WSS",
+    "프로젝트명": "Cluster Towns Water Supply and Sanitation Project",
+    "지역": "아시아",
+    "국가": "방글라데시",
+    "섹터": "수자원·환경",
+    "발주처": "",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-11-26",
+    "대표 기사 고유값": "ART-20261126-BGD001",
+    "비고": "ADB 차관 USD 150mn 및 정부 대응자금 USD 46mn은 공개 재원 정보이며 총사업비로 확정 표기되지 않아 공식 사업비 미확인으로 유지함.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "BLR-TRANSPORT-PRIPYAT-BRIDGE",
     "프로젝트명": "Автомобильный мост через реку Припять (Лунинецкий и Столинский районы)",
     "지역": "유럽",
@@ -30,6 +75,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "PNG-ROAD-MAPRIK-WARASIKAU-BRIDGE-UPGRADE",
+    "프로젝트명": "Sepik Highway Maprik-Nimprim Bridge-Warasikau Bridge Upgrade Project",
+    "지역": "태평양",
+    "국가": "파푸아뉴기니",
+    "섹터": "교통",
+    "발주처": "Department of Works and Highways / Government of Papua New Guinea",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-11-26",
+    "대표 기사 고유값": "ART-20261127-PNG001",
+    "비고": "2026-11-26 PGK 270mn 계약 체결, China Railway Construction Engineering Group (PNG) Limited가 설계·시공 담당. 공식 USD 환산액은 미확인. 계약 체결 후 2027년 1월 착공 예상.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "POL-IND-CITY-LOGISTICS-LODZ-V",
     "프로젝트명": "City Logistics Łódź V 물류단지",
     "지역": "유럽",
@@ -42,6 +102,21 @@
     "최근 업데이트일": "2026-11-26",
     "대표 기사 고유값": "ART-20261126-POL001",
     "비고": "EUR 27.5mn은 금융액이며 공식 총사업비 미확인",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "QAT-ENERGY-SEMAISMA-8-SUPER-SUBSTATION",
+    "프로젝트명": "Semaisma-8 Super Substation",
+    "지역": "중동",
+    "국가": "카타르",
+    "섹터": "에너지",
+    "발주처": "KAHRAMAA",
+    "사업비(달러 기준 추정액)": "USD 137.36mn+",
+    "사업비 환산 환율 / 기준": "QAR 500mn 초과 / Qatar Central Bank 고정환율 3.64 QAR/USD, 2026-11-26",
+    "현재 단계": "contracted",
+    "최근 업데이트일": "2026-11-26",
+    "대표 기사 고유값": "ART-20261126-QAT001",
+    "비고": "공식 발표상 계약액 QAR 500mn 초과; USD 환산액도 최소값 기준으로 기록함.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -120,6 +195,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "ECU-ENERGY-ECUADOR-PERU-500KV-INTERCONNECTION",
+    "프로젝트명": "Ecuador–Perú 500kV Electrical Interconnection Project",
+    "지역": "중남미",
+    "국가": "에콰도르",
+    "섹터": "에너지",
+    "발주처": "Corporación Eléctrica del Ecuador (CELEC EP) / Transelectric",
+    "사업비(달러 기준 추정액)": "USD 324.6mn",
+    "사업비 환산 환율 / 기준": "El Universo 2026-11-25: 에콰도르 구간 총 투자액, VAT 제외. 계약액 USD 290.3mn과 구분",
+    "현재 단계": "awarded",
+    "최근 업데이트일": "2026-11-25",
+    "대표 기사 고유값": "ART-20261125-ECU001",
+    "비고": "500kV 양국 전력연계사업 중 에콰도르 구간. Kalpataru Projects International Limited 낙찰, 계약기간 1,090일. 공식 총 투자액 USD 324.6mn 및 낙찰 계약액 USD 290.3mn을 구분 기록.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "HUN-IND-VESZTO-ENX-RAIL-COMPOSITE-PLANT",
     "프로젝트명": "ENX Rail Vésztő Composite Manufacturing Plant",
     "지역": "유럽",
@@ -150,6 +240,36 @@
     "대표 기사 정보 분류": ""
   },
   {
+    "프로젝트 고유값": "IND-AIR-DOLOO-SILCHAR-GREENFIELD-AIRPORT",
+    "프로젝트명": "Doloo Silchar Greenfield Airport",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "Airports Authority of India (AAI)",
+    "사업비(달러 기준 추정액)": "USD 217.75mn",
+    "사업비 환산 환율 / 기준": "INR 2,014 crore / RBI 2026-11-25 USD 1=INR 92.4895",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-25",
+    "대표 기사 고유값": "ART-20261125-IND002",
+    "비고": "AAI 추진 그린필드 공항. 12,351㎡ 터미널, 2,705m 활주로, 공식 추정 사업비 INR 2,014 crore. 공사·입찰 일정 미공개.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "IND-PORT-KAMARAJAR-SECOND-CONTAINER-TERMINAL",
+    "프로젝트명": "Kamarajar Port Second Container Terminal",
+    "지역": "아시아",
+    "국가": "인도",
+    "섹터": "교통",
+    "발주처": "Kamarajar Port Limited / Ministry of Ports, Shipping and Waterways",
+    "사업비(달러 기준 추정액)": "USD 463.64mn",
+    "사업비 환산 환율 / 기준": "INR 4,288.26 crore / RBI 2026-11-25 USD 1=INR 92.4895. 별도 준설비 INR 450 crore 제외",
+    "현재 단계": "pre-procurement",
+    "최근 업데이트일": "2026-11-25",
+    "대표 기사 고유값": "ART-20261125-IND001",
+    "비고": "900m, 연간 2mn TEU, 2단계 DBFOT PPP. 공식 PPP 사업비 INR 4,288.26 crore. KPL 준설비 INR 450 crore는 별도 부담.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "LKA-TRANSPORT-COLOMBO-EAST-CONTAINER-TERMINAL",
     "프로젝트명": "Colombo Port East Container Terminal Project",
     "지역": "아시아",
@@ -177,6 +297,21 @@
     "최근 업데이트일": "2026-11-25",
     "대표 기사 고유값": "ART-20261125-MNG001",
     "비고": "전략투자자 Beijing Jianlong Heavy Industry Group 선정. 투자협정 조건 협상 예정. 선정사 제안은 지분 80% 이상 현금 투자 및 공장 건설·운영을 포함하나 최종 계약 조건 미확정.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "MYS-WATER-SUNGAI-RASAH-FLOOD-MITIGATION",
+    "프로젝트명": "Sungai Rasah Basin Flood Mitigation Project",
+    "지역": "아시아",
+    "국가": "말련",
+    "섹터": "수자원·환경",
+    "발주처": "말레이시아 에너지전환·수자원전환부(PETRA) / Selangor 관개·배수국(JPS)",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "planning",
+    "최근 업데이트일": "2026-11-25",
+    "대표 기사 고유값": "ART-20261125-MYS001",
+    "비고": "2026-11-25 공개: RMK13 1차 롤링플랜에서 RM40mn 배정. Sungai Rasah 하구 수문·펌프장·홍수저류지·제방 포함. 초기 설계 단계, 공사 2028년 2분기 착수·2031년 완료 목표. 2개 입찰 패키지 분할은 제안이며 완료시점 단축은 미확정. 공식 배정액 USD 환산 기준 확인 전 사업비는 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
@@ -405,6 +540,21 @@
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
+    "프로젝트 고유값": "CHL-TRANSPORT-NUEVA-ALAMEDA-CYCLEWAY-PHASE3",
+    "프로젝트명": "Ciclovía Nueva Alameda - Tramo 3",
+    "지역": "중남미",
+    "국가": "칠레",
+    "섹터": "교통",
+    "발주처": "Gobierno de Santiago",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "financing",
+    "최근 업데이트일": "2026-11-23",
+    "대표 기사 고유값": "ART-20261123-CHL001",
+    "비고": "산티아고 광역정부가 3단계 3.8km 구간 건설에 CLP 7,262mn을 배정하기로 발표함. 공식 USD 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
     "프로젝트 고유값": "IRQ-TRANSPORT-DEVELOPMENT-ROAD",
     "프로젝트명": "Iraq Development Road Project",
     "지역": "중동",
@@ -507,6 +657,21 @@
     "최근 업데이트일": "2026-11-23",
     "대표 기사 고유값": "ART-20261123-MMR001",
     "비고": "양곤–만달레이 고속도로 신설 4차로 교량. 2026-11-23 발표 기준 공정률 78%; 길이 1,000피트. 주요 구조물 2027년 2월 말, 포장·조명·마감 3월 완료 및 개통 목표. 공식 사업비 미확인.",
+    "대표 기사 정보 분류": "프로젝트 정보"
+  },
+  {
+    "프로젝트 고유값": "NIC-WATER-LEON-SANITARY-SEWER-PHASE2",
+    "프로젝트명": "León Sanitary Sewer Expansion and Improvement Project Phase 2",
+    "지역": "중남미",
+    "국가": "니카라과",
+    "섹터": "수자원·환경",
+    "발주처": "ENACAL / BCIE",
+    "사업비(달러 기준 추정액)": "미확인",
+    "사업비 환산 환율 / 기준": "",
+    "현재 단계": "construction",
+    "최근 업데이트일": "2026-11-23",
+    "대표 기사 고유값": "ART-20261123-NIC001",
+    "비고": "26km 하수관·319개 맨홀·8개 펌프장. 2026-11-23 발표 기준 공정률 50%, 약 42,000가구 대상, 2027년 중반 완공 목표. 공식 USD 사업비 미확인.",
     "대표 기사 정보 분류": "프로젝트 정보"
   },
   {
