@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T01:39:59.109Z",
+  "updatedAt": "2026-11-27T02:27:19.143Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,71 +24,25 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "reconcile",
-    "requestedMode": "reconcile"
+    "mode": "quick",
+    "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9526,
-    "projects": 787
+    "articles": 9528,
+    "projects": 788
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261126-BRA003",
-        "ART-20261126-TWN001",
-        "ART-20261125-PAN001",
-        "ART-20261125-TWN001",
-        "ART-20261124-PAN001",
-        "ART-20261123-BRA002",
-        "ART-20261123-MMR001"
+        "ART-20261126-GBR001",
+        "ART-20261125-GBR002"
       ],
       "updated": [],
-      "removed": [
-        "ART-20261125-EGY001",
-        "ART-20261125-JPN001",
-        "ART-20261125-JPN002",
-        "ART-20261125-THA001",
-        "ART-20261124-CHN001",
-        "ART-20261124-EGY001",
-        "ART-20261124-MEX001",
-        "ART-20261124-THA001",
-        "ART-20261123-KWT001",
-        "ART-20261123-MEX001",
-        "ART-20261123-THA001",
-        "ART-20261123-TUR001",
-        "ART-20261123-TUR002",
-        "ART-20261122-KWT001",
-        "ART-20261119-KHM001",
-        "ART-20261124-BGD001",
-        "ART-20261124-NGA001",
-        "ART-20261124-NGA002",
-        "ART-20261124-NGA003",
-        "ART-20261124-RUS001",
-        "ART-20261124-RUS002",
-        "ART-20261123-AUS001",
-        "ART-20261123-AUS002",
-        "ART-20261123-MYS001",
-        "ART-20261123-NGA001",
-        "ART-20261123-QAT001",
-        "ART-20261121-NGA001",
-        "ART-20261121-NGA002",
-        "ART-20261123-COL001",
-        "ART-20261123-ECU001",
-        "ART-20261120-CHL001",
-        "ART-20261120-CHL002",
-        "ART-20261120-COL001",
-        "ART-20261120-COL002",
-        "ART-20261120-NIC001"
-      ]
+      "removed": []
     },
     "projects": {
       "added": [
-        "TWN-URBAN-NTC-CIRCULAR-NORTH-Y22-STATION-DEVELOPMENT",
-        "PAN-WATER-RIO-INDIO-RESERVOIR",
-        "BRA-ENERGY-GRAUNA-ABD-ABD2-CTO",
-        "BRA-WATER-SAO-FRANCISCO-PISF-PPP",
-        "MMR-TRANSPORT-MYITNGE-DOKHTAWADY-BRIDGE",
-        "SRB-TRANSPORT-PANCEVACKE-BRIDGE-RECONSTRUCTION"
+        "GBR-ROAD-M5-JUNCTION-10-IMPROVEMENTS"
       ],
       "updated": [],
       "removed": []
