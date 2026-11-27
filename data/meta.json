@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T19:51:37.093Z",
+  "updatedAt": "2026-11-27T01:39:59.109Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,61 +24,73 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9554,
-    "projects": 781
+    "articles": 9526,
+    "projects": 787
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261126-PHL001",
-        "ART-20261126-POL001",
-        "ART-20261126-UAE001",
-        "ART-20261125-HUN001",
-        "ART-20261125-IDN001",
-        "ART-20261125-IDN002",
-        "ART-20261125-PHL001",
-        "ART-20261125-POL001",
-        "ART-20261125-USA001",
-        "ART-20261124-HUN001",
-        "ART-20261124-HUN002",
-        "ART-20261124-IDN001",
-        "ART-20261124-UAE001",
-        "ART-20261123-PHL003",
-        "ART-20261123-POL001",
-        "ART-20261123-POL002",
-        "ART-20261123-USA001",
-        "ART-20261125-BOL001",
-        "ART-20261125-PRY001",
-        "ART-20261123-NZL001",
-        "ART-20261123-SLV001"
+        "ART-20261126-BRA003",
+        "ART-20261126-TWN001",
+        "ART-20261125-PAN001",
+        "ART-20261125-TWN001",
+        "ART-20261124-PAN001",
+        "ART-20261123-BRA002",
+        "ART-20261123-MMR001"
       ],
       "updated": [],
-      "removed": []
+      "removed": [
+        "ART-20261125-EGY001",
+        "ART-20261125-JPN001",
+        "ART-20261125-JPN002",
+        "ART-20261125-THA001",
+        "ART-20261124-CHN001",
+        "ART-20261124-EGY001",
+        "ART-20261124-MEX001",
+        "ART-20261124-THA001",
+        "ART-20261123-KWT001",
+        "ART-20261123-MEX001",
+        "ART-20261123-THA001",
+        "ART-20261123-TUR001",
+        "ART-20261123-TUR002",
+        "ART-20261122-KWT001",
+        "ART-20261119-KHM001",
+        "ART-20261124-BGD001",
+        "ART-20261124-NGA001",
+        "ART-20261124-NGA002",
+        "ART-20261124-NGA003",
+        "ART-20261124-RUS001",
+        "ART-20261124-RUS002",
+        "ART-20261123-AUS001",
+        "ART-20261123-AUS002",
+        "ART-20261123-MYS001",
+        "ART-20261123-NGA001",
+        "ART-20261123-QAT001",
+        "ART-20261121-NGA001",
+        "ART-20261121-NGA002",
+        "ART-20261123-COL001",
+        "ART-20261123-ECU001",
+        "ART-20261120-CHL001",
+        "ART-20261120-CHL002",
+        "ART-20261120-COL001",
+        "ART-20261120-COL002",
+        "ART-20261120-NIC001"
+      ]
     },
     "projects": {
       "added": [
-        "POL-IND-CITY-LOGISTICS-LODZ-V",
-        "BOL-OILGAS-DOMO-OSO-X3",
-        "HUN-IND-VESZTO-ENX-RAIL-COMPOSITE-PLANT",
-        "IDN-TRANSPORT-TRANS-KALIMANTAN-RAILWAY",
-        "USA-WATER-BARTLETT-DAM-EXPANSION",
-        "HUN-TRANSPORT-BUDAI-TRAM-PHASE2",
-        "IDN-TRANSPORT-BANDUNG-BRT-TEGALEGA-PARKRIDE",
-        "NZL-ENERGY-KAIWAIKAWE-WIND-FARM",
-        "PHL-BRIDGE-GANDARA-II-PARALLEL",
-        "POL-AIR-PORT-POLSKA-NEW-AIRPORT",
-        "POL-RAIL-CPK-L85-L86-SIGNALING",
-        "SLV-ROAD-AMSS-MOBILITY-PHASE-I",
-        "USA-AIR-PHX-WEST-TERMINAL"
+        "TWN-URBAN-NTC-CIRCULAR-NORTH-Y22-STATION-DEVELOPMENT",
+        "PAN-WATER-RIO-INDIO-RESERVOIR",
+        "BRA-ENERGY-GRAUNA-ABD-ABD2-CTO",
+        "BRA-WATER-SAO-FRANCISCO-PISF-PPP",
+        "MMR-TRANSPORT-MYITNGE-DOKHTAWADY-BRIDGE",
+        "SRB-TRANSPORT-PANCEVACKE-BRIDGE-RECONSTRUCTION"
       ],
-      "updated": [
-        "UAE-TRANSPORT-DWC-ALMAKTOUM-AIRPORT-EXP",
-        "UAE-URBAN-KHALID-BIN-SULTAN-CITY"
-      ],
+      "updated": [],
       "removed": []
     }
   },
