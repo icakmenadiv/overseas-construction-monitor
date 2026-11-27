@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T02:27:19.143Z",
+  "updatedAt": "2026-11-27T11:09:13.854Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -28,21 +28,36 @@
     "requestedMode": "quick"
   },
   "counts": {
-    "articles": 9528,
-    "projects": 788
+    "articles": 9537,
+    "projects": 795
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261126-GBR001",
-        "ART-20261125-GBR002"
+        "ART-20261126-BLR001",
+        "ART-20261126-RWA001",
+        "ART-20261125-BWA001",
+        "ART-20261125-LKA002",
+        "ART-20261125-MNG001",
+        "ART-20261123-AZE001",
+        "ART-20261123-AZE002",
+        "ART-20261123-AZE003",
+        "ART-20261123-ISR001"
       ],
-      "updated": [],
+      "updated": [
+        "ART-20261123-NPL002"
+      ],
       "removed": []
     },
     "projects": {
       "added": [
-        "GBR-ROAD-M5-JUNCTION-10-IMPROVEMENTS"
+        "BLR-TRANSPORT-PRIPYAT-BRIDGE",
+        "RWA-IND-RWAMAGANA-GREENFIELD-BREWERY",
+        "LKA-TRANSPORT-COLOMBO-EAST-CONTAINER-TERMINAL",
+        "MNG-IND-INTEGRATED-STEEL-COMPLEX",
+        "AZE-ENERGY-AZURE-NAVAHI-HUB-PH1",
+        "AZE-RAIL-BAKU-METRO-PHASE2-GREEN-LINE",
+        "ISR-TRANSPORT-HATAYASIM-INTEGRATED-HUB"
       ],
       "updated": [],
       "removed": []
