@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T19:54:56.344Z",
+  "updatedAt": "2026-11-28T01:22:27.302Z",
   "source": {
     "spreadsheetId": "11WmfuDj7FSk5LRvEB2CArVETZOA9NgpySLYscG223-E",
     "resultGid": "748239675",
@@ -24,55 +24,58 @@
       "articles": "csv-export",
       "projects": "csv-export"
     },
-    "mode": "quick",
-    "requestedMode": "quick"
+    "mode": "reconcile",
+    "requestedMode": "reconcile"
   },
   "counts": {
-    "articles": 9557,
-    "projects": 806
+    "articles": 9575,
+    "projects": 819
   },
   "diff": {
     "articles": {
       "added": [
-        "ART-20261127-BGD001",
-        "ART-20261126-BGD001",
-        "ART-20261126-BGD002",
-        "ART-20261126-IND001",
-        "ART-20261126-QAT001",
-        "ART-20261125-IND001",
-        "ART-20261125-IND002",
-        "ART-20261125-IND003",
-        "ART-20261125-MYS001",
-        "ART-20261124-RUS003",
-        "ART-20261127-PNG001",
-        "ART-20261126-COL001",
-        "ART-20261126-COL002",
-        "ART-20261126-PNG001",
-        "ART-20261125-COL001",
-        "ART-20261125-ECU001",
-        "ART-20261124-CHL002",
-        "ART-20261124-COL001",
-        "ART-20261123-CHL001",
-        "ART-20261123-NIC001"
+        "ART-20261127-BHR001",
+        "ART-20261127-BHR002",
+        "ART-20261127-CAN001",
+        "ART-20261127-KAZ001",
+        "ART-20261126-BHR001",
+        "ART-20261126-BHR002",
+        "ART-20261126-BHR003",
+        "ART-20261126-CAN001",
+        "ART-20261126-CAN002",
+        "ART-20261126-DZA001",
+        "ART-20261126-DZA002",
+        "ART-20261125-AUS001",
+        "ART-20261125-AUS002",
+        "ART-20261125-BHR001",
+        "ART-20261125-BHR002",
+        "ART-20261125-KAZ001",
+        "ART-20261125-NGA001",
+        "ART-20261124-KAZ001"
       ],
       "updated": [],
       "removed": []
     },
     "projects": {
       "added": [
-        "BGD-AIR-HSIA-THIRD-TERMINAL-OPS",
-        "BGD-RAIL-CHATTOGRAM-DOHAZARI-DUAL-GAUGE-CONVERSION",
-        "BGD-WATER-CLUSTER-TOWNS-WSS",
-        "PNG-ROAD-MAPRIK-WARASIKAU-BRIDGE-UPGRADE",
-        "QAT-ENERGY-SEMAISMA-8-SUPER-SUBSTATION",
-        "ECU-ENERGY-ECUADOR-PERU-500KV-INTERCONNECTION",
-        "IND-AIR-DOLOO-SILCHAR-GREENFIELD-AIRPORT",
-        "IND-PORT-KAMARAJAR-SECOND-CONTAINER-TERMINAL",
-        "MYS-WATER-SUNGAI-RASAH-FLOOD-MITIGATION",
-        "CHL-TRANSPORT-NUEVA-ALAMEDA-CYCLEWAY-PHASE3",
-        "NIC-WATER-LEON-SANITARY-SEWER-PHASE2"
+        "BHR-HOUSING-AL-SAYA-GREENS",
+        "BHR-URBAN-SUMOU-BAY-REDEVELOPMENT",
+        "CAN-ROAD-MACKENZIE-VALLEY-HIGHWAY",
+        "BHR-ENERGY-AL-AREEN-HOSPITALITY-SOLAR",
+        "BHR-WATER-NORTH-SITRA-STP-EXPANSION",
+        "CAN-ENERGY-WHITEHORSE-POWER-CENTRES",
+        "CAN-GAS-COASTAL-GASLINK-PIPELINE",
+        "AUS-ROAD-MOUNT-OUSLEY-INTERCHANGE",
+        "BHR-DIGITAL-DIGITAL-CITY-BAHRAIN-PHASE1",
+        "BHR-ROAD-AL-AREEN-MASTERPLAN-INFRASTRUCTURE",
+        "KAZ-TRANSPORT-ZHIBEK-ZHOLY-CHECKPOINT-MODERNIZATION",
+        "NGA-PORT-APAPA-TIN-CAN-MODERNISATION",
+        "KAZ-ENERGY-MANGYSTAU-HYBRID-POWER-PLANT"
       ],
-      "updated": [],
+      "updated": [
+        "KAZ-TRANSPORT-DARBAZA-MAKTAARAL-RAIL",
+        "DZA-RAIL-LAGHOUAT-GHARDAIA-ELMENEA"
+      ],
       "removed": []
     }
   },
